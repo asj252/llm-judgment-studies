@@ -7,6 +7,8 @@ This local release contains the frozen delta-NLI experiment and English
 manuscript. It does not include raw execution logs, Chinese manuscript drafts,
 review notes, model weights, credentials, or the planned agy extension.
 The frozen PLAN and prompt documentation retain their original language.
+An English reader's guide to the frozen plan is in `code/PLAN-guide-en.md`
+(added after the release check; not part of the `release-check.json` inventory).
 
 - `code/`: experiment/analysis code, portable unit tests, frozen rules, splits,
   development/formal result JSONL, session metadata, and archived analyses.

@@ -1,0 +1,284 @@
+{
+  "citations": [
+    {
+      "marker": "Vasileiou et al. 2026",
+      "key": "vasileiou2026humans"
+    },
+    {
+      "marker": "Rudinger et al. 2020",
+      "key": "rudinger2020thinking"
+    },
+    {
+      "marker": "Wang et al. 2025, Always Tell Me The Odds",
+      "key": "wang2025always"
+    },
+    {
+      "marker": "Chen et al. 2020",
+      "key": "chen2020uncertain"
+    },
+    {
+      "marker": "Kamath et al. 2026",
+      "key": "kamath2026humans"
+    },
+    {
+      "marker": "Yuan et al. 2025",
+      "key": "yuan2025evolvecast"
+    },
+    {
+      "marker": "Hovland & Weiss 1951",
+      "key": "hovland1951source"
+    },
+    {
+      "marker": "Pornpitakpan 2004",
+      "key": "pornpitakpan2004persuasiveness"
+    },
+    {
+      "marker": "Schuster et al. 2026",
+      "key": "schuster2026whose"
+    },
+    {
+      "marker": "Bajaj & Tiganj 2026",
+      "key": "bajaj2026trust"
+    },
+    {
+      "marker": "Ross & Pavlick 2019",
+      "key": "ross2019well"
+    },
+    {
+      "marker": "Jiang & de Marneffe 2019",
+      "key": "jiang2019know"
+    },
+    {
+      "marker": "Xiong et al. 2024",
+      "key": "xiong2024llms"
+    },
+    {
+      "marker": "Kamath et al. 2026",
+      "key": "kamath2026humans"
+    },
+    {
+      "marker": "Zhang et al. 2025",
+      "key": "zhang2025verbalized"
+    },
+    {
+      "marker": "Tian et al. 2023",
+      "key": "tian2023just"
+    },
+    {
+      "marker": "Xiong et al. 2024",
+      "key": "xiong2024llms"
+    },
+    {
+      "marker": "Wang et al. 2025b",
+      "key": "wang2025distribute"
+    },
+    {
+      "marker": "Rudinger et al. 2020",
+      "key": "rudinger2020thinking"
+    },
+    {
+      "marker": "2502.08080",
+      "key": "srikanth2025nli"
+    },
+    {
+      "marker": "Chen et al. 2020",
+      "key": "chen2020uncertain"
+    },
+    {
+      "marker": "Wang et al. 2025",
+      "key": "wang2025always"
+    },
+    {
+      "marker": "Feng et al. 2025",
+      "key": "feng2025bird"
+    },
+    {
+      "marker": "Kamath et al. 2026",
+      "key": "kamath2026humans"
+    },
+    {
+      "marker": "Wilie et al. 2024",
+      "key": "wilie2024belief"
+    },
+    {
+      "marker": "Vasileiou et al. 2026",
+      "key": "vasileiou2026humans"
+    },
+    {
+      "marker": "Yuan et al. 2025",
+      "key": "yuan2025evolvecast"
+    },
+    {
+      "marker": "2507.17951",
+      "key": "imran2025bayes"
+    },
+    {
+      "marker": "Kim et al. 2025",
+      "key": "kim2025evidence"
+    },
+    {
+      "marker": "Chen et al. 2026",
+      "key": "chen2026leap"
+    },
+    {
+      "marker": "Ross & Pavlick 2019",
+      "key": "ross2019well"
+    },
+    {
+      "marker": "de Marneffe et al. 2019",
+      "key": "demarneffe2019commitmentbank"
+    },
+    {
+      "marker": "Jiang & de Marneffe 2019",
+      "key": "jiang2019know"
+    },
+    {
+      "marker": "Basmov et al. 2024",
+      "key": "basmov2024simple"
+    },
+    {
+      "marker": "Zhou et al. 2023",
+      "key": "zhou2023navigating"
+    },
+    {
+      "marker": "Belém et al. 2024",
+      "key": "belem2024perceptions"
+    },
+    {
+      "marker": "Du et al. 2026",
+      "key": "du2026say"
+    },
+    {
+      "marker": "Schuster et al. 2026",
+      "key": "schuster2026whose"
+    },
+    {
+      "marker": "Bajaj & Tiganj 2026",
+      "key": "bajaj2026trust"
+    },
+    {
+      "marker": "Ashkinaze et al. 2026",
+      "key": "ashkinaze2026discernment"
+    },
+    {
+      "marker": "Karakaş & Şimşek 2026",
+      "key": "karakas2026turkish"
+    },
+    {
+      "marker": "Pornpitakpan 2004",
+      "key": "pornpitakpan2004persuasiveness"
+    },
+    {
+      "marker": "Hovland & Weiss 1951",
+      "key": "hovland1951source"
+    },
+    {
+      "marker": "Harris et al. 2016",
+      "key": "harris2016appeal"
+    },
+    {
+      "marker": "Xiong et al. 2024",
+      "key": "xiong2024llms"
+    },
+    {
+      "marker": "Tian et al. 2023",
+      "key": "tian2023just"
+    },
+    {
+      "marker": "Wang et al. 2025b",
+      "key": "wang2025distribute"
+    },
+    {
+      "marker": "Wang & Stengel-Eskin 2026",
+      "key": "wang2026dinco"
+    },
+    {
+      "marker": "Meister et al. 2024",
+      "key": "meister2025benchmarking"
+    },
+    {
+      "marker": "Zhang et al. 2025",
+      "key": "zhang2025verbalized"
+    },
+    {
+      "marker": "Haran et al. 2010",
+      "key": "haran2010simple"
+    },
+    {
+      "marker": "Vul & Pashler 2008",
+      "key": "vul2008crowd"
+    },
+    {
+      "marker": "Herzog & Hertwig 2009",
+      "key": "herzog2009wisdom"
+    },
+    {
+      "marker": "Litvinova et al. 2020",
+      "key": "litvinova2020inner"
+    },
+    {
+      "marker": "Bowman et al. 2015",
+      "key": "bowman2015large"
+    },
+    {
+      "marker": "Rudinger et al., 2020",
+      "key": "rudinger2020thinking"
+    },
+    {
+      "marker": "Zhang et al., 2025",
+      "key": "zhang2025verbalized"
+    },
+    {
+      "marker": "Ross & Pavlick, 2019",
+      "key": "ross2019well"
+    },
+    {
+      "marker": "Jiang & de Marneffe, 2019",
+      "key": "jiang2019know"
+    },
+    {
+      "marker": "Zhang et al., 2025",
+      "key": "zhang2025verbalized"
+    }
+  ],
+  "used_keys": [
+    "ashkinaze2026discernment",
+    "bajaj2026trust",
+    "basmov2024simple",
+    "belem2024perceptions",
+    "bowman2015large",
+    "chen2020uncertain",
+    "chen2026leap",
+    "demarneffe2019commitmentbank",
+    "du2026say",
+    "feng2025bird",
+    "haran2010simple",
+    "harris2016appeal",
+    "herzog2009wisdom",
+    "hovland1951source",
+    "imran2025bayes",
+    "jiang2019know",
+    "kamath2026humans",
+    "karakas2026turkish",
+    "kim2025evidence",
+    "litvinova2020inner",
+    "meister2025benchmarking",
+    "pornpitakpan2004persuasiveness",
+    "ross2019well",
+    "rudinger2020thinking",
+    "schuster2026whose",
+    "srikanth2025nli",
+    "tian2023just",
+    "vasileiou2026humans",
+    "vul2008crowd",
+    "wang2025always",
+    "wang2025distribute",
+    "wang2026dinco",
+    "wilie2024belief",
+    "xiong2024llms",
+    "yuan2025evolvecast",
+    "zhang2025verbalized",
+    "zhou2023navigating"
+  ],
+  "unused_keys": []
+}

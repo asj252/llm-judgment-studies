@@ -121,6 +121,166 @@
       "high": 21.124979166666666,
       "n": 120,
       "clusters": 120
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "pres": "stated",
+      "ask": "direct",
+      "point": 17.591666666666665,
+      "low": 14.908333333333333,
+      "high": 20.225,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "pres": "stated",
+      "ask": "multi",
+      "point": 15.296291666666667,
+      "low": 13.173458333333334,
+      "high": 17.45133333333333,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "pres": "reported",
+      "ask": "direct",
+      "point": 16.679166666666667,
+      "low": 14.1875,
+      "high": 19.095833333333335,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "pres": "reported",
+      "ask": "multi",
+      "point": 12.315666666666667,
+      "low": 10.135666666666667,
+      "high": 14.365625,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "pres": "stated",
+      "ask": "direct",
+      "point": 22.008333333333333,
+      "low": 19.479166666666668,
+      "high": 24.491666666666667,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "pres": "stated",
+      "ask": "multi",
+      "point": 22.478979166666665,
+      "low": 19.831229166666663,
+      "high": 25.07991666666667,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "pres": "reported",
+      "ask": "direct",
+      "point": 18.954166666666666,
+      "low": 16.366666666666667,
+      "high": 21.4875,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "pres": "reported",
+      "ask": "multi",
+      "point": 19.165312500000002,
+      "low": 16.6325,
+      "high": 21.80025,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "pres": "stated",
+      "ask": "direct",
+      "point": 26.64125,
+      "low": 23.532916666666665,
+      "high": 29.524166666666666,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "pres": "stated",
+      "ask": "multi",
+      "point": 24.163104166666667,
+      "low": 21.39864583333333,
+      "high": 26.838124999999998,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "pres": "reported",
+      "ask": "direct",
+      "point": 22.55625,
+      "low": 19.647916666666667,
+      "high": 25.608333333333334,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "pres": "reported",
+      "ask": "multi",
+      "point": 19.84350208333333,
+      "low": 16.901302083333334,
+      "high": 22.637912500000002,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "pres": "stated",
+      "ask": "direct",
+      "point": 28.295833333333334,
+      "low": 25.616666666666667,
+      "high": 30.925,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "pres": "stated",
+      "ask": "multi",
+      "point": 24.56291666666667,
+      "low": 21.905270833333336,
+      "high": 27.026895833333334,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "pres": "reported",
+      "ask": "direct",
+      "point": 24.183333333333334,
+      "low": 21.420833333333334,
+      "high": 26.925,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "pres": "reported",
+      "ask": "multi",
+      "point": 20.294391666666666,
+      "low": 17.82055833333333,
+      "high": 22.828329166666666,
+      "n": 120,
+      "clusters": 120
     }
   ],
   "fig2": [
@@ -453,6 +613,446 @@
       "high": 0.175,
       "n": 120,
       "clusters": 120
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "pres": "prior",
+      "utype": "-",
+      "ask": "direct",
+      "point": 0.14166666666666666,
+      "low": 0.08333333333333333,
+      "high": 0.20833333333333334,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "pres": "stated",
+      "utype": "S",
+      "ask": "direct",
+      "point": 0.09166666666666666,
+      "low": 0.041666666666666664,
+      "high": 0.14166666666666666,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "pres": "stated",
+      "utype": "W",
+      "ask": "direct",
+      "point": 0.2,
+      "low": 0.13333333333333333,
+      "high": 0.275,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "pres": "reported",
+      "utype": "S",
+      "ask": "direct",
+      "point": 0.13333333333333333,
+      "low": 0.075,
+      "high": 0.2,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "pres": "reported",
+      "utype": "W",
+      "ask": "direct",
+      "point": 0.15833333333333333,
+      "low": 0.09166666666666666,
+      "high": 0.225,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "pres": "prior",
+      "utype": "-",
+      "ask": "multi",
+      "point": 0.05,
+      "low": 0.016666666666666666,
+      "high": 0.09166666666666666,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "pres": "stated",
+      "utype": "S",
+      "ask": "multi",
+      "point": 0.03333333333333333,
+      "low": 0.008333333333333333,
+      "high": 0.06666666666666667,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "pres": "stated",
+      "utype": "W",
+      "ask": "multi",
+      "point": 0.03333333333333333,
+      "low": 0.008333333333333333,
+      "high": 0.06666666666666667,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "pres": "reported",
+      "utype": "S",
+      "ask": "multi",
+      "point": 0.025,
+      "low": 0.0,
+      "high": 0.058333333333333334,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "pres": "reported",
+      "utype": "W",
+      "ask": "multi",
+      "point": 0.041666666666666664,
+      "low": 0.008333333333333333,
+      "high": 0.08333333333333333,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "pres": "prior",
+      "utype": "-",
+      "ask": "direct",
+      "point": 0.20833333333333334,
+      "low": 0.14166666666666666,
+      "high": 0.2833333333333333,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "pres": "stated",
+      "utype": "S",
+      "ask": "direct",
+      "point": 0.125,
+      "low": 0.06666666666666667,
+      "high": 0.19166666666666668,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "pres": "stated",
+      "utype": "W",
+      "ask": "direct",
+      "point": 0.4166666666666667,
+      "low": 0.3333333333333333,
+      "high": 0.5083333333333333,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "pres": "reported",
+      "utype": "S",
+      "ask": "direct",
+      "point": 0.125,
+      "low": 0.06666666666666667,
+      "high": 0.18333333333333332,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "pres": "reported",
+      "utype": "W",
+      "ask": "direct",
+      "point": 0.25833333333333336,
+      "low": 0.18333333333333332,
+      "high": 0.3416666666666667,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "pres": "prior",
+      "utype": "-",
+      "ask": "multi",
+      "point": 0.14166666666666666,
+      "low": 0.08333333333333333,
+      "high": 0.20833333333333334,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "pres": "stated",
+      "utype": "S",
+      "ask": "multi",
+      "point": 0.11666666666666667,
+      "low": 0.06666666666666667,
+      "high": 0.175,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "pres": "stated",
+      "utype": "W",
+      "ask": "multi",
+      "point": 0.3,
+      "low": 0.225,
+      "high": 0.38333333333333336,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "pres": "reported",
+      "utype": "S",
+      "ask": "multi",
+      "point": 0.09166666666666666,
+      "low": 0.041666666666666664,
+      "high": 0.15,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "pres": "reported",
+      "utype": "W",
+      "ask": "multi",
+      "point": 0.175,
+      "low": 0.10833333333333334,
+      "high": 0.25,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "pres": "prior",
+      "utype": "-",
+      "ask": "direct",
+      "point": 0.2916666666666667,
+      "low": 0.20833333333333334,
+      "high": 0.375,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "pres": "stated",
+      "utype": "S",
+      "ask": "direct",
+      "point": 0.3416666666666667,
+      "low": 0.25833333333333336,
+      "high": 0.425,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "pres": "stated",
+      "utype": "W",
+      "ask": "direct",
+      "point": 0.625,
+      "low": 0.5416666666666666,
+      "high": 0.7083333333333334,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "pres": "reported",
+      "utype": "S",
+      "ask": "direct",
+      "point": 0.35,
+      "low": 0.26666666666666666,
+      "high": 0.43333333333333335,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "pres": "reported",
+      "utype": "W",
+      "ask": "direct",
+      "point": 0.5333333333333333,
+      "low": 0.44166666666666665,
+      "high": 0.6166666666666667,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "pres": "prior",
+      "utype": "-",
+      "ask": "multi",
+      "point": 0.175,
+      "low": 0.10833333333333334,
+      "high": 0.25,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "pres": "stated",
+      "utype": "S",
+      "ask": "multi",
+      "point": 0.11666666666666667,
+      "low": 0.06666666666666667,
+      "high": 0.175,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "pres": "stated",
+      "utype": "W",
+      "ask": "multi",
+      "point": 0.43333333333333335,
+      "low": 0.3416666666666667,
+      "high": 0.5166666666666667,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "pres": "reported",
+      "utype": "S",
+      "ask": "multi",
+      "point": 0.10833333333333334,
+      "low": 0.058333333333333334,
+      "high": 0.16666666666666666,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "pres": "reported",
+      "utype": "W",
+      "ask": "multi",
+      "point": 0.35,
+      "low": 0.26666666666666666,
+      "high": 0.43333333333333335,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "pres": "prior",
+      "utype": "-",
+      "ask": "direct",
+      "point": 0.225,
+      "low": 0.15,
+      "high": 0.3,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "pres": "stated",
+      "utype": "S",
+      "ask": "direct",
+      "point": 0.23333333333333334,
+      "low": 0.15833333333333333,
+      "high": 0.31666666666666665,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "pres": "stated",
+      "utype": "W",
+      "ask": "direct",
+      "point": 0.6083333333333333,
+      "low": 0.525,
+      "high": 0.6916666666666667,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "pres": "reported",
+      "utype": "S",
+      "ask": "direct",
+      "point": 0.225,
+      "low": 0.15,
+      "high": 0.3,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "pres": "reported",
+      "utype": "W",
+      "ask": "direct",
+      "point": 0.5083333333333333,
+      "low": 0.4166666666666667,
+      "high": 0.6,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "pres": "prior",
+      "utype": "-",
+      "ask": "multi",
+      "point": 0.18333333333333332,
+      "low": 0.11666666666666667,
+      "high": 0.25,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "pres": "stated",
+      "utype": "S",
+      "ask": "multi",
+      "point": 0.11666666666666667,
+      "low": 0.058333333333333334,
+      "high": 0.175,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "pres": "stated",
+      "utype": "W",
+      "ask": "multi",
+      "point": 0.45,
+      "low": 0.35833333333333334,
+      "high": 0.5333333333333333,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "pres": "reported",
+      "utype": "S",
+      "ask": "multi",
+      "point": 0.08333333333333333,
+      "low": 0.041666666666666664,
+      "high": 0.13333333333333333,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "pres": "reported",
+      "utype": "W",
+      "ask": "multi",
+      "point": 0.275,
+      "low": 0.19166666666666668,
+      "high": 0.35833333333333334,
+      "n": 120,
+      "clusters": 120
     }
   ],
   "fig3": [
@@ -563,5 +1163,7 @@
       "n": 120,
       "clusters": 120
     }
-  ]
+  ],
+  "extension_source": "dnli-agy/analysis_formal.json",
+  "extension_pairs": 120
 }

@@ -1,0 +1,5 @@
+{
+ "update_ids": ["test:1599", "dev:842", "test:1646", "dev:1834", "dev:689", "test:1365", "test:1430", "dev:965", "dev:637", "test:163", "test:878"],
+ "description": "更新句转述某人话语的内容：直接引语，或 say/state/ask/tell/yell 加话语内容（含 tell … to … 的指令）；只描述说话动作或话题、不含话语内容的不列入。标牌、衣物文字不列入。原有七个 ID 保留。依据 brief-e-v07.md 文末 a 的判定。",
+ "reviewed_not_included": ["dev:587", "test:120", "test:43", "test:841", "dev:1191", "test:1210", "test:1410", "dev:1190"]
+}

@@ -14,6 +14,7 @@ class FigureTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.data = mf.compute_data()
+        cls.en_data = mf.compute_data(include_extension=True)
         cls.analysis = json.loads((mf.DATA / "analysis_formal.json").read_text(encoding="utf-8"))
         cls.confirmatory = {(r["config"], r["test"]): r
                             for family in cls.analysis["families"].values() for r in family["rows"]}
@@ -22,7 +23,7 @@ class FigureTests(unittest.TestCase):
             mf.generate_figures(cls.data)
             (mf.OUT / "figure_data.json").write_text(
                 json.dumps(cls.data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        cls.en_output = mf.OUT
+        cls.en_output = mf.OUT / "en"
         if not (cls.en_output / "figure_data.json").exists():
             subprocess.run([sys.executable, "-X", "utf8", "-B", str(mf.HERE / "make_figures.py"),
                             "--lang", "en"], check=True)
@@ -124,10 +125,35 @@ class FigureTests(unittest.TestCase):
         self.check_outputs(mf.OUT)
 
     def test_english_outputs(self):
-        self.check_outputs(self.en_output)
-        chinese = json.loads((mf.OUT / "figure_data.json").read_text(encoding="utf-8"))
+        self.check_outputs(self.en_output, self.en_data)
         english = json.loads((self.en_output / "figure_data.json").read_text(encoding="utf-8"))
-        self.assertEqual(english, chinese)
+        for figure in ('fig1', 'fig2', 'fig3', 'h4b'):
+            self.assertEqual([r for r in english[figure] if r['config'] in mf.CONFIGS], self.data[figure])
+
+    def test_extension_matches_analysis(self):
+        analysis = json.loads((mf.AGY_DATA / 'analysis_formal.json').read_text(encoding='utf-8'))
+        self.assertEqual(self.en_data['extension_pairs'], analysis['n_planned'])
+        self.assertEqual({r['config'] for r in self.en_data['fig1']}, set(mf.CONFIGS + mf.EXTENSION_CONFIGS))
+        self.assertEqual({r['config'] for r in self.en_data['fig2']}, set(mf.CONFIGS + mf.EXTENSION_CONFIGS))
+        for config in mf.EXTENSION_CONFIGS:
+            desc = analysis['descriptives'][config]
+            records = mf.load_records(config)
+            for row in [r for r in self.en_data['fig1'] if r['config'] == config]:
+                target = desc['conditions_all_available'][f"{row['pres']}|{row['ask']}|pooled"]
+                self.assertAlmostEqual(row['point'], target['D_mean_pS_minus_pW'] / 2)
+                self.assertEqual(row['n'], target['n_D'])
+                raw = list(mf.pair_movements(records, row['pres'], row['ask']).values())
+                self.assertAlmostEqual(row['point'], sum(v for v, _ in raw) / len(raw))
+            for ask in mf.ASKS:
+                for pres in ('prior', 'stated', 'reported'):
+                    rows = [r for r in self.en_data['fig2'] if (r['config'], r['ask'], r['pres']) == (config, ask, pres)]
+                    target = desc['endpoints_all_available'][ask][pres]
+                    self.assertEqual(sum(r['n'] for r in rows), target['n'])
+                    self.assertAlmostEqual(sum(r['point'] * r['n'] for r in rows) / target['n'], target['rate'])
+                    for row in rows:
+                        samples = [mf.read_value(r) for unit, r in records.items() if unit[1:] == (pres, row['utype'], ask)]
+                        self.assertAlmostEqual(row['point'], sum(v <= 5 or v >= 95 for v in samples) / len(samples))
+                        self.assertEqual((row['n'], row['clusters']), (120, 120))
 
     def test_chinese_data_unchanged(self):
         # Frozen Chinese artifact predates language support; compare all values,
@@ -135,7 +161,7 @@ class FigureTests(unittest.TestCase):
         stored = json.loads((mf.OUT / "figure_data.json").read_text(encoding="utf-8"))
         self.assertEqual(self.data, stored)
 
-    def check_outputs(self, output):
+    def check_outputs(self, output, expected=None):
         for name in ("fig1_movement", "fig2_endpoints", "fig3_readings"):
             for ext in ("pdf", "png"):
                 content = (output / f"{name}.{ext}").read_bytes()
@@ -148,7 +174,7 @@ class FigureTests(unittest.TestCase):
                     self.assertAlmostEqual(x * .0254, 300, delta=.1)
                     self.assertEqual(x, y)
         stored = json.loads((output / "figure_data.json").read_text(encoding="utf-8"))
-        self.assertEqual(stored, self.data)
+        self.assertEqual(stored, self.data if expected is None else expected)
 
     def test_utf8_no_question_run(self):
         for path in [mf.HERE / "make_figures.py", mf.HERE / "test_make_figures.py", mf.OUT / "figure_data.json",

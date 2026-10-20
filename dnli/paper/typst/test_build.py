@@ -3,7 +3,13 @@ import json
 import re
 import subprocess
 import unittest
-import build
+import importlib.util
+from pathlib import Path
+
+# Resolve this converter explicitly; the installed PyPA package is also named build.
+spec = importlib.util.spec_from_file_location('dnli_typst_build', Path(__file__).with_name('build.py'))
+build = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(build)
 
 class BuildTests(unittest.TestCase):
     @classmethod
@@ -45,8 +51,9 @@ class BuildTests(unittest.TestCase):
         for i in range(1,4):
             self.assertEqual(self.body.count(f'<fig{i}>'), 1)
             self.assertIn(f'@fig{i}', self.body)
-        labels = ['tab-hyp', 'tab-sample', 'tab-tests', 'tab-type', 'tab-readings']
-        self.assertEqual(re.findall(r'<(tab-[a-z]+)>', self.body), labels)
+        labels = ['tab-hyp', 'tab-sample', 'tab-tests', 'tab-type', 'tab-readings',
+                  'tab-extension-sample', 'tab-extension-tests', 'tab-spread']
+        self.assertEqual(re.findall(r'<(tab-[a-z-]+)>', self.body), labels)
         for number, label in build.TABLE_LABELS.items():
             self.assertEqual(build.inline(f'Table {number}'), f'@{label}')
         self.assertNotIn('#counter(figure.where(kind: table)).update', self.body)
@@ -59,8 +66,25 @@ class BuildTests(unittest.TestCase):
         result = subprocess.run(['typst','query','--root',str(build.PAPER),'main.typ','figure','--field','kind'], cwd=build.HERE, capture_output=True, check=True, text=True)
         kinds = json.loads(result.stdout)
         self.assertEqual(kinds.count('image'),3)
-        self.assertEqual(kinds.count('table'),5)
-        self.assertEqual(re.findall(r'Table\s+(\d+):', self.pdftext), ['1', '2', '3', '4', '5'])
+        self.assertEqual(kinds.count('table'),8)
+        self.assertEqual(re.findall(r'Table\s+(\d+):', self.pdftext), [str(i) for i in range(1, 9)])
+
+    def test_extension_tables_and_captions(self):
+        for number, columns in [(6, 7), (7, 7)]:
+            block = next(b for b in build.blocks(build.source('results')) if b.startswith(f'**Table {number}.'))
+            converted = build.table(block)
+            widths = re.search(r'columns: \(([^)]+)\)', converted)[1].split(',')
+            self.assertEqual(len(widths), columns)
+            self.assertIn('breakable: false', converted)
+            self.assertIn('set text(size: 7.5pt)' if number == 7 else 'set text(size: 8pt)', converted)
+        for number in (1, 2):
+            self.assertIn('120 Block-A pairs', build.FIGURES[number][1])
+        # Every table's caption and final row must occur on the same PDF page.
+        pages = self.pdftext.split('\f')
+        for label, last in [('Table 6:', '19.1 s'),
+                            ('Table 7:', 'No unit was missing, so no worst-case imputation was needed.')]:
+            page = next(p for p in pages if label in p)
+            self.assertIn(last, page)
 
     def test_condensed_abstract(self):
         expected = build.convert(re.sub(r'^## Abstract\s*', '', build.source('abstract-arxiv')))

@@ -2,9 +2,11 @@
 
 ## 4 Results
 
+Sections 4.1–4.5 report the three original configurations (Qwen3, OLMo-2, codex); Section 4.6 reports the four extension configurations run with the same protocol; Section 4.7 adds an exploratory analysis of candidate spread for all seven; Section 4.8 summarizes the confirmatory results.
+
 ### 4.1 Sample and completeness
 
-All planned units of the three configurations were fully reconciled (every planned unit accounted for) (Table 1). qwen3-off and codex had no missing units; olmo2 was missing 3 units (0.12%), all under multi-estimate elicitation, and following the pre-specified rule we computed an additional conservative interval with worst-case imputation of missing units. No attempt was truncated. The formal run of codex was rerun under a new experiment fingerprint (a hash binding the plan, sampling, prompts, parser, runner and materials) after Addendum A1 (calls that fail to connect to the server do not invalidate the session); the earlier results do not enter the analysis.
+All planned units of the three original configurations were fully reconciled (every planned unit accounted for) (Table 1). qwen3-off and codex had no missing units; olmo2 was missing 3 units (0.12%), all under multi-estimate elicitation, and following the pre-specified rule we computed an additional conservative interval with worst-case imputation of missing units. No attempt was truncated. The formal run of codex was rerun under a new experiment fingerprint (a hash binding the plan, sampling, prompts, parser, runner and materials) after Addendum A1 (calls that fail to connect to the server do not invalidate the session); the earlier results do not enter the analysis.
 
 **Table 1. Sample and completeness**
 
@@ -87,8 +89,74 @@ Viewed by update condition, the change in the local models is not merely a small
 
 (SESOI: 5 points for H1, H2 and H4b; 10 percentage points for H4a. All 12 tests reject the null hypothesis under Holm correction, and there are no results in the opposite direction. H4b is signed as "multi-estimate < direct", and the bound is taken at the end nearer zero. For olmo2, the H4a and H4b judgments use the conservative bounds after worst-case imputation of missing units.)
 
-### 4.6 Summary
+### 4.6 Extension: four further configurations (v2)
 
-1. All three configurations move in the annotated direction in response to a single-sentence update, with a directional movement of about 19 to 25 points; counted by update condition, 16%–29% of update sentences left the reported probability of the local models unchanged.
-2. When the update is recast as an anonymous report, movement becomes smaller and more items move in the reverse direction; the direction is consistent across the three configurations, and only for codex does the point estimate reach 5 points.
-3. Multi-estimate elicitation substantially reduces endpoint values; in the local models, the mean directional movement also decreases by about 43% and 68%, zero movement decreases and reverse movement increases; for codex the directional movement decreases by about 2.5 points, with the point estimate below the SESOI. In the exploratory analysis, the top-weighted candidate of olmo2 also moves only about 5.5 points, and that of qwen3-off about 14 points; the sources of these differences cannot at present be distinguished.
+The four extension configurations (Section 3.3) were run on the same 120 Block-A pairs and the same 20-pair repeat subset as codex, with the same prompts, parser (with one input normalization; Section 3.3), hypotheses, SESOIs and Holm families; each configuration forms its own family {H1, H2, H4a, H4b}. All planned units were reconciled and none were missing (Table 6). Retries were rare: in the final records, 5, 5, 8 and 5 earlier attempts were discarded, almost all because the event stream contained a step other than the answer (classified as possible tool use and resampled), and three because of a timeout; counted by the run's persistent retry counter, which also covers sessions that were later resumed, gemini-3.8-flash (low) had 10 retries and the others 5. According to the run log, six units of gemini-3.8-flash (low) were blocked at least once by the provider's content filter, which surfaced as such a step; one of them was blocked three times in a row and stopped the run. On review (recorded in the run's review log), the stop was cleared once so that the unit could be retried, because blocks appeared to be stochastic (other conditions of the same pair had passed on retry); we decided at the same time that units blocked persistently would be recorded as missing and reported in an addendum. The retried unit was answered on its next attempts, so this provision was never needed. All six units therefore have valid answers, and no unit is missing for this reason. Service errors that occurred before a conversation started also stopped the run and were cleared under a written rule before resuming (Section 3.6); such calls produced no answer and leave no attempt in the analysed record.
+
+**Table 6. Sample and completeness (extension)**
+
+| Configuration | Pairs | Planned units | Valid | Missing | First-attempt success (formal set r0) | Mean first-attempt time |
+|---|---|---|---|---|---|---|
+| gpt-oss-120b (medium) | 120 | 1400 | 1400 | 0 | 99.7% | 9.1 s |
+| claude-sonnet-5.5 (medium) | 120 | 1400 | 1400 | 0 | 99.7% | 10.2 s |
+| gemini-3.8-flash (low) | 120 | 1400 | 1400 | 0 | 99.4% | 9.6 s |
+| gemini-3.8-flash (high) | 120 | 1400 | 1400 | 0 | 99.6% | 19.1 s |
+
+**Table 7. Confirmatory tests (extension; same layout as Table 2; n = 120 for every test; "—" = not rejected under Holm, so no bound is reported)**
+
+| Configuration | Test | Point estimate | 95% interval | Holm α | Bound | Judgment |
+|---|---|---|---|---|---|---|
+| gpt-oss-120b | H1 movement (points) | 17.6 | [15.0, 20.2] | 0.0125 | 14.5 | The adjusted bound exceeds the SESOI |
+| | H2 stated − reported (points) | 0.9 | [−0.9, 2.7] | 0.05 | — | Not rejected; direction not established |
+| | H4a endpoint-rate difference (proportion) | 0.10 | [0.067, 0.142] | 0.0167 | 0.065 | The point estimate reaches the SESOI, but the adjusted bound does not |
+| | H4b multi-estimate − direct (points) | −2.3 | [−4.1, −0.6] | 0.025 | −0.3 | Direction confirmed; point estimate below the SESOI |
+| claude-sonnet-5.5 | H1 | 22.0 | [19.4, 24.6] | 0.0125 | 19.0 | The adjusted bound exceeds the SESOI |
+| | H2 | 3.1 | [1.8, 4.5] | 0.0167 | 1.7 | Direction confirmed; point estimate below the SESOI |
+| | H4a | 0.065 | [0.038, 0.094] | 0.025 | 0.038 | Direction confirmed; point estimate below the SESOI |
+| | H4b | +0.5 | [−0.3, 1.3] | 0.05 | — | Not rejected; direction not established |
+| gemini-3.8-flash (low) | H1 | 26.6 | [23.6, 29.6] | 0.0125 | 23.2 | The adjusted bound exceeds the SESOI |
+| | H2 | 4.1 | [2.4, 5.9] | 0.0167 | 2.2 | Direction confirmed; point estimate below the SESOI |
+| | H4a | 0.16 | [0.123, 0.204] | 0.025 | 0.12 | The adjusted bound exceeds the SESOI |
+| | H4b | −2.5 | [−3.7, −1.4] | 0.05 | −1.4 | Direction confirmed; point estimate below the SESOI |
+| gemini-3.8-flash (high) | H1 | 28.3 | [25.6, 31.0] | 0.0125 | 25.1 | The adjusted bound exceeds the SESOI |
+| | H2 | 4.1 | [2.7, 5.8] | 0.0167 | 2.5 | Direction confirmed; point estimate below the SESOI |
+| | H4a | 0.090 | [0.056, 0.123] | 0.025 | 0.056 | Direction confirmed; point estimate below the SESOI |
+| | H4b | −3.7 | [−5.1, −2.5] | 0.05 | −2.5 | Direction confirmed; point estimate below the SESOI |
+
+(No unit was missing, so no worst-case imputation was needed. No result fell in the direction opposite to a one-sided prediction.)
+
+**Directional sensitivity (H1).** All four configurations moved in the annotated direction, and for all four the adjusted bound exceeds the 5-point SESOI: *s* = 17.6, 22.0, 26.6 and 28.3 points. The difference between the posteriors after a strengthener and after a weakener, D, is 35.2, 44.0, 53.3 and 56.6 points. Zero movement under stated presentation was less common than in the local models (6.7%–15.0% of update conditions, against 16%–29%).
+
+**Reporting wording (H2).** Recasting the update as a report reduced the directional movement in three configurations (3.1, 4.1 and 4.1 points; direction confirmed, point estimates below the SESOI); for gpt-oss-120b the difference was 0.9 points and the direction was not established. As in the original three configurations, the reversal rate was higher under reported than under stated presentation in all four (0.163 → 0.192, 0.079 → 0.125, 0.062 → 0.092 and 0.050 → 0.079), so under the pre-specified rule the conclusion is again worded as "reporting shifts the direction of movement". By update type (descriptive), the reduction lay mainly in weakeners for claude-sonnet-5.5 (−18.6 → −13.9) and gemini-3.8-flash (low) (−26.4 → −19.6), and was spread over both types for gemini-3.8-flash (high) (+27.9 → +24.9; −28.7 → −23.5).
+
+**Multi-estimate elicitation (H4a, H4b).** The weighted endpoint rate under direct elicitation was 14.4%, 24.0%, 38.8% and 32.3%, and under multi-estimate elicitation 4.2%, 17.5%, 22.5% and 23.3%. The reduction passed Holm correction in all four configurations; only for gemini-3.8-flash (low) does the adjusted bound exceed the 10-point SESOI. The change in directional sensitivity was small: −2.3, +0.5, −2.5 and −3.7 points (direction confirmed in three configurations, point estimates below the SESOI; not established for claude-sonnet-5.5). The pattern seen in the local models recurs on a smaller scale: under multi-estimate elicitation, zero movement almost disappears (at most 3.3% of update conditions), the reversal rate rises (pooled: 0.163 → 0.212, 0.079 → 0.117, 0.062 → 0.133, 0.050 → 0.113), and the pooled agreement rate does not fall (0.746 → 0.783, 0.846 → 0.875, 0.804 → 0.846, 0.846 → 0.887). The weighted standard deviation of the five candidates under stated presentation was 14.0 points for gpt-oss-120b and 6.3–7.5 points for the other three; every multi-estimate response had weights summing to a value in [0.95, 1.05].
+
+**Robustness (pre-specified).** Excluding the three Block-A pairs with quoted-speech updates (117 pairs remaining) leaves every conclusion unchanged (e.g., H2: 0.85, 3.07, 4.16 and 4.19 points). Stratified by material source, H2 was larger on δ-SNLI dev items for two configurations and on test items for the other two, unlike the original three configurations, where it was larger on dev items in all three. Between-call variability was small except for gpt-oss-120b: on the repeat subset, the mean absolute difference in *s* between two calls of the same prompt was 5.9, 1.4, 2.3 and 1.4 points, against between-item standard deviations of 17.5, 14.5, 15.5 and 14.7 points.
+
+**Reasoning effort (descriptive only).** The two gemini-3.8-flash configurations differ only in reasoning effort. On the common 120 pairs, high minus low effort was +1.7 points for H1 (descriptive 95% interval [0.3, 3.2]), 0.0 for H2 ([−1.9, 2.0]), −0.073 for H4a ([−0.110, −0.037]) and −1.3 for H4b ([−2.7, 0.1]). These contrasts are not part of any Holm family.
+
+### 4.7 Candidate spread (exploratory, not pre-specified)
+
+Under multi-estimate elicitation each response gives five candidate probabilities with weights, so it also carries a spread: the weighted standard deviation of the candidates (weights normalized to sum to 1; SD = √Σ wᵢ(xᵢ − m)², where m is the weighted mean). We asked three questions after seeing the formal results: does the spread shrink after an update, is it larger after a report than after a stated update, and do items with a more dispersed prior move more? Intervals are cluster-bootstrap 95% intervals (B = 2,000, seed 20261500); none of these analyses enters a Holm family.
+
+**Table 8. Candidate spread (stated and reported posteriors versus prior; points, with the change as a percentage of the reference spread)**
+
+| Configuration | Prior spread | Stated posterior minus prior | Reported minus stated | Spearman ρ (prior spread, *s*) |
+|---|---|---|---|---|
+| Qwen3 (thinking off) | 15.8 | +0.3 (+2%) | −2.1 (−13%) [−2.8, −1.5] | 0.09 [−0.04, 0.21] |
+| OLMo-2 | 17.5 | +0.8 (+4%) | 0.0 (0%) [−0.8, 0.9] | 0.10 [−0.03, 0.22] |
+| codex | 9.2 | −1.6 (−18%) | +0.7 (+9%) [0.3, 1.0] | 0.15 [−0.05, 0.33] |
+| gpt-oss-120b | 15.7 | −1.7 (−11%) | +0.9 (+7%) [0.1, 1.7] | 0.08 [−0.11, 0.25] |
+| claude-sonnet-5.5 | 7.0 | −0.7 (−10%) | +0.6 (+9%) [0.3, 0.9] | 0.31 [0.13, 0.48] |
+| gemini-3.8-flash (low) | 9.0 | −1.5 (−17%) | +0.4 (+6%) [−0.01, 0.86] | 0.24 [0.04, 0.42] |
+| gemini-3.8-flash (high) | 8.8 | −1.3 (−15%) | +0.8 (+11%) [0.4, 1.3] | 0.26 [0.08, 0.43] |
+
+("Stated posterior minus prior" averages the strengthener and weakener changes; its percentage is relative to the prior spread. "Reported minus stated" pools strengtheners and weakeners; its percentage is relative to the stated-posterior spread.)
+
+The two local models show no consistent pattern: in Qwen3 a stated strengthener widened the spread (+2.6 points) and a weakener narrowed it (−2.1), so the average barely moves, and after a report the spread was smaller, not larger; in OLMo-2 the changes were near zero. The five configurations accessed through agent harnesses behave alike: after a stated update the spread narrowed by 10%–18% of the prior spread (mainly after weakeners in the four extension configurations), and after a report it was 6%–11% wider than after the same update stated (the interval excludes zero in four of the five). In claude-sonnet-5.5 and both gemini-3.8-flash configurations, items with a more dispersed prior also moved more (ρ = 0.24 to 0.31); in the other four configurations the correlation was weak (0.08 to 0.15) and its interval included zero. These are small absolute differences (under 2 points of spread) and were examined only post hoc. In the harnessed configurations the candidate spread thus shows the pattern one would expect of an expression of uncertainty (narrowing with information, staying wider for hearsay), whereas in the two small local models it does not show this pattern; there is no independent measure of uncertainty against which to check either, and the present data cannot say whether this reflects model scale, the harnesses, or training.
+
+### 4.8 Summary
+
+1. All seven configurations move in the annotated direction in response to a single-sentence update; the directional movement ranges from about 18 to 28 points, and for every configuration the adjusted bound exceeds the 5-point SESOI.
+2. Recasting the update as an anonymous report reduces the movement in all seven point estimates (0.9 to 5.4 points) and raises the reversal rate in all seven. The direction is confirmed in six configurations (2.0 to 5.4 points); for gpt-oss-120b it is not established. The point estimate reaches 5 points only for codex, and no adjusted bound exceeds 5 points.
+3. Multi-estimate elicitation reduces endpoint values in all seven configurations (the adjusted bound exceeds 10 percentage points in three). Its cost in directional sensitivity is large in the two local models (−7.9 and −13.7 points, adjusted bounds beyond −5); in the five configurations accessed through agent harnesses the point estimates lie between −3.7 and +0.5 points, the direction is confirmed in four, and no clear change is detected for claude-sonnet-5.5. Wherever zero movement was common under direct elicitation, multi-estimate elicitation replaced it with a mixture of agreeing and reversed movement.

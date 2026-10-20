@@ -5,6 +5,7 @@ import argparse
 from collections import defaultdict
 from fractions import Fraction
 import importlib.util
+import hashlib
 import json
 import math
 import os
@@ -29,8 +30,11 @@ B = 2000
 SEED = 20261490
 HERE = Path(__file__).resolve().parent
 DATA = HERE.parent / "code"
-OUT = HERE / "figures" / "en"
+OUT = HERE / "figures"
 CONFIGS = ("qwen3-off", "olmo2", "codex")
+AGY_DATA = DATA.parent / "agy-extension"
+EXTENSION_CONFIGS = ("agy:gpt-oss-120b-medium", "agy:claude-sonnet-5-5-medium",
+                     "agy:gemini-3.8-flash-low", "agy:gemini-3.8-flash-high")
 LABELS = {"qwen3-off": "Qwen3（推理关）", "olmo2": "OLMo-2", "codex": "codex"}
 PRESENTATIONS = {"stated": "陈述", "reported": "转述"}
 ASKS = {"direct": "直接", "multi": "多估计"}
@@ -39,7 +43,11 @@ CELLS = (("prior", "-"), ("stated", "S"), ("stated", "W"),
          ("reported", "S"), ("reported", "W"))
 CELL_LABELS = ("先验", "陈述加强", "陈述削弱", "转述加强", "转述削弱")
 EN_LABELS = {"qwen3-off": "Qwen3-8B (thinking off)", "olmo2": "OLMo-2-7B-Instruct",
-             "codex": "codex (gpt-6.1-sol)"}
+             "codex": "codex (gpt-6.1-sol)",
+             "agy:gpt-oss-120b-medium": "gpt-oss-120b\n(medium)",
+             "agy:claude-sonnet-5-5-medium": "claude-sonnet-5.5\n(medium)",
+             "agy:gemini-3.8-flash-low": "gemini-3.8-flash\n(low)",
+             "agy:gemini-3.8-flash-high": "gemini-3.8-flash\n(high)"}
 EN_ASKS = {"direct": "direct", "multi": "multi-estimate"}
 EN_READINGS = {"mean": "weighted mean", "top": "top-weighted candidate", "median": "weighted median"}
 EN_CELL_LABELS = ("prior", "stated strengthener", "stated weakener",
@@ -57,9 +65,24 @@ EN_NOTES = (
 
 def load_records(config):
     records = {}
-    with (DATA / f"results_formal_{config}.jsonl").open(encoding="utf-8") as stream:
+    root = AGY_DATA if config in EXTENSION_CONFIGS else DATA
+    sessions = None
+    if config in EXTENSION_CONFIGS:
+        analysis = json.loads((root / "analysis_formal.json").read_text(encoding="utf-8"))
+        fingerprint = analysis["filter"][config]["frozen_fingerprint"]
+        meta = json.loads((root / f"run_meta_formal_{config.replace(':', '_')}.json").read_text(encoding="utf-8"))
+        sessions = {s["session_id"]: s for s in meta["sessions"]
+                    if s.get("closed_ok") and not s.get("invalid") and s.get("fingerprint_id") == fingerprint}
+    with (root / f"results_formal_{config.replace(':', '_')}.jsonl").open(encoding="utf-8") as stream:
         for line in stream:
             row = json.loads(line)
+            if sessions is not None:
+                session = sessions.get(row.get("session_id"))
+                if session is None or row.get("fingerprint_id") != fingerprint:
+                    continue
+                digest = hashlib.sha256(json.dumps(row, sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()
+                if session.get("unit") != row.get("unit") or session.get("record_sha256") != digest:
+                    raise ValueError(f"Extension checkpoint integrity: {row.get('unit')}")
             if row["round"] != "r0" or row["status"] != "ok":
                 continue
             value = row["result"].get("value")
@@ -148,7 +171,7 @@ def summarize(samples, rng, repeats=B):
             "low": low, "high": high, "n": len(samples), "clusters": len(clusters)}
 
 
-def compute_data():
+def compute_data(include_extension=False):
     rng = np.random.default_rng(SEED)
     result = {"B": B, "seed": SEED, "fig1": [], "fig2": [], "fig3": [], "h4b": []}
     for config in CONFIGS:
@@ -171,6 +194,27 @@ def compute_data():
         # Common complete pairs, not difference of independently filtered fig1 means.
         result["h4b"].append(dict(config=config,
                                   **summarize(paired_difference(records), rng)))
+    if include_extension:
+        analysis = json.loads((AGY_DATA / "analysis_formal.json").read_text(encoding="utf-8"))
+        result["extension_source"] = "dnli-agy/analysis_formal.json"
+        result["extension_pairs"] = analysis["n_planned"]
+        for config in EXTENSION_CONFIGS:
+            records = load_records(config)
+            desc = analysis["descriptives"][config]
+            for pres in PRESENTATIONS:
+                for ask in ASKS:
+                    row = summarize(list(pair_movements(records, pres, ask).values()), rng)
+                    source = desc["conditions_all_available"][f"{pres}|{ask}|pooled"]
+                    row["point"] = source["D_mean_pS_minus_pW"] / 2
+                    result["fig1"].append(dict(config=config, pres=pres, ask=ask, **row))
+            for ask in ASKS:
+                for pres, utype in CELLS:
+                    samples = [(float(read_value(row) <= 5 or read_value(row) >= 95), row["cluster"])
+                               for unit, row in sorted(records.items()) if unit[1:] == (pres, utype, ask)]
+                    row = summarize(samples, rng)
+                    if pres == "prior":
+                        row["point"] = desc["endpoints_all_available"][ask]["prior"]["rate"]
+                    result["fig2"].append(dict(config=config, pres=pres, utype=utype, ask=ask, **row))
     return result
 
 
@@ -203,6 +247,9 @@ def _plot_figures(data, output, overwrite, lang="zh"):
     asks = EN_ASKS if english else ASKS
     readings = EN_READINGS if english else READINGS
     cell_labels = EN_CELL_LABELS if english else CELL_LABELS
+    extended = english and "extension_pairs" in data
+    configs = CONFIGS + EXTENSION_CONFIGS if extended else CONFIGS
+    extension_note = " Extensions use only 120 Block-A pairs; cross-configuration comparisons are descriptive." if extended else ""
     output.mkdir(parents=True, exist_ok=True)
     import matplotlib
     matplotlib.use("Agg")
@@ -239,31 +286,41 @@ def _plot_figures(data, output, overwrite, lang="zh"):
             fig.savefig(target, dpi=300, facecolor=C_BG, bbox_inches="tight")
         plt.close(fig)
 
-    fig, ax = plt.subplots(figsize=(9, 5.6), layout="constrained")
+    fig, ax = plt.subplots(figsize=(13, 6.2) if extended else (9, 5.6), layout="constrained")
     style(ax)
     offsets = {("stated", "direct"): -.24, ("stated", "multi"): -.08,
                ("reported", "direct"): .08, ("reported", "multi"): .24}
     for row in data["fig1"]:
-        point(ax, CONFIGS.index(row["config"]) + offsets[row["pres"], row["ask"]], row,
+        point(ax, configs.index(row["config"]) + offsets[row["pres"], row["ask"]], row,
               C_V2 if row["ask"] == "direct" else C_V1,
               marker="o" if row["ask"] == "direct" else "s", filled=row["pres"] == "stated")
     for level in (0, 5):
         ax.axhline(level, color=C_WARN, linestyle="--", linewidth=1.1)
-    ax.set(xticks=range(3), xticklabels=[labels[c] for c in CONFIGS], xlim=(-.5, 2.5),
+    if extended:
+        ax.axvline(2.5, color=C_AXIS, linestyle=":", linewidth=1)
+        ax.text(1, 1.02, "Original three", transform=ax.get_xaxis_transform(), ha="center")
+        ax.text(4.5, 1.02, "Extension four (120 pairs each)", transform=ax.get_xaxis_transform(), ha="center")
+    ax.set(xticks=range(len(configs)), xticklabels=[labels[c] for c in configs], xlim=(-.5, len(configs)-.5),
            ylabel="Directional movement s (percentage points)" if english else "方向化移动 s（百分点）",
-           title="Directional movement" if english else "图 1  方向化移动")
+           title="Directional movement\n" if extended else "Directional movement" if english else "图 1  方向化移动")
+    if extended:
+        ax.tick_params(axis="x", labelsize=9, labelrotation=15)
     handles = [Line2D([], [], marker="o" if a == "direct" else "s", linestyle="none",
                       color=C_V2 if a == "direct" else C_V1,
                       markerfacecolor=(C_V2 if a == "direct" else C_V1) if p == "stated" else C_BG,
                       label=f"{presentations[p]} · {asks[a]}") for p, a in offsets]
     ax.legend(handles=handles, ncol=2, loc="upper left", frameon=False)
-    fig.supxlabel(textwrap.fill(EN_NOTES[0], 110) if english else "描述性 95% 整簇 bootstrap 区间；各格使用本格有效对\n"
+    fig.supxlabel(textwrap.fill(EN_NOTES[0] + extension_note, 145 if extended else 110) if english else "描述性 95% 整簇 bootstrap 区间；各格使用本格有效对\n"
                   "虚线 5 点为 H1（陈述×直接）的最小有意义效应；\n"
                   "H2、H4b 的阈值作用于条件差，不能以各点相对此线判定", fontsize=10)
     save(fig, "fig1_movement")
 
-    fig, axes = plt.subplots(1, 3, figsize=(13.5, 5.2), sharey=True, layout="constrained")
-    for config, ax in zip(CONFIGS, axes):
+    fig, axes = plt.subplots(2, 4, figsize=(14, 9.5), sharey=True, layout="constrained") if extended else plt.subplots(1, 3, figsize=(13.5, 5.2), sharey=True, layout="constrained")
+    if extended:
+        axes[0, 3].axis("off")
+        axes[0, 3].text(.1, .5, "Original three (upper row)\n\nExtension four (lower row)\n120 Block-A pairs each", transform=axes[0, 3].transAxes, va="center")
+        axes = list(axes[0, :3]) + list(axes[1, :])
+    for config, ax in zip(configs, axes):
         style(ax)
         for ask in ASKS:
             rows = [next(r for r in data["fig2"] if (r["config"], r["ask"], r["pres"], r["utype"])
@@ -280,7 +337,7 @@ def _plot_figures(data, output, overwrite, lang="zh"):
         ax.legend(frameon=False, loc="upper right")
     axes[0].set_ylabel("Endpoint rate" if english else "端点率")
     fig.suptitle("Endpoint rate (reported value ≤ 5 or ≥ 95)" if english else "图 2  端点率（报出值 ≤ 5 或 ≥ 95）")
-    fig.supxlabel(textwrap.fill(EN_NOTES[1], 165) if english else "描述性 95% 整簇 bootstrap 区间；多估计使用加权平均报出值\n"
+    fig.supxlabel(textwrap.fill(EN_NOTES[1] + extension_note, 165) if english else "描述性 95% 整簇 bootstrap 区间；多估计使用加权平均报出值\n"
                   "端点率为各条件内的未加权比例；正文 H4a 按先验 1/2、陈述加强与削弱各 1/4 汇总\n"
                   "（OLMo-2 用共同完整子集）", fontsize=10)
     save(fig, "fig2_endpoints")
@@ -337,7 +394,7 @@ def main():
             for target in targets:
                 if target.exists():
                     raise FileExistsError(target)
-        data = compute_data()
+        data = compute_data(include_extension=args.lang == "en")
         generate_figures(data, args.output, args.overwrite, args.lang)
         target = args.output / "figure_data.json"
         target.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

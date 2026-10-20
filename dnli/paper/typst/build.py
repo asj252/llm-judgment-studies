@@ -8,7 +8,8 @@ HERE = Path(__file__).resolve().parent
 PAPER = HERE.parent
 SOURCES = ['abstract-arxiv', 'intro-related', 'methods', 'results', 'discussion']
 TABLE_LABELS = {5: 'tab-hyp', 1: 'tab-sample', 2: 'tab-tests',
-                3: 'tab-type', 4: 'tab-readings'}
+                3: 'tab-type', 4: 'tab-readings', 6: 'tab-extension-sample',
+                7: 'tab-extension-tests', 8: 'tab-spread'}
 TITLE = 'Hearsay or Fact? How Framing and Elicitation Shape LLM Probability Updates'
 
 def reference_map():
@@ -72,7 +73,7 @@ def inline(text):
         return '(' + '; '.join(hold(citation([x], True)) if x in matches else x for x in pieces) + ')'
     text = re.sub(r'\(([^()\n]+)\)', parens, text)
     text = re.sub(r'\bFigure ([123])\b', lambda m: hold('@fig' + m[1]), text)
-    text = re.sub(r'\bTable ([1-5])\b', lambda m: hold('@' + TABLE_LABELS[int(m[1])]), text)
+    text = re.sub(r'\bTable ([1-8])\b', lambda m: hold('@' + TABLE_LABELS[int(m[1])]), text)
     text = re.sub(r'\*\*(.+?)\*\*', lambda m: hold('#strong[' + inline(m[1]) + ']'), text)
     text = re.sub(r'(?<!\*)\*([^*]+)\*(?!\*)', lambda m: hold('#emph[' + inline(m[1]) + ']'), text)
     text = escape(text)
@@ -95,19 +96,22 @@ def table(block):
     n = len(rows[0])
     widths = {1: '(1.7fr, .5fr, .7fr, .6fr, .6fr, 1.3fr, .9fr)',
               2: '(.85fr, 1.55fr, .45fr, .65fr, 1.05fr, .65fr, .65fr, 2.15fr)',
-              3: '(1.4fr, 1fr, 1fr, 1fr, 1fr)', 4: '(1.2fr, .85fr, 1.2fr, 1.2fr, 1.2fr)'}
+              3: '(1.4fr, 1fr, 1fr, 1fr, 1fr)', 4: '(1.2fr, .85fr, 1.2fr, 1.2fr, 1.2fr)',
+              6: '(1.7fr, .5fr, .7fr, .6fr, .6fr, 1.3fr, .9fr)',
+              7: '(1.15fr, 1.55fr, .65fr, 1.05fr, .65fr, .65fr, 2.15fr)',
+              8: '(1.4fr, .7fr, 1.1fr, 1.4fr, 1.3fr)'}
     header = 'table.header(' + ', '.join('[' + inline(c) + ']' for c in rows[0]) + '),'
     cells = '\n'.join(', '.join('[' + inline(c) + ']' for c in row) + ',' for row in rows[1:])
     # Keep captions, data and notes together; the largest table fits on one page.
-    result = '#block(breakable: false)[\n#figure(\n  kind: table,\n  caption: [' + inline(title) + '],\n  supplement: [Table],\n  { set text(size: ' + ('7.5' if number == 2 else '8') + 'pt); table(\ncolumns: ' + widths.get(number, '(' + ', '.join(['1fr'] * n) + ')') + ',\ninset: 4pt,\nstroke: .35pt + luma(65%),\n' + header + '\n' + cells + '\n) },\n) <' + TABLE_LABELS[number] + '>\n'
+    result = '#block(breakable: false)[\n#figure(\n  kind: table,\n  caption: [' + inline(title) + '],\n  supplement: [Table],\n  { set text(size: ' + ('7.5' if number in (2, 7) else '8') + 'pt); table(\ncolumns: ' + widths.get(number, '(' + ', '.join(['1fr'] * n) + ')') + ',\ninset: 4pt,\nstroke: .35pt + luma(65%),\n' + header + '\n' + cells + '\n) },\n) <' + TABLE_LABELS[number] + '>\n'
     notes = '\n'.join(line for line in lines[1:] if line and not line.startswith('|'))
     if notes:
         result += '#text(size: 8pt)[' + inline(notes) + ']\n'
     return result + ']\n'
 
 FIGURES = {
-  1: ('fig1_movement', 'Directional movement s by configuration, presentation and elicitation (descriptive 95% cluster-bootstrap intervals).'),
-  2: ('fig2_endpoints', 'Endpoint rate (reported value ≤ 5 or ≥ 95) by condition and elicitation.'),
+  1: ('fig1_movement', 'Directional movement s by configuration, presentation and elicitation (descriptive 95% cluster-bootstrap intervals). Original three configurations and four extension configurations are separated; each extension uses only 120 Block-A pairs.'),
+  2: ('fig2_endpoints', 'Endpoint rate (reported value ≤ 5 or ≥ 95) by condition and elicitation. The original three configurations are in the upper row; the four extensions are in the lower row and each uses only 120 Block-A pairs.'),
   3: ('fig3_readings', 'Multi-estimate readings minus direct elicitation, stated condition (exploratory, not pre-specified).'),
 }
 

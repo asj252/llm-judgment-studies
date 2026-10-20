@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "files": [
     {
       "path": "code/prompts.py",
@@ -374,43 +374,43 @@
     },
     {
       "path": "paper/en/abstract-arxiv-en.md",
-      "sha256": "5765083a812c60d9ff0a53a44cb108451d1bce3478adbd742d0e2cd263bf03af",
-      "bytes": 2009,
+      "sha256": "fd3cd7cd1510aeed7f804f139f22a49983de709c2ab6b6db8d8ddaf1e5c2a850",
+      "bytes": 1963,
       "path_replacements": 0,
       "source": "dnli/paper/en/abstract-arxiv-en.md"
     },
     {
       "path": "paper/en/abstract-en.md",
-      "sha256": "5c4edef5f72953a0d71433bce80f47c791c027381175a55255c7a03d9567b107",
-      "bytes": 2737,
+      "sha256": "fc3e50b834332c78bc242c527bfdf4a941b67dadc0c5d4e7a4f2982c88d05150",
+      "bytes": 2980,
       "path_replacements": 0,
       "source": "dnli/paper/en/abstract-en.md"
     },
     {
       "path": "paper/en/discussion-en.md",
-      "sha256": "cad804814582c8eb6c11382590e7d0dc0afbbb80df48006cd3fe508f81cd66c4",
-      "bytes": 10056,
+      "sha256": "2bf15756a085e52d634f70a912185354396cb8619dad24bd51e410bfd0606015",
+      "bytes": 14462,
       "path_replacements": 0,
       "source": "dnli/paper/en/discussion-en.md"
     },
     {
       "path": "paper/en/intro-related-en.md",
-      "sha256": "ddd90f87284e5820f7253f8bfb32b2542ee733ff061939fa499c9aef6896c99b",
-      "bytes": 21228,
+      "sha256": "32fa158c1c1b253ca04102cdc598dea859606c5632f568f1a2d37c1976509317",
+      "bytes": 22289,
       "path_replacements": 0,
       "source": "dnli/paper/en/intro-related-en.md"
     },
     {
       "path": "paper/en/methods-en.md",
-      "sha256": "19b4b67f4edf7356cd9e18f3079ce7abcebb6a60164b9793bfec8158327e3d3c",
-      "bytes": 18016,
+      "sha256": "ca8e68b4495883d202f054cc74c8de213d39d6ac209fea1a80f47aa054fecf3c",
+      "bytes": 23051,
       "path_replacements": 0,
       "source": "dnli/paper/en/methods-en.md"
     },
     {
       "path": "paper/en/results-en.md",
-      "sha256": "e7bffc787c33194f0299d690b33bcac80062c380b1d51ddeae01d17ef72fb609",
-      "bytes": 14789,
+      "sha256": "4730db29785a5591a7e3e9ca16bdf8f9fa1ac22329c0ec893d0174c6f936ae41",
+      "bytes": 26305,
       "path_replacements": 0,
       "source": "dnli/paper/en/results-en.md"
     },
@@ -423,22 +423,22 @@
     },
     {
       "path": "paper/make_figures.py",
-      "sha256": "e7d67fd72873398fe50c2176514acaad8807c153adc6535d46d12522147f6f39",
-      "bytes": 17963,
+      "sha256": "922e27bc61cbb96b88fd4fda77be5ff3a86744f78384590cdc0f114073b12e74",
+      "bytes": 22149,
       "path_replacements": 0,
       "source": "dnli/paper/make_figures.py"
     },
     {
       "path": "paper/test_make_figures.py",
-      "sha256": "0027ac3ddb1d44b3937bc9e1c6627aeb3ad02b3c9d6eaddfbc1cff12f839f24c",
-      "bytes": 8884,
+      "sha256": "3822108853ae4205d40592a0f2a3c515270cefa5b264cc49e5b8ad80542ad57c",
+      "bytes": 11001,
       "path_replacements": 0,
       "source": "dnli/paper/test_make_figures.py"
     },
     {
       "path": "paper/typst/build.py",
-      "sha256": "539d63adbb1c4b73274e4d8fbeccd40f2ab87d33e1d7d07dbb5acbb5823edfc8",
-      "bytes": 10734,
+      "sha256": "7fd052c42c7d4e85b2f7e5716b9c283d77953a1fa42171db3bffc303c925bbed",
+      "bytes": 11066,
       "path_replacements": 0,
       "source": "dnli/paper/typst/build.py"
     },
@@ -451,36 +451,36 @@
     },
     {
       "path": "paper/typst/test_build.py",
-      "sha256": "f55c963d878647dd9f0873f382db756009968c71277262e5fadb1c79c52f5658",
-      "bytes": 8857,
+      "sha256": "d50fcc8bd58af3d6658bb222e09d5bc7c8c61ba68bfd6ac3159f1aab0e217aea",
+      "bytes": 10116,
       "path_replacements": 0,
       "source": "dnli/paper/typst/test_build.py"
     },
     {
       "path": "paper/figures/en/fig1_movement.pdf",
-      "sha256": "378b846ee46d5fe716fd1286eb0522dbb8e1f6ad239154f236017adc949dedb4",
-      "bytes": 17684,
+      "sha256": "e714c129854eb5b95181ab29a82f30bec1b0a293477fedc8d7992812c0fafeee",
+      "bytes": 20900,
       "path_replacements": 0,
       "source": "dnli/paper/figures/en/fig1_movement.pdf"
     },
     {
       "path": "paper/figures/en/fig1_movement.png",
-      "sha256": "c6e271fd362bd8510726fa03aa3530639cd03160360ccc5142e95905894425f6",
-      "bytes": 184130,
+      "sha256": "785b59722c888ba2153681cc35343e6100759ee5210313db2ccf236de5323945",
+      "bytes": 328474,
       "path_replacements": 0,
       "source": "dnli/paper/figures/en/fig1_movement.png"
     },
     {
       "path": "paper/figures/en/fig2_endpoints.pdf",
-      "sha256": "8067bd44628f7475a82d85492e128699adebc24007cd7da894a0a562d21b94af",
-      "bytes": 20415,
+      "sha256": "244f63c979036eac27ff2adf80e89c00055bbb91db902c7bf946e92d3b38611e",
+      "bytes": 29089,
       "path_replacements": 0,
       "source": "dnli/paper/figures/en/fig2_endpoints.pdf"
     },
     {
       "path": "paper/figures/en/fig2_endpoints.png",
-      "sha256": "fe1755de3f7881d97b002f3b21abdd255a38873d70b1681876e6d85db61770c2",
-      "bytes": 328191,
+      "sha256": "d70e5011f48577f9b677e1b1a5b708c94a388d136a88a9be9260cadeab3c396b",
+      "bytes": 678060,
       "path_replacements": 0,
       "source": "dnli/paper/figures/en/fig2_endpoints.png"
     },
@@ -500,8 +500,8 @@
     },
     {
       "path": "paper/figures/en/figure_data.json",
-      "sha256": "c10a0516e7c1103fc91d90483b93c33ff2b83fb8f06d1b3347cb76914355d8aa",
-      "bytes": 12796,
+      "sha256": "b06ba0c05246b64f6a1fb8efa5a1e1203e2abc2486fa007da2b43b24651da08d",
+      "bytes": 27482,
       "path_replacements": 0,
       "source": "dnli/paper/figures/en/figure_data.json"
     },
@@ -520,9 +520,535 @@
       "source": "dnli/../vs-pilot/test_subject.py"
     },
     {
+      "path": "paper/figures/fig1_movement.pdf",
+      "sha256": "52d6d88e2986111ad587898dfffe2a94de2edfb9d486a25ce89c7cd0ee57a661",
+      "bytes": 41276,
+      "path_replacements": 0,
+      "source": "dnli/paper/figures/fig1_movement.pdf"
+    },
+    {
+      "path": "paper/figures/fig1_movement.png",
+      "sha256": "5a6366b92051d897f61a9a272e436fefda84ed2626b5aad6ec240d2a74cd011a",
+      "bytes": 164926,
+      "path_replacements": 0,
+      "source": "dnli/paper/figures/fig1_movement.png"
+    },
+    {
+      "path": "paper/figures/fig2_endpoints.pdf",
+      "sha256": "b69c1797699058231b1ca58f69c20a2057ebc13a00ccf44a330280d9f47c3625",
+      "bytes": 43810,
+      "path_replacements": 0,
+      "source": "dnli/paper/figures/fig2_endpoints.pdf"
+    },
+    {
+      "path": "paper/figures/fig2_endpoints.png",
+      "sha256": "e779f1b3f754914dd418c8a02fd0382857d69c8e404167ba05098ffdfaa3f8c1",
+      "bytes": 294486,
+      "path_replacements": 0,
+      "source": "dnli/paper/figures/fig2_endpoints.png"
+    },
+    {
+      "path": "paper/figures/fig3_readings.pdf",
+      "sha256": "b30abd09b71ba6ec7e708a5be8685bb273167c8b8365e3ccd9c1c1d77debc376",
+      "bytes": 36615,
+      "path_replacements": 0,
+      "source": "dnli/paper/figures/fig3_readings.pdf"
+    },
+    {
+      "path": "paper/figures/fig3_readings.png",
+      "sha256": "cddf4a208133dccb3caeb20dc59ef0148262b5e1d15ff05322db0d4800b13092",
+      "bytes": 156387,
+      "path_replacements": 0,
+      "source": "dnli/paper/figures/fig3_readings.png"
+    },
+    {
+      "path": "paper/figures/figure_data.json",
+      "sha256": "c10a0516e7c1103fc91d90483b93c33ff2b83fb8f06d1b3347cb76914355d8aa",
+      "bytes": 12796,
+      "path_replacements": 0,
+      "source": "dnli/paper/figures/figure_data.json"
+    },
+    {
+      "path": "agy-extension/probe_agy.py",
+      "sha256": "14fcb08fb954aa9dcc445f1c0834a8a0450247f02f42e00c11782fb804a10e9b",
+      "bytes": 6513,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/probe_agy.py"
+    },
+    {
+      "path": "agy-extension/agy_subject.py",
+      "sha256": "f3e679771636ecf40e535ab1968641cb70ce83b9f6bd3cf61e035d26e3bdd9b3",
+      "bytes": 22129,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/agy_subject.py"
+    },
+    {
+      "path": "agy-extension/run_agy.py",
+      "sha256": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2",
+      "bytes": 25875,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/run_agy.py"
+    },
+    {
+      "path": "agy-extension/configs.py",
+      "sha256": "1d11a0120b355ea14c5d56966be5c62a2f690ce95c4ee41981e4a004be8790d8",
+      "bytes": 1924,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/configs.py"
+    },
+    {
+      "path": "agy-extension/prompts.py",
+      "sha256": "0192adda8087ec9c7515f169ca5cdaf2d01127e4eb6ab87a333c6ab2d1abae87",
+      "bytes": 6723,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/prompts.py"
+    },
+    {
+      "path": "agy-extension/parse.py",
+      "sha256": "9c596c1d3b63d9ab5c423461a502af540ba27fb26afc5c0679a158973c5ef8c8",
+      "bytes": 13604,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/parse.py"
+    },
+    {
+      "path": "agy-extension/workspace_temp.py",
+      "sha256": "cd8f154fcd1685aa6104d3dfb5c2994ab8bccc380eba6ca5e0e5e1bd1f33527d",
+      "bytes": 2290,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/workspace_temp.py"
+    },
+    {
+      "path": "agy-extension/analysis.py",
+      "sha256": "311ea5ecbed7283925dc6a57684976f12540decd53ffdbc1a4dc72cb768cb2be",
+      "bytes": 40990,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/analysis.py"
+    },
+    {
+      "path": "agy-extension/analyse.py",
+      "sha256": "1ddc6962198605c66eac093d0388d1bed7085b86fc6db144397e8a15be2c1a30",
+      "bytes": 22070,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/analyse.py"
+    },
+    {
+      "path": "agy-extension/night_queue.py",
+      "sha256": "8088ef88397d2cd9d4aef2c2b458d399a8b914d7fcb009980ef20beb63d952b5",
+      "bytes": 13296,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/night_queue.py"
+    },
+    {
+      "path": "agy-extension/night_queue.ps1",
+      "sha256": "4f2a74b6daf137856d24fd242b45a5a8d28a2cadca2c5326131011c69f2280bf",
+      "bytes": 3900,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/night_queue.ps1"
+    },
+    {
+      "path": "agy-extension/auto_clear.py",
+      "sha256": "9e728d3c82de38bd9e74624b41538ea37270ea6c2c6386eace216be7a516b77e",
+      "bytes": 17023,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/auto_clear.py"
+    },
+    {
+      "path": "agy-extension/explore_spread_agy.py",
+      "sha256": "6d21bbb14ef75a9482b4abd649fb3b4432544501a94ee3519198b92a2a868299",
+      "bytes": 12434,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/explore_spread_agy.py"
+    },
+    {
+      "path": "agy-extension/agent/dnli-subject.md",
+      "sha256": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5",
+      "bytes": 244,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/agent/dnli-subject.md"
+    },
+    {
+      "path": "agy-extension/source_hashes.json",
+      "sha256": "fa3bf37c9a234a392da7c55d77f798de5f5af83f934a56f1431ac8e67c60fd01",
+      "bytes": 6421,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/source_hashes.json"
+    },
+    {
+      "path": "agy-extension/speech_updates.json",
+      "sha256": "7693a35f1f260bcce2e78fd93ae3b755e9e605159f9d9d8b1f6f61400d0249e8",
+      "bytes": 598,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/speech_updates.json"
+    },
+    {
+      "path": "agy-extension/brief-e-agy.md",
+      "sha256": "ab73524534e31e3c0340eca4c4515798ef1b1de652883a6cd07a19b418f29a5f",
+      "bytes": 11063,
+      "path_replacements": 0,
+      "verbatim": true,
+      "source_sha256": "ab73524534e31e3c0340eca4c4515798ef1b1de652883a6cd07a19b418f29a5f",
+      "path_prefix_counts": {
+        "F:\\conda-envs\\llm\\": 1
+      },
+      "source": "dnli/../dnli-agy/brief-e-agy.md"
+    },
+    {
+      "path": "agy-extension/stub_agy.py",
+      "sha256": "dd192a410d2d458eed5004754e1c2b7b6af9df59e636e8c5a68defe9e628e7b0",
+      "bytes": 2090,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/stub_agy.py"
+    },
+    {
+      "path": "agy-extension/test_agy_settings.py",
+      "sha256": "eb78ea8b7adb420a8356ddf13b7be23f2b423ec02d9a5222e1b0fb5993691213",
+      "bytes": 9585,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/test_agy_settings.py"
+    },
+    {
+      "path": "agy-extension/test_agy_subject.py",
+      "sha256": "5b7b6f7ef6d5895f8c7ee50c6a2cb9ce12489b050688e10a6c70fa8d81d59d15",
+      "bytes": 14355,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/test_agy_subject.py"
+    },
+    {
+      "path": "agy-extension/test_analyse_agy.py",
+      "sha256": "726445a3ba9e645f500bebd0e256d0e25b40d016fa9d3ca6041a5f3734c84cc3",
+      "bytes": 9529,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/test_analyse_agy.py"
+    },
+    {
+      "path": "agy-extension/test_analysis.py",
+      "sha256": "6e7537a7e90a50313ac14fb184d1a1b592cfd3a0abd2adbc2a19abab1701881a",
+      "bytes": 36730,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/test_analysis.py"
+    },
+    {
+      "path": "agy-extension/test_auto_clear.py",
+      "sha256": "8303744bf438a18b3b68979bd0d0e932b3051715d2b0c9d2528be8d0b1037e95",
+      "bytes": 46228,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/test_auto_clear.py"
+    },
+    {
+      "path": "agy-extension/test_explore_spread_agy.py",
+      "sha256": "9866df08e334ed156e3b1b986b059631ddf05f5581a826226883381198e79ffc",
+      "bytes": 6910,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/test_explore_spread_agy.py"
+    },
+    {
+      "path": "agy-extension/test_night_queue.py",
+      "sha256": "1ad55b3ca69b02f068b38c484abedaaf2f1b7aad23f282282e15f41d84cac8d8",
+      "bytes": 10237,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/test_night_queue.py"
+    },
+    {
+      "path": "agy-extension/test_night_queue_ps1.py",
+      "sha256": "9bd892d42c32a8f3bc1e616f45e537365fe8adc098436d544bde76daf2e177f3",
+      "bytes": 12055,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/test_night_queue_ps1.py"
+    },
+    {
+      "path": "agy-extension/test_parse.py",
+      "sha256": "8e7ca1f51cbcd12c7dd34ce2599332e3acf223efb61d286cd51a09b77799eae8",
+      "bytes": 14949,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/test_parse.py"
+    },
+    {
+      "path": "agy-extension/test_prompts.py",
+      "sha256": "5a9448714c294be0c5041f23375c5bcf7011d0a0303896a5afd05888ff727134",
+      "bytes": 6083,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/test_prompts.py"
+    },
+    {
+      "path": "agy-extension/test_run_agy.py",
+      "sha256": "5ed93b0cba96b60d56bc91ca697efaec7e10da9a811407a8d32927c9b77f0529",
+      "bytes": 12913,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/test_run_agy.py"
+    },
+    {
+      "path": "agy-extension/analysis_formal.json",
+      "sha256": "5a1c48feca909d497057bc0b8b30f66f71d9dec941f2030a137427b4bae135e3",
+      "bytes": 190142,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/analysis_formal.json"
+    },
+    {
+      "path": "agy-extension/analysis_freeze.json",
+      "sha256": "414def7314d40a57b4214d4757d811a01de13fd49f3dfdafd7ab8f59e263eba6",
+      "bytes": 888,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/analysis_freeze.json"
+    },
+    {
+      "path": "agy-extension/explore_spread_agy.json",
+      "sha256": "c411a1cba0867a766d0057f8c2d09e2790ff36bd56bb9adf7087f6d9eee8f162",
+      "bytes": 106796,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/explore_spread_agy.json"
+    },
+    {
+      "path": "agy-extension/explore-spread-agy.md",
+      "sha256": "b0b5d57612827d52cc787ac30eb9e9dea13e50a1c0dc20548c616952e826d023",
+      "bytes": 23579,
+      "path_replacements": 0,
+      "source": "dnli/../dnli-agy/explore-spread-agy.md"
+    },
+    {
+      "path": "agy-extension/probe-findings.md",
+      "sha256": "c963a13e23ac471da04ebf31608859986aaa8b7b3cd92226120fb3c99a4e1d01",
+      "bytes": 10712,
+      "path_replacements": 1,
+      "source": "dnli/../dnli-agy/probe-findings.md"
+    },
+    {
+      "path": "agy-extension/results_dev_agy_claude-sonnet-5-5-medium.jsonl",
+      "sha256": "c0505aa34ecd4f4404ee0867b14056f949345d83b34a58b1dec9f23237900f6c",
+      "bytes": 825068,
+      "path_replacements": 0,
+      "verbatim": true,
+      "source_sha256": "c0505aa34ecd4f4404ee0867b14056f949345d83b34a58b1dec9f23237900f6c",
+      "path_prefix_counts": {
+        "E:\\Claude\\research\\connecting-dots\\dnli-agy\\raw\\": 301
+      },
+      "source": "dnli/../dnli-agy/results_dev_agy_claude-sonnet-5-5-medium.jsonl"
+    },
+    {
+      "path": "agy-extension/run_meta_dev_agy_claude-sonnet-5-5-medium.json",
+      "sha256": "881e99a1d22121444c54e03f33a59267cc8632653b3534f1e2bab064bb902247",
+      "bytes": 783671,
+      "path_replacements": 0,
+      "verbatim": true,
+      "source_sha256": "881e99a1d22121444c54e03f33a59267cc8632653b3534f1e2bab064bb902247",
+      "path_prefix_counts": {
+        "<OTHER_PATH_PATTERN>": 300
+      },
+      "source": "dnli/../dnli-agy/run_meta_dev_agy_claude-sonnet-5-5-medium.json"
+    },
+    {
+      "path": "agy-extension/results_dev_agy_gemini-3.8-flash-high.jsonl",
+      "sha256": "0c7252e8bc6b405dc6b85b1d1c7372d64899bae2e4caeca5699f3f66710ce7ee",
+      "bytes": 824035,
+      "path_replacements": 0,
+      "verbatim": true,
+      "source_sha256": "0c7252e8bc6b405dc6b85b1d1c7372d64899bae2e4caeca5699f3f66710ce7ee",
+      "path_prefix_counts": {
+        "E:\\Claude\\research\\connecting-dots\\dnli-agy\\raw\\": 301
+      },
+      "source": "dnli/../dnli-agy/results_dev_agy_gemini-3.8-flash-high.jsonl"
+    },
+    {
+      "path": "agy-extension/run_meta_dev_agy_gemini-3.8-flash-high.json",
+      "sha256": "ad7951d011894111ce6efa2dd3471505c4c31a3ac4893c0cd93344b0347ee2c6",
+      "bytes": 781865,
+      "path_replacements": 0,
+      "verbatim": true,
+      "source_sha256": "ad7951d011894111ce6efa2dd3471505c4c31a3ac4893c0cd93344b0347ee2c6",
+      "path_prefix_counts": {
+        "<OTHER_PATH_PATTERN>": 300
+      },
+      "source": "dnli/../dnli-agy/run_meta_dev_agy_gemini-3.8-flash-high.json"
+    },
+    {
+      "path": "agy-extension/results_dev_agy_gemini-3.8-flash-low.jsonl",
+      "sha256": "52a43a68e0862ef164c079f37a0adf79097000ecea7ef14e242350b68be57480",
+      "bytes": 828667,
+      "path_replacements": 0,
+      "verbatim": true,
+      "source_sha256": "52a43a68e0862ef164c079f37a0adf79097000ecea7ef14e242350b68be57480",
+      "path_prefix_counts": {
+        "E:\\Claude\\research\\connecting-dots\\dnli-agy\\raw\\": 305
+      },
+      "source": "dnli/../dnli-agy/results_dev_agy_gemini-3.8-flash-low.jsonl"
+    },
+    {
+      "path": "agy-extension/run_meta_dev_agy_gemini-3.8-flash-low.json",
+      "sha256": "82ded5993db4e7a2d2f13a5ca245b9ababde2ed945a1c02d14722f2a4884fddc",
+      "bytes": 781263,
+      "path_replacements": 0,
+      "verbatim": true,
+      "source_sha256": "82ded5993db4e7a2d2f13a5ca245b9ababde2ed945a1c02d14722f2a4884fddc",
+      "path_prefix_counts": {
+        "<OTHER_PATH_PATTERN>": 300
+      },
+      "source": "dnli/../dnli-agy/run_meta_dev_agy_gemini-3.8-flash-low.json"
+    },
+    {
+      "path": "agy-extension/results_dev_agy_gpt-oss-120b-medium.jsonl",
+      "sha256": "99a36722ef9974b0735b1d346c6670ed4b79af8a37dfd99d84d6811d2d9d9b3d",
+      "bytes": 818441,
+      "path_replacements": 0,
+      "verbatim": true,
+      "source_sha256": "99a36722ef9974b0735b1d346c6670ed4b79af8a37dfd99d84d6811d2d9d9b3d",
+      "path_prefix_counts": {
+        "E:\\Claude\\research\\connecting-dots\\dnli-agy\\raw\\": 300
+      },
+      "source": "dnli/../dnli-agy/results_dev_agy_gpt-oss-120b-medium.jsonl"
+    },
+    {
+      "path": "agy-extension/run_meta_dev_agy_gpt-oss-120b-medium.json",
+      "sha256": "83be5a5c49040d212bad77b0db8d0ea1ecb671d0e00bba2bb2be57c50cbc65da",
+      "bytes": 780643,
+      "path_replacements": 0,
+      "verbatim": true,
+      "source_sha256": "83be5a5c49040d212bad77b0db8d0ea1ecb671d0e00bba2bb2be57c50cbc65da",
+      "path_prefix_counts": {
+        "<OTHER_PATH_PATTERN>": 300
+      },
+      "source": "dnli/../dnli-agy/run_meta_dev_agy_gpt-oss-120b-medium.json"
+    },
+    {
+      "path": "agy-extension/results_formal_agy_claude-sonnet-5-5-medium.jsonl",
+      "sha256": "cf1e34679e34c25f50bc92e925ebb75d074380cc68ad2abfd63a52d24011326c",
+      "bytes": 3859735,
+      "path_replacements": 0,
+      "verbatim": true,
+      "source_sha256": "cf1e34679e34c25f50bc92e925ebb75d074380cc68ad2abfd63a52d24011326c",
+      "path_prefix_counts": {
+        "E:\\Claude\\research\\connecting-dots\\dnli-agy\\raw\\": 1406
+      },
+      "source": "dnli/../dnli-agy/results_formal_agy_claude-sonnet-5-5-medium.jsonl"
+    },
+    {
+      "path": "agy-extension/run_meta_formal_agy_claude-sonnet-5-5-medium.json",
+      "sha256": "c5191bcf26feb7d2c1d340a458bc19270d9bc0bec8a9ee4b1e33640d745d04a0",
+      "bytes": 3652401,
+      "path_replacements": 0,
+      "verbatim": true,
+      "source_sha256": "c5191bcf26feb7d2c1d340a458bc19270d9bc0bec8a9ee4b1e33640d745d04a0",
+      "path_prefix_counts": {
+        "<OTHER_PATH_PATTERN>": 1400
+      },
+      "source": "dnli/../dnli-agy/run_meta_formal_agy_claude-sonnet-5-5-medium.json"
+    },
+    {
+      "path": "agy-extension/results_formal_agy_gemini-3.8-flash-high.jsonl",
+      "sha256": "5b28c1cc2470428e1e4ea06df1e3bf3df86b9a2172e5237f59553fd4374a1d51",
+      "bytes": 3855490,
+      "path_replacements": 0,
+      "verbatim": true,
+      "source_sha256": "5b28c1cc2470428e1e4ea06df1e3bf3df86b9a2172e5237f59553fd4374a1d51",
+      "path_prefix_counts": {
+        "E:\\Claude\\research\\connecting-dots\\dnli-agy\\raw\\": 1405
+      },
+      "source": "dnli/../dnli-agy/results_formal_agy_gemini-3.8-flash-high.jsonl"
+    },
+    {
+      "path": "agy-extension/run_meta_formal_agy_gemini-3.8-flash-high.json",
+      "sha256": "39b1f84cb13b3bc165a7bcff4a8917d9add31243ca742e55222ff27835ba1f03",
+      "bytes": 3643995,
+      "path_replacements": 0,
+      "verbatim": true,
+      "source_sha256": "39b1f84cb13b3bc165a7bcff4a8917d9add31243ca742e55222ff27835ba1f03",
+      "path_prefix_counts": {
+        "<OTHER_PATH_PATTERN>": 1400
+      },
+      "source": "dnli/../dnli-agy/run_meta_formal_agy_gemini-3.8-flash-high.json"
+    },
+    {
+      "path": "agy-extension/results_formal_agy_gemini-3.8-flash-low.jsonl",
+      "sha256": "8777648635dd9ad5630769b35336345c3fc106281d461ac704a0a9ecee4e9f63",
+      "bytes": 3845612,
+      "path_replacements": 0,
+      "verbatim": true,
+      "source_sha256": "8777648635dd9ad5630769b35336345c3fc106281d461ac704a0a9ecee4e9f63",
+      "path_prefix_counts": {
+        "E:\\Claude\\research\\connecting-dots\\dnli-agy\\raw\\": 1408
+      },
+      "source": "dnli/../dnli-agy/results_formal_agy_gemini-3.8-flash-low.jsonl"
+    },
+    {
+      "path": "agy-extension/run_meta_formal_agy_gemini-3.8-flash-low.json",
+      "sha256": "c2b11c480a616a6826814582cdc1071ac1dc890a6d27aea98d0824a1dbe86409",
+      "bytes": 3641194,
+      "path_replacements": 0,
+      "verbatim": true,
+      "source_sha256": "c2b11c480a616a6826814582cdc1071ac1dc890a6d27aea98d0824a1dbe86409",
+      "path_prefix_counts": {
+        "<OTHER_PATH_PATTERN>": 1400
+      },
+      "source": "dnli/../dnli-agy/run_meta_formal_agy_gemini-3.8-flash-low.json"
+    },
+    {
+      "path": "agy-extension/results_formal_agy_gpt-oss-120b-medium.jsonl",
+      "sha256": "8ee70a50ab6281b8c99c3904831575e1acc255ab334f586836399a9d28e17724",
+      "bytes": 3837582,
+      "path_replacements": 0,
+      "verbatim": true,
+      "source_sha256": "8ee70a50ab6281b8c99c3904831575e1acc255ab334f586836399a9d28e17724",
+      "path_prefix_counts": {
+        "E:\\Claude\\research\\connecting-dots\\dnli-agy\\raw\\": 1406
+      },
+      "source": "dnli/../dnli-agy/results_formal_agy_gpt-oss-120b-medium.jsonl"
+    },
+    {
+      "path": "agy-extension/run_meta_formal_agy_gpt-oss-120b-medium.json",
+      "sha256": "3d953d6a4098ba99da343a0b582b9676cdbe80b860ed9af45fdfb4c2a2e69259",
+      "bytes": 3638391,
+      "path_replacements": 0,
+      "verbatim": true,
+      "source_sha256": "3d953d6a4098ba99da343a0b582b9676cdbe80b860ed9af45fdfb4c2a2e69259",
+      "path_prefix_counts": {
+        "<OTHER_PATH_PATTERN>": 1400
+      },
+      "source": "dnli/../dnli-agy/run_meta_formal_agy_gpt-oss-120b-medium.json"
+    },
+    {
+      "path": "paper/typst/abstract.typ",
+      "sha256": "5f2cb7bd37746a442c67b2f6fa557894aedadbe8e9a69eefa4d05b7682ed06f8",
+      "bytes": 1766,
+      "path_replacements": 0,
+      "source": "dnli/paper/typst/abstract.typ"
+    },
+    {
+      "path": "paper/typst/body.typ",
+      "sha256": "d520e8649a53947c30d3189d31f9d5a380acd5f8f0dbe6ae1a0d71db0e37593c",
+      "bytes": 89635,
+      "path_replacements": 0,
+      "source": "dnli/paper/typst/body.typ"
+    },
+    {
+      "path": "paper/typst/citation-audit.json",
+      "sha256": "087d3975782a83e8b2b00963d531bbc58f7eda06156f20a92d11a4c40d1ae9ba",
+      "bytes": 6316,
+      "path_replacements": 0,
+      "source": "dnli/paper/typst/citation-audit.json"
+    },
+    {
+      "path": "paper/typst/dnli-arxiv.pdf",
+      "sha256": "fb751d54d3e019db36d2c626adc9ab807f49d0591b4a7ac861c54d9e74ed6625",
+      "bytes": 1528015,
+      "path_replacements": 0,
+      "source": "dnli/paper/typst/dnli-arxiv.pdf"
+    },
+    {
+      "path": "agy-extension/reproduce_public.py",
+      "sha256": "d9e323dd4eacfd27368688de8bef0e96c2815e2fe847a930e5cc08c3bb62f14b",
+      "bytes": 3905,
+      "path_replacements": 0,
+      "source": "template/reproduce_public.py"
+    },
+    {
+      "path": "agy-extension/README.md",
+      "sha256": "a3258a8df7902cada3d85cbcf28d54d8732ae91db274df111de232b8cef967f5",
+      "bytes": 3348,
+      "path_replacements": 0,
+      "source": "template/agy-README.md"
+    },
+    {
       "path": "README.md",
-      "sha256": "c8849d546cd85a4d3b6da924d2fe750789bc78b34123d1984951d3ec8c5a8975",
-      "bytes": 6085,
+      "sha256": "b24933f241790e6397d5ef46e91b337f7c0afbc4b5ff1ab111d354438ca72166",
+      "bytes": 7358,
       "path_replacements": 0,
       "source": "template/README.md"
     },
@@ -535,8 +1061,8 @@
     },
     {
       "path": "DATA_LICENSE.md",
-      "sha256": "2337bf111fbeeaa62dd5a194739341da267a0b5c5ed22c785c01d6a9961ca4d6",
-      "bytes": 1643,
+      "sha256": "f975e0d211db7de3db737004b04f663db6b692e898b7850a7a2b0013f8a20951",
+      "bytes": 1775,
       "path_replacements": 0,
       "source": "template/DATA_LICENSE.md"
     },
@@ -590,6 +1116,13 @@
       "source": "template/references-map.md"
     },
     {
+      "path": "code/PLAN-guide-en.md",
+      "sha256": "544d263d14b3c5662154a3b09a2f0ba3ad6071ebdac668b6bae4450f40ff6a07",
+      "bytes": 4737,
+      "path_replacements": 0,
+      "source": "template/PLAN-guide-en.md"
+    },
+    {
       "path": "data/items_text.json",
       "sha256": "54e08df0874587377a259925f49ad8796de6ac4d05c0729fbfa7ae0cf479f67c",
       "bytes": 87571,
@@ -597,10 +1130,35 @@
       "source": "items_text.json (provided)"
     }
   ],
-  "file_count": 85,
-  "total_bytes": 11001716,
-  "path_replacements": 38,
+  "file_count": 149,
+  "total_bytes": 51060968,
+  "path_replacements": 39,
   "items_text_included": true,
+  "verbatim_files": [
+    "agy-extension/brief-e-agy.md",
+    "agy-extension/results_dev_agy_claude-sonnet-5-5-medium.jsonl",
+    "agy-extension/results_dev_agy_gemini-3.8-flash-high.jsonl",
+    "agy-extension/results_dev_agy_gemini-3.8-flash-low.jsonl",
+    "agy-extension/results_dev_agy_gpt-oss-120b-medium.jsonl",
+    "agy-extension/results_formal_agy_claude-sonnet-5-5-medium.jsonl",
+    "agy-extension/results_formal_agy_gemini-3.8-flash-high.jsonl",
+    "agy-extension/results_formal_agy_gemini-3.8-flash-low.jsonl",
+    "agy-extension/results_formal_agy_gpt-oss-120b-medium.jsonl",
+    "agy-extension/run_meta_dev_agy_claude-sonnet-5-5-medium.json",
+    "agy-extension/run_meta_dev_agy_gemini-3.8-flash-high.json",
+    "agy-extension/run_meta_dev_agy_gemini-3.8-flash-low.json",
+    "agy-extension/run_meta_dev_agy_gpt-oss-120b-medium.json",
+    "agy-extension/run_meta_formal_agy_claude-sonnet-5-5-medium.json",
+    "agy-extension/run_meta_formal_agy_gemini-3.8-flash-high.json",
+    "agy-extension/run_meta_formal_agy_gemini-3.8-flash-low.json",
+    "agy-extension/run_meta_formal_agy_gpt-oss-120b-medium.json"
+  ],
+  "verbatim_path_note": "Counts use the unchanged path heuristics. OTHER_PATH_PATTERN includes regex text such as escaped RESOURCE_EXHAUSTED word boundaries, not necessarily a filesystem path.",
+  "verbatim_path_prefix_counts": {
+    "<OTHER_PATH_PATTERN>": 6800,
+    "E:\\Claude\\research\\connecting-dots\\dnli-agy\\raw\\": 6832,
+    "F:\\conda-envs\\llm\\": 1
+  },
   "sensitive_findings": [
     {
       "file": "README.md",
@@ -608,7 +1166,78 @@
       "count": 1,
       "examples": [
         {
-          "line": 118,
+          "line": 145,
+          "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0"
+        }
+      ]
+    },
+    {
+      "file": "agy-extension/agy_subject.py",
+      "kind": "credential_term",
+      "count": 1,
+      "examples": [
+        {
+          "line": 279,
+          "match_sha256": "16f0ee47f993d6270c9059450473eea493ca8ae037f8877782ae2bc176f24d18"
+        }
+      ]
+    },
+    {
+      "file": "agy-extension/brief-e-agy.md",
+      "kind": "credential_term",
+      "count": 2,
+      "examples": [
+        {
+          "line": 23,
+          "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0"
+        },
+        {
+          "line": 59,
+          "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0"
+        }
+      ]
+    },
+    {
+      "file": "agy-extension/probe-findings.md",
+      "kind": "credential_term",
+      "count": 4,
+      "examples": [
+        {
+          "line": 17,
+          "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0"
+        },
+        {
+          "line": 23,
+          "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0"
+        },
+        {
+          "line": 42,
+          "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0"
+        },
+        {
+          "line": 49,
+          "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0"
+        }
+      ]
+    },
+    {
+      "file": "agy-extension/probe_agy.py",
+      "kind": "credential_term",
+      "count": 1,
+      "examples": [
+        {
+          "line": 49,
+          "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0"
+        }
+      ]
+    },
+    {
+      "file": "agy-extension/workspace_temp.py",
+      "kind": "credential_term",
+      "count": 1,
+      "examples": [
+        {
+          "line": 2,
           "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0"
         }
       ]
@@ -716,11 +1345,11 @@
       "count": 2,
       "examples": [
         {
-          "line": 63,
+          "line": 64,
           "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0"
         },
         {
-          "line": 73,
+          "line": 74,
           "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0"
         }
       ]
@@ -732,6 +1361,25 @@
       "examples": [
         {
           "line": 49,
+          "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0"
+        }
+      ]
+    },
+    {
+      "file": "paper/typst/body.typ",
+      "kind": "credential_term",
+      "count": 3,
+      "examples": [
+        {
+          "line": 54,
+          "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0"
+        },
+        {
+          "line": 64,
+          "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0"
+        },
+        {
+          "line": 126,
           "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0"
         }
       ]
@@ -785,21 +1433,27 @@
   ],
   "scan_note": "Heuristic review findings; not proof of absence. Binary figures are copied byte-for-byte; text only is scanned.",
   "path_rewrites": {
+    "agy-extension/night_queue.ps1": [
+      [
+        "<LOCAL_PATH>",
+        "python.exe"
+      ],
+      [
+        "<LOCAL_PATH>",
+        "agy"
+      ]
+    ],
     "paper/make_figures.py": [
       [
         "DATA = HERE.parent",
         "DATA = HERE.parent / \"code\""
       ],
       [
-        "OUT = HERE / \"figures\"",
-        "OUT = HERE / \"figures\" / \"en\""
+        "AGY_DATA = DATA.parent / \"dnli-agy\"",
+        "AGY_DATA = DATA.parent / \"agy-extension\""
       ]
     ],
     "paper/test_make_figures.py": [
-      [
-        "cls.en_output = mf.OUT / \"en\"",
-        "cls.en_output = mf.OUT"
-      ],
       [
         "mf.DATA / \"formal-results.md\"",
         "mf.HERE / \"fixtures\" / \"endpoints.md\""

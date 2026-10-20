@@ -1,0 +1,16 @@
+{
+ "formal": {
+  "agy:gpt-oss-120b-medium": "73d8e3ea042b12ef6fc900b5390aa53bb19f4559f7e15e6f70127a7b619affa3",
+  "_analysis_code": {
+   "analysis.py": "311ea5ecbed7283925dc6a57684976f12540decd53ffdbc1a4dc72cb768cb2be",
+   "analyse.py": "1ddc6962198605c66eac093d0388d1bed7085b86fc6db144397e8a15be2c1a30",
+   "run_agy.py": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2",
+   "speech_updates.json": "7693a35f1f260bcce2e78fd93ae3b755e9e605159f9d9d8b1f6f61400d0249e8",
+   "settings": "3dfee05d603a4a2b2252fbe116d33dd1fe9ebd7a181e2808841ed3eba1ea8f0b",
+   "B": 5000
+  },
+  "agy:claude-sonnet-5-5-medium": "f15587161c65c0435a3dd003f2e9f8f12cb397bd384a84c8121293e4404b5bab",
+  "agy:gemini-3.8-flash-low": "a0bef985cdfb35f6f665ec875b6aeee80d5a73431df4ae89bc729ef838bd6b46",
+  "agy:gemini-3.8-flash-high": "1fe55bc4f78dc4213eeebdc1ba87f5a05fa80994ffc3fa788d8298a52a96840c"
+ }
+}

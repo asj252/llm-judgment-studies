@@ -21,7 +21,9 @@ The upstream repository MIT software license does not relicense SNLI text.
 The download ledger also lists ATOMIC, which is not included in this release.
 
 Model-generated responses come from Qwen/Qwen3-8B (thinking disabled),
-allenai/OLMo-2-1124-7B-Instruct, and gpt-6.1-sol via Codex CLI.
+allenai/OLMo-2-1124-7B-Instruct, and gpt-6.1-sol via Codex CLI; the
+`agy-extension/` records come from gpt-oss-120b (medium), claude-sonnet-5.5
+(medium), and gemini-3.8-flash (low and high reasoning effort) via the agy CLI.
 They are identified separately from human-authored source text; this notice
 makes no additional rights claim over the models or their outputs. Consult
 applicable model/provider terms for reuse. Metadata and probabilities are

@@ -6,8 +6,8 @@ One repository for a series of studies on how large language models report proba
 
 | Folder | Study | Status |
 |---|---|---|
-| [`dnli/`](dnli/) | *Hearsay or Fact? How Framing and Elicitation Shape LLM Probability Updates* (δ-NLI) | Frozen experiment and English manuscript (v1: three model configurations). |
+| [`dnli/`](dnli/) | *Hearsay or Fact? How Framing and Elicitation Shape LLM Probability Updates* (δ-NLI) | Frozen experiment, the extension with four further configurations (`dnli/agy-extension/`), and the English manuscript v2 (seven configurations). |
 
-Planned additions (not yet included): the δ-NLI extension with four additional model configurations, and a follow-up study of elicitation format in anchoring, hindsight, base-rate, conjunction and status-quo/default paradigms.
+Planned addition (not yet included): a follow-up study of elicitation format in anchoring, hindsight, base-rate, conjunction and status-quo/default paradigms; its frozen plan will be published here before its formal runs.
 
 Raw execution logs, model weights and credentials are not part of this repository. See each study's README for what is included and how to reproduce its analysis.

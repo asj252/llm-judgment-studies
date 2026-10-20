@@ -1,0 +1,7267 @@
+{
+ "which": "formal",
+ "mode": {
+  "mode": "正式",
+  "B": 5000,
+  "B_frozen": 5000,
+  "notes": []
+ },
+ "status": "完整核账",
+ "accounting": {
+  "n_planned_units_per_config": 1400,
+  "configs": {
+   "agy:gpt-oss-120b-medium": {
+    "n_planned_units": 1400,
+    "frozen": true,
+    "valid_records": 1400,
+    "ok": 1400,
+    "not_attempted": 0,
+    "extra_units": 0,
+    "completion_rate": 1.0,
+    "ok_rate_of_planned": 1.0
+   },
+   "agy:claude-sonnet-5-5-medium": {
+    "n_planned_units": 1400,
+    "frozen": true,
+    "valid_records": 1400,
+    "ok": 1400,
+    "not_attempted": 0,
+    "extra_units": 0,
+    "completion_rate": 1.0,
+    "ok_rate_of_planned": 1.0
+   },
+   "agy:gemini-3.8-flash-low": {
+    "n_planned_units": 1400,
+    "frozen": true,
+    "valid_records": 1400,
+    "ok": 1400,
+    "not_attempted": 0,
+    "extra_units": 0,
+    "completion_rate": 1.0,
+    "ok_rate_of_planned": 1.0
+   },
+   "agy:gemini-3.8-flash-high": {
+    "n_planned_units": 1400,
+    "frozen": true,
+    "valid_records": 1400,
+    "ok": 1400,
+    "not_attempted": 0,
+    "extra_units": 0,
+    "completion_rate": 1.0,
+    "ok_rate_of_planned": 1.0
+   }
+  },
+  "missing_configs": [],
+  "status": "完整核账"
+ },
+ "ignored_frozen_configs": [],
+ "p_note": "bootstrap p：双侧 min(1, 2·min(P(r≤0), P(r≥0)))，单侧 P(d·r≤0)；B=5000 时分辨率 0.0002–0.0004，p=0 只表示没有重复落在 0 或另一侧。区间与界用不插值的次序统计量（双侧 k=floor(α·B/2)，单侧 k=floor(α·B)），与 p 同一套计数。Holm 的拒绝状态按完整题子集定；最终判定再经缺失保护：缺失贡献按最不利值代入后重做整簇 bootstrap（保守区间），「区间下界超过阈值（缺失按最不利值代入）」只在保守界严格超过阈值时给出；complete_subset 与 missing_protection 分开列出。家族区间是 Holm 逐级调整水平后的区间，不是联合置信区间。判定用语里的「区间下界」按判定方向取号。家族只控制每个配置内 {H1,H2,H4a,H4b} 的错误率；跨配置只作描述。",
+ "binding": {
+  "configs": [
+   "agy:claude-sonnet-5-5-medium",
+   "agy:gemini-3.8-flash-high",
+   "agy:gemini-3.8-flash-low",
+   "agy:gpt-oss-120b-medium"
+  ],
+  "records_checked": 5600,
+  "current": {
+   "../dnli/split.json": "3e09db9ac6e10375bf17e6254fbb6ad5992798f2a03a1ba93c4f896b5eeaf39b",
+   "../dnli/raw/items_text.json": "54e08df0874587377a259925f49ad8796de6ac4d05c0729fbfa7ae0cf479f67c",
+   "prompts.py": "0192adda8087ec9c7515f169ca5cdaf2d01127e4eb6ab87a333c6ab2d1abae87",
+   "parse.py": "9c596c1d3b63d9ab5c423461a502af540ba27fb26afc5c0679a158973c5ef8c8",
+   "run_agy.py": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2",
+   "templates": "8d107ab0e3142f91e0ec816b16a64f9f3f6e8e07eeb1e4000fef372dcff3ee66",
+   "parse_rules": "2d8f229712ee56416548c8f6cf1c04e6cfd6b463fe0e0776134aefc438af23ed",
+   "materials_digest": "ccd5097602b06e09293f6790136647db80fdcb765592f377b04b2758984c2a72"
+  },
+  "common_materials": [
+   "../dnli/split.json",
+   "../dnli/raw/items_text.json",
+   "prompts.py",
+   "parse.py",
+   "run_agy.py",
+   "templates",
+   "parse_rules",
+   "materials_digest"
+  ]
+ },
+ "analysis_code": {
+  "analysis.py": "311ea5ecbed7283925dc6a57684976f12540decd53ffdbc1a4dc72cb768cb2be",
+  "analyse.py": "1ddc6962198605c66eac093d0388d1bed7085b86fc6db144397e8a15be2c1a30",
+  "run_agy.py": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2",
+  "speech_updates.json": "7693a35f1f260bcce2e78fd93ae3b755e9e605159f9d9d8b1f6f61400d0249e8",
+  "settings": "3dfee05d603a4a2b2252fbe116d33dd1fe9ebd7a181e2808841ed3eba1ea8f0b",
+  "B": 5000
+ },
+ "filter": {
+  "agy:gpt-oss-120b-medium": {
+   "kept": 1400,
+   "dropped": {
+    "excluded": 1
+   },
+   "frozen_fingerprint": "73d8e3ea042b12ef6fc900b5390aa53bb19f4559f7e15e6f70127a7b619affa3"
+  },
+  "agy:claude-sonnet-5-5-medium": {
+   "kept": 1400,
+   "dropped": {
+    "excluded": 1
+   },
+   "frozen_fingerprint": "f15587161c65c0435a3dd003f2e9f8f12cb397bd384a84c8121293e4404b5bab"
+  },
+  "agy:gemini-3.8-flash-low": {
+   "kept": 1400,
+   "dropped": {
+    "excluded": 0
+   },
+   "frozen_fingerprint": "a0bef985cdfb35f6f665ec875b6aeee80d5a73431df4ae89bc729ef838bd6b46"
+  },
+  "agy:gemini-3.8-flash-high": {
+   "kept": 1400,
+   "dropped": {
+    "excluded": 0
+   },
+   "frozen_fingerprint": "1fe55bc4f78dc4213eeebdc1ba87f5a05fa80994ffc3fa788d8298a52a96840c"
+  }
+ },
+ "n_planned": 120,
+ "n_planned_by_config": {
+  "agy:gpt-oss-120b-medium": 120,
+  "agy:claude-sonnet-5-5-medium": 120,
+  "agy:gemini-3.8-flash-low": 120,
+  "agy:gemini-3.8-flash-high": 120
+ },
+ "n_repeat": 20,
+ "families_frozen": {
+  "config:agy:gemini-3.8-flash-low": [
+   [
+    "H1",
+    "agy:gemini-3.8-flash-low"
+   ],
+   [
+    "H2",
+    "agy:gemini-3.8-flash-low"
+   ],
+   [
+    "H4a",
+    "agy:gemini-3.8-flash-low"
+   ],
+   [
+    "H4b",
+    "agy:gemini-3.8-flash-low"
+   ]
+  ],
+  "config:agy:gemini-3.8-flash-high": [
+   [
+    "H1",
+    "agy:gemini-3.8-flash-high"
+   ],
+   [
+    "H2",
+    "agy:gemini-3.8-flash-high"
+   ],
+   [
+    "H4a",
+    "agy:gemini-3.8-flash-high"
+   ],
+   [
+    "H4b",
+    "agy:gemini-3.8-flash-high"
+   ]
+  ],
+  "config:agy:claude-sonnet-5-5-medium": [
+   [
+    "H1",
+    "agy:claude-sonnet-5-5-medium"
+   ],
+   [
+    "H2",
+    "agy:claude-sonnet-5-5-medium"
+   ],
+   [
+    "H4a",
+    "agy:claude-sonnet-5-5-medium"
+   ],
+   [
+    "H4b",
+    "agy:claude-sonnet-5-5-medium"
+   ]
+  ],
+  "config:agy:gpt-oss-120b-medium": [
+   [
+    "H1",
+    "agy:gpt-oss-120b-medium"
+   ],
+   [
+    "H2",
+    "agy:gpt-oss-120b-medium"
+   ],
+   [
+    "H4a",
+    "agy:gpt-oss-120b-medium"
+   ],
+   [
+    "H4b",
+    "agy:gpt-oss-120b-medium"
+   ]
+  ]
+ },
+ "families": {
+  "config:agy:gemini-3.8-flash-low": {
+   "members": [
+    [
+     "H1",
+     "agy:gemini-3.8-flash-low"
+    ],
+    [
+     "H2",
+     "agy:gemini-3.8-flash-low"
+    ],
+    [
+     "H4a",
+     "agy:gemini-3.8-flash-low"
+    ],
+    [
+     "H4b",
+     "agy:gemini-3.8-flash-low"
+    ]
+   ],
+   "rows": [
+    {
+     "test": "H1",
+     "config": "agy:gemini-3.8-flash-low",
+     "sided": 1,
+     "direction": 1,
+     "min_effect": 5.0,
+     "n_planned": 120,
+     "n_common": 120,
+     "n_clusters": 120,
+     "point": 26.64125,
+     "B": 5000,
+     "p": 0.0,
+     "companion": {
+      "n_common": 120,
+      "n_planned": 120,
+      "stated_direct": {
+       "n": 120,
+       "mean_s_item": 26.64125,
+       "n_prior_missing": 0,
+       "mean_delta_S": 26.855,
+       "mean_delta_W": -26.427500000000002,
+       "n_delta": 120,
+       "consistent_rate": 0.8041666666666667,
+       "reverse_rate": 0.0625,
+       "mean_abs_delta": 28.257916666666667,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      }
+     },
+     "rank": 0,
+     "alpha_adj": 0.0125,
+     "ci_level": 0.9875,
+     "judgment": {
+      "alpha": 0.0125,
+      "sided": 1,
+      "bound": 23.16125,
+      "bound_opposite": 29.970833333333335,
+      "rejected": true,
+      "sign": 1,
+      "near": 23.16125,
+      "strength": "bound_exceeds",
+      "label": "预测方向（陈述下往标签方向移动）：区间下界超过阈值"
+     },
+     "raw": {
+      "ci95_two_sided": [
+       23.632916666666667,
+       29.5625
+      ],
+      "one_sided_95": 24.141666666666666
+     },
+     "holm_stopped": false,
+     "verdict_before_bounds": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+     "complete_subset": {
+      "n": 120,
+      "point": 26.64125,
+      "p": 0.0,
+      "alpha": 0.0125,
+      "interval_two_sided": [
+       22.887083333333333,
+       30.329166666666666
+      ],
+      "judgment": "预测方向（陈述下往标签方向移动）：区间下界超过阈值"
+     },
+     "missing_protection": {
+      "n_missing_cells": 0,
+      "n_pairs_with_missing": 0,
+      "point_bounds": [
+       26.64125,
+       26.64125
+      ],
+      "substitution": [
+       0.0,
+       100.0
+      ],
+      "conservative_bound": 23.16125,
+      "label": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "retained_strength": "bound_exceeds"
+     },
+     "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+     "opposite_direction": null,
+     "final_state": {
+      "holm": "rejected",
+      "sign": 1,
+      "complete_strength": "bound_exceeds",
+      "retained_strength": "bound_exceeds",
+      "directional": true,
+      "downgraded": false,
+      "opposite_retained_strength": null
+     }
+    },
+    {
+     "test": "H2",
+     "config": "agy:gemini-3.8-flash-low",
+     "sided": 1,
+     "direction": 1,
+     "min_effect": 5.0,
+     "n_planned": 120,
+     "n_common": 120,
+     "n_clusters": 120,
+     "point": 4.085,
+     "B": 5000,
+     "p": 0.0,
+     "companion": {
+      "n_common": 120,
+      "n_planned": 120,
+      "stated_direct": {
+       "n": 120,
+       "mean_s_item": 26.64125,
+       "n_prior_missing": 0,
+       "mean_delta_S": 26.855,
+       "mean_delta_W": -26.427500000000002,
+       "n_delta": 120,
+       "consistent_rate": 0.8041666666666667,
+       "reverse_rate": 0.0625,
+       "mean_abs_delta": 28.257916666666667,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      },
+      "reported_direct": {
+       "n": 120,
+       "mean_s_item": 22.55625,
+       "n_prior_missing": 0,
+       "mean_delta_S": 25.52583333333333,
+       "mean_delta_W": -19.586666666666666,
+       "n_delta": 120,
+       "consistent_rate": 0.7416666666666667,
+       "reverse_rate": 0.09166666666666666,
+       "mean_abs_delta": 24.797916666666666,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      },
+      "reading": "转述改变方向（转述下反向率 0.092 > 陈述 0.062）；不写「打折扣」"
+     },
+     "rank": 1,
+     "alpha_adj": 0.016666666666666666,
+     "ci_level": 0.9833333333333333,
+     "judgment": {
+      "alpha": 0.016666666666666666,
+      "sided": 1,
+      "bound": 2.245833333333333,
+      "bound_opposite": 6.1241666666666665,
+      "rejected": true,
+      "sign": 1,
+      "near": 2.245833333333333,
+      "strength": "below",
+      "label": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值"
+     },
+     "raw": {
+      "ci95_two_sided": [
+       2.3833333333333333,
+       5.945833333333334
+      ],
+      "one_sided_95": 2.625
+     },
+     "holm_stopped": false,
+     "verdict_before_bounds": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+     "complete_subset": {
+      "n": 120,
+      "point": 4.085,
+      "p": 0.0,
+      "alpha": 0.016666666666666666,
+      "interval_two_sided": [
+       2.0433333333333334,
+       6.493333333333334
+      ],
+      "judgment": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值"
+     },
+     "missing_protection": {
+      "n_missing_cells": 0,
+      "n_pairs_with_missing": 0,
+      "point_bounds": [
+       4.085,
+       4.085
+      ],
+      "substitution": [
+       0.0,
+       100.0
+      ],
+      "conservative_bound": 2.245833333333333,
+      "label": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+      "retained_strength": "below"
+     },
+     "verdict": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+     "opposite_direction": null,
+     "final_state": {
+      "holm": "rejected",
+      "sign": 1,
+      "complete_strength": "below",
+      "retained_strength": "below",
+      "directional": true,
+      "downgraded": false,
+      "opposite_retained_strength": null
+     }
+    },
+    {
+     "test": "H4a",
+     "config": "agy:gemini-3.8-flash-low",
+     "sided": 1,
+     "direction": 1,
+     "min_effect": 0.1,
+     "n_planned": 120,
+     "n_common": 120,
+     "n_clusters": 120,
+     "point": 0.1625,
+     "B": 5000,
+     "p": 0.0,
+     "companion": {
+      "n_common": 120,
+      "n_planned": 120,
+      "direct": {
+       "n": 120,
+       "prior|-": 0.2916666666666667,
+       "stated|S": 0.3416666666666667,
+       "stated|W": 0.625,
+       "e_mean": 0.3875
+      },
+      "multi": {
+       "n": 120,
+       "prior|-": 0.175,
+       "stated|S": 0.11666666666666667,
+       "stated|W": 0.43333333333333335,
+       "e_mean": 0.225
+      },
+      "e_direct_minus_e_multi": 0.1625
+     },
+     "rank": 2,
+     "alpha_adj": 0.025,
+     "ci_level": 0.975,
+     "judgment": {
+      "alpha": 0.025,
+      "sided": 1,
+      "bound": 0.12291666666666666,
+      "bound_opposite": 0.20416666666666666,
+      "rejected": true,
+      "sign": 1,
+      "near": 0.12291666666666666,
+      "strength": "bound_exceeds",
+      "label": "预测方向（多估计的聚合端点率较低）：区间下界超过阈值"
+     },
+     "raw": {
+      "ci95_two_sided": [
+       0.12291666666666666,
+       0.20416666666666666
+      ],
+      "one_sided_95": 0.12916666666666668
+     },
+     "holm_stopped": false,
+     "verdict_before_bounds": "预测方向（多估计的聚合端点率较低）：区间下界超过阈值",
+     "complete_subset": {
+      "n": 120,
+      "point": 0.1625,
+      "p": 0.0,
+      "alpha": 0.025,
+      "interval_two_sided": [
+       0.11666666666666667,
+       0.20833333333333334
+      ],
+      "judgment": "预测方向（多估计的聚合端点率较低）：区间下界超过阈值"
+     },
+     "missing_protection": {
+      "n_missing_cells": 0,
+      "n_pairs_with_missing": 0,
+      "point_bounds": [
+       0.1625,
+       0.1625
+      ],
+      "substitution": [
+       50.0,
+       0.0
+      ],
+      "conservative_bound": 0.12291666666666666,
+      "label": "预测方向（多估计的聚合端点率较低）：区间下界超过阈值",
+      "retained_strength": "bound_exceeds"
+     },
+     "verdict": "预测方向（多估计的聚合端点率较低）：区间下界超过阈值",
+     "opposite_direction": null,
+     "final_state": {
+      "holm": "rejected",
+      "sign": 1,
+      "complete_strength": "bound_exceeds",
+      "retained_strength": "bound_exceeds",
+      "directional": true,
+      "downgraded": false,
+      "opposite_retained_strength": null
+     }
+    },
+    {
+     "test": "H4b",
+     "config": "agy:gemini-3.8-flash-low",
+     "sided": 2,
+     "direction": 0,
+     "min_effect": 5.0,
+     "n_planned": 120,
+     "n_common": 120,
+     "n_clusters": 120,
+     "point": -2.4781458333333335,
+     "B": 5000,
+     "p": 0.0,
+     "companion": {
+      "n_common": 120,
+      "n_planned": 120,
+      "stated_direct": {
+       "n": 120,
+       "mean_s_item": 26.64125,
+       "n_prior_missing": 0,
+       "mean_delta_S": 26.855,
+       "mean_delta_W": -26.427500000000002,
+       "n_delta": 120,
+       "consistent_rate": 0.8041666666666667,
+       "reverse_rate": 0.0625,
+       "mean_abs_delta": 28.257916666666667,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      },
+      "stated_multi": {
+       "n": 120,
+       "mean_s_item": 24.163104166666667,
+       "n_prior_missing": 0,
+       "mean_delta_S": 25.639935833333332,
+       "mean_delta_W": -22.686272499999998,
+       "n_delta": 120,
+       "consistent_rate": 0.8458333333333333,
+       "reverse_rate": 0.13333333333333333,
+       "mean_abs_delta": 26.353581666666667,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      }
+     },
+     "rank": 3,
+     "alpha_adj": 0.05,
+     "ci_level": 0.95,
+     "judgment": {
+      "alpha": 0.05,
+      "sided": 2,
+      "interval": [
+       -3.6769375000000006,
+       -1.357979166666667
+      ],
+      "rejected": true,
+      "sign": -1,
+      "near": -1.357979166666667,
+      "strength": "below",
+      "label": "多估计 < 直接：点估计未达阈值"
+     },
+     "raw": {
+      "ci95_two_sided": [
+       -3.6769375000000006,
+       -1.357979166666667
+      ],
+      "one_sided_95": null
+     },
+     "holm_stopped": false,
+     "verdict_before_bounds": "多估计 < 直接：点估计未达阈值",
+     "complete_subset": {
+      "n": 120,
+      "point": -2.4781458333333335,
+      "p": 0.0,
+      "alpha": 0.05,
+      "interval_two_sided": [
+       -3.6769375000000006,
+       -1.357979166666667
+      ],
+      "judgment": "多估计 < 直接：点估计未达阈值"
+     },
+     "missing_protection": {
+      "n_missing_cells": 0,
+      "n_pairs_with_missing": 0,
+      "point_bounds": [
+       -2.4781458333333335,
+       -2.4781458333333335
+      ],
+      "substitution": [
+       0.0,
+       100.0
+      ],
+      "conservative_bound": -1.357979166666667,
+      "label": "多估计 < 直接：点估计未达阈值",
+      "retained_strength": "below"
+     },
+     "verdict": "多估计 < 直接：点估计未达阈值",
+     "opposite_direction": null,
+     "final_state": {
+      "holm": "rejected",
+      "sign": -1,
+      "complete_strength": "below",
+      "retained_strength": "below",
+      "directional": true,
+      "downgraded": false,
+      "opposite_retained_strength": null
+     }
+    }
+   ]
+  },
+  "config:agy:gemini-3.8-flash-high": {
+   "members": [
+    [
+     "H1",
+     "agy:gemini-3.8-flash-high"
+    ],
+    [
+     "H2",
+     "agy:gemini-3.8-flash-high"
+    ],
+    [
+     "H4a",
+     "agy:gemini-3.8-flash-high"
+    ],
+    [
+     "H4b",
+     "agy:gemini-3.8-flash-high"
+    ]
+   ],
+   "rows": [
+    {
+     "test": "H1",
+     "config": "agy:gemini-3.8-flash-high",
+     "sided": 1,
+     "direction": 1,
+     "min_effect": 5.0,
+     "n_planned": 120,
+     "n_common": 120,
+     "n_clusters": 120,
+     "point": 28.295833333333334,
+     "B": 5000,
+     "p": 0.0,
+     "companion": {
+      "n_common": 120,
+      "n_planned": 120,
+      "stated_direct": {
+       "n": 120,
+       "mean_s_item": 28.295833333333334,
+       "n_prior_missing": 0,
+       "mean_delta_S": 27.939083333333333,
+       "mean_delta_W": -28.652583333333332,
+       "n_delta": 120,
+       "consistent_rate": 0.8458333333333333,
+       "reverse_rate": 0.05,
+       "mean_abs_delta": 29.345833333333335,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      }
+     },
+     "rank": 0,
+     "alpha_adj": 0.0125,
+     "ci_level": 0.9875,
+     "judgment": {
+      "alpha": 0.0125,
+      "sided": 1,
+      "bound": 25.120833333333334,
+      "bound_opposite": 31.279166666666665,
+      "rejected": true,
+      "sign": 1,
+      "near": 25.120833333333334,
+      "strength": "bound_exceeds",
+      "label": "预测方向（陈述下往标签方向移动）：区间下界超过阈值"
+     },
+     "raw": {
+      "ci95_two_sided": [
+       25.554166666666667,
+       30.9875
+      ],
+      "one_sided_95": 26.029166666666665
+     },
+     "holm_stopped": false,
+     "verdict_before_bounds": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+     "complete_subset": {
+      "n": 120,
+      "point": 28.295833333333334,
+      "p": 0.0,
+      "alpha": 0.0125,
+      "interval_two_sided": [
+       24.75,
+       31.6
+      ],
+      "judgment": "预测方向（陈述下往标签方向移动）：区间下界超过阈值"
+     },
+     "missing_protection": {
+      "n_missing_cells": 0,
+      "n_pairs_with_missing": 0,
+      "point_bounds": [
+       28.295833333333334,
+       28.295833333333334
+      ],
+      "substitution": [
+       0.0,
+       100.0
+      ],
+      "conservative_bound": 25.120833333333334,
+      "label": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "retained_strength": "bound_exceeds"
+     },
+     "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+     "opposite_direction": null,
+     "final_state": {
+      "holm": "rejected",
+      "sign": 1,
+      "complete_strength": "bound_exceeds",
+      "retained_strength": "bound_exceeds",
+      "directional": true,
+      "downgraded": false,
+      "opposite_retained_strength": null
+     }
+    },
+    {
+     "test": "H2",
+     "config": "agy:gemini-3.8-flash-high",
+     "sided": 1,
+     "direction": 1,
+     "min_effect": 5.0,
+     "n_planned": 120,
+     "n_common": 120,
+     "n_clusters": 120,
+     "point": 4.1125,
+     "B": 5000,
+     "p": 0.0,
+     "companion": {
+      "n_common": 120,
+      "n_planned": 120,
+      "stated_direct": {
+       "n": 120,
+       "mean_s_item": 28.295833333333334,
+       "n_prior_missing": 0,
+       "mean_delta_S": 27.939083333333333,
+       "mean_delta_W": -28.652583333333332,
+       "n_delta": 120,
+       "consistent_rate": 0.8458333333333333,
+       "reverse_rate": 0.05,
+       "mean_abs_delta": 29.345833333333335,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      },
+      "reported_direct": {
+       "n": 120,
+       "mean_s_item": 24.183333333333334,
+       "n_prior_missing": 0,
+       "mean_delta_S": 24.889083333333335,
+       "mean_delta_W": -23.47758333333333,
+       "n_delta": 120,
+       "consistent_rate": 0.8041666666666667,
+       "reverse_rate": 0.07916666666666666,
+       "mean_abs_delta": 25.683333333333334,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      },
+      "reading": "转述改变方向（转述下反向率 0.079 > 陈述 0.050）；不写「打折扣」"
+     },
+     "rank": 1,
+     "alpha_adj": 0.016666666666666666,
+     "ci_level": 0.9833333333333333,
+     "judgment": {
+      "alpha": 0.016666666666666666,
+      "sided": 1,
+      "bound": 2.533333333333333,
+      "bound_opposite": 5.920833333333333,
+      "rejected": true,
+      "sign": 1,
+      "near": 2.533333333333333,
+      "strength": "below",
+      "label": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值"
+     },
+     "raw": {
+      "ci95_two_sided": [
+       2.65,
+       5.754166666666666
+      ],
+      "one_sided_95": 2.870833333333333
+     },
+     "holm_stopped": false,
+     "verdict_before_bounds": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+     "complete_subset": {
+      "n": 120,
+      "point": 4.1125,
+      "p": 0.0,
+      "alpha": 0.016666666666666666,
+      "interval_two_sided": [
+       2.3583333333333334,
+       6.204166666666667
+      ],
+      "judgment": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值"
+     },
+     "missing_protection": {
+      "n_missing_cells": 0,
+      "n_pairs_with_missing": 0,
+      "point_bounds": [
+       4.1125,
+       4.1125
+      ],
+      "substitution": [
+       0.0,
+       100.0
+      ],
+      "conservative_bound": 2.533333333333333,
+      "label": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+      "retained_strength": "below"
+     },
+     "verdict": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+     "opposite_direction": null,
+     "final_state": {
+      "holm": "rejected",
+      "sign": 1,
+      "complete_strength": "below",
+      "retained_strength": "below",
+      "directional": true,
+      "downgraded": false,
+      "opposite_retained_strength": null
+     }
+    },
+    {
+     "test": "H4a",
+     "config": "agy:gemini-3.8-flash-high",
+     "sided": 1,
+     "direction": 1,
+     "min_effect": 0.1,
+     "n_planned": 120,
+     "n_common": 120,
+     "n_clusters": 120,
+     "point": 0.08958333333333333,
+     "B": 5000,
+     "p": 0.0,
+     "companion": {
+      "n_common": 120,
+      "n_planned": 120,
+      "direct": {
+       "n": 120,
+       "prior|-": 0.225,
+       "stated|S": 0.23333333333333334,
+       "stated|W": 0.6083333333333333,
+       "e_mean": 0.3229166666666667
+      },
+      "multi": {
+       "n": 120,
+       "prior|-": 0.18333333333333332,
+       "stated|S": 0.11666666666666667,
+       "stated|W": 0.45,
+       "e_mean": 0.23333333333333334
+      },
+      "e_direct_minus_e_multi": 0.08958333333333335
+     },
+     "rank": 2,
+     "alpha_adj": 0.025,
+     "ci_level": 0.975,
+     "judgment": {
+      "alpha": 0.025,
+      "sided": 1,
+      "bound": 0.05625,
+      "bound_opposite": 0.12291666666666666,
+      "rejected": true,
+      "sign": 1,
+      "near": 0.05625,
+      "strength": "below",
+      "label": "预测方向（多估计的聚合端点率较低）：点估计未达阈值"
+     },
+     "raw": {
+      "ci95_two_sided": [
+       0.05625,
+       0.12291666666666666
+      ],
+      "one_sided_95": 0.0625
+     },
+     "holm_stopped": false,
+     "verdict_before_bounds": "预测方向（多估计的聚合端点率较低）：点估计未达阈值",
+     "complete_subset": {
+      "n": 120,
+      "point": 0.08958333333333333,
+      "p": 0.0,
+      "alpha": 0.025,
+      "interval_two_sided": [
+       0.052083333333333336,
+       0.12916666666666668
+      ],
+      "judgment": "预测方向（多估计的聚合端点率较低）：点估计未达阈值"
+     },
+     "missing_protection": {
+      "n_missing_cells": 0,
+      "n_pairs_with_missing": 0,
+      "point_bounds": [
+       0.08958333333333333,
+       0.08958333333333333
+      ],
+      "substitution": [
+       50.0,
+       0.0
+      ],
+      "conservative_bound": 0.05625,
+      "label": "预测方向（多估计的聚合端点率较低）：点估计未达阈值",
+      "retained_strength": "below"
+     },
+     "verdict": "预测方向（多估计的聚合端点率较低）：点估计未达阈值",
+     "opposite_direction": null,
+     "final_state": {
+      "holm": "rejected",
+      "sign": 1,
+      "complete_strength": "below",
+      "retained_strength": "below",
+      "directional": true,
+      "downgraded": false,
+      "opposite_retained_strength": null
+     }
+    },
+    {
+     "test": "H4b",
+     "config": "agy:gemini-3.8-flash-high",
+     "sided": 2,
+     "direction": 0,
+     "min_effect": 5.0,
+     "n_planned": 120,
+     "n_common": 120,
+     "n_clusters": 120,
+     "point": -3.7329166666666667,
+     "B": 5000,
+     "p": 0.0,
+     "companion": {
+      "n_common": 120,
+      "n_planned": 120,
+      "stated_direct": {
+       "n": 120,
+       "mean_s_item": 28.295833333333334,
+       "n_prior_missing": 0,
+       "mean_delta_S": 27.939083333333333,
+       "mean_delta_W": -28.652583333333332,
+       "n_delta": 120,
+       "consistent_rate": 0.8458333333333333,
+       "reverse_rate": 0.05,
+       "mean_abs_delta": 29.345833333333335,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      },
+      "stated_multi": {
+       "n": 120,
+       "mean_s_item": 24.56291666666667,
+       "n_prior_missing": 0,
+       "mean_delta_S": 26.06385,
+       "mean_delta_W": -23.061983333333334,
+       "n_delta": 120,
+       "consistent_rate": 0.8875,
+       "reverse_rate": 0.1125,
+       "mean_abs_delta": 25.872708333333332,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      }
+     },
+     "rank": 3,
+     "alpha_adj": 0.05,
+     "ci_level": 0.95,
+     "judgment": {
+      "alpha": 0.05,
+      "sided": 2,
+      "interval": [
+       -5.051104166666666,
+       -2.519875
+      ],
+      "rejected": true,
+      "sign": -1,
+      "near": -2.519875,
+      "strength": "below",
+      "label": "多估计 < 直接：点估计未达阈值"
+     },
+     "raw": {
+      "ci95_two_sided": [
+       -5.051104166666666,
+       -2.519875
+      ],
+      "one_sided_95": null
+     },
+     "holm_stopped": false,
+     "verdict_before_bounds": "多估计 < 直接：点估计未达阈值",
+     "complete_subset": {
+      "n": 120,
+      "point": -3.7329166666666667,
+      "p": 0.0,
+      "alpha": 0.05,
+      "interval_two_sided": [
+       -5.051104166666666,
+       -2.519875
+      ],
+      "judgment": "多估计 < 直接：点估计未达阈值"
+     },
+     "missing_protection": {
+      "n_missing_cells": 0,
+      "n_pairs_with_missing": 0,
+      "point_bounds": [
+       -3.7329166666666667,
+       -3.7329166666666667
+      ],
+      "substitution": [
+       0.0,
+       100.0
+      ],
+      "conservative_bound": -2.519875,
+      "label": "多估计 < 直接：点估计未达阈值",
+      "retained_strength": "below"
+     },
+     "verdict": "多估计 < 直接：点估计未达阈值",
+     "opposite_direction": null,
+     "final_state": {
+      "holm": "rejected",
+      "sign": -1,
+      "complete_strength": "below",
+      "retained_strength": "below",
+      "directional": true,
+      "downgraded": false,
+      "opposite_retained_strength": null
+     }
+    }
+   ]
+  },
+  "config:agy:claude-sonnet-5-5-medium": {
+   "members": [
+    [
+     "H1",
+     "agy:claude-sonnet-5-5-medium"
+    ],
+    [
+     "H2",
+     "agy:claude-sonnet-5-5-medium"
+    ],
+    [
+     "H4a",
+     "agy:claude-sonnet-5-5-medium"
+    ],
+    [
+     "H4b",
+     "agy:claude-sonnet-5-5-medium"
+    ]
+   ],
+   "rows": [
+    {
+     "test": "H1",
+     "config": "agy:claude-sonnet-5-5-medium",
+     "sided": 1,
+     "direction": 1,
+     "min_effect": 5.0,
+     "n_planned": 120,
+     "n_common": 120,
+     "n_clusters": 120,
+     "point": 22.008333333333333,
+     "B": 5000,
+     "p": 0.0,
+     "companion": {
+      "n_common": 120,
+      "n_planned": 120,
+      "stated_direct": {
+       "n": 120,
+       "mean_s_item": 22.008333333333333,
+       "n_prior_missing": 0,
+       "mean_delta_S": 25.416666666666668,
+       "mean_delta_W": -18.6,
+       "n_delta": 120,
+       "consistent_rate": 0.8458333333333333,
+       "reverse_rate": 0.07916666666666666,
+       "mean_abs_delta": 23.608333333333334,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      }
+     },
+     "rank": 0,
+     "alpha_adj": 0.0125,
+     "ci_level": 0.9875,
+     "judgment": {
+      "alpha": 0.0125,
+      "sided": 1,
+      "bound": 19.016666666666666,
+      "bound_opposite": 24.904166666666665,
+      "rejected": true,
+      "sign": 1,
+      "near": 19.016666666666666,
+      "strength": "bound_exceeds",
+      "label": "预测方向（陈述下往标签方向移动）：区间下界超过阈值"
+     },
+     "raw": {
+      "ci95_two_sided": [
+       19.445833333333333,
+       24.554166666666667
+      ],
+      "one_sided_95": 19.904166666666665
+     },
+     "holm_stopped": false,
+     "verdict_before_bounds": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+     "complete_subset": {
+      "n": 120,
+      "point": 22.008333333333333,
+      "p": 0.0,
+      "alpha": 0.0125,
+      "interval_two_sided": [
+       18.683333333333334,
+       25.208333333333332
+      ],
+      "judgment": "预测方向（陈述下往标签方向移动）：区间下界超过阈值"
+     },
+     "missing_protection": {
+      "n_missing_cells": 0,
+      "n_pairs_with_missing": 0,
+      "point_bounds": [
+       22.008333333333333,
+       22.008333333333333
+      ],
+      "substitution": [
+       0.0,
+       100.0
+      ],
+      "conservative_bound": 19.016666666666666,
+      "label": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "retained_strength": "bound_exceeds"
+     },
+     "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+     "opposite_direction": null,
+     "final_state": {
+      "holm": "rejected",
+      "sign": 1,
+      "complete_strength": "bound_exceeds",
+      "retained_strength": "bound_exceeds",
+      "directional": true,
+      "downgraded": false,
+      "opposite_retained_strength": null
+     }
+    },
+    {
+     "test": "H2",
+     "config": "agy:claude-sonnet-5-5-medium",
+     "sided": 1,
+     "direction": 1,
+     "min_effect": 5.0,
+     "n_planned": 120,
+     "n_common": 120,
+     "n_clusters": 120,
+     "point": 3.0541666666666667,
+     "B": 5000,
+     "p": 0.0,
+     "companion": {
+      "n_common": 120,
+      "n_planned": 120,
+      "stated_direct": {
+       "n": 120,
+       "mean_s_item": 22.008333333333333,
+       "n_prior_missing": 0,
+       "mean_delta_S": 25.416666666666668,
+       "mean_delta_W": -18.6,
+       "n_delta": 120,
+       "consistent_rate": 0.8458333333333333,
+       "reverse_rate": 0.07916666666666666,
+       "mean_abs_delta": 23.608333333333334,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      },
+      "reported_direct": {
+       "n": 120,
+       "mean_s_item": 18.954166666666666,
+       "n_prior_missing": 0,
+       "mean_delta_S": 24.008333333333333,
+       "mean_delta_W": -13.9,
+       "n_delta": 120,
+       "consistent_rate": 0.7708333333333334,
+       "reverse_rate": 0.125,
+       "mean_abs_delta": 20.729166666666668,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      },
+      "reading": "转述改变方向（转述下反向率 0.125 > 陈述 0.079）；不写「打折扣」"
+     },
+     "rank": 1,
+     "alpha_adj": 0.016666666666666666,
+     "ci_level": 0.9833333333333333,
+     "judgment": {
+      "alpha": 0.016666666666666666,
+      "sided": 1,
+      "bound": 1.6791666666666667,
+      "bound_opposite": 4.620833333333334,
+      "rejected": true,
+      "sign": 1,
+      "near": 1.6791666666666667,
+      "strength": "below",
+      "label": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值"
+     },
+     "raw": {
+      "ci95_two_sided": [
+       1.7916666666666667,
+       4.5
+      ],
+      "one_sided_95": 1.975
+     },
+     "holm_stopped": false,
+     "verdict_before_bounds": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+     "complete_subset": {
+      "n": 120,
+      "point": 3.0541666666666667,
+      "p": 0.0,
+      "alpha": 0.016666666666666666,
+      "interval_two_sided": [
+       1.5208333333333333,
+       4.816666666666666
+      ],
+      "judgment": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值"
+     },
+     "missing_protection": {
+      "n_missing_cells": 0,
+      "n_pairs_with_missing": 0,
+      "point_bounds": [
+       3.0541666666666667,
+       3.0541666666666667
+      ],
+      "substitution": [
+       0.0,
+       100.0
+      ],
+      "conservative_bound": 1.6791666666666667,
+      "label": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+      "retained_strength": "below"
+     },
+     "verdict": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+     "opposite_direction": null,
+     "final_state": {
+      "holm": "rejected",
+      "sign": 1,
+      "complete_strength": "below",
+      "retained_strength": "below",
+      "directional": true,
+      "downgraded": false,
+      "opposite_retained_strength": null
+     }
+    },
+    {
+     "test": "H4a",
+     "config": "agy:claude-sonnet-5-5-medium",
+     "sided": 1,
+     "direction": 1,
+     "min_effect": 0.1,
+     "n_planned": 120,
+     "n_common": 120,
+     "n_clusters": 120,
+     "point": 0.06458333333333334,
+     "B": 5000,
+     "p": 0.0,
+     "companion": {
+      "n_common": 120,
+      "n_planned": 120,
+      "direct": {
+       "n": 120,
+       "prior|-": 0.20833333333333334,
+       "stated|S": 0.125,
+       "stated|W": 0.4166666666666667,
+       "e_mean": 0.23958333333333334
+      },
+      "multi": {
+       "n": 120,
+       "prior|-": 0.14166666666666666,
+       "stated|S": 0.11666666666666667,
+       "stated|W": 0.3,
+       "e_mean": 0.175
+      },
+      "e_direct_minus_e_multi": 0.06458333333333335
+     },
+     "rank": 2,
+     "alpha_adj": 0.025,
+     "ci_level": 0.975,
+     "judgment": {
+      "alpha": 0.025,
+      "sided": 1,
+      "bound": 0.0375,
+      "bound_opposite": 0.09375,
+      "rejected": true,
+      "sign": 1,
+      "near": 0.0375,
+      "strength": "below",
+      "label": "预测方向（多估计的聚合端点率较低）：点估计未达阈值"
+     },
+     "raw": {
+      "ci95_two_sided": [
+       0.0375,
+       0.09375
+      ],
+      "one_sided_95": 0.041666666666666664
+     },
+     "holm_stopped": false,
+     "verdict_before_bounds": "预测方向（多估计的聚合端点率较低）：点估计未达阈值",
+     "complete_subset": {
+      "n": 120,
+      "point": 0.06458333333333334,
+      "p": 0.0,
+      "alpha": 0.025,
+      "interval_two_sided": [
+       0.03333333333333333,
+       0.09791666666666667
+      ],
+      "judgment": "预测方向（多估计的聚合端点率较低）：点估计未达阈值"
+     },
+     "missing_protection": {
+      "n_missing_cells": 0,
+      "n_pairs_with_missing": 0,
+      "point_bounds": [
+       0.06458333333333334,
+       0.06458333333333334
+      ],
+      "substitution": [
+       50.0,
+       0.0
+      ],
+      "conservative_bound": 0.0375,
+      "label": "预测方向（多估计的聚合端点率较低）：点估计未达阈值",
+      "retained_strength": "below"
+     },
+     "verdict": "预测方向（多估计的聚合端点率较低）：点估计未达阈值",
+     "opposite_direction": null,
+     "final_state": {
+      "holm": "rejected",
+      "sign": 1,
+      "complete_strength": "below",
+      "retained_strength": "below",
+      "directional": true,
+      "downgraded": false,
+      "opposite_retained_strength": null
+     }
+    },
+    {
+     "test": "H4b",
+     "config": "agy:claude-sonnet-5-5-medium",
+     "sided": 2,
+     "direction": 0,
+     "min_effect": 5.0,
+     "n_planned": 120,
+     "n_common": 120,
+     "n_clusters": 120,
+     "point": 0.4706458333333336,
+     "B": 5000,
+     "p": 0.2712,
+     "companion": {
+      "n_common": 120,
+      "n_planned": 120,
+      "stated_direct": {
+       "n": 120,
+       "mean_s_item": 22.008333333333333,
+       "n_prior_missing": 0,
+       "mean_delta_S": 25.416666666666668,
+       "mean_delta_W": -18.6,
+       "n_delta": 120,
+       "consistent_rate": 0.8458333333333333,
+       "reverse_rate": 0.07916666666666666,
+       "mean_abs_delta": 23.608333333333334,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      },
+      "stated_multi": {
+       "n": 120,
+       "mean_s_item": 22.478979166666665,
+       "n_prior_missing": 0,
+       "mean_delta_S": 25.49375,
+       "mean_delta_W": -19.464208333333332,
+       "n_delta": 120,
+       "consistent_rate": 0.875,
+       "reverse_rate": 0.11666666666666667,
+       "mean_abs_delta": 23.87739583333333,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      }
+     },
+     "rank": 3,
+     "alpha_adj": 0.05,
+     "ci_level": 0.95,
+     "judgment": {
+      "alpha": 0.05,
+      "sided": 2,
+      "interval": [
+       -0.34177083333333286,
+       1.3198750000000001
+      ],
+      "rejected": false,
+      "sign": 0,
+      "near": null,
+      "strength": null,
+      "label": "不确定"
+     },
+     "raw": {
+      "ci95_two_sided": [
+       -0.34177083333333286,
+       1.3198750000000001
+      ],
+      "one_sided_95": null
+     },
+     "holm_stopped": false,
+     "verdict_before_bounds": "不确定",
+     "complete_subset": {
+      "n": 120,
+      "point": 0.4706458333333336,
+      "p": 0.2712,
+      "alpha": 0.05,
+      "interval_two_sided": [
+       -0.34177083333333286,
+       1.3198750000000001
+      ],
+      "judgment": "不确定"
+     },
+     "missing_protection": {
+      "n_missing_cells": 0,
+      "n_pairs_with_missing": 0,
+      "point_bounds": [
+       0.4706458333333336,
+       0.4706458333333336
+      ],
+      "substitution": [
+       0.0,
+       100.0
+      ],
+      "label": "不确定",
+      "retained_strength": null
+     },
+     "verdict": "不确定",
+     "opposite_direction": null,
+     "final_state": {
+      "holm": "not_rejected",
+      "sign": 0,
+      "complete_strength": null,
+      "retained_strength": null,
+      "directional": false,
+      "downgraded": false,
+      "opposite_retained_strength": null
+     }
+    }
+   ]
+  },
+  "config:agy:gpt-oss-120b-medium": {
+   "members": [
+    [
+     "H1",
+     "agy:gpt-oss-120b-medium"
+    ],
+    [
+     "H2",
+     "agy:gpt-oss-120b-medium"
+    ],
+    [
+     "H4a",
+     "agy:gpt-oss-120b-medium"
+    ],
+    [
+     "H4b",
+     "agy:gpt-oss-120b-medium"
+    ]
+   ],
+   "rows": [
+    {
+     "test": "H1",
+     "config": "agy:gpt-oss-120b-medium",
+     "sided": 1,
+     "direction": 1,
+     "min_effect": 5.0,
+     "n_planned": 120,
+     "n_common": 120,
+     "n_clusters": 120,
+     "point": 17.591666666666665,
+     "B": 5000,
+     "p": 0.0,
+     "companion": {
+      "n_common": 120,
+      "n_planned": 120,
+      "stated_direct": {
+       "n": 120,
+       "mean_s_item": 17.591666666666665,
+       "n_prior_missing": 0,
+       "mean_delta_S": 17.84333333333333,
+       "mean_delta_W": -17.34,
+       "n_delta": 120,
+       "consistent_rate": 0.7458333333333333,
+       "reverse_rate": 0.1625,
+       "mean_abs_delta": 20.864166666666666,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      }
+     },
+     "rank": 0,
+     "alpha_adj": 0.0125,
+     "ci_level": 0.9875,
+     "judgment": {
+      "alpha": 0.0125,
+      "sided": 1,
+      "bound": 14.5125,
+      "bound_opposite": 20.65,
+      "rejected": true,
+      "sign": 1,
+      "near": 14.5125,
+      "strength": "bound_exceeds",
+      "label": "预测方向（陈述下往标签方向移动）：区间下界超过阈值"
+     },
+     "raw": {
+      "ci95_two_sided": [
+       14.9875,
+       20.233333333333334
+      ],
+      "one_sided_95": 15.416666666666666
+     },
+     "holm_stopped": false,
+     "verdict_before_bounds": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+     "complete_subset": {
+      "n": 120,
+      "point": 17.591666666666665,
+      "p": 0.0,
+      "alpha": 0.0125,
+      "interval_two_sided": [
+       14.191666666666666,
+       21.058333333333334
+      ],
+      "judgment": "预测方向（陈述下往标签方向移动）：区间下界超过阈值"
+     },
+     "missing_protection": {
+      "n_missing_cells": 0,
+      "n_pairs_with_missing": 0,
+      "point_bounds": [
+       17.591666666666665,
+       17.591666666666665
+      ],
+      "substitution": [
+       0.0,
+       100.0
+      ],
+      "conservative_bound": 14.5125,
+      "label": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "retained_strength": "bound_exceeds"
+     },
+     "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+     "opposite_direction": null,
+     "final_state": {
+      "holm": "rejected",
+      "sign": 1,
+      "complete_strength": "bound_exceeds",
+      "retained_strength": "bound_exceeds",
+      "directional": true,
+      "downgraded": false,
+      "opposite_retained_strength": null
+     }
+    },
+    {
+     "test": "H2",
+     "config": "agy:gpt-oss-120b-medium",
+     "sided": 1,
+     "direction": 1,
+     "min_effect": 5.0,
+     "n_planned": 120,
+     "n_common": 120,
+     "n_clusters": 120,
+     "point": 0.9125,
+     "B": 5000,
+     "p": 0.1588,
+     "companion": {
+      "n_common": 120,
+      "n_planned": 120,
+      "stated_direct": {
+       "n": 120,
+       "mean_s_item": 17.591666666666665,
+       "n_prior_missing": 0,
+       "mean_delta_S": 17.84333333333333,
+       "mean_delta_W": -17.34,
+       "n_delta": 120,
+       "consistent_rate": 0.7458333333333333,
+       "reverse_rate": 0.1625,
+       "mean_abs_delta": 20.864166666666666,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      },
+      "reported_direct": {
+       "n": 120,
+       "mean_s_item": 16.679166666666667,
+       "n_prior_missing": 0,
+       "mean_delta_S": 16.118333333333332,
+       "mean_delta_W": -17.240000000000002,
+       "n_delta": 120,
+       "consistent_rate": 0.7208333333333333,
+       "reverse_rate": 0.19166666666666668,
+       "mean_abs_delta": 20.151666666666664,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      },
+      "reading": "转述改变方向（转述下反向率 0.192 > 陈述 0.163）；不写「打折扣」"
+     },
+     "rank": 3,
+     "alpha_adj": 0.05,
+     "ci_level": 0.95,
+     "judgment": {
+      "alpha": 0.05,
+      "sided": 1,
+      "bound": -0.6208333333333333,
+      "bound_opposite": 2.466666666666667,
+      "rejected": false,
+      "sign": 0,
+      "near": null,
+      "strength": null,
+      "label": "不确定"
+     },
+     "raw": {
+      "ci95_two_sided": [
+       -0.9291666666666667,
+       2.716666666666667
+      ],
+      "one_sided_95": -0.6208333333333333
+     },
+     "holm_stopped": false,
+     "verdict_before_bounds": "不确定",
+     "complete_subset": {
+      "n": 120,
+      "point": 0.9125,
+      "p": 0.1588,
+      "alpha": 0.05,
+      "interval_two_sided": [
+       -0.9291666666666667,
+       2.716666666666667
+      ],
+      "judgment": "不确定"
+     },
+     "missing_protection": {
+      "n_missing_cells": 0,
+      "n_pairs_with_missing": 0,
+      "point_bounds": [
+       0.9125,
+       0.9125
+      ],
+      "substitution": [
+       0.0,
+       100.0
+      ],
+      "label": "不确定",
+      "retained_strength": null
+     },
+     "verdict": "不确定",
+     "opposite_direction": null,
+     "final_state": {
+      "holm": "not_rejected",
+      "sign": 0,
+      "complete_strength": null,
+      "retained_strength": null,
+      "directional": false,
+      "downgraded": false,
+      "opposite_retained_strength": null
+     }
+    },
+    {
+     "test": "H4a",
+     "config": "agy:gpt-oss-120b-medium",
+     "sided": 1,
+     "direction": 1,
+     "min_effect": 0.1,
+     "n_planned": 120,
+     "n_common": 120,
+     "n_clusters": 120,
+     "point": 0.10208333333333333,
+     "B": 5000,
+     "p": 0.0,
+     "companion": {
+      "n_common": 120,
+      "n_planned": 120,
+      "direct": {
+       "n": 120,
+       "prior|-": 0.14166666666666666,
+       "stated|S": 0.09166666666666666,
+       "stated|W": 0.2,
+       "e_mean": 0.14375
+      },
+      "multi": {
+       "n": 120,
+       "prior|-": 0.05,
+       "stated|S": 0.03333333333333333,
+       "stated|W": 0.03333333333333333,
+       "e_mean": 0.041666666666666664
+      },
+      "e_direct_minus_e_multi": 0.10208333333333333
+     },
+     "rank": 1,
+     "alpha_adj": 0.016666666666666666,
+     "ci_level": 0.9833333333333333,
+     "judgment": {
+      "alpha": 0.016666666666666666,
+      "sided": 1,
+      "bound": 0.06458333333333334,
+      "bound_opposite": 0.14375,
+      "rejected": true,
+      "sign": 1,
+      "near": 0.06458333333333334,
+      "strength": "point_reaches",
+      "label": "预测方向（多估计的聚合端点率较低）：点估计达到阈值（区间下界未超过）"
+     },
+     "raw": {
+      "ci95_two_sided": [
+       0.06666666666666667,
+       0.14166666666666666
+      ],
+      "one_sided_95": 0.07083333333333333
+     },
+     "holm_stopped": false,
+     "verdict_before_bounds": "预测方向（多估计的聚合端点率较低）：点估计达到阈值（区间下界未超过）",
+     "complete_subset": {
+      "n": 120,
+      "point": 0.10208333333333333,
+      "p": 0.0,
+      "alpha": 0.016666666666666666,
+      "interval_two_sided": [
+       0.06041666666666667,
+       0.14791666666666667
+      ],
+      "judgment": "预测方向（多估计的聚合端点率较低）：点估计达到阈值（区间下界未超过）"
+     },
+     "missing_protection": {
+      "n_missing_cells": 0,
+      "n_pairs_with_missing": 0,
+      "point_bounds": [
+       0.10208333333333333,
+       0.10208333333333333
+      ],
+      "substitution": [
+       50.0,
+       0.0
+      ],
+      "conservative_bound": 0.06458333333333334,
+      "label": "预测方向（多估计的聚合端点率较低）：点估计达到阈值（区间下界未超过）",
+      "retained_strength": "point_reaches"
+     },
+     "verdict": "预测方向（多估计的聚合端点率较低）：点估计达到阈值（区间下界未超过）",
+     "opposite_direction": null,
+     "final_state": {
+      "holm": "rejected",
+      "sign": 1,
+      "complete_strength": "point_reaches",
+      "retained_strength": "point_reaches",
+      "directional": true,
+      "downgraded": false,
+      "opposite_retained_strength": null
+     }
+    },
+    {
+     "test": "H4b",
+     "config": "agy:gpt-oss-120b-medium",
+     "sided": 2,
+     "direction": 0,
+     "min_effect": 5.0,
+     "n_planned": 120,
+     "n_common": 120,
+     "n_clusters": 120,
+     "point": -2.295375,
+     "B": 5000,
+     "p": 0.0116,
+     "companion": {
+      "n_common": 120,
+      "n_planned": 120,
+      "stated_direct": {
+       "n": 120,
+       "mean_s_item": 17.591666666666665,
+       "n_prior_missing": 0,
+       "mean_delta_S": 17.84333333333333,
+       "mean_delta_W": -17.34,
+       "n_delta": 120,
+       "consistent_rate": 0.7458333333333333,
+       "reverse_rate": 0.1625,
+       "mean_abs_delta": 20.864166666666666,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      },
+      "stated_multi": {
+       "n": 120,
+       "mean_s_item": 15.296291666666667,
+       "n_prior_missing": 0,
+       "mean_delta_S": 13.675625,
+       "mean_delta_W": -16.916958333333334,
+       "n_delta": 120,
+       "consistent_rate": 0.7833333333333333,
+       "reverse_rate": 0.2125,
+       "mean_abs_delta": 19.637999999999998,
+       "note_S_not_rising": false,
+       "note_W_not_falling": false
+      }
+     },
+     "rank": 2,
+     "alpha_adj": 0.025,
+     "ci_level": 0.975,
+     "judgment": {
+      "alpha": 0.025,
+      "sided": 2,
+      "interval": [
+       -4.342583333333335,
+       -0.2864166666666667
+      ],
+      "rejected": true,
+      "sign": -1,
+      "near": -0.2864166666666667,
+      "strength": "below",
+      "label": "多估计 < 直接：点估计未达阈值"
+     },
+     "raw": {
+      "ci95_two_sided": [
+       -4.081333333333333,
+       -0.5613333333333331
+      ],
+      "one_sided_95": null
+     },
+     "holm_stopped": false,
+     "verdict_before_bounds": "多估计 < 直接：点估计未达阈值",
+     "complete_subset": {
+      "n": 120,
+      "point": -2.295375,
+      "p": 0.0116,
+      "alpha": 0.025,
+      "interval_two_sided": [
+       -4.342583333333335,
+       -0.2864166666666667
+      ],
+      "judgment": "多估计 < 直接：点估计未达阈值"
+     },
+     "missing_protection": {
+      "n_missing_cells": 0,
+      "n_pairs_with_missing": 0,
+      "point_bounds": [
+       -2.295375,
+       -2.295375
+      ],
+      "substitution": [
+       0.0,
+       100.0
+      ],
+      "conservative_bound": -0.2864166666666667,
+      "label": "多估计 < 直接：点估计未达阈值",
+      "retained_strength": "below"
+     },
+     "verdict": "多估计 < 直接：点估计未达阈值",
+     "opposite_direction": null,
+     "final_state": {
+      "holm": "rejected",
+      "sign": -1,
+      "complete_strength": "below",
+      "retained_strength": "below",
+      "directional": true,
+      "downgraded": false,
+      "opposite_retained_strength": null
+     }
+    }
+   ]
+  }
+ },
+ "effort_differences_descriptive_only": [
+  {
+   "test": "H1",
+   "lower": "agy:gemini-3.8-flash-low",
+   "higher": "agy:gemini-3.8-flash-high",
+   "n_common_complete": 120,
+   "higher_minus_lower": 1.6545833333333335,
+   "descriptive_95_interval": [
+    0.2625,
+    3.175
+   ],
+   "in_holm": false
+  },
+  {
+   "test": "H2",
+   "lower": "agy:gemini-3.8-flash-low",
+   "higher": "agy:gemini-3.8-flash-high",
+   "n_common_complete": 120,
+   "higher_minus_lower": 0.0275,
+   "descriptive_95_interval": [
+    -1.9008333333333332,
+    1.9916666666666667
+   ],
+   "in_holm": false
+  },
+  {
+   "test": "H4a",
+   "lower": "agy:gemini-3.8-flash-low",
+   "higher": "agy:gemini-3.8-flash-high",
+   "n_common_complete": 120,
+   "higher_minus_lower": -0.07291666666666667,
+   "descriptive_95_interval": [
+    -0.11041666666666666,
+    -0.0375
+   ],
+   "in_holm": false
+  },
+  {
+   "test": "H4b",
+   "lower": "agy:gemini-3.8-flash-low",
+   "higher": "agy:gemini-3.8-flash-high",
+   "n_common_complete": 120,
+   "higher_minus_lower": -1.2547708333333332,
+   "descriptive_95_interval": [
+    -2.6912500000000006,
+    0.1315000000000003
+   ],
+   "in_holm": false
+  }
+ ],
+ "cross_config_summary": {
+  "H1": {
+   "agy:gemini-3.8-flash-low": {
+    "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+    "opposite_direction": null
+   },
+   "agy:gemini-3.8-flash-high": {
+    "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+    "opposite_direction": null
+   },
+   "agy:claude-sonnet-5-5-medium": {
+    "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+    "opposite_direction": null
+   },
+   "agy:gpt-oss-120b-medium": {
+    "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+    "opposite_direction": null
+   }
+  },
+  "H2": {
+   "agy:gemini-3.8-flash-low": {
+    "verdict": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+    "opposite_direction": null
+   },
+   "agy:gemini-3.8-flash-high": {
+    "verdict": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+    "opposite_direction": null
+   },
+   "agy:claude-sonnet-5-5-medium": {
+    "verdict": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+    "opposite_direction": null
+   },
+   "agy:gpt-oss-120b-medium": {
+    "verdict": "不确定",
+    "opposite_direction": null
+   }
+  },
+  "H4a": {
+   "agy:gemini-3.8-flash-low": {
+    "verdict": "预测方向（多估计的聚合端点率较低）：区间下界超过阈值",
+    "opposite_direction": null
+   },
+   "agy:gemini-3.8-flash-high": {
+    "verdict": "预测方向（多估计的聚合端点率较低）：点估计未达阈值",
+    "opposite_direction": null
+   },
+   "agy:claude-sonnet-5-5-medium": {
+    "verdict": "预测方向（多估计的聚合端点率较低）：点估计未达阈值",
+    "opposite_direction": null
+   },
+   "agy:gpt-oss-120b-medium": {
+    "verdict": "预测方向（多估计的聚合端点率较低）：点估计达到阈值（区间下界未超过）",
+    "opposite_direction": null
+   }
+  },
+  "H4b": {
+   "agy:gemini-3.8-flash-low": {
+    "verdict": "多估计 < 直接：点估计未达阈值",
+    "opposite_direction": null
+   },
+   "agy:gemini-3.8-flash-high": {
+    "verdict": "多估计 < 直接：点估计未达阈值",
+    "opposite_direction": null
+   },
+   "agy:claude-sonnet-5-5-medium": {
+    "verdict": "不确定",
+    "opposite_direction": null
+   },
+   "agy:gpt-oss-120b-medium": {
+    "verdict": "多估计 < 直接：点估计未达阈值",
+    "opposite_direction": null
+   }
+  }
+ },
+ "descriptives": {
+  "agy:claude-sonnet-5-5-medium": {
+   "conditions_all_available": {
+    "_denominator": "each condition's own available pairs (pairs with prior and that posterior)",
+    "stated|direct|S": {
+     "n": 120,
+     "mean_delta": 25.416666666666668,
+     "mean_s": 25.416666666666668,
+     "consistent_rate": 0.85,
+     "reverse_rate": 0.075,
+     "tie_rate": 0.075,
+     "mean_abs_delta": 26.466666666666665
+    },
+    "stated|direct|W": {
+     "n": 120,
+     "mean_delta": -18.6,
+     "mean_s": 18.6,
+     "consistent_rate": 0.8416666666666667,
+     "reverse_rate": 0.08333333333333333,
+     "tie_rate": 0.075,
+     "mean_abs_delta": 20.75
+    },
+    "stated|direct|pooled": {
+     "n_moves": 240,
+     "consistent_rate": 0.8458333333333333,
+     "reverse_rate": 0.07916666666666666,
+     "mean_abs_move": 23.608333333333334,
+     "D_mean_pS_minus_pW": 44.016666666666666,
+     "n_D": 120,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false
+    },
+    "stated|multi|S": {
+     "n": 120,
+     "mean_delta": 25.49375,
+     "mean_s": 25.49375,
+     "consistent_rate": 0.8666666666666667,
+     "reverse_rate": 0.11666666666666667,
+     "tie_rate": 0.016666666666666666,
+     "mean_abs_delta": 26.368
+    },
+    "stated|multi|W": {
+     "n": 120,
+     "mean_delta": -19.464208333333332,
+     "mean_s": 19.464208333333332,
+     "consistent_rate": 0.8833333333333333,
+     "reverse_rate": 0.11666666666666667,
+     "tie_rate": 0.0,
+     "mean_abs_delta": 21.386791666666667
+    },
+    "stated|multi|pooled": {
+     "n_moves": 240,
+     "consistent_rate": 0.875,
+     "reverse_rate": 0.11666666666666667,
+     "mean_abs_move": 23.87739583333333,
+     "D_mean_pS_minus_pW": 44.95795833333333,
+     "n_D": 120,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false
+    },
+    "reported|direct|S": {
+     "n": 120,
+     "mean_delta": 24.008333333333333,
+     "mean_s": 24.008333333333333,
+     "consistent_rate": 0.8333333333333334,
+     "reverse_rate": 0.11666666666666667,
+     "tie_rate": 0.05,
+     "mean_abs_delta": 25.041666666666668
+    },
+    "reported|direct|W": {
+     "n": 120,
+     "mean_delta": -13.9,
+     "mean_s": 13.9,
+     "consistent_rate": 0.7083333333333334,
+     "reverse_rate": 0.13333333333333333,
+     "tie_rate": 0.15833333333333333,
+     "mean_abs_delta": 16.416666666666668
+    },
+    "reported|direct|pooled": {
+     "n_moves": 240,
+     "consistent_rate": 0.7708333333333334,
+     "reverse_rate": 0.125,
+     "mean_abs_move": 20.729166666666668,
+     "D_mean_pS_minus_pW": 37.90833333333333,
+     "n_D": 120,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false
+    },
+    "reported|multi|S": {
+     "n": 120,
+     "mean_delta": 23.531208333333332,
+     "mean_s": 23.531208333333332,
+     "consistent_rate": 0.8333333333333334,
+     "reverse_rate": 0.15833333333333333,
+     "tie_rate": 0.008333333333333333,
+     "mean_abs_delta": 24.619208333333333
+    },
+    "reported|multi|W": {
+     "n": 120,
+     "mean_delta": -14.799416666666668,
+     "mean_s": 14.799416666666668,
+     "consistent_rate": 0.825,
+     "reverse_rate": 0.175,
+     "tie_rate": 0.0,
+     "mean_abs_delta": 17.449833333333334
+    },
+    "reported|multi|pooled": {
+     "n_moves": 240,
+     "consistent_rate": 0.8291666666666667,
+     "reverse_rate": 0.16666666666666666,
+     "mean_abs_move": 21.034520833333332,
+     "D_mean_pS_minus_pW": 38.330625000000005,
+     "n_D": 120,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false
+    }
+   },
+   "h2_reading": {
+    "n_common": 120,
+    "stated": {
+     "n": 120,
+     "mean_s_item": 22.008333333333333,
+     "n_prior_missing": 0,
+     "mean_delta_S": 25.416666666666668,
+     "mean_delta_W": -18.6,
+     "n_delta": 120,
+     "consistent_rate": 0.8458333333333333,
+     "reverse_rate": 0.07916666666666666,
+     "mean_abs_delta": 23.608333333333334,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false,
+     "mean_s": 22.008333333333333
+    },
+    "reported": {
+     "n": 120,
+     "mean_s_item": 18.954166666666666,
+     "n_prior_missing": 0,
+     "mean_delta_S": 24.008333333333333,
+     "mean_delta_W": -13.9,
+     "n_delta": 120,
+     "consistent_rate": 0.7708333333333334,
+     "reverse_rate": 0.125,
+     "mean_abs_delta": 20.729166666666668,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false,
+     "mean_s": 18.954166666666666
+    },
+    "reading": "转述改变方向（转述下反向率 0.125 > 陈述 0.079）；不写「打折扣」"
+   },
+   "endpoints_all_available": {
+    "_denominator": "each cell's own available pairs",
+    "direct": {
+     "prior": {
+      "n": 120,
+      "rate": 0.20833333333333334
+     },
+     "stated": {
+      "n": 240,
+      "rate": 0.2708333333333333
+     },
+     "reported": {
+      "n": 240,
+      "rate": 0.19166666666666668
+     },
+     "posterior_all": {
+      "n": 480,
+      "rate": 0.23125
+     },
+     "h4a_e": {
+      "n": 120,
+      "mean": 0.23958333333333334
+     }
+    },
+    "multi": {
+     "prior": {
+      "n": 120,
+      "rate": 0.14166666666666666
+     },
+     "stated": {
+      "n": 240,
+      "rate": 0.20833333333333334
+     },
+     "reported": {
+      "n": 240,
+      "rate": 0.13333333333333333
+     },
+     "posterior_all": {
+      "n": 480,
+      "rate": 0.17083333333333334
+     },
+     "h4a_e": {
+      "n": 120,
+      "mean": 0.175
+     }
+    }
+   },
+   "candidates_multi": {
+    "prior": {
+     "n": 120,
+     "mean_endpoint_mass": 0.22208333333333333,
+     "mean_weighted_sd": 6.971194805522659,
+     "mean_weight_sum": 1.0,
+     "n_weight_sum_known": 120,
+     "weight_sum_in_tolerance_rate": 1.0
+    },
+    "stated": {
+     "n": 240,
+     "mean_endpoint_mass": 0.29770833333333335,
+     "mean_weighted_sd": 6.25162382393382,
+     "mean_weight_sum": 1.0,
+     "n_weight_sum_known": 240,
+     "weight_sum_in_tolerance_rate": 1.0
+    },
+    "reported": {
+     "n": 240,
+     "mean_endpoint_mass": 0.25645833333333334,
+     "mean_weighted_sd": 6.840965661874375,
+     "mean_weight_sum": 1.0,
+     "n_weight_sum_known": 240,
+     "weight_sum_in_tolerance_rate": 1.0
+    }
+   },
+   "repeat_noise": {
+    "prior|-|direct": {
+     "n": 20,
+     "mean": 1.1,
+     "mean_abs": 1.9,
+     "sd": 2.936162909577557
+    },
+    "prior|-|multi": {
+     "n": 20,
+     "mean": -0.1922500000000007,
+     "mean_abs": 2.61675,
+     "sd": 4.253530569142718
+    },
+    "stated|S|direct": {
+     "n": 20,
+     "mean": -0.25,
+     "mean_abs": 1.35,
+     "sd": 2.022895267471328
+    },
+    "stated|S|multi": {
+     "n": 20,
+     "mean": 0.25949999999999995,
+     "mean_abs": 3.9404999999999992,
+     "sd": 5.7846152353508025
+    },
+    "stated|W|direct": {
+     "n": 20,
+     "mean": 0.45,
+     "mean_abs": 1.85,
+     "sd": 3.7623480910057667
+    },
+    "stated|W|multi": {
+     "n": 20,
+     "mean": 1.6690000000000005,
+     "mean_abs": 2.1160000000000005,
+     "sd": 3.6158381862956324
+    },
+    "reported|S|direct": {
+     "n": 20,
+     "mean": 0.2,
+     "mean_abs": 2.5,
+     "sd": 4.6859251740549706
+    },
+    "reported|S|multi": {
+     "n": 20,
+     "mean": 0.477000000000002,
+     "mean_abs": 5.0120000000000005,
+     "sd": 6.986656530393075
+    },
+    "reported|W|direct": {
+     "n": 20,
+     "mean": 2.3,
+     "mean_abs": 2.3,
+     "sd": 6.673592893281936
+    },
+    "reported|W|multi": {
+     "n": 20,
+     "mean": 0.17799999999999958,
+     "mean_abs": 2.2460000000000004,
+     "sd": 3.5176107321814185
+    },
+    "s_item|stated|direct": {
+     "n": 20,
+     "mean_abs_call_diff": 1.35,
+     "sd_call_diff": 2.007223796297028,
+     "sd_between_items_r0": 14.456741279453425
+    }
+   },
+   "power_scenarios": null
+  },
+  "agy:gemini-3.8-flash-high": {
+   "conditions_all_available": {
+    "_denominator": "each condition's own available pairs (pairs with prior and that posterior)",
+    "stated|direct|S": {
+     "n": 120,
+     "mean_delta": 27.939083333333333,
+     "mean_s": 27.939083333333333,
+     "consistent_rate": 0.825,
+     "reverse_rate": 0.06666666666666667,
+     "tie_rate": 0.10833333333333334,
+     "mean_abs_delta": 29.10575
+    },
+    "stated|direct|W": {
+     "n": 120,
+     "mean_delta": -28.652583333333332,
+     "mean_s": 28.652583333333332,
+     "consistent_rate": 0.8666666666666667,
+     "reverse_rate": 0.03333333333333333,
+     "tie_rate": 0.1,
+     "mean_abs_delta": 29.585916666666666
+    },
+    "stated|direct|pooled": {
+     "n_moves": 240,
+     "consistent_rate": 0.8458333333333333,
+     "reverse_rate": 0.05,
+     "mean_abs_move": 29.345833333333335,
+     "D_mean_pS_minus_pW": 56.59166666666667,
+     "n_D": 120,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false
+    },
+    "stated|multi|S": {
+     "n": 120,
+     "mean_delta": 26.06385,
+     "mean_s": 26.06385,
+     "consistent_rate": 0.8833333333333333,
+     "reverse_rate": 0.11666666666666667,
+     "tie_rate": 0.0,
+     "mean_abs_delta": 27.247850000000003
+    },
+    "stated|multi|W": {
+     "n": 120,
+     "mean_delta": -23.061983333333334,
+     "mean_s": 23.061983333333334,
+     "consistent_rate": 0.8916666666666667,
+     "reverse_rate": 0.10833333333333334,
+     "tie_rate": 0.0,
+     "mean_abs_delta": 24.497566666666668
+    },
+    "stated|multi|pooled": {
+     "n_moves": 240,
+     "consistent_rate": 0.8875,
+     "reverse_rate": 0.1125,
+     "mean_abs_move": 25.872708333333332,
+     "D_mean_pS_minus_pW": 49.12583333333334,
+     "n_D": 120,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false
+    },
+    "reported|direct|S": {
+     "n": 120,
+     "mean_delta": 24.889083333333335,
+     "mean_s": 24.889083333333335,
+     "consistent_rate": 0.7833333333333333,
+     "reverse_rate": 0.10833333333333334,
+     "tie_rate": 0.10833333333333334,
+     "mean_abs_delta": 26.80575
+    },
+    "reported|direct|W": {
+     "n": 120,
+     "mean_delta": -23.47758333333333,
+     "mean_s": 23.47758333333333,
+     "consistent_rate": 0.825,
+     "reverse_rate": 0.05,
+     "tie_rate": 0.125,
+     "mean_abs_delta": 24.560916666666667
+    },
+    "reported|direct|pooled": {
+     "n_moves": 240,
+     "consistent_rate": 0.8041666666666667,
+     "reverse_rate": 0.07916666666666666,
+     "mean_abs_move": 25.683333333333334,
+     "D_mean_pS_minus_pW": 48.36666666666667,
+     "n_D": 120,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false
+    },
+    "reported|multi|S": {
+     "n": 120,
+     "mean_delta": 24.065758333333335,
+     "mean_s": 24.065758333333335,
+     "consistent_rate": 0.8416666666666667,
+     "reverse_rate": 0.13333333333333333,
+     "tie_rate": 0.025,
+     "mean_abs_delta": 24.736841666666667
+    },
+    "reported|multi|W": {
+     "n": 120,
+     "mean_delta": -16.523025,
+     "mean_s": 16.523025,
+     "consistent_rate": 0.8166666666666667,
+     "reverse_rate": 0.18333333333333332,
+     "tie_rate": 0.0,
+     "mean_abs_delta": 18.791441666666667
+    },
+    "reported|multi|pooled": {
+     "n_moves": 240,
+     "consistent_rate": 0.8291666666666667,
+     "reverse_rate": 0.15833333333333333,
+     "mean_abs_move": 21.764141666666667,
+     "D_mean_pS_minus_pW": 40.58878333333333,
+     "n_D": 120,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false
+    }
+   },
+   "h2_reading": {
+    "n_common": 120,
+    "stated": {
+     "n": 120,
+     "mean_s_item": 28.295833333333334,
+     "n_prior_missing": 0,
+     "mean_delta_S": 27.939083333333333,
+     "mean_delta_W": -28.652583333333332,
+     "n_delta": 120,
+     "consistent_rate": 0.8458333333333333,
+     "reverse_rate": 0.05,
+     "mean_abs_delta": 29.345833333333335,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false,
+     "mean_s": 28.295833333333334
+    },
+    "reported": {
+     "n": 120,
+     "mean_s_item": 24.183333333333334,
+     "n_prior_missing": 0,
+     "mean_delta_S": 24.889083333333335,
+     "mean_delta_W": -23.47758333333333,
+     "n_delta": 120,
+     "consistent_rate": 0.8041666666666667,
+     "reverse_rate": 0.07916666666666666,
+     "mean_abs_delta": 25.683333333333334,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false,
+     "mean_s": 24.183333333333334
+    },
+    "reading": "转述改变方向（转述下反向率 0.079 > 陈述 0.050）；不写「打折扣」"
+   },
+   "endpoints_all_available": {
+    "_denominator": "each cell's own available pairs",
+    "direct": {
+     "prior": {
+      "n": 120,
+      "rate": 0.225
+     },
+     "stated": {
+      "n": 240,
+      "rate": 0.42083333333333334
+     },
+     "reported": {
+      "n": 240,
+      "rate": 0.36666666666666664
+     },
+     "posterior_all": {
+      "n": 480,
+      "rate": 0.39375
+     },
+     "h4a_e": {
+      "n": 120,
+      "mean": 0.3229166666666667
+     }
+    },
+    "multi": {
+     "prior": {
+      "n": 120,
+      "rate": 0.18333333333333332
+     },
+     "stated": {
+      "n": 240,
+      "rate": 0.2833333333333333
+     },
+     "reported": {
+      "n": 240,
+      "rate": 0.17916666666666667
+     },
+     "posterior_all": {
+      "n": 480,
+      "rate": 0.23125
+     },
+     "h4a_e": {
+      "n": 120,
+      "mean": 0.23333333333333334
+     }
+    }
+   },
+   "candidates_multi": {
+    "prior": {
+     "n": 120,
+     "mean_endpoint_mass": 0.2569166666666666,
+     "mean_weighted_sd": 8.813759505876382,
+     "mean_weight_sum": 1.0,
+     "n_weight_sum_known": 120,
+     "weight_sum_in_tolerance_rate": 1.0
+    },
+    "stated": {
+     "n": 240,
+     "mean_endpoint_mass": 0.37137499999999996,
+     "mean_weighted_sd": 7.534029391351527,
+     "mean_weight_sum": 1.0,
+     "n_weight_sum_known": 240,
+     "weight_sum_in_tolerance_rate": 1.0
+    },
+    "reported": {
+     "n": 240,
+     "mean_endpoint_mass": 0.29583333333333334,
+     "mean_weighted_sd": 8.358758933332307,
+     "mean_weight_sum": 1.0,
+     "n_weight_sum_known": 240,
+     "weight_sum_in_tolerance_rate": 1.0
+    }
+   },
+   "repeat_noise": {
+    "prior|-|direct": {
+     "n": 20,
+     "mean": -0.95,
+     "mean_abs": 3.35,
+     "sd": 6.056531924077378
+    },
+    "prior|-|multi": {
+     "n": 20,
+     "mean": -0.6103000000000006,
+     "mean_abs": 2.9647,
+     "sd": 4.500128209869487
+    },
+    "stated|S|direct": {
+     "n": 20,
+     "mean": 0.4,
+     "mean_abs": 2.6,
+     "sd": 5.374403271649402
+    },
+    "stated|S|multi": {
+     "n": 20,
+     "mean": -0.2250000000000006,
+     "mean_abs": 2.9175,
+     "sd": 4.253891407319086
+    },
+    "stated|W|direct": {
+     "n": 20,
+     "mean": 0.3,
+     "mean_abs": 1.3,
+     "sd": 2.556724878680371
+    },
+    "stated|W|multi": {
+     "n": 20,
+     "mean": -1.05735,
+     "mean_abs": 3.01615,
+     "sd": 5.869047526733161
+    },
+    "reported|S|direct": {
+     "n": 20,
+     "mean": 1.25,
+     "mean_abs": 3.75,
+     "sd": 7.047769337285305
+    },
+    "reported|S|multi": {
+     "n": 20,
+     "mean": -3.15825,
+     "mean_abs": 3.8167500000000003,
+     "sd": 5.951403477774226
+    },
+    "reported|W|direct": {
+     "n": 20,
+     "mean": -0.45,
+     "mean_abs": 1.55,
+     "sd": 2.781044862334261
+    },
+    "reported|W|multi": {
+     "n": 20,
+     "mean": 0.6346749999999997,
+     "mean_abs": 3.1886750000000004,
+     "sd": 6.852551676632658
+    },
+    "s_item|stated|direct": {
+     "n": 20,
+     "mean_abs_call_diff": 1.4,
+     "sd_call_diff": 2.733322635837004,
+     "sd_between_items_r0": 14.74431201657457
+    }
+   },
+   "power_scenarios": null
+  },
+  "agy:gemini-3.8-flash-low": {
+   "conditions_all_available": {
+    "_denominator": "each condition's own available pairs (pairs with prior and that posterior)",
+    "stated|direct|S": {
+     "n": 120,
+     "mean_delta": 26.855,
+     "mean_s": 26.855,
+     "consistent_rate": 0.8083333333333333,
+     "reverse_rate": 0.075,
+     "tie_rate": 0.11666666666666667,
+     "mean_abs_delta": 28.221666666666668
+    },
+    "stated|direct|W": {
+     "n": 120,
+     "mean_delta": -26.427500000000002,
+     "mean_s": 26.427500000000002,
+     "consistent_rate": 0.8,
+     "reverse_rate": 0.05,
+     "tie_rate": 0.15,
+     "mean_abs_delta": 28.29416666666667
+    },
+    "stated|direct|pooled": {
+     "n_moves": 240,
+     "consistent_rate": 0.8041666666666667,
+     "reverse_rate": 0.0625,
+     "mean_abs_move": 28.257916666666667,
+     "D_mean_pS_minus_pW": 53.2825,
+     "n_D": 120,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false
+    },
+    "stated|multi|S": {
+     "n": 120,
+     "mean_delta": 25.639935833333332,
+     "mean_s": 25.639935833333332,
+     "consistent_rate": 0.8416666666666667,
+     "reverse_rate": 0.125,
+     "tie_rate": 0.03333333333333333,
+     "mean_abs_delta": 27.538102499999997
+    },
+    "stated|multi|W": {
+     "n": 120,
+     "mean_delta": -22.686272499999998,
+     "mean_s": 22.686272499999998,
+     "consistent_rate": 0.85,
+     "reverse_rate": 0.14166666666666666,
+     "tie_rate": 0.008333333333333333,
+     "mean_abs_delta": 25.169060833333333
+    },
+    "stated|multi|pooled": {
+     "n_moves": 240,
+     "consistent_rate": 0.8458333333333333,
+     "reverse_rate": 0.13333333333333333,
+     "mean_abs_move": 26.353581666666667,
+     "D_mean_pS_minus_pW": 48.326208333333334,
+     "n_D": 120,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false
+    },
+    "reported|direct|S": {
+     "n": 120,
+     "mean_delta": 25.52583333333333,
+     "mean_s": 25.52583333333333,
+     "consistent_rate": 0.775,
+     "reverse_rate": 0.06666666666666667,
+     "tie_rate": 0.15833333333333333,
+     "mean_abs_delta": 26.309166666666666
+    },
+    "reported|direct|W": {
+     "n": 120,
+     "mean_delta": -19.586666666666666,
+     "mean_s": 19.586666666666666,
+     "consistent_rate": 0.7083333333333334,
+     "reverse_rate": 0.11666666666666667,
+     "tie_rate": 0.175,
+     "mean_abs_delta": 23.28666666666667
+    },
+    "reported|direct|pooled": {
+     "n_moves": 240,
+     "consistent_rate": 0.7416666666666667,
+     "reverse_rate": 0.09166666666666666,
+     "mean_abs_move": 24.797916666666666,
+     "D_mean_pS_minus_pW": 45.1125,
+     "n_D": 120,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false
+    },
+    "reported|multi|S": {
+     "n": 120,
+     "mean_delta": 23.472035833333333,
+     "mean_s": 23.472035833333333,
+     "consistent_rate": 0.8583333333333333,
+     "reverse_rate": 0.14166666666666666,
+     "tie_rate": 0.0,
+     "mean_abs_delta": 25.065535833333335
+    },
+    "reported|multi|W": {
+     "n": 120,
+     "mean_delta": -16.214968333333335,
+     "mean_s": 16.214968333333335,
+     "consistent_rate": 0.775,
+     "reverse_rate": 0.20833333333333334,
+     "tie_rate": 0.016666666666666666,
+     "mean_abs_delta": 19.646673333333336
+    },
+    "reported|multi|pooled": {
+     "n_moves": 240,
+     "consistent_rate": 0.8166666666666667,
+     "reverse_rate": 0.175,
+     "mean_abs_move": 22.356104583333334,
+     "D_mean_pS_minus_pW": 39.68700416666666,
+     "n_D": 120,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false
+    }
+   },
+   "h2_reading": {
+    "n_common": 120,
+    "stated": {
+     "n": 120,
+     "mean_s_item": 26.64125,
+     "n_prior_missing": 0,
+     "mean_delta_S": 26.855,
+     "mean_delta_W": -26.427500000000002,
+     "n_delta": 120,
+     "consistent_rate": 0.8041666666666667,
+     "reverse_rate": 0.0625,
+     "mean_abs_delta": 28.257916666666667,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false,
+     "mean_s": 26.64125
+    },
+    "reported": {
+     "n": 120,
+     "mean_s_item": 22.55625,
+     "n_prior_missing": 0,
+     "mean_delta_S": 25.52583333333333,
+     "mean_delta_W": -19.586666666666666,
+     "n_delta": 120,
+     "consistent_rate": 0.7416666666666667,
+     "reverse_rate": 0.09166666666666666,
+     "mean_abs_delta": 24.797916666666666,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false,
+     "mean_s": 22.55625
+    },
+    "reading": "转述改变方向（转述下反向率 0.092 > 陈述 0.062）；不写「打折扣」"
+   },
+   "endpoints_all_available": {
+    "_denominator": "each cell's own available pairs",
+    "direct": {
+     "prior": {
+      "n": 120,
+      "rate": 0.2916666666666667
+     },
+     "stated": {
+      "n": 240,
+      "rate": 0.48333333333333334
+     },
+     "reported": {
+      "n": 240,
+      "rate": 0.44166666666666665
+     },
+     "posterior_all": {
+      "n": 480,
+      "rate": 0.4625
+     },
+     "h4a_e": {
+      "n": 120,
+      "mean": 0.3875
+     }
+    },
+    "multi": {
+     "prior": {
+      "n": 120,
+      "rate": 0.175
+     },
+     "stated": {
+      "n": 240,
+      "rate": 0.275
+     },
+     "reported": {
+      "n": 240,
+      "rate": 0.22916666666666666
+     },
+     "posterior_all": {
+      "n": 480,
+      "rate": 0.2520833333333333
+     },
+     "h4a_e": {
+      "n": 120,
+      "mean": 0.225
+     }
+    }
+   },
+   "candidates_multi": {
+    "prior": {
+     "n": 120,
+     "mean_endpoint_mass": 0.25658333333333333,
+     "mean_weighted_sd": 8.959308072041953,
+     "mean_weight_sum": 1.0,
+     "n_weight_sum_known": 120,
+     "weight_sum_in_tolerance_rate": 1.0
+    },
+    "stated": {
+     "n": 240,
+     "mean_endpoint_mass": 0.395625,
+     "mean_weighted_sd": 7.465155382794293,
+     "mean_weight_sum": 1.0,
+     "n_weight_sum_known": 240,
+     "weight_sum_in_tolerance_rate": 1.0
+    },
+    "reported": {
+     "n": 240,
+     "mean_endpoint_mass": 0.3405416666666667,
+     "mean_weighted_sd": 7.886736475601746,
+     "mean_weight_sum": 1.0,
+     "n_weight_sum_known": 240,
+     "weight_sum_in_tolerance_rate": 1.0
+    }
+   },
+   "repeat_noise": {
+    "prior|-|direct": {
+     "n": 20,
+     "mean": -2.175,
+     "mean_abs": 4.225,
+     "sd": 7.296854044543335
+    },
+    "prior|-|multi": {
+     "n": 20,
+     "mean": -0.5887749999999995,
+     "mean_abs": 2.401775000000001,
+     "sd": 3.5873195919244867
+    },
+    "stated|S|direct": {
+     "n": 20,
+     "mean": -0.3,
+     "mean_abs": 4.3,
+     "sd": 6.974389239435801
+    },
+    "stated|S|multi": {
+     "n": 20,
+     "mean": -4.2655,
+     "mean_abs": 4.8045,
+     "sd": 9.881462429055839
+    },
+    "stated|W|direct": {
+     "n": 20,
+     "mean": 0.545,
+     "mean_abs": 1.845,
+     "sd": 2.927811289575956
+    },
+    "stated|W|multi": {
+     "n": 20,
+     "mean": -0.21799999999999975,
+     "mean_abs": 3.9305,
+     "sd": 7.339820448112223
+    },
+    "reported|S|direct": {
+     "n": 20,
+     "mean": -4.325,
+     "mean_abs": 5.475,
+     "sd": 7.970793726573216
+    },
+    "reported|S|multi": {
+     "n": 20,
+     "mean": -0.18075000000000102,
+     "mean_abs": 2.7707500000000005,
+     "sd": 3.8773689787494328
+    },
+    "reported|W|direct": {
+     "n": 20,
+     "mean": 2.55,
+     "mean_abs": 5.95,
+     "sd": 15.493547043850224
+    },
+    "reported|W|multi": {
+     "n": 20,
+     "mean": 1.2019250000000004,
+     "mean_abs": 4.383075,
+     "sd": 7.322684520459981
+    },
+    "s_item|stated|direct": {
+     "n": 20,
+     "mean_abs_call_diff": 2.3225000000000002,
+     "sd_call_diff": 3.5178669897957677,
+     "sd_between_items_r0": 15.549965941746422
+    }
+   },
+   "power_scenarios": null
+  },
+  "agy:gpt-oss-120b-medium": {
+   "conditions_all_available": {
+    "_denominator": "each condition's own available pairs (pairs with prior and that posterior)",
+    "stated|direct|S": {
+     "n": 120,
+     "mean_delta": 17.84333333333333,
+     "mean_s": 17.84333333333333,
+     "consistent_rate": 0.7666666666666667,
+     "reverse_rate": 0.16666666666666666,
+     "tie_rate": 0.06666666666666667,
+     "mean_abs_delta": 20.426666666666666
+    },
+    "stated|direct|W": {
+     "n": 120,
+     "mean_delta": -17.34,
+     "mean_s": 17.34,
+     "consistent_rate": 0.725,
+     "reverse_rate": 0.15833333333333333,
+     "tie_rate": 0.11666666666666667,
+     "mean_abs_delta": 21.301666666666666
+    },
+    "stated|direct|pooled": {
+     "n_moves": 240,
+     "consistent_rate": 0.7458333333333333,
+     "reverse_rate": 0.1625,
+     "mean_abs_move": 20.864166666666666,
+     "D_mean_pS_minus_pW": 35.18333333333333,
+     "n_D": 120,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false
+    },
+    "stated|multi|S": {
+     "n": 120,
+     "mean_delta": 13.675625,
+     "mean_s": 13.675625,
+     "consistent_rate": 0.7583333333333333,
+     "reverse_rate": 0.24166666666666667,
+     "tie_rate": 0.0,
+     "mean_abs_delta": 18.659291666666668
+    },
+    "stated|multi|W": {
+     "n": 120,
+     "mean_delta": -16.916958333333334,
+     "mean_s": 16.916958333333334,
+     "consistent_rate": 0.8083333333333333,
+     "reverse_rate": 0.18333333333333332,
+     "tie_rate": 0.008333333333333333,
+     "mean_abs_delta": 20.616708333333335
+    },
+    "stated|multi|pooled": {
+     "n_moves": 240,
+     "consistent_rate": 0.7833333333333333,
+     "reverse_rate": 0.2125,
+     "mean_abs_move": 19.637999999999998,
+     "D_mean_pS_minus_pW": 30.592583333333334,
+     "n_D": 120,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false
+    },
+    "reported|direct|S": {
+     "n": 120,
+     "mean_delta": 16.118333333333332,
+     "mean_s": 16.118333333333332,
+     "consistent_rate": 0.7416666666666667,
+     "reverse_rate": 0.18333333333333332,
+     "tie_rate": 0.075,
+     "mean_abs_delta": 19.851666666666667
+    },
+    "reported|direct|W": {
+     "n": 120,
+     "mean_delta": -17.240000000000002,
+     "mean_s": 17.240000000000002,
+     "consistent_rate": 0.7,
+     "reverse_rate": 0.2,
+     "tie_rate": 0.1,
+     "mean_abs_delta": 20.451666666666664
+    },
+    "reported|direct|pooled": {
+     "n_moves": 240,
+     "consistent_rate": 0.7208333333333333,
+     "reverse_rate": 0.19166666666666668,
+     "mean_abs_move": 20.151666666666664,
+     "D_mean_pS_minus_pW": 33.358333333333334,
+     "n_D": 120,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false
+    },
+    "reported|multi|S": {
+     "n": 120,
+     "mean_delta": 10.224708333333332,
+     "mean_s": 10.224708333333332,
+     "consistent_rate": 0.7166666666666667,
+     "reverse_rate": 0.2833333333333333,
+     "tie_rate": 0.0,
+     "mean_abs_delta": 16.155874999999998
+    },
+    "reported|multi|W": {
+     "n": 120,
+     "mean_delta": -14.406625,
+     "mean_s": 14.406625,
+     "consistent_rate": 0.7416666666666667,
+     "reverse_rate": 0.25833333333333336,
+     "tie_rate": 0.0,
+     "mean_abs_delta": 18.58470833333333
+    },
+    "reported|multi|pooled": {
+     "n_moves": 240,
+     "consistent_rate": 0.7291666666666666,
+     "reverse_rate": 0.2708333333333333,
+     "mean_abs_move": 17.370291666666667,
+     "D_mean_pS_minus_pW": 24.631333333333334,
+     "n_D": 120,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false
+    }
+   },
+   "h2_reading": {
+    "n_common": 120,
+    "stated": {
+     "n": 120,
+     "mean_s_item": 17.591666666666665,
+     "n_prior_missing": 0,
+     "mean_delta_S": 17.84333333333333,
+     "mean_delta_W": -17.34,
+     "n_delta": 120,
+     "consistent_rate": 0.7458333333333333,
+     "reverse_rate": 0.1625,
+     "mean_abs_delta": 20.864166666666666,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false,
+     "mean_s": 17.591666666666665
+    },
+    "reported": {
+     "n": 120,
+     "mean_s_item": 16.679166666666667,
+     "n_prior_missing": 0,
+     "mean_delta_S": 16.118333333333332,
+     "mean_delta_W": -17.240000000000002,
+     "n_delta": 120,
+     "consistent_rate": 0.7208333333333333,
+     "reverse_rate": 0.19166666666666668,
+     "mean_abs_delta": 20.151666666666664,
+     "note_S_not_rising": false,
+     "note_W_not_falling": false,
+     "mean_s": 16.679166666666667
+    },
+    "reading": "转述改变方向（转述下反向率 0.192 > 陈述 0.163）；不写「打折扣」"
+   },
+   "endpoints_all_available": {
+    "_denominator": "each cell's own available pairs",
+    "direct": {
+     "prior": {
+      "n": 120,
+      "rate": 0.14166666666666666
+     },
+     "stated": {
+      "n": 240,
+      "rate": 0.14583333333333334
+     },
+     "reported": {
+      "n": 240,
+      "rate": 0.14583333333333334
+     },
+     "posterior_all": {
+      "n": 480,
+      "rate": 0.14583333333333334
+     },
+     "h4a_e": {
+      "n": 120,
+      "mean": 0.14375
+     }
+    },
+    "multi": {
+     "prior": {
+      "n": 120,
+      "rate": 0.05
+     },
+     "stated": {
+      "n": 240,
+      "rate": 0.03333333333333333
+     },
+     "reported": {
+      "n": 240,
+      "rate": 0.03333333333333333
+     },
+     "posterior_all": {
+      "n": 480,
+      "rate": 0.03333333333333333
+     },
+     "h4a_e": {
+      "n": 120,
+      "mean": 0.041666666666666664
+     }
+    }
+   },
+   "candidates_multi": {
+    "prior": {
+     "n": 120,
+     "mean_endpoint_mass": 0.16041666666666668,
+     "mean_weighted_sd": 15.724233138899285,
+     "mean_weight_sum": 1.0,
+     "n_weight_sum_known": 120,
+     "weight_sum_in_tolerance_rate": 1.0
+    },
+    "stated": {
+     "n": 240,
+     "mean_endpoint_mass": 0.19116666666666668,
+     "mean_weighted_sd": 14.044139554369929,
+     "mean_weight_sum": 1.0,
+     "n_weight_sum_known": 240,
+     "weight_sum_in_tolerance_rate": 1.0
+    },
+    "reported": {
+     "n": 240,
+     "mean_endpoint_mass": 0.163125,
+     "mean_weighted_sd": 14.960134707677264,
+     "mean_weight_sum": 1.0,
+     "n_weight_sum_known": 240,
+     "weight_sum_in_tolerance_rate": 1.0
+    }
+   },
+   "repeat_noise": {
+    "prior|-|direct": {
+     "n": 20,
+     "mean": 4.04,
+     "mean_abs": 8.34,
+     "sd": 13.119908536266554
+    },
+    "prior|-|multi": {
+     "n": 20,
+     "mean": -2.38,
+     "mean_abs": 6.22,
+     "sd": 8.029393370282516
+    },
+    "stated|S|direct": {
+     "n": 20,
+     "mean": -0.1,
+     "mean_abs": 7.6,
+     "sd": 11.39205632747754
+    },
+    "stated|S|multi": {
+     "n": 20,
+     "mean": 2.3500000000000005,
+     "mean_abs": 8.325,
+     "sd": 10.098136878704539
+    },
+    "stated|W|direct": {
+     "n": 20,
+     "mean": -3.2,
+     "mean_abs": 6.9,
+     "sd": 12.07258747829365
+    },
+    "stated|W|multi": {
+     "n": 20,
+     "mean": 0.978,
+     "mean_abs": 5.6530000000000005,
+     "sd": 8.209657086242045
+    },
+    "reported|S|direct": {
+     "n": 20,
+     "mean": 1.1,
+     "mean_abs": 6.2,
+     "sd": 8.422401207806665
+    },
+    "reported|S|multi": {
+     "n": 20,
+     "mean": -3.035,
+     "mean_abs": 12.830000000000002,
+     "sd": 18.584013361800483
+    },
+    "reported|W|direct": {
+     "n": 20,
+     "mean": 6.35,
+     "mean_abs": 9.95,
+     "sd": 18.779257874468563
+    },
+    "reported|W|multi": {
+     "n": 20,
+     "mean": 2.7425000000000006,
+     "mean_abs": 5.8375,
+     "sd": 7.064724731107065
+    },
+    "s_item|stated|direct": {
+     "n": 20,
+     "mean_abs_call_diff": 5.9,
+     "sd_call_diff": 8.011340646069696,
+     "sd_between_items_r0": 17.533351677663674
+    }
+   },
+   "power_scenarios": null
+  }
+ },
+ "speech_sensitivity": {
+  "excluded_keys": [
+   "2537758674.jpg#3r1e",
+   "3396817186.jpg#1r1n",
+   "519754987.jpg#0r1n"
+  ],
+  "update_ids": [
+   "dev:1834",
+   "dev:637",
+   "dev:689",
+   "dev:842",
+   "dev:965",
+   "test:1365",
+   "test:1430",
+   "test:1599",
+   "test:163",
+   "test:1646",
+   "test:878"
+  ],
+  "note": "Holm remains {H1,H2,H4a,H4b} per config; H4a retains its main sample; exclusions are not missing cells.",
+  "families": {
+   "config:agy:gemini-3.8-flash-low": {
+    "members": [
+     [
+      "H1",
+      "agy:gemini-3.8-flash-low"
+     ],
+     [
+      "H2",
+      "agy:gemini-3.8-flash-low"
+     ],
+     [
+      "H4a",
+      "agy:gemini-3.8-flash-low"
+     ],
+     [
+      "H4b",
+      "agy:gemini-3.8-flash-low"
+     ]
+    ],
+    "rows": [
+     {
+      "test": "H1",
+      "config": "agy:gemini-3.8-flash-low",
+      "sided": 1,
+      "direction": 1,
+      "min_effect": 5.0,
+      "n_planned": 117,
+      "n_common": 117,
+      "n_clusters": 117,
+      "point": 26.679059829059828,
+      "B": 5000,
+      "p": 0.0,
+      "companion": {
+       "n_common": 117,
+       "n_planned": 117,
+       "stated_direct": {
+        "n": 117,
+        "mean_s_item": 26.679059829059828,
+        "n_prior_missing": 0,
+        "mean_delta_S": 26.945299145299145,
+        "mean_delta_W": -26.412820512820513,
+        "n_delta": 117,
+        "consistent_rate": 0.8034188034188035,
+        "reverse_rate": 0.0641025641025641,
+        "mean_abs_delta": 28.337179487179487,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       }
+      },
+      "rank": 0,
+      "alpha_adj": 0.0125,
+      "ci_level": 0.9875,
+      "judgment": {
+       "alpha": 0.0125,
+       "sided": 1,
+       "bound": 23.234188034188033,
+       "bound_opposite": 30.085470085470085,
+       "rejected": true,
+       "sign": 1,
+       "near": 23.234188034188033,
+       "strength": "bound_exceeds",
+       "label": "预测方向（陈述下往标签方向移动）：区间下界超过阈值"
+      },
+      "raw": {
+       "ci95_two_sided": [
+        23.632478632478634,
+        29.60213675213675
+       ],
+       "one_sided_95": 24.178632478632476
+      },
+      "holm_stopped": false,
+      "verdict_before_bounds": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "complete_subset": {
+       "n": 117,
+       "point": 26.679059829059828,
+       "p": 0.0,
+       "alpha": 0.0125,
+       "interval_two_sided": [
+        22.815384615384616,
+        30.384188034188032
+       ],
+       "judgment": "预测方向（陈述下往标签方向移动）：区间下界超过阈值"
+      },
+      "missing_protection": {
+       "n_missing_cells": 0,
+       "n_pairs_with_missing": 0,
+       "point_bounds": [
+        26.679059829059828,
+        26.679059829059828
+       ],
+       "substitution": [
+        0.0,
+        100.0
+       ],
+       "conservative_bound": 23.234188034188033,
+       "label": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+       "retained_strength": "bound_exceeds"
+      },
+      "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "opposite_direction": null,
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "bound_exceeds",
+       "retained_strength": "bound_exceeds",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     {
+      "test": "H2",
+      "config": "agy:gemini-3.8-flash-low",
+      "sided": 1,
+      "direction": 1,
+      "min_effect": 5.0,
+      "n_planned": 117,
+      "n_common": 117,
+      "n_clusters": 117,
+      "point": 4.164102564102564,
+      "B": 5000,
+      "p": 0.0,
+      "companion": {
+       "n_common": 117,
+       "n_planned": 117,
+       "stated_direct": {
+        "n": 117,
+        "mean_s_item": 26.679059829059828,
+        "n_prior_missing": 0,
+        "mean_delta_S": 26.945299145299145,
+        "mean_delta_W": -26.412820512820513,
+        "n_delta": 117,
+        "consistent_rate": 0.8034188034188035,
+        "reverse_rate": 0.0641025641025641,
+        "mean_abs_delta": 28.337179487179487,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       },
+       "reported_direct": {
+        "n": 117,
+        "mean_s_item": 22.514957264957264,
+        "n_prior_missing": 0,
+        "mean_delta_S": 25.58205128205128,
+        "mean_delta_W": -19.44786324786325,
+        "n_delta": 117,
+        "consistent_rate": 0.7435897435897436,
+        "reverse_rate": 0.09401709401709402,
+        "mean_abs_delta": 24.814102564102566,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       },
+       "reading": "转述改变方向（转述下反向率 0.094 > 陈述 0.064）；不写「打折扣」"
+      },
+      "rank": 1,
+      "alpha_adj": 0.016666666666666666,
+      "ci_level": 0.9833333333333333,
+      "judgment": {
+       "alpha": 0.016666666666666666,
+       "sided": 1,
+       "bound": 2.258119658119658,
+       "bound_opposite": 6.311965811965812,
+       "rejected": true,
+       "sign": 1,
+       "near": 2.258119658119658,
+       "strength": "below",
+       "label": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值"
+      },
+      "raw": {
+       "ci95_two_sided": [
+        2.393162393162393,
+        6.152991452991453
+       ],
+       "one_sided_95": 2.6452991452991452
+      },
+      "holm_stopped": false,
+      "verdict_before_bounds": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+      "complete_subset": {
+       "n": 117,
+       "point": 4.164102564102564,
+       "p": 0.0,
+       "alpha": 0.016666666666666666,
+       "interval_two_sided": [
+        2.0042735042735043,
+        6.548717948717949
+       ],
+       "judgment": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值"
+      },
+      "missing_protection": {
+       "n_missing_cells": 0,
+       "n_pairs_with_missing": 0,
+       "point_bounds": [
+        4.164102564102564,
+        4.164102564102564
+       ],
+       "substitution": [
+        0.0,
+        100.0
+       ],
+       "conservative_bound": 2.258119658119658,
+       "label": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+       "retained_strength": "below"
+      },
+      "verdict": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+      "opposite_direction": null,
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     {
+      "test": "H4a",
+      "config": "agy:gemini-3.8-flash-low",
+      "sided": 1,
+      "direction": 1,
+      "min_effect": 0.1,
+      "n_planned": 120,
+      "n_common": 120,
+      "n_clusters": 120,
+      "point": 0.1625,
+      "B": 5000,
+      "p": 0.0,
+      "companion": {
+       "n_common": 120,
+       "n_planned": 120,
+       "direct": {
+        "n": 120,
+        "prior|-": 0.2916666666666667,
+        "stated|S": 0.3416666666666667,
+        "stated|W": 0.625,
+        "e_mean": 0.3875
+       },
+       "multi": {
+        "n": 120,
+        "prior|-": 0.175,
+        "stated|S": 0.11666666666666667,
+        "stated|W": 0.43333333333333335,
+        "e_mean": 0.225
+       },
+       "e_direct_minus_e_multi": 0.1625
+      },
+      "rank": 2,
+      "alpha_adj": 0.025,
+      "ci_level": 0.975,
+      "judgment": {
+       "alpha": 0.025,
+       "sided": 1,
+       "bound": 0.12291666666666666,
+       "bound_opposite": 0.20416666666666666,
+       "rejected": true,
+       "sign": 1,
+       "near": 0.12291666666666666,
+       "strength": "bound_exceeds",
+       "label": "预测方向（多估计的聚合端点率较低）：区间下界超过阈值"
+      },
+      "raw": {
+       "ci95_two_sided": [
+        0.12291666666666666,
+        0.20416666666666666
+       ],
+       "one_sided_95": 0.12916666666666668
+      },
+      "holm_stopped": false,
+      "verdict_before_bounds": "预测方向（多估计的聚合端点率较低）：区间下界超过阈值",
+      "complete_subset": {
+       "n": 120,
+       "point": 0.1625,
+       "p": 0.0,
+       "alpha": 0.025,
+       "interval_two_sided": [
+        0.11666666666666667,
+        0.20833333333333334
+       ],
+       "judgment": "预测方向（多估计的聚合端点率较低）：区间下界超过阈值"
+      },
+      "missing_protection": {
+       "n_missing_cells": 0,
+       "n_pairs_with_missing": 0,
+       "point_bounds": [
+        0.1625,
+        0.1625
+       ],
+       "substitution": [
+        50.0,
+        0.0
+       ],
+       "conservative_bound": 0.12291666666666666,
+       "label": "预测方向（多估计的聚合端点率较低）：区间下界超过阈值",
+       "retained_strength": "bound_exceeds"
+      },
+      "verdict": "预测方向（多估计的聚合端点率较低）：区间下界超过阈值",
+      "opposite_direction": null,
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "bound_exceeds",
+       "retained_strength": "bound_exceeds",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     {
+      "test": "H4b",
+      "config": "agy:gemini-3.8-flash-low",
+      "sided": 2,
+      "direction": 0,
+      "min_effect": 5.0,
+      "n_planned": 117,
+      "n_common": 117,
+      "n_clusters": 117,
+      "point": -2.4600213675213674,
+      "B": 5000,
+      "p": 0.0,
+      "companion": {
+       "n_common": 117,
+       "n_planned": 117,
+       "stated_direct": {
+        "n": 117,
+        "mean_s_item": 26.679059829059828,
+        "n_prior_missing": 0,
+        "mean_delta_S": 26.945299145299145,
+        "mean_delta_W": -26.412820512820513,
+        "n_delta": 117,
+        "consistent_rate": 0.8034188034188035,
+        "reverse_rate": 0.0641025641025641,
+        "mean_abs_delta": 28.337179487179487,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       },
+       "stated_multi": {
+        "n": 117,
+        "mean_s_item": 24.219038461538464,
+        "n_prior_missing": 0,
+        "mean_delta_S": 25.676515384615385,
+        "mean_delta_W": -22.76156153846154,
+        "n_delta": 117,
+        "consistent_rate": 0.8504273504273504,
+        "reverse_rate": 0.13247863247863248,
+        "mean_abs_delta": 26.439613675213675,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       }
+      },
+      "rank": 3,
+      "alpha_adj": 0.05,
+      "ci_level": 0.95,
+      "judgment": {
+       "alpha": 0.05,
+       "sided": 2,
+       "interval": [
+        -3.6854059829059826,
+        -1.2643376068376069
+       ],
+       "rejected": true,
+       "sign": -1,
+       "near": -1.2643376068376069,
+       "strength": "below",
+       "label": "多估计 < 直接：点估计未达阈值"
+      },
+      "raw": {
+       "ci95_two_sided": [
+        -3.6854059829059826,
+        -1.2643376068376069
+       ],
+       "one_sided_95": null
+      },
+      "holm_stopped": false,
+      "verdict_before_bounds": "多估计 < 直接：点估计未达阈值",
+      "complete_subset": {
+       "n": 117,
+       "point": -2.4600213675213674,
+       "p": 0.0,
+       "alpha": 0.05,
+       "interval_two_sided": [
+        -3.6854059829059826,
+        -1.2643376068376069
+       ],
+       "judgment": "多估计 < 直接：点估计未达阈值"
+      },
+      "missing_protection": {
+       "n_missing_cells": 0,
+       "n_pairs_with_missing": 0,
+       "point_bounds": [
+        -2.4600213675213674,
+        -2.4600213675213674
+       ],
+       "substitution": [
+        0.0,
+        100.0
+       ],
+       "conservative_bound": -1.2643376068376069,
+       "label": "多估计 < 直接：点估计未达阈值",
+       "retained_strength": "below"
+      },
+      "verdict": "多估计 < 直接：点估计未达阈值",
+      "opposite_direction": null,
+      "final_state": {
+       "holm": "rejected",
+       "sign": -1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     }
+    ]
+   },
+   "config:agy:gemini-3.8-flash-high": {
+    "members": [
+     [
+      "H1",
+      "agy:gemini-3.8-flash-high"
+     ],
+     [
+      "H2",
+      "agy:gemini-3.8-flash-high"
+     ],
+     [
+      "H4a",
+      "agy:gemini-3.8-flash-high"
+     ],
+     [
+      "H4b",
+      "agy:gemini-3.8-flash-high"
+     ]
+    ],
+    "rows": [
+     {
+      "test": "H1",
+      "config": "agy:gemini-3.8-flash-high",
+      "sided": 1,
+      "direction": 1,
+      "min_effect": 5.0,
+      "n_planned": 117,
+      "n_common": 117,
+      "n_clusters": 117,
+      "point": 28.418803418803417,
+      "B": 5000,
+      "p": 0.0,
+      "companion": {
+       "n_common": 117,
+       "n_planned": 117,
+       "stated_direct": {
+        "n": 117,
+        "mean_s_item": 28.418803418803417,
+        "n_prior_missing": 0,
+        "mean_delta_S": 28.142649572649574,
+        "mean_delta_W": -28.694957264957264,
+        "n_delta": 117,
+        "consistent_rate": 0.8461538461538461,
+        "reverse_rate": 0.05128205128205128,
+        "mean_abs_delta": 29.495726495726494,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       }
+      },
+      "rank": 0,
+      "alpha_adj": 0.0125,
+      "ci_level": 0.9875,
+      "judgment": {
+       "alpha": 0.0125,
+       "sided": 1,
+       "bound": 25.252136752136753,
+       "bound_opposite": 31.414529914529915,
+       "rejected": true,
+       "sign": 1,
+       "near": 25.252136752136753,
+       "strength": "bound_exceeds",
+       "label": "预测方向（陈述下往标签方向移动）：区间下界超过阈值"
+      },
+      "raw": {
+       "ci95_two_sided": [
+        25.64957264957265,
+        31.025641025641026
+       ],
+       "one_sided_95": 26.145299145299145
+      },
+      "holm_stopped": false,
+      "verdict_before_bounds": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "complete_subset": {
+       "n": 117,
+       "point": 28.418803418803417,
+       "p": 0.0,
+       "alpha": 0.0125,
+       "interval_two_sided": [
+        24.923076923076923,
+        31.743589743589745
+       ],
+       "judgment": "预测方向（陈述下往标签方向移动）：区间下界超过阈值"
+      },
+      "missing_protection": {
+       "n_missing_cells": 0,
+       "n_pairs_with_missing": 0,
+       "point_bounds": [
+        28.418803418803417,
+        28.418803418803417
+       ],
+       "substitution": [
+        0.0,
+        100.0
+       ],
+       "conservative_bound": 25.252136752136753,
+       "label": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+       "retained_strength": "bound_exceeds"
+      },
+      "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "opposite_direction": null,
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "bound_exceeds",
+       "retained_strength": "bound_exceeds",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     {
+      "test": "H2",
+      "config": "agy:gemini-3.8-flash-high",
+      "sided": 1,
+      "direction": 1,
+      "min_effect": 5.0,
+      "n_planned": 117,
+      "n_common": 117,
+      "n_clusters": 117,
+      "point": 4.1923076923076925,
+      "B": 5000,
+      "p": 0.0,
+      "companion": {
+       "n_common": 117,
+       "n_planned": 117,
+       "stated_direct": {
+        "n": 117,
+        "mean_s_item": 28.418803418803417,
+        "n_prior_missing": 0,
+        "mean_delta_S": 28.142649572649574,
+        "mean_delta_W": -28.694957264957264,
+        "n_delta": 117,
+        "consistent_rate": 0.8461538461538461,
+        "reverse_rate": 0.05128205128205128,
+        "mean_abs_delta": 29.495726495726494,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       },
+       "reported_direct": {
+        "n": 117,
+        "mean_s_item": 24.226495726495727,
+        "n_prior_missing": 0,
+        "mean_delta_S": 24.928974358974358,
+        "mean_delta_W": -23.524017094017093,
+        "n_delta": 117,
+        "consistent_rate": 0.8076923076923077,
+        "reverse_rate": 0.0811965811965812,
+        "mean_abs_delta": 25.764957264957264,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       },
+       "reading": "转述改变方向（转述下反向率 0.081 > 陈述 0.051）；不写「打折扣」"
+      },
+      "rank": 1,
+      "alpha_adj": 0.016666666666666666,
+      "ci_level": 0.9833333333333333,
+      "judgment": {
+       "alpha": 0.016666666666666666,
+       "sided": 1,
+       "bound": 2.58974358974359,
+       "bound_opposite": 6.021367521367521,
+       "rejected": true,
+       "sign": 1,
+       "near": 2.58974358974359,
+       "strength": "below",
+       "label": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值"
+      },
+      "raw": {
+       "ci95_two_sided": [
+        2.7094017094017095,
+        5.880341880341881
+       ],
+       "one_sided_95": 2.948717948717949
+      },
+      "holm_stopped": false,
+      "verdict_before_bounds": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+      "complete_subset": {
+       "n": 117,
+       "point": 4.1923076923076925,
+       "p": 0.0,
+       "alpha": 0.016666666666666666,
+       "interval_two_sided": [
+        2.427350427350427,
+        6.235042735042735
+       ],
+       "judgment": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值"
+      },
+      "missing_protection": {
+       "n_missing_cells": 0,
+       "n_pairs_with_missing": 0,
+       "point_bounds": [
+        4.1923076923076925,
+        4.1923076923076925
+       ],
+       "substitution": [
+        0.0,
+        100.0
+       ],
+       "conservative_bound": 2.58974358974359,
+       "label": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+       "retained_strength": "below"
+      },
+      "verdict": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+      "opposite_direction": null,
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     {
+      "test": "H4a",
+      "config": "agy:gemini-3.8-flash-high",
+      "sided": 1,
+      "direction": 1,
+      "min_effect": 0.1,
+      "n_planned": 120,
+      "n_common": 120,
+      "n_clusters": 120,
+      "point": 0.08958333333333333,
+      "B": 5000,
+      "p": 0.0,
+      "companion": {
+       "n_common": 120,
+       "n_planned": 120,
+       "direct": {
+        "n": 120,
+        "prior|-": 0.225,
+        "stated|S": 0.23333333333333334,
+        "stated|W": 0.6083333333333333,
+        "e_mean": 0.3229166666666667
+       },
+       "multi": {
+        "n": 120,
+        "prior|-": 0.18333333333333332,
+        "stated|S": 0.11666666666666667,
+        "stated|W": 0.45,
+        "e_mean": 0.23333333333333334
+       },
+       "e_direct_minus_e_multi": 0.08958333333333335
+      },
+      "rank": 2,
+      "alpha_adj": 0.025,
+      "ci_level": 0.975,
+      "judgment": {
+       "alpha": 0.025,
+       "sided": 1,
+       "bound": 0.05625,
+       "bound_opposite": 0.12291666666666666,
+       "rejected": true,
+       "sign": 1,
+       "near": 0.05625,
+       "strength": "below",
+       "label": "预测方向（多估计的聚合端点率较低）：点估计未达阈值"
+      },
+      "raw": {
+       "ci95_two_sided": [
+        0.05625,
+        0.12291666666666666
+       ],
+       "one_sided_95": 0.0625
+      },
+      "holm_stopped": false,
+      "verdict_before_bounds": "预测方向（多估计的聚合端点率较低）：点估计未达阈值",
+      "complete_subset": {
+       "n": 120,
+       "point": 0.08958333333333333,
+       "p": 0.0,
+       "alpha": 0.025,
+       "interval_two_sided": [
+        0.052083333333333336,
+        0.12916666666666668
+       ],
+       "judgment": "预测方向（多估计的聚合端点率较低）：点估计未达阈值"
+      },
+      "missing_protection": {
+       "n_missing_cells": 0,
+       "n_pairs_with_missing": 0,
+       "point_bounds": [
+        0.08958333333333333,
+        0.08958333333333333
+       ],
+       "substitution": [
+        50.0,
+        0.0
+       ],
+       "conservative_bound": 0.05625,
+       "label": "预测方向（多估计的聚合端点率较低）：点估计未达阈值",
+       "retained_strength": "below"
+      },
+      "verdict": "预测方向（多估计的聚合端点率较低）：点估计未达阈值",
+      "opposite_direction": null,
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     {
+      "test": "H4b",
+      "config": "agy:gemini-3.8-flash-high",
+      "sided": 2,
+      "direction": 0,
+      "min_effect": 5.0,
+      "n_planned": 117,
+      "n_common": 117,
+      "n_clusters": 117,
+      "point": -3.7952991452991456,
+      "B": 5000,
+      "p": 0.0,
+      "companion": {
+       "n_common": 117,
+       "n_planned": 117,
+       "stated_direct": {
+        "n": 117,
+        "mean_s_item": 28.418803418803417,
+        "n_prior_missing": 0,
+        "mean_delta_S": 28.142649572649574,
+        "mean_delta_W": -28.694957264957264,
+        "n_delta": 117,
+        "consistent_rate": 0.8461538461538461,
+        "reverse_rate": 0.05128205128205128,
+        "mean_abs_delta": 29.495726495726494,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       },
+       "stated_multi": {
+        "n": 117,
+        "mean_s_item": 24.62350427350427,
+        "n_prior_missing": 0,
+        "mean_delta_S": 26.228735042735043,
+        "mean_delta_W": -23.018273504273502,
+        "n_delta": 117,
+        "consistent_rate": 0.8846153846153846,
+        "reverse_rate": 0.11538461538461539,
+        "mean_abs_delta": 25.96688034188034,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       }
+      },
+      "rank": 3,
+      "alpha_adj": 0.05,
+      "ci_level": 0.95,
+      "judgment": {
+       "alpha": 0.05,
+       "sided": 2,
+       "interval": [
+        -5.12423076923077,
+        -2.543333333333332
+       ],
+       "rejected": true,
+       "sign": -1,
+       "near": -2.543333333333332,
+       "strength": "below",
+       "label": "多估计 < 直接：点估计未达阈值"
+      },
+      "raw": {
+       "ci95_two_sided": [
+        -5.12423076923077,
+        -2.543333333333332
+       ],
+       "one_sided_95": null
+      },
+      "holm_stopped": false,
+      "verdict_before_bounds": "多估计 < 直接：点估计未达阈值",
+      "complete_subset": {
+       "n": 117,
+       "point": -3.7952991452991456,
+       "p": 0.0,
+       "alpha": 0.05,
+       "interval_two_sided": [
+        -5.12423076923077,
+        -2.543333333333332
+       ],
+       "judgment": "多估计 < 直接：点估计未达阈值"
+      },
+      "missing_protection": {
+       "n_missing_cells": 0,
+       "n_pairs_with_missing": 0,
+       "point_bounds": [
+        -3.7952991452991456,
+        -3.7952991452991456
+       ],
+       "substitution": [
+        0.0,
+        100.0
+       ],
+       "conservative_bound": -2.543333333333332,
+       "label": "多估计 < 直接：点估计未达阈值",
+       "retained_strength": "below"
+      },
+      "verdict": "多估计 < 直接：点估计未达阈值",
+      "opposite_direction": null,
+      "final_state": {
+       "holm": "rejected",
+       "sign": -1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     }
+    ]
+   },
+   "config:agy:claude-sonnet-5-5-medium": {
+    "members": [
+     [
+      "H1",
+      "agy:claude-sonnet-5-5-medium"
+     ],
+     [
+      "H2",
+      "agy:claude-sonnet-5-5-medium"
+     ],
+     [
+      "H4a",
+      "agy:claude-sonnet-5-5-medium"
+     ],
+     [
+      "H4b",
+      "agy:claude-sonnet-5-5-medium"
+     ]
+    ],
+    "rows": [
+     {
+      "test": "H1",
+      "config": "agy:claude-sonnet-5-5-medium",
+      "sided": 1,
+      "direction": 1,
+      "min_effect": 5.0,
+      "n_planned": 117,
+      "n_common": 117,
+      "n_clusters": 117,
+      "point": 22.072649572649574,
+      "B": 5000,
+      "p": 0.0,
+      "companion": {
+       "n_common": 117,
+       "n_planned": 117,
+       "stated_direct": {
+        "n": 117,
+        "mean_s_item": 22.072649572649574,
+        "n_prior_missing": 0,
+        "mean_delta_S": 25.307692307692307,
+        "mean_delta_W": -18.837606837606838,
+        "n_delta": 117,
+        "consistent_rate": 0.8461538461538461,
+        "reverse_rate": 0.0811965811965812,
+        "mean_abs_delta": 23.713675213675213,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       }
+      },
+      "rank": 0,
+      "alpha_adj": 0.0125,
+      "ci_level": 0.9875,
+      "judgment": {
+       "alpha": 0.0125,
+       "sided": 1,
+       "bound": 19.076923076923077,
+       "bound_opposite": 25.072649572649574,
+       "rejected": true,
+       "sign": 1,
+       "near": 19.076923076923077,
+       "strength": "bound_exceeds",
+       "label": "预测方向（陈述下往标签方向移动）：区间下界超过阈值"
+      },
+      "raw": {
+       "ci95_two_sided": [
+        19.435897435897434,
+        24.628205128205128
+       ],
+       "one_sided_95": 19.854700854700855
+      },
+      "holm_stopped": false,
+      "verdict_before_bounds": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "complete_subset": {
+       "n": 117,
+       "point": 22.072649572649574,
+       "p": 0.0,
+       "alpha": 0.0125,
+       "interval_two_sided": [
+        18.76923076923077,
+        25.34188034188034
+       ],
+       "judgment": "预测方向（陈述下往标签方向移动）：区间下界超过阈值"
+      },
+      "missing_protection": {
+       "n_missing_cells": 0,
+       "n_pairs_with_missing": 0,
+       "point_bounds": [
+        22.072649572649574,
+        22.072649572649574
+       ],
+       "substitution": [
+        0.0,
+        100.0
+       ],
+       "conservative_bound": 19.076923076923077,
+       "label": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+       "retained_strength": "bound_exceeds"
+      },
+      "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "opposite_direction": null,
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "bound_exceeds",
+       "retained_strength": "bound_exceeds",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     {
+      "test": "H2",
+      "config": "agy:claude-sonnet-5-5-medium",
+      "sided": 1,
+      "direction": 1,
+      "min_effect": 5.0,
+      "n_planned": 117,
+      "n_common": 117,
+      "n_clusters": 117,
+      "point": 3.072649572649573,
+      "B": 5000,
+      "p": 0.0,
+      "companion": {
+       "n_common": 117,
+       "n_planned": 117,
+       "stated_direct": {
+        "n": 117,
+        "mean_s_item": 22.072649572649574,
+        "n_prior_missing": 0,
+        "mean_delta_S": 25.307692307692307,
+        "mean_delta_W": -18.837606837606838,
+        "n_delta": 117,
+        "consistent_rate": 0.8461538461538461,
+        "reverse_rate": 0.0811965811965812,
+        "mean_abs_delta": 23.713675213675213,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       },
+       "reported_direct": {
+        "n": 117,
+        "mean_s_item": 19.0,
+        "n_prior_missing": 0,
+        "mean_delta_S": 23.905982905982906,
+        "mean_delta_W": -14.094017094017094,
+        "n_delta": 117,
+        "consistent_rate": 0.7692307692307693,
+        "reverse_rate": 0.1282051282051282,
+        "mean_abs_delta": 20.82051282051282,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       },
+       "reading": "转述改变方向（转述下反向率 0.128 > 陈述 0.081）；不写「打折扣」"
+      },
+      "rank": 1,
+      "alpha_adj": 0.016666666666666666,
+      "ci_level": 0.9833333333333333,
+      "judgment": {
+       "alpha": 0.016666666666666666,
+       "sided": 1,
+       "bound": 1.6581196581196582,
+       "bound_opposite": 4.581196581196581,
+       "rejected": true,
+       "sign": 1,
+       "near": 1.6581196581196582,
+       "strength": "below",
+       "label": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值"
+      },
+      "raw": {
+       "ci95_two_sided": [
+        1.7564102564102564,
+        4.478632478632479
+       ],
+       "one_sided_95": 1.952991452991453
+      },
+      "holm_stopped": false,
+      "verdict_before_bounds": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+      "complete_subset": {
+       "n": 117,
+       "point": 3.072649572649573,
+       "p": 0.0,
+       "alpha": 0.016666666666666666,
+       "interval_two_sided": [
+        1.4914529914529915,
+        4.760683760683761
+       ],
+       "judgment": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值"
+      },
+      "missing_protection": {
+       "n_missing_cells": 0,
+       "n_pairs_with_missing": 0,
+       "point_bounds": [
+        3.072649572649573,
+        3.072649572649573
+       ],
+       "substitution": [
+        0.0,
+        100.0
+       ],
+       "conservative_bound": 1.6581196581196582,
+       "label": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+       "retained_strength": "below"
+      },
+      "verdict": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+      "opposite_direction": null,
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     {
+      "test": "H4a",
+      "config": "agy:claude-sonnet-5-5-medium",
+      "sided": 1,
+      "direction": 1,
+      "min_effect": 0.1,
+      "n_planned": 120,
+      "n_common": 120,
+      "n_clusters": 120,
+      "point": 0.06458333333333334,
+      "B": 5000,
+      "p": 0.0,
+      "companion": {
+       "n_common": 120,
+       "n_planned": 120,
+       "direct": {
+        "n": 120,
+        "prior|-": 0.20833333333333334,
+        "stated|S": 0.125,
+        "stated|W": 0.4166666666666667,
+        "e_mean": 0.23958333333333334
+       },
+       "multi": {
+        "n": 120,
+        "prior|-": 0.14166666666666666,
+        "stated|S": 0.11666666666666667,
+        "stated|W": 0.3,
+        "e_mean": 0.175
+       },
+       "e_direct_minus_e_multi": 0.06458333333333335
+      },
+      "rank": 2,
+      "alpha_adj": 0.025,
+      "ci_level": 0.975,
+      "judgment": {
+       "alpha": 0.025,
+       "sided": 1,
+       "bound": 0.0375,
+       "bound_opposite": 0.09375,
+       "rejected": true,
+       "sign": 1,
+       "near": 0.0375,
+       "strength": "below",
+       "label": "预测方向（多估计的聚合端点率较低）：点估计未达阈值"
+      },
+      "raw": {
+       "ci95_two_sided": [
+        0.0375,
+        0.09375
+       ],
+       "one_sided_95": 0.041666666666666664
+      },
+      "holm_stopped": false,
+      "verdict_before_bounds": "预测方向（多估计的聚合端点率较低）：点估计未达阈值",
+      "complete_subset": {
+       "n": 120,
+       "point": 0.06458333333333334,
+       "p": 0.0,
+       "alpha": 0.025,
+       "interval_two_sided": [
+        0.03333333333333333,
+        0.09791666666666667
+       ],
+       "judgment": "预测方向（多估计的聚合端点率较低）：点估计未达阈值"
+      },
+      "missing_protection": {
+       "n_missing_cells": 0,
+       "n_pairs_with_missing": 0,
+       "point_bounds": [
+        0.06458333333333334,
+        0.06458333333333334
+       ],
+       "substitution": [
+        50.0,
+        0.0
+       ],
+       "conservative_bound": 0.0375,
+       "label": "预测方向（多估计的聚合端点率较低）：点估计未达阈值",
+       "retained_strength": "below"
+      },
+      "verdict": "预测方向（多估计的聚合端点率较低）：点估计未达阈值",
+      "opposite_direction": null,
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     {
+      "test": "H4b",
+      "config": "agy:claude-sonnet-5-5-medium",
+      "sided": 2,
+      "direction": 0,
+      "min_effect": 5.0,
+      "n_planned": 117,
+      "n_common": 117,
+      "n_clusters": 117,
+      "point": 0.48865384615384644,
+      "B": 5000,
+      "p": 0.2384,
+      "companion": {
+       "n_common": 117,
+       "n_planned": 117,
+       "stated_direct": {
+        "n": 117,
+        "mean_s_item": 22.072649572649574,
+        "n_prior_missing": 0,
+        "mean_delta_S": 25.307692307692307,
+        "mean_delta_W": -18.837606837606838,
+        "n_delta": 117,
+        "consistent_rate": 0.8461538461538461,
+        "reverse_rate": 0.0811965811965812,
+        "mean_abs_delta": 23.713675213675213,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       },
+       "stated_multi": {
+        "n": 117,
+        "mean_s_item": 22.56130341880342,
+        "n_prior_missing": 0,
+        "mean_delta_S": 25.649358974358975,
+        "mean_delta_W": -19.473247863247863,
+        "n_delta": 117,
+        "consistent_rate": 0.8760683760683761,
+        "reverse_rate": 0.11538461538461539,
+        "mean_abs_delta": 23.98510683760684,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       }
+      },
+      "rank": 3,
+      "alpha_adj": 0.05,
+      "ci_level": 0.95,
+      "judgment": {
+       "alpha": 0.05,
+       "sided": 2,
+       "interval": [
+        -0.35269230769230764,
+        1.3017948717948724
+       ],
+       "rejected": false,
+       "sign": 0,
+       "near": null,
+       "strength": null,
+       "label": "不确定"
+      },
+      "raw": {
+       "ci95_two_sided": [
+        -0.35269230769230764,
+        1.3017948717948724
+       ],
+       "one_sided_95": null
+      },
+      "holm_stopped": false,
+      "verdict_before_bounds": "不确定",
+      "complete_subset": {
+       "n": 117,
+       "point": 0.48865384615384644,
+       "p": 0.2384,
+       "alpha": 0.05,
+       "interval_two_sided": [
+        -0.35269230769230764,
+        1.3017948717948724
+       ],
+       "judgment": "不确定"
+      },
+      "missing_protection": {
+       "n_missing_cells": 0,
+       "n_pairs_with_missing": 0,
+       "point_bounds": [
+        0.48865384615384644,
+        0.48865384615384644
+       ],
+       "substitution": [
+        0.0,
+        100.0
+       ],
+       "label": "不确定",
+       "retained_strength": null
+      },
+      "verdict": "不确定",
+      "opposite_direction": null,
+      "final_state": {
+       "holm": "not_rejected",
+       "sign": 0,
+       "complete_strength": null,
+       "retained_strength": null,
+       "directional": false,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     }
+    ]
+   },
+   "config:agy:gpt-oss-120b-medium": {
+    "members": [
+     [
+      "H1",
+      "agy:gpt-oss-120b-medium"
+     ],
+     [
+      "H2",
+      "agy:gpt-oss-120b-medium"
+     ],
+     [
+      "H4a",
+      "agy:gpt-oss-120b-medium"
+     ],
+     [
+      "H4b",
+      "agy:gpt-oss-120b-medium"
+     ]
+    ],
+    "rows": [
+     {
+      "test": "H1",
+      "config": "agy:gpt-oss-120b-medium",
+      "sided": 1,
+      "direction": 1,
+      "min_effect": 5.0,
+      "n_planned": 117,
+      "n_common": 117,
+      "n_clusters": 117,
+      "point": 17.628205128205128,
+      "B": 5000,
+      "p": 0.0,
+      "companion": {
+       "n_common": 117,
+       "n_planned": 117,
+       "stated_direct": {
+        "n": 117,
+        "mean_s_item": 17.628205128205128,
+        "n_prior_missing": 0,
+        "mean_delta_S": 17.745299145299143,
+        "mean_delta_W": -17.511111111111113,
+        "n_delta": 117,
+        "consistent_rate": 0.7435897435897436,
+        "reverse_rate": 0.16666666666666666,
+        "mean_abs_delta": 20.984615384615385,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       }
+      },
+      "rank": 0,
+      "alpha_adj": 0.0125,
+      "ci_level": 0.9875,
+      "judgment": {
+       "alpha": 0.0125,
+       "sided": 1,
+       "bound": 14.568376068376068,
+       "bound_opposite": 20.747863247863247,
+       "rejected": true,
+       "sign": 1,
+       "near": 14.568376068376068,
+       "strength": "bound_exceeds",
+       "label": "预测方向（陈述下往标签方向移动）：区间下界超过阈值"
+      },
+      "raw": {
+       "ci95_two_sided": [
+        14.893162393162394,
+        20.354700854700855
+       ],
+       "one_sided_95": 15.35897435897436
+      },
+      "holm_stopped": false,
+      "verdict_before_bounds": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "complete_subset": {
+       "n": 117,
+       "point": 17.628205128205128,
+       "p": 0.0,
+       "alpha": 0.0125,
+       "interval_two_sided": [
+        14.277777777777779,
+        21.00854700854701
+       ],
+       "judgment": "预测方向（陈述下往标签方向移动）：区间下界超过阈值"
+      },
+      "missing_protection": {
+       "n_missing_cells": 0,
+       "n_pairs_with_missing": 0,
+       "point_bounds": [
+        17.628205128205128,
+        17.628205128205128
+       ],
+       "substitution": [
+        0.0,
+        100.0
+       ],
+       "conservative_bound": 14.568376068376068,
+       "label": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+       "retained_strength": "bound_exceeds"
+      },
+      "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "opposite_direction": null,
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "bound_exceeds",
+       "retained_strength": "bound_exceeds",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     {
+      "test": "H2",
+      "config": "agy:gpt-oss-120b-medium",
+      "sided": 1,
+      "direction": 1,
+      "min_effect": 5.0,
+      "n_planned": 117,
+      "n_common": 117,
+      "n_clusters": 117,
+      "point": 0.8461538461538461,
+      "B": 5000,
+      "p": 0.1744,
+      "companion": {
+       "n_common": 117,
+       "n_planned": 117,
+       "stated_direct": {
+        "n": 117,
+        "mean_s_item": 17.628205128205128,
+        "n_prior_missing": 0,
+        "mean_delta_S": 17.745299145299143,
+        "mean_delta_W": -17.511111111111113,
+        "n_delta": 117,
+        "consistent_rate": 0.7435897435897436,
+        "reverse_rate": 0.16666666666666666,
+        "mean_abs_delta": 20.984615384615385,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       },
+       "reported_direct": {
+        "n": 117,
+        "mean_s_item": 16.78205128205128,
+        "n_prior_missing": 0,
+        "mean_delta_S": 16.01025641025641,
+        "mean_delta_W": -17.553846153846155,
+        "n_delta": 117,
+        "consistent_rate": 0.717948717948718,
+        "reverse_rate": 0.19658119658119658,
+        "mean_abs_delta": 20.343589743589742,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       },
+       "reading": "转述改变方向（转述下反向率 0.197 > 陈述 0.167）；不写「打折扣」"
+      },
+      "rank": 3,
+      "alpha_adj": 0.05,
+      "ci_level": 0.95,
+      "judgment": {
+       "alpha": 0.05,
+       "sided": 1,
+       "bound": -0.7008547008547008,
+       "bound_opposite": 2.3632478632478633,
+       "rejected": false,
+       "sign": 0,
+       "near": null,
+       "strength": null,
+       "label": "不确定"
+      },
+      "raw": {
+       "ci95_two_sided": [
+        -0.9957264957264957,
+        2.6709401709401708
+       ],
+       "one_sided_95": -0.7008547008547008
+      },
+      "holm_stopped": false,
+      "verdict_before_bounds": "不确定",
+      "complete_subset": {
+       "n": 117,
+       "point": 0.8461538461538461,
+       "p": 0.1744,
+       "alpha": 0.05,
+       "interval_two_sided": [
+        -0.9957264957264957,
+        2.6709401709401708
+       ],
+       "judgment": "不确定"
+      },
+      "missing_protection": {
+       "n_missing_cells": 0,
+       "n_pairs_with_missing": 0,
+       "point_bounds": [
+        0.8461538461538461,
+        0.8461538461538461
+       ],
+       "substitution": [
+        0.0,
+        100.0
+       ],
+       "label": "不确定",
+       "retained_strength": null
+      },
+      "verdict": "不确定",
+      "opposite_direction": null,
+      "final_state": {
+       "holm": "not_rejected",
+       "sign": 0,
+       "complete_strength": null,
+       "retained_strength": null,
+       "directional": false,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     {
+      "test": "H4a",
+      "config": "agy:gpt-oss-120b-medium",
+      "sided": 1,
+      "direction": 1,
+      "min_effect": 0.1,
+      "n_planned": 120,
+      "n_common": 120,
+      "n_clusters": 120,
+      "point": 0.10208333333333333,
+      "B": 5000,
+      "p": 0.0,
+      "companion": {
+       "n_common": 120,
+       "n_planned": 120,
+       "direct": {
+        "n": 120,
+        "prior|-": 0.14166666666666666,
+        "stated|S": 0.09166666666666666,
+        "stated|W": 0.2,
+        "e_mean": 0.14375
+       },
+       "multi": {
+        "n": 120,
+        "prior|-": 0.05,
+        "stated|S": 0.03333333333333333,
+        "stated|W": 0.03333333333333333,
+        "e_mean": 0.041666666666666664
+       },
+       "e_direct_minus_e_multi": 0.10208333333333333
+      },
+      "rank": 1,
+      "alpha_adj": 0.016666666666666666,
+      "ci_level": 0.9833333333333333,
+      "judgment": {
+       "alpha": 0.016666666666666666,
+       "sided": 1,
+       "bound": 0.06458333333333334,
+       "bound_opposite": 0.14375,
+       "rejected": true,
+       "sign": 1,
+       "near": 0.06458333333333334,
+       "strength": "point_reaches",
+       "label": "预测方向（多估计的聚合端点率较低）：点估计达到阈值（区间下界未超过）"
+      },
+      "raw": {
+       "ci95_two_sided": [
+        0.06666666666666667,
+        0.14166666666666666
+       ],
+       "one_sided_95": 0.07083333333333333
+      },
+      "holm_stopped": false,
+      "verdict_before_bounds": "预测方向（多估计的聚合端点率较低）：点估计达到阈值（区间下界未超过）",
+      "complete_subset": {
+       "n": 120,
+       "point": 0.10208333333333333,
+       "p": 0.0,
+       "alpha": 0.016666666666666666,
+       "interval_two_sided": [
+        0.06041666666666667,
+        0.14791666666666667
+       ],
+       "judgment": "预测方向（多估计的聚合端点率较低）：点估计达到阈值（区间下界未超过）"
+      },
+      "missing_protection": {
+       "n_missing_cells": 0,
+       "n_pairs_with_missing": 0,
+       "point_bounds": [
+        0.10208333333333333,
+        0.10208333333333333
+       ],
+       "substitution": [
+        50.0,
+        0.0
+       ],
+       "conservative_bound": 0.06458333333333334,
+       "label": "预测方向（多估计的聚合端点率较低）：点估计达到阈值（区间下界未超过）",
+       "retained_strength": "point_reaches"
+      },
+      "verdict": "预测方向（多估计的聚合端点率较低）：点估计达到阈值（区间下界未超过）",
+      "opposite_direction": null,
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "point_reaches",
+       "retained_strength": "point_reaches",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     {
+      "test": "H4b",
+      "config": "agy:gpt-oss-120b-medium",
+      "sided": 2,
+      "direction": 0,
+      "min_effect": 5.0,
+      "n_planned": 117,
+      "n_common": 117,
+      "n_clusters": 117,
+      "point": -2.3815811965811964,
+      "B": 5000,
+      "p": 0.0084,
+      "companion": {
+       "n_common": 117,
+       "n_planned": 117,
+       "stated_direct": {
+        "n": 117,
+        "mean_s_item": 17.628205128205128,
+        "n_prior_missing": 0,
+        "mean_delta_S": 17.745299145299143,
+        "mean_delta_W": -17.511111111111113,
+        "n_delta": 117,
+        "consistent_rate": 0.7435897435897436,
+        "reverse_rate": 0.16666666666666666,
+        "mean_abs_delta": 20.984615384615385,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       },
+       "stated_multi": {
+        "n": 117,
+        "mean_s_item": 15.246623931623931,
+        "n_prior_missing": 0,
+        "mean_delta_S": 13.482692307692307,
+        "mean_delta_W": -17.010555555555555,
+        "n_delta": 117,
+        "consistent_rate": 0.7777777777777778,
+        "reverse_rate": 0.21794871794871795,
+        "mean_abs_delta": 19.69965811965812,
+        "note_S_not_rising": false,
+        "note_W_not_falling": false
+       }
+      },
+      "rank": 2,
+      "alpha_adj": 0.025,
+      "ci_level": 0.975,
+      "judgment": {
+       "alpha": 0.025,
+       "sided": 2,
+       "interval": [
+        -4.480042735042736,
+        -0.29273504273504286
+       ],
+       "rejected": true,
+       "sign": -1,
+       "near": -0.29273504273504286,
+       "strength": "below",
+       "label": "多估计 < 直接：点估计未达阈值"
+      },
+      "raw": {
+       "ci95_two_sided": [
+        -4.209957264957265,
+        -0.5567948717948716
+       ],
+       "one_sided_95": null
+      },
+      "holm_stopped": false,
+      "verdict_before_bounds": "多估计 < 直接：点估计未达阈值",
+      "complete_subset": {
+       "n": 117,
+       "point": -2.3815811965811964,
+       "p": 0.0084,
+       "alpha": 0.025,
+       "interval_two_sided": [
+        -4.480042735042736,
+        -0.29273504273504286
+       ],
+       "judgment": "多估计 < 直接：点估计未达阈值"
+      },
+      "missing_protection": {
+       "n_missing_cells": 0,
+       "n_pairs_with_missing": 0,
+       "point_bounds": [
+        -2.3815811965811964,
+        -2.3815811965811964
+       ],
+       "substitution": [
+        0.0,
+        100.0
+       ],
+       "conservative_bound": -0.29273504273504286,
+       "label": "多估计 < 直接：点估计未达阈值",
+       "retained_strength": "below"
+      },
+      "verdict": "多估计 < 直接：点估计未达阈值",
+      "opposite_direction": null,
+      "final_state": {
+       "holm": "rejected",
+       "sign": -1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     }
+    ]
+   }
+  },
+  "comparison": {
+   "config:agy:gemini-3.8-flash-low": {
+    "H1": {
+     "main": {
+      "point": 26.64125,
+      "n_planned": 120,
+      "n_common": 120,
+      "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "bound_exceeds",
+       "retained_strength": "bound_exceeds",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "sensitivity": {
+      "point": 26.679059829059828,
+      "n_planned": 117,
+      "n_common": 117,
+      "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "bound_exceeds",
+       "retained_strength": "bound_exceeds",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "conclusion_changed": false
+    },
+    "H2": {
+     "main": {
+      "point": 4.085,
+      "n_planned": 120,
+      "n_common": 120,
+      "verdict": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "sensitivity": {
+      "point": 4.164102564102564,
+      "n_planned": 117,
+      "n_common": 117,
+      "verdict": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "conclusion_changed": false
+    },
+    "H4b": {
+     "main": {
+      "point": -2.4781458333333335,
+      "n_planned": 120,
+      "n_common": 120,
+      "verdict": "多估计 < 直接：点估计未达阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": -1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "sensitivity": {
+      "point": -2.4600213675213674,
+      "n_planned": 117,
+      "n_common": 117,
+      "verdict": "多估计 < 直接：点估计未达阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": -1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "conclusion_changed": false
+    }
+   },
+   "config:agy:gemini-3.8-flash-high": {
+    "H1": {
+     "main": {
+      "point": 28.295833333333334,
+      "n_planned": 120,
+      "n_common": 120,
+      "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "bound_exceeds",
+       "retained_strength": "bound_exceeds",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "sensitivity": {
+      "point": 28.418803418803417,
+      "n_planned": 117,
+      "n_common": 117,
+      "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "bound_exceeds",
+       "retained_strength": "bound_exceeds",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "conclusion_changed": false
+    },
+    "H2": {
+     "main": {
+      "point": 4.1125,
+      "n_planned": 120,
+      "n_common": 120,
+      "verdict": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "sensitivity": {
+      "point": 4.1923076923076925,
+      "n_planned": 117,
+      "n_common": 117,
+      "verdict": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "conclusion_changed": false
+    },
+    "H4b": {
+     "main": {
+      "point": -3.7329166666666667,
+      "n_planned": 120,
+      "n_common": 120,
+      "verdict": "多估计 < 直接：点估计未达阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": -1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "sensitivity": {
+      "point": -3.7952991452991456,
+      "n_planned": 117,
+      "n_common": 117,
+      "verdict": "多估计 < 直接：点估计未达阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": -1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "conclusion_changed": false
+    }
+   },
+   "config:agy:claude-sonnet-5-5-medium": {
+    "H1": {
+     "main": {
+      "point": 22.008333333333333,
+      "n_planned": 120,
+      "n_common": 120,
+      "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "bound_exceeds",
+       "retained_strength": "bound_exceeds",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "sensitivity": {
+      "point": 22.072649572649574,
+      "n_planned": 117,
+      "n_common": 117,
+      "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "bound_exceeds",
+       "retained_strength": "bound_exceeds",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "conclusion_changed": false
+    },
+    "H2": {
+     "main": {
+      "point": 3.0541666666666667,
+      "n_planned": 120,
+      "n_common": 120,
+      "verdict": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "sensitivity": {
+      "point": 3.072649572649573,
+      "n_planned": 117,
+      "n_common": 117,
+      "verdict": "预测方向（陈述的方向化移动大于转述）：点估计未达阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "conclusion_changed": false
+    },
+    "H4b": {
+     "main": {
+      "point": 0.4706458333333336,
+      "n_planned": 120,
+      "n_common": 120,
+      "verdict": "不确定",
+      "final_state": {
+       "holm": "not_rejected",
+       "sign": 0,
+       "complete_strength": null,
+       "retained_strength": null,
+       "directional": false,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "sensitivity": {
+      "point": 0.48865384615384644,
+      "n_planned": 117,
+      "n_common": 117,
+      "verdict": "不确定",
+      "final_state": {
+       "holm": "not_rejected",
+       "sign": 0,
+       "complete_strength": null,
+       "retained_strength": null,
+       "directional": false,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "conclusion_changed": false
+    }
+   },
+   "config:agy:gpt-oss-120b-medium": {
+    "H1": {
+     "main": {
+      "point": 17.591666666666665,
+      "n_planned": 120,
+      "n_common": 120,
+      "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "bound_exceeds",
+       "retained_strength": "bound_exceeds",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "sensitivity": {
+      "point": 17.628205128205128,
+      "n_planned": 117,
+      "n_common": 117,
+      "verdict": "预测方向（陈述下往标签方向移动）：区间下界超过阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": 1,
+       "complete_strength": "bound_exceeds",
+       "retained_strength": "bound_exceeds",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "conclusion_changed": false
+    },
+    "H2": {
+     "main": {
+      "point": 0.9125,
+      "n_planned": 120,
+      "n_common": 120,
+      "verdict": "不确定",
+      "final_state": {
+       "holm": "not_rejected",
+       "sign": 0,
+       "complete_strength": null,
+       "retained_strength": null,
+       "directional": false,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "sensitivity": {
+      "point": 0.8461538461538461,
+      "n_planned": 117,
+      "n_common": 117,
+      "verdict": "不确定",
+      "final_state": {
+       "holm": "not_rejected",
+       "sign": 0,
+       "complete_strength": null,
+       "retained_strength": null,
+       "directional": false,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "conclusion_changed": false
+    },
+    "H4b": {
+     "main": {
+      "point": -2.295375,
+      "n_planned": 120,
+      "n_common": 120,
+      "verdict": "多估计 < 直接：点估计未达阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": -1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "sensitivity": {
+      "point": -2.3815811965811964,
+      "n_planned": 117,
+      "n_common": 117,
+      "verdict": "多估计 < 直接：点估计未达阈值",
+      "final_state": {
+       "holm": "rejected",
+       "sign": -1,
+       "complete_strength": "below",
+       "retained_strength": "below",
+       "directional": true,
+       "downgraded": false,
+       "opposite_retained_strength": null
+      }
+     },
+     "conclusion_changed": false
+    }
+   }
+  }
+ },
+ "source_split_strata": {
+  "dev": {
+   "n_planned": 54,
+   "agy:claude-sonnet-5-5-medium|H1": {
+    "n_planned": 54,
+    "n_common": 54,
+    "point": 23.805555555555557
+   },
+   "agy:claude-sonnet-5-5-medium|H2": {
+    "n_planned": 54,
+    "n_common": 54,
+    "point": 2.8425925925925926
+   },
+   "agy:claude-sonnet-5-5-medium|H4a": {
+    "n_planned": 54,
+    "n_common": 54,
+    "point": 0.06018518518518518
+   },
+   "agy:claude-sonnet-5-5-medium|H4b": {
+    "n_planned": 54,
+    "n_common": 54,
+    "point": 0.7357407407407413
+   },
+   "agy:gemini-3.8-flash-high|H1": {
+    "n_planned": 54,
+    "n_common": 54,
+    "point": 29.73148148148148
+   },
+   "agy:gemini-3.8-flash-high|H2": {
+    "n_planned": 54,
+    "n_common": 54,
+    "point": 3.009259259259259
+   },
+   "agy:gemini-3.8-flash-high|H4a": {
+    "n_planned": 54,
+    "n_common": 54,
+    "point": 0.08333333333333333
+   },
+   "agy:gemini-3.8-flash-high|H4b": {
+    "n_planned": 54,
+    "n_common": 54,
+    "point": -2.758564814814815
+   },
+   "agy:gemini-3.8-flash-low|H1": {
+    "n_planned": 54,
+    "n_common": 54,
+    "point": 29.23148148148148
+   },
+   "agy:gemini-3.8-flash-low|H2": {
+    "n_planned": 54,
+    "n_common": 54,
+    "point": 4.472222222222222
+   },
+   "agy:gemini-3.8-flash-low|H4a": {
+    "n_planned": 54,
+    "n_common": 54,
+    "point": 0.14351851851851852
+   },
+   "agy:gemini-3.8-flash-low|H4b": {
+    "n_planned": 54,
+    "n_common": 54,
+    "point": -3.5548611111111112
+   },
+   "agy:gpt-oss-120b-medium|H1": {
+    "n_planned": 54,
+    "n_common": 54,
+    "point": 17.805555555555557
+   },
+   "agy:gpt-oss-120b-medium|H2": {
+    "n_planned": 54,
+    "n_common": 54,
+    "point": 1.0648148148148149
+   },
+   "agy:gpt-oss-120b-medium|H4a": {
+    "n_planned": 54,
+    "n_common": 54,
+    "point": 0.1527777777777778
+   },
+   "agy:gpt-oss-120b-medium|H4b": {
+    "n_planned": 54,
+    "n_common": 54,
+    "point": -2.6442592592592593
+   }
+  },
+  "test": {
+   "n_planned": 66,
+   "agy:claude-sonnet-5-5-medium|H1": {
+    "n_planned": 66,
+    "n_common": 66,
+    "point": 20.53787878787879
+   },
+   "agy:claude-sonnet-5-5-medium|H2": {
+    "n_planned": 66,
+    "n_common": 66,
+    "point": 3.227272727272727
+   },
+   "agy:claude-sonnet-5-5-medium|H4a": {
+    "n_planned": 66,
+    "n_common": 66,
+    "point": 0.06818181818181818
+   },
+   "agy:claude-sonnet-5-5-medium|H4b": {
+    "n_planned": 66,
+    "n_common": 66,
+    "point": 0.2537500000000002
+   },
+   "agy:gemini-3.8-flash-high|H1": {
+    "n_planned": 66,
+    "n_common": 66,
+    "point": 27.12121212121212
+   },
+   "agy:gemini-3.8-flash-high|H2": {
+    "n_planned": 66,
+    "n_common": 66,
+    "point": 5.015151515151516
+   },
+   "agy:gemini-3.8-flash-high|H4a": {
+    "n_planned": 66,
+    "n_common": 66,
+    "point": 0.0946969696969697
+   },
+   "agy:gemini-3.8-flash-high|H4b": {
+    "n_planned": 66,
+    "n_common": 66,
+    "point": -4.5301136363636365
+   },
+   "agy:gemini-3.8-flash-low|H1": {
+    "n_planned": 66,
+    "n_common": 66,
+    "point": 24.5219696969697
+   },
+   "agy:gemini-3.8-flash-low|H2": {
+    "n_planned": 66,
+    "n_common": 66,
+    "point": 3.768181818181818
+   },
+   "agy:gemini-3.8-flash-low|H4a": {
+    "n_planned": 66,
+    "n_common": 66,
+    "point": 0.17803030303030304
+   },
+   "agy:gemini-3.8-flash-low|H4b": {
+    "n_planned": 66,
+    "n_common": 66,
+    "point": -1.5971969696969697
+   },
+   "agy:gpt-oss-120b-medium|H1": {
+    "n_planned": 66,
+    "n_common": 66,
+    "point": 17.416666666666668
+   },
+   "agy:gpt-oss-120b-medium|H2": {
+    "n_planned": 66,
+    "n_common": 66,
+    "point": 0.7878787878787878
+   },
+   "agy:gpt-oss-120b-medium|H4a": {
+    "n_planned": 66,
+    "n_common": 66,
+    "point": 0.06060606060606061
+   },
+   "agy:gpt-oss-120b-medium|H4b": {
+    "n_planned": 66,
+    "n_common": 66,
+    "point": -2.0099242424242423
+   }
+  }
+ },
+ "missing": {
+  "agy:claude-sonnet-5-5-medium|prior|-|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|prior|-|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|prior|-|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|prior|-|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|reported|S|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|reported|S|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|reported|S|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|reported|S|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|reported|W|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|reported|W|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|reported|W|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|reported|W|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|stated|S|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|stated|S|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|stated|S|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|stated|S|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|stated|W|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|stated|W|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|stated|W|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:claude-sonnet-5-5-medium|stated|W|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-high|prior|-|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-high|prior|-|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-high|prior|-|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-high|prior|-|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-high|reported|S|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-high|reported|S|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-high|reported|S|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-high|reported|S|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-high|reported|W|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-high|reported|W|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-high|reported|W|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-high|reported|W|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-high|stated|S|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-high|stated|S|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-high|stated|S|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-high|stated|S|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-high|stated|W|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-high|stated|W|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-high|stated|W|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-high|stated|W|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-low|prior|-|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-low|prior|-|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-low|prior|-|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-low|prior|-|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-low|reported|S|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-low|reported|S|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-low|reported|S|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-low|reported|S|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-low|reported|W|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-low|reported|W|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-low|reported|W|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-low|reported|W|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-low|stated|S|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-low|stated|S|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-low|stated|S|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-low|stated|S|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-low|stated|W|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-low|stated|W|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gemini-3.8-flash-low|stated|W|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gemini-3.8-flash-low|stated|W|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gpt-oss-120b-medium|prior|-|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gpt-oss-120b-medium|prior|-|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gpt-oss-120b-medium|prior|-|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gpt-oss-120b-medium|prior|-|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gpt-oss-120b-medium|reported|S|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gpt-oss-120b-medium|reported|S|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gpt-oss-120b-medium|reported|S|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gpt-oss-120b-medium|reported|S|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gpt-oss-120b-medium|reported|W|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gpt-oss-120b-medium|reported|W|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gpt-oss-120b-medium|reported|W|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gpt-oss-120b-medium|reported|W|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gpt-oss-120b-medium|stated|S|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gpt-oss-120b-medium|stated|S|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gpt-oss-120b-medium|stated|S|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gpt-oss-120b-medium|stated|S|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gpt-oss-120b-medium|stated|W|direct|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gpt-oss-120b-medium|stated|W|direct|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  },
+  "agy:gpt-oss-120b-medium|stated|W|multi|r0": {
+   "n": 120,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 120
+   }
+  },
+  "agy:gpt-oss-120b-medium|stated|W|multi|r1": {
+   "n": 20,
+   "missing_rate": 0.0,
+   "status": {
+    "ok": 20
+   }
+  }
+ },
+ "budget": {
+  "agy:claude-sonnet-5-5-medium|prior|-|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.4,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|prior|-|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 37.7,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.05,
+   "retry_count": 1,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|prior|-|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.4,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|prior|-|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.0,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|reported|S|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.6,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|reported|S|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.4,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|reported|S|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 14.7,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.017,
+   "retry_count": 2,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|reported|S|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.5,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|reported|W|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.8,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|reported|W|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.2,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|reported|W|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.4,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|reported|W|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 11.9,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|stated|S|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.4,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.008,
+   "retry_count": 1,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|stated|S|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.0,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|stated|S|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.4,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|stated|S|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.8,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|stated|W|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 13.7,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.008,
+   "retry_count": 1,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|stated|W|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 7.7,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|stated|W|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.8,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:claude-sonnet-5-5-medium|stated|W|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 15.0,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|prior|-|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 17.7,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|prior|-|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 14.2,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|prior|-|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 13.1,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|prior|-|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 12.9,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|reported|S|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 23.1,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|reported|S|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 19.6,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|reported|S|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 16.2,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.008,
+   "retry_count": 1,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|reported|S|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 29.4,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|reported|W|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 29.0,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.017,
+   "retry_count": 2,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|reported|W|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 31.9,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|reported|W|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 18.7,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.008,
+   "retry_count": 1,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|reported|W|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 14.1,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|stated|S|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 22.6,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.008,
+   "retry_count": 1,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|stated|S|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 18.7,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|stated|S|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 14.4,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|stated|S|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 12.9,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|stated|W|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 22.1,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|stated|W|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 20.0,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|stated|W|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 14.6,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-high|stated|W|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 14.1,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|prior|-|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.9,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|prior|-|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.4,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|prior|-|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 10.1,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.008,
+   "retry_count": 1,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|prior|-|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.5,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|reported|S|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.2,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|reported|S|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.9,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|reported|S|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 11.2,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.008,
+   "retry_count": 1,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|reported|S|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 27.3,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|reported|W|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.0,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|reported|W|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.3,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|reported|W|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 10.9,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.008,
+   "retry_count": 2,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|reported|W|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.1,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|stated|S|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.9,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.017,
+   "retry_count": 2,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|stated|S|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.4,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|stated|S|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.9,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.017,
+   "retry_count": 2,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|stated|S|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.2,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|stated|W|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.2,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|stated|W|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.1,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|stated|W|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.8,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gemini-3.8-flash-low|stated|W|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.0,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|prior|-|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 7.3,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|prior|-|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 7.6,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|prior|-|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.2,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|prior|-|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.2,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|reported|S|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.8,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|reported|S|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.2,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|reported|S|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.8,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|reported|S|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.3,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|reported|W|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.7,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|reported|W|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 10.4,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.05,
+   "retry_count": 1,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|reported|W|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 9.2,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.008,
+   "retry_count": 1,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|reported|W|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.7,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|stated|S|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 7.3,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.008,
+   "retry_count": 1,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|stated|S|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 7.7,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|stated|S|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 14.0,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.008,
+   "retry_count": 1,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|stated|S|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.6,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|stated|W|direct|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 7.7,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|stated|W|direct|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 7.0,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|stated|W|multi|r0": {
+   "n": 120,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.8,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.008,
+   "retry_count": 1,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  },
+  "agy:gpt-oss-120b-medium|stated|W|multi|r1": {
+   "n": 20,
+   "prompt_tokens": null,
+   "budget_mean": null,
+   "budget_min": null,
+   "thinking_tokens": null,
+   "answer_tokens": null,
+   "seconds": 8.9,
+   "attempt_truncation_rate": 0.0,
+   "retry_rate": 0.0,
+   "retry_count": 0,
+   "rate_limited_attempts": 0,
+   "rate_wait_seconds": 0,
+   "final_missing_rate": 0.0,
+   "nonpositive_budget": 0
+  }
+ },
+ "settings": {
+  "H4A_WEIGHTS": [
+   [
+    "prior",
+    "-",
+    0.5
+   ],
+   [
+    "stated",
+    "S",
+    0.25
+   ],
+   [
+    "stated",
+    "W",
+    0.25
+   ]
+  ],
+  "endpoint": [
+   5.0,
+   95.0
+  ],
+  "B": 5000,
+  "seed": 20261090,
+  "alpha": 0.05
+ }
+}

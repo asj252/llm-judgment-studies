@@ -374,8 +374,8 @@
     },
     {
       "path": "paper/en/abstract-arxiv-en.md",
-      "sha256": "fd3cd7cd1510aeed7f804f139f22a49983de709c2ab6b6db8d8ddaf1e5c2a850",
-      "bytes": 1963,
+      "sha256": "dbe2cf00da9453db4e584b8e3a27fc97b4deb396ff8b3d9762c4a867b28a7c44",
+      "bytes": 2042,
       "path_replacements": 0,
       "source": "dnli/paper/en/abstract-arxiv-en.md"
     },
@@ -402,8 +402,8 @@
     },
     {
       "path": "paper/en/methods-en.md",
-      "sha256": "ca8e68b4495883d202f054cc74c8de213d39d6ac209fea1a80f47aa054fecf3c",
-      "bytes": 23051,
+      "sha256": "6370831620a82297c911bbb8a3abc304bc6dff27787c60a1d15d910776df9f82",
+      "bytes": 23533,
       "path_replacements": 0,
       "source": "dnli/paper/en/methods-en.md"
     },
@@ -1005,15 +1005,15 @@
     },
     {
       "path": "paper/typst/abstract.typ",
-      "sha256": "5f2cb7bd37746a442c67b2f6fa557894aedadbe8e9a69eefa4d05b7682ed06f8",
-      "bytes": 1766,
+      "sha256": "246a85e745d6ea7b4ee52d61074b4741dca3f131193f1a45f54d169b9cd64f0b",
+      "bytes": 1845,
       "path_replacements": 0,
       "source": "dnli/paper/typst/abstract.typ"
     },
     {
       "path": "paper/typst/body.typ",
-      "sha256": "d520e8649a53947c30d3189d31f9d5a380acd5f8f0dbe6ae1a0d71db0e37593c",
-      "bytes": 89635,
+      "sha256": "89f6350c4cc2a1a51dbe31c044d7e03a9d022e18e2045a51b0a0bb2bf536d149",
+      "bytes": 90136,
       "path_replacements": 0,
       "source": "dnli/paper/typst/body.typ"
     },
@@ -1026,8 +1026,8 @@
     },
     {
       "path": "paper/typst/dnli-arxiv.pdf",
-      "sha256": "fb751d54d3e019db36d2c626adc9ab807f49d0591b4a7ac861c54d9e74ed6625",
-      "bytes": 1528015,
+      "sha256": "a1ee9e8eaf2e97a5341da7a0e962b7054490c8e1366c275978e4c5ce1276f361",
+      "bytes": 1531259,
       "path_replacements": 0,
       "source": "dnli/paper/typst/dnli-arxiv.pdf"
     },
@@ -1131,7 +1131,7 @@
     }
   ],
   "file_count": 149,
-  "total_bytes": 51060968,
+  "total_bytes": 51065353,
   "path_replacements": 39,
   "items_text_included": true,
   "verbatim_files": [

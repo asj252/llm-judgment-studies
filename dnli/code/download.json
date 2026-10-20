@@ -1,0 +1,74 @@
+{
+  "repo": "https://github.com/rudinger/defeasible-nli",
+  "default_branch": "main",
+  "commit": "c675ffc1b0eec5fa56287f08490da8ed43c1ecc5",
+  "commit_date": "2020-12-04T07:41:00Z",
+  "downloaded_at": "2026-10-12",
+  "user_consent": "2026-10-12（仅 δ-SNLI、δ-ATOMIC 的 dev 与 test）",
+  "license": {
+    "code": "MIT（仓库 LICENSE）",
+    "data_upstream": "SNLI CC BY-SA 4.0；ATOMIC CC BY 4.0（见 PLAN 第 2 节）"
+  },
+  "not_downloaded": [
+    "train.jsonl（三个子集）",
+    "defeasible-social/*"
+  ],
+  "git": "data/ 与 raw/ 已写入 .git/info/exclude，不进 git",
+  "total_bytes_data_files": 5862481,
+  "files": [
+    {
+      "local_path": "connecting-dots/dnli/data/defeasible-snli/dev.jsonl",
+      "repo_path": "data/defeasible-nli/defeasible-snli/dev.jsonl",
+      "url": "https://raw.githubusercontent.com/rudinger/defeasible-nli/c675ffc1b0eec5fa56287f08490da8ed43c1ecc5/data/defeasible-nli/defeasible-snli/dev.jsonl",
+      "bytes": 765939,
+      "sha256": "34a0be2e4ea4b7533c8e32984c9ead0dcf05962620fceb7b543cfcaa9aee084e",
+      "git_blob_sha1": "009b2c91e3e3b48e90817be6702f514afd2cd473",
+      "git_blob_matches_upstream_tree": true
+    },
+    {
+      "local_path": "connecting-dots/dnli/data/defeasible-snli/test.jsonl",
+      "repo_path": "data/defeasible-nli/defeasible-snli/test.jsonl",
+      "url": "https://raw.githubusercontent.com/rudinger/defeasible-nli/c675ffc1b0eec5fa56287f08490da8ed43c1ecc5/data/defeasible-nli/defeasible-snli/test.jsonl",
+      "bytes": 791612,
+      "sha256": "081d0b7a7a563b15a590fffdc4c0741c956e93c93def0cc77def326603f6904a",
+      "git_blob_sha1": "5f9ee42500320d150a8a83934b5c988e47f645b2",
+      "git_blob_matches_upstream_tree": true
+    },
+    {
+      "local_path": "connecting-dots/dnli/data/defeasible-atomic/dev.jsonl",
+      "repo_path": "data/defeasible-nli/defeasible-atomic/dev.jsonl",
+      "url": "https://raw.githubusercontent.com/rudinger/defeasible-nli/c675ffc1b0eec5fa56287f08490da8ed43c1ecc5/data/defeasible-nli/defeasible-atomic/dev.jsonl",
+      "bytes": 2067733,
+      "sha256": "eabae7870c588d070ac7e4177ec9062dcf74da25a21afd063cdd2e8d046b1bfc",
+      "git_blob_sha1": "8181e49d0a2b61c026153a861d514388499b9cdb",
+      "git_blob_matches_upstream_tree": true
+    },
+    {
+      "local_path": "connecting-dots/dnli/data/defeasible-atomic/test.jsonl",
+      "repo_path": "data/defeasible-nli/defeasible-atomic/test.jsonl",
+      "url": "https://raw.githubusercontent.com/rudinger/defeasible-nli/c675ffc1b0eec5fa56287f08490da8ed43c1ecc5/data/defeasible-nli/defeasible-atomic/test.jsonl",
+      "bytes": 2237197,
+      "sha256": "8315f9e4864c3e191635e96d00d07786dcd0a15aded9a8cdea742bdb53daeca8",
+      "git_blob_sha1": "810dcd70d1dd91b2bc473730d3d14b17f3517dc2",
+      "git_blob_matches_upstream_tree": true
+    },
+    {
+      "local_path": "connecting-dots/dnli/data/LICENSE",
+      "repo_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/rudinger/defeasible-nli/c675ffc1b0eec5fa56287f08490da8ed43c1ecc5/LICENSE",
+      "bytes": 1072,
+      "sha256": "4f3cbbc5e111fe600a5d515c5dbd5f437545d19b3ae3ba36acb9785cc9d88246",
+      "git_blob_sha1": "1ef414b080742eeae27fd4bda07b9800f79f9fec",
+      "git_blob_matches_upstream_tree": true
+    },
+    {
+      "local_path": "connecting-dots/dnli/data/README.md",
+      "repo_path": "README.md",
+      "url": "https://raw.githubusercontent.com/rudinger/defeasible-nli/c675ffc1b0eec5fa56287f08490da8ed43c1ecc5/README.md",
+      "bytes": 7824,
+      "sha256": "25b73083766ca40361a947771e278b0e2e7d06b3222530645ea408d156376fd6",
+      "git_blob_sha1": "15d53fac3b8f73fff12e60b343921cb466a9b2d7",
+      "git_blob_matches_upstream_tree": true
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+ "nsim": 200,
+ "B": 1000,
+ "seed": 7,
+ "missing_definition": "per cell (= per unit), all configs and conditions",
+ "note": "最不利值代入的代价：H1 在真效应下保留区间结论的比例（PLAN v0.5 第 1 节；c 第三轮 N-S4）。只用标准库。\n\n用法：python -I -X utf8 -B power_sim.py [每格模拟次数=200] [B=1000] [输出=power_sim.json]\n这是 PLAN 第 1 节那组数字（缺失 5%：10 点约 14%、20 点约 100%；缺失 10%：约 0% 与 91%）的生成脚本。\n阶段 A 第 12 节写报告时用的是临时目录里的同一段代码；这里把它入库，流程照原样：\n- 数据分布：null_sim.simulate(\"discrete\", rng)。120 对、各对为独立簇；35% 的 p₀ 在 0／100，其余取 5 的倍数；\n  后验一半等于 p₀、一半为 p₀ 加 N(0, 15) 后取 5 的倍数并截到 [0, 100]。\n- 效应：只改配置 olmo2 的陈述 × 直接问法：S 格 + eff、W 格 − eff（截到 [0, 100]），所以题级 s̄ 的真效应约为 eff\n  （截断使实际值略小）。\n- 缺失（**按「每格」定义**）：生成后对字典里的每一格（全部配置、全部条件）独立以概率 miss 删除。一格＝一个 unit，\n  所以「每格缺失率」就是冒烟里「某配置重试后仍缺的 unit ÷ 该配置全部计划 unit」的同一口径（PLAN v0.5 的 2% 规则）；\n  H1 每题用 2 格，所以受影响的题约占 2·miss。\n- 分析：analysis.analyse_family([(\"H1\", \"olmo2\")])，B＝1000，第 s 次模拟的 bootstrap 种子＝s。\n- 随机数：每个 (eff, miss) 组合各自从 random.Random(SEED=7) 重新开始；不同组合用同一串数据（只差效应与缺失）。\n- 计数（结构化，读 final_state）：\n  complete_bound_exceeds  完整题子集判「区间下界超过阈值」\n  rejected                Holm 拒绝（单项家族）\n  directional             缺失保护后仍保留方向\n  final_bound_exceeds     缺失保护后保留的强度是「区间下界超过阈值」——PLAN 引用的就是这一列",
+ "results": {
+  "eff=10|miss=0.00": {
+   "complete_bound_exceeds": 1.0,
+   "directional": 1.0,
+   "final_bound_exceeds": 1.0,
+   "rejected": 1.0
+  },
+  "eff=10|miss=0.02": {
+   "complete_bound_exceeds": 1.0,
+   "directional": 1.0,
+   "final_bound_exceeds": 0.785,
+   "rejected": 1.0
+  },
+  "eff=10|miss=0.05": {
+   "complete_bound_exceeds": 1.0,
+   "directional": 0.99,
+   "final_bound_exceeds": 0.135,
+   "rejected": 1.0
+  },
+  "eff=10|miss=0.10": {
+   "complete_bound_exceeds": 1.0,
+   "directional": 0.52,
+   "final_bound_exceeds": 0.0,
+   "rejected": 1.0
+  },
+  "eff=20|miss=0.00": {
+   "complete_bound_exceeds": 1.0,
+   "directional": 1.0,
+   "final_bound_exceeds": 1.0,
+   "rejected": 1.0
+  },
+  "eff=20|miss=0.02": {
+   "complete_bound_exceeds": 1.0,
+   "directional": 1.0,
+   "final_bound_exceeds": 1.0,
+   "rejected": 1.0
+  },
+  "eff=20|miss=0.05": {
+   "complete_bound_exceeds": 1.0,
+   "directional": 1.0,
+   "final_bound_exceeds": 1.0,
+   "rejected": 1.0
+  },
+  "eff=20|miss=0.10": {
+   "complete_bound_exceeds": 1.0,
+   "directional": 1.0,
+   "final_bound_exceeds": 0.91,
+   "rejected": 1.0
+  }
+ },
+ "seconds": 52.6
+}

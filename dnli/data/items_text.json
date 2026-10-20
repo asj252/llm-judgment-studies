@@ -1,0 +1,2162 @@
+{
+ "1420060118.jpg#3r1n": {
+  "P": "A child in a ninja outfit does a jumping kick.",
+  "H": "a child in a black ninja suit does a kick",
+  "U_S": "A woman comments 'Wow, you look sleek and I wouldn't even see you in the dark!'",
+  "U_W": "The child does a kick from a standing position.",
+  "S_id": "test:1599",
+  "W_id": "test:1594"
+ },
+ "2817132182.jpg#2r1n": {
+  "P": "A woman is sitting outside while holding two cats.",
+  "H": "This person likes cats.",
+  "U_S": "The woman was petting both cats.",
+  "U_W": "The woman is catching the stray cats from entering her house.",
+  "S_id": "dev:1639",
+  "W_id": "dev:1642"
+ },
+ "3373615534.jpg#1r1n": {
+  "P": "A young girl washing a lime-green car.",
+  "H": "A young girl raising money by washing a car.",
+  "U_S": "There are people holding up signs next to the woman washing a car.",
+  "U_W": "The girl's parents own the car.",
+  "S_id": "dev:297",
+  "W_id": "dev:290"
+ },
+ "5216466221.jpg#3r1n": {
+  "P": "A woman prepares ingredients for a bowl of soup.",
+  "H": "A woman is cutting carrots.",
+  "U_S": "The woman is holding a knife.",
+  "U_W": "The woman is overheard saying 'I don't like vegetables at all'",
+  "S_id": "dev:847",
+  "W_id": "dev:842"
+ },
+ "4892890793.jpg#1r1e": {
+  "P": "Older men sitting in front of a cafe looking out at the street.",
+  "H": "Older men sitting at a cafe",
+  "U_S": "The old men are sipping coffee and eating pastries.",
+  "U_W": "The men are holding protest signs to show they're picketing the cafe.",
+  "S_id": "test:357",
+  "W_id": "test:358"
+ },
+ "4851006985.jpg#2r1e": {
+  "P": "A woman wearing a black shirt with a cigarette in her right hand is smiling at the camera.",
+  "H": "A female is smoking while having her picture taken.",
+  "U_S": "The woman has a pack of cigarettes in her shirt pocket",
+  "U_W": "A female is smoking while the photographer coughs.",
+  "S_id": "dev:1099",
+  "W_id": "dev:1104"
+ },
+ "3486831913.jpg#4r1n": {
+  "P": "A brown dog runs through a grassy field",
+  "H": "A dog chases a rabbit.",
+  "U_S": "A white tail can be seen retreating.",
+  "U_W": "The owner just threw a ball.",
+  "S_id": "test:1285",
+  "W_id": "test:1290"
+ },
+ "3791591952.jpg#3r1n": {
+  "P": "Two entertainers on a stage performing acrobatic moves.",
+  "H": "Two entertainers are performing acrobatics for an unusually large crowd.",
+  "U_S": "The entertainers show was sold out almost immediately when tickets went on sale.",
+  "U_W": "The entertainers are practicing for tonights performance.",
+  "S_id": "dev:121",
+  "W_id": "dev:120"
+ },
+ "3344411431.jpg#4r1n": {
+  "P": "Band plays in tight quarters.",
+  "H": "The four members of the band are in tight quarters.",
+  "U_S": "The band has four drummers",
+  "U_W": "Every section of the band has at least 20 people in them",
+  "S_id": "test:97",
+  "W_id": "test:96"
+ },
+ "482642539.jpg#2r1n": {
+  "P": "A blond child is hiding behind a wooden post.",
+  "H": "The child might be outside.",
+  "U_S": "The post is part of a fence.",
+  "U_W": "The post is part of a bed.",
+  "S_id": "dev:257",
+  "W_id": "dev:256"
+ },
+ "3576445378.jpg#1r1n": {
+  "P": "A group of men are sitting and standing a courtyard, some of them are reading books and some are talking.",
+  "H": "A group of males are outside reading and singing.",
+  "U_S": "A group of males are outside reading and singing about courtyards.",
+  "U_W": "The men are talking, not singing.",
+  "S_id": "test:1493",
+  "W_id": "test:1496"
+ },
+ "354777556.jpg#3r1n": {
+  "P": "Workers are scattered among the scaffolding on an older building.",
+  "H": "Some window washers are preparing to start work.",
+  "U_S": "There are two people holding squeegees standing on the scaffolding.",
+  "U_W": "There is a man hammering on the building.",
+  "S_id": "test:559",
+  "W_id": "test:558"
+ },
+ "2554929458.jpg#1r1n": {
+  "P": "At a little league baseball game, an umpire calls \"safe\" as a player crosses home.",
+  "H": "A player is winning a baseball game.",
+  "U_S": "The umpire waves his arms out horizontally.",
+  "U_W": "A scoreboard in the background shows the player's team is losing.",
+  "S_id": "dev:1683",
+  "W_id": "dev:1682"
+ },
+ "3657016761.jpg#4r1n": {
+  "P": "Colorful rings spraying water at little girl wearing swimsuit.",
+  "H": "The child is at a waterpark.",
+  "U_S": "A kid goes down a big slide behind her",
+  "U_W": "A mom tells the girl to come inside for dinner",
+  "S_id": "test:1647",
+  "W_id": "test:1646"
+ },
+ "4921366636.jpg#0r1n": {
+  "P": "Some people standing outside next to a flower vendor and across the street from a McDonald's on a rainy day.",
+  "H": "The people are at a market.",
+  "U_S": "Most of the people are carrying shopping lists.",
+  "U_W": "They are on the set of a CGI movie.",
+  "S_id": "dev:287",
+  "W_id": "dev:284"
+ },
+ "7591663030.jpg#4r1n": {
+  "P": "A guy riding a motorcycle near junk cars",
+  "H": "The man is test driving a motorcycle to decide whether or not he will buy it.",
+  "U_S": "A man at a dealership hands him keys",
+  "U_W": "The guy parks to get out and look at cars.",
+  "S_id": "test:147",
+  "W_id": "test:148"
+ },
+ "3497224764.jpg#2r1e": {
+  "P": "A woman in red shorts is writing on a tablet.",
+  "H": "A woman is taking notes.",
+  "U_S": "The woman is in a college lecture hall.",
+  "U_W": "The woman is texting her boyfriend.",
+  "S_id": "dev:1171",
+  "W_id": "dev:1168"
+ },
+ "2729147877.jpg#1r1n": {
+  "P": "The child is hanging upside down with his legs over a pole.",
+  "H": "The child is athletic.",
+  "U_S": "The child has defined muscles.",
+  "U_W": "The child is overweight",
+  "S_id": "test:1401",
+  "W_id": "test:1394"
+ },
+ "2537594884.jpg#1r1n": {
+  "P": "Construction workers are standing upon on a wooden bridge.",
+  "H": "The men are nervous",
+  "U_S": "The bridge is making creaking noises.",
+  "U_W": "The men have nerves of steel.",
+  "S_id": "test:1817",
+  "W_id": "test:1814"
+ },
+ "2692396013.jpg#4r1c": {
+  "P": "A shirtless man wearing white shorts.",
+  "H": "A man in white shorts is lying on a park bench.",
+  "U_S": "The man is surrounded by joggers.",
+  "U_W": "The man's shorts match his shirt.",
+  "S_id": "dev:5",
+  "W_id": "dev:8"
+ },
+ "4421399995.jpg#1r1n": {
+  "P": "A man in a white and gray shirt looks on as a shirtless man with a mustache cleans fish on a pale green table.",
+  "H": "The man is cleaning the fish that he caught so he can cook it.",
+  "U_S": "They are campers preparing their meal together.",
+  "U_W": "The men work at a fish market",
+  "S_id": "test:479",
+  "W_id": "test:474"
+ },
+ "4913169135.jpg#4r1n": {
+  "P": "Woman is looking something.",
+  "H": "A woman is looking at a man",
+  "U_S": "The woman is in a crowd of people.",
+  "U_W": "She is pulling up couch cushions.",
+  "S_id": "test:957",
+  "W_id": "test:960"
+ },
+ "3975631999.jpg#3r1n": {
+  "P": "A young african boy skipping rocks.",
+  "H": "There is a rock currently skipping down a pond.",
+  "U_S": "The boy's arm is outstretched.",
+  "U_W": "His father watches from the the other side of the indoor pool.",
+  "S_id": "test:1707",
+  "W_id": "test:1708"
+ },
+ "6526560433.jpg#1r1n": {
+  "P": "A football player in a black uniform appears ready to tackle an opponent in a white uniform who is in possession of the ball.",
+  "H": "The football player in the white uniform is about to make a touchdown.",
+  "U_S": "The goalposts are right in front of the player in white.",
+  "U_W": "They are not moving at all yet.",
+  "S_id": "dev:779",
+  "W_id": "dev:784"
+ },
+ "5436966915.jpg#4r1n": {
+  "P": "A man in red pants skiing down a slope.",
+  "H": "An Olympic skier skiing.",
+  "U_S": "The man has a sticker with numbers on his chest.",
+  "U_W": "The man is following closely behind a ski instructor.",
+  "S_id": "dev:1073",
+  "W_id": "dev:1070"
+ },
+ "3640329164.jpg#0r1n": {
+  "P": "a surfer is riding the waves whilst another surfer sits on his board waiting.",
+  "H": "There are people surfing in a competition.",
+  "U_S": "Crowds watch the surfers and cheer.",
+  "U_W": "They are taking turns learning how to surf.",
+  "S_id": "dev:1301",
+  "W_id": "dev:1304"
+ },
+ "4670365996.jpg#1r1n": {
+  "P": "Woman in a blue dress and carrying a black purse, rides a scooter down the street.",
+  "H": "the girl is riding down a dirt street",
+  "U_S": "There is the sound of livestock in the background",
+  "U_W": "The scooter is not dirty",
+  "S_id": "test:351",
+  "W_id": "test:350"
+ },
+ "2685763205.jpg#0r1n": {
+  "P": "Man in while shirt and blue jeans holding hands while walking with a little girl in a blue dress and yellow hat.",
+  "H": "A father holds his daughter's hand",
+  "U_S": "They look alike.",
+  "U_W": "The man has twenty children with him.",
+  "S_id": "dev:1141",
+  "W_id": "dev:1144"
+ },
+ "3601978895.jpg#1r1n": {
+  "P": "Two men standing near a metal structure in front of a brick wall.",
+  "H": "Men stand in line at a water fountain in front of a brick building.",
+  "U_S": "The man in front of the men wipes water from his mouth.",
+  "U_W": "There is an \"out of order\" sign on the metal structure.",
+  "S_id": "dev:459",
+  "W_id": "dev:458"
+ },
+ "4894267064.jpg#4r1n": {
+  "P": "pedestrian walking on the street",
+  "H": "A person crossing a busy street intersection.",
+  "U_S": "The light is red, so the cars have stopped while the pedestrian crosses the street.",
+  "U_W": "The street is empty of vehicles.",
+  "S_id": "test:125",
+  "W_id": "test:126"
+ },
+ "7206615914.jpg#0r1n": {
+  "P": "A music concerto is happening on stage, with the lights on spot, while the audience listens in the dark.",
+  "H": "The concert is being held at night.",
+  "U_S": "The moon can be seen shining through a window",
+  "U_W": "The concert is happening indoors. With the windows covered.",
+  "S_id": "test:1071",
+  "W_id": "test:1068"
+ },
+ "7438344154.jpg#0r1n": {
+  "P": "A girl in a green jersey top and blue shorts is getting ready to kick the soccer ball near the goal.",
+  "H": "a girl wants to score a goal",
+  "U_S": "This would be her first and it would make her parents so proud.",
+  "U_W": "The goal has someone in a green jersey top standing in it.",
+  "S_id": "dev:1525",
+  "W_id": "dev:1522"
+ },
+ "38476490.jpg#1r1e": {
+  "P": "3 girls chatting and laughing on the stairwell.",
+  "H": "A group of girls are having fun.",
+  "U_S": "They are hiding from their teacher.",
+  "U_W": "The girls are waiting to find out if they'll be granted bail from jail.",
+  "S_id": "test:855",
+  "W_id": "test:852"
+ },
+ "3258844689.jpg#4r1n": {
+  "P": "A man playing a guitar and a man playing drums",
+  "H": "One man playing the guitar while another plays the drums at a live music event.",
+  "U_S": "The men are on stage.",
+  "U_W": "The men are rehearsing for a show.",
+  "S_id": "dev:527",
+  "W_id": "dev:526"
+ },
+ "3021435473.jpg#0r1n": {
+  "P": "Two children in swimming trunks are standing under a water sprinkler while a crowd looks on.",
+  "H": "Two brothers play in the water without even noticing the crowd",
+  "U_S": "The little boys are fascinated by the water.",
+  "U_W": "The two children glance at the crowd.",
+  "S_id": "dev:621",
+  "W_id": "dev:624"
+ },
+ "2906329398.jpg#3r1n": {
+  "P": "A mom is taking a picture with her two small daughters.",
+  "H": "A mom is taking a family photo with her son and two daughters",
+  "U_S": "The son ran in to be in the photo.",
+  "U_W": "The photo booth had room for three people.",
+  "S_id": "dev:405",
+  "W_id": "dev:398"
+ },
+ "2844202978.jpg#1r1n": {
+  "P": "A woman wearing a straw hat is sitting among a variety of different foods while holding a drink.",
+  "H": "A woman is enjoying a beer.",
+  "U_S": "She pours her beer into a glass.",
+  "U_W": "The woman is drinking mint tea at the market.",
+  "S_id": "test:1879",
+  "W_id": "test:1878"
+ },
+ "4274214534.jpg#4r1n": {
+  "P": "A woman is walking her dog along a snowy ground.",
+  "H": "A woman is trying to get her dog to go to the bathroom after it has freshly snowed.",
+  "U_S": "The woman is carrying a plastic bag and poop scooper.",
+  "U_W": "The snow beside the dog is yellow.",
+  "S_id": "test:335",
+  "W_id": "test:336"
+ },
+ "3525074413.jpg#3r1n": {
+  "P": "Hikers walk along some tough terrain.",
+  "H": "Hikers make their way along tough terrain to get to the scene of the fall.",
+  "U_S": "The hikers brought memorial items.",
+  "U_W": "The hikers are new to hiking.",
+  "S_id": "test:1949",
+  "W_id": "test:1944"
+ },
+ "1865794069.jpg#2r1n": {
+  "P": "A boy in an all blue uniform kicks a blue soccer ball in a grassy area.",
+  "H": "A boy is playing with the other children.",
+  "U_S": "Another boy kicks it away from the boy and he runs after.",
+  "U_W": "There are no other people around the boy to be seen.",
+  "S_id": "test:1109",
+  "W_id": "test:1110"
+ },
+ "3414867566.jpg#4r1n": {
+  "P": "Female gymnasts warm up before a competition.",
+  "H": "Gymnasts get ready for the biggest competition of their life.",
+  "U_S": "The prize is a large sum of money.",
+  "U_W": "The practice match begins soon.",
+  "S_id": "test:1865",
+  "W_id": "test:1866"
+ },
+ "4831266350.jpg#0r1n": {
+  "P": "A man in a white button-up shirt looks to the side while sitting at a table by the street.",
+  "H": "A man begins to get nervous while waiting for his date to arrive.",
+  "U_S": "The man is holding roses in one hand and checking his watch with the other.a",
+  "U_W": "The man is seated across from a woman.",
+  "S_id": "dev:595",
+  "W_id": "dev:592"
+ },
+ "2097407245.jpg#0r1n": {
+  "P": "A man in a winter jacket and knit cap stand with his arms up at his side in a snow landscape.",
+  "H": "A man is about to throw a snowball at someone.",
+  "U_S": "The man is holding something in his right hand.",
+  "U_W": "The man is holding ski poles.",
+  "S_id": "test:487",
+  "W_id": "test:484"
+ },
+ "3394192149.jpg#4r1n": {
+  "P": "Soldier watches as a train zooms by.",
+  "H": "Soldier is doing a crossword as he watches the train.",
+  "U_S": "The soldier sharpened his puzzle pencil.",
+  "U_W": "The soldier goes back to reading his novel.",
+  "S_id": "dev:1567",
+  "W_id": "dev:1566"
+ },
+ "3769486949.jpg#2r1n": {
+  "P": "A bunch of people are walking in a crowded area.",
+  "H": "A bunch of people are walking in a mall.",
+  "U_S": "Some people have shopping bags in their hands",
+  "U_W": "There's no food court in the building.",
+  "S_id": "dev:1321",
+  "W_id": "dev:1318"
+ },
+ "4850474112.jpg#0r1n": {
+  "P": "The festivities of the Latin celebration has brought many visitors and enthusiastic, colorful, performers to the city.",
+  "H": "Many visitors have fun at the Latin celebration.",
+  "U_S": "The visitors are smiling.",
+  "U_W": "The visitors are holding protest signs.",
+  "S_id": "test:937",
+  "W_id": "test:940"
+ },
+ "873862583.jpg#0r1e": {
+  "P": "Two women are laughing and smiling while they eat a meal together.",
+  "H": "Lilly and Sally were laughing while eating lunch.",
+  "U_S": "The two women walked home together afterward",
+  "U_W": "The women are workers and their name tags say \"Brenda\" and \"Jane.\"",
+  "S_id": "test:25",
+  "W_id": "test:26"
+ },
+ "236569968.jpg#0r1n": {
+  "P": "Four individuals are sitting on a small dock by the water as a boat sails by.",
+  "H": "Four people sitting near the ocean.",
+  "U_S": "There are high waves and whitewater.",
+  "U_W": "The four people are at the lake.",
+  "S_id": "test:1485",
+  "W_id": "test:1490"
+ },
+ "3204500803.jpg#1r1n": {
+  "P": "An Asian woman in a red skirt sits near the ground with another woman standing next to her.",
+  "H": "the women are waiting for a store to open",
+  "U_S": "It is 5 minutes before the store opens.",
+  "U_W": "The women are waiting for a bus to get to work.",
+  "S_id": "dev:885",
+  "W_id": "dev:886"
+ },
+ "197976461.jpg#4r1n": {
+  "P": "lady in black skirt is getting excited.",
+  "H": "A lady is excited after winning a contest.",
+  "U_S": "The lady got notification that her essay was chosen as the best.",
+  "U_W": "The lady was just handed a diploma.",
+  "S_id": "test:777",
+  "W_id": "test:778"
+ },
+ "2993841039.jpg#2r1n": {
+  "P": "A policeman is directing a crowd of people walking.",
+  "H": "A policeman is keeping people away from a crime scene.",
+  "U_S": "There is yellow tape around the are the people are directed away from.",
+  "U_W": "The roads are crowded for the fireworks show happening soon.",
+  "S_id": "dev:379",
+  "W_id": "dev:378"
+ },
+ "6472693569.jpg#0r1n": {
+  "P": "On a bright and sonny day a man with blue trunks and white and blue shirt appears to be preparing to take a canoe ride",
+  "H": "A man is about to take a ride in a white canoe.",
+  "U_S": "The canoe is light and almost blinding.",
+  "U_W": "The red canoe was very noticeable.",
+  "S_id": "test:47",
+  "W_id": "test:48"
+ },
+ "3667788497.jpg#0r1n": {
+  "P": "Under a blue sky with white clouds, a child reaches up to touch the propeller of a plane standing parked on a field of grass.",
+  "H": "A child is reaching to touch the propeller out of curiosity.",
+  "U_S": "The plane is on the runway, waiting for the people to board.",
+  "U_W": "The child is holding an uncapped marker in their hand.",
+  "S_id": "dev:603",
+  "W_id": "dev:606"
+ },
+ "4450722137.jpg#4r1n": {
+  "P": "A girl is feeding a goat.",
+  "H": "The girl likes goats.",
+  "U_S": "The girl is laughing.",
+  "U_W": "The girl appears very fearful.",
+  "S_id": "dev:859",
+  "W_id": "dev:866"
+ },
+ "4530729176.jpg#3r1n": {
+  "P": "Old man crafting something in his workshop.",
+  "H": "An old man is working at his home workshop.",
+  "U_S": "The sound of a doorbell can be heard.",
+  "U_W": "The workshop is in the basement of a school.",
+  "S_id": "dev:1121",
+  "W_id": "dev:1126"
+ },
+ "3189485991.jpg#3r1n": {
+  "P": "People getting ready to cut a birthday cake.",
+  "H": "they got ready to cut the cake on christmas",
+  "U_S": "The cake is decorated in red and green.",
+  "U_W": "They cut the birthday cake as a 4th of July celebration goes on outside.",
+  "S_id": "dev:1471",
+  "W_id": "dev:1476"
+ },
+ "397451339.jpg#4r1n": {
+  "P": "A girl is standing and another one is sitting by a tree",
+  "H": "The girls are waiting for their friend.",
+  "U_S": "One girl stands taller to look for car on the road.",
+  "U_W": "The girls have already started playing cards.",
+  "S_id": "dev:767",
+  "W_id": "dev:764"
+ },
+ "7700959654.jpg#4r1n": {
+  "P": "A woman and a man are sword fighting.",
+  "H": "A woman appears to be beating a man in a sword fight.",
+  "U_S": "The man is on the ground.",
+  "U_W": "The woman's sword has been knocked out of her hands.",
+  "S_id": "dev:1435",
+  "W_id": "dev:1436"
+ },
+ "379611444.jpg#0r1n": {
+  "P": "Four speed skaters representing different countries are racing across ice in front of camera people.",
+  "H": "Four skaters are competing in the olympics.",
+  "U_S": "The Olympic flame is burning bright in the background.",
+  "U_W": "The skaters are on a frozen lake.",
+  "S_id": "dev:15",
+  "W_id": "dev:12"
+ },
+ "3394586927.jpg#3r1n": {
+  "P": "A man on a skateboard on steps in front glass doors of a brick building.",
+  "H": "The man on the skateboard is going to bounce off the glass doors",
+  "U_S": "The man is getting ready to brake.",
+  "U_W": "The man isn't looking where he's going.",
+  "S_id": "test:1005",
+  "W_id": "test:1004"
+ },
+ "2319175397.jpg#4r1e": {
+  "P": "two samoyads play in the snow.",
+  "H": "It is snowy outside.",
+  "U_S": "Large flakes of snow fall to the ground.",
+  "U_W": "The dogs are having their photographs taken by a professional photographer in a studio with simulated snow.",
+  "S_id": "test:917",
+  "W_id": "test:918"
+ },
+ "7675416016.jpg#1r1n": {
+  "P": "3 cyclists are racing ahead of a red BMW, with the leader wearing solid white helmet and black cycling pants",
+  "H": "Cyclists are in a race on the part of the course that is on the highway.",
+  "U_S": "The sign next to the course says interstate.",
+  "U_W": "There are sidewalks on either side of the road.",
+  "S_id": "test:383",
+  "W_id": "test:388"
+ },
+ "4541692312.jpg#4r1e": {
+  "P": "An older woman on the computer",
+  "H": "Woman using her personal computer.",
+  "U_S": "The older woman is looking up recipes on the computer.",
+  "U_W": "She is standing at a counter in an Apple store.",
+  "S_id": "dev:433",
+  "W_id": "dev:430"
+ },
+ "2507831979.jpg#2r1n": {
+  "P": "A woman is chatting as she drinks her coffee.",
+  "H": "The woman is chatting with her friend.",
+  "U_S": "A woman is chatting on facetime.",
+  "U_W": "The woman is chatting with her blind date in a bit of small talk.",
+  "S_id": "test:1621",
+  "W_id": "test:1612"
+ },
+ "4464793378.jpg#3r1e": {
+  "P": "An old man is sitting down in the street.",
+  "H": "The old man takes a rest.",
+  "U_S": "The old man is very tired.",
+  "U_W": "The old man just tripped on something and fell over.",
+  "S_id": "dev:1027",
+  "W_id": "dev:1026"
+ },
+ "3675685612.jpg#2r1n": {
+  "P": "Child squirting paint onto a piece of spin-art.",
+  "H": "The child has paint all over their hands.",
+  "U_S": "There is a big bottle of hand soap nearby.",
+  "U_W": "The child is very tidy.",
+  "S_id": "dev:1783",
+  "W_id": "dev:1780"
+ },
+ "4526883901.jpg#2r1n": {
+  "P": "An old gray-haired man with glasses in a gray t-shirt is working on a sculpture.",
+  "H": "The man is 100 years old",
+  "U_S": "The man was born shortly after WWI.",
+  "U_W": "Friends bring in a cake to the man with the number 84 on it.",
+  "S_id": "test:547",
+  "W_id": "test:542"
+ },
+ "6161755456.jpg#0r1n": {
+  "P": "A professional baseball catcher and behind him an umpire are knelt in action position and are awaiting the pitch.",
+  "H": "World Series game 3 is being played",
+  "U_S": "the game is nationally televised.",
+  "U_W": "They are in an empty stadium.",
+  "S_id": "test:235",
+  "W_id": "test:232"
+ },
+ "4622340284.jpg#0r1n": {
+  "P": "A woman drives a bike wearing a white blouse with her brown hair blowing in the wind.",
+  "H": "The woman is riding her bike to conserve fuel use.",
+  "U_S": "The woman doesn't own a car.",
+  "U_W": "The woman is homeless.",
+  "S_id": "test:1155",
+  "W_id": "test:1160"
+ },
+ "3670075789.jpg#3r1n": {
+  "P": "A girl in a child's swimming pool.",
+  "H": "A girl playing water polo in the pool.",
+  "U_S": "There are goals set up on either side of the pool.",
+  "U_W": "The little girl is learning how to float on her back.",
+  "S_id": "dev:1551",
+  "W_id": "dev:1554"
+ },
+ "2700147489.jpg#3r1n": {
+  "P": "Man with beard doing skateboarding stunt",
+  "H": "A man with a goatee does a backflip on a skateboard.",
+  "U_S": "The man is going up a tube.",
+  "U_W": "The stunt involves a rail.",
+  "S_id": "test:1269",
+  "W_id": "test:1264"
+ },
+ "2277294556.jpg#4r1n": {
+  "P": "A man jumping sideways in the ocean.",
+  "H": "The man is enjoying a vacation at a beach resort and decides to take a swim in the ocean.",
+  "U_S": "He is jumping sideways to not run into all the other tourists.",
+  "U_W": "The man is wearing scuba gear.",
+  "S_id": "dev:177",
+  "W_id": "dev:168"
+ },
+ "2993167183.jpg#4r1n": {
+  "P": "Two men play basketball.",
+  "H": "Two men are competing for the last spot on the basketball team.",
+  "U_S": "The men are playing in a gym in front of the team.",
+  "U_W": "Two men are competing for the most points on the basketball team.",
+  "S_id": "dev:1083",
+  "W_id": "dev:1078"
+ },
+ "2945685284.jpg#3r1n": {
+  "P": "Several men helping each other pull in a fishing net.",
+  "H": "The men are fishing.",
+  "U_S": "There are many fish in the net.",
+  "U_W": "The men are marine biologists.",
+  "S_id": "test:1339",
+  "W_id": "test:1340"
+ },
+ "3711354907.jpg#0r1n": {
+  "P": "A man wearing an orange hard hat is being lowered down the side of a building.",
+  "H": "The man is working on the building.",
+  "U_S": "The man is holding tools",
+  "U_W": "Someone is trapped",
+  "S_id": "dev:1879",
+  "W_id": "dev:1884"
+ },
+ "2372763106.jpg#3r1n": {
+  "P": "A race dog numbered six is midair.",
+  "H": "The six is green",
+  "U_S": "The sky is sunny, which shows the color.",
+  "U_W": "The dog's number blends in with his fur.",
+  "S_id": "dev:1797",
+  "W_id": "dev:1788"
+ },
+ "2537758674.jpg#3r1e": {
+  "P": "A young man is standing staring at something.",
+  "H": "A young man has his eyes open.",
+  "U_S": "A women remarks that he has a pretty eye color.",
+  "U_W": "A women yells at him to wake up.",
+  "S_id": "dev:1835",
+  "W_id": "dev:1834"
+ },
+ "5231178541.jpg#2r1n": {
+  "P": "A cheerful boy rides a makeshift sled down a snowy hill.",
+  "H": "A boy is enjoying himself while thinking about sliding down a snow hill with his friends",
+  "U_S": "The boy is planning to meet the friends in ten minutes.",
+  "U_W": "The boy just got a new puppy he's obsessing over.",
+  "S_id": "test:251",
+  "W_id": "test:250"
+ },
+ "519754987.jpg#0r1n": {
+  "P": "A woman riding a bicycle past a car and a group of people on a sidewalk.",
+  "H": "A woman riding a bicycle near a group of her friends on the sidewalk.",
+  "U_S": "She waves and says hello.",
+  "U_W": "The people on the sidewalk don't acknowledge her.",
+  "S_id": "dev:689",
+  "W_id": "dev:692"
+ },
+ "4559327596.jpg#3r1n": {
+  "P": "A group of people sit on benches at a park outside a building.",
+  "H": "The people wait for the bus to come.",
+  "U_S": "The benches are underneath a glass shelter by the road.",
+  "U_W": "The benches are fifty feet from the road.",
+  "S_id": "dev:797",
+  "W_id": "dev:796"
+ },
+ "151155158.jpg#1r1n": {
+  "P": "A young couple and many others out enjoying themselves at an outdoor street event.",
+  "H": "The young couple are looking at goods being sold by the street vendors.",
+  "U_S": "They buy sunglasses and hats.",
+  "U_W": "The event involves looking at Christmas lights.",
+  "S_id": "test:1147",
+  "W_id": "test:1148"
+ },
+ "248851880.jpg#2r1n": {
+  "P": "Spectators look on as a baseball player runs onto a base while the baseman waits to make the catch.",
+  "H": "the player may get thrown out",
+  "U_S": "There is a large crowd watching them.",
+  "U_W": "He stole third base and then made it to home.",
+  "S_id": "test:1785",
+  "W_id": "test:1790"
+ },
+ "4198759209.jpg#1r1n": {
+  "P": "four people standing on a hiking trail in a forest with big tree logs on the ground close to them.",
+  "H": "Tall humans standing",
+  "U_S": "Many large people remain still as they observe nature.",
+  "U_W": "Four people who are very short stand on a hiking trail in a forest.",
+  "S_id": "test:621",
+  "W_id": "test:614"
+ },
+ "3296500180.jpg#1r1n": {
+  "P": "Man jumping over a rusty fence on a blue bicycle.",
+  "H": "Man jumping over the fence on his bicycle trying to escape from the dog.",
+  "U_S": "There are barks and growls coming from behind him.",
+  "U_W": "The man has been practicing bike tricks for two weeks.",
+  "S_id": "test:511",
+  "W_id": "test:506"
+ },
+ "2151300603.jpg#0r1n": {
+  "P": "A woman is sitting at a desk near to a window that has a huge picture of a hand painted on it.",
+  "H": "A tall person sitting",
+  "U_S": "The woman's head almost touches the ceiling.",
+  "U_W": "The woman has two cushions on her chair.",
+  "S_id": "dev:25",
+  "W_id": "dev:28"
+ },
+ "2802539497.jpg#0r1e": {
+  "P": "A man in a plaid shirt and brown pants is sitting on the sidewalk in front of some blankets while people walk by.",
+  "H": "A man is outside.",
+  "U_S": "He's holding an umbrella.",
+  "U_W": "The man in plaid is inside a tent.",
+  "S_id": "test:659",
+  "W_id": "test:656"
+ },
+ "3187364311.jpg#2r1n": {
+  "P": "A woman plays in the wind, with a furry brown dog.",
+  "H": "The dog is a shitzu.",
+  "U_S": "The dogs hair blows in the breeze.",
+  "U_W": "The dog is nearly as big as the woman.",
+  "S_id": "test:1523",
+  "W_id": "test:1522"
+ },
+ "4803926155.jpg#1r1n": {
+  "P": "A woman in a tan dress is tending to her wares in the market.",
+  "H": "The woman is selling pies.",
+  "U_S": "Thanks to her work, the market she works in smells delicious.",
+  "U_W": "The woman is selling homemade jewelry at the marketplace.",
+  "S_id": "dev:1547",
+  "W_id": "dev:1540"
+ },
+ "4556897985.jpg#3r1c": {
+  "P": "People hurrying to get to work in a busy city.",
+  "H": "People waiting at a bus stop.",
+  "U_S": "The people are sitting on a bench under a shelter on the sidewalk.",
+  "U_W": "The people are honking their horns.",
+  "S_id": "test:637",
+  "W_id": "test:636"
+ },
+ "4018050099.jpg#1r1n": {
+  "P": "A small child with a backpack walks down a narrow road next to a painted wall.",
+  "H": "A small child is coming home from school",
+  "U_S": "The child's backpack is full of papers and a laptop.",
+  "U_W": "The child is running away from home.",
+  "S_id": "test:1569",
+  "W_id": "test:1564"
+ },
+ "2856564292.jpg#1r1n": {
+  "P": "A middle-aged man in a green jacket is talking to another middle-aged man in a light blue tee-shirt.",
+  "H": "Two old friends catching up with each other.",
+  "U_S": "The men are at a restaurant.",
+  "U_W": "Green jacket man has just won the Masters golf tournament and is being interviewed.",
+  "S_id": "test:649",
+  "W_id": "test:644"
+ },
+ "5890401192.jpg#1r1n": {
+  "P": "A young man wearing a green shirt and a hat attempts a trick on a skateboard while riding it in a skate park next to a beach.",
+  "H": "A teen is practicing his skateboard skills.",
+  "U_S": "The young man has acne.",
+  "U_W": "His long beard is almost to his waist.",
+  "S_id": "test:1075",
+  "W_id": "test:1074"
+ },
+ "4509183066.jpg#2r1n": {
+  "P": "Three men are playing frisbee in the woods.",
+  "H": "Three brothers are playing a friendly game of Frisbee before dinner.",
+  "U_S": "The sun is setting nearby.",
+  "U_W": "the men are adults who are of vastly different ages and aesthetics",
+  "S_id": "test:1389",
+  "W_id": "test:1386"
+ },
+ "3403797144.jpg#2r1n": {
+  "P": "A surfer is riding a wave in a large body of water.",
+  "H": "This is his first wave of the day.",
+  "U_S": "The surfer is completely wet.",
+  "U_W": "He is very tired.",
+  "S_id": "test:951",
+  "W_id": "test:942"
+ },
+ "70413244.jpg#0r1n": {
+  "P": "Two children in a bag race competing against each other while another boy watches on.",
+  "H": "The boy watching has a broken leg.",
+  "U_S": "There's a cast on his leg.",
+  "U_W": "The boy is jumping up and down as he watches",
+  "S_id": "dev:737",
+  "W_id": "dev:730"
+ },
+ "538638526.jpg#0r1n": {
+  "P": "Blond woman wearing a red shirt and white pants stands on a garbage can as she holds a camera.",
+  "H": "A model stands on a garbage can for a photo shoot.",
+  "U_S": "She woman is trying to get a good shot of a spider on the wall.",
+  "U_W": "The woman is trying squealing about a mouse in the room.",
+  "S_id": "dev:233",
+  "W_id": "dev:232"
+ },
+ "6927430969.jpg#1r1e": {
+  "P": "Several men and women working out in a gym while a few other people videotape them.",
+  "H": "The gym is crowded.",
+  "U_S": "People are standing waiting to get on machines",
+  "U_W": "There are two floors to the gym and many sections for different workouts",
+  "S_id": "dev:157",
+  "W_id": "dev:148"
+ },
+ "3277532608.jpg#0r1n": {
+  "P": "Pedestrians use the crosswalks as traffic awaits their turn to drive through an intersection.",
+  "H": "Traffic is stopped at a red light.",
+  "U_S": "The light will stay that way until all cross.",
+  "U_W": "The traffic is blowing their horns at the pedestrians",
+  "S_id": "test:1679",
+  "W_id": "test:1672"
+ },
+ "3209523192.jpg#4r1e": {
+  "P": "A skier slaloms by a red flag.",
+  "H": "A skier took a great risk.",
+  "U_S": "The skier looks relieved.",
+  "U_W": "The flag represents a country.",
+  "S_id": "dev:1599",
+  "W_id": "dev:1606"
+ },
+ "947664583.jpg#2r1n": {
+  "P": "A young girl with water wings leaps into a crowded pool",
+  "H": "The girl is jumping to her father in the pool.",
+  "U_S": "The man holds his hands out toward his daughter.",
+  "U_W": "The girl jumps toward a woman in the pool.",
+  "S_id": "test:1019",
+  "W_id": "test:1018"
+ },
+ "2537596840.jpg#3r1n": {
+  "P": "A town worker working on electrical equipment.",
+  "H": "The worker is tired.",
+  "U_S": "The worker is on the tenth hour of a twelve hour shift.",
+  "U_W": "It is 8 am",
+  "S_id": "dev:1737",
+  "W_id": "dev:1728"
+ },
+ "6273004053.jpg#0r1n": {
+  "P": "a soccer player wearing a red uniform walks off the field after a game near a parking lot.",
+  "H": "A soccer player is walking to his car.",
+  "U_S": "The soccer player is rummaging through his pockets for his keys.",
+  "U_W": "The soccer player is 15.",
+  "S_id": "test:1701",
+  "W_id": "test:1700"
+ },
+ "5738179350.jpg#4r1n": {
+  "P": "a man giving two thumbs up to a crowd.",
+  "H": "He has just won the competition",
+  "U_S": "The man has a medal around their neck as they smile",
+  "U_W": "The man just fell but wasn't injured",
+  "S_id": "test:61",
+  "W_id": "test:64"
+ },
+ "3275201035.jpg#2r1n": {
+  "P": "A girl in a black sweater and jeans pours water into an empty soda bottle.",
+  "H": "A girl pours water into an empty coca cola bottle",
+  "U_S": "The bottle is black and red",
+  "U_W": "The Pepsi bottle that washed on shore held the water securely.",
+  "S_id": "test:223",
+  "W_id": "test:226"
+ },
+ "4665585666.jpg#0r1e": {
+  "P": "A father with a red shirt and beard is cuddling with his two children in a chair.",
+  "H": "There are three people inside.",
+  "U_S": "They are on a carpeted floor.",
+  "U_W": "They are surrounded by grass and trees.",
+  "S_id": "dev:1005",
+  "W_id": "dev:1004"
+ },
+ "7537460976.jpg#1r1n": {
+  "P": "Several people are playing an intense game of paintball while others watch from the sidelines.",
+  "H": "The people watching from the sidelines cheer.",
+  "U_S": "The people watching are grinning.",
+  "U_W": "The people watching have frowns on their faces.",
+  "S_id": "test:51",
+  "W_id": "test:50"
+ },
+ "3582066525.jpg#1r1e": {
+  "P": "A person jumps off of a cliff into the water below as others watch.",
+  "H": "She made a great dive.",
+  "U_S": "The woman is a former Olympic diver.",
+  "U_W": "The woman is committing suicide off the bridge.",
+  "S_id": "dev:497",
+  "W_id": "dev:490"
+ },
+ "4019072184.jpg#4r1e": {
+  "P": "A man is rock climbing with protective rope.",
+  "H": "A man is being secured.",
+  "U_S": "He ties the rope to his harness.",
+  "U_W": "The rope hangs from his backpack.",
+  "S_id": "dev:1585",
+  "W_id": "dev:1578"
+ },
+ "3386375153.jpg#2r1n": {
+  "P": "A man in a blue jacket riding a bike",
+  "H": "A man is on his yellow bike.",
+  "U_S": "The man's bike is the color of a ripe banana.",
+  "U_W": "He rented it from the store.",
+  "S_id": "dev:1775",
+  "W_id": "dev:1770"
+ },
+ "4870291079.jpg#0r1n": {
+  "P": "An older gentleman wearing a hat is walking on crutches next to a busy street.",
+  "H": "A man on crutches is trying to cross the street.",
+  "U_S": "The man is walking toward a bus stop.",
+  "U_W": "There is no crosswalk on the street.",
+  "S_id": "test:541",
+  "W_id": "test:532"
+ },
+ "7074956741.jpg#2r1n": {
+  "P": "A group of young people performing on a stage.",
+  "H": "A group of people are singing and dancing on stage for people.",
+  "U_S": "The people are in a talent show.",
+  "U_W": "The people on stage are making American Sign Language gestures.",
+  "S_id": "test:201",
+  "W_id": "test:198"
+ },
+ "3730011701.jpg#0r1n": {
+  "P": "A little girl with a hat sits between a woman's feet in the sand in front of a pair of colorful tents.",
+  "H": "The girl is related to the woman.",
+  "U_S": "The woman is filming the girl with her phone",
+  "U_W": "The woman is calling the police for a missing child",
+  "S_id": "dev:343",
+  "W_id": "dev:342"
+ },
+ "3644142276.jpg#1r1n": {
+  "P": "a blond girl and brunette brown hanging by gymnastic ropes",
+  "H": "Some girls are in gymnastic class.",
+  "U_S": "the couch shouts for the girls to begin",
+  "U_W": "The people are trying to commit suicide.",
+  "S_id": "dev:265",
+  "W_id": "dev:260"
+ },
+ "3396817186.jpg#1r1n": {
+  "P": "a brown dog with a yellow toy in his mouth is jumping off the grassy ground",
+  "H": "The dog is fetching his yellow toy.",
+  "U_S": "A man yells bring it here buddy",
+  "U_W": "The dog is alone.",
+  "S_id": "test:1365",
+  "W_id": "test:1370"
+ },
+ "686293997.jpg#0r1n": {
+  "P": "A group of people sitting around a rectangular table having either pieces of paper or laptops in front of them.",
+  "H": "they have a work meeting",
+  "U_S": "The people are in a conference room in a skyscraper.",
+  "U_W": "The people have casual clothes on and look like teenagers.",
+  "S_id": "test:441",
+  "W_id": "test:436"
+ },
+ "458884858.jpg#0r1n": {
+  "P": "A lone, 2-3 year old blond child in a blue jacket is putting a small black plastic item in his mouth as he kneels on a waiting room couch pointed toward the back while looking at something or someone not in the room.",
+  "H": "The child is looking for his mom.",
+  "U_S": "The child is looking for his maternal parent.",
+  "U_W": "His mother takes the object out of his mouth, and hides it in her bag.",
+  "S_id": "dev:1875",
+  "W_id": "dev:1876"
+ },
+ "5897488202.jpg#1r1n": {
+  "P": "One woman with jeans, gray shirt and sandals; with girl in all pink watching a white ball float in midair.",
+  "H": "The woman is contemplating buying a new outfit.",
+  "U_S": "The woman is standing in a clothing store.",
+  "U_W": "The woman has no money.",
+  "S_id": "test:1555",
+  "W_id": "test:1554"
+ },
+ "6338544926.jpg#0r1n": {
+  "P": "Two college football players battle it out outdoors on the field during game day, where one is the quarterback trying to throw the ball, and the other player is in action about to sack the quarterback.",
+  "H": "Two teams from rival colleges are in the fourth quarter of a game.",
+  "U_S": "The quarterback is trying to stop the other from scoring the winning goal.",
+  "U_W": "The players are all 10 years old.",
+  "S_id": "test:993",
+  "W_id": "test:994"
+ },
+ "6029710737.jpg#0r1n": {
+  "P": "A group of teenagers are standing in front of some tents, most of them are holding skateboards.",
+  "H": "A group of teenagers are holding something",
+  "U_S": "Everyone who isn't holding a skateboard is eating something.",
+  "U_W": "Some have empty hands.",
+  "S_id": "dev:361",
+  "W_id": "dev:366"
+ },
+ "2249912075.jpg#0r1n": {
+  "P": "A man in a club addressing other people and holding his index finger up with a woman standing behind him.",
+  "H": "A man is looking for his girlfriend in a club.",
+  "U_S": "His girlfriend had just stomped off 5 minutes earlier.",
+  "U_W": "The man is signaling the host that he wants a table for one.",
+  "S_id": "dev:1183",
+  "W_id": "dev:1182"
+ },
+ "2774020195.jpg#3r1n": {
+  "P": "Three Indian boys in shorts play with one another.",
+  "H": "Three boys enjoying summer.",
+  "U_S": "They laugh while tossing a frisbee.",
+  "U_W": "The boys are indoors",
+  "S_id": "dev:1499",
+  "W_id": "dev:1502"
+ },
+ "3971893411.jpg#3r1e": {
+  "P": "A group of people are outside working.",
+  "H": "People are busy.",
+  "U_S": "A gardening group has come together to play a community garden.",
+  "U_W": "The people are being paid by the hour.",
+  "S_id": "test:1441",
+  "W_id": "test:1438"
+ },
+ "3677239603.jpg#0r1n": {
+  "P": "A girl in a purple sweater and a shoulder bag is looking to the side with a lot of people behind her.",
+  "H": "a girl thinks about her day",
+  "U_S": "She sighs deeply.",
+  "U_W": "The people behind her are running.",
+  "S_id": "dev:1113",
+  "W_id": "dev:1110"
+ },
+ "2800758232.jpg#3r1n": {
+  "P": "A man looking at a woman looking at water.",
+  "H": "A woman watches the lake while her child swims.",
+  "U_S": "The man can hear a child laughing.",
+  "U_W": "The woman gazes at the empty body of water.",
+  "S_id": "test:739",
+  "W_id": "test:734"
+ },
+ "85306246.jpg#1r1n": {
+  "P": "A man is working on a Earthen structure with a pickaxe.",
+  "H": "A man is repairing a dam.",
+  "U_S": "The man is by the river.",
+  "U_W": "The man is underground.",
+  "S_id": "test:211",
+  "W_id": "test:210"
+ },
+ "6870633495.jpg#0r1e": {
+  "P": "Four cyclists are racing on an indoor racetrack all wearing the same red, white, and blue uniforms.",
+  "H": "There are cyclists racing.",
+  "U_S": "There is a large audience cheering for the cyclists.",
+  "U_W": "The cyclists are riding slowly.",
+  "S_id": "test:1121",
+  "W_id": "test:1120"
+ },
+ "6273930630.jpg#3r1n": {
+  "P": "Three guys in red uniforms celebrating a goal in a soccer game.",
+  "H": "Three men in red uniforms celebrating a goal in front of a crowd at a soccer stadium.",
+  "U_S": "The game was between two championship teams.",
+  "U_W": "The soccer game was played by kindergartners.",
+  "S_id": "test:1907",
+  "W_id": "test:1906"
+ },
+ "4490635744.jpg#0r1c": {
+  "P": "Two uniformed police officers are standing on a sidewalk while one child looks directly at the camera.",
+  "H": "Two fake cops and a child undercover agent.",
+  "U_S": "The child takes out a police badge.",
+  "U_W": "The officers take out handcuffs to arrest the child.",
+  "S_id": "dev:71",
+  "W_id": "dev:70"
+ },
+ "3363342011.jpg#0r1n": {
+  "P": "A boy stands in the middle of a crowd of teenagers.",
+  "H": "A sad boy stands in the middle of a crowd of teenagers.",
+  "U_S": "His friends try to console the boy.",
+  "U_W": "A boy stands smiling in a crowd of teenagers.",
+  "S_id": "test:1515",
+  "W_id": "test:1512"
+ },
+ "4212865709.jpg#1r1n": {
+  "P": "Two men in orange uniforms stand before a train and do some work.",
+  "H": "Tall humans working.",
+  "U_S": "the man hold tools and work them against the platform",
+  "U_W": "The men are waiting for a step stool so that they can reach higher on the train.",
+  "S_id": "test:259",
+  "W_id": "test:254"
+ },
+ "4970561178.jpg#2r1n": {
+  "P": "Three women talk to each other next to another woman sitting on a motorcycle.",
+  "H": "A group of women went for a motorcycle ride.",
+  "U_S": "Three other motorcycles are leaning against the garage.",
+  "U_W": "The three women have the car windows rolled down.",
+  "S_id": "test:85",
+  "W_id": "test:86"
+ },
+ "2631300484.jpg#0r1n": {
+  "P": "A blond boy stands among people in a shady setting with a large snake wrapped around his chest.",
+  "H": "A male performer is showcasting his snake for tips.",
+  "U_S": "The boy is a snake charmer which also charms well-off tourists.",
+  "U_W": "The boy works for a zoo caring for reptiles.",
+  "S_id": "test:1043",
+  "W_id": "test:1042"
+ },
+ "2256320794.jpg#1r1n": {
+  "P": "The collie is standing outdoors on a sandy area.",
+  "H": "The collie is at a beach.",
+  "U_S": "The ocean is down from the sandy area.",
+  "U_W": "There is a playground nearby.",
+  "S_id": "test:1275",
+  "W_id": "test:1274"
+ },
+ "4805540864.jpg#1r1n": {
+  "P": "Two people are sitting under a tent while another stands.",
+  "H": "People sitting under a tent are cold while the other stands and tries to start a fire.",
+  "U_S": "People sitting or standing have chills so bad one strikes a match onto newspapers.",
+  "U_W": "People sitting or standing are warmed by the fire one of them made earlier.",
+  "S_id": "dev:1029",
+  "W_id": "dev:1028"
+ },
+ "1931018353.jpg#4r1n": {
+  "P": "3 people are shopping in a market.",
+  "H": "The three people are shopping for a party they are going to throw.",
+  "U_S": "The people are shopping for beer and chips.",
+  "U_W": "The three people are shopping for their weekly groceries.",
+  "S_id": "test:1451",
+  "W_id": "test:1444"
+ },
+ "2275372714.jpg#3r1n": {
+  "P": "The kids watched as the soda bottle launched into the air.",
+  "H": "There are kids throwing a bottle.",
+  "U_S": "The kids are playing a game in the backyard.",
+  "U_W": "The boys have really taken to scientific experiments.",
+  "S_id": "dev:1625",
+  "W_id": "dev:1622"
+ },
+ "5234657740.jpg#2r1n": {
+  "P": "A young man is playing a blue guitar.",
+  "H": "A musician practices on his guitar briefly before a concert.",
+  "U_S": "The man is on a stage.",
+  "U_W": "The man falls asleep before his performance",
+  "S_id": "test:851",
+  "W_id": "test:844"
+ },
+ "2421367904.jpg#0r1e": {
+  "P": "A group of people examine a boat with an orange flag that is sitting on sand next to a body of water.",
+  "H": "People sit on a beach.",
+  "U_S": "Large crowds line the beach and grass waiting for the flag to wave during the yearly regatta.",
+  "U_W": "There are no chairs or towels on the sand.",
+  "S_id": "test:471",
+  "W_id": "test:466"
+ },
+ "81707157.jpg#2r1n": {
+  "P": "A girl wearing black is riding a giant unicycle on the beach.",
+  "H": "The beach is cold",
+  "U_S": "The girl is training for her act during the off season.",
+  "U_W": "The beach is full of sunbathers.",
+  "S_id": "test:1891",
+  "W_id": "test:1888"
+ },
+ "5457465605.jpg#0r1n": {
+  "P": "A group of young Asian men who are sans shirts and wearing identical black and white plaid pants with red belts are dancing and waving their arms in the air around a fire.",
+  "H": "The men are professional performers.",
+  "U_S": "a large crowd is watching the men",
+  "U_W": "The men are also holding beer bottles in their hands",
+  "S_id": "dev:181",
+  "W_id": "dev:178"
+ },
+ "2096630557.jpg#0r1e": {
+  "P": "A referee with a whistle in his mouth points to the right and watches as a player with the basketball bends down with a defensive player.",
+  "H": "A referee blows a whistle",
+  "U_S": "A referee blows hard and long into the whistle to emphasize the violation.",
+  "U_W": "The game is still in motion",
+  "S_id": "test:1375",
+  "W_id": "test:1378"
+ },
+ "4882407625.jpg#0r1n": {
+  "P": "A cart of large water containers is in front of two women who are standing as well as two women who are walking down the street.",
+  "H": "The cart of water is for children.",
+  "U_S": "The children are in desperate need of clean drinking water.",
+  "U_W": "Working men are taking water from the cart.",
+  "S_id": "test:591",
+  "W_id": "test:586"
+ },
+ "4850764733.jpg#2r1n": {
+  "P": "Two young ladies walking down the street together.",
+  "H": "The two woman are sisters, and are on their way to their mutual friends house down the street.",
+  "U_S": "The two women are twins.",
+  "U_W": "they continue and eventually go different ways",
+  "S_id": "test:1221",
+  "W_id": "test:1218"
+ },
+ "3913959754.jpg#1r1n": {
+  "P": "A woman is standing near the water, looks to be throwing something.",
+  "H": "The woman is skipping rocks.",
+  "U_S": "There are many small splashes in a row on the water.",
+  "U_W": "The woman is looking for turtles.",
+  "S_id": "dev:101",
+  "W_id": "dev:98"
+ },
+ "3028404926.jpg#1r1n": {
+  "P": "A child turning a crank with benches behind him.",
+  "H": "The child is playing with a jack-in-the-box in the park.",
+  "U_S": "It's a sunny day and music can be heard from his playtoy.",
+  "U_W": "It's hot and the child is holding a hand-powered fan.",
+  "S_id": "dev:373",
+  "W_id": "dev:374"
+ },
+ "3411579899.jpg#4r1e": {
+  "P": "The cyclist rides on a wooded path.",
+  "H": "The cyclist rides alone on a wooded path",
+  "U_S": "The cyclist's friend cancelled their trip together.",
+  "U_W": "The cyclist is part of a bike race.",
+  "S_id": "test:409",
+  "W_id": "test:410"
+ },
+ "3726215814.jpg#0r1n": {
+  "P": "A woman wearing a black t-shirt and green capri pants walks in front of a giant clock.",
+  "H": "It is noon.",
+  "U_S": "The hour hand points straight up",
+  "U_W": "The clock's hands are both pointing straight down.",
+  "S_id": "test:1765",
+  "W_id": "test:1770"
+ },
+ "2942311160.jpg#3r1n": {
+  "P": "A dune buggy traveling on sand.",
+  "H": "The dune buggy jumps off of the sand dunes.",
+  "U_S": "The driver is a thrill-seeker.",
+  "U_W": "The dune buggy is going very slow.",
+  "S_id": "dev:439",
+  "W_id": "dev:444"
+ },
+ "200797624.jpg#4r1n": {
+  "P": "Army men grilling a lot of meat while his troop looks on.",
+  "H": "The men here will eat a lot of food soon.",
+  "U_S": "The men are out in the woods.",
+  "U_W": "They are rationing in a war zone",
+  "S_id": "test:1895",
+  "W_id": "test:1900"
+ },
+ "2726222057.jpg#3r1n": {
+  "P": "A woman is pushing her bike with a baby carriage in front.",
+  "H": "A woman is going for a ride in the park with her baby.",
+  "U_S": "There are grass and trees on either side of them.",
+  "U_W": "the baby carriage is filled with trash bags",
+  "S_id": "dev:191",
+  "W_id": "dev:194"
+ },
+ "5332472316.jpg#3r1n": {
+  "P": "Two females and one male looking at various merchandise.",
+  "H": "A family is window shopping together.",
+  "U_S": "The people have no money with them.",
+  "U_W": "The people are dressed in business attire with store Employees following them",
+  "S_id": "dev:1345",
+  "W_id": "dev:1342"
+ },
+ "4485090958.jpg#0r1n": {
+  "P": "A female within the foreground is heading towards a large white colored pillar that is apart of a large building with people are loitering or waiting on the steps of said building.",
+  "H": "The woman has an important meeting today in the building.",
+  "U_S": "The woman is holding a briefcase",
+  "U_W": "The woman is dressed casually",
+  "S_id": "test:397",
+  "W_id": "test:396"
+ },
+ "3527926597.jpg#3r1n": {
+  "P": "A boy on a skateboard ramp.",
+  "H": "The boy is doing a skateboard trick",
+  "U_S": "The boy is in mid air",
+  "U_W": "The boy is sitting on the ramp tying his shoe.",
+  "S_id": "dev:1691",
+  "W_id": "dev:1696"
+ },
+ "38110161.jpg#3r1n": {
+  "P": "Some elderly people are playing instruments in a park.",
+  "H": "The old man is playing the guitar.",
+  "U_S": "The man strums a guitar as others strum near him.",
+  "U_W": "The old man plays a shiny trombone.",
+  "S_id": "test:1689",
+  "W_id": "test:1688"
+ },
+ "7291431398.jpg#0r1c": {
+  "P": "A male baseball player for the baseball team The Indians prepares to catch a ball.",
+  "H": "The Indians are planning to get out of baseball and into theater if this man fails to catch the ball.",
+  "U_S": "There are trunks full of theatrical costumes near the dugout and some of the players there are trying them on.",
+  "U_W": "The ballplayer jumps over the wall and takes away the home run from the opposing team.",
+  "S_id": "test:297",
+  "W_id": "test:294"
+ },
+ "4516743554.jpg#2r1n": {
+  "P": "In a chain link enclosed skate park a skater goes over one of the obstacles.Wit.",
+  "H": "The park is outside.",
+  "U_S": "Trees surround the fence.",
+  "U_W": "The skate park was once an indoor hockey rink until they remodeled it in to what it is today.",
+  "S_id": "test:109",
+  "W_id": "test:106"
+ },
+ "409930622.jpg#0r1n": {
+  "P": "A balding man wearing a brown jacket with his hands crossed and his head tilted down.",
+  "H": "A balding man wearing a brown bomber jacket with his hands crossed and his head tilted down.",
+  "U_S": "The man loves bomber style jackets.",
+  "U_W": "The man got his jacket for his wedding.",
+  "S_id": "dev:21",
+  "W_id": "dev:20"
+ },
+ "299181827.jpg#2r1e": {
+  "P": "A girl in a pink shirt tries to dump a bucket of water on another girl.",
+  "H": "A girl wants to get another girl wet.",
+  "U_S": "The little girl is envious of the other girl's face paint.",
+  "U_W": "They are filming this for a social media fundraising challenge.",
+  "S_id": "dev:1761",
+  "W_id": "dev:1758"
+ },
+ "1384292980.jpg#1r1n": {
+  "P": "The girls walk down the street.",
+  "H": "Girls were going to the park.",
+  "U_S": "The girls are carrying a toy boat.",
+  "U_W": "The girls are wearing school uniforms.",
+  "S_id": "test:1055",
+  "W_id": "test:1054"
+ },
+ "3212671393.jpg#1r1n": {
+  "P": "A single man in a blue t-shirt, jeans, and a baseball cap works on a roof of a house laying shingles.",
+  "H": "The single man was working on his house",
+  "U_S": "There is a roofing van in the driveway.",
+  "U_W": "The man works for a roofing company.",
+  "S_id": "test:1839",
+  "W_id": "test:1834"
+ },
+ "4696874093.jpg#1r1e": {
+  "P": "People sitting down, walking around and, taking pictures outside of a building.",
+  "H": "People are taking pictures of various things.",
+  "U_S": "The people are looking in all directions",
+  "U_W": "The reporters keep snapping shots of the door hoping to get the first shot of the elusive star.",
+  "S_id": "dev:1209",
+  "W_id": "dev:1214"
+ },
+ "4604563597.jpg#0r1n": {
+  "P": "Young people sit in plastic chairs arranged around a set of stairs in a covered concrete area, wearing swim clothes, resting, and waiting.",
+  "H": "People are wearing swim clothes, waiting for the sun to come out.",
+  "U_S": "The weather report stated the rain is moving out of the area.",
+  "U_W": "The guest of honor should make their entrance soon.",
+  "S_id": "dev:965",
+  "W_id": "dev:962"
+ },
+ "2344820947.jpg#1r1n": {
+  "P": "Two guys and a woman standing and talking in a playground.",
+  "H": "A couple of guys in the playground are talking with the woman about kids.",
+  "U_S": "They gesture towards the children playing as they talk.",
+  "U_W": "The man holds out a baggie and the woman has cash in her hand",
+  "S_id": "dev:587",
+  "W_id": "dev:584"
+ },
+ "3523115345.jpg#4r1n": {
+  "P": "A female researcher videotaping a specimen.",
+  "H": "A woman is recording her research for a live show on discovery channel.",
+  "U_S": "A director is overlooking the entire production.",
+  "U_W": "The female researcher is working quietly alone.",
+  "S_id": "dev:505",
+  "W_id": "dev:504"
+ },
+ "2770821714.jpg#2r1n": {
+  "P": "A man, woman, and child get their picture taken in front of the mountains.",
+  "H": "A family on vacation is posing.",
+  "U_S": "They just drove 1000 miles.",
+  "U_W": "The photographer is the paparazzi",
+  "S_id": "test:1329",
+  "W_id": "test:1330"
+ },
+ "5436986554.jpg#1r1e": {
+  "P": "Military men dressed in camouflage and white aim there weapons while out in the snowy weather.",
+  "H": "men have weapons",
+  "U_S": "They are looking in one direction and reaching for something at their sides.",
+  "U_W": "They have very little on them.",
+  "S_id": "dev:1441",
+  "W_id": "dev:1440"
+ },
+ "4872410393.jpg#0r1e": {
+  "P": "A young girl wearing a red shirt and cap smiling and holding a small toy is standing in front of a group of children playing behind her.",
+  "H": "The young girl is wearing a red shirt.",
+  "U_S": "The child's shirt is brightly colored.",
+  "U_W": "The girl's shirt matches the foliage of the trees.",
+  "S_id": "test:501",
+  "W_id": "test:500"
+ },
+ "4799796561.jpg#4r1n": {
+  "P": "A man with a cigarette sits on the stoop.",
+  "H": "An old man is smoking a cigar.",
+  "U_S": "The cigarette is an inch thick.",
+  "U_W": "He is smoking something thin and white.",
+  "S_id": "test:1725",
+  "W_id": "test:1722"
+ },
+ "2525716531.jpg#0r1e": {
+  "P": "A man wearing padded arm protection is being bitten by a German shepherd dog.",
+  "H": "A man is bitten by a dog while training the dog.",
+  "U_S": "The man is a professional trainer.",
+  "U_W": "The man shrieks, unprepared for the attack of the dog.",
+  "S_id": "dev:427",
+  "W_id": "dev:420"
+ },
+ "3538194939.jpg#2r1n": {
+  "P": "A worker is preparing fish to be sold at a market.",
+  "H": "A person is slicing up a fish to sell.",
+  "U_S": "The person has a knife.",
+  "U_W": "A seal waits for dinner next to this person.",
+  "S_id": "test:693",
+  "W_id": "test:700"
+ },
+ "3052436578.jpg#1r1n": {
+  "P": "A couple of newlyweds kissing underneath the bride's veil.",
+  "H": "The newlyweds are kissing in a church during the wedding.",
+  "U_S": "A priest looks on.",
+  "U_W": "The newlyweds are getting married in a hospital since the bride has cancer.",
+  "S_id": "test:1661",
+  "W_id": "test:1658"
+ },
+ "3041785224.jpg#0r1n": {
+  "P": "Two women in a embrace of greetings, one of them is holding flowers and they are greeting each other of a kiss.",
+  "H": "Two elderly women greeting eachother after years of not seeing eachother.",
+  "U_S": "Although their heads are full of gray hair, they both instantly recognized each other.",
+  "U_W": "This is the first time they are celebrating Valentine's Day together.",
+  "S_id": "dev:1653",
+  "W_id": "dev:1652"
+ },
+ "6320068122.jpg#0r1n": {
+  "P": "Three young men wearing backpacks, shorts, t-shirts, sandals and hats are standing together on a sandy surface with palm trees in the distance.",
+  "H": "Three young people are putting on suntan location while standing on the beach together.",
+  "U_S": "They are rubbing something on their skin.",
+  "U_W": "The people are trying to get as dark as possible",
+  "S_id": "test:785",
+  "W_id": "test:788"
+ },
+ "1354318519.jpg#1r1n": {
+  "P": "a boy in a red hooded top is smiling whilst looking away from his reflection.",
+  "H": "The boy doesn't want to see his reflection.",
+  "U_S": "The boy can't go to school because he has the measles.",
+  "U_W": "The boy is looking at something else.",
+  "S_id": "test:567",
+  "W_id": "test:568"
+ },
+ "406901451.jpg#1r1n": {
+  "P": "A black and brown dog attempts to catch a red ball in its mouth.",
+  "H": "A dog is playing catch outside.",
+  "U_S": "It falls onto the grass undaunted and chases it on the ground.",
+  "U_W": "the dog  bumps into a couch",
+  "S_id": "dev:1675",
+  "W_id": "dev:1670"
+ },
+ "2630123726.jpg#0r1e": {
+  "P": "A young girl in pink pants and a white top stands watering a group of household plants in her driveway, standing next to the family car.",
+  "H": "A young girls is watering the plants next to the her dads cars.",
+  "U_S": "The girls dad is visisiting for the weekend",
+  "U_W": "She lives with her mother and has never met her father.",
+  "S_id": "dev:1241",
+  "W_id": "dev:1238"
+ },
+ "3289474362.jpg#0r1n": {
+  "P": "A man in a light colored uniform is outside an Asian restaurant cleaning the display window which features exotic foods hanging on hooks.",
+  "H": "A man has a light blue colored uniform.",
+  "U_S": "The restaurant's logo is also light blue.",
+  "U_W": "The restaurant's color scheme is red and gold.",
+  "S_id": "dev:681",
+  "W_id": "dev:686"
+ },
+ "3457455611.jpg#3r1n": {
+  "P": "A young boy is sitting in a green tunnel",
+  "H": "The boy is wearing a green shirt",
+  "U_S": "It is St. Patrick's day.",
+  "U_W": "The boy's shirt is a different color from the tunnel.",
+  "S_id": "dev:1363",
+  "W_id": "dev:1360"
+ },
+ "2330843604.jpg#1r1n": {
+  "P": "A girl jumping rope on a sidewalk near a parking garage.",
+  "H": "The girl is jumping rope just for exercise.",
+  "U_S": "The girl counts each jump",
+  "U_W": "The girl is practicing For an upcoming jump rope competition at her school.",
+  "S_id": "dev:933",
+  "W_id": "dev:930"
+ },
+ "361831875.jpg#0r1n": {
+  "P": "A person in a green coat looks upwards while leaning against a fixture in front of a tree.",
+  "H": "A person is looking up at a cloudy sky.",
+  "U_S": "The person asks 'You think it's going to rain?'",
+  "U_W": "They are admiring the ripe apples above them.",
+  "S_id": "dev:637",
+  "W_id": "dev:634"
+ },
+ "4633771017.jpg#2r1c": {
+  "P": "A man dances with a woman in a white egyptian costume.",
+  "H": "A man is disguise as he dances with someone.",
+  "U_S": "The man also wears an egyptian costume.",
+  "U_W": "The man is wearing a tuxedo.",
+  "S_id": "test:315",
+  "W_id": "test:314"
+ },
+ "3750418259.jpg#1r1n": {
+  "P": "A boy dressed for summer in a green shirt and kahki shorts extends food to a reindeer in a petting zoo.",
+  "H": "A boy dressed for summer in a tight green shirt and kahki shorts",
+  "U_S": "The shirt is part of a wet suit.",
+  "U_W": "The shirt hangs off his shoulders.",
+  "S_id": "test:605",
+  "W_id": "test:602"
+ },
+ "3032493516.jpg#0r1e": {
+  "P": "Two men cooking, one stirring a pot while making a funny face while the other points at him.",
+  "H": "Friends are preparing a meal.",
+  "U_S": "The man kisses the other.",
+  "U_W": "The other man is yelling loudly.",
+  "S_id": "test:113",
+  "W_id": "test:120"
+ },
+ "6012829906.jpg#2r1n": {
+  "P": "A surfer showing off his talent in public using a man-made water machine.",
+  "H": "A surfer is in performing at a charity event.",
+  "U_S": "The surfer has a crowd of onlookers.",
+  "U_W": "The surfer is promoting his new machine which can make waves to practice surfing.",
+  "S_id": "test:175",
+  "W_id": "test:180"
+ },
+ "2726301121.jpg#0r1n": {
+  "P": "A blond woman with a tattoo of on an angel on her arm walking down the street, a concrete wall in the background.",
+  "H": "A person with a great tatto",
+  "U_S": "She just spent a lot of money to get the tattoo.",
+  "U_W": "Her tattoo is not a permanent tattoo.",
+  "S_id": "test:1637",
+  "W_id": "test:1636"
+ },
+ "2572575687.jpg#4r1n": {
+  "P": "A young boy looking at a picture book.",
+  "H": "A boy sitting in the grass looking at a book.",
+  "U_S": "The boy is outside.",
+  "U_W": "It was recently raining and the ground is muddy.",
+  "S_id": "dev:1131",
+  "W_id": "dev:1132"
+ },
+ "194467990.jpg#3r1n": {
+  "P": "A young man throws a Frisbee to a frisbee-golf goal.",
+  "H": "A man playing in a tournament.",
+  "U_S": "A referee watches closely.",
+  "U_W": "The course is almost barren.",
+  "S_id": "test:1551",
+  "W_id": "test:1548"
+ },
+ "47529535.jpg#4r1n": {
+  "P": "A young boy giving his brother a piggyback ride",
+  "H": "a boy is giving his brother a piggyback ride in the park",
+  "U_S": "He is carrying his brother through a spacious area full of green grass and tall trees.",
+  "U_W": "A boy gives his brother a piggyback ride between the car and house.",
+  "S_id": "test:1101",
+  "W_id": "test:1092"
+ },
+ "380808487.jpg#4r1n": {
+  "P": "A doctor is performing surgery.",
+  "H": "A doctor is doing a good job.",
+  "U_S": "The nurses look confident.",
+  "U_W": "The doctor is performing his first ever.",
+  "S_id": "dev:1399",
+  "W_id": "dev:1406"
+ },
+ "2945213105.jpg#3r1e": {
+  "P": "A woman cooking and drinking wine from the bottle.",
+  "H": "A woman is getting drunk.",
+  "U_S": "She had a bad day and she's trying to forget.",
+  "U_W": "The woman is tasting the wine to make sure it's right for her recipe.",
+  "S_id": "dev:1843",
+  "W_id": "dev:1842"
+ },
+ "6939157103.jpg#4r1n": {
+  "P": "Three women sit at a table, taking notes from three identical magazines.",
+  "H": "Three college women are studing.",
+  "U_S": "They are all studying fashion design.",
+  "U_W": "The women are wearing scientists coats and wearing glasses",
+  "S_id": "test:267",
+  "W_id": "test:268"
+ },
+ "6921501861.jpg#0r1n": {
+  "P": "A young oriental girl receives help on a science project from an adult, not completely seen in the image.",
+  "H": "A teacher guides the student in regards to her homework.",
+  "U_S": "The girl is sitting in a classroom.",
+  "U_W": "A girl is helped by her mother who won a science fair when young.",
+  "S_id": "dev:159",
+  "W_id": "dev:164"
+ },
+ "3599895386.jpg#4r1n": {
+  "P": "Four people and a dog out in the woods.",
+  "H": "Some mammals want to live and the others don't want them to.",
+  "U_S": "The dog is on a leash.",
+  "U_W": "The dog is free to roam.",
+  "S_id": "test:153",
+  "W_id": "test:152"
+ },
+ "254178173.jpg#3r1e": {
+  "P": "Two women crossing an intersection.",
+  "H": "Two ladies walking.",
+  "U_S": "The women's high heels are making loud noises as they cross the street.",
+  "U_W": "The light is about to expire.",
+  "S_id": "dev:833",
+  "W_id": "dev:828"
+ },
+ "3327761688.jpg#0r1n": {
+  "P": "An expensive car is parked in what looks like a car-wash with a man standing at the open passenger door side.",
+  "H": "The man is on his cell phone.",
+  "U_S": "The man is telling the car rental place he will be returning the car soon.",
+  "U_W": "The man is spraying upholstery cleaner on the interior.",
+  "S_id": "test:163",
+  "W_id": "test:162"
+ },
+ "6864033895.jpg#3r1e": {
+  "P": "A woman with a red scarf is juggling oranges.",
+  "H": "A woman is performing a trick.",
+  "U_S": "A woman is using her hands to move three oranges in a clockwise position in the air.",
+  "U_W": "She is in her living room.",
+  "S_id": "dev:1201",
+  "W_id": "dev:1202"
+ },
+ "444803340.jpg#2r1n": {
+  "P": "a young couple both wearing white shirts and blue jeans standing in a light misty rain",
+  "H": "A matching couple cools down in the rain.",
+  "U_S": "The couple have raised their arms",
+  "U_W": "The couple are holding an eviction notice",
+  "S_id": "test:521",
+  "W_id": "test:520"
+ },
+ "462080147.jpg#3r1n": {
+  "P": "a man holding a bottle of wine with a box on his head",
+  "H": "The man is trying his best not to drop the bottle of wine.",
+  "U_S": "The tipsy man is clumsy.",
+  "U_W": "The man is passive-aggressive and envious of his brother's new white carpet.",
+  "S_id": "dev:675",
+  "W_id": "dev:670"
+ },
+ "512520703.jpg#1r1n": {
+  "P": "Several young African Americans giving an outdoor dance performance",
+  "H": "A group does tribal dancing at a festival.",
+  "U_S": "The people are wearing tribal masks.",
+  "U_W": "The dancers are wearing hip hop clothing",
+  "S_id": "dev:907",
+  "W_id": "dev:898"
+ },
+ "578873882.jpg#1r1e": {
+  "P": "A team of men, three in red shirts and two others in baseball jerseys, re-surface a baseball diamond with specialized tools.",
+  "H": "A grounds crew maintain a park.",
+  "U_S": "Their hats all have the city logo.",
+  "U_W": "The men are finding a location to put in the security cameras.",
+  "S_id": "test:1243",
+  "W_id": "test:1244"
+ },
+ "3164195421.jpg#2r1e": {
+  "P": "4 children and 1 adult look at an armadillo on a grassy hill with 2 trees.",
+  "H": "There are people outside.",
+  "U_S": "The people stand at the bottom of the grassy hill and look at the armadillo.",
+  "U_W": "The people look out the window at the armadilo.",
+  "S_id": "test:723",
+  "W_id": "test:722"
+ },
+ "7995263133.jpg#0r1n": {
+  "P": "Young boy wearing pajamas lying down in bed and sleeping on a colorful striped pillow.",
+  "H": "A young boy is sleeping at a sleep over.",
+  "U_S": "There are other children sleeping on the floor.",
+  "U_W": "He is in a race card bed.",
+  "S_id": "test:1969",
+  "W_id": "test:1968"
+ },
+ "2132295466.jpg#1r1n": {
+  "P": "A man in a tie-dyed shirt and jeans is sitting on a bench with a dog and a guitar on his lap, as well as a harmonica near his mouth.",
+  "H": "The street performer takes a break.",
+  "U_S": "The man has finished a song.",
+  "U_W": "The transient musician is just resting between towns before moving on.",
+  "S_id": "test:683",
+  "W_id": "test:688"
+ },
+ "2898810636.jpg#4r1n": {
+  "P": "A girl jumps in the air.",
+  "H": "A jump roping girl.",
+  "U_S": "The girl is holding an end of a rope in each hand.",
+  "U_W": "The girl is on a diving board.",
+  "S_id": "test:1355",
+  "W_id": "test:1358"
+ },
+ "3341117695.jpg#3r1n": {
+  "P": "A cyclist dressed in black and white is pointing.",
+  "H": "A cyclist dressed in black and white points towards the sky.",
+  "U_S": "The cyclist is a professional bird watcher.",
+  "U_W": "The cyclist is looking at a dog on the road in front of him.",
+  "S_id": "test:183",
+  "W_id": "test:184"
+ },
+ "2970367040.jpg#2r1e": {
+  "P": "Seated street musician in black derby plays wind instrument with no one listening or watching.",
+  "H": "The man sitting down is a musician.",
+  "U_S": "The man plays his instrument with great skill",
+  "U_W": "The man is hitting a lot of bad notes",
+  "S_id": "dev:1371",
+  "W_id": "dev:1370"
+ },
+ "7432995570.jpg#0r1c": {
+  "P": "A man on a bicycle, wearing cycle gear, riding at a fast past down paved trail surrounded by tree's and grass.",
+  "H": "The man is riding on the sidewalk.",
+  "U_S": "The man keeps weaving around pedestrians.",
+  "U_W": "A man moves himself as his bike is passed by a golf cart.",
+  "S_id": "test:1607",
+  "W_id": "test:1604"
+ },
+ "764507.jpg#3r1n": {
+  "P": "Four adults eat while sitting on a tile floor.",
+  "H": "Two couples eat food on a kitchen floor.",
+  "U_S": "Two of the adults just moved in and one of their parents helped them move.",
+  "U_W": "They are at a singles retreat.",
+  "S_id": "test:413",
+  "W_id": "test:412"
+ },
+ "2289096282.jpg#1r1n": {
+  "P": "A person rolls down a hill riding a wagon as another watches.",
+  "H": "A child in a wagon rolls down a hill.",
+  "U_S": "The child is pretending to be on a spaceship as the wagon rolls down the hill.",
+  "U_W": "It's a man testing out his own creation.",
+  "S_id": "test:1301",
+  "W_id": "test:1292"
+ },
+ "4725723908.jpg#0r1n": {
+  "P": "A man in a black long-sleeved tee-shirt is walking down the street with a cane.",
+  "H": "A man walking to the store.",
+  "U_S": "He is approaching a line for the newest videogame.",
+  "U_W": "The man is carrying a golf bag.",
+  "S_id": "dev:273",
+  "W_id": "dev:274"
+ },
+ "3201637996.jpg#3r1n": {
+  "P": "The dude at the party is raging!",
+  "H": "A man is yelling at a party.",
+  "U_S": "He was out of control.",
+  "U_W": "Raging is what people that are fans of Rage Against the Machine call dancing.",
+  "S_id": "dev:97",
+  "W_id": "dev:96"
+ },
+ "42397423.jpg#0r1n": {
+  "P": "A young boy in green shorts balances on a pipe above a river.",
+  "H": "A clever person balancing.",
+  "U_S": "An audience watches in awe at how young the up and coming tight rope walker is.",
+  "U_W": "The boy is wet from repeatedly falling into the river.",
+  "S_id": "test:21",
+  "W_id": "test:16"
+ },
+ "2311616095.jpg#1r1n": {
+  "P": "Dark-haired man wearing a watch and oven mitt about to cook some meat in the kitchen.",
+  "H": "A man is going to surprise his wife with dinner.",
+  "U_S": "The man has a bouquet of flowers on the table.",
+  "U_W": "The man sets the table for one.",
+  "S_id": "test:1773",
+  "W_id": "test:1772"
+ },
+ "2616991671.jpg#0r1n": {
+  "P": "A man in a white t-shirt and jeans is holding a mallet and chisel next to his abstract sculpture which stands on several bricks.",
+  "H": "A man is trying to finish his sculpture for a church",
+  "U_S": "The sculpture is in the shape of a cross.",
+  "U_W": "The sculpture has horns.",
+  "S_id": "test:1139",
+  "W_id": "test:1138"
+ },
+ "4873091038.jpg#2r1n": {
+  "P": "Two people walk up to a brick building with a colorful mural on its side.",
+  "H": "Two people walking toward a brick building with their mural on its side.",
+  "U_S": "The people were visual arts majors.",
+  "U_W": "The people were computer science majors.",
+  "S_id": "test:753",
+  "W_id": "test:752"
+ },
+ "2719343003.jpg#2r1e": {
+  "P": "A boy with no shirt is standing in water.",
+  "H": "He is outside.",
+  "U_S": "The sun is shining down on the boy.",
+  "U_W": "The tub drain is clogged.",
+  "S_id": "test:91",
+  "W_id": "test:92"
+ },
+ "2724379828.jpg#1r1n": {
+  "P": "A man providing entertainment on the sidewalk by playing the violin.",
+  "H": "A man is entertaining a crowd by playing classical music on the sidewalk",
+  "U_S": "The man smiles because he hears clapping",
+  "U_W": "He is playing soundtracks",
+  "S_id": "dev:871",
+  "W_id": "dev:868"
+ },
+ "6454057197.jpg#4r1n": {
+  "P": "One boy sitting off to the side all alone.",
+  "H": "A little boy is sitting alone at the park.",
+  "U_S": "The boy is sitting on a wooden bench.",
+  "U_W": "The little boy is surrounded by student desks.",
+  "S_id": "dev:827",
+  "W_id": "dev:824"
+ },
+ "3020423842.jpg#1r1n": {
+  "P": "A man in a blue shirt leans on a wall beside a road with a blue van and red car with water in the background.",
+  "H": "The blue van belongs to the man.",
+  "U_S": "The man drives a van for his job.",
+  "U_W": "The man just came from the red car.",
+  "S_id": "dev:1017",
+  "W_id": "dev:1014"
+ },
+ "4625392581.jpg#4r1n": {
+  "P": "A man is carrying a child on his shoulders.",
+  "H": "The child is smiling.",
+  "U_S": "The child is giggling.",
+  "U_W": "There are tears on the child's face.",
+  "S_id": "dev:1153",
+  "W_id": "dev:1150"
+ },
+ "241346146.jpg#2r1n": {
+  "P": "The Sooner football player carrying the ball is trying to avoid being tackled.",
+  "H": "A quarterback is holding a ball.",
+  "U_S": "The football player had just received the snap.",
+  "U_W": "The player had the ball thrown to him.",
+  "S_id": "test:363",
+  "W_id": "test:364"
+ },
+ "2392460773.jpg#3r1n": {
+  "P": "A boy making an \"oh!\" face in front of a bay.",
+  "H": "A child is surprised by the ships.",
+  "U_S": "He is watching a boat race.",
+  "U_W": "He loves watching ships pass by.",
+  "S_id": "test:1023",
+  "W_id": "test:1030"
+ },
+ "367975972.jpg#1r1n": {
+  "P": "A young dark-haired woman crouches on the banks of a river while washing dishes.",
+  "H": "A woman washes dishes in the river while camping.",
+  "U_S": "A woman can't wait to go back home in two more days.",
+  "U_W": "The mountain woman always does her dishes in this river.",
+  "S_id": "dev:475",
+  "W_id": "dev:474"
+ },
+ "3512003488.jpg#1r1n": {
+  "P": "Five people standing on a stage, getting ready to perform, who are unrecognizable due to the lack of lighting.",
+  "H": "The audience watches as the actors in the dim haze, ready their lines for the first scene.",
+  "U_S": "They each take turns speaking to the audience.",
+  "U_W": "They begin dancing to a hip hop song on stage.",
+  "S_id": "test:43",
+  "W_id": "test:42"
+ },
+ "2426828433.jpg#3r1n": {
+  "P": "three dogs run through the grass.",
+  "H": "Three dogs run through the dead, brown grass.",
+  "U_S": "The dogs are on an abandoned lot.",
+  "U_W": "colorful flowers sway in the wind",
+  "S_id": "test:275",
+  "W_id": "test:280"
+ },
+ "3645162492.jpg#2r1n": {
+  "P": "A young girl in a riding outfit is sitting on a horse holding a teddy bear.",
+  "H": "The girl is getting riding lessons.",
+  "U_S": "A man gives her instructions.",
+  "U_W": "The girl is posing for a picture to send to her grandmother.",
+  "S_id": "test:841",
+  "W_id": "test:832"
+ },
+ "7338940816.jpg#0r1n": {
+  "P": "A woman wearing a brown jacket and brown pants is walking her two dogs along the beach as they follow another person.",
+  "H": "A man and women take their dogs for a walk on the beach.",
+  "U_S": "The person in front is the woman's husband.",
+  "U_W": "The person in front of the woman is wearing a dress.",
+  "S_id": "dev:705",
+  "W_id": "dev:704"
+ },
+ "2249141510.jpg#2r1n": {
+  "P": "A young boy in red leaping into sand at a playground.",
+  "H": "A young boy jumps onto his friends sand castle at a playground.",
+  "U_S": "When the boy lands, a sand castle disintegrates underneath him.",
+  "U_W": "Everyone is laughing and smiling and having fun after the jump.",
+  "S_id": "test:799",
+  "W_id": "test:796"
+ },
+ "4687986765.jpg#3r1n": {
+  "P": "A youth skateboards by a mural of a griffin wielding a flaming sword.",
+  "H": "A youth skateboards by a mural that has been vandalised.",
+  "U_S": "The griffin is painted over something",
+  "U_W": "The artist just finished it an hour ago.",
+  "S_id": "test:33",
+  "W_id": "test:28"
+ },
+ "1957701886.jpg#4r1n": {
+  "P": "A woman is walking her dog and using her cellphone.",
+  "H": "The woman is playing a game on her cellphone.",
+  "U_S": "Her cellphone has lots of game-like sound effects coming from it.",
+  "U_W": "The woman is typing.",
+  "S_id": "test:1511",
+  "W_id": "test:1502"
+ },
+ "3418562923.jpg#0r1n": {
+  "P": "A young man in black and white striped shirt rests on the grass while traffic passes nearby on the road.",
+  "H": "A boy wears a long sleeve shirt.",
+  "U_S": "It is cold out.",
+  "U_W": "The striped shirt is a tank top.",
+  "S_id": "dev:111",
+  "W_id": "dev:112"
+ },
+ "8038855203.jpg#3r1n": {
+  "P": "This boy is in deep concentration playing a game of ping-pong.",
+  "H": "The boy crossed several levels by playing with sincerity and full concentration",
+  "U_S": "The boy won several times.",
+  "U_W": "The scoreboard does not indicate multiple levels.",
+  "S_id": "dev:551",
+  "W_id": "dev:552"
+ },
+ "3556571710.jpg#0r1n": {
+  "P": "This is a picture of three young men, dressed in suits with one on a bike, and of a young lady wearing a white dress.",
+  "H": "three guys going to a wedding",
+  "U_S": "There is a just married sign on the back of the bicycle.",
+  "U_W": "They are all high school seniors.",
+  "S_id": "dev:709",
+  "W_id": "dev:712"
+ },
+ "57417274.jpg#3r1n": {
+  "P": "A group of mountain climbers rests at the summit.",
+  "H": "A group of climbers celebrates at the top of Everest.",
+  "U_S": "The climbers are in Nepal.",
+  "U_W": "The climbers can breathe easily unassisted.",
+  "S_id": "test:765",
+  "W_id": "test:770"
+ },
+ "2275029674.jpg#3r1n": {
+  "P": "Two little white dogs running.",
+  "H": "A few dogs are running to their owner.",
+  "U_S": "The little white dogs haven't seen their owner in a few days.",
+  "U_W": "The dogs are running in a field where there are no humans.",
+  "S_id": "test:453",
+  "W_id": "test:458"
+ },
+ "4668251659.jpg#0r1n": {
+  "P": "Cityscape with four men on bikes serving as the focal point of picture.",
+  "H": "Bike rental as low as 9.99 an hour.",
+  "U_S": "The city is home to many environmentally friendly startups.",
+  "U_W": "The men on the bikes own them.",
+  "S_id": "test:985",
+  "W_id": "test:986"
+ },
+ "504413268.jpg#0r1n": {
+  "P": "A construction worker peeking out of a manhole while his coworker sits on the sidewalk smiling.",
+  "H": "The men are playing hide and go seek.",
+  "U_S": "The other man is hiding.",
+  "U_W": "There was a gas leak nearby.",
+  "S_id": "dev:1275",
+  "W_id": "dev:1274"
+ },
+ "3424851862.jpg#3r1n": {
+  "P": "Three people posing for a camera",
+  "H": "The three people are all female.",
+  "U_S": "The fashion models were hired by the studio to help sell the next season's swimsuits.",
+  "U_W": "The photographer refers to one of the people as \"Mister\".",
+  "S_id": "test:877",
+  "W_id": "test:878"
+ },
+ "5340461911.jpg#3r1n": {
+  "P": "in a girls basketball game she is shooting a foul shot",
+  "H": "The girl got pushed hard by the other player.",
+  "U_S": "The girl has a skinned knee",
+  "U_W": "The girl tripped on her own shoes.",
+  "S_id": "dev:1249",
+  "W_id": "dev:1250"
+ },
+ "4873126466.jpg#3r1n": {
+  "P": "A man shows off his spider-web face paint.",
+  "H": "A young man shows a group of people the black web painted on his face.",
+  "U_S": "The boy is proud of his work.",
+  "U_W": "The man is dressing up as spiderman for Halloween.",
+  "S_id": "test:981",
+  "W_id": "test:978"
+ },
+ "4726677489.jpg#0r1n": {
+  "P": "Man in white t-shirt, black shorts, walking along side female with a white tank top, beige shorts, and an older woman with black hair, white shirt, black shorts.",
+  "H": "Man walks with his wife and her mom.",
+  "U_S": "The older woman is nagging the other two about their kid",
+  "U_W": "All these people’s shirts say “Walking Club”",
+  "S_id": "dev:1191",
+  "W_id": "dev:1190"
+ },
+ "322103537.jpg#0r1n": {
+  "P": "A young girl in a pink bikini jumps into the air on a sandy beach by the ocean, as two other children play in the sand.",
+  "H": "The children there together.",
+  "U_S": "A teacher supervises the field trip nearby",
+  "U_W": "The girl's bikini cost ten times as much as the other children's swimsuits.",
+  "S_id": "test:1475",
+  "W_id": "test:1476"
+ },
+ "4926735881.jpg#0r1n": {
+  "P": "A woman with short blond-hair smiling and singing into a microphone while a man in a striped shirt, further back, plays an acoustic guitar.",
+  "H": "A woman is singing a Britney Spears song with her brother",
+  "U_S": "The woman and man look very similar.",
+  "U_W": "The woman and man look nothing alike.",
+  "S_id": "dev:643",
+  "W_id": "dev:642"
+ },
+ "5583280537.jpg#3r1n": {
+  "P": "Three men are working with their bikes in the shoulder of a road.",
+  "H": "The men are talking to each other on the side of the rode about their wives.",
+  "U_S": "They are holding tools and women's photos.",
+  "U_W": "The men are talking about the quality of their bikes as they work on them.",
+  "S_id": "test:1207",
+  "W_id": "test:1210"
+ },
+ "363701711.jpg#1r1n": {
+  "P": "A group of young women wearing black dresses stand in a row with three of them holding bouquets.",
+  "H": "A group of women with flowers at a wedding.",
+  "U_S": "The cake was at the center, awaiting the new couple.",
+  "U_W": "They place the bouquets on top of a casket.",
+  "S_id": "dev:123",
+  "W_id": "dev:126"
+ },
+ "2987328689.jpg#0r1n": {
+  "P": "A boy wearing jeans, standing on rocks in a river and throwing a stone.",
+  "H": "A boy with no shirt on throws rocks.",
+  "U_S": "A shirt is hanging from a tree branch nearby.",
+  "U_W": "The boy feels bad after hitting a bird.",
+  "S_id": "test:1577",
+  "W_id": "test:1580"
+ },
+ "2635400219.jpg#0r1e": {
+  "P": "A woman in a headscarf and a boy wearing blue look to the right while sitting against a wall.",
+  "H": "The woman and the boy are sitting near a wall and each other",
+  "U_S": "They are mother and son",
+  "U_W": "The couple between them don't notice the distraction to the right.",
+  "S_id": "dev:1281",
+  "W_id": "dev:1284"
+ },
+ "2302516347.jpg#4r1n": {
+  "P": "Two individuals use a photo kiosk",
+  "H": "The people are together",
+  "U_S": "The couple are taking a fun picture",
+  "U_W": "One of the people is a child and the other one is an adult.",
+  "S_id": "test:743",
+  "W_id": "test:748"
+ },
+ "2315285438.jpg#0r1n": {
+  "P": "An older South American woman is knitting colorful hand warmers and enjoying herself.",
+  "H": "A tall human knitting",
+  "U_S": "The woman wears size 13 shoes",
+  "U_W": "A man bends down to kiss the woman on the forehead",
+  "S_id": "dev:801",
+  "W_id": "dev:800"
+ },
+ "2705919158.jpg#2r1n": {
+  "P": "Young person in black next to an older person in black and white polka dot.",
+  "H": "A young person is standing next to a relative.",
+  "U_S": "The young person looks like the older person.",
+  "U_W": "The people are at a naturalization ceremony",
+  "S_id": "test:1131",
+  "W_id": "test:1126"
+ },
+ "4684006367.jpg#1r1n": {
+  "P": "A man wearing a brightly green camouflage patterned denim jacket and boots walks by a building labeled Lottery Ticket Centre.",
+  "H": "A man just purchased some lottery tickets.",
+  "U_S": "The man is looking for a low-effort Christmas gift for his different relations.",
+  "U_W": "The man is carrying grocery bags.",
+  "S_id": "test:1961",
+  "W_id": "test:1954"
+ },
+ "6782818493.jpg#0r1n": {
+  "P": "Two hockey players on opposing teams, one in a red and white jersey and one in a blue and black jersey, are standing on the rink.",
+  "H": "Two opponents are getting ready to face off in a Hockey game.",
+  "U_S": "A lot of people are watching them with anticipation.",
+  "U_W": "There is confetti all over the rink",
+  "S_id": "test:897",
+  "W_id": "test:896"
+ },
+ "359800617.jpg#0r1n": {
+  "P": "A woman is holding a baby while standing in the middle of a room.",
+  "H": "A nurse holds a newborn baby in the middle of the delivery room.",
+  "U_S": "There is an IV stand nearby.",
+  "U_W": "The woman just got done giving birth.",
+  "S_id": "dev:1219",
+  "W_id": "dev:1220"
+ },
+ "4692456296.jpg#2r1n": {
+  "P": "A mother and daughter walk along the side of a bridge.",
+  "H": "A mother and daughter are walking home.",
+  "U_S": "The mother and daughter are exhausted and ready to sleep.",
+  "U_W": "They are on their way to work.",
+  "S_id": "test:1735",
+  "W_id": "test:1732"
+ },
+ "3126773489.jpg#3r1n": {
+  "P": "Two men are playing during a basketball game.",
+  "H": "Two men are playing during a college basketball game.",
+  "U_S": "The team wants to win to increases their chances of making the tournament.",
+  "U_W": "The men are wearing professional sports uniforms.",
+  "S_id": "test:1457",
+  "W_id": "test:1460"
+ },
+ "3704431444.jpg#2r1n": {
+  "P": "A dog is running parallel with the ocean waves.",
+  "H": "A dog is running towards its owner.",
+  "U_S": "A man whistles loudly.",
+  "U_W": "A dog is being chased by a larger predator.",
+  "S_id": "test:717",
+  "W_id": "test:716"
+ },
+ "5479743540.jpg#4r1n": {
+  "P": "A skateboarding youth does a trick on a rail.",
+  "H": "A young boy showing his new skateboard tricks to his friends.",
+  "U_S": "The boy is on the school playground.",
+  "U_W": "The skateboarder is practicing his moves to impress a girl.",
+  "S_id": "test:219",
+  "W_id": "test:212"
+ },
+ "6314475602.jpg#1r1n": {
+  "P": "A large number of people are watching men dressed in kilts, one of whom has thrown a long pole.",
+  "H": "people celebrate st paddys day",
+  "U_S": "Everyone in the crowd is wearing green.",
+  "U_W": "The people are in Ireland.",
+  "S_id": "test:903",
+  "W_id": "test:906"
+ },
+ "4511584046.jpg#1r1n": {
+  "P": "Family gathered together in a house enjoying each other company.",
+  "H": "A family is enjoying a night at home.",
+  "U_S": "The stars are out.",
+  "U_W": "The sun is shining brightly through the kitchen window.",
+  "S_id": "test:829",
+  "W_id": "test:824"
+ },
+ "218483471.jpg#1r1n": {
+  "P": "A black woman balancing a large platter on her head that has many bagged items on it.",
+  "H": "A woman carrying her groceries home",
+  "U_S": "The outline of a bunch of bananas can be seen through one of the bags.",
+  "U_W": "The items are mostly electronics.",
+  "S_id": "dev:337",
+  "W_id": "dev:330"
+ },
+ "4648521240.jpg#0r1n": {
+  "P": "Two women are reading, one woman has a magazine with a Dior ad on the back of it, while the other woman is reading fro ma hard cover book.",
+  "H": "Two women are in the library reading.",
+  "U_S": "A shelf of books stands behind them.",
+  "U_W": "The women are waiting to be called to the back to get check ups.",
+  "S_id": "test:1403",
+  "W_id": "test:1410"
+ },
+ "4433821033.jpg#2r1n": {
+  "P": "A snowboarder in green pants boards down a snowy mountain.",
+  "H": "A female snowboarder wears green pants.",
+  "U_S": "The woman's green pants were a gift from her husband.",
+  "U_W": "The snowboarder has a beard.",
+  "S_id": "dev:1611",
+  "W_id": "dev:1608"
+ },
+ "2315593294.jpg#1r1n": {
+  "P": "A man with a crop is trying to stay on a rearing horse.",
+  "H": "The man is old",
+  "U_S": "The man is very experienced",
+  "U_W": "The man looked on to his very young with.",
+  "S_id": "dev:515",
+  "W_id": "dev:516"
+ },
+ "6556870225.jpg#3r1n": {
+  "P": "A young male is running while playing tennis against another person.",
+  "H": "A man moves while playing a game",
+  "U_S": "The game he is playing is tennis which requires movement.",
+  "U_W": "A man sits on a tennis court.",
+  "S_id": "test:3",
+  "W_id": "test:6"
+ },
+ "3098336319.jpg#3r1n": {
+  "P": "A snowboarder is grinding down a long concrete rail.",
+  "H": "A snowboarder is practicing a new trick.",
+  "U_S": "He does a flip.",
+  "U_W": "The snowboarder's friend pushed him to go down the rail on a dare.",
+  "S_id": "test:1189",
+  "W_id": "test:1186"
+ },
+ "2127209046.jpg#1r1n": {
+  "P": "A group is walking between two giant rock formations.",
+  "H": "A group is hiking.",
+  "U_S": "The group are carrying hiking equipment.",
+  "U_W": "The group walks between giant rocks that have been placed in a downtown area.",
+  "S_id": "test:1035",
+  "W_id": "test:1040"
+ },
+ "5840232264.jpg#3r1n": {
+  "P": "A male with a prosthetic leg diving for a volleyball.",
+  "H": "The male is playing in a tournament.",
+  "U_S": "There is a scoreboard with a partially filled bracket behind the crowd of attendees watching the male play.",
+  "U_W": "The volleyball net is frayed and the gym is dead silent.",
+  "S_id": "test:1311",
+  "W_id": "test:1310"
+ },
+ "3721604285.jpg#0r1n": {
+  "P": "Two men, each wearing a white tee-shirt and headphones make adjustments to a machine while shaded by a dark umbrella-like contraption.",
+  "H": "Technicians servicing machinery under hastily constructed shade.",
+  "U_S": "Several men are servicing an air conditioner with makeshift shade.",
+  "U_W": "Several men are asleep under a beach umbrella.",
+  "S_id": "dev:389",
+  "W_id": "dev:388"
+ },
+ "4858043205.jpg#4r1n": {
+  "P": "A van with writing on it driving in front of a store.",
+  "H": "A company vehicle about to deliver goods.",
+  "U_S": "The writing advertises a delivery service.",
+  "U_W": "The van has blue and red lights",
+  "S_id": "dev:719",
+  "W_id": "dev:726"
+ },
+ "4809887792.jpg#1r1n": {
+  "P": "A musician playing a guitar while he has the microphone inside his mouth.",
+  "H": "The man is in a heavy metal band.",
+  "U_S": "He has long hair and many tattoos and piercings.",
+  "U_W": "He is wearing a suit and performing in a church.",
+  "S_id": "test:1315",
+  "W_id": "test:1314"
+ }
+}

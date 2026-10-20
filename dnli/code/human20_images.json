@@ -1,0 +1,28 @@
+{
+  "source": "rudinger/defeasible-nli@c675ffc1b0eec5fa56287f08490da8ed43c1ecc5",
+  "split": "dev",
+  "seed": 20261060,
+  "note": "Images used by the human direction check (human20); exclude from dev and main sets.",
+  "images": [
+    "2255375425.jpg",
+    "2280437733.jpg",
+    "3016521240.jpg",
+    "3205336477.jpg",
+    "3227620119.jpg",
+    "3381038951.jpg",
+    "3634032601.jpg",
+    "3780240908.jpg",
+    "3942050764.jpg",
+    "4513402918.jpg",
+    "4572766663.jpg",
+    "4682929932.jpg",
+    "476477265.jpg",
+    "4813608480.jpg",
+    "4956455528.jpg",
+    "4967473493.jpg",
+    "5676066044.jpg",
+    "5984974054.jpg",
+    "86112925.jpg",
+    "931156700.jpg"
+  ]
+}

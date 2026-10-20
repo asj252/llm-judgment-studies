@@ -1,0 +1,122 @@
+[
+  {
+    "id": "D01",
+    "premise": "Two men wrestle on the floor in front of an group of young men.",
+    "hypothesis": "Two men are wrestling at a meet.",
+    "update": "Two men are rolling around in the street."
+  },
+  {
+    "id": "D02",
+    "premise": "The people driving the tiny white car were nearly hit by the train, but it had fortunately stopped just in time.",
+    "hypothesis": "The tiny white car with the Obama bumper sticker was almost hit by the train, however, the car managed to barely avoid the collision.",
+    "update": "The people are on their way to a Michelle Obama rally."
+  },
+  {
+    "id": "D03",
+    "premise": "Two young men in unusual clothing are jumping in a gym.",
+    "hypothesis": "The two men are freinds",
+    "update": "Two men laugh as they talk about what they did the night before."
+  },
+  {
+    "id": "D04",
+    "premise": "Colorfully dressed man dancing in the streets, while balancing something on his head.",
+    "hypothesis": "There is a man practicing a routine for his street performance.",
+    "update": "The man is singing."
+  },
+  {
+    "id": "D05",
+    "premise": "A runner in a yellow shirt is running a race.",
+    "hypothesis": "A woman wearing yellow is running a race.",
+    "update": "The runner is in a women's running club."
+  },
+  {
+    "id": "D06",
+    "premise": "A city street performer with long gray hair sits on a green bucket, two woman look on behind the man.",
+    "hypothesis": "The street performer begins his show.",
+    "update": "The performer is eating a sandwich."
+  },
+  {
+    "id": "D07",
+    "premise": "Scene from a life show with man singing in the center, there are two women one on each side of him.",
+    "hypothesis": "There is a play going on.",
+    "update": "Two judges sit in front of the people for a show"
+  },
+  {
+    "id": "D08",
+    "premise": "A crowd of people with a lady with a bright orange shirt and another lady in black have their backs to the camera.",
+    "hypothesis": "People are turned away from the camera looking at a parade in the street.",
+    "update": "People are clapping and smiling joyfully at the clowns and bands."
+  },
+  {
+    "id": "D09",
+    "premise": "People crowded around toys on a table.",
+    "hypothesis": "People are in the middle of the Christmas rush.",
+    "update": "They are toy developers at a convention."
+  },
+  {
+    "id": "D10",
+    "premise": "A woman in a patterned shirt hands a plate of food to another woman in an apron, while two women work in the background.",
+    "hypothesis": "Upstanding citizens work at a soup kitchen to benefit the hungry.",
+    "update": "The new restaurant downtown has just opened, and is busy."
+  },
+  {
+    "id": "D11",
+    "premise": "A live band on a lawn jamming out.",
+    "hypothesis": "A live band on a lawn jamming out for the holiday crowd.",
+    "update": "The neighbors yell and they end their practice early."
+  },
+  {
+    "id": "D12",
+    "premise": "A woman in a pink shirt is holding a hot air balloon with an American flag on it.",
+    "hypothesis": "A woman is holding a hot air balloon on the 4th of July.",
+    "update": "Fireworks are going up into the sky"
+  },
+  {
+    "id": "D13",
+    "premise": "A man is sitting in on the side of the street with brass pots.",
+    "hypothesis": "A man is playing with the brass pots",
+    "update": "The man is holding makeshift drum sticks"
+  },
+  {
+    "id": "D14",
+    "premise": "A middle-aged Asian woman is standing behind a counter preparing food.",
+    "hypothesis": "A middle-aged Asian lady is cooking dumplings.",
+    "update": "The pots are filled with noodles."
+  },
+  {
+    "id": "D15",
+    "premise": "A man just roaming on the streets during night.",
+    "hypothesis": "A man is roaming the streets at night, drunk.",
+    "update": "The man is easily walking in a straight line."
+  },
+  {
+    "id": "D16",
+    "premise": "A young man wearing black jumps off a height while people clap.",
+    "hypothesis": "The man is jumping off a cliff.",
+    "update": "A man comments 'I wouldn't jump off from that high no matter how much Red Bull you gave me!'"
+  },
+  {
+    "id": "D17",
+    "premise": "A woman in a white t-shirt points at a geyser.",
+    "hypothesis": "The lady is watching tv in her white T shirt and points at the geyser on the TV.",
+    "update": "Her feet are resting on the edge of a coffee table."
+  },
+  {
+    "id": "D18",
+    "premise": "A man in a white shirt is sitting on a crate.",
+    "hypothesis": "The man is old.",
+    "update": "The crate has the name of a school on it."
+  },
+  {
+    "id": "D19",
+    "premise": "A girl sits on a bench holding an inflatable tiger next to another girl in a colorful outfit.",
+    "hypothesis": "The girl in the colorful outfit is the other girl's sister.",
+    "update": "The girls are identical twins."
+  },
+  {
+    "id": "D20",
+    "premise": "The woman in the blue skirt is sleeping on a cardboard box under a picture of Mary and baby Jesus.",
+    "hypothesis": "A homeless woman sleeps under the protective gaze of the Blessed Mother.",
+    "update": "The Catholic school girl had fallen asleep in the church."
+  }
+]

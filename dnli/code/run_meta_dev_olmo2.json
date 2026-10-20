@@ -1,0 +1,92 @@
+{
+ "sessions": [
+  {
+   "session_id": "c446dbe74dd54aff91aa241afa44bba3",
+   "which": "dev",
+   "config": "olmo2",
+   "fingerprint": {
+    "PLAN.md": "34a04d800fbeef9e6daaffaa498c175285537217d283ac0a30cbc0f6ff895d19",
+    "split.json": "3e09db9ac6e10375bf17e6254fbb6ad5992798f2a03a1ba93c4f896b5eeaf39b",
+    "prompts.py": "cfa1f9399f2d6ce61dc7cf312108a2a5f3f18981cfbdba6b881d4d374134f902",
+    "parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+    "run.py": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614",
+    "raw/items_text.json": "54e08df0874587377a259925f49ad8796de6ac4d05c0729fbfa7ae0cf479f67c",
+    "local_subject.py": "ea94af1715bd8217b9ca2d6b53df174a1529cef815002486967712c75897a3cb",
+    "templates": "8d107ab0e3142f91e0ec816b16a64f9f3f6e8e07eeb1e4000fef372dcff3ee66",
+    "parse_rules": "2d8f229712ee56416548c8f6cf1c04e6cfd6b463fe0e0776134aefc438af23ed",
+    "materials_digest": "ccd5097602b06e09293f6790136647db80fdcb765592f377b04b2758984c2a72",
+    "n_units_all": 2900,
+    "subject_meta": "602ab9010b6cba853ab040ec44cc6334cd5178e10ff0ef3f2d8da065c7d214dc",
+    "config": "olmo2"
+   },
+   "fingerprint_id": "3c71cb8e405c70ffacf57863c1c3ca21541c742731f65a80f5a5b4cb51fda543",
+   "seed": 202610802,
+   "schedule_sha256": "cd4a68f81f1046a5b401da31d655492e619b3e315238e488a0fd5b1f32c51140",
+   "n_schedule": 300,
+   "started": "2026-10-13T12:51:27+0800",
+   "status": "finished",
+   "invalid": false,
+   "closed_ok": true,
+   "stats": {
+    "ok": 300
+   },
+   "subject_meta": {
+    "config_table": {
+     "model_key": "olmo2-7b",
+     "repo": "allenai/OLMo-2-1124-7B-Instruct",
+     "commit": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+     "precision": "GGUF Q8_0 (llama.cpp convert_hf_to_gguf.py --outtype q8_0 from the pinned safetensors)",
+     "gguf": "OLMo-2-1124-7B-Instruct-470b1fba-Q8_0.gguf",
+     "gguf_sha256": "7beee4eb6f12a791627f4fe2a3bfd23d4cb65ea9cdc32867cf0c4851425c7145",
+     "sampling": {
+      "temperature": 0.6,
+      "top_k": 20,
+      "top_p": 0.95,
+      "min_p": 0.0,
+      "samplers": [
+       "temperature",
+       "top_k",
+       "top_p",
+       "min_p"
+      ],
+      "repeat_penalty": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0,
+      "dry_multiplier": 0.0,
+      "xtc_probability": 0.0,
+      "typical_p": 1.0,
+      "top_n_sigma": -1.0
+     },
+     "max_new_tokens": 8192,
+     "ctx": 4096,
+     "max_new_rule": "ctx_minus_prompt",
+     "server_args": [
+      "-c",
+      "4096",
+      "-ngl",
+      "999",
+      "--parallel",
+      "1",
+      "--host",
+      "127.0.0.1",
+      "--no-webui",
+      "--seed",
+      "0"
+     ],
+     "llama_build": "b11560-b13a93a3d",
+     "chat_template_sha256": "fe689ffbd6a4e2d0532d7480696b065b10e0e1eff3f9b9fc4bea415761e4bf4a",
+     "system_prompt": null,
+     "think_close_id": null,
+     "truncation_rule": "stop_type != 'eos' -> truncated; thinking mode without </think> token -> thinking_unterminated (counts as truncated)"
+    },
+    "thinking": null,
+    "versions": {
+     "transformers": "5.19.0",
+     "tokenizers": "0.23.3"
+    }
+   },
+   "workers": 1,
+   "finished": "2026-10-13T13:02:00+0800"
+  }
+ ]
+}

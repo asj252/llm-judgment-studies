@@ -1,0 +1,132 @@
+{
+ "decisions": {
+  "4143318041.jpg#0r1n": {
+   "exclude": true,
+   "reason": "H：某人是白人"
+  },
+  "3614130083.jpg#2r1n": {
+   "exclude": true,
+   "reason": "H：男孩是西班牙裔"
+  },
+  "4578161441.jpg#0r1n": {
+   "exclude": true,
+   "reason": "H：非洲男孩"
+  },
+  "3512747808.jpg#2r1n": {
+   "exclude": true,
+   "reason": "W：他们是日本人"
+  },
+  "6526560433.jpg#1r1n": {
+   "exclude": false,
+   "reason": "白色球衣"
+  },
+  "7675416016.jpg#1r1n": {
+   "exclude": false,
+   "reason": "race＝比赛"
+  },
+  "3275201035.jpg#2r1n": {
+   "exclude": false,
+   "reason": "黑红色瓶子"
+  },
+  "3411579899.jpg#4r1e": {
+   "exclude": false,
+   "reason": "bike race"
+  },
+  "88488944.jpg#3r1n": {
+   "exclude": true,
+   "reason": "H：Asian girl，断言某人的族裔"
+  },
+  "7680969218.jpg#4r1n": {
+   "exclude": true,
+   "reason": "H：black kid，断言某人的种族"
+  },
+  "4933761531.jpg#2r1n": {
+   "exclude": true,
+   "reason": "H：young black man，断言某人的种族"
+  },
+  "7995263133.jpg#0r1n": {
+   "exclude": false,
+   "reason": "race car bed，关键词误中"
+  },
+  "2392460773.jpg#3r1n": {
+   "exclude": false,
+   "reason": "boat race，关键词误中"
+  },
+  "4748151833.jpg#2r1n": {
+   "exclude": true,
+   "reason": "H：a group of people celebrate their Asian culture，断言一群人的族裔文化；a 人工复核发现，关键词表未筛中"
+  },
+  "7291431398.jpg#0r1c": {
+   "exclude": false,
+   "reason": "the Indians＝棒球队名，不断言某人的族裔"
+  },
+  "3052436578.jpg#1r1n": {
+   "exclude": false,
+   "reason": "church＝地点，不断言某人的宗教"
+  },
+  "2616991671.jpg#0r1n": {
+   "exclude": false,
+   "reason": "church＝地点，不断言某人的宗教"
+  },
+  "57417274.jpg#3r1n": {
+   "exclude": false,
+   "reason": "Nepal、Everest＝地点，不断言某人的国籍或族裔"
+  },
+  "6314475602.jpg#1r1n": {
+   "exclude": false,
+   "reason": "Ireland＝地点，不断言某人的国籍"
+  },
+  "3457455611.jpg#3r1n": {
+   "exclude": false,
+   "reason": "St. Patrick's day＝节日，不断言某人的宗教"
+  }
+ },
+ "manual_review": {
+  "reviewer": "a",
+  "date": "2026-10-13",
+  "scope": "新清单 150 对的 H 与所选 S、W",
+  "method": "宽松词表（种族、族裔、国籍、宗教、肤色、发色、礼拜场所等，不要求接人称名词）加句中大写词清单逐一检查",
+  "hits": 11,
+  "result": "命中均为颜色词、race＝比赛、Latin celebration、American Sign Language，均非断言或询问某人属性",
+  "additional_exclusions": [],
+  "block_B_reviews": [
+   {
+    "reviewer": "a",
+    "date": "2026-10-13",
+    "scope": "第 20 节清单 block B 的 120 对 H 与所选 S、W（补入新题前）",
+    "method": "宽松词表加句中大写词清单，逐句人工复核",
+    "result": "再排除 1 对；其余命中为棒球队名、地点、节日、颜色、涂抹东西在皮肤上的描述或 race＝比赛；除已加入的 4 句，未发现准则内的新台词句",
+    "additional_exclusions": [
+     "4748151833.jpg#2r1n"
+    ],
+    "reviewed_retained": [
+     "7291431398.jpg#0r1c",
+     "3052436578.jpg#1r1n",
+     "2616991671.jpg#0r1n",
+     "57417274.jpg#3r1n",
+     "6314475602.jpg#1r1n",
+     "3457455611.jpg#3r1n"
+    ],
+    "source": "brief-e-v07.md：a 对补抽 120 对的人工复核"
+   },
+   {
+    "reviewer": "a",
+    "date": "2026-10-13",
+    "scope": "最后补入的 4809887792.jpg#1r1n 的 H 与所选 S（test:1315）、W（test:1314）",
+    "method": "逐句人工阅读：H「The man is in a heavy metal band.」S「He has long hair and many tattoos and piercings.」W「He is wearing a suit and performing in a church.」",
+    "result": "保留：没有断言或询问任何人的种族、族裔、国籍或宗教（church 只是演出地点）；没有转述话语内容的台词句",
+    "additional_exclusions": [],
+    "reviewed_retained": [
+     "4809887792.jpg#1r1n"
+    ],
+    "source": "c 第七轮 B1"
+   }
+  ]
+ },
+ "extension_review": {
+  "reviewer": "a",
+  "date": "2026-10-13",
+  "scope": "第 19 节五个关键词筛中对",
+  "source": "brief-e-v07.md 文末 a 的判定"
+ }
+}

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this software and the accompanying paper."
+title: "Hearsay or Fact? How Framing and Elicitation Shape LLM Probability Updates"
+authors:
+  - family-names: Jhang
+    given-names: An-Sheng
+    affiliation: Dongguan University of Technology
+type: software
+version: "0.7"
+license: MIT
+# Replace the placeholder after the manuscript receives an arXiv identifier.
+identifiers:
+  - type: other
+    value: "arXiv:TBD"

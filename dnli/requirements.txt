@@ -1,0 +1,7 @@
+# Analysis uses only the Python standard library. Figures and local inference:
+numpy
+matplotlib
+huggingface-hub
+transformers
+tokenizers
+# Manuscript build additionally requires Typst 0.14.2 and Poppler pdftotext.

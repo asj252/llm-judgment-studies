@@ -1,0 +1,947 @@
+[
+  {
+    "original_id": 503,
+    "UIDs": [
+      46,
+      47
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 504,
+    "UIDs": [
+      184,
+      185
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 509,
+    "UIDs": [
+      56,
+      57
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 510,
+    "UIDs": [
+      102,
+      103
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 512,
+    "UIDs": [
+      128,
+      129
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 514,
+    "UIDs": [
+      142,
+      143
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 517,
+    "UIDs": [
+      24,
+      25
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 519,
+    "UIDs": [
+      48,
+      49
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 522,
+    "UIDs": [
+      194,
+      195
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 526,
+    "UIDs": [
+      162,
+      163
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 537,
+    "UIDs": [
+      190,
+      191
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 540,
+    "UIDs": [
+      62,
+      63
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 541,
+    "UIDs": [
+      208,
+      209
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 542,
+    "UIDs": [
+      8,
+      9
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 544,
+    "UIDs": [
+      30,
+      31
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 552,
+    "UIDs": [
+      158,
+      159
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 554,
+    "UIDs": [
+      66,
+      67
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 555,
+    "UIDs": [
+      76,
+      77
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 558,
+    "UIDs": [
+      58,
+      59
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 562,
+    "UIDs": [
+      50,
+      51
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 576,
+    "UIDs": [
+      12,
+      13
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 579,
+    "UIDs": [
+      116,
+      117
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 581,
+    "UIDs": [
+      40,
+      41
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 583,
+    "UIDs": [
+      28,
+      29
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 590,
+    "UIDs": [
+      68,
+      69
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 601,
+    "UIDs": [
+      2,
+      3
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 603,
+    "UIDs": [
+      26,
+      27
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 623,
+    "UIDs": [
+      80,
+      81
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 638,
+    "UIDs": [
+      144,
+      145
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 639,
+    "UIDs": [
+      188,
+      189
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 643,
+    "UIDs": [
+      170,
+      171
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 655,
+    "UIDs": [
+      130,
+      131
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 658,
+    "UIDs": [
+      18,
+      19
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 662,
+    "UIDs": [
+      10,
+      11
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 667,
+    "UIDs": [
+      16,
+      17
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 674,
+    "UIDs": [
+      44,
+      45
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 675,
+    "UIDs": [
+      150,
+      151
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 681,
+    "UIDs": [
+      174,
+      175
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 684,
+    "UIDs": [
+      156,
+      157
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 692,
+    "UIDs": [
+      108,
+      109
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 704,
+    "UIDs": [
+      186,
+      187
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 705,
+    "UIDs": [
+      176,
+      177
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 709,
+    "UIDs": [
+      138,
+      139
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 710,
+    "UIDs": [
+      100,
+      101
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 715,
+    "UIDs": [
+      164,
+      165
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 723,
+    "UIDs": [
+      126,
+      127
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 727,
+    "UIDs": [
+      112,
+      113
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 728,
+    "UIDs": [
+      92,
+      93
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 729,
+    "UIDs": [
+      98,
+      99
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 737,
+    "UIDs": [
+      22,
+      23
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 739,
+    "UIDs": [
+      136,
+      137
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 749,
+    "UIDs": [
+      94,
+      95
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 753,
+    "UIDs": [
+      206,
+      207
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 768,
+    "UIDs": [
+      70,
+      71
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 782,
+    "UIDs": [
+      74,
+      75
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 784,
+    "UIDs": [
+      42,
+      43
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 787,
+    "UIDs": [
+      146,
+      147
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 803,
+    "UIDs": [
+      54,
+      55
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 811,
+    "UIDs": [
+      0,
+      1
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 812,
+    "UIDs": [
+      72,
+      73
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 814,
+    "UIDs": [
+      88,
+      89
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 815,
+    "UIDs": [
+      118,
+      119
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 822,
+    "UIDs": [
+      104,
+      105
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 823,
+    "UIDs": [
+      78,
+      79
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 838,
+    "UIDs": [
+      134,
+      135
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 839,
+    "UIDs": [
+      196,
+      197
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 844,
+    "UIDs": [
+      202,
+      203
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 853,
+    "UIDs": [
+      4,
+      5
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 856,
+    "UIDs": [
+      124,
+      125
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 864,
+    "UIDs": [
+      114,
+      115
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 865,
+    "UIDs": [
+      168,
+      169
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 866,
+    "UIDs": [
+      20,
+      21
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 870,
+    "UIDs": [
+      120,
+      121
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 876,
+    "UIDs": [
+      60,
+      61
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 882,
+    "UIDs": [
+      172,
+      173
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 883,
+    "UIDs": [
+      84,
+      85
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 884,
+    "UIDs": [
+      32,
+      33
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 885,
+    "UIDs": [
+      200,
+      201
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 886,
+    "UIDs": [
+      160,
+      161
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 901,
+    "UIDs": [
+      198,
+      199
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 902,
+    "UIDs": [
+      192,
+      193
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 905,
+    "UIDs": [
+      34,
+      35
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 906,
+    "UIDs": [
+      166,
+      167
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 914,
+    "UIDs": [
+      82,
+      83
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 918,
+    "UIDs": [
+      132,
+      133
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 928,
+    "UIDs": [
+      52,
+      53
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 936,
+    "UIDs": [
+      110,
+      111
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 938,
+    "UIDs": [
+      36,
+      37
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 940,
+    "UIDs": [
+      106,
+      107
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 942,
+    "UIDs": [
+      90,
+      91
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 948,
+    "UIDs": [
+      86,
+      87
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 958,
+    "UIDs": [
+      180,
+      181
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 961,
+    "UIDs": [
+      64,
+      65
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 967,
+    "UIDs": [
+      6,
+      7
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 974,
+    "UIDs": [
+      154,
+      155
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 975,
+    "UIDs": [
+      204,
+      205
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 978,
+    "UIDs": [
+      178,
+      179
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 979,
+    "UIDs": [
+      96,
+      97
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 980,
+    "UIDs": [
+      152,
+      153
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 988,
+    "UIDs": [
+      148,
+      149
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 993,
+    "UIDs": [
+      14,
+      15
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 994,
+    "UIDs": [
+      140,
+      141
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 997,
+    "UIDs": [
+      38,
+      39
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 998,
+    "UIDs": [
+      182,
+      183
+    ],
+    "status": "paired",
+    "reasons": []
+  },
+  {
+    "original_id": 999,
+    "UIDs": [
+      122,
+      123
+    ],
+    "status": "paired",
+    "reasons": []
+  }
+]

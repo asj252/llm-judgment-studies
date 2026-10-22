@@ -1,0 +1,3037 @@
+{
+  "schema_version": 1,
+  "layout": "Repository-relative release tree; psych3 and its sibling dependencies",
+  "files": [
+    {
+      "path": "psych3/PLAN.md",
+      "source": "connecting-dots/psych3/PLAN.md",
+      "sha256": "67e50d8dc319ad89b557d79f6acb6f37c565f99ab2f10a8d9b9413f7faa2271c",
+      "bytes": 62148,
+      "category": "freeze",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "67e50d8dc319ad89b557d79f6acb6f37c565f99ab2f10a8d9b9413f7faa2271c"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "67e50d8dc319ad89b557d79f6acb6f37c565f99ab2f10a8d9b9413f7faa2271c"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "67e50d8dc319ad89b557d79f6acb6f37c565f99ab2f10a8d9b9413f7faa2271c"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "67e50d8dc319ad89b557d79f6acb6f37c565f99ab2f10a8d9b9413f7faa2271c"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "67e50d8dc319ad89b557d79f6acb6f37c565f99ab2f10a8d9b9413f7faa2271c"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "67e50d8dc319ad89b557d79f6acb6f37c565f99ab2f10a8d9b9413f7faa2271c"
+        }
+      ]
+    },
+    {
+      "path": "psych3/analysis_freeze_psych3.json",
+      "source": "connecting-dots/psych3/analysis_freeze_psych3.json",
+      "sha256": "ffaaa2264e8cc08b59123abd2bd25790d0b191d4d76529e3c325d7f8a4bafaba",
+      "bytes": 79057,
+      "category": "freeze",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": []
+    },
+    {
+      "path": "psych3/manifest_ids.json",
+      "source": "connecting-dots/psych3/manifest_ids.json",
+      "sha256": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3",
+      "bytes": 1241085,
+      "category": "freeze",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "manifest_ids",
+          "sha256": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3"
+        },
+        {
+          "config": "codex",
+          "section": "manifest_ids",
+          "sha256": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "manifest_ids",
+          "sha256": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "manifest_ids",
+          "sha256": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "manifest_ids",
+          "sha256": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "manifest_ids",
+          "sha256": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3"
+        }
+      ]
+    },
+    {
+      "path": "psych3/codex_pin.json",
+      "source": "connecting-dots/psych3/codex_pin.json",
+      "sha256": "d30130322ac5bd6b73320550c27099a17d1ea77ca2765494498891a68502d130",
+      "bytes": 303,
+      "category": "freeze",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/a_anchors.json",
+      "source": "connecting-dots/psych3/a_anchors.json",
+      "sha256": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b",
+      "bytes": 8664,
+      "category": "materials",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b"
+        }
+      ]
+    },
+    {
+      "path": "psych3/a_eligibility.json",
+      "source": "connecting-dots/psych3/a_eligibility.json",
+      "sha256": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064",
+      "bytes": 13593,
+      "category": "materials",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064"
+        }
+      ]
+    },
+    {
+      "path": "psych3/a_split.json",
+      "source": "connecting-dots/psych3/a_split.json",
+      "sha256": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff",
+      "bytes": 6165,
+      "category": "materials",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff"
+        }
+      ]
+    },
+    {
+      "path": "psych3/a_selfwritten_items.json",
+      "source": "connecting-dots/psych3/a_selfwritten_items.json",
+      "sha256": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba",
+      "bytes": 23359,
+      "category": "materials",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba"
+        }
+      ]
+    },
+    {
+      "path": "psych3/items_a_selfwritten.json",
+      "source": "connecting-dots/psych3/items_a_selfwritten.json",
+      "sha256": "8e3115e091d775dd9763bd41aef62057b1f5984e362be6c479fc41a5f320e0e9",
+      "bytes": 347051,
+      "category": "materials",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/b_pairing.json",
+      "source": "connecting-dots/psych3/b_pairing.json",
+      "sha256": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17",
+      "bytes": 13125,
+      "category": "materials",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17"
+        }
+      ]
+    },
+    {
+      "path": "psych3/b_canary_log.json",
+      "source": "connecting-dots/psych3/b_canary_log.json",
+      "sha256": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb",
+      "bytes": 854,
+      "category": "materials",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb"
+        }
+      ]
+    },
+    {
+      "path": "psych3/baserate_stories.json",
+      "source": "connecting-dots/psych3/baserate_stories.json",
+      "sha256": "b4c6342d0a9e878e92d8ccc5b6d3099983f09734755c009d881cf9d8ce6b5e13",
+      "bytes": 9557,
+      "category": "materials",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/conjunction_items.json",
+      "source": "connecting-dots/psych3/conjunction_items.json",
+      "sha256": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f",
+      "bytes": 31753,
+      "category": "materials",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f"
+        }
+      ]
+    },
+    {
+      "path": "psych3/items_c.json",
+      "source": "connecting-dots/psych3/items_c.json",
+      "sha256": "ce6e56d69b555f60aad51951654cde8813ae785c458d02015194c0431970a288",
+      "bytes": 204577,
+      "category": "materials",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "ce6e56d69b555f60aad51951654cde8813ae785c458d02015194c0431970a288"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "ce6e56d69b555f60aad51951654cde8813ae785c458d02015194c0431970a288"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "ce6e56d69b555f60aad51951654cde8813ae785c458d02015194c0431970a288"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "ce6e56d69b555f60aad51951654cde8813ae785c458d02015194c0431970a288"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "ce6e56d69b555f60aad51951654cde8813ae785c458d02015194c0431970a288"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "ce6e56d69b555f60aad51951654cde8813ae785c458d02015194c0431970a288"
+        }
+      ]
+    },
+    {
+      "path": "psych3/items_d.json",
+      "source": "connecting-dots/psych3/items_d.json",
+      "sha256": "5aa99a474ebdfea75d9f5bda0e8176342fc50efd70cd1245670e1cb944702b35",
+      "bytes": 535980,
+      "category": "materials",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "5aa99a474ebdfea75d9f5bda0e8176342fc50efd70cd1245670e1cb944702b35"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "5aa99a474ebdfea75d9f5bda0e8176342fc50efd70cd1245670e1cb944702b35"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "5aa99a474ebdfea75d9f5bda0e8176342fc50efd70cd1245670e1cb944702b35"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "5aa99a474ebdfea75d9f5bda0e8176342fc50efd70cd1245670e1cb944702b35"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "5aa99a474ebdfea75d9f5bda0e8176342fc50efd70cd1245670e1cb944702b35"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "5aa99a474ebdfea75d9f5bda0e8176342fc50efd70cd1245670e1cb944702b35"
+        }
+      ]
+    },
+    {
+      "path": "psych3/items_e_draft.json",
+      "source": "connecting-dots/psych3/items_e_draft.json",
+      "sha256": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286",
+      "bytes": 25113,
+      "category": "materials",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286"
+        }
+      ]
+    },
+    {
+      "path": "psych3/items_e.json",
+      "source": "connecting-dots/psych3/items_e.json",
+      "sha256": "79871974062fe0f303d30f5ed8ba6b715bf943cfffc075cb10a15e91f8c211d4",
+      "bytes": 812373,
+      "category": "materials",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "79871974062fe0f303d30f5ed8ba6b715bf943cfffc075cb10a15e91f8c211d4"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "79871974062fe0f303d30f5ed8ba6b715bf943cfffc075cb10a15e91f8c211d4"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "79871974062fe0f303d30f5ed8ba6b715bf943cfffc075cb10a15e91f8c211d4"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "79871974062fe0f303d30f5ed8ba6b715bf943cfffc075cb10a15e91f8c211d4"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "79871974062fe0f303d30f5ed8ba6b715bf943cfffc075cb10a15e91f8c211d4"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "79871974062fe0f303d30f5ed8ba6b715bf943cfffc075cb10a15e91f8c211d4"
+        }
+      ]
+    },
+    {
+      "path": "psych3/prompts_a.py",
+      "source": "connecting-dots/psych3/prompts_a.py",
+      "sha256": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1",
+      "bytes": 7436,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1"
+        }
+      ]
+    },
+    {
+      "path": "psych3/prompts_b.py",
+      "source": "connecting-dots/psych3/prompts_b.py",
+      "sha256": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618",
+      "bytes": 1321,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618"
+        }
+      ]
+    },
+    {
+      "path": "psych3/prompts_c.py",
+      "source": "connecting-dots/psych3/prompts_c.py",
+      "sha256": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236",
+      "bytes": 5191,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236"
+        }
+      ]
+    },
+    {
+      "path": "psych3/prompts_d.py",
+      "source": "connecting-dots/psych3/prompts_d.py",
+      "sha256": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e",
+      "bytes": 4085,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e"
+        }
+      ]
+    },
+    {
+      "path": "psych3/prompts_e.py",
+      "source": "connecting-dots/psych3/prompts_e.py",
+      "sha256": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7",
+      "bytes": 7777,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7"
+        }
+      ]
+    },
+    {
+      "path": "psych3/parse_a.py",
+      "source": "connecting-dots/psych3/parse_a.py",
+      "sha256": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c",
+      "bytes": 3856,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c"
+        }
+      ]
+    },
+    {
+      "path": "psych3/parse_d.py",
+      "source": "connecting-dots/psych3/parse_d.py",
+      "sha256": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d",
+      "bytes": 4051,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d"
+        }
+      ]
+    },
+    {
+      "path": "psych3/gen_a.py",
+      "source": "connecting-dots/psych3/gen_a.py",
+      "sha256": "6f6eaa7bf9ad0abca788dd80b0f89b4bda6f6c86d57ac48b9e5b525e69cd435e",
+      "bytes": 9891,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "6f6eaa7bf9ad0abca788dd80b0f89b4bda6f6c86d57ac48b9e5b525e69cd435e"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "6f6eaa7bf9ad0abca788dd80b0f89b4bda6f6c86d57ac48b9e5b525e69cd435e"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "6f6eaa7bf9ad0abca788dd80b0f89b4bda6f6c86d57ac48b9e5b525e69cd435e"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "6f6eaa7bf9ad0abca788dd80b0f89b4bda6f6c86d57ac48b9e5b525e69cd435e"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "6f6eaa7bf9ad0abca788dd80b0f89b4bda6f6c86d57ac48b9e5b525e69cd435e"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "6f6eaa7bf9ad0abca788dd80b0f89b4bda6f6c86d57ac48b9e5b525e69cd435e"
+        }
+      ]
+    },
+    {
+      "path": "psych3/gen_b.py",
+      "source": "connecting-dots/psych3/gen_b.py",
+      "sha256": "8f5d376704ac586a890b3d841255950daa27a76675ced39b617033cf3be8953e",
+      "bytes": 7228,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "8f5d376704ac586a890b3d841255950daa27a76675ced39b617033cf3be8953e"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "8f5d376704ac586a890b3d841255950daa27a76675ced39b617033cf3be8953e"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "8f5d376704ac586a890b3d841255950daa27a76675ced39b617033cf3be8953e"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "8f5d376704ac586a890b3d841255950daa27a76675ced39b617033cf3be8953e"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "8f5d376704ac586a890b3d841255950daa27a76675ced39b617033cf3be8953e"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "8f5d376704ac586a890b3d841255950daa27a76675ced39b617033cf3be8953e"
+        }
+      ]
+    },
+    {
+      "path": "psych3/gen_c.py",
+      "source": "connecting-dots/psych3/gen_c.py",
+      "sha256": "6af2285d7fe41b96d32f040be45745ff122fa13ccf4be660bdee563e202193c3",
+      "bytes": 3809,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "6af2285d7fe41b96d32f040be45745ff122fa13ccf4be660bdee563e202193c3"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "6af2285d7fe41b96d32f040be45745ff122fa13ccf4be660bdee563e202193c3"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "6af2285d7fe41b96d32f040be45745ff122fa13ccf4be660bdee563e202193c3"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "6af2285d7fe41b96d32f040be45745ff122fa13ccf4be660bdee563e202193c3"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "6af2285d7fe41b96d32f040be45745ff122fa13ccf4be660bdee563e202193c3"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "6af2285d7fe41b96d32f040be45745ff122fa13ccf4be660bdee563e202193c3"
+        }
+      ]
+    },
+    {
+      "path": "psych3/gen_d.py",
+      "source": "connecting-dots/psych3/gen_d.py",
+      "sha256": "75c77e45394ccb1d53d9958c743db3b160afe605012364f761ef85f758374690",
+      "bytes": 3902,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "75c77e45394ccb1d53d9958c743db3b160afe605012364f761ef85f758374690"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "75c77e45394ccb1d53d9958c743db3b160afe605012364f761ef85f758374690"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "75c77e45394ccb1d53d9958c743db3b160afe605012364f761ef85f758374690"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "75c77e45394ccb1d53d9958c743db3b160afe605012364f761ef85f758374690"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "75c77e45394ccb1d53d9958c743db3b160afe605012364f761ef85f758374690"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "75c77e45394ccb1d53d9958c743db3b160afe605012364f761ef85f758374690"
+        }
+      ]
+    },
+    {
+      "path": "psych3/gen_e.py",
+      "source": "connecting-dots/psych3/gen_e.py",
+      "sha256": "86618d9f5e2fff71504829e1e19575eeb0adafeba92325de3c661f5e5b1a5baf",
+      "bytes": 3392,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "materials",
+          "sha256": "86618d9f5e2fff71504829e1e19575eeb0adafeba92325de3c661f5e5b1a5baf"
+        },
+        {
+          "config": "codex",
+          "section": "materials",
+          "sha256": "86618d9f5e2fff71504829e1e19575eeb0adafeba92325de3c661f5e5b1a5baf"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "materials",
+          "sha256": "86618d9f5e2fff71504829e1e19575eeb0adafeba92325de3c661f5e5b1a5baf"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "materials",
+          "sha256": "86618d9f5e2fff71504829e1e19575eeb0adafeba92325de3c661f5e5b1a5baf"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "materials",
+          "sha256": "86618d9f5e2fff71504829e1e19575eeb0adafeba92325de3c661f5e5b1a5baf"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "materials",
+          "sha256": "86618d9f5e2fff71504829e1e19575eeb0adafeba92325de3c661f5e5b1a5baf"
+        }
+      ]
+    },
+    {
+      "path": "psych3/manifest.py",
+      "source": "connecting-dots/psych3/manifest.py",
+      "sha256": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db",
+      "bytes": 4270,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "code",
+          "sha256": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db"
+        },
+        {
+          "config": "codex",
+          "section": "code",
+          "sha256": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "code",
+          "sha256": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "code",
+          "sha256": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "code",
+          "sha256": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "code",
+          "sha256": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db"
+        }
+      ]
+    },
+    {
+      "path": "psych3/run_psych3.py",
+      "source": "connecting-dots/psych3/run_psych3.py",
+      "sha256": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0",
+      "bytes": 23338,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "code",
+          "sha256": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0"
+        },
+        {
+          "config": "codex",
+          "section": "code",
+          "sha256": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "code",
+          "sha256": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "code",
+          "sha256": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "code",
+          "sha256": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "code",
+          "sha256": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0"
+        }
+      ]
+    },
+    {
+      "path": "psych3/run_codex_psych3.py",
+      "source": "connecting-dots/psych3/run_codex_psych3.py",
+      "sha256": "8f29401cde6ca656ccce1318614e50cb7948a43d73db1cc7555e466b31e1f6d5",
+      "bytes": 2456,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/agy_night.py",
+      "source": "connecting-dots/psych3/agy_night.py",
+      "sha256": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086",
+      "bytes": 33714,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "code",
+          "sha256": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086"
+        },
+        {
+          "config": "codex",
+          "section": "code",
+          "sha256": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "code",
+          "sha256": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "psych3_agy_night.python_sha256",
+          "sha256": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "code",
+          "sha256": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "psych3_agy_night.python_sha256",
+          "sha256": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "code",
+          "sha256": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "psych3_agy_night.python_sha256",
+          "sha256": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "code",
+          "sha256": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "psych3_agy_night.python_sha256",
+          "sha256": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086"
+        }
+      ]
+    },
+    {
+      "path": "psych3/agy_night.ps1",
+      "source": "connecting-dots/psych3/agy_night.ps1",
+      "sha256": "42f8e9ee8915f55ecb5cd4d8b00e1b3573dceb30afc93bafb8a04744499a4765",
+      "bytes": 727,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "psych3_agy_night.powershell_sha256",
+          "sha256": "42f8e9ee8915f55ecb5cd4d8b00e1b3573dceb30afc93bafb8a04744499a4765"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "psych3_agy_night.powershell_sha256",
+          "sha256": "42f8e9ee8915f55ecb5cd4d8b00e1b3573dceb30afc93bafb8a04744499a4765"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "psych3_agy_night.powershell_sha256",
+          "sha256": "42f8e9ee8915f55ecb5cd4d8b00e1b3573dceb30afc93bafb8a04744499a4765"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "psych3_agy_night.powershell_sha256",
+          "sha256": "42f8e9ee8915f55ecb5cd4d8b00e1b3573dceb30afc93bafb8a04744499a4765"
+        }
+      ]
+    },
+    {
+      "path": "psych3/settings_restore.py",
+      "source": "connecting-dots/psych3/settings_restore.py",
+      "sha256": "21f3491aec6bead9d7d3bf377381437925b3bc2a77e88f9de8ba42d004c5eabb",
+      "bytes": 9749,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/analysis_psych3.py",
+      "source": "connecting-dots/psych3/analysis_psych3.py",
+      "sha256": "46a7b7be862e3a62269a3d99fbaa133d56e7bda8315afa096eb5c25cfdfd5211",
+      "bytes": 29731,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "code",
+          "sha256": "46a7b7be862e3a62269a3d99fbaa133d56e7bda8315afa096eb5c25cfdfd5211"
+        },
+        {
+          "config": "codex",
+          "section": "code",
+          "sha256": "46a7b7be862e3a62269a3d99fbaa133d56e7bda8315afa096eb5c25cfdfd5211"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "code",
+          "sha256": "46a7b7be862e3a62269a3d99fbaa133d56e7bda8315afa096eb5c25cfdfd5211"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "code",
+          "sha256": "46a7b7be862e3a62269a3d99fbaa133d56e7bda8315afa096eb5c25cfdfd5211"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "code",
+          "sha256": "46a7b7be862e3a62269a3d99fbaa133d56e7bda8315afa096eb5c25cfdfd5211"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "code",
+          "sha256": "46a7b7be862e3a62269a3d99fbaa133d56e7bda8315afa096eb5c25cfdfd5211"
+        }
+      ]
+    },
+    {
+      "path": "psych3/analyse_psych3.py",
+      "source": "connecting-dots/psych3/analyse_psych3.py",
+      "sha256": "01dea9965eeeae5beeb365a15d2ee6ae3ac9be07ec11dd1a3e3cb85302041cf6",
+      "bytes": 18939,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "code",
+          "sha256": "01dea9965eeeae5beeb365a15d2ee6ae3ac9be07ec11dd1a3e3cb85302041cf6"
+        },
+        {
+          "config": "codex",
+          "section": "code",
+          "sha256": "01dea9965eeeae5beeb365a15d2ee6ae3ac9be07ec11dd1a3e3cb85302041cf6"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "code",
+          "sha256": "01dea9965eeeae5beeb365a15d2ee6ae3ac9be07ec11dd1a3e3cb85302041cf6"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "code",
+          "sha256": "01dea9965eeeae5beeb365a15d2ee6ae3ac9be07ec11dd1a3e3cb85302041cf6"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "code",
+          "sha256": "01dea9965eeeae5beeb365a15d2ee6ae3ac9be07ec11dd1a3e3cb85302041cf6"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "code",
+          "sha256": "01dea9965eeeae5beeb365a15d2ee6ae3ac9be07ec11dd1a3e3cb85302041cf6"
+        }
+      ]
+    },
+    {
+      "path": "psych3/power_psych3.py",
+      "source": "connecting-dots/psych3/power_psych3.py",
+      "sha256": "7bd330cabfe95285b3bc62079cd28cedaa2abbaf64ee68dc4d6427203b6d817c",
+      "bytes": 10468,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "code",
+          "sha256": "7bd330cabfe95285b3bc62079cd28cedaa2abbaf64ee68dc4d6427203b6d817c"
+        },
+        {
+          "config": "codex",
+          "section": "code",
+          "sha256": "7bd330cabfe95285b3bc62079cd28cedaa2abbaf64ee68dc4d6427203b6d817c"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "code",
+          "sha256": "7bd330cabfe95285b3bc62079cd28cedaa2abbaf64ee68dc4d6427203b6d817c"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "code",
+          "sha256": "7bd330cabfe95285b3bc62079cd28cedaa2abbaf64ee68dc4d6427203b6d817c"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "code",
+          "sha256": "7bd330cabfe95285b3bc62079cd28cedaa2abbaf64ee68dc4d6427203b6d817c"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "code",
+          "sha256": "7bd330cabfe95285b3bc62079cd28cedaa2abbaf64ee68dc4d6427203b6d817c"
+        }
+      ]
+    },
+    {
+      "path": "psych3/power_from_dev.py",
+      "source": "connecting-dots/psych3/power_from_dev.py",
+      "sha256": "bcae1bd72ce0eb8e4909ef03fb3c4a2293a61a59bea6ca9832970bbfdd7c1bcf",
+      "bytes": 19749,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/dev_diagnostics_psych3.py",
+      "source": "connecting-dots/psych3/dev_diagnostics_psych3.py",
+      "sha256": "04d19b01f9ea9b68fe36a0bd230844ddd60c6d47d6fb8a6e2015fb22bfa0e43f",
+      "bytes": 7776,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/bounds_d.py",
+      "source": "connecting-dots/psych3/bounds_d.py",
+      "sha256": "73df2ef15872a765eb9b4199139ffbb88a50a6c42bece152861ebd2cb140bf0c",
+      "bytes": 1798,
+      "category": "programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/power_dev_summary.md",
+      "source": "connecting-dots/psych3/power_dev_summary.md",
+      "sha256": "3229b29b0da14e3fd28b5b292ea266787fb4d894b5b0c336064e40ebde18d0f2",
+      "bytes": 297751,
+      "category": "summaries",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/dev_diagnostics_psych3.md",
+      "source": "connecting-dots/psych3/dev_diagnostics_psych3.md",
+      "sha256": "01470d3943791275436ceb0bfba809904d4590431c79164acd7f9bbac45b5126",
+      "bytes": 64471,
+      "category": "summaries",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/items_a_selfwritten_preview.md",
+      "source": "connecting-dots/psych3/items_a_selfwritten_preview.md",
+      "sha256": "a7da19dc383aab8c228ee149a733a7d643b72c747d02c5636d5ddfa77b237a36",
+      "bytes": 57789,
+      "category": "previews",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/items_c_preview.md",
+      "source": "connecting-dots/psych3/items_c_preview.md",
+      "sha256": "7fb6d58c1302bae4482c32ea6beaad345aed76d1ca2de3835408a468ffd2a417",
+      "bytes": 12134,
+      "category": "previews",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/items_c_all_stories.md",
+      "source": "connecting-dots/psych3/items_c_all_stories.md",
+      "sha256": "3508b54ba522fe747ec99010fcbc36485b93666f7f6f2042c7c74d23e5d44443",
+      "bytes": 22800,
+      "category": "previews",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/items_d_preview.md",
+      "source": "connecting-dots/psych3/items_d_preview.md",
+      "sha256": "b249e4807e7f3e989f3686ce1f1f90aaafd705df2d657610759e5d7dcde50a21",
+      "bytes": 18465,
+      "category": "previews",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/items_d_all.md",
+      "source": "connecting-dots/psych3/items_d_all.md",
+      "sha256": "9bee65569807d76e40bb91104811d8948ed77150c14b1e60ae0c9a27eddf24be",
+      "bytes": 42319,
+      "category": "previews",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/items_e_preview.md",
+      "source": "connecting-dots/psych3/items_e_preview.md",
+      "sha256": "b7918ffafacc409770aa99612c238b7fad946afca7b7da5989a37fca1168cd38",
+      "bytes": 116763,
+      "category": "previews",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/items_e_draft_preview.md",
+      "source": "connecting-dots/psych3/items_e_draft_preview.md",
+      "sha256": "6a2e7f5ab26fb30123bc8e94a8d7de47f500b0081bef1a4af74ab8a2d53cc0f9",
+      "bytes": 47457,
+      "category": "previews",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/conjunction_items_notes.md",
+      "source": "connecting-dots/psych3/conjunction_items_notes.md",
+      "sha256": "7a8762f18e17dc1f3ee172c5ed631325dd2e856c3a0dedc032691008a1990216",
+      "bytes": 14532,
+      "category": "previews",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/test_prompts_a.py",
+      "source": "connecting-dots/psych3/test_prompts_a.py",
+      "sha256": "7f18e0ccb1522d22a7a9361f71a8a4e1fba7d415142784f44cae5b6018414b31",
+      "bytes": 20651,
+      "category": "tests",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/test_prompts_c.py",
+      "source": "connecting-dots/psych3/test_prompts_c.py",
+      "sha256": "3c3e171c7a97117af89bc42a0cce7e3859c8f034d30e5ff392bab05f00718cb0",
+      "bytes": 9523,
+      "category": "tests",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/test_prompts_d.py",
+      "source": "connecting-dots/psych3/test_prompts_d.py",
+      "sha256": "0bc75277a3d6a4a90241410551eac571a85669def8c946fa7e8d39250a494433",
+      "bytes": 16292,
+      "category": "tests",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/test_prompts_e.py",
+      "source": "connecting-dots/psych3/test_prompts_e.py",
+      "sha256": "0375665ef9d2a07eabcad6fb317a311e631bffa2e73cfcb32e38ec8cc95e3973",
+      "bytes": 23630,
+      "category": "tests",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/test_analysis_psych3.py",
+      "source": "connecting-dots/psych3/test_analysis_psych3.py",
+      "sha256": "19dddee0a87544a23b9de5389cd030ee5fe0e373accc1469c9e3513687ef1e72",
+      "bytes": 32125,
+      "category": "tests",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/test_power_psych3.py",
+      "source": "connecting-dots/psych3/test_power_psych3.py",
+      "sha256": "ee6411f75f204b8adf68313c29567eb598386b29ca438c94b46ab9ff498ac6dc",
+      "bytes": 14264,
+      "category": "tests",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/test_power_from_dev.py",
+      "source": "connecting-dots/psych3/test_power_from_dev.py",
+      "sha256": "42faee513a70411f0e23ea9d43e97997f526c7667d30690a5c842d7c5d482813",
+      "bytes": 24375,
+      "category": "tests",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/test_dev_diagnostics_psych3.py",
+      "source": "connecting-dots/psych3/test_dev_diagnostics_psych3.py",
+      "sha256": "56473afe534668ef4bd1d51c912484759ad65383369d08b5bc091e1aa1699f54",
+      "bytes": 3693,
+      "category": "tests",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/test_run_codex_psych3.py",
+      "source": "connecting-dots/psych3/test_run_codex_psych3.py",
+      "sha256": "5858e4ef55dad5c2528e6de71e06c4f7f4233872b6d36020b81f5e6d86fca338",
+      "bytes": 1654,
+      "category": "tests",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/test_settings_restore.py",
+      "source": "connecting-dots/psych3/test_settings_restore.py",
+      "sha256": "73d06371c2fb2c2af5f73c33a2f840b57046e324ab610a0edc45a58ff1b7391a",
+      "bytes": 34927,
+      "category": "tests",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/stub_subject.py",
+      "source": "connecting-dots/psych3/stub_subject.py",
+      "sha256": "a24670b7045c9e5a2b35d35a7e686e9d0051747c2c0b0f484555f2efc99690e7",
+      "bytes": 2137,
+      "category": "tests",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "dnli/parse.py",
+      "source": "connecting-dots/dnli/parse.py",
+      "sha256": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+      "bytes": 13242,
+      "category": "dependencies",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb"
+        }
+      ]
+    },
+    {
+      "path": "dnli/prompts.py",
+      "source": "connecting-dots/dnli/prompts.py",
+      "sha256": "cfa1f9399f2d6ce61dc7cf312108a2a5f3f18981cfbdba6b881d4d374134f902",
+      "bytes": 6503,
+      "category": "dependencies",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "dnli/run.py",
+      "source": "connecting-dots/dnli/run.py",
+      "sha256": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614",
+      "bytes": 21581,
+      "category": "dependencies",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614"
+        },
+        {
+          "config": "qwen3-off",
+          "section": "code",
+          "sha256": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614"
+        },
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614"
+        },
+        {
+          "config": "codex",
+          "section": "code",
+          "sha256": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "code",
+          "sha256": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "code",
+          "sha256": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "code",
+          "sha256": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "code",
+          "sha256": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614"
+        }
+      ]
+    },
+    {
+      "path": "dnli/local_subject.py",
+      "source": "connecting-dots/dnli/local_subject.py",
+      "sha256": "ea94af1715bd8217b9ca2d6b53df174a1529cef815002486967712c75897a3cb",
+      "bytes": 20667,
+      "category": "dependencies",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "fingerprint",
+          "sha256": "ea94af1715bd8217b9ca2d6b53df174a1529cef815002486967712c75897a3cb"
+        }
+      ]
+    },
+    {
+      "path": "dnli/codex_subject.py",
+      "source": "connecting-dots/dnli/codex_subject.py",
+      "sha256": "5cb7d46d3d94c6a116e1cdf0565871fac8fbca8da2146017b5aa818ff4850788",
+      "bytes": 12825,
+      "category": "dependencies",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "5cb7d46d3d94c6a116e1cdf0565871fac8fbca8da2146017b5aa818ff4850788"
+        }
+      ]
+    },
+    {
+      "path": "dnli-agy/prompts.py",
+      "source": "connecting-dots/dnli-agy/prompts.py",
+      "sha256": "0192adda8087ec9c7515f169ca5cdaf2d01127e4eb6ab87a333c6ab2d1abae87",
+      "bytes": 6723,
+      "category": "dependencies",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "dnli-agy/parse.py",
+      "source": "connecting-dots/dnli-agy/parse.py",
+      "sha256": "9c596c1d3b63d9ab5c423461a502af540ba27fb26afc5c0679a158973c5ef8c8",
+      "bytes": 13604,
+      "category": "dependencies",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "dnli-agy/run_agy.py",
+      "source": "connecting-dots/dnli-agy/run_agy.py",
+      "sha256": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2",
+      "bytes": 25875,
+      "category": "dependencies",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-off",
+          "section": "code",
+          "sha256": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2"
+        },
+        {
+          "config": "codex",
+          "section": "code",
+          "sha256": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "code",
+          "sha256": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "code",
+          "sha256": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "code",
+          "sha256": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "code",
+          "sha256": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2"
+        }
+      ]
+    },
+    {
+      "path": "dnli-agy/agy_subject.py",
+      "source": "connecting-dots/dnli-agy/agy_subject.py",
+      "sha256": "f3e679771636ecf40e535ab1968641cb70ce83b9f6bd3cf61e035d26e3bdd9b3",
+      "bytes": 22129,
+      "category": "dependencies",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "f3e679771636ecf40e535ab1968641cb70ce83b9f6bd3cf61e035d26e3bdd9b3"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "f3e679771636ecf40e535ab1968641cb70ce83b9f6bd3cf61e035d26e3bdd9b3"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "f3e679771636ecf40e535ab1968641cb70ce83b9f6bd3cf61e035d26e3bdd9b3"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "f3e679771636ecf40e535ab1968641cb70ce83b9f6bd3cf61e035d26e3bdd9b3"
+        }
+      ]
+    },
+    {
+      "path": "dnli-agy/configs.py",
+      "source": "connecting-dots/dnli-agy/configs.py",
+      "sha256": "1d11a0120b355ea14c5d56966be5c62a2f690ce95c4ee41981e4a004be8790d8",
+      "bytes": 1924,
+      "category": "dependencies",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "1d11a0120b355ea14c5d56966be5c62a2f690ce95c4ee41981e4a004be8790d8"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "1d11a0120b355ea14c5d56966be5c62a2f690ce95c4ee41981e4a004be8790d8"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "1d11a0120b355ea14c5d56966be5c62a2f690ce95c4ee41981e4a004be8790d8"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "1d11a0120b355ea14c5d56966be5c62a2f690ce95c4ee41981e4a004be8790d8"
+        }
+      ]
+    },
+    {
+      "path": "dnli-agy/workspace_temp.py",
+      "source": "connecting-dots/dnli-agy/workspace_temp.py",
+      "sha256": "cd8f154fcd1685aa6104d3dfb5c2994ab8bccc380eba6ca5e0e5e1bd1f33527d",
+      "bytes": 2290,
+      "category": "dependencies",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "cd8f154fcd1685aa6104d3dfb5c2994ab8bccc380eba6ca5e0e5e1bd1f33527d"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "cd8f154fcd1685aa6104d3dfb5c2994ab8bccc380eba6ca5e0e5e1bd1f33527d"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "cd8f154fcd1685aa6104d3dfb5c2994ab8bccc380eba6ca5e0e5e1bd1f33527d"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "cd8f154fcd1685aa6104d3dfb5c2994ab8bccc380eba6ca5e0e5e1bd1f33527d"
+        }
+      ]
+    },
+    {
+      "path": "dnli-agy/auto_clear.py",
+      "source": "connecting-dots/dnli-agy/auto_clear.py",
+      "sha256": "9e728d3c82de38bd9e74624b41538ea37270ea6c2c6386eace216be7a516b77e",
+      "bytes": 17023,
+      "category": "dependencies",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "psych3_agy_night.recovery_rules_sha256",
+          "sha256": "9e728d3c82de38bd9e74624b41538ea37270ea6c2c6386eace216be7a516b77e"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "psych3_agy_night.recovery_rules_sha256",
+          "sha256": "9e728d3c82de38bd9e74624b41538ea37270ea6c2c6386eace216be7a516b77e"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "psych3_agy_night.recovery_rules_sha256",
+          "sha256": "9e728d3c82de38bd9e74624b41538ea37270ea6c2c6386eace216be7a516b77e"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "psych3_agy_night.recovery_rules_sha256",
+          "sha256": "9e728d3c82de38bd9e74624b41538ea37270ea6c2c6386eace216be7a516b77e"
+        }
+      ]
+    },
+    {
+      "path": "dnli-agy/agent/dnli-subject.md",
+      "source": "connecting-dots/dnli-agy/agent/dnli-subject.md",
+      "sha256": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5",
+      "bytes": 244,
+      "category": "dependencies",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "fingerprint",
+          "sha256": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5"
+        },
+        {
+          "config": "agy:gpt-oss-120b-medium",
+          "section": "subject_meta.baseline.agent_sha256",
+          "sha256": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "fingerprint",
+          "sha256": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5"
+        },
+        {
+          "config": "agy:claude-sonnet-5-5-medium",
+          "section": "subject_meta.baseline.agent_sha256",
+          "sha256": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "fingerprint",
+          "sha256": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-low",
+          "section": "subject_meta.baseline.agent_sha256",
+          "sha256": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "fingerprint",
+          "sha256": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5"
+        },
+        {
+          "config": "agy:gemini-3.8-flash-high",
+          "section": "subject_meta.baseline.agent_sha256",
+          "sha256": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5"
+        }
+      ]
+    },
+    {
+      "path": "vs-pilot/subject.py",
+      "source": "connecting-dots/vs-pilot/subject.py",
+      "sha256": "513dabadb5ff2f3cd31b45355b309d53fafc0607f5020b27dc9fc88669ee70c2",
+      "bytes": 24703,
+      "category": "dependencies",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "codex",
+          "section": "fingerprint",
+          "sha256": "513dabadb5ff2f3cd31b45355b309d53fafc0607f5020b27dc9fc88669ee70c2"
+        }
+      ]
+    },
+    {
+      "path": "psych3/README.md",
+      "source": "connecting-dots/psych3/release/README.md",
+      "sha256": "cd7ee25649a0987a8e4cc73f649461e27080cf07b7fe2cec3538e84a2d17990b",
+      "bytes": 10871,
+      "category": "release_support",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/verify_prereg.py",
+      "source": "connecting-dots/psych3/release/verify_prereg.py",
+      "sha256": "e36d4171525752590d5cb7c09d502a11016804e8dfc2df01c701c630fb408f21",
+      "bytes": 5453,
+      "category": "release_support",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/third-party-data.md",
+      "source": "connecting-dots/psych3/release/third-party-data.md",
+      "sha256": "0465c5719698561f7859861818803b558fccb0af4e2a6a1b2425834b652a854a",
+      "bytes": 4341,
+      "category": "release_support",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "psych3/requirements.txt",
+      "source": "connecting-dots/psych3/release/requirements.txt",
+      "sha256": "4737c2af7bc8f69302ebbd302c365f3b502e1bf1c042cf348066082e68d7da9f",
+      "bytes": 150,
+      "category": "release_support",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    }
+  ],
+  "file_count": 80,
+  "total_bytes": 4727311,
+  "exclusions": {
+    "third_party": [
+      "b_manifest.json",
+      "raw_items_a.json",
+      "raw_items_b.json",
+      "raw_manifest.json",
+      "raw_probcopa_human_clean.jsonl",
+      "raw_b_human.json",
+      "raw_data/",
+      "raw_*.json(l)"
+    ],
+    "execution": [
+      "results_*",
+      "run_meta_*",
+      "raw/",
+      "*.lock",
+      "*.log",
+      "agy_settings_baseline.json"
+    ],
+    "internal": [
+      "brief-*",
+      "review-*",
+      "report-*",
+      "d-reports/",
+      "抽读包*"
+    ],
+    "raw_dependent_tests": [
+      "test_prompts_b.py",
+      "test_manifest.py",
+      "test_run_psych3.py",
+      "test_agy_night.py"
+    ],
+    "not_selected": [
+      "power_dev_results.json",
+      "dev_diagnostics_psych3.json",
+      "data-download-log.md (replaced by third-party-data.md)"
+    ]
+  },
+  "scan_findings": [
+    {
+      "file": "psych3/analysis_freeze_psych3.json",
+      "line": 77,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "psych3/analysis_freeze_psych3.json",
+      "line": 350,
+      "kind": "windows_path",
+      "match_sha256": "ac7ffed864a2e1d08c6b92df7bcb0c04826838a544b1cf2e105d107ab10560b5",
+      "false_positive": false,
+      "review": "Local path or sensitive pattern: a must review the unchanged source before publication."
+    },
+    {
+      "file": "psych3/analysis_freeze_psych3.json",
+      "line": 448,
+      "kind": "windows_path",
+      "match_sha256": "4ab96a6369a389a7c3c209c908cf292f05b3391555237b99f647431c508d5b51",
+      "false_positive": false,
+      "review": "Local path or sensitive pattern: a must review the unchanged source before publication."
+    },
+    {
+      "file": "psych3/analysis_freeze_psych3.json",
+      "line": 760,
+      "kind": "windows_path",
+      "match_sha256": "6287f1fad8a13fde24d65c71efdb7246325ee522be51004078df962e99a16710",
+      "false_positive": true,
+      "review": "Reviewed regex escape, relative command fragment or environment-relative path fragment; no absolute local path."
+    },
+    {
+      "file": "psych3/analysis_freeze_psych3.json",
+      "line": 1065,
+      "kind": "windows_path",
+      "match_sha256": "6287f1fad8a13fde24d65c71efdb7246325ee522be51004078df962e99a16710",
+      "false_positive": true,
+      "review": "Reviewed regex escape, relative command fragment or environment-relative path fragment; no absolute local path."
+    },
+    {
+      "file": "psych3/analysis_freeze_psych3.json",
+      "line": 1379,
+      "kind": "windows_path",
+      "match_sha256": "6287f1fad8a13fde24d65c71efdb7246325ee522be51004078df962e99a16710",
+      "false_positive": true,
+      "review": "Reviewed regex escape, relative command fragment or environment-relative path fragment; no absolute local path."
+    },
+    {
+      "file": "psych3/analysis_freeze_psych3.json",
+      "line": 1690,
+      "kind": "windows_path",
+      "match_sha256": "6287f1fad8a13fde24d65c71efdb7246325ee522be51004078df962e99a16710",
+      "false_positive": true,
+      "review": "Reviewed regex escape, relative command fragment or environment-relative path fragment; no absolute local path."
+    },
+    {
+      "file": "psych3/run_codex_psych3.py",
+      "line": 8,
+      "kind": "windows_path",
+      "match_sha256": "ffe65c5bbcfb22dd8bb390fb487737b3bdad3547a78289fd80a7865165d6aa99",
+      "false_positive": true,
+      "review": "Reviewed regex escape, relative command fragment or environment-relative path fragment; no absolute local path."
+    },
+    {
+      "file": "psych3/test_analysis_psych3.py",
+      "line": 409,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/run.py",
+      "line": 16,
+      "kind": "windows_path",
+      "match_sha256": "ffe65c5bbcfb22dd8bb390fb487737b3bdad3547a78289fd80a7865165d6aa99",
+      "false_positive": true,
+      "review": "Reviewed regex escape, relative command fragment or environment-relative path fragment; no absolute local path."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 11,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 16,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 17,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 18,
+      "kind": "windows_path",
+      "match_sha256": "e09f45652ea1293135520d301f232c20d5e4446a294b9001c017ac8c4921937b",
+      "false_positive": true,
+      "review": "Reviewed regex escape, relative command fragment or environment-relative path fragment; no absolute local path."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 18,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 20,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 20,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 21,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 21,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 33,
+      "kind": "windows_path",
+      "match_sha256": "329e2432a89b2654cbb2f36959f0798b6d732aefc57d1b8fdf0f63fdc8d210e5",
+      "false_positive": false,
+      "review": "Local path or sensitive pattern: a must review the unchanged source before publication."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 37,
+      "kind": "windows_path",
+      "match_sha256": "5662be1f881a2f57252192384705e096b2dd6b2573257b85568a8544fe9075d5",
+      "false_positive": false,
+      "review": "Local path or sensitive pattern: a must review the unchanged source before publication."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 37,
+      "kind": "hostname",
+      "match_sha256": "5170c914821c40425c9d340f959fd6d0db6eaca4346186817de8b97b8ff5bd4a",
+      "false_positive": true,
+      "review": "Platform/build label in a llama.cpp binary directory, not a hostname."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 38,
+      "kind": "windows_path",
+      "match_sha256": "3d4559181e57d8c7b082c4211b22f3a645a4a6811a13d3ea8791fc37255f1db9",
+      "false_positive": false,
+      "review": "Local path or sensitive pattern: a must review the unchanged source before publication."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 38,
+      "kind": "hostname",
+      "match_sha256": "5170c914821c40425c9d340f959fd6d0db6eaca4346186817de8b97b8ff5bd4a",
+      "false_positive": true,
+      "review": "Platform/build label in a llama.cpp binary directory, not a hostname."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 39,
+      "kind": "windows_path",
+      "match_sha256": "9f632e7dab2554d2b346a7056d3755369edf6e72674f0d431a68f02cfbabb1b0",
+      "false_positive": false,
+      "review": "Local path or sensitive pattern: a must review the unchanged source before publication."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 56,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 56,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 68,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 69,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 90,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 238,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 256,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 326,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/local_subject.py",
+      "line": 371,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/codex_subject.py",
+      "line": 15,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli/codex_subject.py",
+      "line": 19,
+      "kind": "credential_term",
+      "match_sha256": "e22509110e97a993b907cde4ca498e23f9ed6a8398782e8e5a8f7194abd55dad",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli-agy/agy_subject.py",
+      "line": 279,
+      "kind": "credential_term",
+      "match_sha256": "16f0ee47f993d6270c9059450473eea493ca8ae037f8877782ae2bc176f24d18",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "dnli-agy/workspace_temp.py",
+      "line": 2,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "vs-pilot/subject.py",
+      "line": 58,
+      "kind": "credential_term",
+      "match_sha256": "16f0ee47f993d6270c9059450473eea493ca8ae037f8877782ae2bc176f24d18",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "vs-pilot/subject.py",
+      "line": 188,
+      "kind": "windows_path",
+      "match_sha256": "8ee8c71e98738470a2122135252beffcd3d1b6a18efa520f3bc7f23ee214a446",
+      "false_positive": true,
+      "review": "Reviewed regex escape, relative command fragment or environment-relative path fragment; no absolute local path."
+    },
+    {
+      "file": "vs-pilot/subject.py",
+      "line": 341,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "vs-pilot/subject.py",
+      "line": 346,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Code/documentation vocabulary; credential values are scanned separately."
+    }
+  ],
+  "third_party_review": {
+    "performed": true,
+    "source_sha256": [
+      "356095ff77a6e32913d00dae758e0be3a170fdc921857ff142c70fa86ca48070",
+      "604d75e51af67925e48ab032a7e2f4a82454225fddec328df2a4caa340e57b40"
+    ],
+    "phrases_checked": 207,
+    "matches": [],
+    "scope": "All SynAnchors questions; ProbCOPA premises/hypotheses of at least 30 characters; literal and JSON-escaped forms. Not a semantic copyright detector."
+  },
+  "scan_note": "All copied UTF-8 text scanned, with no redactions. Each occurrence is classified. This heuristic scan is not proof of absence. Inventory excludes its own digest.",
+  "needs_a_review": [
+    "dnli/local_subject.py",
+    "psych3/analysis_freeze_psych3.json"
+  ],
+  "categories": {
+    "freeze": 4,
+    "materials": 13,
+    "programs": 24,
+    "summaries": 2,
+    "previews": 8,
+    "tests": 11,
+    "dependencies": 14,
+    "release_support": 4
+  }
+}

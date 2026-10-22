@@ -1,0 +1,456 @@
+{
+  "version": "v0.2",
+  "profiles": [
+    {
+      "id": "p01",
+      "context": "Tomasz is 34 and spends nearly every weekend hiking in the hills near his home, carrying a camera and a field guide. He keeps a notebook listing every bird species he has seen and often gets up before dawn to reach his favourite lookout.",
+      "b_clause": "he drives a long-haul truck for a living",
+      "a_clause": "he belongs to a local birdwatching club",
+      "b_statement": "Tomasz drives a long-haul truck for a living.",
+      "a_statement": "Tomasz belongs to a local birdwatching club.",
+      "conj_statement": "Tomasz drives a long-haul truck for a living and belongs to a local birdwatching club.",
+      "disj_statement": "Tomasz drives a long-haul truck for a living or belongs to a local birdwatching club, or both."
+    },
+    {
+      "id": "p02",
+      "context": "Priya is 29 and lives in a small flat above a bakery, where she spends most evenings dyeing wool in her kitchen. She sells the yarn online and has a shelf of notebooks recording every colour recipe she has tried.",
+      "b_clause": "she holds a law degree",
+      "a_clause": "she owns a spinning wheel",
+      "b_statement": "Priya holds a law degree.",
+      "a_statement": "Priya owns a spinning wheel.",
+      "conj_statement": "Priya holds a law degree and owns a spinning wheel.",
+      "disj_statement": "Priya holds a law degree or owns a spinning wheel, or both."
+    },
+    {
+      "id": "p03",
+      "context": "Daniel is 41 and gets up at 5:30 every morning to run, logging each session in a spreadsheet. He has finished several half marathons and likes to discuss pacing strategy with his colleagues.",
+      "b_clause": "he smokes cigarettes every day",
+      "a_clause": "he has completed a full marathon",
+      "b_statement": "Daniel smokes cigarettes every day.",
+      "a_statement": "Daniel has completed a full marathon.",
+      "conj_statement": "Daniel smokes cigarettes every day and has completed a full marathon.",
+      "disj_statement": "Daniel smokes cigarettes every day or has completed a full marathon, or both."
+    },
+    {
+      "id": "p04",
+      "context": "Hannah reads about three novels a week and keeps a handwritten list of every book she has finished since 1998. She is always first in the queue at the county's annual used-book sale.",
+      "b_clause": "she has not visited a library in the past five years",
+      "a_clause": "she belongs to a book club",
+      "b_statement": "Hannah has not visited a library in the past five years.",
+      "a_statement": "Hannah belongs to a book club.",
+      "conj_statement": "Hannah has not visited a library in the past five years, and she belongs to a book club.",
+      "disj_statement": "Hannah has not visited a library in the past five years, or she belongs to a book club, or both.",
+      "revised": "v0.2"
+    },
+    {
+      "id": "p05",
+      "context": "Mateo is 27 and spends most of his free time at the climbing gym, then drives two hours most weekends to climb outdoors. He packs his own lunch for every trip and rarely goes out in the evening.",
+      "b_clause": "he works as a tax auditor",
+      "a_clause": "he owns a climbing rope",
+      "b_statement": "Mateo works as a tax auditor.",
+      "a_statement": "Mateo owns a climbing rope.",
+      "conj_statement": "Mateo works as a tax auditor and owns a climbing rope.",
+      "disj_statement": "Mateo works as a tax auditor or owns a climbing rope, or both."
+    },
+    {
+      "id": "p06",
+      "context": "Yu-Ting plays the cello in a community orchestra that rehearses every Tuesday evening. She owns hundreds of vinyl records and hums while she cooks.",
+      "b_clause": "she works as a laboratory technician",
+      "a_clause": "she gives private cello lessons",
+      "b_statement": "Yu-Ting works as a laboratory technician.",
+      "a_statement": "Yu-Ting gives private cello lessons.",
+      "conj_statement": "Yu-Ting works as a laboratory technician and gives private cello lessons.",
+      "disj_statement": "Yu-Ting works as a laboratory technician or gives private cello lessons, or both."
+    },
+    {
+      "id": "p07",
+      "context": "Oliver is 45 and restores vintage motorcycles in his garage, where he keeps a shelf of repair manuals from the 1960s and 1970s. His neighbours often hear him testing engines on Saturday mornings.",
+      "b_clause": "he works as a primary school teacher",
+      "a_clause": "he attends vintage motorcycle rallies",
+      "b_statement": "Oliver works as a primary school teacher.",
+      "a_statement": "Oliver attends vintage motorcycle rallies.",
+      "conj_statement": "Oliver works as a primary school teacher and attends vintage motorcycle rallies.",
+      "disj_statement": "Oliver works as a primary school teacher or attends vintage motorcycle rallies, or both."
+    },
+    {
+      "id": "p08",
+      "context": "Amara posts a new recipe on her food blog every Wednesday and photographs each dish by a window, using a white card to reflect the light. She tests every recipe at least three times before publishing it.",
+      "b_clause": "she has a degree in civil engineering",
+      "a_clause": "she owns more than a hundred cookbooks",
+      "b_statement": "Amara has a degree in civil engineering.",
+      "a_statement": "Amara owns more than a hundred cookbooks.",
+      "conj_statement": "Amara has a degree in civil engineering and owns more than a hundred cookbooks.",
+      "disj_statement": "Amara has a degree in civil engineering or owns more than a hundred cookbooks, or both."
+    },
+    {
+      "id": "p09",
+      "context": "Lars is 36 and is building a model railway in his spare room, with tiny trees and houses that he paints by hand. He subscribes to two railway magazines and plans his holidays around heritage steam lines.",
+      "b_clause": "he works as a bartender",
+      "a_clause": "he has visited a railway museum abroad",
+      "b_statement": "Lars works as a bartender.",
+      "a_statement": "Lars has visited a railway museum abroad.",
+      "conj_statement": "Lars works as a bartender and has visited a railway museum abroad.",
+      "disj_statement": "Lars works as a bartender or has visited a railway museum abroad, or both."
+    },
+    {
+      "id": "p10",
+      "context": "Fatima grows tomatoes, beans and herbs on a plot in a community garden and swaps seeds with other gardeners. She composts all her kitchen waste and keeps three rain barrels beside her garden shed.",
+      "b_clause": "she works as a commercial real-estate broker",
+      "a_clause": "she makes preserves every summer",
+      "b_statement": "Fatima works as a commercial real-estate broker.",
+      "a_statement": "Fatima makes preserves every summer.",
+      "conj_statement": "Fatima works as a commercial real-estate broker and makes preserves every summer.",
+      "disj_statement": "Fatima works as a commercial real-estate broker or makes preserves every summer, or both."
+    },
+    {
+      "id": "p11",
+      "context": "Jonas is 23 and spends most evenings playing online strategy games, with a monitor on each side of his desk. He and his friends talk about frame rates the way other people talk about football.",
+      "b_clause": "he works as a gardener",
+      "a_clause": "he has built his own desktop computer",
+      "b_statement": "Jonas works as a gardener.",
+      "a_statement": "Jonas has built his own desktop computer.",
+      "conj_statement": "Jonas works as a gardener and has built his own desktop computer.",
+      "disj_statement": "Jonas works as a gardener or has built his own desktop computer, or both."
+    },
+    {
+      "id": "p12",
+      "context": "Rosa has run the same vegetable stall at the Saturday farmers' market for twenty years and knows most of her customers by name. She gets up at four on market days to load her van with produce from her own fields.",
+      "b_clause": "she holds a master's degree",
+      "a_clause": "she belongs to a growers' cooperative",
+      "b_statement": "Rosa holds a master's degree.",
+      "a_statement": "Rosa belongs to a growers' cooperative.",
+      "conj_statement": "Rosa holds a master's degree and belongs to a growers' cooperative.",
+      "disj_statement": "Rosa holds a master's degree or belongs to a growers' cooperative, or both."
+    },
+    {
+      "id": "p13",
+      "context": "Kenji is 39 and teaches chess to children at an after-school club, and he plays in weekend tournaments. He carries a pocket chess set and analyses his lost games late into the night.",
+      "b_clause": "he plays in a rock band",
+      "a_clause": "he has an official chess rating",
+      "b_statement": "Kenji plays in a rock band.",
+      "a_statement": "Kenji has an official chess rating.",
+      "conj_statement": "Kenji plays in a rock band and has an official chess rating.",
+      "disj_statement": "Kenji plays in a rock band or has an official chess rating, or both."
+    },
+    {
+      "id": "p14",
+      "context": "Sofia is 33 and swims at the municipal pool every weekday at 6 a.m. She owns three swimsuits and two pairs of goggles, and since last year she has helped train the pool's youth team.",
+      "b_clause": "she works as a paralegal",
+      "a_clause": "she holds a swimming-coach qualification",
+      "b_statement": "Sofia works as a paralegal.",
+      "a_statement": "Sofia holds a swimming-coach qualification.",
+      "conj_statement": "Sofia works as a paralegal and holds a swimming-coach qualification.",
+      "disj_statement": "Sofia works as a paralegal or holds a swimming-coach qualification, or both."
+    },
+    {
+      "id": "p15",
+      "context": "Ethan has served on his village's parish council for fifteen years and attends every village event. He knows the names of nearly everyone on his street and keeps a noticeboard outside his gate for neighbourhood announcements.",
+      "b_clause": "he has at some point lived abroad for a continuous period of more than a year",
+      "a_clause": "he helps organise the village summer fete",
+      "b_statement": "Ethan has at some point lived abroad for a continuous period of more than a year.",
+      "a_statement": "Ethan helps organise the village summer fete.",
+      "conj_statement": "Ethan has at some point lived abroad for a continuous period of more than a year, and he helps organise the village summer fete.",
+      "disj_statement": "Ethan has at some point lived abroad for a continuous period of more than a year, or he helps organise the village summer fete, or both.",
+      "revised": "v0.2"
+    },
+    {
+      "id": "p16",
+      "context": "Imani is 26 and paints large abstract canvases in a shared studio, wearing the same paint-splattered overalls every day. Her flat is full of brushes, and she visits the city's galleries every Thursday.",
+      "b_clause": "she works shifts in a hospital pharmacy",
+      "a_clause": "she teaches an evening art class",
+      "b_statement": "Imani works shifts in a hospital pharmacy.",
+      "a_statement": "Imani teaches an evening art class.",
+      "conj_statement": "Imani works shifts in a hospital pharmacy and teaches an evening art class.",
+      "disj_statement": "Imani works shifts in a hospital pharmacy or teaches an evening art class, or both."
+    },
+    {
+      "id": "p17",
+      "context": "Mikhail keeps a telescope on his balcony and records the night sky on every clear night. He has written to the local newspaper about meteor showers and can name most of the constellations.",
+      "b_clause": "he works in a mobile-phone call centre",
+      "a_clause": "he belongs to an astronomy society",
+      "b_statement": "Mikhail works in a mobile-phone call centre.",
+      "a_statement": "Mikhail belongs to an astronomy society.",
+      "conj_statement": "Mikhail works in a mobile-phone call centre and belongs to an astronomy society.",
+      "disj_statement": "Mikhail works in a mobile-phone call centre or belongs to an astronomy society, or both."
+    },
+    {
+      "id": "p18",
+      "context": "Grace is 35, has no car, and cycles to work every day in all weather. She fits panniers to her bicycle for grocery trips and carries a repair kit so that she can fix her own punctures.",
+      "b_clause": "she lives more than 25 miles from her workplace",
+      "a_clause": "she belongs to a cycling advocacy group",
+      "b_statement": "Grace lives more than 25 miles from her workplace.",
+      "a_statement": "Grace belongs to a cycling advocacy group.",
+      "conj_statement": "Grace lives more than 25 miles from her workplace and belongs to a cycling advocacy group.",
+      "disj_statement": "Grace lives more than 25 miles from her workplace or belongs to a cycling advocacy group, or both."
+    },
+    {
+      "id": "p19",
+      "context": "Luca is 30 and bakes sourdough bread every weekend, using a starter he has fed for six years. He measures his flour on a digital scale and keeps a log of the crumb texture of every loaf.",
+      "b_clause": "he buys most of his bread from a supermarket",
+      "a_clause": "he owns a baking stone",
+      "b_statement": "Luca buys most of his bread from a supermarket.",
+      "a_statement": "Luca owns a baking stone.",
+      "conj_statement": "Luca buys most of his bread from a supermarket, and he owns a baking stone.",
+      "disj_statement": "Luca buys most of his bread from a supermarket, or he owns a baking stone, or both.",
+      "revised": "v0.2"
+    },
+    {
+      "id": "p20",
+      "context": "Mei Ling spends her lunch breaks learning Spanish with a phone app and has a wall map covered in pins marking places she wants to visit. She keeps a small bag packed for spontaneous short trips.",
+      "b_clause": "up to now, she has never travelled abroad",
+      "a_clause": "she is currently a member of a language-exchange group",
+      "b_statement": "Up to now, Mei Ling has never travelled abroad.",
+      "a_statement": "Mei Ling is currently a member of a language-exchange group.",
+      "conj_statement": "Up to now, Mei Ling has never travelled abroad, and she is currently a member of a language-exchange group.",
+      "disj_statement": "Up to now, Mei Ling has never travelled abroad, or she is currently a member of a language-exchange group, or both.",
+      "revised": "v0.2"
+    },
+    {
+      "id": "p21",
+      "context": "Samuel is 50 and keeps a spreadsheet of his household budget, comparing grocery prices across three shops. Once he spent a week researching which kettle to buy.",
+      "b_clause": "he drives a sports car",
+      "a_clause": "he uses a cashback app",
+      "b_statement": "Samuel drives a sports car.",
+      "a_statement": "Samuel uses a cashback app.",
+      "conj_statement": "Samuel drives a sports car and uses a cashback app.",
+      "disj_statement": "Samuel drives a sports car or uses a cashback app, or both."
+    },
+    {
+      "id": "p22",
+      "context": "Elena is 28 and spends her weekends at a community theatre, painting scenery and sewing costumes. She keeps a box of props under her bed and knows the opening hours of every costume shop in town.",
+      "b_clause": "she works in a bank's compliance department",
+      "a_clause": "she has appeared in a stage production",
+      "b_statement": "Elena works in a bank's compliance department.",
+      "a_statement": "Elena has appeared in a stage production.",
+      "conj_statement": "Elena works in a bank's compliance department and has appeared in a stage production.",
+      "disj_statement": "Elena works in a bank's compliance department or has appeared in a stage production, or both."
+    },
+    {
+      "id": "p23",
+      "context": "Viktor is 42 and keeps a tidy shed with hand tools hung on labelled hooks, and he sells handmade wooden toys at Christmas fairs. He measures twice before every cut, and his neighbours often borrow his ladder.",
+      "b_clause": "he works as a financial analyst",
+      "a_clause": "he has built his own garden furniture",
+      "b_statement": "Viktor works as a financial analyst.",
+      "a_statement": "Viktor has built his own garden furniture.",
+      "conj_statement": "Viktor works as a financial analyst and has built his own garden furniture.",
+      "disj_statement": "Viktor works as a financial analyst or has built his own garden furniture, or both."
+    },
+    {
+      "id": "p24",
+      "context": "Yasmin is 36 and spends her evenings contributing to open-source software projects and answering questions on programming forums. She has three monitors at home and a keyboard with unusual switches.",
+      "b_clause": "she works as a restaurant chef",
+      "a_clause": "she has a degree in computer science",
+      "b_statement": "Yasmin works as a restaurant chef.",
+      "a_statement": "Yasmin has a degree in computer science.",
+      "conj_statement": "Yasmin works as a restaurant chef and has a degree in computer science.",
+      "disj_statement": "Yasmin works as a restaurant chef or has a degree in computer science, or both."
+    }
+  ],
+  "event_pairs": [
+    {
+      "id": "w01",
+      "stratum": "positive",
+      "context": "Consider a randomly selected day in a small harbour town on a northern coast.",
+      "b_clause": "the ferry service to the island is suspended that day",
+      "a_clause": "the harbour authority issues a high-wind warning that day",
+      "b_statement": "The ferry service to the island is suspended that day.",
+      "a_statement": "The harbour authority issues a high-wind warning that day.",
+      "conj_statement": "The ferry service to the island is suspended that day and the harbour authority issues a high-wind warning that day.",
+      "disj_statement": "The ferry service to the island is suspended that day or the harbour authority issues a high-wind warning that day, or both."
+    },
+    {
+      "id": "w02",
+      "stratum": "positive",
+      "context": "Consider a randomly selected scheduled school day in a large suburban school district.",
+      "b_clause": "the district closes all of its schools that day",
+      "a_clause": "snow falls in the district that day",
+      "b_statement": "The district closes all of its schools that day.",
+      "a_statement": "Snow falls in the district that day.",
+      "conj_statement": "The district closes all of its schools that day and snow falls in the district that day.",
+      "disj_statement": "The district closes all of its schools that day or snow falls in the district that day, or both."
+    },
+    {
+      "id": "w03",
+      "stratum": "positive",
+      "context": "Consider a randomly selected Saturday on which a football match is scheduled at the stadium of a medium-sized town.",
+      "b_clause": "the match is not played that day as scheduled",
+      "a_clause": "heavy rain falls in the town that afternoon",
+      "b_statement": "The match is not played that day as scheduled.",
+      "a_statement": "Heavy rain falls in the town that afternoon.",
+      "conj_statement": "The match is not played that day as scheduled and heavy rain falls in the town that afternoon.",
+      "disj_statement": "The match is not played that day as scheduled or heavy rain falls in the town that afternoon, or both.",
+      "revised": "v0.2"
+    },
+    {
+      "id": "w04",
+      "stratum": "positive",
+      "context": "Consider a randomly selected evening in a household in a large city.",
+      "b_clause": "the household loses electricity for at least an hour that evening",
+      "a_clause": "a thunderstorm passes over the city that evening",
+      "b_statement": "The household loses electricity for at least an hour that evening.",
+      "a_statement": "A thunderstorm passes over the city that evening.",
+      "conj_statement": "The household loses electricity for at least an hour that evening and a thunderstorm passes over the city that evening.",
+      "disj_statement": "The household loses electricity for at least an hour that evening or a thunderstorm passes over the city that evening, or both."
+    },
+    {
+      "id": "w05",
+      "stratum": "positive",
+      "context": "Consider a randomly selected Saturday at a busy supermarket in a medium-sized town.",
+      "b_clause": "the supermarket runs out of fresh bread before noon that day",
+      "a_clause": "the supermarket's car park is completely full at some point that day",
+      "b_statement": "The supermarket runs out of fresh bread before noon that day.",
+      "a_statement": "The supermarket's car park is completely full at some point that day.",
+      "conj_statement": "The supermarket runs out of fresh bread before noon that day and the supermarket's car park is completely full at some point that day.",
+      "disj_statement": "The supermarket runs out of fresh bread before noon that day or the supermarket's car park is completely full at some point that day, or both."
+    },
+    {
+      "id": "w06",
+      "stratum": "positive",
+      "context": "Consider a randomly selected weekday morning in a city whose tram lines all cross one main bridge.",
+      "b_clause": "one of the tram lines is closed for more than an hour that morning",
+      "a_clause": "a traffic accident blocks the main bridge for more than an hour that morning",
+      "b_statement": "One of the tram lines is closed for more than an hour that morning.",
+      "a_statement": "A traffic accident blocks the main bridge for more than an hour that morning.",
+      "conj_statement": "One of the tram lines is closed for more than an hour that morning and a traffic accident blocks the main bridge for more than an hour that morning.",
+      "disj_statement": "One of the tram lines is closed for more than an hour that morning or a traffic accident blocks the main bridge for more than an hour that morning, or both.",
+      "revised": "v0.2"
+    },
+    {
+      "id": "w07",
+      "stratum": "independent",
+      "context": "Consider a randomly selected day in January in a mid-sized coastal town in northern Europe.",
+      "b_clause": "it snows in the town that day",
+      "a_clause": "a wedding takes place in the town that day",
+      "b_statement": "It snows in the town that day.",
+      "a_statement": "A wedding takes place in the town that day.",
+      "conj_statement": "It snows in the town that day and a wedding takes place in the town that day.",
+      "disj_statement": "It snows in the town that day or a wedding takes place in the town that day, or both.",
+      "revised": "v0.2"
+    },
+    {
+      "id": "w08",
+      "stratum": "independent",
+      "context": "Consider a randomly selected Tuesday in a mid-sized university town.",
+      "b_clause": "the university holds a public lecture on astronomy that evening",
+      "a_clause": "it rains in the town at some point that day",
+      "b_statement": "The university holds a public lecture on astronomy that evening.",
+      "a_statement": "It rains in the town at some point that day.",
+      "conj_statement": "The university holds a public lecture on astronomy that evening and it rains in the town at some point that day.",
+      "disj_statement": "The university holds a public lecture on astronomy that evening or it rains in the town at some point that day, or both.",
+      "revised": "v0.2"
+    },
+    {
+      "id": "w09",
+      "stratum": "independent",
+      "context": "Consider a randomly selected weekday in a household with two school-aged children.",
+      "b_clause": "the family's washing machine breaks down that day",
+      "a_clause": "at least one of the children plays an after-school sport that day",
+      "b_statement": "The family's washing machine breaks down that day.",
+      "a_statement": "At least one of the children plays an after-school sport that day.",
+      "conj_statement": "The family's washing machine breaks down that day and at least one of the children plays an after-school sport that day.",
+      "disj_statement": "The family's washing machine breaks down that day or at least one of the children plays an after-school sport that day, or both.",
+      "revised": "v0.2"
+    },
+    {
+      "id": "w10",
+      "stratum": "independent",
+      "context": "Consider a randomly selected day in a city with a professional basketball team.",
+      "b_clause": "the team plays a home game in the city that day",
+      "a_clause": "a street festival takes place in the city that day",
+      "b_statement": "The team plays a home game in the city that day.",
+      "a_statement": "A street festival takes place in the city that day.",
+      "conj_statement": "The team plays a home game in the city that day and a street festival takes place in the city that day.",
+      "disj_statement": "The team plays a home game in the city that day or a street festival takes place in the city that day, or both."
+    },
+    {
+      "id": "w11",
+      "stratum": "independent",
+      "context": "Consider a randomly selected day at a small bookshop in a university town.",
+      "b_clause": "the shop's card machine stops working for an hour or more that day",
+      "a_clause": "a customer asks the shop to order a book it does not have in stock that day",
+      "b_statement": "The shop's card machine stops working for an hour or more that day.",
+      "a_statement": "A customer asks the shop to order a book it does not have in stock that day.",
+      "conj_statement": "The shop's card machine stops working for an hour or more that day and a customer asks the shop to order a book it does not have in stock that day.",
+      "disj_statement": "The shop's card machine stops working for an hour or more that day or a customer asks the shop to order a book it does not have in stock that day, or both."
+    },
+    {
+      "id": "w12",
+      "stratum": "independent",
+      "context": "Consider a randomly selected day in a small hill town in southern Europe.",
+      "b_clause": "a thunderstorm occurs in the town that day",
+      "a_clause": "the town's public library hosts a children's story session that day",
+      "b_statement": "A thunderstorm occurs in the town that day.",
+      "a_statement": "The town's public library hosts a children's story session that day.",
+      "conj_statement": "A thunderstorm occurs in the town that day and the town's public library hosts a children's story session that day.",
+      "disj_statement": "A thunderstorm occurs in the town that day or the town's public library hosts a children's story session that day, or both."
+    },
+    {
+      "id": "w13",
+      "stratum": "negative",
+      "context": "Consider a randomly selected day in a lowland city in central Europe.",
+      "b_clause": "the temperature in the city falls below minus 5 degrees Celsius at some point that day",
+      "a_clause": "the city's outdoor swimming pool is open to the public that day",
+      "b_statement": "The temperature in the city falls below minus 5 degrees Celsius at some point that day.",
+      "a_statement": "The city's outdoor swimming pool is open to the public that day.",
+      "conj_statement": "The temperature in the city falls below minus 5 degrees Celsius at some point that day and the city's outdoor swimming pool is open to the public that day.",
+      "disj_statement": "The temperature in the city falls below minus 5 degrees Celsius at some point that day or the city's outdoor swimming pool is open to the public that day, or both."
+    },
+    {
+      "id": "w14",
+      "stratum": "negative",
+      "context": "Consider a randomly selected Saturday in a village with a weekly open-air craft fair on the village green.",
+      "b_clause": "heavy rain falls on the village that day",
+      "a_clause": "the craft fair goes ahead on the village green that day",
+      "b_statement": "Heavy rain falls on the village that day.",
+      "a_statement": "The craft fair goes ahead on the village green that day.",
+      "conj_statement": "Heavy rain falls on the village that day and the craft fair goes ahead on the village green that day.",
+      "disj_statement": "Heavy rain falls on the village that day or the craft fair goes ahead on the village green that day, or both."
+    },
+    {
+      "id": "w15",
+      "stratum": "negative",
+      "context": "Consider a randomly selected day at a small family-run cafe.",
+      "b_clause": "the cafe closes early for lack of customers that day",
+      "a_clause": "every table in the cafe is taken at some point that day",
+      "b_statement": "The cafe closes early for lack of customers that day.",
+      "a_statement": "Every table in the cafe is taken at some point that day.",
+      "conj_statement": "The cafe closes early for lack of customers that day and every table in the cafe is taken at some point that day.",
+      "disj_statement": "The cafe closes early for lack of customers that day or every table in the cafe is taken at some point that day, or both."
+    },
+    {
+      "id": "w16",
+      "stratum": "negative",
+      "context": "Consider a randomly selected school day in a mid-sized town.",
+      "b_clause": "a storm warning is in force for the town that morning",
+      "a_clause": "an outdoor school trip leaves from one of the town's schools that morning",
+      "b_statement": "A storm warning is in force for the town that morning.",
+      "a_statement": "An outdoor school trip leaves from one of the town's schools that morning.",
+      "conj_statement": "A storm warning is in force for the town that morning and an outdoor school trip leaves from one of the town's schools that morning.",
+      "disj_statement": "A storm warning is in force for the town that morning or an outdoor school trip leaves from one of the town's schools that morning, or both."
+    },
+    {
+      "id": "w17",
+      "stratum": "negative",
+      "context": "Consider a randomly selected day in a household of two adults who own a tumble dryer.",
+      "b_clause": "both adults are away from home from morning until late evening that day",
+      "a_clause": "the household runs its tumble dryer that day",
+      "b_statement": "Both adults are away from home from morning until late evening that day.",
+      "a_statement": "The household runs its tumble dryer that day.",
+      "conj_statement": "Both adults are away from home from morning until late evening that day and the household runs its tumble dryer that day.",
+      "disj_statement": "Both adults are away from home from morning until late evening that day or the household runs its tumble dryer that day, or both.",
+      "revised": "v0.2"
+    },
+    {
+      "id": "w18",
+      "stratum": "negative",
+      "context": "Consider a randomly selected day at a small ice-cream shop in a seaside town.",
+      "b_clause": "a power cut forces the shop to close before 3 p.m. that day",
+      "a_clause": "the shop sells more than 100 scoops of ice cream that day",
+      "b_statement": "A power cut forces the shop to close before 3 p.m. that day.",
+      "a_statement": "The shop sells more than 100 scoops of ice cream that day.",
+      "conj_statement": "A power cut forces the shop to close before 3 p.m. that day and the shop sells more than 100 scoops of ice cream that day.",
+      "disj_statement": "A power cut forces the shop to close before 3 p.m. that day or the shop sells more than 100 scoops of ice cream that day, or both.",
+      "revised": "v0.2.1"
+    }
+  ]
+}

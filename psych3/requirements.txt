@@ -1,0 +1,3 @@
+# Verification and release construction use only the Python standard library.
+# Power simulation programs and their tests additionally require:
+numpy

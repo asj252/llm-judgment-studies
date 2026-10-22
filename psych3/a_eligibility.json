@@ -1,0 +1,362 @@
+[
+  {
+    "index": 0,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 1,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 2,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 3,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 4,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 5,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 6,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 7,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 8,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 9,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 10,
+    "status": "ineligible",
+    "reason": "真值存疑（1 升水电热壶煮沸通常约 3–5 分钟，题库为 10）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 11,
+    "status": "ineligible",
+    "reason": "单位未指明（miles 或 km）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 12,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 13,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 14,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 15,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 16,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 17,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 18,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 19,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 20,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 21,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 22,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 23,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 24,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 25,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 26,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 27,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 28,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 29,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 30,
+    "status": "ineligible",
+    "reason": "所问的量不明确（gas 指汽油或天然气），真值与常识差一个数量级",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 31,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 32,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 33,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 34,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 35,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 36,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 37,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 38,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 39,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 40,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 41,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）；整数真值 5 使实际锚比为 8/3，分析用实际锚值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 42,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 43,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 44,
+    "status": "ineligible",
+    "reason": "问的是年龄区间而非单一数量",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 45,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 46,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 47,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 48,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 49,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 50,
+    "status": "ineligible",
+    "reason": "真值存疑（与 USGS 量级相差约两个数量级）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 51,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 52,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 53,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 54,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 55,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 56,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 57,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 58,
+    "status": "ineligible",
+    "reason": "主观偏好、议价或赔偿判断，没有可查证的事实真值",
+    "judged_by": "a 2026-10-15"
+  },
+  {
+    "index": 59,
+    "status": "eligible",
+    "reason": "事实数量、单位明确（年龄题单位为岁）；随时间变化的量以题面年份或「每年／目前」为参照（规则 v0.6 细化）",
+    "judged_by": "a 2026-10-15"
+  }
+]

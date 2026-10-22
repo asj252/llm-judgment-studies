@@ -1,0 +1,5 @@
+{
+  "version": "codex-cli 0.163.0-alpha.10.2",
+  "pinned_by": "a 2026-10-19",
+  "reason": "δ-NLI 冻结的 codex-cli 0.162.0-alpha.17.2 已被自动更新取代；psych3 是另一个实验，另行固定当时的版本。版本由 subject meta 记入实验指纹；跑到一半版本再变就停。"
+}

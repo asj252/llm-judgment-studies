@@ -1,0 +1,23 @@
+{
+  "rule": "remove type == canary; preserve retained line bytes",
+  "sources": [
+    {
+      "source": "probcopa_CANARY.jsonl",
+      "output": "raw_probcopa_clean.jsonl",
+      "before_rows": 5908,
+      "after_rows": 5858,
+      "removed_rows": 50,
+      "before_sha256": "fadc90cbaf2a7b228e6830c19e7b9b1bf7e4d78df1e1b113fbcb215dab95be1d",
+      "after_sha256": "7fc59fccd8e6e421a2c6f2e5805ba7a8a6290e21255d75b8ece0d6edeaf5e4e2"
+    },
+    {
+      "source": "probcopa_human_results_annotated_CANARY.jsonl",
+      "output": "raw_probcopa_human_clean.jsonl",
+      "before_rows": 5908,
+      "after_rows": 5858,
+      "removed_rows": 50,
+      "before_sha256": "882f156f2e9659ecc5def78311376dc79ae00d28cba2e08540b026702f34fb8a",
+      "after_sha256": "6f962ca7ca738e24998d573a8842e6a8095963edc559cc9dbbf2acbeeae5421f"
+    }
+  ]
+}

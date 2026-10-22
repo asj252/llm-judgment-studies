@@ -1,0 +1,362 @@
+[
+  {
+    "id": "A0",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A1",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A6",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A7",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A8",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A9",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A12",
+    "source": "synanchors",
+    "split": "dev",
+    "repeat": false
+  },
+  {
+    "id": "A13",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A14",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A16",
+    "source": "synanchors",
+    "split": "dev",
+    "repeat": false
+  },
+  {
+    "id": "A17",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A18",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": true
+  },
+  {
+    "id": "A19",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A20",
+    "source": "synanchors",
+    "split": "dev",
+    "repeat": false
+  },
+  {
+    "id": "A21",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A22",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A23",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": true
+  },
+  {
+    "id": "A24",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A25",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A33",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A34",
+    "source": "synanchors",
+    "split": "dev",
+    "repeat": false
+  },
+  {
+    "id": "A35",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A36",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A39",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": true
+  },
+  {
+    "id": "A40",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A41",
+    "source": "synanchors",
+    "split": "dev",
+    "repeat": false
+  },
+  {
+    "id": "A42",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A43",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": true
+  },
+  {
+    "id": "A45",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A46",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A47",
+    "source": "synanchors",
+    "split": "dev",
+    "repeat": false
+  },
+  {
+    "id": "A48",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": true
+  },
+  {
+    "id": "A49",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A51",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A52",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "A59",
+    "source": "synanchors",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S04",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S06",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S07",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S10",
+    "source": "selfwritten",
+    "split": "dev",
+    "repeat": false
+  },
+  {
+    "id": "S11",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S13",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S14",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S15",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S16",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": true
+  },
+  {
+    "id": "S17",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S18",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S21",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S22",
+    "source": "selfwritten",
+    "split": "dev",
+    "repeat": false
+  },
+  {
+    "id": "S26",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S29",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S31",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S33",
+    "source": "selfwritten",
+    "split": "dev",
+    "repeat": false
+  },
+  {
+    "id": "S36",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": true
+  },
+  {
+    "id": "S38",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": true
+  },
+  {
+    "id": "S39",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S41",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S08",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S30",
+    "source": "selfwritten",
+    "split": "formal",
+    "repeat": false
+  },
+  {
+    "id": "S34",
+    "source": "selfwritten",
+    "split": "dev",
+    "repeat": false
+  }
+]

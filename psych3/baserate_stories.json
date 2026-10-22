@@ -1,0 +1,245 @@
+{
+ "note": "实验 C（基率忽视）的 24 个情境模板，a 撰写，2026-10-14。字段：population（群体，复数名词短语）、feature（罕见特征，接在 'have/are' 之后的短语，统一用 'X' 指代满足特征的个体）、test（检测名称）、positive（检测呈阳性的说法）、question_subject（问句的主语）。所有文字为自编，不取自任何既有题库。 statement 字段是问句的单数陈述（2026-10-14 补）。",
+ "stories": [
+  {
+   "id": "s01",
+   "population": "adults screened at a regional clinic",
+   "feature_has": "have a particular thyroid condition",
+   "feature_short": "the thyroid condition",
+   "test": "a blood test",
+   "positive": "the blood test comes back positive",
+   "subject": "an adult whose blood test came back positive",
+   "statement": "This adult has the thyroid condition."
+  },
+  {
+   "id": "s02",
+   "population": "emails arriving at a company's inbox",
+   "feature_has": "are phishing emails",
+   "feature_short": "a phishing email",
+   "test": "an automatic filter",
+   "positive": "the filter flags the email",
+   "subject": "an email that the filter flagged",
+   "statement": "This email is a phishing email."
+  },
+  {
+   "id": "s03",
+   "population": "metal brackets produced at a factory",
+   "feature_has": "have a hidden crack",
+   "feature_short": "a hidden crack",
+   "test": "an ultrasonic scanner",
+   "positive": "the scanner raises an alarm",
+   "subject": "a bracket for which the scanner raised an alarm",
+   "statement": "This bracket has a hidden crack."
+  },
+  {
+   "id": "s04",
+   "population": "credit card transactions processed by a bank",
+   "feature_has": "are fraudulent",
+   "feature_short": "fraudulent",
+   "test": "a fraud-detection system",
+   "positive": "the system marks the transaction as suspicious",
+   "subject": "a transaction that the system marked as suspicious",
+   "statement": "This transaction is fraudulent."
+  },
+  {
+   "id": "s05",
+   "population": "athletes tested at a regional competition",
+   "feature_has": "have used a banned substance",
+   "feature_short": "having used a banned substance",
+   "test": "a urine test",
+   "positive": "the urine test comes back positive",
+   "subject": "an athlete whose urine test came back positive",
+   "statement": "This athlete has used a banned substance."
+  },
+  {
+   "id": "s06",
+   "population": "animals passing a camera trap in a forest",
+   "feature_has": "are a rare species of wildcat",
+   "feature_short": "the rare wildcat",
+   "test": "an image-recognition program",
+   "positive": "the program labels the animal as the rare wildcat",
+   "subject": "an animal that the program labeled as the rare wildcat",
+   "statement": "This animal is the rare wildcat."
+  },
+  {
+   "id": "s07",
+   "population": "used cars brought to an inspection center",
+   "feature_has": "have a serious brake defect",
+   "feature_short": "a serious brake defect",
+   "test": "a quick diagnostic check",
+   "positive": "the check reports a brake problem",
+   "subject": "a car for which the check reported a brake problem",
+   "statement": "This car has a serious brake defect."
+  },
+  {
+   "id": "s08",
+   "population": "job applications received by an employer",
+   "feature_has": "contain falsified credentials",
+   "feature_short": "falsified credentials",
+   "test": "a background-screening service",
+   "positive": "the service flags the application",
+   "subject": "an application that the service flagged",
+   "statement": "This application contains falsified credentials."
+  },
+  {
+   "id": "s09",
+   "population": "seeds from a large shipment",
+   "feature_has": "carry a plant virus",
+   "feature_short": "the virus",
+   "test": "a rapid seed test",
+   "positive": "the rapid test is positive",
+   "subject": "a seed whose rapid test was positive",
+   "statement": "This seed carries the virus."
+  },
+  {
+   "id": "s10",
+   "population": "bags passing through an airport scanner",
+   "feature_has": "contain a prohibited item",
+   "feature_short": "a prohibited item",
+   "test": "an X-ray screening",
+   "positive": "the screening flags the bag",
+   "subject": "a bag that the screening flagged",
+   "statement": "This bag contains a prohibited item."
+  },
+  {
+   "id": "s11",
+   "population": "students taking an online exam",
+   "feature_has": "are using unauthorized help",
+   "feature_short": "using unauthorized help",
+   "test": "a proctoring software",
+   "positive": "the software flags the student",
+   "subject": "a student whom the software flagged",
+   "statement": "This student is using unauthorized help."
+  },
+  {
+   "id": "s12",
+   "population": "water samples taken from village wells",
+   "feature_has": "are contaminated with a harmful bacterium",
+   "feature_short": "contamination with the bacterium",
+   "test": "a field test kit",
+   "positive": "the test kit changes color",
+   "subject": "a water sample for which the test kit changed color",
+   "statement": "This water sample is contaminated with the bacterium."
+  },
+  {
+   "id": "s13",
+   "population": "paintings submitted to an auction house",
+   "feature_has": "are forgeries",
+   "feature_short": "a forgery",
+   "test": "a pigment analysis",
+   "positive": "the analysis indicates a forgery",
+   "subject": "a painting for which the analysis indicated a forgery",
+   "statement": "This painting is a forgery."
+  },
+  {
+   "id": "s14",
+   "population": "online product reviews on a shopping site",
+   "feature_has": "are fake reviews",
+   "feature_short": "a fake review",
+   "test": "a review-checking algorithm",
+   "positive": "the algorithm marks the review as fake",
+   "subject": "a review that the algorithm marked as fake",
+   "statement": "This review is a fake review."
+  },
+  {
+   "id": "s15",
+   "population": "patients visiting an eye clinic",
+   "feature_has": "have early-stage glaucoma",
+   "feature_short": "early-stage glaucoma",
+   "test": "a pressure screening",
+   "positive": "the screening result is abnormal",
+   "subject": "a patient whose screening result was abnormal",
+   "statement": "This patient has early-stage glaucoma."
+  },
+  {
+   "id": "s16",
+   "population": "packages handled by a delivery company",
+   "feature_has": "were damaged in transit",
+   "feature_short": "transit damage",
+   "test": "an automated camera inspection",
+   "positive": "the inspection reports damage",
+   "subject": "a package for which the inspection reported damage",
+   "statement": "This package was damaged in transit."
+  },
+  {
+   "id": "s17",
+   "population": "bees in a large apiary",
+   "feature_has": "are infected with a parasite",
+   "feature_short": "the parasite",
+   "test": "a microscope check",
+   "positive": "the check finds signs of the parasite",
+   "subject": "a bee for which the check found signs of the parasite",
+   "statement": "This bee is infected with the parasite."
+  },
+  {
+   "id": "s18",
+   "population": "insurance claims filed with a company",
+   "feature_has": "are exaggerated",
+   "feature_short": "an exaggerated claim",
+   "test": "an automated review",
+   "positive": "the review flags the claim",
+   "subject": "a claim that the review flagged",
+   "statement": "This claim is exaggerated."
+  },
+  {
+   "id": "s19",
+   "population": "computer files on a company network",
+   "feature_has": "contain malware",
+   "feature_short": "malware",
+   "test": "an antivirus scan",
+   "positive": "the scan raises a warning",
+   "subject": "a file for which the scan raised a warning",
+   "statement": "This file contains malware."
+  },
+  {
+   "id": "s20",
+   "population": "eggs from a poultry farm",
+   "feature_has": "carry a salmonella strain",
+   "feature_short": "the salmonella strain",
+   "test": "a lab swab test",
+   "positive": "the swab test is positive",
+   "subject": "an egg whose swab test was positive",
+   "statement": "This egg carries the salmonella strain."
+  },
+  {
+   "id": "s21",
+   "population": "coins collected by a coin dealer",
+   "feature_has": "are counterfeit",
+   "feature_short": "a counterfeit coin",
+   "test": "a weight-and-density check",
+   "positive": "the check marks the coin as suspect",
+   "subject": "a coin that the check marked as suspect",
+   "statement": "This coin is counterfeit."
+  },
+  {
+   "id": "s22",
+   "population": "trees in a city park",
+   "feature_has": "have internal rot",
+   "feature_short": "internal rot",
+   "test": "a sound-wave scan",
+   "positive": "the scan detects a hollow region",
+   "subject": "a tree for which the scan detected a hollow region",
+   "statement": "This tree has internal rot."
+  },
+  {
+   "id": "s23",
+   "population": "phone calls received by a call center",
+   "feature_has": "are scam calls",
+   "feature_short": "a scam call",
+   "test": "a call-screening service",
+   "positive": "the service labels the call as a likely scam",
+   "subject": "a call that the service labeled as a likely scam",
+   "statement": "This call is a scam call."
+  },
+  {
+   "id": "s24",
+   "population": "honey jars sold at a market",
+   "feature_has": "are diluted with syrup",
+   "feature_short": "diluted with syrup",
+   "test": "a sugar-profile test",
+   "positive": "the test indicates dilution",
+   "subject": "a jar for which the test indicated dilution",
+   "statement": "This jar is diluted with syrup."
+  }
+ ]
+}

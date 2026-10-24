@@ -1,0 +1,1954 @@
+{
+  "formal": {
+    "qwen3-off": {
+      "fingerprint_id": "d79a227d5ffd35c35aae1730c2fd20f27ac35f4ff535d79740ae7397cc1d7559",
+      "fingerprint": {
+        "manifest.py": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db",
+        "run_psych3.py": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0",
+        "../dnli/parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+        "../dnli/run.py": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614",
+        "a_eligibility.json": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064",
+        "a_anchors.json": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b",
+        "a_selfwritten_items.json": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba",
+        "a_split.json": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff",
+        "b_pairing.json": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17",
+        "b_canary_log.json": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb",
+        "b_manifest.json": "c98169d2775dc4d3f3e93ac08e9073422e28f8893d3c959622f00def3ca1a83f",
+        "conjunction_items.json": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f",
+        "items_e_draft.json": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286",
+        "prompts_a.py": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1",
+        "prompts_b.py": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618",
+        "prompts_c.py": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236",
+        "prompts_d.py": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e",
+        "prompts_e.py": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7",
+        "parse_a.py": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c",
+        "parse_d.py": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d",
+        "../dnli/local_subject.py": "ea94af1715bd8217b9ca2d6b53df174a1529cef815002486967712c75897a3cb",
+        "parse_context": "38755aa1d94ea80760af3739038b9d3ff8a0921f34a88ccec7842df1aed8a8b7",
+        "manifest_ids": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3",
+        "config": "qwen3-off",
+        "subject_meta": {
+          "config_table": {
+            "model_key": "qwen3-8b",
+            "repo": "Qwen/Qwen3-8B",
+            "commit": "b968826d9c46dd6066d109eabc6255188de91218",
+            "precision": "GGUF Q8_0 (llama.cpp convert_hf_to_gguf.py --outtype q8_0 from the pinned safetensors)",
+            "gguf": "Qwen3-8B-b968826d-Q8_0.gguf",
+            "gguf_sha256": "5a337baa986cf2bf23564cf31276593421b1865288a221427703ab45ea0ff47b",
+            "sampling": {
+              "temperature": 0.6,
+              "top_k": 20,
+              "top_p": 0.95,
+              "min_p": 0.0,
+              "samplers": [
+                "temperature",
+                "top_k",
+                "top_p",
+                "min_p"
+              ],
+              "repeat_penalty": 1.0,
+              "presence_penalty": 0.0,
+              "frequency_penalty": 0.0,
+              "dry_multiplier": 0.0,
+              "xtc_probability": 0.0,
+              "typical_p": 1.0,
+              "top_n_sigma": -1.0
+            },
+            "max_new_tokens": 8192,
+            "ctx": 16384,
+            "max_new_rule": "fixed",
+            "server_args": [
+              "-c",
+              "16384",
+              "-ngl",
+              "999",
+              "--parallel",
+              "1",
+              "--host",
+              "127.0.0.1",
+              "--no-webui",
+              "--seed",
+              "0"
+            ],
+            "llama_build": "b11560-b13a93a3d",
+            "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+            "system_prompt": null,
+            "think_close_id": 151668,
+            "truncation_rule": "stop_type != 'eos' -> truncated; thinking mode without </think> token -> thinking_unterminated (counts as truncated)"
+          },
+          "thinking": false,
+          "versions": {
+            "transformers": "5.19.0",
+            "tokenizers": "0.23.3"
+          }
+        },
+        "retry_policy": {
+          "parse": 1,
+          "codex_contamination": 1,
+          "disconnect_streak": 3,
+          "agy_resample_streak": 3,
+          "agy_rate": [
+            300,
+            3600,
+            21600,
+            259200
+          ]
+        }
+      },
+      "code": {
+        "files": {
+          "psych3\\analyse_psych3.py": "01dea9965eeeae5beeb365a15d2ee6ae3ac9be07ec11dd1a3e3cb85302041cf6",
+          "psych3\\analysis_psych3.py": "46a7b7be862e3a62269a3d99fbaa133d56e7bda8315afa096eb5c25cfdfd5211",
+          "psych3\\power_psych3.py": "7bd330cabfe95285b3bc62079cd28cedaa2abbaf64ee68dc4d6427203b6d817c",
+          "psych3\\run_psych3.py": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0",
+          "psych3\\manifest.py": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db",
+          "psych3\\agy_night.py": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086",
+          "dnli\\run.py": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614",
+          "dnli-agy\\run_agy.py": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2"
+        },
+        "B": 5000,
+        "seed": 2026101903,
+        "alpha": 0.05,
+        "specs": {
+          "A1": {
+            "sided": 1,
+            "threshold": 0.1
+          },
+          "A2": {
+            "sided": 1,
+            "threshold": 0.1
+          },
+          "A3": {
+            "sided": 2,
+            "threshold": 0.1
+          },
+          "A4": {
+            "sided": 2,
+            "threshold": 0.1
+          },
+          "B1": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "B2": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "B3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "B4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "C1": {
+            "sided": 1,
+            "threshold": 0.2
+          },
+          "C2": {
+            "sided": 1,
+            "threshold": 0.2
+          },
+          "C3": {
+            "sided": 2,
+            "threshold": 0.2
+          },
+          "C4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "D1": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "D2": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "D3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "D4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E1": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E2": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E4": {
+            "sided": 2,
+            "threshold": 5.0
+          }
+        }
+      },
+      "materials": {
+        "PLAN.md": "67e50d8dc319ad89b557d79f6acb6f37c565f99ab2f10a8d9b9413f7faa2271c",
+        "a_anchors.json": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b",
+        "a_eligibility.json": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064",
+        "a_selfwritten_items.json": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba",
+        "a_split.json": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff",
+        "b_canary_log.json": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb",
+        "b_manifest.json": "c98169d2775dc4d3f3e93ac08e9073422e28f8893d3c959622f00def3ca1a83f",
+        "b_pairing.json": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17",
+        "conjunction_items.json": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f",
+        "gen_a.py": "6f6eaa7bf9ad0abca788dd80b0f89b4bda6f6c86d57ac48b9e5b525e69cd435e",
+        "gen_b.py": "8f5d376704ac586a890b3d841255950daa27a76675ced39b617033cf3be8953e",
+        "gen_c.py": "6af2285d7fe41b96d32f040be45745ff122fa13ccf4be660bdee563e202193c3",
+        "gen_d.py": "75c77e45394ccb1d53d9958c743db3b160afe605012364f761ef85f758374690",
+        "gen_e.py": "86618d9f5e2fff71504829e1e19575eeb0adafeba92325de3c661f5e5b1a5baf",
+        "items_c.json": "ce6e56d69b555f60aad51951654cde8813ae785c458d02015194c0431970a288",
+        "items_d.json": "5aa99a474ebdfea75d9f5bda0e8176342fc50efd70cd1245670e1cb944702b35",
+        "items_e.json": "79871974062fe0f303d30f5ed8ba6b715bf943cfffc075cb10a15e91f8c211d4",
+        "items_e_draft.json": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286",
+        "manifest_ids.json": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3",
+        "parse_a.py": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c",
+        "parse_d.py": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d",
+        "prompts_a.py": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1",
+        "prompts_b.py": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618",
+        "prompts_c.py": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236",
+        "prompts_d.py": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e",
+        "prompts_e.py": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7",
+        "raw_items_a.json": "5938fa179d2d64ea904f7815ec03cb05ef0b9cfc3234e6bb94e0b766b28a5305",
+        "raw_items_b.json": "609e8ef816eba2b47b41b9fc3f60e1aad05baf91555f147e3802ace448d4e959",
+        "raw_manifest.json": "1bf109881ac008a495e90c980012d2bf92b37a6394cf4461883accbe8c97a488",
+        "raw_probcopa_human_clean.jsonl": "6f962ca7ca738e24998d573a8842e6a8095963edc559cc9dbbf2acbeeae5421f"
+      },
+      "hypotheses": [],
+      "development_acceptance": {
+        "planned": 618,
+        "admitted": 618,
+        "first_parsed": 610,
+        "missing": 1,
+        "first_rate": 0.9870550161812298,
+        "missing_rate": 0.0016181229773462784,
+        "acceptance": true,
+        "by_condition": {
+          "('A', 'direct', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('A', 'multi', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 50,
+            "weights_compliant": 50
+          },
+          "('B', 'direct', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('B', 'multi', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 120,
+            "weights_compliant": 118
+          },
+          "('C', 'direct', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 2,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('C', 'multi', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 48,
+            "weights_compliant": 48
+          },
+          "('D', 'direct', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('D', 'multi', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 35,
+            "weights_compliant": 30
+          },
+          "('E', 'direct', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('E', 'multi', 'r0', ())": {
+            "planned": 56,
+            "missing": 1,
+            "failed_attempts": 6,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 55,
+            "weights_compliant": 50
+          }
+        },
+        "refusal_note": "解析失败不自动视为拒答；外壳无统一拒答标记"
+      }
+    },
+    "agy:gpt-oss-120b-medium": {
+      "fingerprint_id": "c28d4c221c901fe4f7449d8df9ff419c0501df6d1c751c3e2acc5672d0f0c446",
+      "fingerprint": {
+        "manifest.py": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db",
+        "run_psych3.py": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0",
+        "../dnli/parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+        "../dnli/run.py": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614",
+        "a_eligibility.json": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064",
+        "a_anchors.json": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b",
+        "a_selfwritten_items.json": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba",
+        "a_split.json": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff",
+        "b_pairing.json": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17",
+        "b_canary_log.json": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb",
+        "b_manifest.json": "c98169d2775dc4d3f3e93ac08e9073422e28f8893d3c959622f00def3ca1a83f",
+        "conjunction_items.json": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f",
+        "items_e_draft.json": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286",
+        "prompts_a.py": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1",
+        "prompts_b.py": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618",
+        "prompts_c.py": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236",
+        "prompts_d.py": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e",
+        "prompts_e.py": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7",
+        "parse_a.py": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c",
+        "parse_d.py": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d",
+        "../dnli-agy/agy_subject.py": "f3e679771636ecf40e535ab1968641cb70ce83b9f6bd3cf61e035d26e3bdd9b3",
+        "../dnli-agy/run_agy.py": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2",
+        "../dnli-agy/configs.py": "1d11a0120b355ea14c5d56966be5c62a2f690ce95c4ee41981e4a004be8790d8",
+        "../dnli-agy/workspace_temp.py": "cd8f154fcd1685aa6104d3dfb5c2994ab8bccc380eba6ca5e0e5e1bd1f33527d",
+        "../dnli-agy/agent/dnli-subject.md": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5",
+        "parse_context": "38755aa1d94ea80760af3739038b9d3ff8a0921f34a88ccec7842df1aed8a8b7",
+        "manifest_ids": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3",
+        "config": "agy:gpt-oss-120b-medium",
+        "subject_meta": {
+          "model": "gpt-oss-120b-medium",
+          "baseline": {
+            "agy_version": "1.4.0",
+            "permissions_sha256": "f796d6fae930f1a4cc3a75f2f1f8b937cea0195bff1a75837fd9ab8943b5ea1e",
+            "settings_keys": [
+              "colorScheme",
+              "permissions",
+              "trustedWorkspaces"
+            ],
+            "agent_sha256": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5",
+            "reported_model": null,
+            "tools_sha256": null,
+            "permission_mode": null
+          },
+          "timeout": 600,
+          "rate_patterns": [
+            "(?<!\\w)429(?!\\w)",
+            "\\bRESOURCE_EXHAUSTED\\b",
+            "\\brate[ _-]+limit(?:ed|ing|[ _-]+exceeded)?\\b",
+            "\\bquota[ _-]+(?:exceeded|exhausted)\\b",
+            "\\btoo many requests\\b"
+          ]
+        },
+        "retry_policy": {
+          "parse": 1,
+          "codex_contamination": 1,
+          "disconnect_streak": 3,
+          "agy_resample_streak": 3,
+          "agy_rate": [
+            300,
+            3600,
+            21600,
+            259200
+          ]
+        },
+        "psych3_agy_night": {
+          "python_sha256": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086",
+          "powershell_sha256": "42f8e9ee8915f55ecb5cd4d8b00e1b3573dceb30afc93bafb8a04744499a4765",
+          "recovery_rules_sha256": "9e728d3c82de38bd9e74624b41538ea37270ea6c2c6386eace216be7a516b77e",
+          "workers": 4,
+          "timezone": "Asia/Shanghai",
+          "admission": "00:00-07:45",
+          "hard_stop": "08:00",
+          "auto_clear_limit": 8
+        }
+      },
+      "code": {
+        "files": {
+          "psych3\\analyse_psych3.py": "01dea9965eeeae5beeb365a15d2ee6ae3ac9be07ec11dd1a3e3cb85302041cf6",
+          "psych3\\analysis_psych3.py": "46a7b7be862e3a62269a3d99fbaa133d56e7bda8315afa096eb5c25cfdfd5211",
+          "psych3\\power_psych3.py": "7bd330cabfe95285b3bc62079cd28cedaa2abbaf64ee68dc4d6427203b6d817c",
+          "psych3\\run_psych3.py": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0",
+          "psych3\\manifest.py": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db",
+          "psych3\\agy_night.py": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086",
+          "dnli\\run.py": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614",
+          "dnli-agy\\run_agy.py": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2"
+        },
+        "B": 5000,
+        "seed": 2026101903,
+        "alpha": 0.05,
+        "specs": {
+          "A1": {
+            "sided": 1,
+            "threshold": 0.1
+          },
+          "A2": {
+            "sided": 1,
+            "threshold": 0.1
+          },
+          "A3": {
+            "sided": 2,
+            "threshold": 0.1
+          },
+          "A4": {
+            "sided": 2,
+            "threshold": 0.1
+          },
+          "B1": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "B2": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "B3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "B4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "C1": {
+            "sided": 1,
+            "threshold": 0.2
+          },
+          "C2": {
+            "sided": 1,
+            "threshold": 0.2
+          },
+          "C3": {
+            "sided": 2,
+            "threshold": 0.2
+          },
+          "C4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "D1": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "D2": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "D3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "D4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E1": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E2": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E4": {
+            "sided": 2,
+            "threshold": 5.0
+          }
+        }
+      },
+      "materials": {
+        "PLAN.md": "67e50d8dc319ad89b557d79f6acb6f37c565f99ab2f10a8d9b9413f7faa2271c",
+        "a_anchors.json": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b",
+        "a_eligibility.json": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064",
+        "a_selfwritten_items.json": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba",
+        "a_split.json": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff",
+        "b_canary_log.json": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb",
+        "b_manifest.json": "c98169d2775dc4d3f3e93ac08e9073422e28f8893d3c959622f00def3ca1a83f",
+        "b_pairing.json": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17",
+        "conjunction_items.json": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f",
+        "gen_a.py": "6f6eaa7bf9ad0abca788dd80b0f89b4bda6f6c86d57ac48b9e5b525e69cd435e",
+        "gen_b.py": "8f5d376704ac586a890b3d841255950daa27a76675ced39b617033cf3be8953e",
+        "gen_c.py": "6af2285d7fe41b96d32f040be45745ff122fa13ccf4be660bdee563e202193c3",
+        "gen_d.py": "75c77e45394ccb1d53d9958c743db3b160afe605012364f761ef85f758374690",
+        "gen_e.py": "86618d9f5e2fff71504829e1e19575eeb0adafeba92325de3c661f5e5b1a5baf",
+        "items_c.json": "ce6e56d69b555f60aad51951654cde8813ae785c458d02015194c0431970a288",
+        "items_d.json": "5aa99a474ebdfea75d9f5bda0e8176342fc50efd70cd1245670e1cb944702b35",
+        "items_e.json": "79871974062fe0f303d30f5ed8ba6b715bf943cfffc075cb10a15e91f8c211d4",
+        "items_e_draft.json": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286",
+        "manifest_ids.json": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3",
+        "parse_a.py": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c",
+        "parse_d.py": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d",
+        "prompts_a.py": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1",
+        "prompts_b.py": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618",
+        "prompts_c.py": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236",
+        "prompts_d.py": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e",
+        "prompts_e.py": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7",
+        "raw_items_a.json": "5938fa179d2d64ea904f7815ec03cb05ef0b9cfc3234e6bb94e0b766b28a5305",
+        "raw_items_b.json": "609e8ef816eba2b47b41b9fc3f60e1aad05baf91555f147e3802ace448d4e959",
+        "raw_manifest.json": "1bf109881ac008a495e90c980012d2bf92b37a6394cf4461883accbe8c97a488",
+        "raw_probcopa_human_clean.jsonl": "6f962ca7ca738e24998d573a8842e6a8095963edc559cc9dbbf2acbeeae5421f"
+      },
+      "hypotheses": [
+        "A1",
+        "B4",
+        "E2"
+      ],
+      "development_acceptance": {
+        "planned": 618,
+        "admitted": 618,
+        "first_parsed": 612,
+        "missing": 0,
+        "first_rate": 0.9902912621359223,
+        "missing_rate": 0.0,
+        "acceptance": true,
+        "by_condition": {
+          "('A', 'direct', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('A', 'multi', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 50,
+            "weights_compliant": 50
+          },
+          "('B', 'direct', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('B', 'multi', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 2,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 120,
+            "weights_compliant": 120
+          },
+          "('C', 'direct', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('C', 'multi', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 48,
+            "weights_compliant": 48
+          },
+          "('D', 'direct', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('D', 'multi', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 35,
+            "weights_compliant": 35
+          },
+          "('E', 'direct', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('E', 'multi', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 56,
+            "weights_compliant": 56
+          }
+        },
+        "refusal_note": "解析失败不自动视为拒答；外壳无统一拒答标记"
+      }
+    },
+    "agy:claude-sonnet-5-5-medium": {
+      "fingerprint_id": "acba1509421c74d813202e53d4f994c1f2b7ab71b4186257fe4a770f32c7bb1c",
+      "fingerprint": {
+        "manifest.py": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db",
+        "run_psych3.py": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0",
+        "../dnli/parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+        "../dnli/run.py": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614",
+        "a_eligibility.json": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064",
+        "a_anchors.json": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b",
+        "a_selfwritten_items.json": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba",
+        "a_split.json": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff",
+        "b_pairing.json": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17",
+        "b_canary_log.json": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb",
+        "b_manifest.json": "c98169d2775dc4d3f3e93ac08e9073422e28f8893d3c959622f00def3ca1a83f",
+        "conjunction_items.json": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f",
+        "items_e_draft.json": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286",
+        "prompts_a.py": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1",
+        "prompts_b.py": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618",
+        "prompts_c.py": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236",
+        "prompts_d.py": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e",
+        "prompts_e.py": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7",
+        "parse_a.py": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c",
+        "parse_d.py": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d",
+        "../dnli-agy/agy_subject.py": "f3e679771636ecf40e535ab1968641cb70ce83b9f6bd3cf61e035d26e3bdd9b3",
+        "../dnli-agy/run_agy.py": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2",
+        "../dnli-agy/configs.py": "1d11a0120b355ea14c5d56966be5c62a2f690ce95c4ee41981e4a004be8790d8",
+        "../dnli-agy/workspace_temp.py": "cd8f154fcd1685aa6104d3dfb5c2994ab8bccc380eba6ca5e0e5e1bd1f33527d",
+        "../dnli-agy/agent/dnli-subject.md": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5",
+        "parse_context": "38755aa1d94ea80760af3739038b9d3ff8a0921f34a88ccec7842df1aed8a8b7",
+        "manifest_ids": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3",
+        "config": "agy:claude-sonnet-5-5-medium",
+        "subject_meta": {
+          "model": "claude-sonnet-5-5-medium",
+          "baseline": {
+            "agy_version": "1.4.0",
+            "permissions_sha256": "f796d6fae930f1a4cc3a75f2f1f8b937cea0195bff1a75837fd9ab8943b5ea1e",
+            "settings_keys": [
+              "colorScheme",
+              "permissions",
+              "trustedWorkspaces"
+            ],
+            "agent_sha256": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5",
+            "reported_model": null,
+            "tools_sha256": null,
+            "permission_mode": null
+          },
+          "timeout": 600,
+          "rate_patterns": [
+            "(?<!\\w)429(?!\\w)",
+            "\\bRESOURCE_EXHAUSTED\\b",
+            "\\brate[ _-]+limit(?:ed|ing|[ _-]+exceeded)?\\b",
+            "\\bquota[ _-]+(?:exceeded|exhausted)\\b",
+            "\\btoo many requests\\b"
+          ]
+        },
+        "retry_policy": {
+          "parse": 1,
+          "codex_contamination": 1,
+          "disconnect_streak": 3,
+          "agy_resample_streak": 3,
+          "agy_rate": [
+            300,
+            3600,
+            21600,
+            259200
+          ]
+        },
+        "psych3_agy_night": {
+          "python_sha256": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086",
+          "powershell_sha256": "42f8e9ee8915f55ecb5cd4d8b00e1b3573dceb30afc93bafb8a04744499a4765",
+          "recovery_rules_sha256": "9e728d3c82de38bd9e74624b41538ea37270ea6c2c6386eace216be7a516b77e",
+          "workers": 4,
+          "timezone": "Asia/Shanghai",
+          "admission": "00:00-07:45",
+          "hard_stop": "08:00",
+          "auto_clear_limit": 8
+        }
+      },
+      "code": {
+        "files": {
+          "psych3\\analyse_psych3.py": "01dea9965eeeae5beeb365a15d2ee6ae3ac9be07ec11dd1a3e3cb85302041cf6",
+          "psych3\\analysis_psych3.py": "46a7b7be862e3a62269a3d99fbaa133d56e7bda8315afa096eb5c25cfdfd5211",
+          "psych3\\power_psych3.py": "7bd330cabfe95285b3bc62079cd28cedaa2abbaf64ee68dc4d6427203b6d817c",
+          "psych3\\run_psych3.py": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0",
+          "psych3\\manifest.py": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db",
+          "psych3\\agy_night.py": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086",
+          "dnli\\run.py": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614",
+          "dnli-agy\\run_agy.py": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2"
+        },
+        "B": 5000,
+        "seed": 2026101903,
+        "alpha": 0.05,
+        "specs": {
+          "A1": {
+            "sided": 1,
+            "threshold": 0.1
+          },
+          "A2": {
+            "sided": 1,
+            "threshold": 0.1
+          },
+          "A3": {
+            "sided": 2,
+            "threshold": 0.1
+          },
+          "A4": {
+            "sided": 2,
+            "threshold": 0.1
+          },
+          "B1": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "B2": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "B3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "B4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "C1": {
+            "sided": 1,
+            "threshold": 0.2
+          },
+          "C2": {
+            "sided": 1,
+            "threshold": 0.2
+          },
+          "C3": {
+            "sided": 2,
+            "threshold": 0.2
+          },
+          "C4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "D1": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "D2": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "D3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "D4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E1": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E2": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E4": {
+            "sided": 2,
+            "threshold": 5.0
+          }
+        }
+      },
+      "materials": {
+        "PLAN.md": "67e50d8dc319ad89b557d79f6acb6f37c565f99ab2f10a8d9b9413f7faa2271c",
+        "a_anchors.json": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b",
+        "a_eligibility.json": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064",
+        "a_selfwritten_items.json": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba",
+        "a_split.json": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff",
+        "b_canary_log.json": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb",
+        "b_manifest.json": "c98169d2775dc4d3f3e93ac08e9073422e28f8893d3c959622f00def3ca1a83f",
+        "b_pairing.json": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17",
+        "conjunction_items.json": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f",
+        "gen_a.py": "6f6eaa7bf9ad0abca788dd80b0f89b4bda6f6c86d57ac48b9e5b525e69cd435e",
+        "gen_b.py": "8f5d376704ac586a890b3d841255950daa27a76675ced39b617033cf3be8953e",
+        "gen_c.py": "6af2285d7fe41b96d32f040be45745ff122fa13ccf4be660bdee563e202193c3",
+        "gen_d.py": "75c77e45394ccb1d53d9958c743db3b160afe605012364f761ef85f758374690",
+        "gen_e.py": "86618d9f5e2fff71504829e1e19575eeb0adafeba92325de3c661f5e5b1a5baf",
+        "items_c.json": "ce6e56d69b555f60aad51951654cde8813ae785c458d02015194c0431970a288",
+        "items_d.json": "5aa99a474ebdfea75d9f5bda0e8176342fc50efd70cd1245670e1cb944702b35",
+        "items_e.json": "79871974062fe0f303d30f5ed8ba6b715bf943cfffc075cb10a15e91f8c211d4",
+        "items_e_draft.json": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286",
+        "manifest_ids.json": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3",
+        "parse_a.py": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c",
+        "parse_d.py": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d",
+        "prompts_a.py": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1",
+        "prompts_b.py": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618",
+        "prompts_c.py": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236",
+        "prompts_d.py": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e",
+        "prompts_e.py": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7",
+        "raw_items_a.json": "5938fa179d2d64ea904f7815ec03cb05ef0b9cfc3234e6bb94e0b766b28a5305",
+        "raw_items_b.json": "609e8ef816eba2b47b41b9fc3f60e1aad05baf91555f147e3802ace448d4e959",
+        "raw_manifest.json": "1bf109881ac008a495e90c980012d2bf92b37a6394cf4461883accbe8c97a488",
+        "raw_probcopa_human_clean.jsonl": "6f962ca7ca738e24998d573a8842e6a8095963edc559cc9dbbf2acbeeae5421f"
+      },
+      "hypotheses": [
+        "A1",
+        "A3",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "E2",
+        "E4"
+      ],
+      "development_acceptance": {
+        "planned": 618,
+        "admitted": 618,
+        "first_parsed": 617,
+        "missing": 0,
+        "first_rate": 0.9983818770226537,
+        "missing_rate": 0.0,
+        "acceptance": true,
+        "by_condition": {
+          "('A', 'direct', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('A', 'multi', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 50,
+            "weights_compliant": 50
+          },
+          "('B', 'direct', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('B', 'multi', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 120,
+            "weights_compliant": 120
+          },
+          "('C', 'direct', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('C', 'multi', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 48,
+            "weights_compliant": 48
+          },
+          "('D', 'direct', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('D', 'multi', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 35,
+            "weights_compliant": 35
+          },
+          "('E', 'direct', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('E', 'multi', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 56,
+            "weights_compliant": 56
+          }
+        },
+        "refusal_note": "解析失败不自动视为拒答；外壳无统一拒答标记"
+      }
+    },
+    "agy:gemini-3.8-flash-low": {
+      "fingerprint_id": "88be612631342a1b63db13d6719e354ca41dd7653f86fce13437c6e3522bc5f5",
+      "fingerprint": {
+        "manifest.py": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db",
+        "run_psych3.py": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0",
+        "../dnli/parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+        "../dnli/run.py": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614",
+        "a_eligibility.json": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064",
+        "a_anchors.json": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b",
+        "a_selfwritten_items.json": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba",
+        "a_split.json": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff",
+        "b_pairing.json": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17",
+        "b_canary_log.json": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb",
+        "b_manifest.json": "c98169d2775dc4d3f3e93ac08e9073422e28f8893d3c959622f00def3ca1a83f",
+        "conjunction_items.json": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f",
+        "items_e_draft.json": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286",
+        "prompts_a.py": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1",
+        "prompts_b.py": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618",
+        "prompts_c.py": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236",
+        "prompts_d.py": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e",
+        "prompts_e.py": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7",
+        "parse_a.py": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c",
+        "parse_d.py": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d",
+        "../dnli-agy/agy_subject.py": "f3e679771636ecf40e535ab1968641cb70ce83b9f6bd3cf61e035d26e3bdd9b3",
+        "../dnli-agy/run_agy.py": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2",
+        "../dnli-agy/configs.py": "1d11a0120b355ea14c5d56966be5c62a2f690ce95c4ee41981e4a004be8790d8",
+        "../dnli-agy/workspace_temp.py": "cd8f154fcd1685aa6104d3dfb5c2994ab8bccc380eba6ca5e0e5e1bd1f33527d",
+        "../dnli-agy/agent/dnli-subject.md": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5",
+        "parse_context": "38755aa1d94ea80760af3739038b9d3ff8a0921f34a88ccec7842df1aed8a8b7",
+        "manifest_ids": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3",
+        "config": "agy:gemini-3.8-flash-low",
+        "subject_meta": {
+          "model": "gemini-3.8-flash-low",
+          "baseline": {
+            "agy_version": "1.4.0",
+            "permissions_sha256": "f796d6fae930f1a4cc3a75f2f1f8b937cea0195bff1a75837fd9ab8943b5ea1e",
+            "settings_keys": [
+              "colorScheme",
+              "permissions",
+              "trustedWorkspaces"
+            ],
+            "agent_sha256": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5",
+            "reported_model": null,
+            "tools_sha256": null,
+            "permission_mode": null
+          },
+          "timeout": 600,
+          "rate_patterns": [
+            "(?<!\\w)429(?!\\w)",
+            "\\bRESOURCE_EXHAUSTED\\b",
+            "\\brate[ _-]+limit(?:ed|ing|[ _-]+exceeded)?\\b",
+            "\\bquota[ _-]+(?:exceeded|exhausted)\\b",
+            "\\btoo many requests\\b"
+          ]
+        },
+        "retry_policy": {
+          "parse": 1,
+          "codex_contamination": 1,
+          "disconnect_streak": 3,
+          "agy_resample_streak": 3,
+          "agy_rate": [
+            300,
+            3600,
+            21600,
+            259200
+          ]
+        },
+        "psych3_agy_night": {
+          "python_sha256": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086",
+          "powershell_sha256": "42f8e9ee8915f55ecb5cd4d8b00e1b3573dceb30afc93bafb8a04744499a4765",
+          "recovery_rules_sha256": "9e728d3c82de38bd9e74624b41538ea37270ea6c2c6386eace216be7a516b77e",
+          "workers": 4,
+          "timezone": "Asia/Shanghai",
+          "admission": "00:00-07:45",
+          "hard_stop": "08:00",
+          "auto_clear_limit": 8
+        }
+      },
+      "code": {
+        "files": {
+          "psych3\\analyse_psych3.py": "01dea9965eeeae5beeb365a15d2ee6ae3ac9be07ec11dd1a3e3cb85302041cf6",
+          "psych3\\analysis_psych3.py": "46a7b7be862e3a62269a3d99fbaa133d56e7bda8315afa096eb5c25cfdfd5211",
+          "psych3\\power_psych3.py": "7bd330cabfe95285b3bc62079cd28cedaa2abbaf64ee68dc4d6427203b6d817c",
+          "psych3\\run_psych3.py": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0",
+          "psych3\\manifest.py": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db",
+          "psych3\\agy_night.py": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086",
+          "dnli\\run.py": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614",
+          "dnli-agy\\run_agy.py": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2"
+        },
+        "B": 5000,
+        "seed": 2026101903,
+        "alpha": 0.05,
+        "specs": {
+          "A1": {
+            "sided": 1,
+            "threshold": 0.1
+          },
+          "A2": {
+            "sided": 1,
+            "threshold": 0.1
+          },
+          "A3": {
+            "sided": 2,
+            "threshold": 0.1
+          },
+          "A4": {
+            "sided": 2,
+            "threshold": 0.1
+          },
+          "B1": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "B2": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "B3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "B4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "C1": {
+            "sided": 1,
+            "threshold": 0.2
+          },
+          "C2": {
+            "sided": 1,
+            "threshold": 0.2
+          },
+          "C3": {
+            "sided": 2,
+            "threshold": 0.2
+          },
+          "C4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "D1": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "D2": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "D3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "D4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E1": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E2": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E4": {
+            "sided": 2,
+            "threshold": 5.0
+          }
+        }
+      },
+      "materials": {
+        "PLAN.md": "67e50d8dc319ad89b557d79f6acb6f37c565f99ab2f10a8d9b9413f7faa2271c",
+        "a_anchors.json": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b",
+        "a_eligibility.json": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064",
+        "a_selfwritten_items.json": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba",
+        "a_split.json": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff",
+        "b_canary_log.json": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb",
+        "b_manifest.json": "c98169d2775dc4d3f3e93ac08e9073422e28f8893d3c959622f00def3ca1a83f",
+        "b_pairing.json": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17",
+        "conjunction_items.json": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f",
+        "gen_a.py": "6f6eaa7bf9ad0abca788dd80b0f89b4bda6f6c86d57ac48b9e5b525e69cd435e",
+        "gen_b.py": "8f5d376704ac586a890b3d841255950daa27a76675ced39b617033cf3be8953e",
+        "gen_c.py": "6af2285d7fe41b96d32f040be45745ff122fa13ccf4be660bdee563e202193c3",
+        "gen_d.py": "75c77e45394ccb1d53d9958c743db3b160afe605012364f761ef85f758374690",
+        "gen_e.py": "86618d9f5e2fff71504829e1e19575eeb0adafeba92325de3c661f5e5b1a5baf",
+        "items_c.json": "ce6e56d69b555f60aad51951654cde8813ae785c458d02015194c0431970a288",
+        "items_d.json": "5aa99a474ebdfea75d9f5bda0e8176342fc50efd70cd1245670e1cb944702b35",
+        "items_e.json": "79871974062fe0f303d30f5ed8ba6b715bf943cfffc075cb10a15e91f8c211d4",
+        "items_e_draft.json": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286",
+        "manifest_ids.json": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3",
+        "parse_a.py": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c",
+        "parse_d.py": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d",
+        "prompts_a.py": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1",
+        "prompts_b.py": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618",
+        "prompts_c.py": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236",
+        "prompts_d.py": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e",
+        "prompts_e.py": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7",
+        "raw_items_a.json": "5938fa179d2d64ea904f7815ec03cb05ef0b9cfc3234e6bb94e0b766b28a5305",
+        "raw_items_b.json": "609e8ef816eba2b47b41b9fc3f60e1aad05baf91555f147e3802ace448d4e959",
+        "raw_manifest.json": "1bf109881ac008a495e90c980012d2bf92b37a6394cf4461883accbe8c97a488",
+        "raw_probcopa_human_clean.jsonl": "6f962ca7ca738e24998d573a8842e6a8095963edc559cc9dbbf2acbeeae5421f"
+      },
+      "hypotheses": [
+        "B1",
+        "B3",
+        "B4",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "E1",
+        "E2"
+      ],
+      "development_acceptance": {
+        "planned": 618,
+        "admitted": 618,
+        "first_parsed": 617,
+        "missing": 0,
+        "first_rate": 0.9983818770226537,
+        "missing_rate": 0.0,
+        "acceptance": true,
+        "by_condition": {
+          "('A', 'direct', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('A', 'multi', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 50,
+            "weights_compliant": 50
+          },
+          "('B', 'direct', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('B', 'multi', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 120,
+            "weights_compliant": 120
+          },
+          "('C', 'direct', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('C', 'multi', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 48,
+            "weights_compliant": 48
+          },
+          "('D', 'direct', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('D', 'multi', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 35,
+            "weights_compliant": 35
+          },
+          "('E', 'direct', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('E', 'multi', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 56,
+            "weights_compliant": 56
+          }
+        },
+        "refusal_note": "解析失败不自动视为拒答；外壳无统一拒答标记"
+      }
+    },
+    "agy:gemini-3.8-flash-high": {
+      "fingerprint_id": "a532f2d198d661032c96b98e9eb0c88e15f391400c4e789dc0c8e9f652fe0a11",
+      "fingerprint": {
+        "manifest.py": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db",
+        "run_psych3.py": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0",
+        "../dnli/parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+        "../dnli/run.py": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614",
+        "a_eligibility.json": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064",
+        "a_anchors.json": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b",
+        "a_selfwritten_items.json": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba",
+        "a_split.json": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff",
+        "b_pairing.json": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17",
+        "b_canary_log.json": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb",
+        "b_manifest.json": "c98169d2775dc4d3f3e93ac08e9073422e28f8893d3c959622f00def3ca1a83f",
+        "conjunction_items.json": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f",
+        "items_e_draft.json": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286",
+        "prompts_a.py": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1",
+        "prompts_b.py": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618",
+        "prompts_c.py": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236",
+        "prompts_d.py": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e",
+        "prompts_e.py": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7",
+        "parse_a.py": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c",
+        "parse_d.py": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d",
+        "../dnli-agy/agy_subject.py": "f3e679771636ecf40e535ab1968641cb70ce83b9f6bd3cf61e035d26e3bdd9b3",
+        "../dnli-agy/run_agy.py": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2",
+        "../dnli-agy/configs.py": "1d11a0120b355ea14c5d56966be5c62a2f690ce95c4ee41981e4a004be8790d8",
+        "../dnli-agy/workspace_temp.py": "cd8f154fcd1685aa6104d3dfb5c2994ab8bccc380eba6ca5e0e5e1bd1f33527d",
+        "../dnli-agy/agent/dnli-subject.md": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5",
+        "parse_context": "38755aa1d94ea80760af3739038b9d3ff8a0921f34a88ccec7842df1aed8a8b7",
+        "manifest_ids": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3",
+        "config": "agy:gemini-3.8-flash-high",
+        "subject_meta": {
+          "model": "gemini-3.8-flash-high",
+          "baseline": {
+            "agy_version": "1.4.0",
+            "permissions_sha256": "f796d6fae930f1a4cc3a75f2f1f8b937cea0195bff1a75837fd9ab8943b5ea1e",
+            "settings_keys": [
+              "colorScheme",
+              "permissions",
+              "trustedWorkspaces"
+            ],
+            "agent_sha256": "709c6712f5a898d1f021e047b9fc44a9397f59c5bfa52c6bd790f3cf02ed8cb5",
+            "reported_model": null,
+            "tools_sha256": null,
+            "permission_mode": null
+          },
+          "timeout": 600,
+          "rate_patterns": [
+            "(?<!\\w)429(?!\\w)",
+            "\\bRESOURCE_EXHAUSTED\\b",
+            "\\brate[ _-]+limit(?:ed|ing|[ _-]+exceeded)?\\b",
+            "\\bquota[ _-]+(?:exceeded|exhausted)\\b",
+            "\\btoo many requests\\b"
+          ]
+        },
+        "retry_policy": {
+          "parse": 1,
+          "codex_contamination": 1,
+          "disconnect_streak": 3,
+          "agy_resample_streak": 3,
+          "agy_rate": [
+            300,
+            3600,
+            21600,
+            259200
+          ]
+        },
+        "psych3_agy_night": {
+          "python_sha256": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086",
+          "powershell_sha256": "42f8e9ee8915f55ecb5cd4d8b00e1b3573dceb30afc93bafb8a04744499a4765",
+          "recovery_rules_sha256": "9e728d3c82de38bd9e74624b41538ea37270ea6c2c6386eace216be7a516b77e",
+          "workers": 4,
+          "timezone": "Asia/Shanghai",
+          "admission": "00:00-07:45",
+          "hard_stop": "08:00",
+          "auto_clear_limit": 8
+        }
+      },
+      "code": {
+        "files": {
+          "psych3\\analyse_psych3.py": "01dea9965eeeae5beeb365a15d2ee6ae3ac9be07ec11dd1a3e3cb85302041cf6",
+          "psych3\\analysis_psych3.py": "46a7b7be862e3a62269a3d99fbaa133d56e7bda8315afa096eb5c25cfdfd5211",
+          "psych3\\power_psych3.py": "7bd330cabfe95285b3bc62079cd28cedaa2abbaf64ee68dc4d6427203b6d817c",
+          "psych3\\run_psych3.py": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0",
+          "psych3\\manifest.py": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db",
+          "psych3\\agy_night.py": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086",
+          "dnli\\run.py": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614",
+          "dnli-agy\\run_agy.py": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2"
+        },
+        "B": 5000,
+        "seed": 2026101903,
+        "alpha": 0.05,
+        "specs": {
+          "A1": {
+            "sided": 1,
+            "threshold": 0.1
+          },
+          "A2": {
+            "sided": 1,
+            "threshold": 0.1
+          },
+          "A3": {
+            "sided": 2,
+            "threshold": 0.1
+          },
+          "A4": {
+            "sided": 2,
+            "threshold": 0.1
+          },
+          "B1": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "B2": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "B3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "B4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "C1": {
+            "sided": 1,
+            "threshold": 0.2
+          },
+          "C2": {
+            "sided": 1,
+            "threshold": 0.2
+          },
+          "C3": {
+            "sided": 2,
+            "threshold": 0.2
+          },
+          "C4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "D1": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "D2": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "D3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "D4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E1": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E2": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E4": {
+            "sided": 2,
+            "threshold": 5.0
+          }
+        }
+      },
+      "materials": {
+        "PLAN.md": "67e50d8dc319ad89b557d79f6acb6f37c565f99ab2f10a8d9b9413f7faa2271c",
+        "a_anchors.json": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b",
+        "a_eligibility.json": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064",
+        "a_selfwritten_items.json": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba",
+        "a_split.json": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff",
+        "b_canary_log.json": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb",
+        "b_manifest.json": "c98169d2775dc4d3f3e93ac08e9073422e28f8893d3c959622f00def3ca1a83f",
+        "b_pairing.json": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17",
+        "conjunction_items.json": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f",
+        "gen_a.py": "6f6eaa7bf9ad0abca788dd80b0f89b4bda6f6c86d57ac48b9e5b525e69cd435e",
+        "gen_b.py": "8f5d376704ac586a890b3d841255950daa27a76675ced39b617033cf3be8953e",
+        "gen_c.py": "6af2285d7fe41b96d32f040be45745ff122fa13ccf4be660bdee563e202193c3",
+        "gen_d.py": "75c77e45394ccb1d53d9958c743db3b160afe605012364f761ef85f758374690",
+        "gen_e.py": "86618d9f5e2fff71504829e1e19575eeb0adafeba92325de3c661f5e5b1a5baf",
+        "items_c.json": "ce6e56d69b555f60aad51951654cde8813ae785c458d02015194c0431970a288",
+        "items_d.json": "5aa99a474ebdfea75d9f5bda0e8176342fc50efd70cd1245670e1cb944702b35",
+        "items_e.json": "79871974062fe0f303d30f5ed8ba6b715bf943cfffc075cb10a15e91f8c211d4",
+        "items_e_draft.json": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286",
+        "manifest_ids.json": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3",
+        "parse_a.py": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c",
+        "parse_d.py": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d",
+        "prompts_a.py": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1",
+        "prompts_b.py": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618",
+        "prompts_c.py": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236",
+        "prompts_d.py": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e",
+        "prompts_e.py": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7",
+        "raw_items_a.json": "5938fa179d2d64ea904f7815ec03cb05ef0b9cfc3234e6bb94e0b766b28a5305",
+        "raw_items_b.json": "609e8ef816eba2b47b41b9fc3f60e1aad05baf91555f147e3802ace448d4e959",
+        "raw_manifest.json": "1bf109881ac008a495e90c980012d2bf92b37a6394cf4461883accbe8c97a488",
+        "raw_probcopa_human_clean.jsonl": "6f962ca7ca738e24998d573a8842e6a8095963edc559cc9dbbf2acbeeae5421f"
+      },
+      "hypotheses": [
+        "B1",
+        "B2",
+        "B3",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "E1",
+        "E2",
+        "E4"
+      ],
+      "development_acceptance": {
+        "planned": 618,
+        "admitted": 618,
+        "first_parsed": 616,
+        "missing": 0,
+        "first_rate": 0.9967637540453075,
+        "missing_rate": 0.0,
+        "acceptance": true,
+        "by_condition": {
+          "('A', 'direct', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('A', 'multi', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 50,
+            "weights_compliant": 50
+          },
+          "('B', 'direct', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('B', 'multi', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 120,
+            "weights_compliant": 120
+          },
+          "('C', 'direct', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('C', 'multi', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 48,
+            "weights_compliant": 48
+          },
+          "('D', 'direct', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('D', 'multi', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 35,
+            "weights_compliant": 35
+          },
+          "('E', 'direct', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('E', 'multi', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 56,
+            "weights_compliant": 56
+          }
+        },
+        "refusal_note": "解析失败不自动视为拒答；外壳无统一拒答标记"
+      }
+    },
+    "codex": {
+      "fingerprint_id": "02801ac0f09c816ea0ceadd1d59dd4041475cb4be6ade960cd4b1e59e957d8db",
+      "fingerprint": {
+        "manifest.py": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db",
+        "run_psych3.py": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0",
+        "../dnli/parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+        "../dnli/run.py": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614",
+        "a_eligibility.json": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064",
+        "a_anchors.json": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b",
+        "a_selfwritten_items.json": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba",
+        "a_split.json": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff",
+        "b_pairing.json": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17",
+        "b_canary_log.json": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb",
+        "b_manifest.json": "c98169d2775dc4d3f3e93ac08e9073422e28f8893d3c959622f00def3ca1a83f",
+        "conjunction_items.json": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f",
+        "items_e_draft.json": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286",
+        "prompts_a.py": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1",
+        "prompts_b.py": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618",
+        "prompts_c.py": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236",
+        "prompts_d.py": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e",
+        "prompts_e.py": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7",
+        "parse_a.py": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c",
+        "parse_d.py": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d",
+        "../dnli/codex_subject.py": "5cb7d46d3d94c6a116e1cdf0565871fac8fbca8da2146017b5aa818ff4850788",
+        "../vs-pilot/subject.py": "513dabadb5ff2f3cd31b45355b309d53fafc0607f5020b27dc9fc88669ee70c2",
+        "parse_context": "38755aa1d94ea80760af3739038b9d3ff8a0921f34a88ccec7842df1aed8a8b7",
+        "manifest_ids": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3",
+        "config": "codex",
+        "subject_meta": {
+          "exe": "E:\\Claude\\tools\\codex-0.163.0-alpha.10.2\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\bin\\codex.exe",
+          "version": "codex-cli 0.163.0-alpha.10.2",
+          "login": "Logged in using ChatGPT",
+          "model": "gpt-6.1-sol",
+          "effort": "medium",
+          "isolation_args": [
+            "exec",
+            "--ignore-user-config",
+            "--ignore-rules",
+            "-m",
+            "gpt-6.1-sol",
+            "-c",
+            "model_reasoning_effort=\"medium\"",
+            "-s",
+            "read-only",
+            "--ephemeral",
+            "--skip-git-repo-check",
+            "--json",
+            "-c",
+            "web_search=\"disabled\"",
+            "-c",
+            "agents.enabled=false",
+            "-c",
+            "skills.include_instructions=false",
+            "-c",
+            "include_permissions_instructions=false",
+            "-c",
+            "include_environment_context=false",
+            "-c",
+            "include_apps_instructions=false",
+            "-c",
+            "include_collaboration_mode_instructions=false",
+            "-c",
+            "project_doc_max_bytes=0",
+            "--disable",
+            "multi_agent",
+            "--disable",
+            "apps",
+            "--disable",
+            "plugins",
+            "--disable",
+            "memories",
+            "--disable",
+            "skill_search",
+            "--disable",
+            "tool_suggest",
+            "--disable",
+            "shell_tool",
+            "--disable",
+            "unified_exec",
+            "--disable",
+            "image_generation",
+            "--disable",
+            "browser_use",
+            "--disable",
+            "computer_use",
+            "--disable",
+            "goals",
+            "--disable",
+            "sleep_tool",
+            "--disable",
+            "hooks",
+            "--disable",
+            "code_mode_host",
+            "--disable",
+            "view_image",
+            "--disable",
+            "browser_annotation_api",
+            "--disable",
+            "browser_use_external",
+            "--disable",
+            "browser_use_full_cdp_access",
+            "--disable",
+            "in_app_browser",
+            "--disable",
+            "in_app_local_automation",
+            "--disable",
+            "remote_plugin",
+            "--disable",
+            "plugin_sharing",
+            "--disable",
+            "shell_snapshot",
+            "--disable",
+            "unified_exec_tty",
+            "--disable",
+            "write_stdin_approval",
+            "--disable",
+            "skill_mcp_dependency_install",
+            "--disable",
+            "tool_call_mcp_elicitation",
+            "--disable",
+            "workspace_dependencies",
+            "--disable",
+            "realtime_conversation"
+          ],
+          "rust_log": "codex_core=trace,codex_exec=debug",
+          "instruction_sources": {
+            "codex_home_env": null,
+            "codex_home": "C:\\Users\\asj\\.codex",
+            "codex_home_is_default": true,
+            "AGENTS.override.md": {
+              "exists": false,
+              "sha256": null
+            },
+            "AGENTS.md": {
+              "exists": true,
+              "sha256": "d374b22c8e2e1b8c1d9bca80b2edadfa8f8a74aa252cefaa83430398e94d27b9"
+            }
+          },
+          "instruction_fingerprint": "bf05d38cced9fe6c20a9e1c1a1aff097ad858e1976d5cc8820aeccaf839c3d5b",
+          "subject_py_sha256": "513dabadb5ff2f3cd31b45355b309d53fafc0607f5020b27dc9fc88669ee70c2",
+          "exe_sha256": "76b4bfc83785f31c59ec384760003109410132bab602a2115d83e88e04a6dc47"
+        },
+        "retry_policy": {
+          "parse": 1,
+          "codex_contamination": 1,
+          "disconnect_streak": 3,
+          "agy_resample_streak": 3,
+          "agy_rate": [
+            300,
+            3600,
+            21600,
+            259200
+          ]
+        }
+      },
+      "code": {
+        "files": {
+          "psych3\\analyse_psych3.py": "01dea9965eeeae5beeb365a15d2ee6ae3ac9be07ec11dd1a3e3cb85302041cf6",
+          "psych3\\analysis_psych3.py": "46a7b7be862e3a62269a3d99fbaa133d56e7bda8315afa096eb5c25cfdfd5211",
+          "psych3\\power_psych3.py": "7bd330cabfe95285b3bc62079cd28cedaa2abbaf64ee68dc4d6427203b6d817c",
+          "psych3\\run_psych3.py": "dd697f614f51a024f78561bcb13a9e87c7360f053acf9a82bd32a7c2296bced0",
+          "psych3\\manifest.py": "4784ddfd05bdc423b594ce738b2f6656eb0dcf5f2fa5160af5fbb1c62e9a83db",
+          "psych3\\agy_night.py": "8390d33f036fb8fb204c8dc95b0ae30c7dcb655902468f81d1d27c2887f43086",
+          "dnli\\run.py": "ff18a000ce68a6fbd79240ae19b73e6e10699db8db4b27699693734a8fc75614",
+          "dnli-agy\\run_agy.py": "6aa83ddb5368d9e82ab297a2704dfaca1f157c278e7a63e20a90f28b301e93f2"
+        },
+        "B": 5000,
+        "seed": 2026101903,
+        "alpha": 0.05,
+        "specs": {
+          "A1": {
+            "sided": 1,
+            "threshold": 0.1
+          },
+          "A2": {
+            "sided": 1,
+            "threshold": 0.1
+          },
+          "A3": {
+            "sided": 2,
+            "threshold": 0.1
+          },
+          "A4": {
+            "sided": 2,
+            "threshold": 0.1
+          },
+          "B1": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "B2": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "B3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "B4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "C1": {
+            "sided": 1,
+            "threshold": 0.2
+          },
+          "C2": {
+            "sided": 1,
+            "threshold": 0.2
+          },
+          "C3": {
+            "sided": 2,
+            "threshold": 0.2
+          },
+          "C4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "D1": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "D2": {
+            "sided": 1,
+            "threshold": 5.0
+          },
+          "D3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "D4": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E1": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E2": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E3": {
+            "sided": 2,
+            "threshold": 5.0
+          },
+          "E4": {
+            "sided": 2,
+            "threshold": 5.0
+          }
+        }
+      },
+      "materials": {
+        "PLAN.md": "67e50d8dc319ad89b557d79f6acb6f37c565f99ab2f10a8d9b9413f7faa2271c",
+        "a_anchors.json": "7d26b7761fffb9aad28c435a668b12628f3b3fbc5d11936fd846aaf2b5079e4b",
+        "a_eligibility.json": "27d357493763e80470075c506f225b4f44de7af6dba827c9eaf20934f77a3064",
+        "a_selfwritten_items.json": "410cce6cdb7ff92c9f59ecf2d1630f256873a52293900cb79d1b79385b88f5ba",
+        "a_split.json": "e23979ebc1a2aee515227ba7d6bcaf154e0ce63711a40fe37ce83fb3eb98a5ff",
+        "b_canary_log.json": "3bc335e0588f7b024d76c701362e4c96ee18f2b7cc8a63e65b75f81b414b08bb",
+        "b_manifest.json": "c98169d2775dc4d3f3e93ac08e9073422e28f8893d3c959622f00def3ca1a83f",
+        "b_pairing.json": "11cb2b270f526c85c70d10c423ef5469bc581b7d29136987f7efa5951fbeee17",
+        "conjunction_items.json": "cfe66533ebc765c4cb6a475c7f3fa3649e1a3be1255eb2ef5547a1e964265e8f",
+        "gen_a.py": "6f6eaa7bf9ad0abca788dd80b0f89b4bda6f6c86d57ac48b9e5b525e69cd435e",
+        "gen_b.py": "8f5d376704ac586a890b3d841255950daa27a76675ced39b617033cf3be8953e",
+        "gen_c.py": "6af2285d7fe41b96d32f040be45745ff122fa13ccf4be660bdee563e202193c3",
+        "gen_d.py": "75c77e45394ccb1d53d9958c743db3b160afe605012364f761ef85f758374690",
+        "gen_e.py": "86618d9f5e2fff71504829e1e19575eeb0adafeba92325de3c661f5e5b1a5baf",
+        "items_c.json": "ce6e56d69b555f60aad51951654cde8813ae785c458d02015194c0431970a288",
+        "items_d.json": "5aa99a474ebdfea75d9f5bda0e8176342fc50efd70cd1245670e1cb944702b35",
+        "items_e.json": "79871974062fe0f303d30f5ed8ba6b715bf943cfffc075cb10a15e91f8c211d4",
+        "items_e_draft.json": "386d26a53929bb59fa32a65dfa8d9515239ab9bc3e33a380a0fb46fb2fde6286",
+        "manifest_ids.json": "cab92fc7ae488dcb023a314c16a234d4f7121108d058fcde53f62b1d9d4aa4d3",
+        "parse_a.py": "f4c46abeacbe264145452d210b08ffdc2664e223cec88cd4262846e0f743388c",
+        "parse_d.py": "2e0bc8c846cd426d4b365e673bbd1476f0c5a05eaca5578e4b2de11745b0cb2d",
+        "prompts_a.py": "244dc5ae810b1c139cd0039e384e61e32408d296d6dce24518cd796682df4ad1",
+        "prompts_b.py": "39890e11250aea1f5eedf88b0eef385124ef2264697d98a8babd8cd7192c7618",
+        "prompts_c.py": "45d6e3a3121e69bc7aaeecbb34b7754382d7d64139800b4a54ce7d8a0790d236",
+        "prompts_d.py": "59be3fe208477179dd1917d5dad4aa89548446dd6a8cb2ada9db39ed9015482e",
+        "prompts_e.py": "4bcb4cbf8c78c45d02e74e2b88d29b64839dfbf9c8ef972b3ac9d529c3387ac7",
+        "raw_items_a.json": "5938fa179d2d64ea904f7815ec03cb05ef0b9cfc3234e6bb94e0b766b28a5305",
+        "raw_items_b.json": "609e8ef816eba2b47b41b9fc3f60e1aad05baf91555f147e3802ace448d4e959",
+        "raw_manifest.json": "1bf109881ac008a495e90c980012d2bf92b37a6394cf4461883accbe8c97a488",
+        "raw_probcopa_human_clean.jsonl": "6f962ca7ca738e24998d573a8842e6a8095963edc559cc9dbbf2acbeeae5421f"
+      },
+      "hypotheses": [
+        "B1",
+        "B3",
+        "B4",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "E1",
+        "E2",
+        "E3",
+        "E4"
+      ],
+      "development_acceptance": {
+        "planned": 618,
+        "admitted": 618,
+        "first_parsed": 618,
+        "missing": 0,
+        "first_rate": 1.0,
+        "missing_rate": 0.0,
+        "acceptance": true,
+        "by_condition": {
+          "('A', 'direct', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('A', 'multi', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 50,
+            "weights_compliant": 50
+          },
+          "('B', 'direct', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('B', 'multi', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 120,
+            "weights_compliant": 120
+          },
+          "('C', 'direct', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('C', 'multi', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 48,
+            "weights_compliant": 48
+          },
+          "('D', 'direct', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('D', 'multi', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 35,
+            "weights_compliant": 35
+          },
+          "('E', 'direct', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('E', 'multi', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 56,
+            "weights_compliant": 56
+          }
+        },
+        "refusal_note": "解析失败不自动视为拒答；外壳无统一拒答标记"
+      }
+    }
+  }
+}

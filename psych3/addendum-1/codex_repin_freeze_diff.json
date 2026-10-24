@@ -1,0 +1,34 @@
+{
+  "old_fingerprint_id": "0fe9f96afb8af3f2e8a994d4711144ff0aafbcc47e52c5ba51805ee3cd82c51b",
+  "new_fingerprint_id": "02801ac0f09c816ea0ceadd1d59dd4041475cb4be6ade960cd4b1e59e957d8db",
+  "executable": {
+    "exe": "E:\\Claude\\tools\\codex-0.163.0-alpha.10.2\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\bin\\codex.exe",
+    "sha256": "76b4bfc83785f31c59ec384760003109410132bab602a2115d83e88e04a6dc47"
+  },
+  "differences": [
+    {
+      "field": "fingerprint.subject_meta.exe",
+      "old": "C:\\Users\\asj\\AppData\\Local\\OpenAI\\Codex\\bin\\896a0166b774037a\\codex.exe",
+      "new": "E:\\Claude\\tools\\codex-0.163.0-alpha.10.2\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\bin\\codex.exe"
+    },
+    {
+      "field": "fingerprint.subject_meta.exe_sha256",
+      "old": null,
+      "new": "76b4bfc83785f31c59ec384760003109410132bab602a2115d83e88e04a6dc47",
+      "old_present": false,
+      "new_present": true
+    },
+    {
+      "field": "fingerprint.subject_meta.model_entry_sha256",
+      "old": "bfb13398db3e0039f4f5290fb17a51e9b776a9c977a9ac24a3f464f85f814a56",
+      "new": null,
+      "old_present": true,
+      "new_present": false
+    },
+    {
+      "field": "fingerprint_id",
+      "old": "0fe9f96afb8af3f2e8a994d4711144ff0aafbcc47e52c5ba51805ee3cd82c51b",
+      "new": "02801ac0f09c816ea0ceadd1d59dd4041475cb4be6ade960cd4b1e59e957d8db"
+    }
+  ]
+}

@@ -12,3 +12,9 @@
 The files of commit `802d760` are the preregistration. This record was added in a later commit so that it can name that commit; it does not change any of the preregistered files. `verify_prereg.py` was run on a fresh clone of `802d760` and reported `ok: true` for all 80 listed files (the five third-party-derived files are listed as to be acquired by the reader; see `third-party-data.md`).
 
 Any change after this point, including deviations during the formal runs, will be reported in a separate addendum and will not edit the preregistered files.
+
+## Addenda
+
+| Addendum | Summary | Folder |
+|---|---|---|
+| 1 (2026-10-24) | Codex: same CLI version reinstalled from npm after the desktop app removed the pinned one; model catalogue entry no longer in the fingerprint; development set re-run; only the Codex freeze entry replaced. Published before any Codex formal unit. | [`addendum-1/`](addendum-1/ADDENDUM-1.md) |

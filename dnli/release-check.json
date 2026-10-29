@@ -1047,8 +1047,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "b24933f241790e6397d5ef46e91b337f7c0afbc4b5ff1ab111d354438ca72166",
-      "bytes": 7358,
+      "sha256": "0b3fe2915b330d947da86923dbdcdf06b6cef520fcc96e78189f4ea943f7fd08",
+      "bytes": 7386,
       "path_replacements": 0,
       "source": "template/README.md"
     },
@@ -1068,8 +1068,8 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "2e224a6cb58d3f10fd24b0cbd7f4f99008019733323246f918efd6aa065c76fe",
-      "bytes": 464,
+      "sha256": "82eb3ff3b8833090a2b86d6d20fc1e46e08406268adb7a90e5cccc9f74d43c3d",
+      "bytes": 466,
       "path_replacements": 0,
       "source": "template/CITATION.cff"
     },
@@ -1131,7 +1131,7 @@
     }
   ],
   "file_count": 149,
-  "total_bytes": 51065353,
+  "total_bytes": 51065383,
   "path_replacements": 39,
   "items_text_included": true,
   "verbatim_files": [

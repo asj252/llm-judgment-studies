@@ -1,6 +1,6 @@
 # psych3 preregistration
 
-This is the public preregistration package for five experiments comparing a single estimate with five weighted estimates. No formal-run results are included. `PLAN.md` is in Chinese; sections 1–8 contain the main design and freeze rules, and section 7.2 specifies the final confirmatory lists.
+This is the public preregistration package for five experiments comparing a single estimate with five weighted estimates. The frozen preregistration files are unchanged. Machine-readable Tables G2 and G3 from the first report are available in [supplement-v1/](supplement-v1/); other formal-run result and analysis artifacts are not included here. `PLAN.md` is in Chinese; sections 1–8 contain the main design and freeze rules, and section 7.2 specifies the final confirmatory lists.
 
 - Original freeze record: PLAN v0.7, dated 2026-10-22; frozen state committed at `2026-10-22T10:19:46+08:00` in internal research-repository commit `f0e52d1`. This is the commit time; the exact freeze execution time is not established by this record.
 - First public preregistration commit: after pushing this package to <https://github.com/asj252/llm-judgment-studies>, a will record that first public commit's hash and timestamp in a subsequent explanatory commit, before any formal run. The explanatory commit will identify the earlier publication commit, avoiding a self-reference.

@@ -1,0 +1,26 @@
+{
+  "source": "Reviewed English manuscript Appendix G, Tables G2 and G3",
+  "source_appendices_filename": "appendices-en.md",
+  "source_appendices_sha256": "58b66ba516a2261d29100889bada938db71a995c4a23348236919ba50a1f2c37",
+  "scope": "Three completed configurations; formal r0 only; nonpreregistered descriptive analyses",
+  "export": "Existing displayed cell strings copied without recalculation; CSV quoting only",
+  "files": [
+    {
+      "table": "G2",
+      "file": "g2-spread-by-condition.csv",
+      "data_rows": 99,
+      "columns": 9,
+      "sha256": "476a1749a38bfda1d6cd6e852a3b14b83da73aa6581257ba7db0eacdd3f5b4d6"
+    },
+    {
+      "table": "G3",
+      "file": "g3-paired-cell-counts.csv",
+      "data_rows": 741,
+      "columns": 5,
+      "sha256": "8f8a88d80b1831cec348018be22d8e539430020db579e0922d0982fac12711b4"
+    }
+  ],
+  "cell_differences": 0,
+  "contains_item_text": false,
+  "contains_raw_model_responses": false
+}

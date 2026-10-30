@@ -2593,10 +2593,10 @@
     {
       "path": "psych3/README.md",
       "source": "connecting-dots/psych3/release/README.md",
-      "sha256": "cd7ee25649a0987a8e4cc73f649461e27080cf07b7fe2cec3538e84a2d17990b",
-      "bytes": 10871,
+      "sha256": "cae76a43b6084c22b26552a68781563a917405de25bbcdb4f6ba4581aa6d35b9",
+      "bytes": 11060,
       "category": "release_support",
-      "byte_preserved": true,
+      "byte_preserved": false,
       "frozen_or_fingerprint_bound": false,
       "bindings": []
     },
@@ -2632,7 +2632,7 @@
     }
   ],
   "file_count": 80,
-  "total_bytes": 4727311,
+  "total_bytes": 4727500,
   "exclusions": {
     "third_party": [
       "b_manifest.json",

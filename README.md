@@ -8,6 +8,7 @@ One repository for a series of studies on how large language models report proba
 |---|---|---|
 | [`dnli/`](dnli/) | *Hearsay or Fact? How Framing and Elicitation Shape LLM Probability Updates* (δ-NLI); [arXiv:2610.27745](https://arxiv.org/abs/2610.27745) | Frozen experiment, the extension with four further configurations (`dnli/agy-extension/`), and the English manuscript v2 (seven configurations). |
 | [`psych3/`](psych3/) | Elicitation format in anchoring, hindsight, base-rate, conjunction and status-quo/default paradigms | Preregistration: frozen plan, analysis freeze, materials and code, published before the formal runs ([record](psych3/PREREGISTRATION_RECORD.md)). No results yet. |
+| [`imperfective/`](imperfective/) | Imperfective paradox, discrete-label vs. probability elicitation, and multi-estimate stacking on English `ImperfectiveNLI` (Experiment 1) | Preregistration: frozen Experiment 1 specification (`PLAN-E1.md`), execution manifest, split/token materials, runner, and sealed Scheme A statistical engine, published before the formal runs ([record](imperfective/PREREGISTRATION_RECORD.md)). No results yet. |
 
 `dnli-agy/` and `vs-pilot/` at the top level hold unmodified copies of shared code that the psych3 freeze binds by hash; `dnli/code/` keeps the path-redacted copies used by the δ-NLI release.
 

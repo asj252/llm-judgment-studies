@@ -1,0 +1,2354 @@
+{
+  "schema_version": "step5b-candidate-selection-v1",
+  "replicates": 2000,
+  "bootstrap_replicates": 5000,
+  "n_ac": 80,
+  "n_bd": 80,
+  "sealed_identity_verified": true,
+  "verified_integrity_gates": {
+    "validation": {
+      "code_sha256": "4e7030de928ec5a7a9fe398c557795ccd4f34a1693c7cebda475a675386537b1",
+      "exact_tango_tables_sha256": "090bfbb5a859238ad05100443b4727c61644e030fd2d5e05359c5d575f4c46bf",
+      "exact_tango_tables_payload_sha256": "696ee99245213ad6e7c9fe13d45b1cd239a6e62462888bba86e54a50f82dd89a",
+      "source_sha256": "fe61db83ecf6cbb3c263f889c9708d038e3bd9fa178c15ed035aae434321ce59",
+      "split_sha256": "6821a3b3ad2378d51c683b8abc8a5b45d402b9997e3c8957bcda95cd0ef289b7",
+      "manifest_sha256": "cffc2a244e8bc18916fb8119aba372818c75ac2deb3f176e3d09aef8cac327f5",
+      "populations_sha256": "c48be1f0f9391614019c8182f04ca531bf9cc57acd86ad6e246375eed9b80b4b"
+    },
+    "power_grid": {
+      "code_sha256": "4e7030de928ec5a7a9fe398c557795ccd4f34a1693c7cebda475a675386537b1",
+      "exact_tango_tables_sha256": "090bfbb5a859238ad05100443b4727c61644e030fd2d5e05359c5d575f4c46bf",
+      "exact_tango_tables_payload_sha256": "696ee99245213ad6e7c9fe13d45b1cd239a6e62462888bba86e54a50f82dd89a",
+      "source_sha256": "fe61db83ecf6cbb3c263f889c9708d038e3bd9fa178c15ed035aae434321ce59",
+      "split_sha256": "6821a3b3ad2378d51c683b8abc8a5b45d402b9997e3c8957bcda95cd0ef289b7",
+      "manifest_sha256": "38065327b600a5db6b73c2c21254bfb8358da8edd54be1427392495555a29bdc",
+      "populations_sha256": "4a98ed26d03747b8a2f1fccdf9e17ff31cfb2aae4338f7919ef8699c66d68cfc"
+    }
+  },
+  "seed_banks": {
+    "validation": 2026110101,
+    "power_grid": 2026110111,
+    "confirmation_reserved_hard_disabled": 2026110102,
+    "pilot_reference": 2026103103
+  },
+  "s5_frozen": false,
+  "confirmation_bank_hard_disabled": true,
+  "confirmation_status": "confirmation_not_run",
+  "selection_decision": {
+    "branch_id": 4,
+    "truth_pair": [
+      false,
+      false
+    ],
+    "E_1_hybrid_pct_tango": false,
+    "E_2_hybrid_bessel_t_tango": false,
+    "recommended_method": null,
+    "rationale": "Neither hybrid candidate satisfied E_j = C_j and D_j and P_j; zero threshold relaxation enforced, recommended_method = None, stopping for user adjudication."
+  },
+  "candidates": {
+    "hybrid_pct_tango": {
+      "method": "hybrid_pct_tango",
+      "eligible": false,
+      "C_j": {
+        "gate": "C_j",
+        "passed": false,
+        "cells_passed_9875": 82,
+        "expected_cells": 88,
+        "failed_cells": [
+          {
+            "cell_index": 0,
+            "cell_name": "regular-null",
+            "failed_checks": [
+              "screen0125"
+            ],
+            "fwer": 0.056,
+            "family_direction_error": 0.056,
+            "simultaneous_coverage_9875": 0.9525
+          },
+          {
+            "cell_index": 4,
+            "cell_name": "regular-partial-null-bd",
+            "failed_checks": [
+              "screen0125"
+            ],
+            "fwer": 0.036,
+            "family_direction_error": 0.037,
+            "simultaneous_coverage_9875": 0.944
+          },
+          {
+            "cell_index": 48,
+            "cell_name": "block3-SA4--0.45",
+            "failed_checks": [
+              "screen0125"
+            ],
+            "fwer": 0.054,
+            "family_direction_error": 0.054,
+            "simultaneous_coverage_9875": 0.9465
+          },
+          {
+            "cell_index": 64,
+            "cell_name": "ties-SA4--0.30",
+            "failed_checks": [
+              "screen0125"
+            ],
+            "fwer": 0.0515,
+            "family_direction_error": 0.0515,
+            "simultaneous_coverage_9875": 0.9545
+          },
+          {
+            "cell_index": 67,
+            "cell_name": "pinned-SA4-devlike",
+            "failed_checks": [
+              "screen0125"
+            ],
+            "fwer": 0.0495,
+            "family_direction_error": 0.0495,
+            "simultaneous_coverage_9875": 0.959
+          },
+          {
+            "cell_index": 68,
+            "cell_name": "pinned-SA4-moderate-ceiling",
+            "failed_checks": [
+              "screen0125"
+            ],
+            "fwer": 0.0505,
+            "family_direction_error": 0.0505,
+            "simultaneous_coverage_9875": 0.9545
+          }
+        ]
+      },
+      "D_j": {
+        "gate": "D_j",
+        "passed": true,
+        "n_passed": 5,
+        "n_items": 5,
+        "items": [
+          {
+            "gate_id": "D01",
+            "bank": "validation",
+            "cell_name": "pinned-SA1-devlike",
+            "cell_index": 65,
+            "fingerprint": "88cc3a7e6854ae3163b637f63662d1a0be402424fce929cefe683025e80aaaf2",
+            "max_degeneracy_rate": 0.0,
+            "max_degeneracy_threshold": 0.2,
+            "slot_degeneracy_rates": {
+              "SA1": 0.0,
+              "SA2": 0.0,
+              "SA3": 0.0,
+              "SA4": 0.0
+            },
+            "passed": true
+          },
+          {
+            "gate_id": "D02",
+            "bank": "validation",
+            "cell_name": "pinned-SA1-shrunken",
+            "cell_index": 66,
+            "fingerprint": "82945d20336a5c88f2bc4c4210183a2ac1ade655c37631be75c6a1cba512835c",
+            "max_degeneracy_rate": 0.0,
+            "max_degeneracy_threshold": 0.2,
+            "slot_degeneracy_rates": {
+              "SA1": 0.0,
+              "SA2": 0.0,
+              "SA3": 0.0,
+              "SA4": 0.0
+            },
+            "passed": true
+          },
+          {
+            "gate_id": "D03",
+            "bank": "validation",
+            "cell_name": "pinned-SA4-devlike",
+            "cell_index": 67,
+            "fingerprint": "2e7a44a6f6ff8de17e151c780b04c510ef5a9114e9dadce195486dc77eeca08a",
+            "max_degeneracy_rate": 0.0,
+            "max_degeneracy_threshold": 0.2,
+            "slot_degeneracy_rates": {
+              "SA1": 0.0,
+              "SA2": 0.0,
+              "SA3": 0.0,
+              "SA4": 0.0
+            },
+            "passed": true
+          },
+          {
+            "gate_id": "D04",
+            "bank": "validation",
+            "cell_name": "pinned-SA4-moderate-ceiling",
+            "cell_index": 68,
+            "fingerprint": "d662b9eb79b42b3476d5ce3862c2f518b2c82b5e13f282327202813a33db5f63",
+            "max_degeneracy_rate": 0.0,
+            "max_degeneracy_threshold": 0.2,
+            "slot_degeneracy_rates": {
+              "SA1": 0.0,
+              "SA2": 0.0,
+              "SA3": 0.0,
+              "SA4": 0.0
+            },
+            "passed": true
+          },
+          {
+            "gate_id": "D05",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "max_degeneracy_rate": 0.0,
+            "max_degeneracy_threshold": 0.2,
+            "slot_degeneracy_rates": {
+              "SA1": 0.0,
+              "SA2": 0.0,
+              "SA3": 0.0,
+              "SA4": 0.0
+            },
+            "passed": true
+          }
+        ]
+      },
+      "P_j": {
+        "gate": "P_j",
+        "passed": true,
+        "n_passed": 17,
+        "n_items": 17,
+        "by_group": {
+          "group_1_validation_empirical_observed": {
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "n_items": 5,
+            "n_passed": 5,
+            "passed": true
+          },
+          "group_2_power_grid_empirical_convex_1": {
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "n_items": 5,
+            "n_passed": 5,
+            "passed": true
+          },
+          "group_3_power_grid_pinned_high_effect_endpoints": {
+            "group": 3,
+            "group_name": "power_grid_pinned_high_effect_endpoints",
+            "n_items": 3,
+            "n_passed": 3,
+            "passed": true
+          },
+          "group_4_validation_historical_block3_discrete": {
+            "group": 4,
+            "group_name": "validation_historical_block3_discrete",
+            "n_items": 4,
+            "n_passed": 4,
+            "passed": true
+          }
+        },
+        "items": [
+          {
+            "item_id": "P01",
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA1",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.9885,
+            "shared_stream_percentile_mcse": 0.0023840878758971907,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.011499999999999955
+          },
+          {
+            "item_id": "P02",
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA2",
+            "rate": 0.9955,
+            "mcse": 0.0014966211945579198,
+            "lower_2mcse": 0.9925067576108842,
+            "ci_95": [
+              0.9925067576108842,
+              0.9984932423891159
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.99,
+            "shared_stream_percentile_mcse": 0.0022248595461287,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.00550000000000006
+          },
+          {
+            "item_id": "P03",
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA3",
+            "rate": 0.999,
+            "mcse": 0.0007067531393633852,
+            "lower_2mcse": 0.9975864937212733,
+            "ci_95": [
+              0.9975864937212733,
+              1.0004135062787267
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.999,
+            "shared_stream_percentile_mcse": 0.0007067531393633852,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P04",
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.0315,
+            "shared_stream_percentile_mcse": 0.0039056209493497957,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.9685
+          },
+          {
+            "item_id": "P05",
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "metric_kind": "all4_correct_direction",
+            "target": "all4",
+            "rate": 0.9945,
+            "mcse": 0.0016537457482938467,
+            "lower_2mcse": 0.9911925085034123,
+            "ci_95": [
+              0.9911925085034123,
+              0.9978074914965878
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.0315,
+            "shared_stream_percentile_mcse": 0.0039056209493497957,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.9630000000000001
+          },
+          {
+            "item_id": "P06",
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "bank": "power_grid",
+            "cell_name": "power-empirical-convex-1",
+            "cell_index": 55,
+            "fingerprint": "d9bb280fd9c53614a46c5de4d94d51d177a998b5579e30733a0786e7f0a090e9",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA1",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.991,
+            "shared_stream_percentile_mcse": 0.002111752826445369,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.009000000000000008
+          },
+          {
+            "item_id": "P07",
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "bank": "power_grid",
+            "cell_name": "power-empirical-convex-1",
+            "cell_index": 55,
+            "fingerprint": "d9bb280fd9c53614a46c5de4d94d51d177a998b5579e30733a0786e7f0a090e9",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA2",
+            "rate": 0.9955,
+            "mcse": 0.0014966211945579198,
+            "lower_2mcse": 0.9925067576108842,
+            "ci_95": [
+              0.9925067576108842,
+              0.9984932423891159
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.989,
+            "shared_stream_percentile_mcse": 0.0023322735688593665,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.006500000000000061
+          },
+          {
+            "item_id": "P08",
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "bank": "power_grid",
+            "cell_name": "power-empirical-convex-1",
+            "cell_index": 55,
+            "fingerprint": "d9bb280fd9c53614a46c5de4d94d51d177a998b5579e30733a0786e7f0a090e9",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA3",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 1.0,
+            "shared_stream_percentile_mcse": 0.0,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P09",
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "bank": "power_grid",
+            "cell_name": "power-empirical-convex-1",
+            "cell_index": 55,
+            "fingerprint": "d9bb280fd9c53614a46c5de4d94d51d177a998b5579e30733a0786e7f0a090e9",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.0435,
+            "shared_stream_percentile_mcse": 0.004561126505590478,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.9565
+          },
+          {
+            "item_id": "P10",
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "bank": "power_grid",
+            "cell_name": "power-empirical-convex-1",
+            "cell_index": 55,
+            "fingerprint": "d9bb280fd9c53614a46c5de4d94d51d177a998b5579e30733a0786e7f0a090e9",
+            "metric_kind": "all4_correct_direction",
+            "target": "all4",
+            "rate": 0.9955,
+            "mcse": 0.0014966211945579198,
+            "lower_2mcse": 0.9925067576108842,
+            "ci_95": [
+              0.9925067576108842,
+              0.9984932423891159
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.0435,
+            "shared_stream_percentile_mcse": 0.004561126505590478,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.9520000000000001
+          },
+          {
+            "item_id": "P11",
+            "group": 3,
+            "group_name": "power_grid_pinned_high_effect_endpoints",
+            "bank": "power_grid",
+            "cell_name": "power-SA1-pinned-0.20",
+            "cell_index": 11,
+            "fingerprint": "3bc782f7f7b4854c9334a54e6251fefecf0f2d8a04cc039863728e63595997d1",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA1",
+            "rate": 0.9995,
+            "mcse": 0.000499874984371065,
+            "lower_2mcse": 0.998500250031258,
+            "ci_95": [
+              0.998500250031258,
+              1.0004997499687422
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.991,
+            "shared_stream_percentile_mcse": 0.002111752826445369,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.008500000000000063
+          },
+          {
+            "item_id": "P12",
+            "group": 3,
+            "group_name": "power_grid_pinned_high_effect_endpoints",
+            "bank": "power_grid",
+            "cell_name": "power-SA4-pinned--0.90",
+            "cell_index": 50,
+            "fingerprint": "7ff80d9c9eb7cd8e31cb2358398c1d8836cb683e696fc63d2a0bd8cb321a28f2",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.491,
+            "shared_stream_percentile_mcse": 0.011178528525704981,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.509
+          },
+          {
+            "item_id": "P13",
+            "group": 3,
+            "group_name": "power_grid_pinned_high_effect_endpoints",
+            "bank": "power_grid",
+            "cell_name": "power-SA4-pinned--0.95",
+            "cell_index": 51,
+            "fingerprint": "b122c51d45f4d417dccd04b36d37b6a39b5b562cde033f8eee74885cad4defed",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.032,
+            "shared_stream_percentile_mcse": 0.0039354796403996304,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.968
+          },
+          {
+            "item_id": "P14",
+            "group": 4,
+            "group_name": "validation_historical_block3_discrete",
+            "bank": "validation",
+            "cell_name": "block3-SA1-0.15",
+            "cell_index": 35,
+            "fingerprint": "ec51b8f2930c99bafba8b3a6764321a7bdb6af78ff3fc9df05ce5998fff320b5",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA1",
+            "rate": 0.9885,
+            "mcse": 0.0023840878758971907,
+            "lower_2mcse": 0.9837318242482057,
+            "ci_95": [
+              0.9837318242482057,
+              0.9932681757517944
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.898,
+            "shared_stream_percentile_mcse": 0.006767421961131136,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.09050000000000002
+          },
+          {
+            "item_id": "P15",
+            "group": 4,
+            "group_name": "validation_historical_block3_discrete",
+            "bank": "validation",
+            "cell_name": "block3-SA1-0.20",
+            "cell_index": 36,
+            "fingerprint": "b91f734b3abab6a82ce05533d1182e497592c83cea4ed5b86c8de08b21771d6e",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA1",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.9875,
+            "shared_stream_percentile_mcse": 0.0024843258642939696,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.012499999999999956
+          },
+          {
+            "item_id": "P16",
+            "group": 4,
+            "group_name": "validation_historical_block3_discrete",
+            "bank": "validation",
+            "cell_name": "block3-SA4--0.30",
+            "cell_index": 49,
+            "fingerprint": "f5ccc65aa11aef81d3b4fccbcb0799efad51b9b998dc781b1f5ae0b088681e13",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 0.972,
+            "mcse": 0.0036889022757454573,
+            "lower_2mcse": 0.964622195448509,
+            "ci_95": [
+              0.964622195448509,
+              0.9793778045514909
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.974,
+            "shared_stream_percentile_mcse": 0.0035583704135460676,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": -0.0020000000000000018
+          },
+          {
+            "item_id": "P17",
+            "group": 4,
+            "group_name": "validation_historical_block3_discrete",
+            "bank": "validation",
+            "cell_name": "block3-SA4--0.45",
+            "cell_index": 48,
+            "fingerprint": "7b832aa4b372328e52eeddb57925feebad602f1a7a18918cffb97950bf54f591",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 1.0,
+            "shared_stream_percentile_mcse": 0.0,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          }
+        ]
+      },
+      "historical_block3_power_reference_8": [
+        {
+          "cell_name": "block3-SA1-0.15",
+          "cell_index": 35,
+          "fingerprint": "ec51b8f2930c99bafba8b3a6764321a7bdb6af78ff3fc9df05ce5998fff320b5",
+          "slot": "SA1",
+          "target_effect": "+0.15",
+          "in_step5b_p_gate": true,
+          "power": 0.9885,
+          "mcse": 0.0023840878758971907,
+          "ci_95": [
+            0.9837318242482057,
+            0.9932681757517944
+          ],
+          "status": "sufficient",
+          "shared_stream_percentile_power": 0.898,
+          "shared_stream_percentile_mcse": 0.006767421961131136,
+          "shared_stream_percentile_status": "sufficient",
+          "delta_vs_shared_stream_percentile": 0.09050000000000002
+        },
+        {
+          "cell_name": "block3-SA1-0.20",
+          "cell_index": 36,
+          "fingerprint": "b91f734b3abab6a82ce05533d1182e497592c83cea4ed5b86c8de08b21771d6e",
+          "slot": "SA1",
+          "target_effect": "+0.20",
+          "in_step5b_p_gate": true,
+          "power": 1.0,
+          "mcse": 0.0,
+          "ci_95": [
+            1.0,
+            1.0
+          ],
+          "status": "sufficient",
+          "shared_stream_percentile_power": 0.9875,
+          "shared_stream_percentile_mcse": 0.0024843258642939696,
+          "shared_stream_percentile_status": "sufficient",
+          "delta_vs_shared_stream_percentile": 0.012499999999999956
+        },
+        {
+          "cell_name": "block3-SA2-12.5",
+          "cell_index": 40,
+          "fingerprint": "ff1a7b5159aa98eefac4208f66f09188dc878c55ca631cbf9f702444dc97247b",
+          "slot": "SA2",
+          "target_effect": "+12.5",
+          "in_step5b_p_gate": false,
+          "power": 0.341,
+          "mcse": 0.010599976415068102,
+          "ci_95": [
+            0.3198000471698638,
+            0.36219995283013623
+          ],
+          "status": "insufficient",
+          "shared_stream_percentile_power": 0.341,
+          "shared_stream_percentile_mcse": 0.010599976415068102,
+          "shared_stream_percentile_status": "insufficient",
+          "delta_vs_shared_stream_percentile": 0.0
+        },
+        {
+          "cell_name": "block3-SA2-18.0",
+          "cell_index": 41,
+          "fingerprint": "d4a1e3a70932220e605bcc8d2223422958f3749513a72dcb41d04c0f9bbe29e4",
+          "slot": "SA2",
+          "target_effect": "+18.0",
+          "in_step5b_p_gate": false,
+          "power": 0.598,
+          "mcse": 0.010963484847437881,
+          "ci_95": [
+            0.5760730303051242,
+            0.6199269696948757
+          ],
+          "status": "insufficient",
+          "shared_stream_percentile_power": 0.5975,
+          "shared_stream_percentile_mcse": 0.010965713611069733,
+          "shared_stream_percentile_status": "insufficient",
+          "delta_vs_shared_stream_percentile": 0.0004999999999999449
+        },
+        {
+          "cell_name": "block3-SA3--8.5",
+          "cell_index": 45,
+          "fingerprint": "ca35630ce2aedd4a727d91429771ff08e5f9c27f2d626c5f6e03b27c49ee2db6",
+          "slot": "SA3",
+          "target_effect": "-8.5",
+          "in_step5b_p_gate": false,
+          "power": 0.0925,
+          "mcse": 0.006478570444164361,
+          "ci_95": [
+            0.07954285911167128,
+            0.10545714088832872
+          ],
+          "status": "insufficient",
+          "shared_stream_percentile_power": 0.0925,
+          "shared_stream_percentile_mcse": 0.006478570444164361,
+          "shared_stream_percentile_status": "insufficient",
+          "delta_vs_shared_stream_percentile": 0.0
+        },
+        {
+          "cell_name": "block3-SA3--12.5",
+          "cell_index": 44,
+          "fingerprint": "058ff3906abb7a0b0ad519db771c56bb60ea099cf3412592e63927361d7f2b0c",
+          "slot": "SA3",
+          "target_effect": "-12.5",
+          "in_step5b_p_gate": false,
+          "power": 0.238,
+          "mcse": 0.00952249967182987,
+          "ci_95": [
+            0.21895500065634024,
+            0.2570449993436597
+          ],
+          "status": "insufficient",
+          "shared_stream_percentile_power": 0.2385,
+          "shared_stream_percentile_mcse": 0.009529369076701773,
+          "shared_stream_percentile_status": "insufficient",
+          "delta_vs_shared_stream_percentile": -0.0005000000000000004
+        },
+        {
+          "cell_name": "block3-SA4--0.30",
+          "cell_index": 49,
+          "fingerprint": "f5ccc65aa11aef81d3b4fccbcb0799efad51b9b998dc781b1f5ae0b088681e13",
+          "slot": "SA4",
+          "target_effect": "-0.30",
+          "in_step5b_p_gate": true,
+          "power": 0.972,
+          "mcse": 0.0036889022757454573,
+          "ci_95": [
+            0.964622195448509,
+            0.9793778045514909
+          ],
+          "status": "sufficient",
+          "shared_stream_percentile_power": 0.974,
+          "shared_stream_percentile_mcse": 0.0035583704135460676,
+          "shared_stream_percentile_status": "sufficient",
+          "delta_vs_shared_stream_percentile": -0.0020000000000000018
+        },
+        {
+          "cell_name": "block3-SA4--0.45",
+          "cell_index": 48,
+          "fingerprint": "7b832aa4b372328e52eeddb57925feebad602f1a7a18918cffb97950bf54f591",
+          "slot": "SA4",
+          "target_effect": "-0.45",
+          "in_step5b_p_gate": true,
+          "power": 1.0,
+          "mcse": 0.0,
+          "ci_95": [
+            1.0,
+            1.0
+          ],
+          "status": "sufficient",
+          "shared_stream_percentile_power": 1.0,
+          "shared_stream_percentile_mcse": 0.0,
+          "shared_stream_percentile_status": "sufficient",
+          "delta_vs_shared_stream_percentile": 0.0
+        }
+      ]
+    },
+    "hybrid_bessel_t_tango": {
+      "method": "hybrid_bessel_t_tango",
+      "eligible": false,
+      "C_j": {
+        "gate": "C_j",
+        "passed": false,
+        "cells_passed_9875": 82,
+        "expected_cells": 88,
+        "failed_cells": [
+          {
+            "cell_index": 0,
+            "cell_name": "regular-null",
+            "failed_checks": [
+              "screen0125"
+            ],
+            "fwer": 0.056,
+            "family_direction_error": 0.056,
+            "simultaneous_coverage_9875": 0.9525
+          },
+          {
+            "cell_index": 4,
+            "cell_name": "regular-partial-null-bd",
+            "failed_checks": [
+              "screen0125"
+            ],
+            "fwer": 0.036,
+            "family_direction_error": 0.037,
+            "simultaneous_coverage_9875": 0.9475
+          },
+          {
+            "cell_index": 48,
+            "cell_name": "block3-SA4--0.45",
+            "failed_checks": [
+              "screen0125"
+            ],
+            "fwer": 0.054,
+            "family_direction_error": 0.054,
+            "simultaneous_coverage_9875": 0.9465
+          },
+          {
+            "cell_index": 64,
+            "cell_name": "ties-SA4--0.30",
+            "failed_checks": [
+              "screen0125"
+            ],
+            "fwer": 0.0515,
+            "family_direction_error": 0.0515,
+            "simultaneous_coverage_9875": 0.9545
+          },
+          {
+            "cell_index": 67,
+            "cell_name": "pinned-SA4-devlike",
+            "failed_checks": [
+              "screen0125"
+            ],
+            "fwer": 0.0495,
+            "family_direction_error": 0.0495,
+            "simultaneous_coverage_9875": 0.959
+          },
+          {
+            "cell_index": 68,
+            "cell_name": "pinned-SA4-moderate-ceiling",
+            "failed_checks": [
+              "screen0125"
+            ],
+            "fwer": 0.0505,
+            "family_direction_error": 0.0505,
+            "simultaneous_coverage_9875": 0.9545
+          }
+        ]
+      },
+      "D_j": {
+        "gate": "D_j",
+        "passed": true,
+        "n_passed": 5,
+        "n_items": 5,
+        "items": [
+          {
+            "gate_id": "D01",
+            "bank": "validation",
+            "cell_name": "pinned-SA1-devlike",
+            "cell_index": 65,
+            "fingerprint": "88cc3a7e6854ae3163b637f63662d1a0be402424fce929cefe683025e80aaaf2",
+            "max_degeneracy_rate": 0.0,
+            "max_degeneracy_threshold": 0.2,
+            "slot_degeneracy_rates": {
+              "SA1": 0.0,
+              "SA2": 0.0,
+              "SA3": 0.0,
+              "SA4": 0.0
+            },
+            "passed": true
+          },
+          {
+            "gate_id": "D02",
+            "bank": "validation",
+            "cell_name": "pinned-SA1-shrunken",
+            "cell_index": 66,
+            "fingerprint": "82945d20336a5c88f2bc4c4210183a2ac1ade655c37631be75c6a1cba512835c",
+            "max_degeneracy_rate": 0.0,
+            "max_degeneracy_threshold": 0.2,
+            "slot_degeneracy_rates": {
+              "SA1": 0.0,
+              "SA2": 0.0,
+              "SA3": 0.0,
+              "SA4": 0.0
+            },
+            "passed": true
+          },
+          {
+            "gate_id": "D03",
+            "bank": "validation",
+            "cell_name": "pinned-SA4-devlike",
+            "cell_index": 67,
+            "fingerprint": "2e7a44a6f6ff8de17e151c780b04c510ef5a9114e9dadce195486dc77eeca08a",
+            "max_degeneracy_rate": 0.0,
+            "max_degeneracy_threshold": 0.2,
+            "slot_degeneracy_rates": {
+              "SA1": 0.0,
+              "SA2": 0.0,
+              "SA3": 0.0,
+              "SA4": 0.0
+            },
+            "passed": true
+          },
+          {
+            "gate_id": "D04",
+            "bank": "validation",
+            "cell_name": "pinned-SA4-moderate-ceiling",
+            "cell_index": 68,
+            "fingerprint": "d662b9eb79b42b3476d5ce3862c2f518b2c82b5e13f282327202813a33db5f63",
+            "max_degeneracy_rate": 0.0,
+            "max_degeneracy_threshold": 0.2,
+            "slot_degeneracy_rates": {
+              "SA1": 0.0,
+              "SA2": 0.0,
+              "SA3": 0.0,
+              "SA4": 0.0
+            },
+            "passed": true
+          },
+          {
+            "gate_id": "D05",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "max_degeneracy_rate": 0.0,
+            "max_degeneracy_threshold": 0.2,
+            "slot_degeneracy_rates": {
+              "SA1": 0.0,
+              "SA2": 0.0,
+              "SA3": 0.0,
+              "SA4": 0.0
+            },
+            "passed": true
+          }
+        ]
+      },
+      "P_j": {
+        "gate": "P_j",
+        "passed": true,
+        "n_passed": 17,
+        "n_items": 17,
+        "by_group": {
+          "group_1_validation_empirical_observed": {
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "n_items": 5,
+            "n_passed": 5,
+            "passed": true
+          },
+          "group_2_power_grid_empirical_convex_1": {
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "n_items": 5,
+            "n_passed": 5,
+            "passed": true
+          },
+          "group_3_power_grid_pinned_high_effect_endpoints": {
+            "group": 3,
+            "group_name": "power_grid_pinned_high_effect_endpoints",
+            "n_items": 3,
+            "n_passed": 3,
+            "passed": true
+          },
+          "group_4_validation_historical_block3_discrete": {
+            "group": 4,
+            "group_name": "validation_historical_block3_discrete",
+            "n_items": 4,
+            "n_passed": 4,
+            "passed": true
+          }
+        },
+        "items": [
+          {
+            "item_id": "P01",
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA1",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.9885,
+            "shared_stream_percentile_mcse": 0.0023840878758971907,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.011499999999999955
+          },
+          {
+            "item_id": "P02",
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA2",
+            "rate": 0.9935,
+            "mcse": 0.0017969070649312877,
+            "lower_2mcse": 0.9899061858701375,
+            "ci_95": [
+              0.9899061858701375,
+              0.9970938141298626
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.99,
+            "shared_stream_percentile_mcse": 0.0022248595461287,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0035000000000000586
+          },
+          {
+            "item_id": "P03",
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA3",
+            "rate": 0.999,
+            "mcse": 0.0007067531393633852,
+            "lower_2mcse": 0.9975864937212733,
+            "ci_95": [
+              0.9975864937212733,
+              1.0004135062787267
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.999,
+            "shared_stream_percentile_mcse": 0.0007067531393633852,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P04",
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.0315,
+            "shared_stream_percentile_mcse": 0.0039056209493497957,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.9685
+          },
+          {
+            "item_id": "P05",
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "metric_kind": "all4_correct_direction",
+            "target": "all4",
+            "rate": 0.9925,
+            "mcse": 0.0019292161620720412,
+            "lower_2mcse": 0.988641567675856,
+            "ci_95": [
+              0.988641567675856,
+              0.9963584323241441
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.0315,
+            "shared_stream_percentile_mcse": 0.0039056209493497957,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.9610000000000001
+          },
+          {
+            "item_id": "P06",
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "bank": "power_grid",
+            "cell_name": "power-empirical-convex-1",
+            "cell_index": 55,
+            "fingerprint": "d9bb280fd9c53614a46c5de4d94d51d177a998b5579e30733a0786e7f0a090e9",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA1",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.991,
+            "shared_stream_percentile_mcse": 0.002111752826445369,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.009000000000000008
+          },
+          {
+            "item_id": "P07",
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "bank": "power_grid",
+            "cell_name": "power-empirical-convex-1",
+            "cell_index": 55,
+            "fingerprint": "d9bb280fd9c53614a46c5de4d94d51d177a998b5579e30733a0786e7f0a090e9",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA2",
+            "rate": 0.9935,
+            "mcse": 0.0017969070649312877,
+            "lower_2mcse": 0.9899061858701375,
+            "ci_95": [
+              0.9899061858701375,
+              0.9970938141298626
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.989,
+            "shared_stream_percentile_mcse": 0.0023322735688593665,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0045000000000000595
+          },
+          {
+            "item_id": "P08",
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "bank": "power_grid",
+            "cell_name": "power-empirical-convex-1",
+            "cell_index": 55,
+            "fingerprint": "d9bb280fd9c53614a46c5de4d94d51d177a998b5579e30733a0786e7f0a090e9",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA3",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 1.0,
+            "shared_stream_percentile_mcse": 0.0,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P09",
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "bank": "power_grid",
+            "cell_name": "power-empirical-convex-1",
+            "cell_index": 55,
+            "fingerprint": "d9bb280fd9c53614a46c5de4d94d51d177a998b5579e30733a0786e7f0a090e9",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.0435,
+            "shared_stream_percentile_mcse": 0.004561126505590478,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.9565
+          },
+          {
+            "item_id": "P10",
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "bank": "power_grid",
+            "cell_name": "power-empirical-convex-1",
+            "cell_index": 55,
+            "fingerprint": "d9bb280fd9c53614a46c5de4d94d51d177a998b5579e30733a0786e7f0a090e9",
+            "metric_kind": "all4_correct_direction",
+            "target": "all4",
+            "rate": 0.9935,
+            "mcse": 0.0017969070649312877,
+            "lower_2mcse": 0.9899061858701375,
+            "ci_95": [
+              0.9899061858701375,
+              0.9970938141298626
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.0435,
+            "shared_stream_percentile_mcse": 0.004561126505590478,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.9500000000000001
+          },
+          {
+            "item_id": "P11",
+            "group": 3,
+            "group_name": "power_grid_pinned_high_effect_endpoints",
+            "bank": "power_grid",
+            "cell_name": "power-SA1-pinned-0.20",
+            "cell_index": 11,
+            "fingerprint": "3bc782f7f7b4854c9334a54e6251fefecf0f2d8a04cc039863728e63595997d1",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA1",
+            "rate": 0.9995,
+            "mcse": 0.000499874984371065,
+            "lower_2mcse": 0.998500250031258,
+            "ci_95": [
+              0.998500250031258,
+              1.0004997499687422
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.991,
+            "shared_stream_percentile_mcse": 0.002111752826445369,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.008500000000000063
+          },
+          {
+            "item_id": "P12",
+            "group": 3,
+            "group_name": "power_grid_pinned_high_effect_endpoints",
+            "bank": "power_grid",
+            "cell_name": "power-SA4-pinned--0.90",
+            "cell_index": 50,
+            "fingerprint": "7ff80d9c9eb7cd8e31cb2358398c1d8836cb683e696fc63d2a0bd8cb321a28f2",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.491,
+            "shared_stream_percentile_mcse": 0.011178528525704981,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.509
+          },
+          {
+            "item_id": "P13",
+            "group": 3,
+            "group_name": "power_grid_pinned_high_effect_endpoints",
+            "bank": "power_grid",
+            "cell_name": "power-SA4-pinned--0.95",
+            "cell_index": 51,
+            "fingerprint": "b122c51d45f4d417dccd04b36d37b6a39b5b562cde033f8eee74885cad4defed",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.032,
+            "shared_stream_percentile_mcse": 0.0039354796403996304,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.968
+          },
+          {
+            "item_id": "P14",
+            "group": 4,
+            "group_name": "validation_historical_block3_discrete",
+            "bank": "validation",
+            "cell_name": "block3-SA1-0.15",
+            "cell_index": 35,
+            "fingerprint": "ec51b8f2930c99bafba8b3a6764321a7bdb6af78ff3fc9df05ce5998fff320b5",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA1",
+            "rate": 0.9885,
+            "mcse": 0.0023840878758971907,
+            "lower_2mcse": 0.9837318242482057,
+            "ci_95": [
+              0.9837318242482057,
+              0.9932681757517944
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.898,
+            "shared_stream_percentile_mcse": 0.006767421961131136,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.09050000000000002
+          },
+          {
+            "item_id": "P15",
+            "group": 4,
+            "group_name": "validation_historical_block3_discrete",
+            "bank": "validation",
+            "cell_name": "block3-SA1-0.20",
+            "cell_index": 36,
+            "fingerprint": "b91f734b3abab6a82ce05533d1182e497592c83cea4ed5b86c8de08b21771d6e",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA1",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.9875,
+            "shared_stream_percentile_mcse": 0.0024843258642939696,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.012499999999999956
+          },
+          {
+            "item_id": "P16",
+            "group": 4,
+            "group_name": "validation_historical_block3_discrete",
+            "bank": "validation",
+            "cell_name": "block3-SA4--0.30",
+            "cell_index": 49,
+            "fingerprint": "f5ccc65aa11aef81d3b4fccbcb0799efad51b9b998dc781b1f5ae0b088681e13",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 0.972,
+            "mcse": 0.0036889022757454573,
+            "lower_2mcse": 0.964622195448509,
+            "ci_95": [
+              0.964622195448509,
+              0.9793778045514909
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.974,
+            "shared_stream_percentile_mcse": 0.0035583704135460676,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": -0.0020000000000000018
+          },
+          {
+            "item_id": "P17",
+            "group": 4,
+            "group_name": "validation_historical_block3_discrete",
+            "bank": "validation",
+            "cell_name": "block3-SA4--0.45",
+            "cell_index": 48,
+            "fingerprint": "7b832aa4b372328e52eeddb57925feebad602f1a7a18918cffb97950bf54f591",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 1.0,
+            "shared_stream_percentile_mcse": 0.0,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          }
+        ]
+      },
+      "historical_block3_power_reference_8": [
+        {
+          "cell_name": "block3-SA1-0.15",
+          "cell_index": 35,
+          "fingerprint": "ec51b8f2930c99bafba8b3a6764321a7bdb6af78ff3fc9df05ce5998fff320b5",
+          "slot": "SA1",
+          "target_effect": "+0.15",
+          "in_step5b_p_gate": true,
+          "power": 0.9885,
+          "mcse": 0.0023840878758971907,
+          "ci_95": [
+            0.9837318242482057,
+            0.9932681757517944
+          ],
+          "status": "sufficient",
+          "shared_stream_percentile_power": 0.898,
+          "shared_stream_percentile_mcse": 0.006767421961131136,
+          "shared_stream_percentile_status": "sufficient",
+          "delta_vs_shared_stream_percentile": 0.09050000000000002
+        },
+        {
+          "cell_name": "block3-SA1-0.20",
+          "cell_index": 36,
+          "fingerprint": "b91f734b3abab6a82ce05533d1182e497592c83cea4ed5b86c8de08b21771d6e",
+          "slot": "SA1",
+          "target_effect": "+0.20",
+          "in_step5b_p_gate": true,
+          "power": 1.0,
+          "mcse": 0.0,
+          "ci_95": [
+            1.0,
+            1.0
+          ],
+          "status": "sufficient",
+          "shared_stream_percentile_power": 0.9875,
+          "shared_stream_percentile_mcse": 0.0024843258642939696,
+          "shared_stream_percentile_status": "sufficient",
+          "delta_vs_shared_stream_percentile": 0.012499999999999956
+        },
+        {
+          "cell_name": "block3-SA2-12.5",
+          "cell_index": 40,
+          "fingerprint": "ff1a7b5159aa98eefac4208f66f09188dc878c55ca631cbf9f702444dc97247b",
+          "slot": "SA2",
+          "target_effect": "+12.5",
+          "in_step5b_p_gate": false,
+          "power": 0.341,
+          "mcse": 0.010599976415068102,
+          "ci_95": [
+            0.3198000471698638,
+            0.36219995283013623
+          ],
+          "status": "insufficient",
+          "shared_stream_percentile_power": 0.341,
+          "shared_stream_percentile_mcse": 0.010599976415068102,
+          "shared_stream_percentile_status": "insufficient",
+          "delta_vs_shared_stream_percentile": 0.0
+        },
+        {
+          "cell_name": "block3-SA2-18.0",
+          "cell_index": 41,
+          "fingerprint": "d4a1e3a70932220e605bcc8d2223422958f3749513a72dcb41d04c0f9bbe29e4",
+          "slot": "SA2",
+          "target_effect": "+18.0",
+          "in_step5b_p_gate": false,
+          "power": 0.598,
+          "mcse": 0.010963484847437881,
+          "ci_95": [
+            0.5760730303051242,
+            0.6199269696948757
+          ],
+          "status": "insufficient",
+          "shared_stream_percentile_power": 0.5975,
+          "shared_stream_percentile_mcse": 0.010965713611069733,
+          "shared_stream_percentile_status": "insufficient",
+          "delta_vs_shared_stream_percentile": 0.0004999999999999449
+        },
+        {
+          "cell_name": "block3-SA3--8.5",
+          "cell_index": 45,
+          "fingerprint": "ca35630ce2aedd4a727d91429771ff08e5f9c27f2d626c5f6e03b27c49ee2db6",
+          "slot": "SA3",
+          "target_effect": "-8.5",
+          "in_step5b_p_gate": false,
+          "power": 0.0925,
+          "mcse": 0.006478570444164361,
+          "ci_95": [
+            0.07954285911167128,
+            0.10545714088832872
+          ],
+          "status": "insufficient",
+          "shared_stream_percentile_power": 0.0925,
+          "shared_stream_percentile_mcse": 0.006478570444164361,
+          "shared_stream_percentile_status": "insufficient",
+          "delta_vs_shared_stream_percentile": 0.0
+        },
+        {
+          "cell_name": "block3-SA3--12.5",
+          "cell_index": 44,
+          "fingerprint": "058ff3906abb7a0b0ad519db771c56bb60ea099cf3412592e63927361d7f2b0c",
+          "slot": "SA3",
+          "target_effect": "-12.5",
+          "in_step5b_p_gate": false,
+          "power": 0.2375,
+          "mcse": 0.009515612171584127,
+          "ci_95": [
+            0.21846877565683173,
+            0.2565312243431682
+          ],
+          "status": "insufficient",
+          "shared_stream_percentile_power": 0.2385,
+          "shared_stream_percentile_mcse": 0.009529369076701773,
+          "shared_stream_percentile_status": "insufficient",
+          "delta_vs_shared_stream_percentile": -0.0010000000000000009
+        },
+        {
+          "cell_name": "block3-SA4--0.30",
+          "cell_index": 49,
+          "fingerprint": "f5ccc65aa11aef81d3b4fccbcb0799efad51b9b998dc781b1f5ae0b088681e13",
+          "slot": "SA4",
+          "target_effect": "-0.30",
+          "in_step5b_p_gate": true,
+          "power": 0.972,
+          "mcse": 0.0036889022757454573,
+          "ci_95": [
+            0.964622195448509,
+            0.9793778045514909
+          ],
+          "status": "sufficient",
+          "shared_stream_percentile_power": 0.974,
+          "shared_stream_percentile_mcse": 0.0035583704135460676,
+          "shared_stream_percentile_status": "sufficient",
+          "delta_vs_shared_stream_percentile": -0.0020000000000000018
+        },
+        {
+          "cell_name": "block3-SA4--0.45",
+          "cell_index": 48,
+          "fingerprint": "7b832aa4b372328e52eeddb57925feebad602f1a7a18918cffb97950bf54f591",
+          "slot": "SA4",
+          "target_effect": "-0.45",
+          "in_step5b_p_gate": true,
+          "power": 1.0,
+          "mcse": 0.0,
+          "ci_95": [
+            1.0,
+            1.0
+          ],
+          "status": "sufficient",
+          "shared_stream_percentile_power": 1.0,
+          "shared_stream_percentile_mcse": 0.0,
+          "shared_stream_percentile_status": "sufficient",
+          "delta_vs_shared_stream_percentile": 0.0
+        }
+      ]
+    }
+  },
+  "baseline_comparison": {
+    "percentile": {
+      "method": "percentile",
+      "eligible": false,
+      "C_j": {
+        "gate": "C_j",
+        "passed": false,
+        "cells_passed_9875": 80,
+        "expected_cells": 88,
+        "failed_cells": [
+          {
+            "cell_index": 4,
+            "cell_name": "regular-partial-null-bd",
+            "failed_checks": [
+              "screen0125",
+              "simultaneous_coverage_9875"
+            ],
+            "fwer": 0.037,
+            "family_direction_error": 0.038,
+            "simultaneous_coverage_9875": 0.937
+          },
+          {
+            "cell_index": 22,
+            "cell_name": "pilot-sd-SA4-m1.0",
+            "failed_checks": [
+              "simultaneous_coverage_9875"
+            ],
+            "fwer": 0.046,
+            "family_direction_error": 0.0465,
+            "simultaneous_coverage_9875": 0.938
+          },
+          {
+            "cell_index": 42,
+            "cell_name": "block3-SA2-25.0",
+            "failed_checks": [
+              "simultaneous_coverage_9875"
+            ],
+            "fwer": 0.0535,
+            "family_direction_error": 0.0535,
+            "simultaneous_coverage_9875": 0.936
+          },
+          {
+            "cell_index": 48,
+            "cell_name": "block3-SA4--0.45",
+            "failed_checks": [
+              "screen0125"
+            ],
+            "fwer": 0.0565,
+            "family_direction_error": 0.0565,
+            "simultaneous_coverage_9875": 0.9425
+          },
+          {
+            "cell_index": 64,
+            "cell_name": "ties-SA4--0.30",
+            "failed_checks": [
+              "screen0125"
+            ],
+            "fwer": 0.0535,
+            "family_direction_error": 0.0535,
+            "simultaneous_coverage_9875": 0.9485
+          },
+          {
+            "cell_index": 67,
+            "cell_name": "pinned-SA4-devlike",
+            "failed_checks": [
+              "screen0125"
+            ],
+            "fwer": 0.043,
+            "family_direction_error": 0.043,
+            "simultaneous_coverage_9875": 0.959
+          },
+          {
+            "cell_index": 68,
+            "cell_name": "pinned-SA4-moderate-ceiling",
+            "failed_checks": [
+              "screen0125",
+              "simultaneous_coverage_9875"
+            ],
+            "fwer": 0.0535,
+            "family_direction_error": 0.0535,
+            "simultaneous_coverage_9875": 0.937
+          },
+          {
+            "cell_index": 85,
+            "cell_name": "empirical-attenuated-75pct",
+            "failed_checks": [
+              "simultaneous_coverage_9875"
+            ],
+            "fwer": 0.0,
+            "family_direction_error": 0.0,
+            "simultaneous_coverage_9875": 0.936
+          }
+        ]
+      },
+      "D_j": {
+        "gate": "D_j",
+        "passed": false,
+        "n_passed": 2,
+        "n_items": 5,
+        "items": [
+          {
+            "gate_id": "D01",
+            "bank": "validation",
+            "cell_name": "pinned-SA1-devlike",
+            "cell_index": 65,
+            "fingerprint": "88cc3a7e6854ae3163b637f63662d1a0be402424fce929cefe683025e80aaaf2",
+            "max_degeneracy_rate": 0.045,
+            "max_degeneracy_threshold": 0.2,
+            "slot_degeneracy_rates": {
+              "SA1": 0.01,
+              "SA2": 0.0,
+              "SA3": 0.0,
+              "SA4": 0.045
+            },
+            "passed": true
+          },
+          {
+            "gate_id": "D02",
+            "bank": "validation",
+            "cell_name": "pinned-SA1-shrunken",
+            "cell_index": 66,
+            "fingerprint": "82945d20336a5c88f2bc4c4210183a2ac1ade655c37631be75c6a1cba512835c",
+            "max_degeneracy_rate": 0.259,
+            "max_degeneracy_threshold": 0.2,
+            "slot_degeneracy_rates": {
+              "SA1": 0.259,
+              "SA2": 0.0,
+              "SA3": 0.0,
+              "SA4": 0.047
+            },
+            "passed": false
+          },
+          {
+            "gate_id": "D03",
+            "bank": "validation",
+            "cell_name": "pinned-SA4-devlike",
+            "cell_index": 67,
+            "fingerprint": "2e7a44a6f6ff8de17e151c780b04c510ef5a9114e9dadce195486dc77eeca08a",
+            "max_degeneracy_rate": 0.9635,
+            "max_degeneracy_threshold": 0.2,
+            "slot_degeneracy_rates": {
+              "SA1": 0.048,
+              "SA2": 0.0,
+              "SA3": 0.0,
+              "SA4": 0.9635
+            },
+            "passed": false
+          },
+          {
+            "gate_id": "D04",
+            "bank": "validation",
+            "cell_name": "pinned-SA4-moderate-ceiling",
+            "cell_index": 68,
+            "fingerprint": "d662b9eb79b42b3476d5ce3862c2f518b2c82b5e13f282327202813a33db5f63",
+            "max_degeneracy_rate": 0.046,
+            "max_degeneracy_threshold": 0.2,
+            "slot_degeneracy_rates": {
+              "SA1": 0.046,
+              "SA2": 0.0,
+              "SA3": 0.0,
+              "SA4": 0.002
+            },
+            "passed": true
+          },
+          {
+            "gate_id": "D05",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "max_degeneracy_rate": 0.9685,
+            "max_degeneracy_threshold": 0.2,
+            "slot_degeneracy_rates": {
+              "SA1": 0.0115,
+              "SA2": 0.0,
+              "SA3": 0.0,
+              "SA4": 0.9685
+            },
+            "passed": false
+          }
+        ]
+      },
+      "P_j": {
+        "gate": "P_j",
+        "passed": false,
+        "n_passed": 11,
+        "n_items": 17,
+        "by_group": {
+          "group_1_validation_empirical_observed": {
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "n_items": 5,
+            "n_passed": 3,
+            "passed": false
+          },
+          "group_2_power_grid_empirical_convex_1": {
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "n_items": 5,
+            "n_passed": 3,
+            "passed": false
+          },
+          "group_3_power_grid_pinned_high_effect_endpoints": {
+            "group": 3,
+            "group_name": "power_grid_pinned_high_effect_endpoints",
+            "n_items": 3,
+            "n_passed": 1,
+            "passed": false
+          },
+          "group_4_validation_historical_block3_discrete": {
+            "group": 4,
+            "group_name": "validation_historical_block3_discrete",
+            "n_items": 4,
+            "n_passed": 4,
+            "passed": true
+          }
+        },
+        "items": [
+          {
+            "item_id": "P01",
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA1",
+            "rate": 0.9885,
+            "mcse": 0.0023840878758971907,
+            "lower_2mcse": 0.9837318242482057,
+            "ci_95": [
+              0.9837318242482057,
+              0.9932681757517944
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.9885,
+            "shared_stream_percentile_mcse": 0.0023840878758971907,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P02",
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA2",
+            "rate": 0.99,
+            "mcse": 0.0022248595461287,
+            "lower_2mcse": 0.9855502809077425,
+            "ci_95": [
+              0.9855502809077425,
+              0.9944497190922574
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.99,
+            "shared_stream_percentile_mcse": 0.0022248595461287,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P03",
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA3",
+            "rate": 0.999,
+            "mcse": 0.0007067531393633852,
+            "lower_2mcse": 0.9975864937212733,
+            "ci_95": [
+              0.9975864937212733,
+              1.0004135062787267
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.999,
+            "shared_stream_percentile_mcse": 0.0007067531393633852,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P04",
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 0.0315,
+            "mcse": 0.0039056209493497957,
+            "lower_2mcse": 0.02368875810130041,
+            "ci_95": [
+              0.02368875810130041,
+              0.03931124189869959
+            ],
+            "status": "insufficient",
+            "passed": false,
+            "shared_stream_percentile_rate": 0.0315,
+            "shared_stream_percentile_mcse": 0.0039056209493497957,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P05",
+            "group": 1,
+            "group_name": "validation_empirical_observed",
+            "bank": "validation",
+            "cell_name": "empirical-observed",
+            "cell_index": 83,
+            "fingerprint": "b85cc3625aca8fb0794a89720e640f262d73aae027eee0697f4fbc05f295f3e4",
+            "metric_kind": "all4_correct_direction",
+            "target": "all4",
+            "rate": 0.0315,
+            "mcse": 0.0039056209493497957,
+            "lower_2mcse": 0.02368875810130041,
+            "ci_95": [
+              0.02368875810130041,
+              0.03931124189869959
+            ],
+            "status": "insufficient",
+            "passed": false,
+            "shared_stream_percentile_rate": 0.0315,
+            "shared_stream_percentile_mcse": 0.0039056209493497957,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P06",
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "bank": "power_grid",
+            "cell_name": "power-empirical-convex-1",
+            "cell_index": 55,
+            "fingerprint": "d9bb280fd9c53614a46c5de4d94d51d177a998b5579e30733a0786e7f0a090e9",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA1",
+            "rate": 0.991,
+            "mcse": 0.002111752826445369,
+            "lower_2mcse": 0.9867764943471092,
+            "ci_95": [
+              0.9867764943471092,
+              0.9952235056528907
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.991,
+            "shared_stream_percentile_mcse": 0.002111752826445369,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P07",
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "bank": "power_grid",
+            "cell_name": "power-empirical-convex-1",
+            "cell_index": 55,
+            "fingerprint": "d9bb280fd9c53614a46c5de4d94d51d177a998b5579e30733a0786e7f0a090e9",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA2",
+            "rate": 0.989,
+            "mcse": 0.0023322735688593665,
+            "lower_2mcse": 0.9843354528622813,
+            "ci_95": [
+              0.9843354528622813,
+              0.9936645471377187
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.989,
+            "shared_stream_percentile_mcse": 0.0023322735688593665,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P08",
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "bank": "power_grid",
+            "cell_name": "power-empirical-convex-1",
+            "cell_index": 55,
+            "fingerprint": "d9bb280fd9c53614a46c5de4d94d51d177a998b5579e30733a0786e7f0a090e9",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA3",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 1.0,
+            "shared_stream_percentile_mcse": 0.0,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P09",
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "bank": "power_grid",
+            "cell_name": "power-empirical-convex-1",
+            "cell_index": 55,
+            "fingerprint": "d9bb280fd9c53614a46c5de4d94d51d177a998b5579e30733a0786e7f0a090e9",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 0.0435,
+            "mcse": 0.004561126505590478,
+            "lower_2mcse": 0.03437774698881904,
+            "ci_95": [
+              0.03437774698881904,
+              0.05262225301118095
+            ],
+            "status": "insufficient",
+            "passed": false,
+            "shared_stream_percentile_rate": 0.0435,
+            "shared_stream_percentile_mcse": 0.004561126505590478,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P10",
+            "group": 2,
+            "group_name": "power_grid_empirical_convex_1",
+            "bank": "power_grid",
+            "cell_name": "power-empirical-convex-1",
+            "cell_index": 55,
+            "fingerprint": "d9bb280fd9c53614a46c5de4d94d51d177a998b5579e30733a0786e7f0a090e9",
+            "metric_kind": "all4_correct_direction",
+            "target": "all4",
+            "rate": 0.0435,
+            "mcse": 0.004561126505590478,
+            "lower_2mcse": 0.03437774698881904,
+            "ci_95": [
+              0.03437774698881904,
+              0.05262225301118095
+            ],
+            "status": "insufficient",
+            "passed": false,
+            "shared_stream_percentile_rate": 0.0435,
+            "shared_stream_percentile_mcse": 0.004561126505590478,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P11",
+            "group": 3,
+            "group_name": "power_grid_pinned_high_effect_endpoints",
+            "bank": "power_grid",
+            "cell_name": "power-SA1-pinned-0.20",
+            "cell_index": 11,
+            "fingerprint": "3bc782f7f7b4854c9334a54e6251fefecf0f2d8a04cc039863728e63595997d1",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA1",
+            "rate": 0.991,
+            "mcse": 0.002111752826445369,
+            "lower_2mcse": 0.9867764943471092,
+            "ci_95": [
+              0.9867764943471092,
+              0.9952235056528907
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.991,
+            "shared_stream_percentile_mcse": 0.002111752826445369,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P12",
+            "group": 3,
+            "group_name": "power_grid_pinned_high_effect_endpoints",
+            "bank": "power_grid",
+            "cell_name": "power-SA4-pinned--0.90",
+            "cell_index": 50,
+            "fingerprint": "7ff80d9c9eb7cd8e31cb2358398c1d8836cb683e696fc63d2a0bd8cb321a28f2",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 0.491,
+            "mcse": 0.011178528525704981,
+            "lower_2mcse": 0.46864294294859005,
+            "ci_95": [
+              0.46864294294859005,
+              0.51335705705141
+            ],
+            "status": "insufficient",
+            "passed": false,
+            "shared_stream_percentile_rate": 0.491,
+            "shared_stream_percentile_mcse": 0.011178528525704981,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P13",
+            "group": 3,
+            "group_name": "power_grid_pinned_high_effect_endpoints",
+            "bank": "power_grid",
+            "cell_name": "power-SA4-pinned--0.95",
+            "cell_index": 51,
+            "fingerprint": "b122c51d45f4d417dccd04b36d37b6a39b5b562cde033f8eee74885cad4defed",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 0.032,
+            "mcse": 0.0039354796403996304,
+            "lower_2mcse": 0.024129040719200738,
+            "ci_95": [
+              0.024129040719200738,
+              0.03987095928079926
+            ],
+            "status": "insufficient",
+            "passed": false,
+            "shared_stream_percentile_rate": 0.032,
+            "shared_stream_percentile_mcse": 0.0039354796403996304,
+            "shared_stream_percentile_status": "insufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P14",
+            "group": 4,
+            "group_name": "validation_historical_block3_discrete",
+            "bank": "validation",
+            "cell_name": "block3-SA1-0.15",
+            "cell_index": 35,
+            "fingerprint": "ec51b8f2930c99bafba8b3a6764321a7bdb6af78ff3fc9df05ce5998fff320b5",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA1",
+            "rate": 0.898,
+            "mcse": 0.006767421961131136,
+            "lower_2mcse": 0.8844651560777378,
+            "ci_95": [
+              0.8844651560777378,
+              0.9115348439222623
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.898,
+            "shared_stream_percentile_mcse": 0.006767421961131136,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P15",
+            "group": 4,
+            "group_name": "validation_historical_block3_discrete",
+            "bank": "validation",
+            "cell_name": "block3-SA1-0.20",
+            "cell_index": 36,
+            "fingerprint": "b91f734b3abab6a82ce05533d1182e497592c83cea4ed5b86c8de08b21771d6e",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA1",
+            "rate": 0.9875,
+            "mcse": 0.0024843258642939696,
+            "lower_2mcse": 0.9825313482714121,
+            "ci_95": [
+              0.9825313482714121,
+              0.992468651728588
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.9875,
+            "shared_stream_percentile_mcse": 0.0024843258642939696,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P16",
+            "group": 4,
+            "group_name": "validation_historical_block3_discrete",
+            "bank": "validation",
+            "cell_name": "block3-SA4--0.30",
+            "cell_index": 49,
+            "fingerprint": "f5ccc65aa11aef81d3b4fccbcb0799efad51b9b998dc781b1f5ae0b088681e13",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 0.974,
+            "mcse": 0.0035583704135460676,
+            "lower_2mcse": 0.9668832591729078,
+            "ci_95": [
+              0.9668832591729078,
+              0.9811167408270921
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 0.974,
+            "shared_stream_percentile_mcse": 0.0035583704135460676,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          },
+          {
+            "item_id": "P17",
+            "group": 4,
+            "group_name": "validation_historical_block3_discrete",
+            "bank": "validation",
+            "cell_name": "block3-SA4--0.45",
+            "cell_index": 48,
+            "fingerprint": "7b832aa4b372328e52eeddb57925feebad602f1a7a18918cffb97950bf54f591",
+            "metric_kind": "slot_correct_direction",
+            "target": "SA4",
+            "rate": 1.0,
+            "mcse": 0.0,
+            "lower_2mcse": 1.0,
+            "ci_95": [
+              1.0,
+              1.0
+            ],
+            "status": "sufficient",
+            "passed": true,
+            "shared_stream_percentile_rate": 1.0,
+            "shared_stream_percentile_mcse": 0.0,
+            "shared_stream_percentile_status": "sufficient",
+            "delta_vs_shared_stream_percentile": 0.0
+          }
+        ]
+      },
+      "historical_block3_power_reference_8": [
+        {
+          "cell_name": "block3-SA1-0.15",
+          "cell_index": 35,
+          "fingerprint": "ec51b8f2930c99bafba8b3a6764321a7bdb6af78ff3fc9df05ce5998fff320b5",
+          "slot": "SA1",
+          "target_effect": "+0.15",
+          "in_step5b_p_gate": true,
+          "power": 0.898,
+          "mcse": 0.006767421961131136,
+          "ci_95": [
+            0.8844651560777378,
+            0.9115348439222623
+          ],
+          "status": "sufficient",
+          "shared_stream_percentile_power": 0.898,
+          "shared_stream_percentile_mcse": 0.006767421961131136,
+          "shared_stream_percentile_status": "sufficient",
+          "delta_vs_shared_stream_percentile": 0.0
+        },
+        {
+          "cell_name": "block3-SA1-0.20",
+          "cell_index": 36,
+          "fingerprint": "b91f734b3abab6a82ce05533d1182e497592c83cea4ed5b86c8de08b21771d6e",
+          "slot": "SA1",
+          "target_effect": "+0.20",
+          "in_step5b_p_gate": true,
+          "power": 0.9875,
+          "mcse": 0.0024843258642939696,
+          "ci_95": [
+            0.9825313482714121,
+            0.992468651728588
+          ],
+          "status": "sufficient",
+          "shared_stream_percentile_power": 0.9875,
+          "shared_stream_percentile_mcse": 0.0024843258642939696,
+          "shared_stream_percentile_status": "sufficient",
+          "delta_vs_shared_stream_percentile": 0.0
+        },
+        {
+          "cell_name": "block3-SA2-12.5",
+          "cell_index": 40,
+          "fingerprint": "ff1a7b5159aa98eefac4208f66f09188dc878c55ca631cbf9f702444dc97247b",
+          "slot": "SA2",
+          "target_effect": "+12.5",
+          "in_step5b_p_gate": false,
+          "power": 0.341,
+          "mcse": 0.010599976415068102,
+          "ci_95": [
+            0.3198000471698638,
+            0.36219995283013623
+          ],
+          "status": "insufficient",
+          "shared_stream_percentile_power": 0.341,
+          "shared_stream_percentile_mcse": 0.010599976415068102,
+          "shared_stream_percentile_status": "insufficient",
+          "delta_vs_shared_stream_percentile": 0.0
+        },
+        {
+          "cell_name": "block3-SA2-18.0",
+          "cell_index": 41,
+          "fingerprint": "d4a1e3a70932220e605bcc8d2223422958f3749513a72dcb41d04c0f9bbe29e4",
+          "slot": "SA2",
+          "target_effect": "+18.0",
+          "in_step5b_p_gate": false,
+          "power": 0.5975,
+          "mcse": 0.010965713611069733,
+          "ci_95": [
+            0.5755685727778606,
+            0.6194314272221395
+          ],
+          "status": "insufficient",
+          "shared_stream_percentile_power": 0.5975,
+          "shared_stream_percentile_mcse": 0.010965713611069733,
+          "shared_stream_percentile_status": "insufficient",
+          "delta_vs_shared_stream_percentile": 0.0
+        },
+        {
+          "cell_name": "block3-SA3--8.5",
+          "cell_index": 45,
+          "fingerprint": "ca35630ce2aedd4a727d91429771ff08e5f9c27f2d626c5f6e03b27c49ee2db6",
+          "slot": "SA3",
+          "target_effect": "-8.5",
+          "in_step5b_p_gate": false,
+          "power": 0.0925,
+          "mcse": 0.006478570444164361,
+          "ci_95": [
+            0.07954285911167128,
+            0.10545714088832872
+          ],
+          "status": "insufficient",
+          "shared_stream_percentile_power": 0.0925,
+          "shared_stream_percentile_mcse": 0.006478570444164361,
+          "shared_stream_percentile_status": "insufficient",
+          "delta_vs_shared_stream_percentile": 0.0
+        },
+        {
+          "cell_name": "block3-SA3--12.5",
+          "cell_index": 44,
+          "fingerprint": "058ff3906abb7a0b0ad519db771c56bb60ea099cf3412592e63927361d7f2b0c",
+          "slot": "SA3",
+          "target_effect": "-12.5",
+          "in_step5b_p_gate": false,
+          "power": 0.2385,
+          "mcse": 0.009529369076701773,
+          "ci_95": [
+            0.21944126184659646,
+            0.2575587381534035
+          ],
+          "status": "insufficient",
+          "shared_stream_percentile_power": 0.2385,
+          "shared_stream_percentile_mcse": 0.009529369076701773,
+          "shared_stream_percentile_status": "insufficient",
+          "delta_vs_shared_stream_percentile": 0.0
+        },
+        {
+          "cell_name": "block3-SA4--0.30",
+          "cell_index": 49,
+          "fingerprint": "f5ccc65aa11aef81d3b4fccbcb0799efad51b9b998dc781b1f5ae0b088681e13",
+          "slot": "SA4",
+          "target_effect": "-0.30",
+          "in_step5b_p_gate": true,
+          "power": 0.974,
+          "mcse": 0.0035583704135460676,
+          "ci_95": [
+            0.9668832591729078,
+            0.9811167408270921
+          ],
+          "status": "sufficient",
+          "shared_stream_percentile_power": 0.974,
+          "shared_stream_percentile_mcse": 0.0035583704135460676,
+          "shared_stream_percentile_status": "sufficient",
+          "delta_vs_shared_stream_percentile": 0.0
+        },
+        {
+          "cell_name": "block3-SA4--0.45",
+          "cell_index": 48,
+          "fingerprint": "7b832aa4b372328e52eeddb57925feebad602f1a7a18918cffb97950bf54f591",
+          "slot": "SA4",
+          "target_effect": "-0.45",
+          "in_step5b_p_gate": true,
+          "power": 1.0,
+          "mcse": 0.0,
+          "ci_95": [
+            1.0,
+            1.0
+          ],
+          "status": "sufficient",
+          "shared_stream_percentile_power": 1.0,
+          "shared_stream_percentile_mcse": 0.0,
+          "shared_stream_percentile_status": "sufficient",
+          "delta_vs_shared_stream_percentile": 0.0
+        }
+      ]
+    }
+  }
+}

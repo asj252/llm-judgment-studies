@@ -1,0 +1,798 @@
+{
+  "metadata": {
+    "title": "Scheme A Step 5b (m=4) 56-Cell Multi-Effect Power Grid",
+    "plan_node": "P16.4.6",
+    "replicates": 2000,
+    "bootstrap_replicates": 5000,
+    "n_ac": 80,
+    "n_bd": 80,
+    "seed_bank": 2026110111,
+    "total_cells": 56
+  },
+  "cells": [
+    {
+      "cell_index": 0,
+      "cell_name": "power-SA1-base-0.05",
+      "category": "SA1-baseline",
+      "population_name": "power-SA1-base-0.05",
+      "fingerprint": "0cc0f25ba7f324144485ed5a128f05a83fb16b9f034dd96447fb0427307ffc8e",
+      "truth": {
+        "SA1": "1/20",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA1 baseline power curve +0.05 (MU/Z high=0.10)"
+    },
+    {
+      "cell_index": 1,
+      "cell_name": "power-SA1-base-0.10",
+      "category": "SA1-baseline",
+      "population_name": "power-SA1-base-0.10",
+      "fingerprint": "d9d8cfb60b21e543d656cd2b5deb473558cb277369ca34a17c1e77de95a6f455",
+      "truth": {
+        "SA1": "1/10",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA1 baseline power curve +0.10 (MU/Z high=0.10)"
+    },
+    {
+      "cell_index": 2,
+      "cell_name": "power-SA1-base-0.15",
+      "category": "SA1-baseline",
+      "population_name": "power-SA1-base-0.15",
+      "fingerprint": "fb6c49bee416b65183eee0712b50659c7d7a70d2ddfcfaa557529b9c6e3068ed",
+      "truth": {
+        "SA1": "3/20",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA1 baseline power curve +0.15 (MU/Z high=0.10)"
+    },
+    {
+      "cell_index": 3,
+      "cell_name": "power-SA1-base-0.20",
+      "category": "SA1-baseline",
+      "population_name": "power-SA1-base-0.20",
+      "fingerprint": "482608a4e49617b51ece4d3a1ef94ad43a940fb883bb25b65f26c29b46400f3a",
+      "truth": {
+        "SA1": "1/5",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA1 baseline power curve +0.20 (MU/Z high=0.10)"
+    },
+    {
+      "cell_index": 4,
+      "cell_name": "power-SA1-base-0.25",
+      "category": "SA1-baseline",
+      "population_name": "power-SA1-base-0.25",
+      "fingerprint": "9dfdcbdda62b8ff8d6c54dd545eed2b4bc9cbcf165c4d1f7c8cb78f641a94e44",
+      "truth": {
+        "SA1": "1/4",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA1 baseline power curve +0.25 (MU/Z high=0.10)"
+    },
+    {
+      "cell_index": 5,
+      "cell_name": "power-SA1-base-0.30",
+      "category": "SA1-baseline",
+      "population_name": "power-SA1-base-0.30",
+      "fingerprint": "724d83e37e542b5a3cba0924c4a17298ac512cee105b9bd7162ad36265dcddff",
+      "truth": {
+        "SA1": "3/10",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA1 baseline power curve +0.30 (MU/Z high=0.10)"
+    },
+    {
+      "cell_index": 6,
+      "cell_name": "power-SA1-base-0.35",
+      "category": "SA1-baseline",
+      "population_name": "power-SA1-base-0.35",
+      "fingerprint": "cc5c9f49a80a05c65b4f79fe25a7ae51f39f2ae2d07ecd6437619874fc6b1213",
+      "truth": {
+        "SA1": "7/20",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA1 baseline power curve +0.35 (MU/Z high=0.10)"
+    },
+    {
+      "cell_index": 7,
+      "cell_name": "power-SA1-pinned-0.05",
+      "category": "SA1-pinned",
+      "population_name": "power-SA1-pinned-0.05",
+      "fingerprint": "b2b3ea47c3b91f1e3e20204889bd0d9cb1231ef058ef9c4d0b144d38fbd0935c",
+      "truth": {
+        "SA1": "1/20",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA1 pinned zero-bottom power curve +0.05 (MU/Z high=0.00)"
+    },
+    {
+      "cell_index": 8,
+      "cell_name": "power-SA1-pinned-0.10",
+      "category": "SA1-pinned",
+      "population_name": "power-SA1-pinned-0.10",
+      "fingerprint": "178ab4b6adbb4fef9704f98ff7b0939e2764faea0f789c5b3f0d8fe1dd92c023",
+      "truth": {
+        "SA1": "1/10",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA1 pinned zero-bottom power curve +0.10 (MU/Z high=0.00)"
+    },
+    {
+      "cell_index": 9,
+      "cell_name": "power-SA1-pinned-0.125",
+      "category": "SA1-pinned",
+      "population_name": "power-SA1-pinned-0.125",
+      "fingerprint": "910ad9b2c657e255573a9d2839dc221e952526ef6b44df3b2c46dbd27760f362",
+      "truth": {
+        "SA1": "1/8",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA1 pinned zero-bottom power curve +0.125 (MU/Z high=0.00)"
+    },
+    {
+      "cell_index": 10,
+      "cell_name": "power-SA1-pinned-0.15",
+      "category": "SA1-pinned",
+      "population_name": "power-SA1-pinned-0.15",
+      "fingerprint": "aee98d93fed8c9c5cfb176289e85e28ac4fb83212eaac437bed4a05e78ff39e5",
+      "truth": {
+        "SA1": "3/20",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA1 pinned zero-bottom power curve +0.15 (MU/Z high=0.00)"
+    },
+    {
+      "cell_index": 11,
+      "cell_name": "power-SA1-pinned-0.20",
+      "category": "SA1-pinned",
+      "population_name": "power-SA1-pinned-0.20",
+      "fingerprint": "3bc782f7f7b4854c9334a54e6251fefecf0f2d8a04cc039863728e63595997d1",
+      "truth": {
+        "SA1": "1/5",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA1 pinned zero-bottom power curve +0.20 (MU/Z high=0.00)"
+    },
+    {
+      "cell_index": 12,
+      "cell_name": "power-SA1-pinned-0.25",
+      "category": "SA1-pinned",
+      "population_name": "power-SA1-pinned-0.25",
+      "fingerprint": "a4c29f5f7f7e5ee9c833156b6e252a2dd6f2660efa618fd0af5e6550c06f7220",
+      "truth": {
+        "SA1": "1/4",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA1 pinned zero-bottom power curve +0.25 (MU/Z high=0.00)"
+    },
+    {
+      "cell_index": 13,
+      "cell_name": "power-SA1-pinned-0.30",
+      "category": "SA1-pinned",
+      "population_name": "power-SA1-pinned-0.30",
+      "fingerprint": "7c884787eebe77e7863d9fddd7d361856d39ade2bdf67f002b28daddf63c9832",
+      "truth": {
+        "SA1": "3/10",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA1 pinned zero-bottom power curve +0.30 (MU/Z high=0.00)"
+    },
+    {
+      "cell_index": 14,
+      "cell_name": "power-SA1-pinned-0.35",
+      "category": "SA1-pinned",
+      "population_name": "power-SA1-pinned-0.35",
+      "fingerprint": "6256ba8498001520bd478d371d6b253a242ef409b9abc5a544af402ff782be7a",
+      "truth": {
+        "SA1": "7/20",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA1 pinned zero-bottom power curve +0.35 (MU/Z high=0.00)"
+    },
+    {
+      "cell_index": 15,
+      "cell_name": "power-SA2-5.0",
+      "category": "SA2-continuous",
+      "population_name": "power-SA2-5.0",
+      "fingerprint": "6025ec0b9c199f8cbbe3b12d4073ac3c3887084fa6e30724a2d77e144d7033c8",
+      "truth": {
+        "SA1": "0",
+        "SA2": "5",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA2 continuous did power curve +5.0"
+    },
+    {
+      "cell_index": 16,
+      "cell_name": "power-SA2-8.0",
+      "category": "SA2-continuous",
+      "population_name": "power-SA2-8.0",
+      "fingerprint": "c287fc583f9367961894a9b5d0a109875de3f8fe01e344663fc725dd3e4837fb",
+      "truth": {
+        "SA1": "0",
+        "SA2": "8",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA2 continuous did power curve +8.0"
+    },
+    {
+      "cell_index": 17,
+      "cell_name": "power-SA2-10.0",
+      "category": "SA2-continuous",
+      "population_name": "power-SA2-10.0",
+      "fingerprint": "99f8045ef0505b0ce394efd74809a7257aaa3ec4adf15a0e15bb8775c1bec73b",
+      "truth": {
+        "SA1": "0",
+        "SA2": "10",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA2 continuous did power curve +10.0"
+    },
+    {
+      "cell_index": 18,
+      "cell_name": "power-SA2-12.5",
+      "category": "SA2-continuous",
+      "population_name": "power-SA2-12.5",
+      "fingerprint": "cc00ff3ebc5c5f2117ebbed11952b18d757bda80f48b5c5759b822511715a2fc",
+      "truth": {
+        "SA1": "0",
+        "SA2": "25/2",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA2 continuous did power curve +12.5"
+    },
+    {
+      "cell_index": 19,
+      "cell_name": "power-SA2-15.0",
+      "category": "SA2-continuous",
+      "population_name": "power-SA2-15.0",
+      "fingerprint": "d2b14f0615592937eb0423efbab8d0c3561513b1d66216231f91f7ebe62b51d4",
+      "truth": {
+        "SA1": "0",
+        "SA2": "15",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA2 continuous did power curve +15.0"
+    },
+    {
+      "cell_index": 20,
+      "cell_name": "power-SA2-18.0",
+      "category": "SA2-continuous",
+      "population_name": "power-SA2-18.0",
+      "fingerprint": "ae1883e947e76eb407af3a8522c821f283cc33450bb3bd64f66e579b93fdb3f8",
+      "truth": {
+        "SA1": "0",
+        "SA2": "18",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA2 continuous did power curve +18.0"
+    },
+    {
+      "cell_index": 21,
+      "cell_name": "power-SA2-20.0",
+      "category": "SA2-continuous",
+      "population_name": "power-SA2-20.0",
+      "fingerprint": "89c74d59ac490edc4824f9bbdc94c827524d926ed0a43450e32775de9a1bbec3",
+      "truth": {
+        "SA1": "0",
+        "SA2": "20",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA2 continuous did power curve +20.0"
+    },
+    {
+      "cell_index": 22,
+      "cell_name": "power-SA2-25.0",
+      "category": "SA2-continuous",
+      "population_name": "power-SA2-25.0",
+      "fingerprint": "729bf2e6155902ab2127d30d040a83a76c43a60e3ded9e46a350a719bbcfea45",
+      "truth": {
+        "SA1": "0",
+        "SA2": "25",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA2 continuous did power curve +25.0"
+    },
+    {
+      "cell_index": 23,
+      "cell_name": "power-SA2-30.0",
+      "category": "SA2-continuous",
+      "population_name": "power-SA2-30.0",
+      "fingerprint": "a81eccda8e5d8a28936d1697dbda34832990aceaa6439df614dc23824518c22f",
+      "truth": {
+        "SA1": "0",
+        "SA2": "30",
+        "SA3": "0",
+        "SA4": "0"
+      },
+      "notes": "SA2 continuous did power curve +30.0"
+    },
+    {
+      "cell_index": 24,
+      "cell_name": "power-SA3--5.0",
+      "category": "SA3-continuous",
+      "population_name": "power-SA3--5.0",
+      "fingerprint": "a8555d1167bdd726bc73f40b5de839c2e7d71f8e31cad1dfef588eb90868f44a",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "-5",
+        "SA4": "0"
+      },
+      "notes": "SA3 continuous degradation power curve -5.0"
+    },
+    {
+      "cell_index": 25,
+      "cell_name": "power-SA3--8.5",
+      "category": "SA3-continuous",
+      "population_name": "power-SA3--8.5",
+      "fingerprint": "bde7244be38daf4c2dc1a8b795fc2fc993d31456bd59ba4624c849b790aaf136",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "-17/2",
+        "SA4": "0"
+      },
+      "notes": "SA3 continuous degradation power curve -8.5"
+    },
+    {
+      "cell_index": 26,
+      "cell_name": "power-SA3--10.0",
+      "category": "SA3-continuous",
+      "population_name": "power-SA3--10.0",
+      "fingerprint": "c5b58ef3b62fb0fdd9b8a8f358084c11d8ed8c95a04e87d1bdf5b1f056bd99d8",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "-10",
+        "SA4": "0"
+      },
+      "notes": "SA3 continuous degradation power curve -10.0"
+    },
+    {
+      "cell_index": 27,
+      "cell_name": "power-SA3--12.5",
+      "category": "SA3-continuous",
+      "population_name": "power-SA3--12.5",
+      "fingerprint": "09699d9dd2df416beeee3923d3ecdb9ab599408ec1ded2eedb5d8932b7e66e10",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "-25/2",
+        "SA4": "0"
+      },
+      "notes": "SA3 continuous degradation power curve -12.5"
+    },
+    {
+      "cell_index": 28,
+      "cell_name": "power-SA3--15.0",
+      "category": "SA3-continuous",
+      "population_name": "power-SA3--15.0",
+      "fingerprint": "38d5999a0a3fa9670e9ec428dc957011762598c34111fdbf61d154cc82dc3be8",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "-15",
+        "SA4": "0"
+      },
+      "notes": "SA3 continuous degradation power curve -15.0"
+    },
+    {
+      "cell_index": 29,
+      "cell_name": "power-SA3--18.0",
+      "category": "SA3-continuous",
+      "population_name": "power-SA3--18.0",
+      "fingerprint": "7d8bf0f568e8dc995ce80b5bd82d98532e05ec5278ca6885eea1e15a97010b63",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "-18",
+        "SA4": "0"
+      },
+      "notes": "SA3 continuous degradation power curve -18.0"
+    },
+    {
+      "cell_index": 30,
+      "cell_name": "power-SA3--20.0",
+      "category": "SA3-continuous",
+      "population_name": "power-SA3--20.0",
+      "fingerprint": "cf8b5daafb9f5cc01348b0befe828c3cb1379a0487a377575fbd2ff92b0b88dd",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "-20",
+        "SA4": "0"
+      },
+      "notes": "SA3 continuous degradation power curve -20.0"
+    },
+    {
+      "cell_index": 31,
+      "cell_name": "power-SA3--25.0",
+      "category": "SA3-continuous",
+      "population_name": "power-SA3--25.0",
+      "fingerprint": "a9380e96a3fecc0e87ac6f1556831f7c429d287ec1a5609d94fb07f34f22255e",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "-25",
+        "SA4": "0"
+      },
+      "notes": "SA3 continuous degradation power curve -25.0"
+    },
+    {
+      "cell_index": 32,
+      "cell_name": "power-SA3--30.0",
+      "category": "SA3-continuous",
+      "population_name": "power-SA3--30.0",
+      "fingerprint": "f576974e5bb5d4ccb5d9fc5a0d1b7b1f9d3ce4cfb16ec24b313da1fcecd20af6",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "-30",
+        "SA4": "0"
+      },
+      "notes": "SA3 continuous degradation power curve -30.0"
+    },
+    {
+      "cell_index": 33,
+      "cell_name": "power-SA4-base--0.10",
+      "category": "SA4-baseline",
+      "population_name": "power-SA4-base--0.10",
+      "fingerprint": "68e7a0e802d45c504fb6bb5431d01aa75387c5ba75877e69a41c41944bd88ec4",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-1/10"
+      },
+      "notes": "SA4 baseline power curve -0.10 (L/Z acc=0.85)"
+    },
+    {
+      "cell_index": 34,
+      "cell_name": "power-SA4-base--0.15",
+      "category": "SA4-baseline",
+      "population_name": "power-SA4-base--0.15",
+      "fingerprint": "4d599dafb8aee8196797312d2b712f38bf2c33256f462709f63c3e14a68aaeb6",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-3/20"
+      },
+      "notes": "SA4 baseline power curve -0.15 (L/Z acc=0.85)"
+    },
+    {
+      "cell_index": 35,
+      "cell_name": "power-SA4-base--0.20",
+      "category": "SA4-baseline",
+      "population_name": "power-SA4-base--0.20",
+      "fingerprint": "4b97cddd783951b60e9e389e827b2d838cd0f07f74396d8002cdc577df01ad61",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-1/5"
+      },
+      "notes": "SA4 baseline power curve -0.20 (L/Z acc=0.85)"
+    },
+    {
+      "cell_index": 36,
+      "cell_name": "power-SA4-base--0.25",
+      "category": "SA4-baseline",
+      "population_name": "power-SA4-base--0.25",
+      "fingerprint": "9aa0222c2d1bc1d5b656eb40793de27c86ab5db19b69d5c5f922f0f535fa5296",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-1/4"
+      },
+      "notes": "SA4 baseline power curve -0.25 (L/Z acc=0.85)"
+    },
+    {
+      "cell_index": 37,
+      "cell_name": "power-SA4-base--0.30",
+      "category": "SA4-baseline",
+      "population_name": "power-SA4-base--0.30",
+      "fingerprint": "2dab254719e62696b51215a7b5a1f65d83c2e09ea787418c0781eb9aad40e79c",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-3/10"
+      },
+      "notes": "SA4 baseline power curve -0.30 (L/Z acc=0.85)"
+    },
+    {
+      "cell_index": 38,
+      "cell_name": "power-SA4-base--0.40",
+      "category": "SA4-baseline",
+      "population_name": "power-SA4-base--0.40",
+      "fingerprint": "3a9a80982c82c32dbdb76604b0b04850e11cd14f525ea7d5e339c77c42480fd3",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-2/5"
+      },
+      "notes": "SA4 baseline power curve -0.40 (L/Z acc=0.85)"
+    },
+    {
+      "cell_index": 39,
+      "cell_name": "power-SA4-base--0.50",
+      "category": "SA4-baseline",
+      "population_name": "power-SA4-base--0.50",
+      "fingerprint": "fcf10bf229180abdbc2cb2158f2e5c02056175b089d984cb11285003eeb62838",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-1/2"
+      },
+      "notes": "SA4 baseline power curve -0.50 (L/Z acc=0.85)"
+    },
+    {
+      "cell_index": 40,
+      "cell_name": "power-SA4-base--0.60",
+      "category": "SA4-baseline",
+      "population_name": "power-SA4-base--0.60",
+      "fingerprint": "da8e53cd26de53cc8d555ec3335ef6ea5c78e31598748d13339cc87c4daed7f5",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-3/5"
+      },
+      "notes": "SA4 baseline power curve -0.60 (L/Z acc=0.85)"
+    },
+    {
+      "cell_index": 41,
+      "cell_name": "power-SA4-base--0.70",
+      "category": "SA4-baseline",
+      "population_name": "power-SA4-base--0.70",
+      "fingerprint": "ff2cd38f9cda6f0b622bd3e3369ff872ce45e4064981aaa6531dfd254fa582a7",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-7/10"
+      },
+      "notes": "SA4 baseline power curve -0.70 (L/Z acc=0.85)"
+    },
+    {
+      "cell_index": 42,
+      "cell_name": "power-SA4-pinned--0.15",
+      "category": "SA4-pinned",
+      "population_name": "power-SA4-pinned--0.15",
+      "fingerprint": "4d75976a217a6bc89b0bf26e42716a3ff80edd15ebaf3cbaefb5d200ff4c140c",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-3/20"
+      },
+      "notes": "SA4 pinned ceiling power curve -0.15"
+    },
+    {
+      "cell_index": 43,
+      "cell_name": "power-SA4-pinned--0.25",
+      "category": "SA4-pinned",
+      "population_name": "power-SA4-pinned--0.25",
+      "fingerprint": "25596c4c736fdd777ff143c47ab9732a071e209f712e3e4c047cba9a98788d3d",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-1/4"
+      },
+      "notes": "SA4 pinned ceiling power curve -0.25"
+    },
+    {
+      "cell_index": 44,
+      "cell_name": "power-SA4-pinned--0.35",
+      "category": "SA4-pinned",
+      "population_name": "power-SA4-pinned--0.35",
+      "fingerprint": "74099c5b146e933bad766b5668437c2a0931f2831dc5b4ebfd689c8520cd74c4",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-7/20"
+      },
+      "notes": "SA4 pinned ceiling power curve -0.35"
+    },
+    {
+      "cell_index": 45,
+      "cell_name": "power-SA4-pinned--0.50",
+      "category": "SA4-pinned",
+      "population_name": "power-SA4-pinned--0.50",
+      "fingerprint": "e66bce7ddf56b02331259244a39057b8d474d8b0f687ed555f8f97c6bfece896",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-1/2"
+      },
+      "notes": "SA4 pinned ceiling power curve -0.50"
+    },
+    {
+      "cell_index": 46,
+      "cell_name": "power-SA4-pinned--0.65",
+      "category": "SA4-pinned",
+      "population_name": "power-SA4-pinned--0.65",
+      "fingerprint": "41499696f7f56f63a2508cd47e9a2e3a42bf82ffdcd8c02309568bf730677a3c",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-13/20"
+      },
+      "notes": "SA4 pinned ceiling power curve -0.65"
+    },
+    {
+      "cell_index": 47,
+      "cell_name": "power-SA4-pinned--0.75",
+      "category": "SA4-pinned",
+      "population_name": "power-SA4-pinned--0.75",
+      "fingerprint": "892614db4afe4f371acea6aefb443aff922e82a2c161fc9abbebd20c53e4356d",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-3/4"
+      },
+      "notes": "SA4 pinned ceiling power curve -0.75"
+    },
+    {
+      "cell_index": 48,
+      "cell_name": "power-SA4-pinned--0.80",
+      "category": "SA4-pinned",
+      "population_name": "power-SA4-pinned--0.80",
+      "fingerprint": "7e4276df3aa267762aa3da1d58fcbe947791284622cfd2bd7871ae01bdfafe88",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-4/5"
+      },
+      "notes": "SA4 pinned ceiling power curve -0.80"
+    },
+    {
+      "cell_index": 49,
+      "cell_name": "power-SA4-pinned--0.85",
+      "category": "SA4-pinned",
+      "population_name": "power-SA4-pinned--0.85",
+      "fingerprint": "ca1c6bb85c7413cf4190b2afd305a91af6b6baad376f6d17398a0d3b558a1f35",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-17/20"
+      },
+      "notes": "SA4 pinned ceiling power curve -0.85"
+    },
+    {
+      "cell_index": 50,
+      "cell_name": "power-SA4-pinned--0.90",
+      "category": "SA4-pinned",
+      "population_name": "power-SA4-pinned--0.90",
+      "fingerprint": "7ff80d9c9eb7cd8e31cb2358398c1d8836cb683e696fc63d2a0bd8cb321a28f2",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-9/10"
+      },
+      "notes": "SA4 pinned ceiling power curve -0.90"
+    },
+    {
+      "cell_index": 51,
+      "cell_name": "power-SA4-pinned--0.95",
+      "category": "SA4-pinned",
+      "population_name": "power-SA4-pinned--0.95",
+      "fingerprint": "b122c51d45f4d417dccd04b36d37b6a39b5b562cde033f8eee74885cad4defed",
+      "truth": {
+        "SA1": "0",
+        "SA2": "0",
+        "SA3": "0",
+        "SA4": "-19/20"
+      },
+      "notes": "SA4 pinned ceiling power curve -0.95"
+    },
+    {
+      "cell_index": 52,
+      "cell_name": "power-empirical-convex-1_4",
+      "category": "empirical-convex-mixture",
+      "population_name": "power-empirical-convex-1_4",
+      "fingerprint": "3d8b01207ed5644f08d8a01bccb1d94fe6012c5dbfd059827dea1838e10948e9",
+      "truth": {
+        "SA1": "1/20",
+        "SA2": "313/100",
+        "SA3": "-171/80",
+        "SA4": "-19/80"
+      },
+      "notes": "Empirical convex mixture scaling gamma=1/4"
+    },
+    {
+      "cell_index": 53,
+      "cell_name": "power-empirical-convex-1_2",
+      "category": "empirical-convex-mixture",
+      "population_name": "power-empirical-convex-1_2",
+      "fingerprint": "f8e64ef52cef1cf7f54da087e009db7a44920657bb3e7b53ad65453e2c458c28",
+      "truth": {
+        "SA1": "1/10",
+        "SA2": "313/50",
+        "SA3": "-171/40",
+        "SA4": "-19/40"
+      },
+      "notes": "Empirical convex mixture scaling gamma=1/2"
+    },
+    {
+      "cell_index": 54,
+      "cell_name": "power-empirical-convex-3_4",
+      "category": "empirical-convex-mixture",
+      "population_name": "power-empirical-convex-3_4",
+      "fingerprint": "ebea5d8c35c8ed3ff0a835a573c7287868059c0c4e5c1de578cdf5fcd7bbdee0",
+      "truth": {
+        "SA1": "3/20",
+        "SA2": "939/100",
+        "SA3": "-513/80",
+        "SA4": "-57/80"
+      },
+      "notes": "Empirical convex mixture scaling gamma=3/4"
+    },
+    {
+      "cell_index": 55,
+      "cell_name": "power-empirical-convex-1",
+      "category": "empirical-convex-mixture",
+      "population_name": "power-empirical-convex-1",
+      "fingerprint": "d9bb280fd9c53614a46c5de4d94d51d177a998b5579e30733a0786e7f0a090e9",
+      "truth": {
+        "SA1": "1/5",
+        "SA2": "313/25",
+        "SA3": "-171/20",
+        "SA4": "-19/20"
+      },
+      "notes": "Empirical convex mixture scaling gamma=1"
+    }
+  ]
+}

@@ -1,0 +1,1588 @@
+{
+  "schema_version": 1,
+  "layout": "Repository-relative release tree; self-contained imperfective/ Experiment 1 preregistration package",
+  "files": [
+    {
+      "path": "imperfective/PLAN.md",
+      "source": "connecting-dots/imperfective/PLAN.md",
+      "sha256": "d4a2915113f79d0679d2319333c9ae2d4c3f4a604332340ec8b45f45d983275e",
+      "bytes": 46125,
+      "category": "freeze",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/s5-mac-handoff-20261101/PLAN-E1.md",
+      "source": "connecting-dots/imperfective/s5-mac-handoff-20261101/PLAN-E1.md",
+      "sha256": "59aa81d09c30ecc04c5bdb5d5cf26c052a51a2d719f9767b9a8fa256a13fecd6",
+      "bytes": 60384,
+      "category": "freeze",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "frozen_plan",
+          "sha256": "59aa81d09c30ecc04c5bdb5d5cf26c052a51a2d719f9767b9a8fa256a13fecd6"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/s5-mac-handoff-20261101/s6-s7-execution-manifest.json",
+      "source": "connecting-dots/imperfective/s5-mac-handoff-20261101/s6-s7-execution-manifest.json",
+      "sha256": "ca5c5bd1b5159652772aee77f08ea2601cccc6327d76f04fcbfd8ee4f45d8f22",
+      "bytes": 1504,
+      "category": "freeze",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/exp1-en/split.json",
+      "source": "connecting-dots/imperfective/exp1-en/split.json",
+      "sha256": "6821a3b3ad2378d51c683b8abc8a5b45d402b9997e3c8957bcda95cd0ef289b7",
+      "bytes": 9770,
+      "category": "materials",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "6821a3b3ad2378d51c683b8abc8a5b45d402b9997e3c8957bcda95cd0ef289b7"
+        },
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "sealed_step5b.split",
+          "sha256": "6821a3b3ad2378d51c683b8abc8a5b45d402b9997e3c8957bcda95cd0ef289b7"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/label_tokens_qwen3-8b.json",
+      "source": "connecting-dots/imperfective/exp1-en/label_tokens_qwen3-8b.json",
+      "sha256": "db388dec0a0ecfc93d8bc55e6fa66da460a153bfdd01c1b54f23214b04691259",
+      "bytes": 609,
+      "category": "materials",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "db388dec0a0ecfc93d8bc55e6fa66da460a153bfdd01c1b54f23214b04691259"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/test_prompt_golden.json",
+      "source": "connecting-dots/imperfective/exp1-en/test_prompt_golden.json",
+      "sha256": "eab07374470c7a34c7e5765887490ec2fb674cd06b4b3e1bdd1feba0d0ec18c1",
+      "bytes": 5913,
+      "category": "materials",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/exp1-en/common.py",
+      "source": "connecting-dots/imperfective/exp1-en/common.py",
+      "sha256": "012ae4efd15aa2c338f93d994495cd3209bc032657e8178b4e37d52f1858e8de",
+      "bytes": 1703,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "012ae4efd15aa2c338f93d994495cd3209bc032657e8178b4e37d52f1858e8de"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/provenance.py",
+      "source": "connecting-dots/imperfective/exp1-en/provenance.py",
+      "sha256": "6beed0b5791d234f36b20bfc989fea50361a9d1deb845998f60bdbf4013e10a8",
+      "bytes": 4520,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "6beed0b5791d234f36b20bfc989fea50361a9d1deb845998f60bdbf4013e10a8"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/split.py",
+      "source": "connecting-dots/imperfective/exp1-en/split.py",
+      "sha256": "6a7174420097a1bcb9e41dace3c3b8ac7787f8598b268a0b3f3d8fc97ec65c4b",
+      "bytes": 2624,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "6a7174420097a1bcb9e41dace3c3b8ac7787f8598b268a0b3f3d8fc97ec65c4b"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/prompts.py",
+      "source": "connecting-dots/imperfective/exp1-en/prompts.py",
+      "sha256": "f7cdd0fb5e9ec7979d9f6180943c6cc0ae1f1be1df92e6d77d1778a3a7818343",
+      "bytes": 3242,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "f7cdd0fb5e9ec7979d9f6180943c6cc0ae1f1be1df92e6d77d1778a3a7818343"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/prompt_parts.py",
+      "source": "connecting-dots/imperfective/exp1-en/prompt_parts.py",
+      "sha256": "027a6329088a71bb18fe2d4ac8d4999bec00f34af707092c659d54d5f69b8e41",
+      "bytes": 1135,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "027a6329088a71bb18fe2d4ac8d4999bec00f34af707092c659d54d5f69b8e41"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/parse.py",
+      "source": "connecting-dots/imperfective/exp1-en/parse.py",
+      "sha256": "b44d0c453dc54d03e605dc00e5fa2fa8538c998264f93c028ea397c4e6f5f342",
+      "bytes": 17471,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "b44d0c453dc54d03e605dc00e5fa2fa8538c998264f93c028ea397c4e6f5f342"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/protocol.py",
+      "source": "connecting-dots/imperfective/exp1-en/protocol.py",
+      "sha256": "398669f4bdc20c15878d16520b5558e2de98d45c5584add05bde9aedb8efc61e",
+      "bytes": 2117,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "398669f4bdc20c15878d16520b5558e2de98d45c5584add05bde9aedb8efc61e"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/score.py",
+      "source": "connecting-dots/imperfective/exp1-en/score.py",
+      "sha256": "06a5d845c5a9878640d3562f7f85dc6e9fe8b81a96f9956d6dee96a16c5a6c5e",
+      "bytes": 3740,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "06a5d845c5a9878640d3562f7f85dc6e9fe8b81a96f9956d6dee96a16c5a6c5e"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/run.py",
+      "source": "connecting-dots/imperfective/exp1-en/run.py",
+      "sha256": "a4c5d3ccaa2fda541e8d48d571a134f295dc238765d80d4f149f84878ad182ef",
+      "bytes": 25223,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "a4c5d3ccaa2fda541e8d48d571a134f295dc238765d80d4f149f84878ad182ef"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/subject.py",
+      "source": "connecting-dots/imperfective/exp1-en/subject.py",
+      "sha256": "aed0e039b8594678f652680cdc1f0c061ed81f90cb9e368b88aaa69a98cfe339",
+      "bytes": 9594,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "aed0e039b8594678f652680cdc1f0c061ed81f90cb9e368b88aaa69a98cfe339"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/host.py",
+      "source": "connecting-dots/imperfective/exp1-en/host.py",
+      "sha256": "f66209831b6fd3513269a07bde2b8dbcc0feac8c446868c62a3ce30eb460c147",
+      "bytes": 2381,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "f66209831b6fd3513269a07bde2b8dbcc0feac8c446868c62a3ce30eb460c147"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/admission.py",
+      "source": "connecting-dots/imperfective/exp1-en/admission.py",
+      "sha256": "5e32b7091ee411fd6b46fc74f4f602c7826e262b06c1277e93c2a970f9ce5fd9",
+      "bytes": 4663,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "5e32b7091ee411fd6b46fc74f4f602c7826e262b06c1277e93c2a970f9ce5fd9"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/ledger.py",
+      "source": "connecting-dots/imperfective/exp1-en/ledger.py",
+      "sha256": "4b2da3e94bb1a6edf4e32943efef226662e3de69ae000302080ee33cc916871a",
+      "bytes": 4588,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "4b2da3e94bb1a6edf4e32943efef226662e3de69ae000302080ee33cc916871a"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/gates.py",
+      "source": "connecting-dots/imperfective/exp1-en/gates.py",
+      "sha256": "2b3c57616a2d0135a8eda30fc9e8189a9931f964e54a37c4930ad3c36fe0c718",
+      "bytes": 3457,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "2b3c57616a2d0135a8eda30fc9e8189a9931f964e54a37c4930ad3c36fe0c718"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/deadline.py",
+      "source": "connecting-dots/imperfective/exp1-en/deadline.py",
+      "sha256": "1c74b4fb02417719c54e3ce1ddd2341eebaba245f6063628be53e3a0c327e370",
+      "bytes": 2458,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "1c74b4fb02417719c54e3ce1ddd2341eebaba245f6063628be53e3a0c327e370"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/dry_stub.py",
+      "source": "connecting-dots/imperfective/exp1-en/dry_stub.py",
+      "sha256": "c0b7dae1c45bc32446713840ad406a24709fece7a9f127c09486c5e7b954660d",
+      "bytes": 4927,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "c0b7dae1c45bc32446713840ad406a24709fece7a9f127c09486c5e7b954660d"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/check_tokens.py",
+      "source": "connecting-dots/imperfective/exp1-en/check_tokens.py",
+      "sha256": "0f8cc6cf08f4942687d80265174ecf99ad371326365f6a59dffe22ff676bb2fe",
+      "bytes": 6306,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "0f8cc6cf08f4942687d80265174ecf99ad371326365f6a59dffe22ff676bb2fe"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/host_macos.py",
+      "source": "connecting-dots/imperfective/exp1-en/host_macos.py",
+      "sha256": "ff6971a7443b31fcb452c54a93c7806170d6e6908725262503de506ac4d4880b",
+      "bytes": 12895,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "ff6971a7443b31fcb452c54a93c7806170d6e6908725262503de506ac4d4880b"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/config_models.json",
+      "source": "connecting-dots/imperfective/exp1-en/config_models.json",
+      "sha256": "64e2eba87ecd4173caa7cce8734e57517bd704a7c217638107e144319acdb1c4",
+      "bytes": 229,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "64e2eba87ecd4173caa7cce8734e57517bd704a7c217638107e144319acdb1c4"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/config_assets_macmini-m6.json",
+      "source": "connecting-dots/imperfective/exp1-en/config_assets_macmini-m6.json",
+      "sha256": "6af91feeafd4d82597133b7eabeea65a4d2296f8e1fbf2fed71c730326703ca1",
+      "bytes": 1348,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "6af91feeafd4d82597133b7eabeea65a4d2296f8e1fbf2fed71c730326703ca1"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/host_paths_macmini-m6.json",
+      "source": "connecting-dots/imperfective/exp1-en/host_paths_macmini-m6.json",
+      "sha256": "98a6ce3cb989a723b4833f48dfa4596b79a7d7a140e078cad87feea18f6f4ea4",
+      "bytes": 437,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "98a6ce3cb989a723b4833f48dfa4596b79a7d7a140e078cad87feea18f6f4ea4"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/gpu_preflight_macos.py",
+      "source": "connecting-dots/imperfective/exp1-en/gpu_preflight_macos.py",
+      "sha256": "cd613ac6b1fe3b2158f3fb0fb90372452f2139cd998b70dc9c55b02372b06e73",
+      "bytes": 742,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "exp1_runner",
+          "sha256": "cd613ac6b1fe3b2158f3fb0fb90372452f2139cd998b70dc9c55b02372b06e73"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/exp1-en/gpu_s3_stage_macos.py",
+      "source": "connecting-dots/imperfective/exp1-en/gpu_s3_stage_macos.py",
+      "sha256": "29ed5e9af015608c6b6cebc07b0fecfc2dea01cd61c682203f0aae04e63ee1ca",
+      "bytes": 1892,
+      "category": "runner_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/exp1-en/stats_validation/__init__.py",
+      "source": "connecting-dots/imperfective/exp1-en/stats_validation/__init__.py",
+      "sha256": "d50c5e4bfa076f0bfa49a300b7491b2858c4ec661d503fcbc7a6ddd57b71a6bc",
+      "bytes": 76,
+      "category": "analysis_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/exp1-en/stats_validation/core.py",
+      "source": "connecting-dots/imperfective/exp1-en/stats_validation/core.py",
+      "sha256": "795aa3ae5bae89ff235a5802775646a33fdf3cd13de9c9f75aefc268ab7f1605",
+      "bytes": 10661,
+      "category": "analysis_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/exp1-en/stats_validation/studentized.py",
+      "source": "connecting-dots/imperfective/exp1-en/stats_validation/studentized.py",
+      "sha256": "9645fd83c46942bbef6f76eb0fc08117d363b15ec3e8e51efd573ba8218f9ee0",
+      "bytes": 4580,
+      "category": "analysis_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/code/__init__.py",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/code/__init__.py",
+      "sha256": "e858c5b9aeb5c00736bd4d2cc07c5ccb06913db7c417b7b4ca33b3764f8bea3f",
+      "bytes": 99,
+      "category": "analysis_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/code/inputs.py",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/code/inputs.py",
+      "sha256": "e0b741ba5cf9425384ea264d8df35125e69a0c2de6718b86cb24f90f8e72e1cf",
+      "bytes": 21887,
+      "category": "analysis_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "sealed_step5b.module",
+          "sha256": "e0b741ba5cf9425384ea264d8df35125e69a0c2de6718b86cb24f90f8e72e1cf"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/code/exact_tango.py",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/code/exact_tango.py",
+      "sha256": "ee77b072b9afbb2fa729186508e44bc2f689fc5542ca39b90e541dd03e77ce29",
+      "bytes": 48011,
+      "category": "analysis_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "sealed_step5b.module",
+          "sha256": "ee77b072b9afbb2fa729186508e44bc2f689fc5542ca39b90e541dd03e77ce29"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/code/core_a.py",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/code/core_a.py",
+      "sha256": "7186dc975a11ac5d6af54d0b336e03e3bff7a3a875d7a444e2d8e250542ecbe7",
+      "bytes": 49499,
+      "category": "analysis_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "sealed_step5b.module",
+          "sha256": "7186dc975a11ac5d6af54d0b336e03e3bff7a3a875d7a444e2d8e250542ecbe7"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/code/dgp_a.py",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/code/dgp_a.py",
+      "sha256": "418398245f6c503fd19146ecc566084ceb155adbd8a5f93c0936b67d5df52832",
+      "bytes": 37850,
+      "category": "analysis_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "sealed_step5b.module",
+          "sha256": "418398245f6c503fd19146ecc566084ceb155adbd8a5f93c0936b67d5df52832"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/code/manifest_a.py",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/code/manifest_a.py",
+      "sha256": "bb8a3543185e4f94004752fba9106f988e4c92c830a1993fd6afeb1858c5bfef",
+      "bytes": 37695,
+      "category": "analysis_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "sealed_step5b.module",
+          "sha256": "bb8a3543185e4f94004752fba9106f988e4c92c830a1993fd6afeb1858c5bfef"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/code/run_sim.py",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/code/run_sim.py",
+      "sha256": "997df243297a1d038d299b6d03f61e9ce9997efbf944fbceec813662f4b17314",
+      "bytes": 48377,
+      "category": "analysis_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "sealed_step5b.module",
+          "sha256": "997df243297a1d038d299b6d03f61e9ce9997efbf944fbceec813662f4b17314"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/code/summarize_sim.py",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/code/summarize_sim.py",
+      "sha256": "601c248f0e11ed07dc4f83085bdf1d92696aeec04e2ed3a8fef6696ddad2159a",
+      "bytes": 113727,
+      "category": "analysis_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "sealed_step5b.module",
+          "sha256": "601c248f0e11ed07dc4f83085bdf1d92696aeec04e2ed3a8fef6696ddad2159a"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/code/formal_engine.py",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/code/formal_engine.py",
+      "sha256": "628fa960b06c9079af8eb64066f1a9150e54d451e94fbafc7cbd8c8f886b9b9e",
+      "bytes": 58020,
+      "category": "analysis_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "sealed_step5b.module",
+          "sha256": "628fa960b06c9079af8eb64066f1a9150e54d451e94fbafc7cbd8c8f886b9b9e"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/manifests/exact-tango-tables.npz",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/manifests/exact-tango-tables.npz",
+      "sha256": "090bfbb5a859238ad05100443b4727c61644e030fd2d5e05359c5d575f4c46bf",
+      "bytes": 93026,
+      "category": "analysis_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "sealed_step5b.tango_npz",
+          "sha256": "090bfbb5a859238ad05100443b4727c61644e030fd2d5e05359c5d575f4c46bf"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/manifests/exact-tango-tables-meta.json",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/manifests/exact-tango-tables-meta.json",
+      "sha256": "0f38fee87cde6d4f60146fa86ea5fa83e4af271df3c17982a18b0aa7ed374896",
+      "bytes": 4665,
+      "category": "analysis_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/manifests/sealed-run-identity.json",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/manifests/sealed-run-identity.json",
+      "sha256": "fdf0d5e72e12fa327747e435792bb2682bb61a6bf024ee7014d81ad33295952c",
+      "bytes": 6060,
+      "category": "analysis_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/s5-mac-handoff-20261101/gpu_s6_formal_stage_macos.py",
+      "source": "connecting-dots/imperfective/s5-mac-handoff-20261101/gpu_s6_formal_stage_macos.py",
+      "sha256": "eaf842c43b2a326565666ae7f583783d4f3c922e5d97d6e16726b0be97644f49",
+      "bytes": 22352,
+      "category": "analysis_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "entrypoints",
+          "sha256": "eaf842c43b2a326565666ae7f583783d4f3c922e5d97d6e16726b0be97644f49"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/s5-mac-handoff-20261101/run_s7_formal_analysis.py",
+      "source": "connecting-dots/imperfective/s5-mac-handoff-20261101/run_s7_formal_analysis.py",
+      "sha256": "604f84a7adb07b2c92149fa6f39b4fd360c7b529eba7c45eb0b3a4298b581d77",
+      "bytes": 138209,
+      "category": "analysis_programs",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": true,
+      "bindings": [
+        {
+          "config": "qwen3-8b@macmini-m6",
+          "section": "entrypoints",
+          "sha256": "604f84a7adb07b2c92149fa6f39b4fd360c7b529eba7c45eb0b3a4298b581d77"
+        }
+      ]
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/report-final.md",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/report-final.md",
+      "sha256": "db723a76042707819d88d6f8c7ab68606221cd61eb00e7c519436e4ad649275f",
+      "bytes": 44517,
+      "category": "summaries",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/manifests/manifest-88.json",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/manifests/manifest-88.json",
+      "sha256": "cffc2a244e8bc18916fb8119aba372818c75ac2deb3f176e3d09aef8cac327f5",
+      "bytes": 120841,
+      "category": "summaries",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/manifests/manifest-power56.json",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/manifests/manifest-power56.json",
+      "sha256": "38065327b600a5db6b73c2c21254bfb8358da8edd54be1427392495555a29bdc",
+      "bytes": 24647,
+      "category": "summaries",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/results/candidate-selection-summary.json",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/results/candidate-selection-summary.json",
+      "sha256": "0812ef6a2046b5e7bb4bff0afee7c561d651746258be1660598a900f942b85ba",
+      "bytes": 87955,
+      "category": "summaries",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/results/summary-val88-hybrid-pct-tango.md",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/results/summary-val88-hybrid-pct-tango.md",
+      "sha256": "4127703b92c6b791f8acb9a4097480d9fd643ca6c15adb408a8a07cb198041bd",
+      "bytes": 9653,
+      "category": "summaries",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/results/summary-val88-hybrid-bessel-t-tango.md",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/results/summary-val88-hybrid-bessel-t-tango.md",
+      "sha256": "0dac8e566e9392613e4227baa0910153fbeaa880bb1a1f236af2d4a78a70e6ea",
+      "bytes": 9663,
+      "category": "summaries",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/results/summary-power56-hybrid-pct-tango.md",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/results/summary-power56-hybrid-pct-tango.md",
+      "sha256": "80886251896ae3170e30959ec07e7bc713f20cc0d71871621d56a847609843d2",
+      "bytes": 5948,
+      "category": "summaries",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/scheme-a-hybrid-calibration-20261101/results/summary-power56-hybrid-bessel-t-tango.md",
+      "source": "connecting-dots/imperfective/scheme-a-hybrid-calibration-20261101/results/summary-power56-hybrid-bessel-t-tango.md",
+      "sha256": "5f92969a8321a4a0a157ad1dcfb4d7ec9ecb586bf4a469e8284582d2be3f40d0",
+      "bytes": 5958,
+      "category": "summaries",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/exp1-en/test_deadline.py",
+      "source": "connecting-dots/imperfective/exp1-en/test_deadline.py",
+      "sha256": "a15989c3dcaa76b00970999b45c62a1adaa73bf2939c458d9334e8e0e900d8b7",
+      "bytes": 1901,
+      "category": "tests",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/exp1-en/test_gpu_preflight_macos.py",
+      "source": "connecting-dots/imperfective/exp1-en/test_gpu_preflight_macos.py",
+      "sha256": "2b20117c938a06749603cabe4f9ec0e692b720dd761fdf02765b4433af023522",
+      "bytes": 1895,
+      "category": "tests",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/exp1-en/test_gpu_s3_stage_macos.py",
+      "source": "connecting-dots/imperfective/exp1-en/test_gpu_s3_stage_macos.py",
+      "sha256": "b7fd61f68af9d36481d1e09e6789b58033a5f34c34e8d4f8ef430f006f222312",
+      "bytes": 4864,
+      "category": "tests",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/exp1-en/test_parse_v2.py",
+      "source": "connecting-dots/imperfective/exp1-en/test_parse_v2.py",
+      "sha256": "348717bcf397425477b02d407478e46ca1a7fd141ed618aaeadf3f80c9e3e5c9",
+      "bytes": 15165,
+      "category": "tests",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/exp1-en/test_subject.py",
+      "source": "connecting-dots/imperfective/exp1-en/test_subject.py",
+      "sha256": "6c0ed337db84f3930606c00dbb7f487e1615c280eff6a7f82173e96614caf2bd",
+      "bytes": 11515,
+      "category": "tests",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/README.md",
+      "source": "connecting-dots/imperfective/release/README.md",
+      "sha256": "807b24c47da247ae391542aa0287e4fb1ed79b6e512763477b76555831952fa6",
+      "bytes": 11537,
+      "category": "release_support",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/verify_prereg.py",
+      "source": "connecting-dots/imperfective/release/verify_prereg.py",
+      "sha256": "cf653ac144d6866038cfe01fbac8c99d85f90040f4e6252eba6fcd521dccc1fd",
+      "bytes": 20873,
+      "category": "release_support",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/third-party-data.md",
+      "source": "connecting-dots/imperfective/release/third-party-data.md",
+      "sha256": "4cf1fd4a1b7cefaf17d6e53f778a8ad986328fab9c684921b25b3136cd61f572",
+      "bytes": 3059,
+      "category": "release_support",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/requirements.txt",
+      "source": "connecting-dots/imperfective/release/requirements.txt",
+      "sha256": "4ddc9fac6812009f664a46c80b8fd573c9f2bcc4ac391cca9531ca94cd432e63",
+      "bytes": 12,
+      "category": "release_support",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    },
+    {
+      "path": "imperfective/test_prereg_offline.py",
+      "source": "connecting-dots/imperfective/release/test_prereg_offline.py",
+      "sha256": "189b9e860812da77f2f8c596be6f6c20e3fa83b4035735f651d3f8aaf5dbde36",
+      "bytes": 11293,
+      "category": "release_support",
+      "byte_preserved": true,
+      "frozen_or_fingerprint_bound": false,
+      "bindings": []
+    }
+  ],
+  "file_count": 64,
+  "total_bytes": 1328087,
+  "exclusions": {
+    "third_party": [
+      "exp1-en/data/imperfectiveNLI.json (CC BY-NC 4.0 upstream dataset; acquire per third-party-data.md)",
+      "exp1-en/data/run_inference.py.txt (pinned upstream reference script; acquire per third-party-data.md)"
+    ],
+    "execution": [
+      "exp1-en/raw/ (smoke/dev/admission/formal ledgers, sessions, and model free-text responses)",
+      "scheme-a-hybrid-calibration-20261101/runs/ (simulation replicate chunk archives)",
+      "*.lock",
+      "*.log"
+    ],
+    "internal": [
+      "brief-*",
+      "review-*",
+      "report-* (except aggregate Step 5b report-final.md)",
+      "PROGRESS.md",
+      "MAC-SETUP.md",
+      "s5-mac-handoff-20261101/{HANDOFF-MAC-ANTIGRAVITY.md, dispatch_c_s5.py, pack_mac_handoff_bundle.py, responses-freeze-*.md, review-*.md, critic-freeze-*}",
+      "scheme-a-hybrid-calibration-20261101/{brief.md, c-*.md, critic-*, drafts/, prompts/, responses-*.md}"
+    ],
+    "raw_dependent_tests": [
+      "exp1-en/coverage_manifest.py",
+      "exp1-en/test_coverage.py",
+      "exp1-en/test_core.py",
+      "exp1-en/test_fix1.py",
+      "exp1-en/test_host_macos.py",
+      "exp1-en/test_runner.py",
+      "scheme-a-hybrid-calibration-20261101/code/tests/test_all.py",
+      "s5-mac-handoff-20261101/test_s5_s7_pipeline.py (replaced by raw-free test_prereg_offline.py)"
+    ],
+    "not_selected": [
+      "exp1-en/stats_validation/{dgp.py, inputs.py, manifest.py, run_validation.py, summarize.py, test_*.py, *.mjs, *.md} (superseded legacy V4 simulation harness; core.py and studentized.py included for secondary descriptive co-reporting)",
+      "scheme-a-hybrid-calibration-20261101/results/dev-dry-run.json",
+      "scheme-a-hybrid-calibration-20261101/results/summary-*.json (markdown summaries without local paths included instead)",
+      "scheme-a-hybrid-calibration-20261101/manifests/joint-populations-*.json",
+      "exp1-en/data-provenance.md (replaced by English third-party-data.md)"
+    ]
+  },
+  "scan_findings": [
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 4,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 23,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 25,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 62,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 64,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 68,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 68,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 68,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 69,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 69,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 69,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 70,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 71,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 71,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 71,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 71,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 71,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 71,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 71,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 71,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 71,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 71,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 71,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 73,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 73,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 73,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 73,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 151,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 232,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 232,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 248,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 266,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 266,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 268,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 271,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/PLAN.md",
+      "line": 273,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/s5-mac-handoff-20261101/PLAN-E1.md",
+      "line": 15,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/s5-mac-handoff-20261101/PLAN-E1.md",
+      "line": 18,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/s5-mac-handoff-20261101/PLAN-E1.md",
+      "line": 73,
+      "kind": "posix_path",
+      "match_sha256": "60e40d8312cc7a1b11efee19a022bfc598ba492cdcb69882e63c59f0f7d1bebc",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/s5-mac-handoff-20261101/PLAN-E1.md",
+      "line": 74,
+      "kind": "posix_path",
+      "match_sha256": "71fcc098c28c8605a38989b077d383870b025a0060b16d1e7f5999a8fdc51857",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/s5-mac-handoff-20261101/PLAN-E1.md",
+      "line": 77,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/s5-mac-handoff-20261101/PLAN-E1.md",
+      "line": 78,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/s5-mac-handoff-20261101/PLAN-E1.md",
+      "line": 83,
+      "kind": "posix_path",
+      "match_sha256": "4b66b375490c0ba49dba32fc001c2e7f5514793f266ccc633afef0f248f50959",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/s5-mac-handoff-20261101/PLAN-E1.md",
+      "line": 86,
+      "kind": "posix_path",
+      "match_sha256": "4b66b375490c0ba49dba32fc001c2e7f5514793f266ccc633afef0f248f50959",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/s5-mac-handoff-20261101/PLAN-E1.md",
+      "line": 86,
+      "kind": "posix_path",
+      "match_sha256": "60e40d8312cc7a1b11efee19a022bfc598ba492cdcb69882e63c59f0f7d1bebc",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/s5-mac-handoff-20261101/PLAN-E1.md",
+      "line": 287,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/s5-mac-handoff-20261101/PLAN-E1.md",
+      "line": 287,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/s5-mac-handoff-20261101/PLAN-E1.md",
+      "line": 295,
+      "kind": "posix_path",
+      "match_sha256": "71fcc098c28c8605a38989b077d383870b025a0060b16d1e7f5999a8fdc51857",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/exp1-en/score.py",
+      "line": 1,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/exp1-en/subject.py",
+      "line": 3,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/exp1-en/subject.py",
+      "line": 59,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/exp1-en/subject.py",
+      "line": 161,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/exp1-en/dry_stub.py",
+      "line": 3,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/exp1-en/dry_stub.py",
+      "line": 16,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/exp1-en/dry_stub.py",
+      "line": 17,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/exp1-en/check_tokens.py",
+      "line": 29,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/exp1-en/check_tokens.py",
+      "line": 100,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/exp1-en/check_tokens.py",
+      "line": 102,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/exp1-en/check_tokens.py",
+      "line": 102,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/exp1-en/check_tokens.py",
+      "line": 103,
+      "kind": "credential_term",
+      "match_sha256": "f98103e9217f099208569d295c1b276f1821348636c268c854bb2a086e0037cd",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/exp1-en/config_assets_macmini-m6.json",
+      "line": 17,
+      "kind": "posix_path",
+      "match_sha256": "60e40d8312cc7a1b11efee19a022bfc598ba492cdcb69882e63c59f0f7d1bebc",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/exp1-en/config_assets_macmini-m6.json",
+      "line": 20,
+      "kind": "posix_path",
+      "match_sha256": "4b66b375490c0ba49dba32fc001c2e7f5514793f266ccc633afef0f248f50959",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/exp1-en/config_assets_macmini-m6.json",
+      "line": 22,
+      "kind": "posix_path",
+      "match_sha256": "60e40d8312cc7a1b11efee19a022bfc598ba492cdcb69882e63c59f0f7d1bebc",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/exp1-en/host_paths_macmini-m6.json",
+      "line": 3,
+      "kind": "posix_path",
+      "match_sha256": "4b66b375490c0ba49dba32fc001c2e7f5514793f266ccc633afef0f248f50959",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/exp1-en/host_paths_macmini-m6.json",
+      "line": 4,
+      "kind": "posix_path",
+      "match_sha256": "7306027e24f7ce06e36b8881f93e0cb8f8f4d0b532a5c3e0afdd12f836ae2217",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/exp1-en/host_paths_macmini-m6.json",
+      "line": 5,
+      "kind": "posix_path",
+      "match_sha256": "71fcc098c28c8605a38989b077d383870b025a0060b16d1e7f5999a8fdc51857",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/exp1-en/host_paths_macmini-m6.json",
+      "line": 9,
+      "kind": "posix_path",
+      "match_sha256": "60e40d8312cc7a1b11efee19a022bfc598ba492cdcb69882e63c59f0f7d1bebc",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/exp1-en/gpu_preflight_macos.py",
+      "line": 1,
+      "kind": "posix_path",
+      "match_sha256": "7be7ff0f6290be5ddaef91639b717c2c5088c3b6e689ee69b1ea514501f1b19b",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/exp1-en/gpu_s3_stage_macos.py",
+      "line": 1,
+      "kind": "posix_path",
+      "match_sha256": "7be7ff0f6290be5ddaef91639b717c2c5088c3b6e689ee69b1ea514501f1b19b",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/exp1-en/stats_validation/studentized.py",
+      "line": 22,
+      "kind": "email",
+      "match_sha256": "0edf6658ddf5b0c1700e1d69c7a8fddbc97043e0ad9a1e8475306ce440ac6809",
+      "false_positive": true,
+      "review": "Reviewed NumPy matrix-multiplication transpose expression (wt@lo.T / wt@hi.T), not an email address."
+    },
+    {
+      "file": "imperfective/exp1-en/stats_validation/studentized.py",
+      "line": 23,
+      "kind": "email",
+      "match_sha256": "80602ce9e93105bf50069a4bfe6524ce85dc1b74d0c7879b6f1671f5f31c5398",
+      "false_positive": true,
+      "review": "Reviewed NumPy matrix-multiplication transpose expression (wt@lo.T / wt@hi.T), not an email address."
+    },
+    {
+      "file": "imperfective/scheme-a-hybrid-calibration-20261101/code/inputs.py",
+      "line": 18,
+      "kind": "windows_path",
+      "match_sha256": "8fdd547a05f6ec4a69121ff488f2fe0dd6c589a0cc49b53b1505afa270cc4e7e",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/scheme-a-hybrid-calibration-20261101/code/inputs.py",
+      "line": 19,
+      "kind": "windows_path",
+      "match_sha256": "a06456595fe2e0d668dd7faac218b84432edca905802c2fc830b0dba35efc377",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/scheme-a-hybrid-calibration-20261101/code/manifest_a.py",
+      "line": 706,
+      "kind": "windows_path",
+      "match_sha256": "a9d61a925d99a15f74d1fd2c5122d9533dad38b2f1e9197c9d544c51cf189dad",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/scheme-a-hybrid-calibration-20261101/code/formal_engine.py",
+      "line": 1302,
+      "kind": "windows_path",
+      "match_sha256": "c45bd6624c3e6de0733f4e674bfbf4059aa921ae04ab18a67c01e34cffac33f7",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/s5-mac-handoff-20261101/gpu_s6_formal_stage_macos.py",
+      "line": 1,
+      "kind": "posix_path",
+      "match_sha256": "7be7ff0f6290be5ddaef91639b717c2c5088c3b6e689ee69b1ea514501f1b19b",
+      "false_positive": true,
+      "review": "Reviewed non-sensitive mount/workspace path in a hash-bound file; preserved unchanged so SHA-256 bindings verify."
+    },
+    {
+      "file": "imperfective/s5-mac-handoff-20261101/gpu_s6_formal_stage_macos.py",
+      "line": 71,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/s5-mac-handoff-20261101/run_s7_formal_analysis.py",
+      "line": 765,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/s5-mac-handoff-20261101/run_s7_formal_analysis.py",
+      "line": 2500,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/s5-mac-handoff-20261101/run_s7_formal_analysis.py",
+      "line": 2500,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/README.md",
+      "line": 13,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/README.md",
+      "line": 18,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    },
+    {
+      "file": "imperfective/README.md",
+      "line": 45,
+      "kind": "credential_term",
+      "match_sha256": "3c469e9d6c5875d37a43f353d4f88e61fcf812c66eee3457465a40b0da4153e0",
+      "false_positive": true,
+      "review": "Tokenizer/LLM code or documentation vocabulary; credential values are scanned separately."
+    }
+  ],
+  "third_party_review": {
+    "performed": false,
+    "reason": "Local exp1-en/data/imperfectiveNLI.json absent on build host; explicit allowlist and zero-data provenance apply."
+  },
+  "scan_note": "All copied UTF-8 text files scanned without redaction (binary .npz table verified by SHA-256). Each occurrence is classified without echoing matched values. Inventory excludes its own digest.",
+  "needs_a_review": [],
+  "categories": {
+    "freeze": 3,
+    "materials": 3,
+    "runner_programs": 23,
+    "analysis_programs": 17,
+    "summaries": 8,
+    "tests": 5,
+    "release_support": 5
+  }
+}

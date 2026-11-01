@@ -1,0 +1,26 @@
+{
+  "schema_version": "exp1-s6-s7-execution-manifest-v1",
+  "config": "qwen3-8b@macmini-m6",
+  "expected_runner_fingerprint": "895f4e6f51ca3044800eff8ff098970af68f86f54ced061c79c6a5e9ef1900b2",
+  "expected_fp8": "895f4e6f",
+  "expected_frozen_plan_sha256": "59aa81d09c30ecc04c5bdb5d5cf26c052a51a2d719f9767b9a8fa256a13fecd6",
+  "formal_bootstrap_b": 5000,
+  "formal_analysis_seed": 2026110201,
+  "confirmatory_unit_index_input_allowed": false,
+  "entrypoints": {
+    "gpu_s6_formal_stage_macos.py": "eaf842c43b2a326565666ae7f583783d4f3c922e5d97d6e16726b0be97644f49",
+    "run_s7_formal_analysis.py": "604f84a7adb07b2c92149fa6f39b4fd360c7b529eba7c45eb0b3a4298b581d77"
+  },
+  "upstream_data_sha256": {
+    "imperfectiveNLI.json": "ddd01d06b18b9bab24abb5bc92a8eb740bb145123658fa9a10bd86e38b4bdb5a",
+    "run_inference.py.txt": "5b0fb856ed3ebc0d384ba97887fc3948a09c3269db99572e977d4196ec541880"
+  },
+  "prompt_templates_canonical_sha256": "6573fa60c8043f87dda67c616460afcfb60dd75759b4a1c7d6647dd3b614ae3b",
+  "s1_preview_sha256": "4229b7fd7f6501870d9930f1c992fa204223bcff24cb632967b14fe1ed8764cf",
+  "sealed_step5b": {
+    "code_sha256": "4e7030de928ec5a7a9fe398c557795ccd4f34a1693c7cebda475a675386537b1",
+    "exact_tango_tables_sha256": "090bfbb5a859238ad05100443b4727c61644e030fd2d5e05359c5d575f4c46bf",
+    "exact_tango_tables_payload_sha256": "696ee99245213ad6e7c9fe13d45b1cd239a6e62462888bba86e54a50f82dd89a",
+    "split_sha256": "6821a3b3ad2378d51c683b8abc8a5b45d402b9997e3c8957bcda95cd0ef289b7"
+  }
+}

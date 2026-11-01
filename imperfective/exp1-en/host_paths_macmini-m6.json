@@ -1,0 +1,11 @@
+{
+  "host_id": "macmini-m6",
+  "llama_server": "/Volumes/2026General_Space/imperfective/opt/llama.cpp/b11560/llama-server",
+  "gguf_dir": "/Volumes/2026General_Space/imperfective/models/gguf",
+  "hf_home": "/Volumes/2026General_Space/imperfective/hf",
+  "port": 18080,
+  "service_expected": {
+    "build_info": "b11560-b13a93a3d",
+    "model_path": "/Volumes/2026General_Space/imperfective/models/gguf/Qwen3-8B-b968826d-Q8_0.gguf"
+  }
+}

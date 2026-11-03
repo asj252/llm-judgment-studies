@@ -1,0 +1,182 @@
+{
+  "schema_version": "exp2-zh-split-v1",
+  "split_seed": 2026110202,
+  "source_file": "data/clusters_100_curated.json",
+  "source_sha256": "963636a2a74a38f8b8fe6363a079be38f5f2f1b35ef37f1cf3fc89dd7fd6c437",
+  "counts": {
+    "total_clusters": 100,
+    "dev_clusters": 20,
+    "formal_clusters": 80,
+    "dev_main_items": 80,
+    "formal_main_items": 320,
+    "dev_diagnostic_items": 40
+  },
+  "strata": {
+    "telic::Creation": {
+      "total": 26,
+      "dev": 5,
+      "formal": 21,
+      "dev_cluster_ids": [
+        "T_01",
+        "T_02",
+        "T_03",
+        "T_04",
+        "T_15"
+      ]
+    },
+    "telic::Change of State": {
+      "total": 18,
+      "dev": 4,
+      "formal": 14,
+      "dev_cluster_ids": [
+        "T_05",
+        "T_06",
+        "T_07",
+        "T_47"
+      ]
+    },
+    "telic::Consumption": {
+      "total": 10,
+      "dev": 2,
+      "formal": 8,
+      "dev_cluster_ids": [
+        "T_08",
+        "T_09"
+      ]
+    },
+    "telic::Motion to Goal": {
+      "total": 6,
+      "dev": 1,
+      "formal": 5,
+      "dev_cluster_ids": [
+        "T_10"
+      ]
+    },
+    "atelic::Pure Unbounded Activity": {
+      "total": 20,
+      "dev": 4,
+      "formal": 16,
+      "dev_cluster_ids": [
+        "A_pure_01",
+        "A_pure_02",
+        "A_pure_03",
+        "A_pure_04"
+      ]
+    },
+    "atelic::Goal-Prone / Planned Activity": {
+      "total": 20,
+      "dev": 4,
+      "formal": 16,
+      "dev_cluster_ids": [
+        "A_plan_01",
+        "A_plan_02",
+        "A_plan_03",
+        "A_plan_04"
+      ]
+    }
+  },
+  "dev_cluster_ids": [
+    "T_01",
+    "T_02",
+    "T_03",
+    "T_04",
+    "T_15",
+    "T_05",
+    "T_06",
+    "T_07",
+    "T_47",
+    "T_08",
+    "T_09",
+    "T_10",
+    "A_pure_01",
+    "A_pure_02",
+    "A_pure_03",
+    "A_pure_04",
+    "A_plan_01",
+    "A_plan_02",
+    "A_plan_03",
+    "A_plan_04"
+  ],
+  "formal_cluster_ids": [
+    "T_11",
+    "T_12",
+    "T_13",
+    "T_14",
+    "T_17",
+    "T_18",
+    "T_21",
+    "T_22",
+    "T_23",
+    "T_24",
+    "T_25",
+    "T_27",
+    "T_28",
+    "T_29",
+    "T_30",
+    "T_31",
+    "T_32",
+    "T_33",
+    "T_34",
+    "T_35",
+    "T_36",
+    "T_37",
+    "T_38",
+    "T_39",
+    "T_40",
+    "T_41",
+    "T_42",
+    "T_43",
+    "T_44",
+    "T_46",
+    "T_48",
+    "T_49",
+    "T_50",
+    "T_53",
+    "T_55",
+    "T_56",
+    "T_57",
+    "T_58",
+    "T_59",
+    "T_60",
+    "T_61",
+    "T_62",
+    "T_64",
+    "T_66",
+    "T_67",
+    "T_68",
+    "T_70",
+    "T_71",
+    "A_pure_05",
+    "A_pure_06",
+    "A_pure_07",
+    "A_pure_08",
+    "A_pure_11",
+    "A_pure_12",
+    "A_pure_13",
+    "A_pure_14",
+    "A_pure_15",
+    "A_pure_16",
+    "A_pure_17",
+    "A_pure_18",
+    "A_pure_19",
+    "A_pure_20",
+    "A_pure_23",
+    "A_pure_24",
+    "A_plan_05",
+    "A_plan_06",
+    "A_plan_07",
+    "A_plan_08",
+    "A_plan_09",
+    "A_plan_10",
+    "A_plan_12",
+    "A_plan_14",
+    "A_plan_15",
+    "A_plan_17",
+    "A_plan_18",
+    "A_plan_19",
+    "A_plan_20",
+    "A_plan_21",
+    "A_plan_22",
+    "A_plan_23"
+  ]
+}

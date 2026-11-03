@@ -1,0 +1,19 @@
+{
+  "type": "freeze",
+  "status": "pass",
+  "config": "qwen3-8b@macmini-m6",
+  "fingerprint_id": "f81940ea79504f533d62d796a10812b2dd8e170f9b95a9d6e813d0d4e736b74b",
+  "source_stage": "dev",
+  "planned_units_sha256": "ad57fefc7cc34bb31e263aca7ccbeb04dbd11ae835045dd923ccc0c2e1a37c70",
+  "ledger_digest": "507fcb9f98f7a993848df3ec9baf29ee2a16e8bc6e51270f7eacac88bee730c3",
+  "written_at": "2026-11-03T09:08:51.811068+08:00",
+  "run_id": "E2-14ee598557d243d4abf4cf4ea62164c2",
+  "frozen_plan_sha256": "81fd2fe12540cc665fa650ffde3224ac95e9d08902af501b6cd2400212bac2c9",
+  "calibration_sha256": "4ad1af9ccfe15bdc89a3e51b861f9503e1ed77b0e686d72f1954b748aca11d32",
+  "selected_family": "hybrid_bessel_t_tango_e2",
+  "demoted_slots": [],
+  "c_blockers": 0,
+  "c_review_file": "freeze/qwen3-8b@macmini-m6/f81940ea/c-review.md",
+  "user_confirmed": true,
+  "confirmed_at": "2026-11-03T08:49:46+08:00"
+}

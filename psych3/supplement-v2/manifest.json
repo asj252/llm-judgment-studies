@@ -1,0 +1,26 @@
+{
+  "source": "Reviewed English v2 manuscript Appendix G, Tables G2 and G3",
+  "source_appendices_filename": "appendices.md",
+  "source_appendices_sha256": "7d3caf0d99a9b9ef7a7662291487c9727e9cee28ea0296ad3ce69f8771bd1e98",
+  "scope": "Six completed configurations; formal r0 only; nonpreregistered exploratory analyses",
+  "export": "Deterministic six-configuration exploratory spread and paired-cell exports matching Appendix G",
+  "files": [
+    {
+      "table": "G2",
+      "file": "g2-spread-by-condition.csv",
+      "data_rows": 198,
+      "columns": 9,
+      "sha256": "d8217550788f6eb42cc739288b7d013c58b429719b28169a060048b90ea8b792"
+    },
+    {
+      "table": "G3",
+      "file": "g3-paired-cell-counts.csv",
+      "data_rows": 1482,
+      "columns": 5,
+      "sha256": "1b04cb0346779d9eb27a8232c5b86703d342ddda6490f8fc07ec318b44a692c6"
+    }
+  ],
+  "cell_differences": 0,
+  "contains_item_text": false,
+  "contains_raw_model_responses": false
+}

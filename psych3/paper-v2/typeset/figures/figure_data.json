@@ -1,0 +1,5677 @@
+{
+  "schema": "psych3-v2-figure-data",
+  "configs": [
+    "codex",
+    "agy:claude-sonnet-5-5-medium",
+    "qwen3-off",
+    "agy:gpt-oss-120b-medium",
+    "agy:gemini-3.8-flash-low",
+    "agy:gemini-3.8-flash-high"
+  ],
+  "labels": {
+    "codex": "codex",
+    "agy:claude-sonnet-5-5-medium": "Sonnet 5.5",
+    "qwen3-off": "Qwen3",
+    "agy:gpt-oss-120b-medium": "gpt-oss-120b",
+    "agy:gemini-3.8-flash-low": "Flash low",
+    "agy:gemini-3.8-flash-high": "Flash high"
+  },
+  "fig1": [
+    {
+      "config": "codex",
+      "hypothesis": "B1",
+      "experiment": "B",
+      "point": -2.2888888888888888,
+      "interval": [
+        -3.388888888888889,
+        null
+      ],
+      "n": 90,
+      "p": 0.9998,
+      "alpha": 0.05,
+      "status": "not_rejected",
+      "final": {
+        "point": -2.2888888888888888,
+        "p": 0.9998,
+        "sign": 1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 0,
+        "rank": 3,
+        "alpha": 0.05,
+        "rejected": false,
+        "interval": [
+          -3.388888888888889,
+          null
+        ],
+        "near": -3.388888888888889,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足",
+        "opposite_direction": {
+          "upper": -1.2277777777777779,
+          "observed": true,
+          "label": "反方向描述，未作确认性拒绝"
+        }
+      },
+      "missing_protection": null,
+      "opposite": true,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "families",
+        "B",
+        "complete_subset",
+        "B1"
+      ]
+    },
+    {
+      "config": "codex",
+      "hypothesis": "B3",
+      "experiment": "B",
+      "point": -0.3625611111111108,
+      "interval": [
+        -1.749261111111111,
+        0.9309000000000007
+      ],
+      "n": 90,
+      "p": 0.5512,
+      "alpha": 0.025,
+      "status": "not_rejected",
+      "final": {
+        "point": -0.3625611111111108,
+        "p": 0.5512,
+        "sign": -1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 0,
+        "rank": 2,
+        "alpha": 0.025,
+        "rejected": false,
+        "interval": [
+          -1.749261111111111,
+          0.9309000000000007
+        ],
+        "near": 0.9309000000000007,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "families",
+        "B",
+        "complete_subset",
+        "B3"
+      ]
+    },
+    {
+      "config": "codex",
+      "hypothesis": "B4",
+      "experiment": "B",
+      "point": 0.905436111111112,
+      "interval": [
+        0.3284916666666681,
+        2.5380805555555566
+      ],
+      "n": 90,
+      "p": 0.0,
+      "alpha": 0.016666666666666666,
+      "status": "retained_directional",
+      "final": {
+        "point": 0.905436111111112,
+        "p": 0.0,
+        "sign": 1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 0,
+        "rank": 1,
+        "alpha": 0.016666666666666666,
+        "rejected": true,
+        "interval": [
+          0.3284916666666681,
+          2.5380805555555566
+        ],
+        "near": 0.3284916666666681,
+        "directional": true,
+        "strength": "point_below",
+        "label": "点估计未达阈值"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "families",
+        "B",
+        "complete_subset",
+        "B4"
+      ]
+    },
+    {
+      "config": "codex",
+      "hypothesis": "D1",
+      "experiment": "D",
+      "point": -1.425,
+      "interval": [
+        -3.4,
+        null
+      ],
+      "n": 20,
+      "p": 0.9248,
+      "alpha": 0.05,
+      "status": "not_rejected",
+      "final": {
+        "point": -1.425,
+        "p": 0.9248,
+        "sign": 1,
+        "n_clusters": 20,
+        "n_items": 20,
+        "missing_cells": 0,
+        "rank": 4,
+        "alpha": 0.05,
+        "rejected": false,
+        "interval": [
+          -3.4,
+          null
+        ],
+        "near": -3.4,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足",
+        "opposite_direction": {
+          "upper": 0.15,
+          "observed": false,
+          "label": "反方向描述，未作确认性拒绝"
+        }
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "families",
+        "D",
+        "complete_subset",
+        "D1"
+      ]
+    },
+    {
+      "config": "codex",
+      "hypothesis": "D2",
+      "experiment": "D",
+      "point": 2.4575,
+      "interval": [
+        1.0150000000000001,
+        null
+      ],
+      "n": 20,
+      "p": 0.0,
+      "alpha": 0.0125,
+      "status": "retained_directional",
+      "final": {
+        "point": 2.4575,
+        "p": 0.0,
+        "sign": 1,
+        "n_clusters": 20,
+        "n_items": 20,
+        "missing_cells": 0,
+        "rank": 1,
+        "alpha": 0.0125,
+        "rejected": true,
+        "interval": [
+          1.0150000000000001,
+          null
+        ],
+        "near": 1.0150000000000001,
+        "directional": true,
+        "strength": "point_below",
+        "label": "点估计未达阈值",
+        "opposite_direction": {
+          "upper": 4.09,
+          "observed": false,
+          "label": "反方向描述，未作确认性拒绝"
+        }
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "families",
+        "D",
+        "complete_subset",
+        "D2"
+      ]
+    },
+    {
+      "config": "codex",
+      "hypothesis": "D3",
+      "experiment": "D",
+      "point": -0.7408500000000002,
+      "interval": [
+        -1.8942000000000003,
+        0.4572749999999998
+      ],
+      "n": 20,
+      "p": 0.1344,
+      "alpha": 0.016666666666666666,
+      "status": "not_rejected",
+      "final": {
+        "point": -0.7408500000000002,
+        "p": 0.1344,
+        "sign": -1,
+        "n_clusters": 20,
+        "n_items": 20,
+        "missing_cells": 0,
+        "rank": 2,
+        "alpha": 0.016666666666666666,
+        "rejected": false,
+        "interval": [
+          -1.8942000000000003,
+          0.4572749999999998
+        ],
+        "near": 0.4572749999999998,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "families",
+        "D",
+        "complete_subset",
+        "D3"
+      ]
+    },
+    {
+      "config": "codex",
+      "hypothesis": "D4",
+      "experiment": "D",
+      "point": 0.14287500000000009,
+      "interval": [
+        -0.17237499999999997,
+        0.49712499999999993
+      ],
+      "n": 20,
+      "p": 0.3352,
+      "alpha": 0.025,
+      "status": "not_rejected",
+      "final": {
+        "point": 0.14287500000000009,
+        "p": 0.3352,
+        "sign": 1,
+        "n_clusters": 20,
+        "n_items": 20,
+        "missing_cells": 0,
+        "rank": 3,
+        "alpha": 0.025,
+        "rejected": false,
+        "interval": [
+          -0.17237499999999997,
+          0.49712499999999993
+        ],
+        "near": -0.17237499999999997,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "families",
+        "D",
+        "complete_subset",
+        "D4"
+      ]
+    },
+    {
+      "config": "codex",
+      "hypothesis": "E1",
+      "experiment": "E",
+      "point": -0.3125,
+      "interval": [
+        -1.25,
+        0.0
+      ],
+      "n": 32,
+      "p": 0.7008,
+      "alpha": 0.016666666666666666,
+      "status": "not_rejected",
+      "final": {
+        "point": -0.3125,
+        "p": 0.7008,
+        "sign": -1,
+        "n_clusters": 32,
+        "n_items": 32,
+        "missing_cells": 0,
+        "rank": 2,
+        "alpha": 0.016666666666666666,
+        "rejected": false,
+        "interval": [
+          -1.25,
+          0.0
+        ],
+        "near": 0.0,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "families",
+        "E",
+        "complete_subset",
+        "E1"
+      ]
+    },
+    {
+      "config": "codex",
+      "hypothesis": "E2",
+      "experiment": "E",
+      "point": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "n": 32,
+      "p": 1.0,
+      "alpha": 0.05,
+      "status": "not_rejected",
+      "final": {
+        "point": 0.0,
+        "p": 1.0,
+        "sign": 1,
+        "n_clusters": 32,
+        "n_items": 32,
+        "missing_cells": 0,
+        "rank": 4,
+        "alpha": 0.05,
+        "rejected": false,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "near": 0.0,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "families",
+        "E",
+        "complete_subset",
+        "E2"
+      ]
+    },
+    {
+      "config": "codex",
+      "hypothesis": "E3",
+      "experiment": "E",
+      "point": -0.3828125,
+      "interval": [
+        -2.578125,
+        1.6171875
+      ],
+      "n": 32,
+      "p": 0.6748,
+      "alpha": 0.0125,
+      "status": "not_rejected",
+      "final": {
+        "point": -0.3828125,
+        "p": 0.6748,
+        "sign": -1,
+        "n_clusters": 32,
+        "n_items": 32,
+        "missing_cells": 0,
+        "rank": 1,
+        "alpha": 0.0125,
+        "rejected": false,
+        "interval": [
+          -2.578125,
+          1.6171875
+        ],
+        "near": 1.6171875,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "families",
+        "E",
+        "complete_subset",
+        "E3"
+      ]
+    },
+    {
+      "config": "codex",
+      "hypothesis": "E4",
+      "experiment": "E",
+      "point": -0.0234375,
+      "interval": [
+        -1.7578125,
+        1.7734375
+      ],
+      "n": 32,
+      "p": 0.9564,
+      "alpha": 0.025,
+      "status": "not_rejected",
+      "final": {
+        "point": -0.0234375,
+        "p": 0.9564,
+        "sign": -1,
+        "n_clusters": 32,
+        "n_items": 32,
+        "missing_cells": 0,
+        "rank": 3,
+        "alpha": 0.025,
+        "rejected": false,
+        "interval": [
+          -1.7578125,
+          1.7734375
+        ],
+        "near": 1.7734375,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "families",
+        "E",
+        "complete_subset",
+        "E4"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "hypothesis": "A1",
+      "experiment": "A",
+      "point": 0.01850172262034944,
+      "interval": [
+        -0.06913501268298597,
+        null
+      ],
+      "n": 50,
+      "p": 0.3192,
+      "alpha": 0.025,
+      "status": "not_rejected",
+      "final": {
+        "point": 0.01850172262034944,
+        "p": 0.3192,
+        "sign": 1,
+        "n_clusters": 50,
+        "n_items": 50,
+        "missing_cells": 0,
+        "rank": 1,
+        "alpha": 0.025,
+        "rejected": false,
+        "interval": [
+          -0.06913501268298597,
+          null
+        ],
+        "near": -0.06913501268298597,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足",
+        "opposite_direction": {
+          "upper": 0.09797654876013753,
+          "observed": false,
+          "label": "反方向描述，未作确认性拒绝"
+        }
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "families",
+        "A",
+        "complete_subset",
+        "A1"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "hypothesis": "A3",
+      "experiment": "A",
+      "point": -0.056766024246869565,
+      "interval": [
+        -0.18689554148315016,
+        0.04856340320709663
+      ],
+      "n": 50,
+      "p": 0.326,
+      "alpha": 0.05,
+      "status": "not_rejected",
+      "final": {
+        "point": -0.056766024246869565,
+        "p": 0.326,
+        "sign": -1,
+        "n_clusters": 50,
+        "n_items": 50,
+        "missing_cells": 0,
+        "rank": 2,
+        "alpha": 0.05,
+        "rejected": false,
+        "interval": [
+          -0.18689554148315016,
+          0.04856340320709663
+        ],
+        "near": 0.04856340320709663,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "families",
+        "A",
+        "complete_subset",
+        "A3"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "hypothesis": "B1",
+      "experiment": "B",
+      "point": -3.1694444444444443,
+      "interval": [
+        -4.497222222222222,
+        null
+      ],
+      "n": 90,
+      "p": 1.0,
+      "alpha": 0.05,
+      "status": "not_rejected",
+      "final": {
+        "point": -3.1694444444444443,
+        "p": 1.0,
+        "sign": 1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 0,
+        "rank": 4,
+        "alpha": 0.05,
+        "rejected": false,
+        "interval": [
+          -4.497222222222222,
+          null
+        ],
+        "near": -4.497222222222222,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足",
+        "opposite_direction": {
+          "upper": -1.8444444444444446,
+          "observed": true,
+          "label": "反方向描述，未作确认性拒绝"
+        }
+      },
+      "missing_protection": null,
+      "opposite": true,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "families",
+        "B",
+        "complete_subset",
+        "B1"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "hypothesis": "B2",
+      "experiment": "B",
+      "point": 3.9305555555555554,
+      "interval": [
+        1.4972222222222222,
+        null
+      ],
+      "n": 90,
+      "p": 0.0002,
+      "alpha": 0.016666666666666666,
+      "status": "retained_directional",
+      "final": {
+        "point": 3.9305555555555554,
+        "p": 0.0002,
+        "sign": 1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 0,
+        "rank": 2,
+        "alpha": 0.016666666666666666,
+        "rejected": true,
+        "interval": [
+          1.4972222222222222,
+          null
+        ],
+        "near": 1.4972222222222222,
+        "directional": true,
+        "strength": "point_below",
+        "label": "点估计未达阈值",
+        "opposite_direction": {
+          "upper": 6.538888888888889,
+          "observed": false,
+          "label": "反方向描述，未作确认性拒绝"
+        }
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "families",
+        "B",
+        "complete_subset",
+        "B2"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "hypothesis": "B3",
+      "experiment": "B",
+      "point": 1.7495833333333328,
+      "interval": [
+        0.4791666666666664,
+        2.9964166666666663
+      ],
+      "n": 90,
+      "p": 0.0008,
+      "alpha": 0.025,
+      "status": "retained_directional",
+      "final": {
+        "point": 1.7495833333333328,
+        "p": 0.0008,
+        "sign": 1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 0,
+        "rank": 3,
+        "alpha": 0.025,
+        "rejected": true,
+        "interval": [
+          0.4791666666666664,
+          2.9964166666666663
+        ],
+        "near": 0.4791666666666664,
+        "directional": true,
+        "strength": "point_below",
+        "label": "点估计未达阈值"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "families",
+        "B",
+        "complete_subset",
+        "B3"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "hypothesis": "B4",
+      "experiment": "B",
+      "point": -4.192555555555557,
+      "interval": [
+        -7.350250000000001,
+        -1.0806666666666676
+      ],
+      "n": 90,
+      "p": 0.0,
+      "alpha": 0.0125,
+      "status": "retained_directional",
+      "final": {
+        "point": -4.192555555555557,
+        "p": 0.0,
+        "sign": -1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 0,
+        "rank": 1,
+        "alpha": 0.0125,
+        "rejected": true,
+        "interval": [
+          -7.350250000000001,
+          -1.0806666666666676
+        ],
+        "near": -1.0806666666666676,
+        "directional": true,
+        "strength": "point_below",
+        "label": "点估计未达阈值"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "families",
+        "B",
+        "complete_subset",
+        "B4"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "hypothesis": "D1",
+      "experiment": "D",
+      "point": -1.48,
+      "interval": [
+        -3.3649999999999998,
+        null
+      ],
+      "n": 20,
+      "p": 0.9628,
+      "alpha": 0.05,
+      "status": "not_rejected",
+      "final": {
+        "point": -1.48,
+        "p": 0.9628,
+        "sign": 1,
+        "n_clusters": 20,
+        "n_items": 20,
+        "missing_cells": 0,
+        "rank": 4,
+        "alpha": 0.05,
+        "rejected": false,
+        "interval": [
+          -3.3649999999999998,
+          null
+        ],
+        "near": -3.3649999999999998,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足",
+        "opposite_direction": {
+          "upper": -0.07,
+          "observed": true,
+          "label": "反方向描述，未作确认性拒绝"
+        }
+      },
+      "missing_protection": null,
+      "opposite": true,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "families",
+        "D",
+        "complete_subset",
+        "D1"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "hypothesis": "D2",
+      "experiment": "D",
+      "point": 2.3,
+      "interval": [
+        1.2349999999999999,
+        null
+      ],
+      "n": 20,
+      "p": 0.0,
+      "alpha": 0.0125,
+      "status": "retained_directional",
+      "final": {
+        "point": 2.3,
+        "p": 0.0,
+        "sign": 1,
+        "n_clusters": 20,
+        "n_items": 20,
+        "missing_cells": 0,
+        "rank": 1,
+        "alpha": 0.0125,
+        "rejected": true,
+        "interval": [
+          1.2349999999999999,
+          null
+        ],
+        "near": 1.2349999999999999,
+        "directional": true,
+        "strength": "point_below",
+        "label": "点估计未达阈值",
+        "opposite_direction": {
+          "upper": 3.69,
+          "observed": false,
+          "label": "反方向描述，未作确认性拒绝"
+        }
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "families",
+        "D",
+        "complete_subset",
+        "D2"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "hypothesis": "D3",
+      "experiment": "D",
+      "point": -0.4165000000000001,
+      "interval": [
+        -1.8100000000000005,
+        0.6595000000000001
+      ],
+      "n": 20,
+      "p": 0.4768,
+      "alpha": 0.016666666666666666,
+      "status": "not_rejected",
+      "final": {
+        "point": -0.4165000000000001,
+        "p": 0.4768,
+        "sign": -1,
+        "n_clusters": 20,
+        "n_items": 20,
+        "missing_cells": 0,
+        "rank": 2,
+        "alpha": 0.016666666666666666,
+        "rejected": false,
+        "interval": [
+          -1.8100000000000005,
+          0.6595000000000001
+        ],
+        "near": 0.6595000000000001,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "families",
+        "D",
+        "complete_subset",
+        "D3"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "hypothesis": "D4",
+      "experiment": "D",
+      "point": -0.09500000000000028,
+      "interval": [
+        -0.49962500000000026,
+        0.24249999999999988
+      ],
+      "n": 20,
+      "p": 0.5724,
+      "alpha": 0.025,
+      "status": "not_rejected",
+      "final": {
+        "point": -0.09500000000000028,
+        "p": 0.5724,
+        "sign": -1,
+        "n_clusters": 20,
+        "n_items": 20,
+        "missing_cells": 0,
+        "rank": 3,
+        "alpha": 0.025,
+        "rejected": false,
+        "interval": [
+          -0.49962500000000026,
+          0.24249999999999988
+        ],
+        "near": 0.24249999999999988,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "families",
+        "D",
+        "complete_subset",
+        "D4"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "hypothesis": "E2",
+      "experiment": "E",
+      "point": -1.40625,
+      "interval": [
+        -3.375,
+        0.46875
+      ],
+      "n": 32,
+      "p": 0.0988,
+      "alpha": 0.025,
+      "status": "not_rejected",
+      "final": {
+        "point": -1.40625,
+        "p": 0.0988,
+        "sign": -1,
+        "n_clusters": 32,
+        "n_items": 32,
+        "missing_cells": 0,
+        "rank": 1,
+        "alpha": 0.025,
+        "rejected": false,
+        "interval": [
+          -3.375,
+          0.46875
+        ],
+        "near": 0.46875,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "families",
+        "E",
+        "complete_subset",
+        "E2"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "hypothesis": "E4",
+      "experiment": "E",
+      "point": 0.3887500000000005,
+      "interval": [
+        -2.5296874999999988,
+        3.095312500000001
+      ],
+      "n": 32,
+      "p": 0.7768,
+      "alpha": 0.05,
+      "status": "not_rejected",
+      "final": {
+        "point": 0.3887500000000005,
+        "p": 0.7768,
+        "sign": 1,
+        "n_clusters": 32,
+        "n_items": 32,
+        "missing_cells": 0,
+        "rank": 2,
+        "alpha": 0.05,
+        "rejected": false,
+        "interval": [
+          -2.5296874999999988,
+          3.095312500000001
+        ],
+        "near": -2.5296874999999988,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "families",
+        "E",
+        "complete_subset",
+        "E4"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "hypothesis": "A1",
+      "experiment": "A",
+      "point": 0.039249756997999145,
+      "interval": [
+        -0.7039666268832192,
+        null
+      ],
+      "n": 50,
+      "p": 0.4374,
+      "alpha": 0.05,
+      "status": "not_rejected",
+      "final": {
+        "point": 0.039249756997999145,
+        "p": 0.4374,
+        "sign": 1,
+        "n_clusters": 50,
+        "n_items": 50,
+        "missing_cells": 0,
+        "rank": 1,
+        "alpha": 0.05,
+        "rejected": false,
+        "interval": [
+          -0.7039666268832192,
+          null
+        ],
+        "near": -0.7039666268832192,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足",
+        "opposite_direction": {
+          "upper": 0.7800325651255159,
+          "observed": false,
+          "label": "反方向描述，未作确认性拒绝"
+        }
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "families",
+        "A",
+        "complete_subset",
+        "A1"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "hypothesis": "B4",
+      "experiment": "B",
+      "point": 10.678792134831461,
+      "interval": [
+        7.606573033707865,
+        13.805224719101123
+      ],
+      "n": 89,
+      "p": 0.0,
+      "alpha": 0.05,
+      "status": "bound_exceeds",
+      "final": {
+        "point": 10.678792134831461,
+        "p": 0.0,
+        "sign": 1,
+        "n_clusters": 89,
+        "n_items": 89,
+        "missing_cells": 2,
+        "rank": 1,
+        "alpha": 0.05,
+        "rejected": true,
+        "interval": [
+          7.606573033707865,
+          13.805224719101123
+        ],
+        "near": 7.606573033707865,
+        "directional": true,
+        "strength": "bound_exceeds",
+        "label": "区间下界超过阈值（缺失按最不利值代入）",
+        "missing_protected": true,
+        "retained_strength": "bound_exceeds"
+      },
+      "missing_protection": {
+        "point": 10.03513888888889,
+        "p": 0.0,
+        "sign": 1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 2,
+        "rank": 1,
+        "alpha": 0.05,
+        "rejected": true,
+        "interval": [
+          6.784805555555556,
+          14.320444444444444
+        ],
+        "near": 6.784805555555556,
+        "directional": true,
+        "strength": "bound_exceeds",
+        "label": "区间下界超过阈值"
+      },
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "families",
+        "B",
+        "complete_subset",
+        "B4"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "hypothesis": "E2",
+      "experiment": "E",
+      "point": 1.478125,
+      "interval": [
+        -3.21875,
+        6.571875
+      ],
+      "n": 32,
+      "p": 0.5748,
+      "alpha": 0.05,
+      "status": "not_rejected",
+      "final": {
+        "point": 1.478125,
+        "p": 0.5748,
+        "sign": 1,
+        "n_clusters": 32,
+        "n_items": 32,
+        "missing_cells": 0,
+        "rank": 1,
+        "alpha": 0.05,
+        "rejected": false,
+        "interval": [
+          -3.21875,
+          6.571875
+        ],
+        "near": -3.21875,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "families",
+        "E",
+        "complete_subset",
+        "E2"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "hypothesis": "B1",
+      "experiment": "B",
+      "point": -1.9394444444444445,
+      "interval": [
+        -3.6677777777777782,
+        null
+      ],
+      "n": 90,
+      "p": 0.9738,
+      "alpha": 0.05,
+      "status": "not_rejected",
+      "final": {
+        "point": -1.9394444444444445,
+        "p": 0.9738,
+        "sign": 1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 0,
+        "rank": 3,
+        "alpha": 0.05,
+        "rejected": false,
+        "interval": [
+          -3.6677777777777782,
+          null
+        ],
+        "near": -3.6677777777777782,
+        "directional": false,
+        "strength": null,
+        "label": "完整题子集：证据不足；缺失保护：未通过",
+        "opposite_direction": {
+          "upper": -0.2894444444444444,
+          "observed": true,
+          "label": "反方向描述，未作确认性拒绝"
+        },
+        "missing_protected": false,
+        "retained_strength": null
+      },
+      "missing_protection": {
+        "point": -1.9394444444444445,
+        "p": 0.9738,
+        "sign": 1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 0,
+        "rank": 3,
+        "alpha": 0.05,
+        "rejected": false,
+        "interval": [
+          -3.6677777777777782,
+          null
+        ],
+        "near": -3.6677777777777782,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足",
+        "opposite_direction": {
+          "upper": -0.2894444444444444,
+          "observed": true,
+          "label": "反方向描述，未作确认性拒绝"
+        }
+      },
+      "opposite": true,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "families",
+        "B",
+        "complete_subset",
+        "B1"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "hypothesis": "B3",
+      "experiment": "B",
+      "point": 1.6432106741573032,
+      "interval": [
+        0.0943146067415727,
+        3.242724719101124
+      ],
+      "n": 89,
+      "p": 0.0108,
+      "alpha": 0.016666666666666666,
+      "status": "unprotected_rejection",
+      "final": {
+        "point": 1.6432106741573032,
+        "p": 0.0108,
+        "sign": 1,
+        "n_clusters": 89,
+        "n_items": 89,
+        "missing_cells": 1,
+        "rank": 1,
+        "alpha": 0.016666666666666666,
+        "rejected": true,
+        "interval": [
+          0.0943146067415727,
+          3.242724719101124
+        ],
+        "near": 0.0943146067415727,
+        "directional": false,
+        "strength": null,
+        "label": "完整题子集：点估计未达阈值；缺失保护：未通过",
+        "missing_protected": false,
+        "retained_strength": null
+      },
+      "missing_protection": {
+        "point": 1.1413416666666667,
+        "p": 0.1724,
+        "sign": 1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 1,
+        "rank": 2,
+        "alpha": 0.025,
+        "rejected": false,
+        "interval": [
+          -0.7915750000000003,
+          3.1823527777777776
+        ],
+        "near": -0.7915750000000003,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "families",
+        "B",
+        "complete_subset",
+        "B3"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "hypothesis": "B4",
+      "experiment": "B",
+      "point": 2.5198555555555555,
+      "interval": [
+        -0.8103666666666661,
+        6.057844444444445
+      ],
+      "n": 90,
+      "p": 0.0996,
+      "alpha": 0.025,
+      "status": "not_rejected",
+      "final": {
+        "point": 2.5198555555555555,
+        "p": 0.0996,
+        "sign": 1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 0,
+        "rank": 2,
+        "alpha": 0.025,
+        "rejected": false,
+        "interval": [
+          -0.8103666666666661,
+          6.057844444444445
+        ],
+        "near": -0.8103666666666661,
+        "directional": false,
+        "strength": null,
+        "label": "完整题子集：证据不足；缺失保护：未通过",
+        "missing_protected": false,
+        "retained_strength": null
+      },
+      "missing_protection": {
+        "point": 2.5198555555555555,
+        "p": 0.0996,
+        "sign": 1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 0,
+        "rank": 1,
+        "alpha": 0.016666666666666666,
+        "rejected": false,
+        "interval": [
+          -1.079716666666667,
+          6.341466666666666
+        ],
+        "near": -1.079716666666667,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "families",
+        "B",
+        "complete_subset",
+        "B4"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "hypothesis": "D1",
+      "experiment": "D",
+      "point": 0.08499999999999999,
+      "interval": [
+        -1.1,
+        null
+      ],
+      "n": 20,
+      "p": 0.4782,
+      "alpha": 0.016666666666666666,
+      "status": "not_rejected",
+      "final": {
+        "point": 0.08499999999999999,
+        "p": 0.4782,
+        "sign": 1,
+        "n_clusters": 20,
+        "n_items": 20,
+        "missing_cells": 0,
+        "rank": 2,
+        "alpha": 0.016666666666666666,
+        "rejected": false,
+        "interval": [
+          -1.1,
+          null
+        ],
+        "near": -1.1,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足",
+        "opposite_direction": {
+          "upper": 1.6199999999999999,
+          "observed": false,
+          "label": "反方向描述，未作确认性拒绝"
+        }
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "families",
+        "D",
+        "complete_subset",
+        "D1"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "hypothesis": "D2",
+      "experiment": "D",
+      "point": 3.3725,
+      "interval": [
+        0.8474999999999999,
+        null
+      ],
+      "n": 20,
+      "p": 0.0,
+      "alpha": 0.0125,
+      "status": "retained_directional",
+      "final": {
+        "point": 3.3725,
+        "p": 0.0,
+        "sign": 1,
+        "n_clusters": 20,
+        "n_items": 20,
+        "missing_cells": 0,
+        "rank": 1,
+        "alpha": 0.0125,
+        "rejected": true,
+        "interval": [
+          0.8474999999999999,
+          null
+        ],
+        "near": 0.8474999999999999,
+        "directional": true,
+        "strength": "point_below",
+        "label": "点估计未达阈值",
+        "opposite_direction": {
+          "upper": 6.592499999999999,
+          "observed": false,
+          "label": "反方向描述，未作确认性拒绝"
+        }
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "families",
+        "D",
+        "complete_subset",
+        "D2"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "hypothesis": "D3",
+      "experiment": "D",
+      "point": 0.4872499999999997,
+      "interval": [
+        -1.6540000000000006,
+        2.77475
+      ],
+      "n": 20,
+      "p": 0.6724,
+      "alpha": 0.05,
+      "status": "not_rejected",
+      "final": {
+        "point": 0.4872499999999997,
+        "p": 0.6724,
+        "sign": 1,
+        "n_clusters": 20,
+        "n_items": 20,
+        "missing_cells": 0,
+        "rank": 4,
+        "alpha": 0.05,
+        "rejected": false,
+        "interval": [
+          -1.6540000000000006,
+          2.77475
+        ],
+        "near": -1.6540000000000006,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "families",
+        "D",
+        "complete_subset",
+        "D3"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "hypothesis": "D4",
+      "experiment": "D",
+      "point": -0.16702500000000015,
+      "interval": [
+        -0.8675000000000006,
+        0.42049999999999993
+      ],
+      "n": 20,
+      "p": 0.5892,
+      "alpha": 0.025,
+      "status": "not_rejected",
+      "final": {
+        "point": -0.16702500000000015,
+        "p": 0.5892,
+        "sign": -1,
+        "n_clusters": 20,
+        "n_items": 20,
+        "missing_cells": 0,
+        "rank": 3,
+        "alpha": 0.025,
+        "rejected": false,
+        "interval": [
+          -0.8675000000000006,
+          0.42049999999999993
+        ],
+        "near": 0.42049999999999993,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "families",
+        "D",
+        "complete_subset",
+        "D4"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "hypothesis": "E1",
+      "experiment": "E",
+      "point": -0.53125,
+      "interval": [
+        -1.875,
+        0.1875
+      ],
+      "n": 32,
+      "p": 0.3132,
+      "alpha": 0.025,
+      "status": "not_rejected",
+      "final": {
+        "point": -0.53125,
+        "p": 0.3132,
+        "sign": -1,
+        "n_clusters": 32,
+        "n_items": 32,
+        "missing_cells": 0,
+        "rank": 1,
+        "alpha": 0.025,
+        "rejected": false,
+        "interval": [
+          -1.875,
+          0.1875
+        ],
+        "near": 0.1875,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "families",
+        "E",
+        "complete_subset",
+        "E1"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "hypothesis": "E2",
+      "experiment": "E",
+      "point": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "n": 32,
+      "p": 1.0,
+      "alpha": 0.05,
+      "status": "not_rejected",
+      "final": {
+        "point": 0.0,
+        "p": 1.0,
+        "sign": 1,
+        "n_clusters": 32,
+        "n_items": 32,
+        "missing_cells": 0,
+        "rank": 2,
+        "alpha": 0.05,
+        "rejected": false,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "near": 0.0,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "families",
+        "E",
+        "complete_subset",
+        "E2"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "hypothesis": "B1",
+      "experiment": "B",
+      "point": -3.9722222222222223,
+      "interval": [
+        -5.638888888888889,
+        null
+      ],
+      "n": 90,
+      "p": 1.0,
+      "alpha": 0.05,
+      "status": "not_rejected",
+      "final": {
+        "point": -3.9722222222222223,
+        "p": 1.0,
+        "sign": 1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 0,
+        "rank": 3,
+        "alpha": 0.05,
+        "rejected": false,
+        "interval": [
+          -5.638888888888889,
+          null
+        ],
+        "near": -5.638888888888889,
+        "directional": false,
+        "strength": null,
+        "label": "完整题子集：证据不足；缺失保护：未通过",
+        "opposite_direction": {
+          "upper": -2.4166666666666665,
+          "observed": true,
+          "label": "反方向描述，未作确认性拒绝"
+        },
+        "missing_protected": false,
+        "retained_strength": null
+      },
+      "missing_protection": {
+        "point": -3.9722222222222223,
+        "p": 1.0,
+        "sign": 1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 0,
+        "rank": 3,
+        "alpha": 0.05,
+        "rejected": false,
+        "interval": [
+          -5.638888888888889,
+          null
+        ],
+        "near": -5.638888888888889,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足",
+        "opposite_direction": {
+          "upper": -2.4166666666666665,
+          "observed": true,
+          "label": "反方向描述，未作确认性拒绝"
+        }
+      },
+      "opposite": true,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "families",
+        "B",
+        "complete_subset",
+        "B1"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "hypothesis": "B2",
+      "experiment": "B",
+      "point": 0.85,
+      "interval": [
+        0.044444444444444446,
+        null
+      ],
+      "n": 90,
+      "p": 0.0196,
+      "alpha": 0.025,
+      "status": "retained_directional",
+      "final": {
+        "point": 0.85,
+        "p": 0.0196,
+        "sign": 1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 0,
+        "rank": 2,
+        "alpha": 0.025,
+        "rejected": true,
+        "interval": [
+          0.044444444444444446,
+          null
+        ],
+        "near": 0.044444444444444446,
+        "directional": true,
+        "strength": "point_below",
+        "label": "点估计未达阈值（缺失按最不利值代入）",
+        "opposite_direction": {
+          "upper": 1.761111111111111,
+          "observed": false,
+          "label": "反方向描述，未作确认性拒绝"
+        },
+        "missing_protected": true,
+        "retained_strength": "point_below"
+      },
+      "missing_protection": {
+        "point": 0.85,
+        "p": 0.0196,
+        "sign": 1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 0,
+        "rank": 2,
+        "alpha": 0.025,
+        "rejected": true,
+        "interval": [
+          0.044444444444444446,
+          null
+        ],
+        "near": 0.044444444444444446,
+        "directional": true,
+        "strength": "point_below",
+        "label": "点估计未达阈值",
+        "opposite_direction": {
+          "upper": 1.761111111111111,
+          "observed": false,
+          "label": "反方向描述，未作确认性拒绝"
+        }
+      },
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "families",
+        "B",
+        "complete_subset",
+        "B2"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "hypothesis": "B3",
+      "experiment": "B",
+      "point": 4.526320224719101,
+      "interval": [
+        2.7621067415730334,
+        6.452921348314607
+      ],
+      "n": 89,
+      "p": 0.0,
+      "alpha": 0.016666666666666666,
+      "status": "retained_directional",
+      "final": {
+        "point": 4.526320224719101,
+        "p": 0.0,
+        "sign": 1,
+        "n_clusters": 89,
+        "n_items": 89,
+        "missing_cells": 1,
+        "rank": 1,
+        "alpha": 0.016666666666666666,
+        "rejected": true,
+        "interval": [
+          2.7621067415730334,
+          6.452921348314607
+        ],
+        "near": 2.7621067415730334,
+        "directional": true,
+        "strength": "point_below",
+        "label": "点估计未达阈值（缺失按最不利值代入）",
+        "missing_protected": true,
+        "retained_strength": "point_below"
+      },
+      "missing_protection": {
+        "point": 4.113527777777778,
+        "p": 0.0,
+        "sign": 1,
+        "n_clusters": 90,
+        "n_items": 90,
+        "missing_cells": 1,
+        "rank": 1,
+        "alpha": 0.016666666666666666,
+        "rejected": true,
+        "interval": [
+          1.9824166666666672,
+          6.583722222222222
+        ],
+        "near": 1.9824166666666672,
+        "directional": true,
+        "strength": "point_below",
+        "label": "点估计未达阈值"
+      },
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "families",
+        "B",
+        "complete_subset",
+        "B3"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "hypothesis": "D1",
+      "experiment": "D",
+      "point": -1.115,
+      "interval": [
+        -1.95,
+        null
+      ],
+      "n": 20,
+      "p": 0.9942,
+      "alpha": 0.05,
+      "status": "not_rejected",
+      "final": {
+        "point": -1.115,
+        "p": 0.9942,
+        "sign": 1,
+        "n_clusters": 20,
+        "n_items": 20,
+        "missing_cells": 0,
+        "rank": 4,
+        "alpha": 0.05,
+        "rejected": false,
+        "interval": [
+          -1.95,
+          null
+        ],
+        "near": -1.95,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足",
+        "opposite_direction": {
+          "upper": -0.325,
+          "observed": true,
+          "label": "反方向描述，未作确认性拒绝"
+        }
+      },
+      "missing_protection": null,
+      "opposite": true,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "families",
+        "D",
+        "complete_subset",
+        "D1"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "hypothesis": "D2",
+      "experiment": "D",
+      "point": 3.335,
+      "interval": [
+        1.075,
+        null
+      ],
+      "n": 20,
+      "p": 0.0,
+      "alpha": 0.0125,
+      "status": "retained_directional",
+      "final": {
+        "point": 3.335,
+        "p": 0.0,
+        "sign": 1,
+        "n_clusters": 20,
+        "n_items": 20,
+        "missing_cells": 0,
+        "rank": 1,
+        "alpha": 0.0125,
+        "rejected": true,
+        "interval": [
+          1.075,
+          null
+        ],
+        "near": 1.075,
+        "directional": true,
+        "strength": "point_below",
+        "label": "点估计未达阈值",
+        "opposite_direction": {
+          "upper": 6.245,
+          "observed": false,
+          "label": "反方向描述，未作确认性拒绝"
+        }
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "families",
+        "D",
+        "complete_subset",
+        "D2"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "hypothesis": "D3",
+      "experiment": "D",
+      "point": 0.9792500000000002,
+      "interval": [
+        -0.9962499999999993,
+        2.8912500000000003
+      ],
+      "n": 20,
+      "p": 0.2628,
+      "alpha": 0.025,
+      "status": "not_rejected",
+      "final": {
+        "point": 0.9792500000000002,
+        "p": 0.2628,
+        "sign": 1,
+        "n_clusters": 20,
+        "n_items": 20,
+        "missing_cells": 0,
+        "rank": 3,
+        "alpha": 0.025,
+        "rejected": false,
+        "interval": [
+          -0.9962499999999993,
+          2.8912500000000003
+        ],
+        "near": -0.9962499999999993,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "families",
+        "D",
+        "complete_subset",
+        "D3"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "hypothesis": "D4",
+      "experiment": "D",
+      "point": 0.7579749999999997,
+      "interval": [
+        -0.29402500000000054,
+        2.3024750000000003
+      ],
+      "n": 20,
+      "p": 0.1544,
+      "alpha": 0.016666666666666666,
+      "status": "not_rejected",
+      "final": {
+        "point": 0.7579749999999997,
+        "p": 0.1544,
+        "sign": 1,
+        "n_clusters": 20,
+        "n_items": 20,
+        "missing_cells": 0,
+        "rank": 2,
+        "alpha": 0.016666666666666666,
+        "rejected": false,
+        "interval": [
+          -0.29402500000000054,
+          2.3024750000000003
+        ],
+        "near": -0.29402500000000054,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "families",
+        "D",
+        "complete_subset",
+        "D4"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "hypothesis": "E1",
+      "experiment": "E",
+      "point": 0.625,
+      "interval": [
+        0.0,
+        2.5
+      ],
+      "n": 32,
+      "p": 0.7184,
+      "alpha": 0.016666666666666666,
+      "status": "not_rejected",
+      "final": {
+        "point": 0.625,
+        "p": 0.7184,
+        "sign": 1,
+        "n_clusters": 32,
+        "n_items": 32,
+        "missing_cells": 0,
+        "rank": 1,
+        "alpha": 0.016666666666666666,
+        "rejected": false,
+        "interval": [
+          0.0,
+          2.5
+        ],
+        "near": 0.0,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "families",
+        "E",
+        "complete_subset",
+        "E1"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "hypothesis": "E2",
+      "experiment": "E",
+      "point": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "n": 32,
+      "p": 1.0,
+      "alpha": 0.05,
+      "status": "not_rejected",
+      "final": {
+        "point": 0.0,
+        "p": 1.0,
+        "sign": 1,
+        "n_clusters": 32,
+        "n_items": 32,
+        "missing_cells": 0,
+        "rank": 3,
+        "alpha": 0.05,
+        "rejected": false,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "near": 0.0,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "families",
+        "E",
+        "complete_subset",
+        "E2"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "hypothesis": "E4",
+      "experiment": "E",
+      "point": 0.14187499999999942,
+      "interval": [
+        -1.844062500000001,
+        2.091875
+      ],
+      "n": 32,
+      "p": 0.8348,
+      "alpha": 0.025,
+      "status": "not_rejected",
+      "final": {
+        "point": 0.14187499999999942,
+        "p": 0.8348,
+        "sign": 1,
+        "n_clusters": 32,
+        "n_items": 32,
+        "missing_cells": 0,
+        "rank": 2,
+        "alpha": 0.025,
+        "rejected": false,
+        "interval": [
+          -1.844062500000001,
+          2.091875
+        ],
+        "near": -1.844062500000001,
+        "directional": false,
+        "strength": null,
+        "label": "证据不足"
+      },
+      "missing_protection": null,
+      "opposite": false,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "families",
+        "E",
+        "complete_subset",
+        "E4"
+      ]
+    }
+  ],
+  "fig2": [
+    {
+      "config": "codex",
+      "experiment": "E",
+      "quantity": "E_status",
+      "ask": "direct",
+      "point": -0.3125,
+      "interval": [
+        -0.9375,
+        0.0
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "direct"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "E",
+      "quantity": "E_status",
+      "ask": "multi",
+      "point": -0.6953125,
+      "interval": [
+        -2.3984375,
+        0.890625
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "multi"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "E",
+      "quantity": "E_default",
+      "ask": "direct",
+      "point": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "direct"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "E",
+      "quantity": "E_default",
+      "ask": "multi",
+      "point": -0.0234375,
+      "interval": [
+        -1.5546875,
+        1.5234375
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "multi"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "ask": "direct",
+      "point": 49.84375,
+      "interval": [
+        48.28125,
+        51.5625
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "direct"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "ask": "multi",
+      "point": 50.8125,
+      "interval": [
+        48.5234375,
+        53.0859375
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "multi"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "C",
+      "quantity": "probability",
+      "ask": "direct",
+      "point": 1.0000471804252933,
+      "interval": [
+        1.00003787495456,
+        1.0000564858960266
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "direct"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "C",
+      "quantity": "probability",
+      "ask": "multi",
+      "point": 0.9999913668209068,
+      "interval": [
+        0.9999848673169769,
+        0.9999976725551776
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "multi"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "C",
+      "quantity": "frequency",
+      "ask": "direct",
+      "point": 1.0000564858960266,
+      "interval": [
+        1.0000564858960266,
+        1.0000564858960266
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "direct"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "C",
+      "quantity": "frequency",
+      "ask": "multi",
+      "point": 0.9999953893016853,
+      "interval": [
+        0.9999903960098221,
+        0.9999995275970239
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "multi"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "E",
+      "quantity": "neutral",
+      "ask": "direct",
+      "point": 50.625,
+      "interval": [
+        50.0,
+        51.875
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "item_details",
+        "E",
+        "direct",
+        "neutral"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "E",
+      "quantity": "neutral",
+      "ask": "multi",
+      "point": 49.921875,
+      "interval": [
+        46.578125,
+        53.3515625
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "item_details",
+        "E",
+        "multi",
+        "neutral"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "E",
+      "quantity": "E_status",
+      "ask": "direct",
+      "point": 0.34375,
+      "interval": [
+        -1.25,
+        1.84375
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "E",
+      "quantity": "E_status",
+      "ask": "multi",
+      "point": 0.04531250000000031,
+      "interval": [
+        -1.8968749999999999,
+        1.9296875000000007
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "E",
+      "quantity": "E_default",
+      "ask": "direct",
+      "point": -1.40625,
+      "interval": [
+        -3.125,
+        0.21875
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "E",
+      "quantity": "E_default",
+      "ask": "multi",
+      "point": -1.0174999999999994,
+      "interval": [
+        -3.494687499999999,
+        1.1403125000000012
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "ask": "direct",
+      "point": 52.96875,
+      "interval": [
+        50.03125,
+        55.875
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "ask": "multi",
+      "point": 49.0409375,
+      "interval": [
+        47.015625,
+        51.0678125
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "C",
+      "quantity": "probability",
+      "ask": "direct",
+      "point": 1.0000503349836194,
+      "interval": [
+        1.000027647190497,
+        1.000073022776742
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "C",
+      "quantity": "probability",
+      "ask": "multi",
+      "point": 0.9391912575891952,
+      "interval": [
+        0.9309387416378481,
+        0.9473376462211901
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "C",
+      "quantity": "frequency",
+      "ask": "direct",
+      "point": 1.000095496296732,
+      "interval": [
+        1.0000681449014428,
+        1.000124120729129
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "C",
+      "quantity": "frequency",
+      "ask": "multi",
+      "point": 0.9433565945784581,
+      "interval": [
+        0.9366803276678738,
+        0.9511084053036232
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "E",
+      "quantity": "neutral",
+      "ask": "direct",
+      "point": 43.65625,
+      "interval": [
+        38.59375,
+        48.59375
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "item_details",
+        "E",
+        "direct",
+        "neutral"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "E",
+      "quantity": "neutral",
+      "ask": "multi",
+      "point": 43.6603125,
+      "interval": [
+        39.222812499999996,
+        48.1571875
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "item_details",
+        "E",
+        "multi",
+        "neutral"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "E",
+      "quantity": "E_status",
+      "ask": "direct",
+      "point": -3.314193548387097,
+      "interval": [
+        -11.326451612903226,
+        4.301290322580646
+      ],
+      "n": 31,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "direct"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "E",
+      "quantity": "E_status",
+      "ask": "multi",
+      "point": 0.7275345622119815,
+      "interval": [
+        -3.6466013824884795,
+        4.899193548387097
+      ],
+      "n": 31,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "multi"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "E",
+      "quantity": "E_default",
+      "ask": "direct",
+      "point": 0.1020689655172419,
+      "interval": [
+        -9.146206896551725,
+        7.815862068965517
+      ],
+      "n": 29,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "direct"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "E",
+      "quantity": "E_default",
+      "ask": "multi",
+      "point": 5.761292599314379,
+      "interval": [
+        -0.5823754789272024,
+        11.881982254486791
+      ],
+      "n": 29,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "multi"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "ask": "direct",
+      "point": 63.961612903225806,
+      "interval": [
+        50.30516129032258,
+        77.09677419354838
+      ],
+      "n": 31,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "direct"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "ask": "multi",
+      "point": 36.01311339198436,
+      "interval": [
+        31.095322580645163,
+        40.446236559139784
+      ],
+      "n": 31,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "multi"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "C",
+      "quantity": "probability",
+      "ask": "direct",
+      "point": 1.001684868160944,
+      "interval": [
+        1.00046242204893,
+        1.0030248698534325
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "direct"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "C",
+      "quantity": "probability",
+      "ask": "multi",
+      "point": 0.9894265306397598,
+      "interval": [
+        0.9847224823011311,
+        0.9938920403408735
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "multi"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "C",
+      "quantity": "frequency",
+      "ask": "direct",
+      "point": 1.0004314463515964,
+      "interval": [
+        0.9992891221515281,
+        1.0017282445858868
+      ],
+      "n": 19,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "direct"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "C",
+      "quantity": "frequency",
+      "ask": "multi",
+      "point": 0.9883035416355629,
+      "interval": [
+        0.9852870038635754,
+        0.9910748735992748
+      ],
+      "n": 19,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "multi"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "E",
+      "quantity": "neutral",
+      "ask": "direct",
+      "point": 53.3590625,
+      "interval": [
+        45.373125,
+        61.719375
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "item_details",
+        "E",
+        "direct",
+        "neutral"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "E",
+      "quantity": "neutral",
+      "ask": "multi",
+      "point": 45.6953125,
+      "interval": [
+        41.8828125,
+        49.4609375
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "item_details",
+        "E",
+        "multi",
+        "neutral"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "E",
+      "quantity": "E_status",
+      "ask": "direct",
+      "point": -1.1334374999999997,
+      "interval": [
+        -7.560625,
+        5.484375
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "E",
+      "quantity": "E_status",
+      "ask": "multi",
+      "point": 3.9875,
+      "interval": [
+        0.9812500000000002,
+        7.0375
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "E",
+      "quantity": "E_default",
+      "ask": "direct",
+      "point": 1.478125,
+      "interval": [
+        -3.21875,
+        6.571875
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "E",
+      "quantity": "E_default",
+      "ask": "multi",
+      "point": 4.621875,
+      "interval": [
+        0.36250000000000004,
+        8.7203125
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "ask": "direct",
+      "point": 50.34375,
+      "interval": [
+        42.125,
+        57.375
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "ask": "multi",
+      "point": 27.1090625,
+      "interval": [
+        22.155625,
+        31.8578125
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "C",
+      "quantity": "probability",
+      "ask": "direct",
+      "point": 1.000139598845869,
+      "interval": [
+        1.000115852288771,
+        1.0001633454029668
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "C",
+      "quantity": "probability",
+      "ask": "multi",
+      "point": 0.9975725857471754,
+      "interval": [
+        0.9951903700526825,
+        0.9996629832586666
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "C",
+      "quantity": "frequency",
+      "ask": "direct",
+      "point": 1.0000665788805942,
+      "interval": [
+        1.0000529253080643,
+        1.0000849845557487
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "C",
+      "quantity": "frequency",
+      "ask": "multi",
+      "point": 0.998467014841151,
+      "interval": [
+        0.9956367331018761,
+        1.000900107184053
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "E",
+      "quantity": "neutral",
+      "ask": "direct",
+      "point": 42.6721875,
+      "interval": [
+        35.2634375,
+        49.115625
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "item_details",
+        "E",
+        "direct",
+        "neutral"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "E",
+      "quantity": "neutral",
+      "ask": "multi",
+      "point": 49.590625,
+      "interval": [
+        46.2046875,
+        52.8359375
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "item_details",
+        "E",
+        "multi",
+        "neutral"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "E",
+      "quantity": "E_status",
+      "ask": "direct",
+      "point": -0.53125,
+      "interval": [
+        -1.625,
+        0.1875
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "E",
+      "quantity": "E_status",
+      "ask": "multi",
+      "point": -1.2621875000000002,
+      "interval": [
+        -3.1074999999999995,
+        0.6453124999999995
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "E",
+      "quantity": "E_default",
+      "ask": "direct",
+      "point": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "E",
+      "quantity": "E_default",
+      "ask": "multi",
+      "point": 1.6453124999999993,
+      "interval": [
+        -0.18281250000000038,
+        3.5578125
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "ask": "direct",
+      "point": 65.6875,
+      "interval": [
+        59.6875,
+        71.09375
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "ask": "multi",
+      "point": 59.262187499999996,
+      "interval": [
+        56.656875,
+        61.8575
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "C",
+      "quantity": "probability",
+      "ask": "direct",
+      "point": 1.0000564858960266,
+      "interval": [
+        1.0000564858960266,
+        1.0000564858960266
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "C",
+      "quantity": "probability",
+      "ask": "multi",
+      "point": 0.9999071444448211,
+      "interval": [
+        0.9997934298522214,
+        1.0000059341007934
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "C",
+      "quantity": "frequency",
+      "ask": "direct",
+      "point": 1.0000564858960266,
+      "interval": [
+        1.0000564858960266,
+        1.0000564858960266
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "C",
+      "quantity": "frequency",
+      "ask": "multi",
+      "point": 1.00008393680606,
+      "interval": [
+        1.0000255728626144,
+        1.0001466202409561
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "E",
+      "quantity": "neutral",
+      "ask": "direct",
+      "point": 46.875,
+      "interval": [
+        40.625,
+        53.125
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "item_details",
+        "E",
+        "direct",
+        "neutral"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "E",
+      "quantity": "neutral",
+      "ask": "multi",
+      "point": 53.3078125,
+      "interval": [
+        48.759375,
+        57.890625
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "item_details",
+        "E",
+        "multi",
+        "neutral"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "E",
+      "quantity": "E_status",
+      "ask": "direct",
+      "point": 0.625,
+      "interval": [
+        0.0,
+        1.875
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "E",
+      "quantity": "E_status",
+      "ask": "multi",
+      "point": -1.5625000000000009,
+      "interval": [
+        -3.5765625000000014,
+        0.43281249999999893
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "E",
+      "quantity": "E_default",
+      "ask": "direct",
+      "point": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "E",
+      "quantity": "E_default",
+      "ask": "multi",
+      "point": 0.14187499999999942,
+      "interval": [
+        -1.5771875,
+        1.896874999999999
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "ask": "direct",
+      "point": 71.875,
+      "interval": [
+        62.8125,
+        80.15625
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "ask": "multi",
+      "point": 58.434375,
+      "interval": [
+        56.1046875,
+        60.615625
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "C",
+      "quantity": "probability",
+      "ask": "direct",
+      "point": 1.0000564858960266,
+      "interval": [
+        1.0000564858960266,
+        1.0000564858960266
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "C",
+      "quantity": "probability",
+      "ask": "multi",
+      "point": 1.0001438359333445,
+      "interval": [
+        1.0000406960588293,
+        1.0002387570345905
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "C",
+      "quantity": "frequency",
+      "ask": "direct",
+      "point": 1.0000564858960266,
+      "interval": [
+        1.0000564858960266,
+        1.0000564858960266
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "direct"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "C",
+      "quantity": "frequency",
+      "ask": "multi",
+      "point": 1.0000929925468725,
+      "interval": [
+        1.0000046910382325,
+        1.000181745627769
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "multi"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "E",
+      "quantity": "neutral",
+      "ask": "direct",
+      "point": 36.875,
+      "interval": [
+        26.5625,
+        47.1875
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "item_details",
+        "E",
+        "direct",
+        "neutral"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "E",
+      "quantity": "neutral",
+      "ask": "multi",
+      "point": 53.5109375,
+      "interval": [
+        48.90625,
+        58.1046875
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "item_details",
+        "E",
+        "multi",
+        "neutral"
+      ]
+    }
+  ],
+  "fig3": [
+    {
+      "config": "codex",
+      "experiment": "A",
+      "quantity": "AI_irrelevant",
+      "title": "A: random-source AI",
+      "unit": "AI",
+      "point": 0.005073933300205379,
+      "interval": [
+        -0.15349216980036345,
+        0.15529476426637775
+      ],
+      "n": 49,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "AI_irrelevant",
+        "difference"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "A",
+      "quantity": "AI_informative",
+      "title": "A: informative-source AI",
+      "unit": "AI",
+      "point": 0.05539214735268597,
+      "interval": [
+        0.017302732669624395,
+        0.10159426503552335
+      ],
+      "n": 50,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "AI_informative",
+        "difference"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "A",
+      "quantity": "S",
+      "title": "A: source selectivity",
+      "unit": "AI",
+      "point": 0.051239105114823935,
+      "interval": [
+        -0.10343807491550593,
+        0.2101853613306665
+      ],
+      "n": 49,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "S",
+        "difference"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "B",
+      "quantity": "b",
+      "title": "B: reconstructed shift b",
+      "unit": "pp",
+      "point": -0.3625611111111111,
+      "interval": [
+        -1.5704722222222225,
+        0.7966666666666669
+      ],
+      "n": 90,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "B",
+        "b",
+        "difference"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "B",
+      "quantity": "e_PO",
+      "title": "B: confirmation error",
+      "unit": "pp",
+      "point": 0.905436111111112,
+      "interval": [
+        0.3368750000000006,
+        2.0125083333333342
+      ],
+      "n": 90,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "B",
+        "e_PO",
+        "difference"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "C",
+      "quantity": "probability",
+      "title": "C: probability slope",
+      "unit": "slope",
+      "point": -5.581360438641214e-05,
+      "interval": [
+        -6.659117844898255e-05,
+        -4.356181774184398e-05
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "difference"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "C",
+      "quantity": "frequency",
+      "title": "C: frequency slope",
+      "unit": "slope",
+      "point": -6.109659434135883e-05,
+      "interval": [
+        -6.608988620444567e-05,
+        -5.695829900272953e-05
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "difference"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "C",
+      "quantity": "error",
+      "title": "C: Bayesian error",
+      "unit": "pp",
+      "point": -0.0015657581460837584,
+      "interval": [
+        -0.0016944580617402078,
+        -0.001423744338569488
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "error",
+        "difference"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "D",
+      "quantity": "delta_S",
+      "title": "D: separate excess",
+      "unit": "pp",
+      "point": -0.74085,
+      "interval": [
+        -1.707925,
+        0.2306249999999999
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "D",
+        "delta_S",
+        "difference"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "D",
+      "quantity": "delta_J",
+      "title": "D: joint excess",
+      "unit": "pp",
+      "point": 0.14287500000000006,
+      "interval": [
+        -0.13412500000000008,
+        0.445875
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "D",
+        "delta_J",
+        "difference"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "E",
+      "quantity": "E_status",
+      "title": "E: status-quo effect",
+      "unit": "pp",
+      "point": -0.3828125,
+      "interval": [
+        -2.0859375,
+        1.234375
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "difference"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "E",
+      "quantity": "E_default",
+      "title": "E: default effect",
+      "unit": "pp",
+      "point": -0.0234375,
+      "interval": [
+        -1.5546875,
+        1.5234375
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "difference"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "title": "E: advice effect",
+      "unit": "pp",
+      "point": 0.96875,
+      "interval": [
+        -1.0,
+        2.9453125
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_codex.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "difference"
+      ]
+    },
+    {
+      "config": "codex",
+      "experiment": "external",
+      "quantity": "H4b",
+      "title": "External delta-NLI H4b",
+      "unit": "pp",
+      "point": -2.482416666666667,
+      "interval": [
+        -3.180979166666666,
+        -1.7969791666666668
+      ],
+      "n": 120,
+      "source": "../dnli/analysis_formal.json",
+      "pointer": [
+        "families",
+        "config:codex",
+        "rows",
+        "test=H4b"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "A",
+      "quantity": "AI_irrelevant",
+      "title": "A: random-source AI",
+      "unit": "AI",
+      "point": -0.056766024246869565,
+      "interval": [
+        -0.1857000202004884,
+        0.05008924426381675
+      ],
+      "n": 50,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "AI_irrelevant",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "A",
+      "quantity": "AI_informative",
+      "title": "A: informative-source AI",
+      "unit": "AI",
+      "point": 0.07417338585871942,
+      "interval": [
+        -0.07160224800920498,
+        0.3064927802536449
+      ],
+      "n": 50,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "AI_informative",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "A",
+      "quantity": "S",
+      "title": "A: source selectivity",
+      "unit": "AI",
+      "point": 0.13093941010558902,
+      "interval": [
+        -0.04907862958171266,
+        0.3761352058205191
+      ],
+      "n": 50,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "S",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "B",
+      "quantity": "b",
+      "title": "B: reconstructed shift b",
+      "unit": "pp",
+      "point": 1.749583333333333,
+      "interval": [
+        0.6134722222222218,
+        2.8356388888888886
+      ],
+      "n": 90,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "B",
+        "b",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "B",
+      "quantity": "e_PO",
+      "title": "B: confirmation error",
+      "unit": "pp",
+      "point": -4.192555555555557,
+      "interval": [
+        -6.6464444444444455,
+        -1.792333333333334
+      ],
+      "n": 90,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "B",
+        "e_PO",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "C",
+      "quantity": "probability",
+      "title": "C: probability slope",
+      "unit": "slope",
+      "point": -0.06085907739442416,
+      "interval": [
+        -0.0691106348228179,
+        -0.05269954244677255
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "C",
+      "quantity": "frequency",
+      "title": "C: frequency slope",
+      "unit": "slope",
+      "point": -0.05673890171827366,
+      "interval": [
+        -0.06342237830524042,
+        -0.048977911941190236
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "C",
+      "quantity": "error",
+      "title": "C: Bayesian error",
+      "unit": "pp",
+      "point": 1.0058339336459228,
+      "interval": [
+        0.8882334434498453,
+        1.1214091510372268
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "error",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "D",
+      "quantity": "delta_S",
+      "title": "D: separate excess",
+      "unit": "pp",
+      "point": -0.4165,
+      "interval": [
+        -1.55975,
+        0.5082500000000001
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "D",
+        "delta_S",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "D",
+      "quantity": "delta_J",
+      "title": "D: joint excess",
+      "unit": "pp",
+      "point": -0.09500000000000026,
+      "interval": [
+        -0.4385000000000005,
+        0.21075
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "D",
+        "delta_J",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "E",
+      "quantity": "E_status",
+      "title": "E: status-quo effect",
+      "unit": "pp",
+      "point": -0.2984374999999997,
+      "interval": [
+        -3.065625,
+        2.4234375000000004
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "E",
+      "quantity": "E_default",
+      "title": "E: default effect",
+      "unit": "pp",
+      "point": 0.3887500000000006,
+      "interval": [
+        -2.5296874999999988,
+        3.095312500000001
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "title": "E: advice effect",
+      "unit": "pp",
+      "point": -3.927812500000001,
+      "interval": [
+        -5.7787500000000005,
+        -2.046562500000001
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_claude-sonnet-5-5-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "experiment": "external",
+      "quantity": "H4b",
+      "title": "External delta-NLI H4b",
+      "unit": "pp",
+      "point": 0.4706458333333336,
+      "interval": [
+        -0.34177083333333286,
+        1.3198750000000001
+      ],
+      "n": 120,
+      "source": "../dnli-agy/analysis_formal.json",
+      "pointer": [
+        "families",
+        "config:agy:claude-sonnet-5-5-medium",
+        "rows",
+        "test=H4b"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "A",
+      "quantity": "AI_irrelevant",
+      "title": "A: random-source AI",
+      "unit": "AI",
+      "point": -0.6079048566022845,
+      "interval": [
+        -1.9898876002602979,
+        0.7650804755068988
+      ],
+      "n": 50,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "AI_irrelevant",
+        "difference"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "A",
+      "quantity": "AI_informative",
+      "title": "A: informative-source AI",
+      "unit": "AI",
+      "point": 0.9681872127766283,
+      "interval": [
+        0.18458930711687493,
+        1.928952093679903
+      ],
+      "n": 50,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "AI_informative",
+        "difference"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "A",
+      "quantity": "S",
+      "title": "A: source selectivity",
+      "unit": "AI",
+      "point": 1.5760920693789129,
+      "interval": [
+        -0.1316045914309168,
+        3.360355199852728
+      ],
+      "n": 50,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "S",
+        "difference"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "B",
+      "quantity": "b",
+      "title": "B: reconstructed shift b",
+      "unit": "pp",
+      "point": 5.721187446504113,
+      "interval": [
+        0.6766459585249057,
+        10.756931175160123
+      ],
+      "n": 90,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "B",
+        "b",
+        "difference"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "B",
+      "quantity": "e_PO",
+      "title": "B: confirmation error",
+      "unit": "pp",
+      "point": 19.052710700920453,
+      "interval": [
+        15.60007938778914,
+        22.623900358069864
+      ],
+      "n": 90,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "B",
+        "e_PO",
+        "difference"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "C",
+      "quantity": "probability",
+      "title": "C: probability slope",
+      "unit": "slope",
+      "point": -0.012258337521184326,
+      "interval": [
+        -0.017052520986863356,
+        -0.007613477406920466
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "difference"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "C",
+      "quantity": "frequency",
+      "title": "C: frequency slope",
+      "unit": "slope",
+      "point": -0.012127904716033533,
+      "interval": [
+        -0.01524074146044678,
+        -0.009216141304321216
+      ],
+      "n": 19,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "difference"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "C",
+      "quantity": "error",
+      "title": "C: Bayesian error",
+      "unit": "pp",
+      "point": 0.6472948232323159,
+      "interval": [
+        0.5373151570048239,
+        0.7610723429951617
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "error",
+        "difference"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "D",
+      "quantity": "delta_S",
+      "title": "D: separate excess",
+      "unit": "pp",
+      "point": -4.612975468975469,
+      "interval": [
+        -12.93647546897547,
+        3.609524531024532
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "D",
+        "delta_S",
+        "difference"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "D",
+      "quantity": "delta_J",
+      "title": "D: joint excess",
+      "unit": "pp",
+      "point": -2.583267543859649,
+      "interval": [
+        -5.983684210526316,
+        0.7262500000000001
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "D",
+        "delta_J",
+        "difference"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "E",
+      "quantity": "E_status",
+      "title": "E: status-quo effect",
+      "unit": "pp",
+      "point": 4.041728110599078,
+      "interval": [
+        -5.567661290322581,
+        14.324677419354838
+      ],
+      "n": 31,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "difference"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "E",
+      "quantity": "E_default",
+      "title": "E: default effect",
+      "unit": "pp",
+      "point": 5.6592236337971356,
+      "interval": [
+        -4.10361161524501,
+        15.684654164145995
+      ],
+      "n": 29,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "difference"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "title": "E: advice effect",
+      "unit": "pp",
+      "point": -27.948499511241447,
+      "interval": [
+        -39.793450635386115,
+        -15.743714565004888
+      ],
+      "n": 31,
+      "source": "six-config-analysis-20261105/formal_qwen3-off.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "difference"
+      ]
+    },
+    {
+      "config": "qwen3-off",
+      "experiment": "external",
+      "quantity": "H4b",
+      "title": "External delta-NLI H4b",
+      "unit": "pp",
+      "point": -7.938638518997701,
+      "interval": [
+        -9.716028052904694,
+        -6.245381177849926
+      ],
+      "n": 240,
+      "source": "../dnli/analysis_formal.json",
+      "pointer": [
+        "families",
+        "config:qwen3-off",
+        "rows",
+        "test=H4b"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "A",
+      "quantity": "AI_irrelevant",
+      "title": "A: random-source AI",
+      "unit": "AI",
+      "point": 0.1575686355882538,
+      "interval": [
+        -0.7893151160146131,
+        1.098344139208119
+      ],
+      "n": 50,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "AI_irrelevant",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "A",
+      "quantity": "AI_informative",
+      "title": "A: informative-source AI",
+      "unit": "AI",
+      "point": 0.2974930487780315,
+      "interval": [
+        -0.27850154736374383,
+        1.1478461552686794
+      ],
+      "n": 49,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "AI_informative",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "A",
+      "quantity": "S",
+      "title": "A: source selectivity",
+      "unit": "AI",
+      "point": 0.14661543981262154,
+      "interval": [
+        -1.123995506594059,
+        1.4502177656222455
+      ],
+      "n": 49,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "S",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "B",
+      "quantity": "b",
+      "title": "B: reconstructed shift b",
+      "unit": "pp",
+      "point": 6.143398876404493,
+      "interval": [
+        3.1981741573033706,
+        9.235955056179776
+      ],
+      "n": 89,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "B",
+        "b",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "B",
+      "quantity": "e_PO",
+      "title": "B: confirmation error",
+      "unit": "pp",
+      "point": 10.678792134831461,
+      "interval": [
+        7.606573033707865,
+        13.805224719101123
+      ],
+      "n": 89,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "B",
+        "e_PO",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "C",
+      "quantity": "probability",
+      "title": "C: probability slope",
+      "unit": "slope",
+      "point": -0.0025670130986933494,
+      "interval": [
+        -0.0049492287931863724,
+        -0.00047782817511125565
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "C",
+      "quantity": "frequency",
+      "title": "C: frequency slope",
+      "unit": "slope",
+      "point": -0.0015995640394433296,
+      "interval": [
+        -0.004423909139443705,
+        0.000836109174438393
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "C",
+      "quantity": "error",
+      "title": "C: Bayesian error",
+      "unit": "pp",
+      "point": 0.19059335587330548,
+      "interval": [
+        0.15543335561496774,
+        0.23147668920663858
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "error",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "D",
+      "quantity": "delta_S",
+      "title": "D: separate excess",
+      "unit": "pp",
+      "point": -2.6950000000000003,
+      "interval": [
+        -10.672500000000001,
+        4.297499999999999
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "D",
+        "delta_S",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "D",
+      "quantity": "delta_J",
+      "title": "D: joint excess",
+      "unit": "pp",
+      "point": -1.9633999999999996,
+      "interval": [
+        -4.289299999999999,
+        0.4015999999999999
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "D",
+        "delta_J",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "E",
+      "quantity": "E_status",
+      "title": "E: status-quo effect",
+      "unit": "pp",
+      "point": 5.1209375,
+      "interval": [
+        -2.083125,
+        12.3959375
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "E",
+      "quantity": "E_default",
+      "title": "E: default effect",
+      "unit": "pp",
+      "point": 3.1437500000000003,
+      "interval": [
+        -2.0421875,
+        8.0203125
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "title": "E: advice effect",
+      "unit": "pp",
+      "point": -23.2346875,
+      "interval": [
+        -31.3428125,
+        -14.1425
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gpt-oss-120b-medium.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "experiment": "external",
+      "quantity": "H4b",
+      "title": "External delta-NLI H4b",
+      "unit": "pp",
+      "point": -2.295375,
+      "interval": [
+        -4.081333333333333,
+        -0.5613333333333331
+      ],
+      "n": 120,
+      "source": "../dnli-agy/analysis_formal.json",
+      "pointer": [
+        "families",
+        "config:agy:gpt-oss-120b-medium",
+        "rows",
+        "test=H4b"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "A",
+      "quantity": "AI_irrelevant",
+      "title": "A: random-source AI",
+      "unit": "AI",
+      "point": 0.03798988944092398,
+      "interval": [
+        -0.03594939715891468,
+        0.1451570961335399
+      ],
+      "n": 50,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "AI_irrelevant",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "A",
+      "quantity": "AI_informative",
+      "title": "A: informative-source AI",
+      "unit": "AI",
+      "point": 0.020261143808767076,
+      "interval": [
+        -0.12652873627125677,
+        0.18913705887533705
+      ],
+      "n": 50,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "AI_informative",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "A",
+      "quantity": "S",
+      "title": "A: source selectivity",
+      "unit": "AI",
+      "point": -0.017728745632156893,
+      "interval": [
+        -0.20672648030209992,
+        0.17991294316201478
+      ],
+      "n": 50,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "S",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "B",
+      "quantity": "b",
+      "title": "B: reconstructed shift b",
+      "unit": "pp",
+      "point": 1.6432106741573036,
+      "interval": [
+        0.40990449438202226,
+        2.9429859550561797
+      ],
+      "n": 89,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "B",
+        "b",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "B",
+      "quantity": "e_PO",
+      "title": "B: confirmation error",
+      "unit": "pp",
+      "point": 2.5198555555555555,
+      "interval": [
+        -0.5134500000000001,
+        5.570094444444445
+      ],
+      "n": 90,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "B",
+        "e_PO",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "C",
+      "quantity": "probability",
+      "title": "C: probability slope",
+      "unit": "slope",
+      "point": -0.00014934145120551467,
+      "interval": [
+        -0.00026305604380526536,
+        -5.055179523326681e-05
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "C",
+      "quantity": "frequency",
+      "title": "C: frequency slope",
+      "unit": "slope",
+      "point": 2.7450910033299802e-05,
+      "interval": [
+        -3.091303341218876e-05,
+        9.013434492962103e-05
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "C",
+      "quantity": "error",
+      "title": "C: Bayesian error",
+      "unit": "pp",
+      "point": 0.0045895082926438995,
+      "interval": [
+        0.00290478595417009,
+        0.006883814513419973
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "error",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "D",
+      "quantity": "delta_S",
+      "title": "D: separate excess",
+      "unit": "pp",
+      "point": 0.4872499999999997,
+      "interval": [
+        -1.6540000000000006,
+        2.77475
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "D",
+        "delta_S",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "D",
+      "quantity": "delta_J",
+      "title": "D: joint excess",
+      "unit": "pp",
+      "point": -0.16702499999999998,
+      "interval": [
+        -0.772025,
+        0.35494999999999977
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "D",
+        "delta_J",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "E",
+      "quantity": "E_status",
+      "title": "E: status-quo effect",
+      "unit": "pp",
+      "point": -0.7309375000000002,
+      "interval": [
+        -2.8325,
+        1.51875
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "E",
+      "quantity": "E_default",
+      "title": "E: default effect",
+      "unit": "pp",
+      "point": 1.6453124999999993,
+      "interval": [
+        -0.18281250000000038,
+        3.5578125
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "title": "E: advice effect",
+      "unit": "pp",
+      "point": -6.4253125,
+      "interval": [
+        -11.400000000000004,
+        -0.21874999999999933
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-low.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "experiment": "external",
+      "quantity": "H4b",
+      "title": "External delta-NLI H4b",
+      "unit": "pp",
+      "point": -2.4781458333333335,
+      "interval": [
+        -3.6769375000000006,
+        -1.357979166666667
+      ],
+      "n": 120,
+      "source": "../dnli-agy/analysis_formal.json",
+      "pointer": [
+        "families",
+        "config:agy:gemini-3.8-flash-low",
+        "rows",
+        "test=H4b"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "A",
+      "quantity": "AI_irrelevant",
+      "title": "A: random-source AI",
+      "unit": "AI",
+      "point": -0.047547664992939956,
+      "interval": [
+        -0.10656687624136066,
+        -0.0024137639695875394
+      ],
+      "n": 50,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "AI_irrelevant",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "A",
+      "quantity": "AI_informative",
+      "title": "A: informative-source AI",
+      "unit": "AI",
+      "point": 0.14938421468928065,
+      "interval": [
+        0.008244377575696363,
+        0.3948244261902866
+      ],
+      "n": 50,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "AI_informative",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "A",
+      "quantity": "S",
+      "title": "A: source selectivity",
+      "unit": "AI",
+      "point": 0.19693187968222062,
+      "interval": [
+        0.03051787450770032,
+        0.47696520608491144
+      ],
+      "n": 50,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "A",
+        "S",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "B",
+      "quantity": "b",
+      "title": "B: reconstructed shift b",
+      "unit": "pp",
+      "point": 4.526320224719101,
+      "interval": [
+        3.036488764044944,
+        6.125196629213484
+      ],
+      "n": 89,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "B",
+        "b",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "B",
+      "quantity": "e_PO",
+      "title": "B: confirmation error",
+      "unit": "pp",
+      "point": 1.4028611111111111,
+      "interval": [
+        -1.908916666666667,
+        4.819611111111111
+      ],
+      "n": 90,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "B",
+        "e_PO",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "C",
+      "quantity": "probability",
+      "title": "C: probability slope",
+      "unit": "slope",
+      "point": 8.735003731785707e-05,
+      "interval": [
+        -1.5789837197266456e-05,
+        0.00018227113856398303
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "probability",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "C",
+      "quantity": "frequency",
+      "title": "C: frequency slope",
+      "unit": "slope",
+      "point": 3.650665084584115e-05,
+      "interval": [
+        -5.179485779411297e-05,
+        0.00012525973174249972
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "frequency",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "C",
+      "quantity": "error",
+      "title": "C: Bayesian error",
+      "unit": "pp",
+      "point": 0.005358884448705048,
+      "interval": [
+        0.0027948098762538014,
+        0.009587980227464854
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "C",
+        "error",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "D",
+      "quantity": "delta_S",
+      "title": "D: separate excess",
+      "unit": "pp",
+      "point": 0.9792500000000001,
+      "interval": [
+        -0.7267500000000002,
+        2.68875
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "D",
+        "delta_S",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "D",
+      "quantity": "delta_J",
+      "title": "D: joint excess",
+      "unit": "pp",
+      "point": 0.7579749999999997,
+      "interval": [
+        -0.16902500000000067,
+        2.0014749999999997
+      ],
+      "n": 20,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "D",
+        "delta_J",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "E",
+      "quantity": "E_status",
+      "title": "E: status-quo effect",
+      "unit": "pp",
+      "point": -2.187500000000001,
+      "interval": [
+        -4.437500000000002,
+        0.07499999999999885
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_status",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "E",
+      "quantity": "E_default",
+      "title": "E: default effect",
+      "unit": "pp",
+      "point": 0.14187499999999942,
+      "interval": [
+        -1.5771875,
+        1.896874999999999
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_default",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "E",
+      "quantity": "E_recommend",
+      "title": "E: advice effect",
+      "unit": "pp",
+      "point": -13.440624999999999,
+      "interval": [
+        -21.490624999999998,
+        -4.4484375
+      ],
+      "n": 32,
+      "source": "six-config-analysis-20261105/formal_agy_gemini-3.8-flash-high.json",
+      "pointer": [
+        "descriptive",
+        "cross_experiment",
+        "E",
+        "E_recommend",
+        "difference"
+      ]
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "experiment": "external",
+      "quantity": "H4b",
+      "title": "External delta-NLI H4b",
+      "unit": "pp",
+      "point": -3.7329166666666667,
+      "interval": [
+        -5.051104166666666,
+        -2.519875
+      ],
+      "n": 120,
+      "source": "../dnli-agy/analysis_formal.json",
+      "pointer": [
+        "families",
+        "config:agy:gemini-3.8-flash-high",
+        "rows",
+        "test=H4b"
+      ]
+    }
+  ],
+  "units_notice": "Signed operational contrasts. Positive does not universally mean improvement. A is an anchoring index, not percent factual-error reduction.",
+  "supplementary_C_endpoints": [
+    {
+      "config": "codex",
+      "hypothesis": "C1",
+      "exp": "C",
+      "n_clusters_complete": 20,
+      "n_clusters_planned": 20,
+      "n_clusters_missing": 0,
+      "n_items_complete": 40,
+      "missing_cells": 0,
+      "point": -4.718042529328059e-05,
+      "sd": 2.272690927390564e-05,
+      "unadjusted_ci95_two_sided": [
+        -5.648589602658127e-05,
+        -3.787495455997991e-05
+      ],
+      "interval_type": "unadjusted_two_sided_95_descriptive_bootstrap",
+      "worst_case_bounds": [
+        -4.718042529328059e-05,
+        -4.718042529328059e-05
+      ],
+      "eligibility_status": "downgraded_to_descriptive_by_dev_diagnostic",
+      "eligibility_reason": "PLAN §7.2 diagnostic gate: Experiment C ceiling triggered in development across all 6 configurations (48/48 direct cells within +/-1 point of Bayes answer)",
+      "formal_interpretation_caveat": [],
+      "frozen_confirmatory": false
+    },
+    {
+      "config": "codex",
+      "hypothesis": "C2",
+      "exp": "C",
+      "n_clusters_complete": 20,
+      "n_clusters_planned": 20,
+      "n_clusters_missing": 0,
+      "n_items_complete": 40,
+      "missing_cells": 0,
+      "point": 9.30547073330068e-06,
+      "sd": 2.272690927390564e-05,
+      "unadjusted_ci95_two_sided": [
+        0.0,
+        1.861094146660136e-05
+      ],
+      "interval_type": "unadjusted_two_sided_95_descriptive_bootstrap",
+      "worst_case_bounds": [
+        9.30547073330068e-06,
+        9.30547073330068e-06
+      ],
+      "eligibility_status": "downgraded_to_descriptive_by_dev_diagnostic",
+      "eligibility_reason": "PLAN §7.2 diagnostic gate: Experiment C ceiling triggered in development across all 6 configurations (48/48 direct cells within +/-1 point of Bayes answer)",
+      "formal_interpretation_caveat": [],
+      "frozen_confirmatory": false
+    },
+    {
+      "config": "qwen3-off",
+      "hypothesis": "C1",
+      "exp": "C",
+      "n_clusters_complete": 20,
+      "n_clusters_planned": 20,
+      "n_clusters_missing": 0,
+      "n_items_complete": 40,
+      "missing_cells": 0,
+      "point": -0.0016848681609441362,
+      "sd": 0.0030678776235360853,
+      "unadjusted_ci95_two_sided": [
+        -0.0030248698534326435,
+        -0.00046242204893002235
+      ],
+      "interval_type": "unadjusted_two_sided_95_descriptive_bootstrap",
+      "worst_case_bounds": [
+        -0.0016848681609441362,
+        -0.0016848681609441362
+      ],
+      "eligibility_status": "preregistered_descriptive_only",
+      "eligibility_reason": "PLAN §7.2: retained as descriptive local open-weight benchmark (0 confirmatory tests)",
+      "formal_interpretation_caveat": [],
+      "frozen_confirmatory": false
+    },
+    {
+      "config": "qwen3-off",
+      "hypothesis": "C2",
+      "exp": "C",
+      "n_clusters_complete": 19,
+      "n_clusters_planned": 20,
+      "n_clusters_missing": 1,
+      "n_items_complete": 38,
+      "missing_cells": 1,
+      "point": -0.0013391261390801746,
+      "sd": 0.0031306881563104376,
+      "unadjusted_ci95_two_sided": [
+        -0.0027123327582580688,
+        -2.199258461834488e-05
+      ],
+      "interval_type": "unadjusted_two_sided_95_descriptive_bootstrap",
+      "worst_case_bounds": [
+        -0.10151423368547133,
+        0.04896496293903947
+      ],
+      "eligibility_status": "preregistered_descriptive_only",
+      "eligibility_reason": "PLAN §7.2: retained as descriptive local open-weight benchmark (0 confirmatory tests)",
+      "formal_interpretation_caveat": [],
+      "frozen_confirmatory": false
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "hypothesis": "C1",
+      "exp": "C",
+      "n_clusters_complete": 20,
+      "n_clusters_planned": 20,
+      "n_clusters_missing": 0,
+      "n_items_complete": 40,
+      "missing_cells": 0,
+      "point": -5.0334983619435e-05,
+      "sd": 5.302828986829428e-05,
+      "unadjusted_ci95_two_sided": [
+        -7.302277674196555e-05,
+        -2.764719049690445e-05
+      ],
+      "interval_type": "unadjusted_two_sided_95_descriptive_bootstrap",
+      "worst_case_bounds": [
+        -5.0334983619435e-05,
+        -5.0334983619435e-05
+      ],
+      "eligibility_status": "downgraded_to_descriptive_by_dev_diagnostic",
+      "eligibility_reason": "PLAN §7.2 diagnostic gate: Experiment C ceiling triggered in development across all 6 configurations (48/48 direct cells within +/-1 point of Bayes answer)",
+      "formal_interpretation_caveat": [],
+      "frozen_confirmatory": false
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "hypothesis": "C2",
+      "exp": "C",
+      "n_clusters_complete": 20,
+      "n_clusters_planned": 20,
+      "n_clusters_missing": 0,
+      "n_items_complete": 40,
+      "missing_cells": 0,
+      "point": 4.516131311236571e-05,
+      "sd": 9.397296264961093e-05,
+      "unadjusted_ci95_two_sided": [
+        4.663602166482539e-06,
+        8.565902405824888e-05
+      ],
+      "interval_type": "unadjusted_two_sided_95_descriptive_bootstrap",
+      "worst_case_bounds": [
+        4.516131311236571e-05,
+        4.516131311236571e-05
+      ],
+      "eligibility_status": "downgraded_to_descriptive_by_dev_diagnostic",
+      "eligibility_reason": "PLAN §7.2 diagnostic gate: Experiment C ceiling triggered in development across all 6 configurations (48/48 direct cells within +/-1 point of Bayes answer)",
+      "formal_interpretation_caveat": [],
+      "frozen_confirmatory": false
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "hypothesis": "C1",
+      "exp": "C",
+      "n_clusters_complete": 20,
+      "n_clusters_planned": 20,
+      "n_clusters_missing": 0,
+      "n_items_complete": 40,
+      "missing_cells": 0,
+      "point": -0.00013959884586889348,
+      "sd": 5.582368497044975e-05,
+      "unadjusted_ci95_two_sided": [
+        -0.00016334540296669697,
+        -0.00011585228877109
+      ],
+      "interval_type": "unadjusted_two_sided_95_descriptive_bootstrap",
+      "worst_case_bounds": [
+        -0.00013959884586889348,
+        -0.00013959884586889348
+      ],
+      "eligibility_status": "downgraded_to_descriptive_by_dev_diagnostic",
+      "eligibility_reason": "PLAN §7.2 diagnostic gate: Experiment C ceiling triggered in development across all 6 configurations (48/48 direct cells within +/-1 point of Bayes answer)",
+      "formal_interpretation_caveat": [],
+      "frozen_confirmatory": false
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "hypothesis": "C2",
+      "exp": "C",
+      "n_clusters_complete": 20,
+      "n_clusters_planned": 20,
+      "n_clusters_missing": 0,
+      "n_items_complete": 40,
+      "missing_cells": 0,
+      "point": -7.301996527458443e-05,
+      "sd": 7.271041463244903e-05,
+      "unadjusted_ci95_two_sided": [
+        -0.00010092286766566483,
+        -4.1556474921156106e-05
+      ],
+      "interval_type": "unadjusted_two_sided_95_descriptive_bootstrap",
+      "worst_case_bounds": [
+        -7.301996527458443e-05,
+        -7.301996527458443e-05
+      ],
+      "eligibility_status": "downgraded_to_descriptive_by_dev_diagnostic",
+      "eligibility_reason": "PLAN §7.2 diagnostic gate: Experiment C ceiling triggered in development across all 6 configurations (48/48 direct cells within +/-1 point of Bayes answer)",
+      "formal_interpretation_caveat": [],
+      "frozen_confirmatory": false
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "hypothesis": "C1",
+      "exp": "C",
+      "n_clusters_complete": 20,
+      "n_clusters_planned": 20,
+      "n_clusters_missing": 0,
+      "n_items_complete": 40,
+      "missing_cells": 0,
+      "point": -5.648589602658127e-05,
+      "sd": 0.0,
+      "unadjusted_ci95_two_sided": [
+        -5.648589602658127e-05,
+        -5.648589602658127e-05
+      ],
+      "interval_type": "unadjusted_two_sided_95_descriptive_bootstrap",
+      "worst_case_bounds": [
+        -5.648589602658127e-05,
+        -5.648589602658127e-05
+      ],
+      "eligibility_status": "downgraded_to_descriptive_by_dev_diagnostic",
+      "eligibility_reason": "PLAN §7.2 diagnostic gate: Experiment C ceiling triggered in development across all 6 configurations (48/48 direct cells within +/-1 point of Bayes answer)",
+      "formal_interpretation_caveat": [],
+      "frozen_confirmatory": false
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "hypothesis": "C2",
+      "exp": "C",
+      "n_clusters_complete": 20,
+      "n_clusters_planned": 20,
+      "n_clusters_missing": 0,
+      "n_items_complete": 40,
+      "missing_cells": 0,
+      "point": 0.0,
+      "sd": 0.0,
+      "unadjusted_ci95_two_sided": [
+        0.0,
+        0.0
+      ],
+      "interval_type": "unadjusted_two_sided_95_descriptive_bootstrap",
+      "worst_case_bounds": [
+        0.0,
+        0.0
+      ],
+      "eligibility_status": "downgraded_to_descriptive_by_dev_diagnostic",
+      "eligibility_reason": "PLAN §7.2 diagnostic gate: Experiment C ceiling triggered in development across all 6 configurations (48/48 direct cells within +/-1 point of Bayes answer)",
+      "formal_interpretation_caveat": [],
+      "frozen_confirmatory": false
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "hypothesis": "C1",
+      "exp": "C",
+      "n_clusters_complete": 20,
+      "n_clusters_planned": 20,
+      "n_clusters_missing": 0,
+      "n_items_complete": 40,
+      "missing_cells": 0,
+      "point": -5.648589602658127e-05,
+      "sd": 0.0,
+      "unadjusted_ci95_two_sided": [
+        -5.648589602658127e-05,
+        -5.648589602658127e-05
+      ],
+      "interval_type": "unadjusted_two_sided_95_descriptive_bootstrap",
+      "worst_case_bounds": [
+        -5.648589602658127e-05,
+        -5.648589602658127e-05
+      ],
+      "eligibility_status": "downgraded_to_descriptive_by_dev_diagnostic",
+      "eligibility_reason": "PLAN §7.2 diagnostic gate: Experiment C ceiling triggered in development across all 6 configurations (48/48 direct cells within +/-1 point of Bayes answer)",
+      "formal_interpretation_caveat": [],
+      "frozen_confirmatory": false
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "hypothesis": "C2",
+      "exp": "C",
+      "n_clusters_complete": 20,
+      "n_clusters_planned": 20,
+      "n_clusters_missing": 0,
+      "n_items_complete": 40,
+      "missing_cells": 0,
+      "point": 0.0,
+      "sd": 0.0,
+      "unadjusted_ci95_two_sided": [
+        0.0,
+        0.0
+      ],
+      "interval_type": "unadjusted_two_sided_95_descriptive_bootstrap",
+      "worst_case_bounds": [
+        0.0,
+        0.0
+      ],
+      "eligibility_status": "downgraded_to_descriptive_by_dev_diagnostic",
+      "eligibility_reason": "PLAN §7.2 diagnostic gate: Experiment C ceiling triggered in development across all 6 configurations (48/48 direct cells within +/-1 point of Bayes answer)",
+      "formal_interpretation_caveat": [],
+      "frozen_confirmatory": false
+    }
+  ],
+  "render_checks": {
+    "fig1_confirmatory": {
+      "dpi": 300,
+      "size_inches": [
+        16.8,
+        10.0
+      ],
+      "text_outside_canvas": []
+    },
+    "fig2_status_quo_default_advice": {
+      "dpi": 300,
+      "size_inches": [
+        16.8,
+        9.3
+      ],
+      "text_outside_canvas": []
+    },
+    "fig3_format_differences": {
+      "dpi": 300,
+      "size_inches": [
+        16.8,
+        11.2
+      ],
+      "text_outside_canvas": []
+    }
+  }
+}

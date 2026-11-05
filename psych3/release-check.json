@@ -2593,8 +2593,8 @@
     {
       "path": "psych3/README.md",
       "source": "connecting-dots/psych3/release/README.md",
-      "sha256": "cae76a43b6084c22b26552a68781563a917405de25bbcdb4f6ba4581aa6d35b9",
-      "bytes": 11060,
+      "sha256": "ec451abc5f76a1515e73d69111b5eb9d0df3ab3fb008df750d3e715013a9ddac",
+      "bytes": 11257,
       "category": "release_support",
       "byte_preserved": false,
       "frozen_or_fingerprint_bound": false,

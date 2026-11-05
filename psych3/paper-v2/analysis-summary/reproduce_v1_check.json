@@ -1,0 +1,39 @@
+{
+  "status": "pass_zero_diff_v1",
+  "checks": {
+    "codex": {
+      "output_path": "formal_codex.json",
+      "reference_path": "analysis_formal/formal_codex.json",
+      "reference_sha256": "7bb0ce75438b64517ea6737d0dc63e24406a5324a4e83da42af79f15c37f6575",
+      "output_sha256": "7bb0ce75438b64517ea6737d0dc63e24406a5324a4e83da42af79f15c37f6575",
+      "zero_diff": true,
+      "byte_sha256_equal": true,
+      "canonical_value_sha256": "295b45531a897f319f58223df3e808b4bbb21a4013868162c358315f888d9332"
+    },
+    "agy:claude-sonnet-5-5-medium": {
+      "output_path": "formal_agy_claude-sonnet-5-5-medium.json",
+      "reference_path": "analysis_formal/formal_agy_claude-sonnet-5-5-medium.json",
+      "reference_sha256": "da24a283b7798a4dc903bfa798ba708b032891898ab8bde072cc12adeb61bc49",
+      "output_sha256": "da24a283b7798a4dc903bfa798ba708b032891898ab8bde072cc12adeb61bc49",
+      "zero_diff": true,
+      "byte_sha256_equal": true,
+      "canonical_value_sha256": "5c5c0236fda5c792f2d9d84e11e43005e9e621a3731497c83cc5d447e77b1de1"
+    },
+    "qwen3-off": {
+      "output_path": "formal_qwen3-off.json",
+      "reference_path": "analysis_formal/formal_qwen3-off.json",
+      "reference_sha256": "79169d561b004209b8375df5d04f3f598a66de3465efc5da6eaebca6ae014124",
+      "output_sha256": "79169d561b004209b8375df5d04f3f598a66de3465efc5da6eaebca6ae014124",
+      "zero_diff": true,
+      "byte_sha256_equal": true,
+      "canonical_value_sha256": "1257584abb0a99f14889ce80c4523cc93aa3a144b5cf049b0a32725bc75107ae"
+    }
+  },
+  "pre_post_preserved": true,
+  "freeze_sha256": "00da3c3fec1cad6dec9b93bf0fd3e85ff3f12cf5d86ffa51515902df3985d5a1",
+  "statistical_settings": {
+    "B": 5000,
+    "seed": 2026101903,
+    "alpha": 0.05
+  }
+}

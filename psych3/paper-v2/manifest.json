@@ -1,0 +1,251 @@
+{
+  "schema": "psych3-paper-v2-release-v1",
+  "title": "Multi-Estimate Elicitation Does Not Uniformly Debias Language Model Judgments",
+  "scope": "Six completed configurations; reviewed English v2 manuscript, figures and aggregate analysis summaries",
+  "source_manuscript_bundle": "paper-v2-six-config-20261105",
+  "source_analysis_bundle": "six-config-analysis-20261105",
+  "source_pdf_sha256": "d47ad83676f34c675e0240474509e1059c7011cc133295695f95880f9bcee79c",
+  "files": [
+    {
+      "path": "abstract.txt",
+      "bytes": 1590,
+      "sha256": "954a14c34f34d72a2bf40e5bb1a4f1eda12f2822d72ef48670dc476862dd12bb"
+    },
+    {
+      "path": "analysis-summary/admitted_unit_provenance_summary.json",
+      "bytes": 25095,
+      "sha256": "73e4bd860529abfba75435b216e493943ed3367dde5ddeb8f72c33aa691b7877"
+    },
+    {
+      "path": "analysis-summary/high_batch_diagnostics_exploratory.json",
+      "bytes": 761028,
+      "sha256": "ee3fab3586ad349ab97c76cceb44946756c3d1c0e1b8fb2c8d234c39f4e14c3c"
+    },
+    {
+      "path": "analysis-summary/high_two_batch_provenance.json",
+      "bytes": 2261,
+      "sha256": "a09ee071465f98ae015e388adaadebf899229556b0c3f4e18ffcdd6b4c17a5fa"
+    },
+    {
+      "path": "analysis-summary/reproduce_v1_check.json",
+      "bytes": 1743,
+      "sha256": "6d3eff3bcc6c2b664612eeaf13339e3589259e2968343eacb65ffeaa392cb2f4"
+    },
+    {
+      "path": "analysis-summary/six_config_summary.json",
+      "bytes": 2076460,
+      "sha256": "4928ab326730ee82b64fea330a066fdeae9e3882b1472274b292aaf1b46b67f0"
+    },
+    {
+      "path": "analysis-summary/supplementary_descriptive_endpoints.json",
+      "bytes": 1013034,
+      "sha256": "a31ff30ae35b0204440cc6899fdc132fd1c90557bff015ca588394e86eec1ed9"
+    },
+    {
+      "path": "analysis-summary/v2_tables_audit.json",
+      "bytes": 155763,
+      "sha256": "ddb2119a23789da6737f06cd02554d9c6ed4faedc540af0710b8d7b53d248831"
+    },
+    {
+      "path": "appendices.md",
+      "bytes": 74067,
+      "sha256": "7d3caf0d99a9b9ef7a7662291487c9727e9cee28ea0296ad3ce69f8771bd1e98"
+    },
+    {
+      "path": "manuscript.md",
+      "bytes": 39896,
+      "sha256": "6e12efbe61b558e090038cd11a0c7af8eb49202c599b5ca354065c5f436ca0e6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2652,
+      "sha256": "3e69fe1a13d47df2840fbf70541250818c2df143856d09fb872faf0e735f5ab4"
+    },
+    {
+      "path": "references.bib",
+      "bytes": 24939,
+      "sha256": "8a9535a9050922de4ff5f83b862b2e27e48981988fe6143033d67dfecb03d2a4"
+    },
+    {
+      "path": "title.txt",
+      "bytes": 78,
+      "sha256": "2121720a38e534ab05c00f5582e57604037e5d9ced5abe5bd9d08e8b0dd69254"
+    },
+    {
+      "path": "typeset/figures/fig1_confirmatory.pdf",
+      "bytes": 27411,
+      "sha256": "aa986f15d560339666dbb165063da86428997d6e33435753bed2260a6a0010e0"
+    },
+    {
+      "path": "typeset/figures/fig1_confirmatory.png",
+      "bytes": 391897,
+      "sha256": "9dccbe9c6b059eab02d04870aac010c17a3e05c44df28720f4848e85b8adde48"
+    },
+    {
+      "path": "typeset/figures/fig2_status_quo_default_advice.pdf",
+      "bytes": 27919,
+      "sha256": "c874fcc15f732671d16179822ec1f07db22ac167b8a3e9c616f6a12ceacddb62"
+    },
+    {
+      "path": "typeset/figures/fig2_status_quo_default_advice.png",
+      "bytes": 328031,
+      "sha256": "40a5c5181fcc64819d27a499a4dd8606051a7ec3fceb803547a869538db5ac6d"
+    },
+    {
+      "path": "typeset/figures/fig3_format_differences.pdf",
+      "bytes": 38134,
+      "sha256": "fba8cef573f4bc33b0938ab615641ea9549227fac2571283592b705757717288"
+    },
+    {
+      "path": "typeset/figures/fig3_format_differences.png",
+      "bytes": 466754,
+      "sha256": "916127207665d9d9094e88044db7f950dc5fe4190e3f9835168b5e3e8711ed90"
+    },
+    {
+      "path": "typeset/figures/figure_data.json",
+      "bytes": 139420,
+      "sha256": "339c2602ee67e85cbb0c82a42bfa724756e2b96db60650ab6f2a57e1c1a4ef2b"
+    }
+  ],
+  "payload_file_count": 20,
+  "self_hash_excluded": true,
+  "copied_files": [
+    {
+      "source_bundle": "paper-v2-six-config-20261105",
+      "source_file": "abstract.txt",
+      "copy": "abstract.txt",
+      "bytes": 1590,
+      "sha256": "954a14c34f34d72a2bf40e5bb1a4f1eda12f2822d72ef48670dc476862dd12bb"
+    },
+    {
+      "source_bundle": "six-config-analysis-20261105",
+      "source_file": "admitted_unit_provenance_summary.json",
+      "copy": "analysis-summary/admitted_unit_provenance_summary.json",
+      "bytes": 25095,
+      "sha256": "73e4bd860529abfba75435b216e493943ed3367dde5ddeb8f72c33aa691b7877"
+    },
+    {
+      "source_bundle": "six-config-analysis-20261105",
+      "source_file": "high_batch_diagnostics_exploratory.json",
+      "copy": "analysis-summary/high_batch_diagnostics_exploratory.json",
+      "bytes": 761028,
+      "sha256": "ee3fab3586ad349ab97c76cceb44946756c3d1c0e1b8fb2c8d234c39f4e14c3c"
+    },
+    {
+      "source_bundle": "six-config-analysis-20261105",
+      "source_file": "high_two_batch_provenance.json",
+      "copy": "analysis-summary/high_two_batch_provenance.json",
+      "bytes": 2261,
+      "sha256": "a09ee071465f98ae015e388adaadebf899229556b0c3f4e18ffcdd6b4c17a5fa"
+    },
+    {
+      "source_bundle": "six-config-analysis-20261105",
+      "source_file": "reproduce_v1_check.json",
+      "copy": "analysis-summary/reproduce_v1_check.json",
+      "bytes": 1743,
+      "sha256": "6d3eff3bcc6c2b664612eeaf13339e3589259e2968343eacb65ffeaa392cb2f4"
+    },
+    {
+      "source_bundle": "six-config-analysis-20261105",
+      "source_file": "six_config_summary.json",
+      "copy": "analysis-summary/six_config_summary.json",
+      "bytes": 2076460,
+      "sha256": "4928ab326730ee82b64fea330a066fdeae9e3882b1472274b292aaf1b46b67f0"
+    },
+    {
+      "source_bundle": "six-config-analysis-20261105",
+      "source_file": "supplementary_descriptive_endpoints.json",
+      "copy": "analysis-summary/supplementary_descriptive_endpoints.json",
+      "bytes": 1013034,
+      "sha256": "a31ff30ae35b0204440cc6899fdc132fd1c90557bff015ca588394e86eec1ed9"
+    },
+    {
+      "source_bundle": "paper-v2-six-config-20261105",
+      "source_file": "data/v2_tables_audit.json",
+      "copy": "analysis-summary/v2_tables_audit.json",
+      "bytes": 155763,
+      "sha256": "ddb2119a23789da6737f06cd02554d9c6ed4faedc540af0710b8d7b53d248831"
+    },
+    {
+      "source_bundle": "paper-v2-six-config-20261105",
+      "source_file": "appendices.md",
+      "copy": "appendices.md",
+      "bytes": 74067,
+      "sha256": "7d3caf0d99a9b9ef7a7662291487c9727e9cee28ea0296ad3ce69f8771bd1e98"
+    },
+    {
+      "source_bundle": "paper-v2-six-config-20261105",
+      "source_file": "manuscript.md",
+      "copy": "manuscript.md",
+      "bytes": 39896,
+      "sha256": "6e12efbe61b558e090038cd11a0c7af8eb49202c599b5ca354065c5f436ca0e6"
+    },
+    {
+      "source_bundle": "paper-v2-six-config-20261105",
+      "source_file": "references.bib",
+      "copy": "references.bib",
+      "bytes": 24939,
+      "sha256": "8a9535a9050922de4ff5f83b862b2e27e48981988fe6143033d67dfecb03d2a4"
+    },
+    {
+      "source_bundle": "paper-v2-six-config-20261105",
+      "source_file": "title.txt",
+      "copy": "title.txt",
+      "bytes": 78,
+      "sha256": "2121720a38e534ab05c00f5582e57604037e5d9ced5abe5bd9d08e8b0dd69254"
+    },
+    {
+      "source_bundle": "paper-v2-six-config-20261105",
+      "source_file": "typeset/figures/fig1_confirmatory.pdf",
+      "copy": "typeset/figures/fig1_confirmatory.pdf",
+      "bytes": 27411,
+      "sha256": "aa986f15d560339666dbb165063da86428997d6e33435753bed2260a6a0010e0"
+    },
+    {
+      "source_bundle": "paper-v2-six-config-20261105",
+      "source_file": "typeset/figures/fig1_confirmatory.png",
+      "copy": "typeset/figures/fig1_confirmatory.png",
+      "bytes": 391897,
+      "sha256": "9dccbe9c6b059eab02d04870aac010c17a3e05c44df28720f4848e85b8adde48"
+    },
+    {
+      "source_bundle": "paper-v2-six-config-20261105",
+      "source_file": "typeset/figures/fig2_status_quo_default_advice.pdf",
+      "copy": "typeset/figures/fig2_status_quo_default_advice.pdf",
+      "bytes": 27919,
+      "sha256": "c874fcc15f732671d16179822ec1f07db22ac167b8a3e9c616f6a12ceacddb62"
+    },
+    {
+      "source_bundle": "paper-v2-six-config-20261105",
+      "source_file": "typeset/figures/fig2_status_quo_default_advice.png",
+      "copy": "typeset/figures/fig2_status_quo_default_advice.png",
+      "bytes": 328031,
+      "sha256": "40a5c5181fcc64819d27a499a4dd8606051a7ec3fceb803547a869538db5ac6d"
+    },
+    {
+      "source_bundle": "paper-v2-six-config-20261105",
+      "source_file": "typeset/figures/fig3_format_differences.pdf",
+      "copy": "typeset/figures/fig3_format_differences.pdf",
+      "bytes": 38134,
+      "sha256": "fba8cef573f4bc33b0938ab615641ea9549227fac2571283592b705757717288"
+    },
+    {
+      "source_bundle": "paper-v2-six-config-20261105",
+      "source_file": "typeset/figures/fig3_format_differences.png",
+      "copy": "typeset/figures/fig3_format_differences.png",
+      "bytes": 466754,
+      "sha256": "916127207665d9d9094e88044db7f950dc5fe4190e3f9835168b5e3e8711ed90"
+    },
+    {
+      "source_bundle": "paper-v2-six-config-20261105",
+      "source_file": "typeset/figures/figure_data.json",
+      "copy": "typeset/figures/figure_data.json",
+      "bytes": 139420,
+      "sha256": "339c2602ee67e85cbb0c82a42bfa724756e2b96db60650ab6f2a57e1c1a4ef2b"
+    }
+  ],
+  "contains_third_party_item_text": false,
+  "contains_full_raw_model_responses": false,
+  "numeric_output_excerpt_disclosure": "Reviewed manuscript Box 1 retains six numeric final-output lines for researcher-authored p01; no full responses are released.",
+  "status": "Prepared in local public-repository checkout; no git commit or push performed"
+}

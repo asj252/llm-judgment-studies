@@ -1,0 +1,859 @@
+{
+  "schema": "psych3-admitted-provenance-v1",
+  "rows": 25920,
+  "formal_rows": 22212,
+  "dev_rows": 3708,
+  "formal_batches": 7,
+  "dev_configs": 6,
+  "formal_statuses": {
+    "ok": 22191,
+    "missing": 21
+  },
+  "dev_statuses": {
+    "ok": 3707,
+    "missing": 1
+  },
+  "batches": [
+    {
+      "cfg": "codex",
+      "stage": "formal",
+      "batch": "F0",
+      "filter": {
+        "total": 3724,
+        "admitted": 3702,
+        "excluded": 22
+      },
+      "fingerprint_id": "02801ac0f09c816ea0ceadd1d59dd4041475cb4be6ade960cd4b1e59e957d8db",
+      "results_path": "results_formal_codex.jsonl",
+      "metadata_path": "run_meta_formal_codex.json",
+      "sessions": 14,
+      "strict_reader_invocations": 1,
+      "admitted": 3702,
+      "statuses": {
+        "ok": 3699,
+        "missing": 3
+      },
+      "missing_unit_ids": [
+        "A:S06|irrelevant|high|multi|r0",
+        "A:S06|irrelevant|low|multi|r0",
+        "A:S06|none|none|multi|r0"
+      ]
+    },
+    {
+      "cfg": "qwen3-off",
+      "stage": "formal",
+      "batch": "F0",
+      "filter": {
+        "total": 3703,
+        "admitted": 3702,
+        "excluded": 1
+      },
+      "fingerprint_id": "d79a227d5ffd35c35aae1730c2fd20f27ac35f4ff535d79740ae7397cc1d7559",
+      "results_path": "results_formal_qwen3-off.jsonl",
+      "metadata_path": "run_meta_formal_qwen3-off.json",
+      "sessions": 2,
+      "strict_reader_invocations": 1,
+      "admitted": 3702,
+      "statuses": {
+        "ok": 3694,
+        "missing": 8
+      },
+      "missing_unit_ids": [
+        "C:s04_A_br1_frequency_direct|r0",
+        "E:E04|default_O|multi|r0",
+        "E:E09|advisor_O|multi|r0",
+        "E:E09|default_O|multi|r0",
+        "E:E14|default_T|multi|r1",
+        "E:E21|status_O|multi|r0",
+        "E:E21|status_T|multi|r0",
+        "E:E25|default_T|multi|r0"
+      ]
+    },
+    {
+      "cfg": "agy:claude-sonnet-5-5-medium",
+      "stage": "formal",
+      "batch": "F0",
+      "filter": {
+        "total": 3711,
+        "admitted": 3702,
+        "excluded": 9
+      },
+      "fingerprint_id": "acba1509421c74d813202e53d4f994c1f2b7ab71b4186257fe4a770f32c7bb1c",
+      "results_path": "results_formal_agy_claude-sonnet-5-5-medium.jsonl",
+      "metadata_path": "run_meta_formal_agy_claude-sonnet-5-5-medium.json",
+      "sessions": 3711,
+      "strict_reader_invocations": 1,
+      "admitted": 3702,
+      "statuses": {
+        "ok": 3702
+      },
+      "missing_unit_ids": []
+    },
+    {
+      "cfg": "agy:gpt-oss-120b-medium",
+      "stage": "formal",
+      "batch": "F0",
+      "filter": {
+        "total": 3726,
+        "admitted": 3702,
+        "excluded": 24
+      },
+      "fingerprint_id": "c28d4c221c901fe4f7449d8df9ff419c0501df6d1c751c3e2acc5672d0f0c446",
+      "results_path": "results_formal_agy_gpt-oss-120b-medium.jsonl",
+      "metadata_path": "run_meta_formal_agy_gpt-oss-120b-medium.json",
+      "sessions": 3728,
+      "strict_reader_invocations": 1,
+      "admitted": 3702,
+      "statuses": {
+        "ok": 3694,
+        "missing": 8
+      },
+      "missing_unit_ids": [
+        "A:A13|informative|low|multi|r0",
+        "A:S15|none|none|multi|r0",
+        "B:B710_HI_2_direct|r0",
+        "B:B710_HI_2_multi|r0",
+        "B:B710_HP_2_direct|r0",
+        "B:B710_HP_2_multi|r0",
+        "B:B710_PO_2_direct|r0",
+        "B:B710_PO_2_multi|r0"
+      ]
+    },
+    {
+      "cfg": "agy:gemini-3.8-flash-low",
+      "stage": "formal",
+      "batch": "F0",
+      "filter": {
+        "total": 3712,
+        "admitted": 3702,
+        "excluded": 10
+      },
+      "fingerprint_id": "88be612631342a1b63db13d6719e354ca41dd7653f86fce13437c6e3522bc5f5",
+      "results_path": "results_formal_agy_gemini-3.8-flash-low.jsonl",
+      "metadata_path": "run_meta_formal_agy_gemini-3.8-flash-low.json",
+      "sessions": 3713,
+      "strict_reader_invocations": 1,
+      "admitted": 3702,
+      "statuses": {
+        "ok": 3701,
+        "missing": 1
+      },
+      "missing_unit_ids": [
+        "B:B710_HI_2_multi|r0"
+      ]
+    },
+    {
+      "cfg": "agy:gemini-3.8-flash-high",
+      "stage": "formal",
+      "batch": "F0",
+      "filter": {
+        "total": 3062,
+        "admitted": 3049,
+        "excluded": 13
+      },
+      "fingerprint_id": "a532f2d198d661032c96b98e9eb0c88e15f391400c4e789dc0c8e9f652fe0a11",
+      "results_path": "results_formal_agy_gemini-3.8-flash-high.jsonl",
+      "metadata_path": "run_meta_formal_agy_gemini-3.8-flash-high.json",
+      "sessions": 3065,
+      "strict_reader_invocations": 1,
+      "admitted": 3049,
+      "statuses": {
+        "ok": 3048,
+        "missing": 1
+      },
+      "missing_unit_ids": [
+        "B:B710_HI_2_multi|r0"
+      ]
+    },
+    {
+      "cfg": "agy:gemini-3.8-flash-high",
+      "stage": "formal",
+      "batch": "F1",
+      "filter": {
+        "total": 656,
+        "admitted": 653,
+        "excluded": 3
+      },
+      "fingerprint_id": "8c35dff8fab0d60b39ee4fba09786f0ddca63c43df1c51a515be07438e434885",
+      "results_path": "window-addendum-high-20261104/results_formal_agy_gemini-3.8-flash-high.jsonl",
+      "metadata_path": "window-addendum-high-20261104/run_meta_formal_agy_gemini-3.8-flash-high.json",
+      "sessions": 656,
+      "strict_reader_invocations": 1,
+      "admitted": 653,
+      "statuses": {
+        "ok": 653
+      },
+      "missing_unit_ids": []
+    },
+    {
+      "cfg": "codex",
+      "stage": "dev",
+      "batch": "development_inherited",
+      "filter": {
+        "total": 624,
+        "admitted": 618,
+        "excluded": 6
+      },
+      "fingerprint_id": "02801ac0f09c816ea0ceadd1d59dd4041475cb4be6ade960cd4b1e59e957d8db",
+      "results_path": "results_dev_codex.jsonl",
+      "metadata_path": "run_meta_dev_codex.json",
+      "acceptance": {
+        "planned": 618,
+        "admitted": 618,
+        "first_parsed": 618,
+        "missing": 0,
+        "first_rate": 1.0,
+        "missing_rate": 0.0,
+        "acceptance": true,
+        "by_condition": {
+          "('A', 'direct', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('A', 'multi', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 50,
+            "weights_compliant": 50
+          },
+          "('B', 'direct', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('B', 'multi', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 120,
+            "weights_compliant": 120
+          },
+          "('C', 'direct', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('C', 'multi', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 48,
+            "weights_compliant": 48
+          },
+          "('D', 'direct', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('D', 'multi', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 35,
+            "weights_compliant": 35
+          },
+          "('E', 'direct', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('E', 'multi', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 56,
+            "weights_compliant": 56
+          }
+        },
+        "refusal_note": "解析失败不自动视为拒答；外壳无统一拒答标记"
+      },
+      "admitted": 618,
+      "statuses": {
+        "ok": 618
+      },
+      "missing_unit_ids": []
+    },
+    {
+      "cfg": "qwen3-off",
+      "stage": "dev",
+      "batch": "development_inherited",
+      "filter": {
+        "total": 618,
+        "admitted": 618,
+        "excluded": 0
+      },
+      "fingerprint_id": "d79a227d5ffd35c35aae1730c2fd20f27ac35f4ff535d79740ae7397cc1d7559",
+      "results_path": "results_dev_qwen3-off.jsonl",
+      "metadata_path": "run_meta_dev_qwen3-off.json",
+      "acceptance": {
+        "planned": 618,
+        "admitted": 618,
+        "first_parsed": 610,
+        "missing": 1,
+        "first_rate": 0.9870550161812298,
+        "missing_rate": 0.0016181229773462784,
+        "acceptance": true,
+        "by_condition": {
+          "('A', 'direct', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('A', 'multi', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 50,
+            "weights_compliant": 50
+          },
+          "('B', 'direct', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('B', 'multi', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 120,
+            "weights_compliant": 118
+          },
+          "('C', 'direct', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 2,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('C', 'multi', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 48,
+            "weights_compliant": 48
+          },
+          "('D', 'direct', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('D', 'multi', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 35,
+            "weights_compliant": 30
+          },
+          "('E', 'direct', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('E', 'multi', 'r0', ())": {
+            "planned": 56,
+            "missing": 1,
+            "failed_attempts": 6,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 55,
+            "weights_compliant": 50
+          }
+        },
+        "refusal_note": "解析失败不自动视为拒答；外壳无统一拒答标记"
+      },
+      "admitted": 618,
+      "statuses": {
+        "ok": 617,
+        "missing": 1
+      },
+      "missing_unit_ids": [
+        "E:E13|default_O|multi|r0"
+      ]
+    },
+    {
+      "cfg": "agy:claude-sonnet-5-5-medium",
+      "stage": "dev",
+      "batch": "development_inherited",
+      "filter": {
+        "total": 621,
+        "admitted": 618,
+        "excluded": 3
+      },
+      "fingerprint_id": "acba1509421c74d813202e53d4f994c1f2b7ab71b4186257fe4a770f32c7bb1c",
+      "results_path": "results_dev_agy_claude-sonnet-5-5-medium.jsonl",
+      "metadata_path": "run_meta_dev_agy_claude-sonnet-5-5-medium.json",
+      "acceptance": {
+        "planned": 618,
+        "admitted": 618,
+        "first_parsed": 617,
+        "missing": 0,
+        "first_rate": 0.9983818770226537,
+        "missing_rate": 0.0,
+        "acceptance": true,
+        "by_condition": {
+          "('A', 'direct', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('A', 'multi', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 50,
+            "weights_compliant": 50
+          },
+          "('B', 'direct', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('B', 'multi', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 120,
+            "weights_compliant": 120
+          },
+          "('C', 'direct', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('C', 'multi', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 48,
+            "weights_compliant": 48
+          },
+          "('D', 'direct', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('D', 'multi', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 35,
+            "weights_compliant": 35
+          },
+          "('E', 'direct', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('E', 'multi', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 56,
+            "weights_compliant": 56
+          }
+        },
+        "refusal_note": "解析失败不自动视为拒答；外壳无统一拒答标记"
+      },
+      "admitted": 618,
+      "statuses": {
+        "ok": 618
+      },
+      "missing_unit_ids": []
+    },
+    {
+      "cfg": "agy:gpt-oss-120b-medium",
+      "stage": "dev",
+      "batch": "development_inherited",
+      "filter": {
+        "total": 622,
+        "admitted": 618,
+        "excluded": 4
+      },
+      "fingerprint_id": "c28d4c221c901fe4f7449d8df9ff419c0501df6d1c751c3e2acc5672d0f0c446",
+      "results_path": "results_dev_agy_gpt-oss-120b-medium.jsonl",
+      "metadata_path": "run_meta_dev_agy_gpt-oss-120b-medium.json",
+      "acceptance": {
+        "planned": 618,
+        "admitted": 618,
+        "first_parsed": 612,
+        "missing": 0,
+        "first_rate": 0.9902912621359223,
+        "missing_rate": 0.0,
+        "acceptance": true,
+        "by_condition": {
+          "('A', 'direct', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('A', 'multi', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 50,
+            "weights_compliant": 50
+          },
+          "('B', 'direct', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('B', 'multi', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 2,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 120,
+            "weights_compliant": 120
+          },
+          "('C', 'direct', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('C', 'multi', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 48,
+            "weights_compliant": 48
+          },
+          "('D', 'direct', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('D', 'multi', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 35,
+            "weights_compliant": 35
+          },
+          "('E', 'direct', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('E', 'multi', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 56,
+            "weights_compliant": 56
+          }
+        },
+        "refusal_note": "解析失败不自动视为拒答；外壳无统一拒答标记"
+      },
+      "admitted": 618,
+      "statuses": {
+        "ok": 618
+      },
+      "missing_unit_ids": []
+    },
+    {
+      "cfg": "agy:gemini-3.8-flash-low",
+      "stage": "dev",
+      "batch": "development_inherited",
+      "filter": {
+        "total": 619,
+        "admitted": 618,
+        "excluded": 1
+      },
+      "fingerprint_id": "88be612631342a1b63db13d6719e354ca41dd7653f86fce13437c6e3522bc5f5",
+      "results_path": "results_dev_agy_gemini-3.8-flash-low.jsonl",
+      "metadata_path": "run_meta_dev_agy_gemini-3.8-flash-low.json",
+      "acceptance": {
+        "planned": 618,
+        "admitted": 618,
+        "first_parsed": 617,
+        "missing": 0,
+        "first_rate": 0.9983818770226537,
+        "missing_rate": 0.0,
+        "acceptance": true,
+        "by_condition": {
+          "('A', 'direct', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('A', 'multi', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 50,
+            "weights_compliant": 50
+          },
+          "('B', 'direct', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('B', 'multi', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 120,
+            "weights_compliant": 120
+          },
+          "('C', 'direct', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('C', 'multi', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 48,
+            "weights_compliant": 48
+          },
+          "('D', 'direct', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('D', 'multi', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 35,
+            "weights_compliant": 35
+          },
+          "('E', 'direct', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('E', 'multi', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 56,
+            "weights_compliant": 56
+          }
+        },
+        "refusal_note": "解析失败不自动视为拒答；外壳无统一拒答标记"
+      },
+      "admitted": 618,
+      "statuses": {
+        "ok": 618
+      },
+      "missing_unit_ids": []
+    },
+    {
+      "cfg": "agy:gemini-3.8-flash-high",
+      "stage": "dev",
+      "batch": "development_inherited",
+      "filter": {
+        "total": 619,
+        "admitted": 618,
+        "excluded": 1
+      },
+      "fingerprint_id": "a532f2d198d661032c96b98e9eb0c88e15f391400c4e789dc0c8e9f652fe0a11",
+      "results_path": "results_dev_agy_gemini-3.8-flash-high.jsonl",
+      "metadata_path": "run_meta_dev_agy_gemini-3.8-flash-high.json",
+      "acceptance": {
+        "planned": 618,
+        "admitted": 618,
+        "first_parsed": 616,
+        "missing": 0,
+        "first_rate": 0.9967637540453075,
+        "missing_rate": 0.0,
+        "acceptance": true,
+        "by_condition": {
+          "('A', 'direct', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('A', 'multi', 'r0', ())": {
+            "planned": 50,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 50,
+            "weights_compliant": 50
+          },
+          "('B', 'direct', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('B', 'multi', 'r0', ())": {
+            "planned": 120,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 120,
+            "weights_compliant": 120
+          },
+          "('C', 'direct', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('C', 'multi', 'r0', ())": {
+            "planned": 48,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 48,
+            "weights_compliant": 48
+          },
+          "('D', 'direct', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('D', 'multi', 'r0', ())": {
+            "planned": 35,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 35,
+            "weights_compliant": 35
+          },
+          "('E', 'direct', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 0,
+            "truncated": 0,
+            "refusal_marked": 0
+          },
+          "('E', 'multi', 'r0', ())": {
+            "planned": 56,
+            "missing": 0,
+            "failed_attempts": 1,
+            "truncated": 0,
+            "refusal_marked": 0,
+            "parsed_multi": 56,
+            "weights_compliant": 56
+          }
+        },
+        "refusal_note": "解析失败不自动视为拒答；外壳无统一拒答标记"
+      },
+      "admitted": 618,
+      "statuses": {
+        "ok": 618
+      },
+      "missing_unit_ids": []
+    }
+  ],
+  "unique_key": [
+    "config",
+    "stage",
+    "unit_id"
+  ],
+  "record_digest": "SHA256 of json.dumps(original_record, sort_keys=True, ensure_ascii=False).encode(utf-8); batch/session/fingerprint untouched",
+  "ledger_sha256": "9b96372fcb0865f460d5defa8c5637c98eb881b9b4ee4e5475691a3b3e6c3517"
+}

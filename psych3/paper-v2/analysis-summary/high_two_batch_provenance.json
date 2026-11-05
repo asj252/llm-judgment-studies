@@ -1,0 +1,65 @@
+{
+  "config": "agy:gemini-3.8-flash-high",
+  "batches": [
+    {
+      "cfg": "agy:gemini-3.8-flash-high",
+      "stage": "formal",
+      "batch": "F0",
+      "filter": {
+        "total": 3062,
+        "admitted": 3049,
+        "excluded": 13
+      },
+      "fingerprint_id": "a532f2d198d661032c96b98e9eb0c88e15f391400c4e789dc0c8e9f652fe0a11",
+      "results_path": "results_formal_agy_gemini-3.8-flash-high.jsonl",
+      "metadata_path": "run_meta_formal_agy_gemini-3.8-flash-high.json",
+      "sessions": 3065,
+      "strict_reader_invocations": 1,
+      "admitted": 3049,
+      "statuses": {
+        "ok": 3048,
+        "missing": 1
+      },
+      "missing_unit_ids": [
+        "B:B710_HI_2_multi|r0"
+      ]
+    },
+    {
+      "cfg": "agy:gemini-3.8-flash-high",
+      "stage": "formal",
+      "batch": "F1",
+      "filter": {
+        "total": 656,
+        "admitted": 653,
+        "excluded": 3
+      },
+      "fingerprint_id": "8c35dff8fab0d60b39ee4fba09786f0ddca63c43df1c51a515be07438e434885",
+      "results_path": "window-addendum-high-20261104/results_formal_agy_gemini-3.8-flash-high.jsonl",
+      "metadata_path": "window-addendum-high-20261104/run_meta_formal_agy_gemini-3.8-flash-high.json",
+      "sessions": 656,
+      "strict_reader_invocations": 1,
+      "admitted": 653,
+      "statuses": {
+        "ok": 653
+      },
+      "missing_unit_ids": []
+    }
+  ],
+  "disjoint": true,
+  "exact_union": 3702,
+  "filter": {
+    "total": 3718,
+    "admitted": 3702,
+    "excluded": 16
+  },
+  "original_single_fid_claim": false,
+  "inherited_dev_units": 618,
+  "parent_fingerprint_id": "a532f2d198d661032c96b98e9eb0c88e15f391400c4e789dc0c8e9f652fe0a11",
+  "continuation_fingerprint_id": "8c35dff8fab0d60b39ee4fba09786f0ddca63c43df1c51a515be07438e434885",
+  "protocol_path": "window-addendum-high-20261104/protocol.json",
+  "protocol_sha256": "ff8a4d7437008a1d25a5dc4f1135a40b991c35d53b0e753ed5aa319dc829bbb6",
+  "baseline_path": "window-addendum-high-20261104/baseline.json",
+  "baseline_sha256": "337f3d29fc32f0542d4771906dff92d30d73ba343de4605810125c7d48c73edb",
+  "combined_acceptance_path": "window-addendum-high-20261104/combined-acceptance.json",
+  "combined_acceptance_sha256": "1ba55abdee7b0e1b75eb04da19975cdca4b1ca0ce509dfd0ec711957db911177"
+}

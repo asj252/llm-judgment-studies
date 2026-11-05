@@ -1,0 +1,730 @@
+{
+  "schema_version": "e3_subclasses_v1",
+  "upstream_data_sha256": "ddd01d06b18b9bab24abb5bc92a8eb740bb145123658fa9a10bd86e38b4bdb5a",
+  "modifier_inventory": {
+    "A_plan_task": {
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion"
+    },
+    "A_plan_deg": {
+      "macro_subclass": "A_plan",
+      "occ_mod": "at least partially",
+      "plan_mod": "completely"
+    },
+    "A_pure": {
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period"
+    }
+  },
+  "counts": {
+    "total": 100,
+    "A_plan": 24,
+    "A_plan_task": 20,
+    "A_plan_deg": 4,
+    "A_pure": 76
+  },
+  "clusters": {
+    "001": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "002": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "003": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "004": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "005": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "006": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "007": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "008": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "009": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "010": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "011": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "012": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "013": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "014": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "015": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "016": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "017": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "018": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "019": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "020": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "021": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "022": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "023": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "024": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "025": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "026": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "027": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "028": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "029": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "030": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "031": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "032": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "033": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "034": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "035": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "036": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "037": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "038": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "039": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "040": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "041": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "042": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "043": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "044": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "045": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "046": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "047": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "048": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "049": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "050": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "051": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "052": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "053": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "054": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "055": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "056": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "057": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "058": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "059": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "060": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "061": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "062": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "063": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "064": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "065": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "066": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "067": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "068": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "069": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "070": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "071": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "072": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "073": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "074": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "075": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "076": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "077": {
+      "template_subclass": "A_plan_deg",
+      "macro_subclass": "A_plan",
+      "occ_mod": "at least partially",
+      "plan_mod": "completely",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "078": {
+      "template_subclass": "A_plan_deg",
+      "macro_subclass": "A_plan",
+      "occ_mod": "at least partially",
+      "plan_mod": "completely",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "079": {
+      "template_subclass": "A_plan_deg",
+      "macro_subclass": "A_plan",
+      "occ_mod": "at least partially",
+      "plan_mod": "completely",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "080": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "081": {
+      "template_subclass": "A_plan_deg",
+      "macro_subclass": "A_plan",
+      "occ_mod": "at least partially",
+      "plan_mod": "completely",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "082": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "083": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "084": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "085": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "086": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "087": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "088": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "089": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "090": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "091": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "092": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "093": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "094": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "095": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "strip_all_day"
+    },
+    "096": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "097": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "098": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "099": {
+      "template_subclass": "A_plan_task",
+      "macro_subclass": "A_plan",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "all the way to completion",
+      "stem_rule": "verbatim_h_orig"
+    },
+    "100": {
+      "template_subclass": "A_pure",
+      "macro_subclass": "A_pure",
+      "occ_mod": "for at least a short time",
+      "plan_mod": "throughout the entire period",
+      "stem_rule": "verbatim_h_orig"
+    }
+  }
+}

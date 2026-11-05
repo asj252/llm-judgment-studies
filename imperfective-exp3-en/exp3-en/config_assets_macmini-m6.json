@@ -1,0 +1,39 @@
+{
+  "host_id": "macmini-m6",
+  "models": {
+    "qwen3-8b": {
+      "port": 18080,
+      "gguf_sha256": "5a337baa986cf2bf23564cf31276593421b1865288a221427703ab45ea0ff47b",
+      "server_sha256": "1bf5602a2be50097c44282a6ecc63234d94ee8f96d39fd45fed6eff4e74b6b41",
+      "tokenizer_sha256": {
+        "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+      },
+      "llama_cpp_version": "version: 0.6.0-dev (build 11560, commit b13a93a3d)",
+      "transformers_version": "5.19.0",
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "service": {
+        "build_info": "b11560-b13a93a3d",
+        "model_path": "/Volumes/2026General_Space/imperfective/models/gguf/Qwen3-8B-b968826d-Q8_0.gguf"
+      },
+      "server_parameters": [
+        "/Volumes/2026General_Space/imperfective/opt/llama.cpp/b11560/llama-server",
+        "-m",
+        "/Volumes/2026General_Space/imperfective/models/gguf/Qwen3-8B-b968826d-Q8_0.gguf",
+        "--port",
+        "18080",
+        "-c",
+        "16384",
+        "-ngl",
+        "999",
+        "--parallel",
+        "1",
+        "--host",
+        "127.0.0.1",
+        "--no-webui",
+        "--seed",
+        "0"
+      ]
+    }
+  }
+}

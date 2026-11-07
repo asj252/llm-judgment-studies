@@ -1,0 +1,223 @@
+{
+  "study": "imperfective-exp4-moore",
+  "experiment": "Experiment 4 (English Moorean Paradox vs. Verbalized Sampling)",
+  "config": "qwen3-8b@macmini-m6",
+  "runner_fingerprint_id": "8c93bc6870a1a00500c3e91c7fd842a100e7d573c33c965963c6ccddec8dce2d",
+  "files": [
+    {
+      "path": "imperfective-exp4-moore/PLAN.md",
+      "bytes": 46125,
+      "sha256": "d4a2915113f79d0679d2319333c9ae2d4c3f4a604332340ec8b45f45d983275e"
+    },
+    {
+      "path": "imperfective-exp4-moore/README.md",
+      "bytes": 8744,
+      "sha256": "d7e8f6eb54fe3995a01909f064932bd56e0ea53508c61fdf50552cc2874aaad5"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/PLAN-E4.md",
+      "bytes": 58490,
+      "sha256": "750339807d4b97a96cf1702eafe73c062e783069851639d3084cbaee3775ad85"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/admission.py",
+      "bytes": 8660,
+      "sha256": "96f438c73ca6b4f5772943711ee42f49180199bdf14015cdda4b99b7532c5981"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/calibrate_e4.py",
+      "bytes": 57617,
+      "sha256": "a4c928e0e86a42eee89aaf603fa310bdc7e50f849c0ec365fd5cf6709b400279"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/check_tokens.py",
+      "bytes": 9500,
+      "sha256": "e8076ce55e7c2895a9f1a4e37a3d548c633eef5a34898aaf3d83a6792b77d753"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/common.py",
+      "bytes": 1968,
+      "sha256": "665fa8d5baa0b75e84121a5c0226fa097b9919a7965be8b753ce0eb229d608bf"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/config_assets_macmini-m6.json",
+      "bytes": 1348,
+      "sha256": "6af91feeafd4d82597133b7eabeea65a4d2296f8e1fbf2fed71c730326703ca1"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/config_models.json",
+      "bytes": 229,
+      "sha256": "64e2eba87ecd4173caa7cce8734e57517bd704a7c217638107e144319acdb1c4"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/core_e4.py",
+      "bytes": 73394,
+      "sha256": "7c766006ce544402a4655bd52c9f8577c948f7e405e774748eb05691e387940e"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/curate_100_clusters_e4.py",
+      "bytes": 136872,
+      "sha256": "07bf41530b2a96fbb53e16391e70b1347f963d3472477260d3541fcfc873123e"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/data/clusters_100_e4.json",
+      "bytes": 447063,
+      "sha256": "f0a2de8192a1c7321e8903818920036b8dcce1b607644f4c3381a5d41768b3f3"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/deadline.py",
+      "bytes": 2528,
+      "sha256": "6b73c2d696b5fda1a351cf7e0f2d479524c73f4b38642dddb01e72b98854ef9e"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/dry_stub.py",
+      "bytes": 5355,
+      "sha256": "a92acc4b3cf08908f33ba191baafc4df546f9050290b237317cfa159d937f546"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/exact_tango_e4.py",
+      "bytes": 48086,
+      "sha256": "df21fd7a74d4fa1ee96b4b06f7b0d2fc4820f750aa9565a435024b183c85a4c6"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/freeze/qwen3-8b@macmini-m6/8c93bc68/PLAN-E4.frozen.md",
+      "bytes": 58490,
+      "sha256": "750339807d4b97a96cf1702eafe73c062e783069851639d3084cbaee3775ad85"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/freeze/qwen3-8b@macmini-m6/8c93bc68/c-review.md",
+      "bytes": 4669,
+      "sha256": "3621d32131d8e75e9921254a71286471d77464d661e4d40da468cb6f5f169cdf"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/freeze/qwen3-8b@macmini-m6/8c93bc68/calibration-e4.json",
+      "bytes": 33446,
+      "sha256": "4de801144abc35dd75b67a768d279a8b5582d8b6d6536e669dbdf26237b604df"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/gates.py",
+      "bytes": 9544,
+      "sha256": "94e6955d549b3aab26a7a55d4989f8534d0e0edc0143b20ad492c2916278a938"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/gpu_preflight_macos.py",
+      "bytes": 717,
+      "sha256": "9e8e7fad51cce62013c83993ea31e080036f92f43dad00f45e52bf6f01356392"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/host.py",
+      "bytes": 2381,
+      "sha256": "0f70a90e696ffb27b4410d22cd59756a86631e0ca9c0796322a056439802070c"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/host_macos.py",
+      "bytes": 12977,
+      "sha256": "2c069e839629df41a2e4e7700d4ecebc66675847a6abbe76ba19d40a3ae46b7e"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/host_paths_macmini-m6.json",
+      "bytes": 437,
+      "sha256": "98a6ce3cb989a723b4833f48dfa4596b79a7d7a140e078cad87feea18f6f4ea4"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/label_tokens_qwen3-8b.json",
+      "bytes": 609,
+      "sha256": "db388dec0a0ecfc93d8bc55e6fa66da460a153bfdd01c1b54f23214b04691259"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/ledger.py",
+      "bytes": 4588,
+      "sha256": "4b2da3e94bb1a6edf4e32943efef226662e3de69ae000302080ee33cc916871a"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/manifests/exact-tango-tables-e4-meta.json",
+      "bytes": 6381,
+      "sha256": "2ecabd0e9158dcc51b03dc1f46da6558602f364ce6fbd9744f2cb44fa83dd9e1"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/manifests/exact-tango-tables-e4.npz",
+      "bytes": 105202,
+      "sha256": "e6378b3a1c85bf851ff623e906d50edb0572f2b282a3c66297483ef1a43ea3ff"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/parse.py",
+      "bytes": 17471,
+      "sha256": "b44d0c453dc54d03e605dc00e5fa2fa8538c998264f93c028ea397c4e6f5f342"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/prompt_parts.py",
+      "bytes": 1135,
+      "sha256": "027a6329088a71bb18fe2d4ac8d4999bec00f34af707092c659d54d5f69b8e41"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/prompts_e4.py",
+      "bytes": 21809,
+      "sha256": "63442bf71ec72a9b1e77a21f8abe4c62d3508cc5d46507ecf351799368971a90"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/protocol.py",
+      "bytes": 2117,
+      "sha256": "8b427b57400016e50bdab458c4402efcfb80718541b78b9eb7ebc7baa55e6904"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/provenance.py",
+      "bytes": 2663,
+      "sha256": "571f5272dc0df6a5623077bf7a41dc908f1b3219aba81f674247db8999931c48"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/run.py",
+      "bytes": 40927,
+      "sha256": "a598d2570e74a95517c1dfcc2d98d9c37edef3995391975ac371a18e59cbc69b"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/s1_preview_e4.md",
+      "bytes": 91047,
+      "sha256": "29e6378c6beb1095add94a3b08a661a98f51895dc9d6296f5d9b5af31376932e"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/score.py",
+      "bytes": 4158,
+      "sha256": "ce5a5ea26be775f6aa206c57ba0253cf57b9219730a0bd830187b021370e3f3a"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/split.json",
+      "bytes": 15040,
+      "sha256": "1552968c6b597b37b18eb349ba81f0c08e0faa037d66bfcf468bb2a5d8055731"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/subclasses_e4.json",
+      "bytes": 29923,
+      "sha256": "77b1874bba695c33197c8898afa23285186525ed20593f9e9407446fce754bc4"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/subject.py",
+      "bytes": 9680,
+      "sha256": "b522d5c2c53e82faec613b3c9ccdc5bf09b972b890cb66066af9cff1e4e4188c"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/test_e4.py",
+      "bytes": 71333,
+      "sha256": "149ada8e3065341c615b3340053c369793d74c8d9fdf1ff27570cea63a11539a"
+    },
+    {
+      "path": "imperfective-exp4-moore/exp4-moore/validate_materials_e4.py",
+      "bytes": 25036,
+      "sha256": "eef0f594d2c4574f13430d8ab735aa6f775d50206b0a2f4d49e037aa6d0cb135"
+    },
+    {
+      "path": "imperfective-exp4-moore/requirements.txt",
+      "bytes": 15,
+      "sha256": "99f43573522565d7c480efd1f954892948033915df6a4e685327e995d3396eb6"
+    },
+    {
+      "path": "imperfective-exp4-moore/test_prereg_e4_offline.py",
+      "bytes": 4896,
+      "sha256": "59da721da6cf8f5f03c6bedd09b1fd769906d4c4ad83ac7bdfbbd61daedda8d2"
+    },
+    {
+      "path": "imperfective-exp4-moore/verify_prereg_e4.py",
+      "bytes": 19367,
+      "sha256": "b54ff0ac3695725b4f4c1e576481ac7ea5b64b82c7825792a2390de13c4527e9"
+    }
+  ]
+}

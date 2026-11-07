@@ -1,0 +1,1308 @@
+{
+  "schema_version": "e4_calibration_v1",
+  "created_at": "2026-11-07T08:30:55Z",
+  "calibrated_at": "2026-11-07T08:30:55Z",
+  "seed": 2026110611,
+  "r_reps": 2000,
+  "b_draws": 5000,
+  "n_formal": 80,
+  "n_per_domain": 20,
+  "domain_quotas": {
+    "D1_safety": 20,
+    "D2_project": 20,
+    "D3_medical": 20,
+    "D4_institutional": 20
+  },
+  "total_cells": 20,
+  "elapsed_sec": 226.544,
+  "elapsed_seconds": 226.544,
+  "dev_source": "dev_ledger",
+  "dev_joint_mode": "joint_123",
+  "dev_complete_cluster_counts": {
+    "E4_H1": 20,
+    "E4_H2": 17,
+    "E4_H3": 20,
+    "E4_H4": 20
+  },
+  "dev_joint_complete_123_count": 17,
+  "dev_run_id": "E4-a8ee5534b8de48d58bf78be85f42e9df",
+  "dev_run_ids": [
+    "E4-a8ee5534b8de48d58bf78be85f42e9df"
+  ],
+  "dev_ledger_path": "/Volumes/2026General_Space/imperfective/exp4-moore/raw/dev/qwen3-8b@macmini-m6/8c93bc68/results.jsonl",
+  "dev_ledger_sha256": "4b19a82ff1d756bada03d04f34fff708549b1c7372d0e42d46bca35987eafa50",
+  "dev_ledger_digest": "5f82fed1c076616f78a47e010eeb1e5933a9c866831cec475933504c749e21df",
+  "code_hashes": {
+    "core_e4.py": "7c766006ce544402a4655bd52c9f8577c948f7e405e774748eb05691e387940e",
+    "calibrate_e4.py": "a4c928e0e86a42eee89aaf603fa310bdc7e50f849c0ec365fd5cf6709b400279",
+    "exact_tango_e4.py": "df21fd7a74d4fa1ee96b4b06f7b0d2fc4820f750aa9565a435024b183c85a4c6",
+    "exact-tango-tables-e4.npz": "e6378b3a1c85bf851ff623e906d50edb0572f2b282a3c66297483ef1a43ea3ff"
+  },
+  "production_eligible": true,
+  "dgp1_kappa": {
+    "E4_H1": 0.5147058823529411,
+    "E4_H2": 0.6178608515057114,
+    "E4_H3": 0.5129310344827587
+  },
+  "dgp1_tau_0": 0.8,
+  "hard_gates": {
+    "fwer_cap": 0.059747,
+    "simultaneous_coverage_9875_floor": 0.940253,
+    "individual_coverage_9875_floor": 0.975,
+    "screen05_cap": 0.075
+  },
+  "status": "pass",
+  "selected_step": 2,
+  "selected_family": "hybrid_bessel_t_tango_e4",
+  "selected_continuous_method": "bessel_t",
+  "companion_family": "hybrid_pct_tango_e4",
+  "demoted_slots": [],
+  "candidate_1_passed_cells": 19,
+  "candidate_2_passed_cells": 20,
+  "step3_passed_cells": null,
+  "candidate_1_cells": [
+    {
+      "dgp": "DGP1_emp",
+      "cfg": "CfgA_all_null_comp",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.05,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9395,
+      "simultaneous_coverage_9875_passed": false,
+      "individual_coverage_9875": {
+        "E4_H1": 0.981,
+        "E4_H2": 0.9835,
+        "E4_H3": 0.983,
+        "E4_H4": 0.9905
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.065,
+        "E4_H2": 0.047,
+        "E4_H3": 0.04,
+        "E4_H4": 0.05
+      },
+      "max_screen05": 0.065,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": false
+    },
+    {
+      "dgp": "DGP1_emp",
+      "cfg": "CfgB_half_null_comp",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.041,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.946,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.986,
+        "E4_H2": 0.9855,
+        "E4_H3": 0.9855,
+        "E4_H4": 0.9885
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H2": 0.0505,
+        "E4_H4": 0.0385
+      },
+      "max_screen05": 0.0505,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP1_emp",
+      "cfg": "CfgC_alt_null_comp",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.055,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.95,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.986,
+        "E4_H2": 0.985,
+        "E4_H3": 0.9855,
+        "E4_H4": 0.9925
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.064,
+        "E4_H3": 0.048
+      },
+      "max_screen05": 0.064,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP1_emp",
+      "cfg": "CfgD_all_null_miss2",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.0235,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.98,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9955,
+        "E4_H2": 0.9955,
+        "E4_H3": 0.995,
+        "E4_H4": 0.9935
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.025,
+        "E4_H2": 0.0155,
+        "E4_H3": 0.0185,
+        "E4_H4": 0.0305
+      },
+      "max_screen05": 0.0305,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP2_skew",
+      "cfg": "CfgA_all_null_comp",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.0425,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9455,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9795,
+        "E4_H2": 0.982,
+        "E4_H3": 0.9845,
+        "E4_H4": 0.992
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.0495,
+        "E4_H2": 0.045,
+        "E4_H3": 0.051,
+        "E4_H4": 0.0495
+      },
+      "max_screen05": 0.051,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP2_skew",
+      "cfg": "CfgB_half_null_comp",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.0415,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9465,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.983,
+        "E4_H2": 0.9795,
+        "E4_H3": 0.9835,
+        "E4_H4": 0.993
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H2": 0.0465,
+        "E4_H4": 0.042
+      },
+      "max_screen05": 0.0465,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP2_skew",
+      "cfg": "CfgC_alt_null_comp",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.037,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.951,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9815,
+        "E4_H2": 0.9825,
+        "E4_H3": 0.988,
+        "E4_H4": 0.9915
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.039,
+        "E4_H3": 0.049
+      },
+      "max_screen05": 0.049,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP2_skew",
+      "cfg": "CfgD_all_null_miss2",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.014,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9795,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.997,
+        "E4_H2": 0.9965,
+        "E4_H3": 0.994,
+        "E4_H4": 0.9915
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.011,
+        "E4_H2": 0.012,
+        "E4_H3": 0.0105,
+        "E4_H4": 0.024
+      },
+      "max_screen05": 0.024,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP3_ties",
+      "cfg": "CfgA_all_null_comp",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.0425,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9645,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9895,
+        "E4_H2": 0.9875,
+        "E4_H3": 0.9945,
+        "E4_H4": 0.992
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.0495,
+        "E4_H2": 0.041,
+        "E4_H3": 0.043,
+        "E4_H4": 0.047
+      },
+      "max_screen05": 0.0495,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP3_ties",
+      "cfg": "CfgB_half_null_comp",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.04,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9605,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9895,
+        "E4_H2": 0.9895,
+        "E4_H3": 0.9895,
+        "E4_H4": 0.991
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H2": 0.041,
+        "E4_H4": 0.0455
+      },
+      "max_screen05": 0.0455,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP3_ties",
+      "cfg": "CfgC_alt_null_comp",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.0415,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9555,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9865,
+        "E4_H2": 0.985,
+        "E4_H3": 0.9885,
+        "E4_H4": 0.9955
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.044,
+        "E4_H3": 0.0435
+      },
+      "max_screen05": 0.044,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP3_ties",
+      "cfg": "CfgD_all_null_miss2",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.0185,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9835,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9975,
+        "E4_H2": 0.9955,
+        "E4_H3": 0.9955,
+        "E4_H4": 0.995
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.022,
+        "E4_H2": 0.024,
+        "E4_H3": 0.017,
+        "E4_H4": 0.032
+      },
+      "max_screen05": 0.032,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP4_het",
+      "cfg": "CfgA_all_null_comp",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.0185,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9855,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.999,
+        "E4_H2": 0.9975,
+        "E4_H3": 0.999,
+        "E4_H4": 0.9895
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.021,
+        "E4_H2": 0.0205,
+        "E4_H3": 0.0205,
+        "E4_H4": 0.049
+      },
+      "max_screen05": 0.049,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP4_het",
+      "cfg": "CfgB_half_null_comp",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.028,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.978,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9965,
+        "E4_H2": 0.996,
+        "E4_H3": 0.998,
+        "E4_H4": 0.9875
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H2": 0.0205,
+        "E4_H4": 0.0415
+      },
+      "max_screen05": 0.0415,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP4_het",
+      "cfg": "CfgC_alt_null_comp",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.0165,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9845,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.997,
+        "E4_H2": 0.999,
+        "E4_H3": 0.9955,
+        "E4_H4": 0.993
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.0205,
+        "E4_H3": 0.0225
+      },
+      "max_screen05": 0.0225,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP4_het",
+      "cfg": "CfgD_all_null_miss2",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.008,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.989,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 1.0,
+        "E4_H2": 0.9995,
+        "E4_H3": 1.0,
+        "E4_H4": 0.9895
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.003,
+        "E4_H2": 0.0035,
+        "E4_H3": 0.005,
+        "E4_H4": 0.0305
+      },
+      "max_screen05": 0.0305,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP5_endpt",
+      "cfg": "CfgA_all_null_comp",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.051,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9535,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9895,
+        "E4_H2": 0.988,
+        "E4_H3": 0.9825,
+        "E4_H4": 0.9935
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.051,
+        "E4_H2": 0.05,
+        "E4_H3": 0.0495,
+        "E4_H4": 0.0515
+      },
+      "max_screen05": 0.0515,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP5_endpt",
+      "cfg": "CfgB_half_null_comp",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.041,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9515,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9825,
+        "E4_H2": 0.984,
+        "E4_H3": 0.989,
+        "E4_H4": 0.996
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H2": 0.043,
+        "E4_H4": 0.049
+      },
+      "max_screen05": 0.049,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP5_endpt",
+      "cfg": "CfgC_alt_null_comp",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.0505,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.958,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.99,
+        "E4_H2": 0.9865,
+        "E4_H3": 0.989,
+        "E4_H4": 0.9905
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.0495,
+        "E4_H3": 0.0455
+      },
+      "max_screen05": 0.0495,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP5_endpt",
+      "cfg": "CfgD_all_null_miss2",
+      "method": "pct",
+      "demoted_slots": [],
+      "fwer": 0.0285,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.981,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.994,
+        "E4_H2": 0.993,
+        "E4_H3": 0.996,
+        "E4_H4": 0.998
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.0335,
+        "E4_H2": 0.0355,
+        "E4_H3": 0.026,
+        "E4_H4": 0.026
+      },
+      "max_screen05": 0.0355,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    }
+  ],
+  "candidate_2_cells": [
+    {
+      "dgp": "DGP1_emp",
+      "cfg": "CfgA_all_null_comp",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.048,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9505,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9845,
+        "E4_H2": 0.987,
+        "E4_H3": 0.9875,
+        "E4_H4": 0.9905
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.0595,
+        "E4_H2": 0.042,
+        "E4_H3": 0.036,
+        "E4_H4": 0.05
+      },
+      "max_screen05": 0.0595,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP1_emp",
+      "cfg": "CfgB_half_null_comp",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.0385,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.95,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9875,
+        "E4_H2": 0.987,
+        "E4_H3": 0.9865,
+        "E4_H4": 0.9885
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H2": 0.0445,
+        "E4_H4": 0.0385
+      },
+      "max_screen05": 0.0445,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP1_emp",
+      "cfg": "CfgC_alt_null_comp",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.046,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.956,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9865,
+        "E4_H2": 0.9885,
+        "E4_H3": 0.9875,
+        "E4_H4": 0.9925
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.057,
+        "E4_H3": 0.0425
+      },
+      "max_screen05": 0.057,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP1_emp",
+      "cfg": "CfgD_all_null_miss2",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.021,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.983,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.997,
+        "E4_H2": 0.9965,
+        "E4_H3": 0.9955,
+        "E4_H4": 0.9935
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.0235,
+        "E4_H2": 0.0135,
+        "E4_H3": 0.017,
+        "E4_H4": 0.0305
+      },
+      "max_screen05": 0.0305,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP2_skew",
+      "cfg": "CfgA_all_null_comp",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.0395,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.955,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.982,
+        "E4_H2": 0.9875,
+        "E4_H3": 0.9885,
+        "E4_H4": 0.992
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.044,
+        "E4_H2": 0.042,
+        "E4_H3": 0.0465,
+        "E4_H4": 0.0495
+      },
+      "max_screen05": 0.0495,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP2_skew",
+      "cfg": "CfgB_half_null_comp",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.04,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9545,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.985,
+        "E4_H2": 0.9845,
+        "E4_H3": 0.986,
+        "E4_H4": 0.993
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H2": 0.0435,
+        "E4_H4": 0.042
+      },
+      "max_screen05": 0.0435,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP2_skew",
+      "cfg": "CfgC_alt_null_comp",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.0305,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9575,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9845,
+        "E4_H2": 0.9865,
+        "E4_H3": 0.99,
+        "E4_H4": 0.9915
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.037,
+        "E4_H3": 0.0425
+      },
+      "max_screen05": 0.0425,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP2_skew",
+      "cfg": "CfgD_all_null_miss2",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.013,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9815,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9975,
+        "E4_H2": 0.9965,
+        "E4_H3": 0.996,
+        "E4_H4": 0.9915
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.01,
+        "E4_H2": 0.0115,
+        "E4_H3": 0.0095,
+        "E4_H4": 0.024
+      },
+      "max_screen05": 0.024,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP3_ties",
+      "cfg": "CfgA_all_null_comp",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.0425,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9645,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9895,
+        "E4_H2": 0.9875,
+        "E4_H3": 0.9945,
+        "E4_H4": 0.992
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.0495,
+        "E4_H2": 0.0405,
+        "E4_H3": 0.0425,
+        "E4_H4": 0.047
+      },
+      "max_screen05": 0.0495,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP3_ties",
+      "cfg": "CfgB_half_null_comp",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.04,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9605,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9895,
+        "E4_H2": 0.9895,
+        "E4_H3": 0.9895,
+        "E4_H4": 0.991
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H2": 0.041,
+        "E4_H4": 0.0455
+      },
+      "max_screen05": 0.0455,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP3_ties",
+      "cfg": "CfgC_alt_null_comp",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.0415,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9555,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9865,
+        "E4_H2": 0.985,
+        "E4_H3": 0.9885,
+        "E4_H4": 0.9955
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.043,
+        "E4_H3": 0.043
+      },
+      "max_screen05": 0.043,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP3_ties",
+      "cfg": "CfgD_all_null_miss2",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.018,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9835,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9975,
+        "E4_H2": 0.9955,
+        "E4_H3": 0.9955,
+        "E4_H4": 0.995
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.021,
+        "E4_H2": 0.023,
+        "E4_H3": 0.0155,
+        "E4_H4": 0.032
+      },
+      "max_screen05": 0.032,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP4_het",
+      "cfg": "CfgA_all_null_comp",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.0175,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9855,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.999,
+        "E4_H2": 0.998,
+        "E4_H3": 0.999,
+        "E4_H4": 0.9895
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.0185,
+        "E4_H2": 0.018,
+        "E4_H3": 0.018,
+        "E4_H4": 0.049
+      },
+      "max_screen05": 0.049,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP4_het",
+      "cfg": "CfgB_half_null_comp",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.0275,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9805,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.997,
+        "E4_H2": 0.997,
+        "E4_H3": 0.999,
+        "E4_H4": 0.9875
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H2": 0.0195,
+        "E4_H4": 0.0415
+      },
+      "max_screen05": 0.0415,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP4_het",
+      "cfg": "CfgC_alt_null_comp",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.0125,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.988,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.999,
+        "E4_H2": 0.9995,
+        "E4_H3": 0.9965,
+        "E4_H4": 0.993
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.018,
+        "E4_H3": 0.0205
+      },
+      "max_screen05": 0.0205,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP4_het",
+      "cfg": "CfgD_all_null_miss2",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.0075,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9895,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 1.0,
+        "E4_H2": 1.0,
+        "E4_H3": 1.0,
+        "E4_H4": 0.9895
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.003,
+        "E4_H2": 0.0035,
+        "E4_H3": 0.0045,
+        "E4_H4": 0.0305
+      },
+      "max_screen05": 0.0305,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP5_endpt",
+      "cfg": "CfgA_all_null_comp",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.05,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9535,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9895,
+        "E4_H2": 0.988,
+        "E4_H3": 0.9825,
+        "E4_H4": 0.9935
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.051,
+        "E4_H2": 0.05,
+        "E4_H3": 0.049,
+        "E4_H4": 0.0515
+      },
+      "max_screen05": 0.0515,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP5_endpt",
+      "cfg": "CfgB_half_null_comp",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.041,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.9515,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.9825,
+        "E4_H2": 0.984,
+        "E4_H3": 0.989,
+        "E4_H4": 0.996
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H2": 0.043,
+        "E4_H4": 0.049
+      },
+      "max_screen05": 0.049,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP5_endpt",
+      "cfg": "CfgC_alt_null_comp",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.0505,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.958,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.99,
+        "E4_H2": 0.9865,
+        "E4_H3": 0.989,
+        "E4_H4": 0.9905
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.0485,
+        "E4_H3": 0.045
+      },
+      "max_screen05": 0.0485,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    },
+    {
+      "dgp": "DGP5_endpt",
+      "cfg": "CfgD_all_null_miss2",
+      "method": "bessel_t",
+      "demoted_slots": [],
+      "fwer": 0.023,
+      "fwer_passed": true,
+      "simultaneous_coverage_9875": 0.984,
+      "simultaneous_coverage_9875_passed": true,
+      "individual_coverage_9875": {
+        "E4_H1": 0.995,
+        "E4_H2": 0.995,
+        "E4_H3": 0.996,
+        "E4_H4": 0.998
+      },
+      "individual_coverage_9875_passed": true,
+      "screen05_by_null_slot": {
+        "E4_H1": 0.0295,
+        "E4_H2": 0.0315,
+        "E4_H3": 0.023,
+        "E4_H4": 0.026
+      },
+      "max_screen05": 0.0315,
+      "screen05_passed": true,
+      "degeneracy_rates": {
+        "E4_H1": 0.0,
+        "E4_H2": 0.0,
+        "E4_H3": 0.0,
+        "E4_H4": 0.0
+      },
+      "cell_passed": true
+    }
+  ],
+  "step3_demoted_cells": null
+}

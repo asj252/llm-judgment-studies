@@ -1,0 +1,10 @@
+{
+  "qwen3-8b": {
+    "repo": "Qwen/Qwen3-8B",
+    "commit": "b968826d9c46dd6066d109eabc6255188de91218",
+    "thinking_switch": true,
+    "gguf": "Qwen3-8B-b968826d-Q8_0.gguf",
+    "ctx": 16384,
+    "max_new_rule": "fixed"
+  }
+}

@@ -1,0 +1,712 @@
+{
+  "schema_version": "e4_subclasses_v1",
+  "counts": {
+    "total": 100,
+    "D1_safety": 25,
+    "D2_project": 25,
+    "D3_medical": 25,
+    "D4_institutional": 25
+  },
+  "clusters": {
+    "001": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "canyon_glass_skywalk",
+      "speaker": "Inspector Clara Vance",
+      "local_mod": "by the static load test sheet",
+      "global_mod": "under the current cliffside anchor conditions"
+    },
+    "002": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "snowstorm_autonomous_shuttle",
+      "speaker": "Operator Tyler Finch",
+      "local_mod": "by the obstacle detection log",
+      "global_mod": "under the severe blizzard road conditions"
+    },
+    "003": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "offshore_drilling_crane",
+      "speaker": "Specialist Elena Rostova",
+      "local_mod": "by the winch evaluation logbook",
+      "global_mod": "under the current pedestal fatigue state"
+    },
+    "004": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "deep_sea_submersible_hatch",
+      "speaker": "Navigator Arthur Pendelton",
+      "local_mod": "by the shallow hydrostatic test log",
+      "global_mod": "given the deep composite hull microcracks"
+    },
+    "005": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "mountain_railway_viaduct",
+      "speaker": "Engineer Marcus Holloway",
+      "local_mod": "by the track deflection standards",
+      "global_mod": "in light of the subsoil liquefaction risk"
+    },
+    "006": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "coastal_flood_barrier",
+      "speaker": "Hydrologist Nadia Thorne",
+      "local_mod": "by the mechanical gate closure log",
+      "global_mod": "against the incoming extreme storm surge"
+    },
+    "007": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "chemical_storage_tank",
+      "speaker": "Technician Liam Gallagher",
+      "local_mod": "by the internal vapor pressure log",
+      "global_mod": "amid the spreading boundary fire"
+    },
+    "008": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "aircraft_turbofan_engine",
+      "speaker": "Machinist Chloe Bennett",
+      "local_mod": "by the ground oil check sheet",
+      "global_mod": "with the high-pressure turbine blade delamination"
+    },
+    "009": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "underground_mine_elevator",
+      "speaker": "Surveyor Victor Sterling",
+      "local_mod": "by the brake pad thickness measurement",
+      "global_mod": "under the severe shaft wall deformation"
+    },
+    "010": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "suspension_bridge_cable",
+      "speaker": "Architect Samuel Morales",
+      "local_mod": "by the acoustic monitoring report",
+      "global_mod": "given the internal anchorage corrosion"
+    },
+    "011": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "nuclear_cooling_tower",
+      "speaker": "Physicist Julian Mercer",
+      "local_mod": "by the flow rate telemetry log",
+      "global_mod": "under the cracked intake conduit conditions"
+    },
+    "012": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "high_speed_train_bogie",
+      "speaker": "Conductor Fiona MacIntyre",
+      "local_mod": "by the axle thermal telemetry",
+      "global_mod": "with the bolster frame fatigue fissures"
+    },
+    "013": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "hydroelectric_spillway_gate",
+      "speaker": "Warden Gregory Hayes",
+      "local_mod": "by the trunnion lubrication logbook",
+      "global_mod": "under the massive bedrock scour threat"
+    },
+    "014": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "roller_coaster_brake_run",
+      "speaker": "Mechanic Toby Rasmussen",
+      "local_mod": "by the brake gap clearance sheet",
+      "global_mod": "with the burned backup pneumatic circuits"
+    },
+    "015": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "tunnel_boring_shield",
+      "speaker": "Foreman Dominic Cross",
+      "local_mod": "by the hydraulic thrust dial readings",
+      "global_mod": "amid the uncontrolled aquifer breach"
+    },
+    "016": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "space_capsule_heat_shield",
+      "speaker": "Flight Director Evelyn Marsh",
+      "local_mod": "by the preflight thickness manifest",
+      "global_mod": "after the high velocity debris strike"
+    },
+    "017": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "refinery_flare_stack",
+      "speaker": "Safety Officer Raymond Chen",
+      "local_mod": "by the pilot ignition telemetry",
+      "global_mod": "under the caustic steam pipe rupture"
+    },
+    "018": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "offshore_wind_turbine_nacelle",
+      "speaker": "Rig Manager Astrid Lindholm",
+      "local_mod": "by the gearbox temperature telemetry",
+      "global_mod": "with the sheared seabed foundation bolts"
+    },
+    "019": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "port_container_crane",
+      "speaker": "Dockmaster Aaron Whitlock",
+      "local_mod": "by the rail clamp engagement log",
+      "global_mod": "against the oncoming runaway ship impact"
+    },
+    "020": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "volcanic_ash_sampling_drone",
+      "speaker": "Pilot Naomi Calder",
+      "local_mod": "by the airspeed pitot calibration",
+      "global_mod": "inside the abrasive ash plume"
+    },
+    "021": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "cryogenic_lng_pipeline",
+      "speaker": "Chemist Derek O'Connor",
+      "local_mod": "by the vacuum insulation jacket log",
+      "global_mod": "under the acute ground subsidence strain"
+    },
+    "022": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "automated_cargo_vessel_rudder",
+      "speaker": "Captain Malcolm Briggs",
+      "local_mod": "by the potentiometer electrical check",
+      "global_mod": "given the severed main hydraulic line"
+    },
+    "023": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "geothermal_wellhead_valve",
+      "speaker": "Geologist Sean Fitzpatrick",
+      "local_mod": "by the valve stem travel indicator",
+      "global_mod": "with the basement cellar fracturing"
+    },
+    "024": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "skyscraper_window_hoist",
+      "speaker": "Supervisor Leo Washington",
+      "local_mod": "by the safety dog readiness check",
+      "global_mod": "under the severe building face microbursts"
+    },
+    "025": {
+      "domain_subclass": "D1_safety",
+      "topic_label": "rocket_sound_suppression_manifold",
+      "speaker": "Launch Officer Diana Bishop",
+      "local_mod": "by the header pressure gauge readout",
+      "global_mod": "amid the underground main line rupture"
+    },
+    "026": {
+      "domain_subclass": "D2_project",
+      "topic_label": "software_launch_memory_leak",
+      "speaker": "Lead Architect Patrick Dunn",
+      "local_mod": "by the initial feature deployment milestones",
+      "global_mod": "given the cascading production memory leak outages"
+    },
+    "027": {
+      "domain_subclass": "D2_project",
+      "topic_label": "quarterly_revenue_customer_churn",
+      "speaker": "Finance Director Beatrice Albright",
+      "local_mod": "by the quarterly revenue accounting sheet",
+      "global_mod": "amid the complete cancellation of core recurring accounts"
+    },
+    "028": {
+      "domain_subclass": "D2_project",
+      "topic_label": "database_sharding_migration",
+      "speaker": "Systems Administrator Simon Kingsley",
+      "local_mod": "by the bulk data transfer schedule",
+      "global_mod": "under the silent replication desynchronization crisis"
+    },
+    "029": {
+      "domain_subclass": "D2_project",
+      "topic_label": "mobile_onboarding_funnel",
+      "speaker": "Growth Manager Melissa Ruiz",
+      "local_mod": "by the total install counter",
+      "global_mod": "in light of the immediate mass uninstallation rate"
+    },
+    "030": {
+      "domain_subclass": "D2_project",
+      "topic_label": "enterprise_erp_transition",
+      "speaker": "Program Director Ethan Cole",
+      "local_mod": "by the procedural cutover checklist",
+      "global_mod": "with nationwide billing and fulfillment paralyzed"
+    },
+    "031": {
+      "domain_subclass": "D2_project",
+      "topic_label": "cloud_storage_consolidation",
+      "speaker": "Infrastructure Lead Sylvia Zhao",
+      "local_mod": "by the server decommissioning deadline",
+      "global_mod": "following the catastrophic loss of unverified archives"
+    },
+    "032": {
+      "domain_subclass": "D2_project",
+      "topic_label": "automated_billing_cutover",
+      "speaker": "Product Owner Adrian Meyer",
+      "local_mod": "by the batch processing status log",
+      "global_mod": "amid widespread duplicate subscriber chargebacks"
+    },
+    "033": {
+      "domain_subclass": "D2_project",
+      "topic_label": "customer_support_backlog",
+      "speaker": "Operations Chief Valerie Ortiz",
+      "local_mod": "by the raw open ticket count",
+      "global_mod": "given the indiscriminate automated closure of unresolved complaints"
+    },
+    "034": {
+      "domain_subclass": "D2_project",
+      "topic_label": "semiconductor_yield_target",
+      "speaker": "Process Engineer Daniel Foster",
+      "local_mod": "by the total wafer output volume",
+      "global_mod": "with microscopic lattice defects ruining functional yield"
+    },
+    "035": {
+      "domain_subclass": "D2_project",
+      "topic_label": "warehouse_robotics_fleet",
+      "speaker": "Logistics Coordinator Warren Hastings",
+      "local_mod": "by the daily pallet transport tally",
+      "global_mod": "under the severe rack collision and structural collapse risk"
+    },
+    "036": {
+      "domain_subclass": "D2_project",
+      "topic_label": "social_network_engagement_surge",
+      "speaker": "Analytics Director Rachel Klein",
+      "local_mod": "by the raw hourly comment count",
+      "global_mod": "amid the overwhelming malicious bot swarm takeover"
+    },
+    "037": {
+      "domain_subclass": "D2_project",
+      "topic_label": "freight_routing_engine",
+      "speaker": "Fleet Dispatcher Gordon Faulkner",
+      "local_mod": "by the solver computational runtime",
+      "global_mod": "given the widespread low bridge vehicle collisions"
+    },
+    "038": {
+      "domain_subclass": "D2_project",
+      "topic_label": "payment_gateway_latency_milestone",
+      "speaker": "Principal Architect Douglas Kim",
+      "local_mod": "by the synthetic benchmark latency score",
+      "global_mod": "under the severe live transaction lock contention"
+    },
+    "039": {
+      "domain_subclass": "D2_project",
+      "topic_label": "connected_vehicle_firmware_rollout",
+      "speaker": "Release Manager Hannah Abbott",
+      "local_mod": "by the payload distribution metrics",
+      "global_mod": "with the vehicle ignition modules bricked nationwide"
+    },
+    "040": {
+      "domain_subclass": "D2_project",
+      "topic_label": "media_cdn_bandwidth_savings",
+      "speaker": "Network Director Keith Donovan",
+      "local_mod": "by the bandwidth egress reduction metrics",
+      "global_mod": "amid the delivery of corrupted video streams to users"
+    },
+    "041": {
+      "domain_subclass": "D2_project",
+      "topic_label": "retail_inventory_reconciliation",
+      "speaker": "Store Auditor Natalie Brooks",
+      "local_mod": "by the digital inventory balance ledger",
+      "global_mod": "in light of the massive undetected warehouse theft"
+    },
+    "042": {
+      "domain_subclass": "D2_project",
+      "topic_label": "recommendation_model_refresh",
+      "speaker": "Data Scientist Owen Wright",
+      "local_mod": "by the offline validation loss curve",
+      "global_mod": "under the severe live scam recommendation feedback loop"
+    },
+    "043": {
+      "domain_subclass": "D2_project",
+      "topic_label": "telecom_spectrum_deployment",
+      "speaker": "Carrier Manager Vincent Lombardi",
+      "local_mod": "by the tower transmitter activation log",
+      "global_mod": "given the critical aviation radar interference crisis"
+    },
+    "044": {
+      "domain_subclass": "D2_project",
+      "topic_label": "enterprise_security_patch",
+      "speaker": "Security Lead Teresa Flores",
+      "local_mod": "by the package installation status",
+      "global_mod": "with all corporate firewalls completely disabled"
+    },
+    "045": {
+      "domain_subclass": "D2_project",
+      "topic_label": "ad_exchange_auction_engine",
+      "speaker": "Platform Architect Trevor Sinclair",
+      "local_mod": "by the auction throughput counter",
+      "global_mod": "amid the disastrous financial underflow billing bug"
+    },
+    "046": {
+      "domain_subclass": "D2_project",
+      "topic_label": "devops_deployment_pipeline",
+      "speaker": "Build Engineer Colin Howard",
+      "local_mod": "by the pipeline exit code log",
+      "global_mod": "after the silent deletion of the production database"
+    },
+    "047": {
+      "domain_subclass": "D2_project",
+      "topic_label": "point_of_sale_terminal_upgrade",
+      "speaker": "Merchant Specialist Andrea Gomez",
+      "local_mod": "by the firmware installation report",
+      "global_mod": "under the severe nationwide checkout freeze"
+    },
+    "048": {
+      "domain_subclass": "D2_project",
+      "topic_label": "supply_chain_demand_forecast",
+      "speaker": "Planning Director Julian Walsh",
+      "local_mod": "by the published forecasting timetable",
+      "global_mod": "amid the catastrophic component understocking crisis"
+    },
+    "049": {
+      "domain_subclass": "D2_project",
+      "topic_label": "search_engine_crawl_quota",
+      "speaker": "Search Lead Brenda Collins",
+      "local_mod": "by the raw page ingestion tally",
+      "global_mod": "with the index overwhelmed by duplicate doorway spam"
+    },
+    "050": {
+      "domain_subclass": "D2_project",
+      "topic_label": "distributed_ledger_sync",
+      "speaker": "Protocol Lead Travis Montgomery",
+      "local_mod": "by the block height synchronization metric",
+      "global_mod": "amid the permanent cryptographic chain split"
+    },
+    "051": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "post_op_blood_count",
+      "speaker": "Hematologist Arthur Jenkins",
+      "local_mod": "by the peripheral white blood cell count",
+      "global_mod": "under the acute bone marrow blast proliferation"
+    },
+    "052": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "resting_ecg_rhythm",
+      "speaker": "Cardiologist Rebecca Stone",
+      "local_mod": "by the resting electrocardiogram tracing",
+      "global_mod": "with recurrent exertion-induced ventricular tachycardia"
+    },
+    "053": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "liver_enzyme_panel",
+      "speaker": "Hepatologist George Bailey",
+      "local_mod": "by the serum aminotransferase panel",
+      "global_mod": "amid decompensated cirrhosis and portal thrombosis"
+    },
+    "054": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "serum_tumor_marker",
+      "speaker": "Oncologist Wendy Sherman",
+      "local_mod": "by the serum carcinoembryonic antigen level",
+      "global_mod": "given the expanding metastatic disease seen on whole-body scans"
+    },
+    "055": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "renal_clearance_creatinine",
+      "speaker": "Nephrologist Walter Ross",
+      "local_mod": "by the serum creatinine measurement",
+      "global_mod": "in the face of total anuria and acute metabolic acidosis"
+    },
+    "056": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "pulmonary_spirometry_ratio",
+      "speaker": "Pulmonologist Sharon Mitchell",
+      "local_mod": "by the forced expiratory ratio chart",
+      "global_mod": "under the severe progressive interstitial honeycomb fibrosis"
+    },
+    "057": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "thyroid_stimulating_hormone",
+      "speaker": "Endocrinologist Paul Adams",
+      "local_mod": "by the thyroid stimulating hormone assay",
+      "global_mod": "despite the massive optic chiasm tumor compression"
+    },
+    "058": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "cerebrospinal_fluid_protein",
+      "speaker": "Neurologist Laura Crawford",
+      "local_mod": "by the spinal fluid protein assay",
+      "global_mod": "in the presence of advancing fulminant viral encephalitis"
+    },
+    "059": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "bone_mineral_density_scan",
+      "speaker": "Rheumatologist Ian Fraser",
+      "local_mod": "by the bone mineral density scan",
+      "global_mod": "with extensive osteolytic destruction from multiple myeloma"
+    },
+    "060": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "cardiac_troponin_reading",
+      "speaker": "Emergency Physician Brian O'Halloran",
+      "local_mod": "by the initial cardiac troponin assay",
+      "global_mod": "amid the tearing ascending aortic dissection"
+    },
+    "061": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "fasting_plasma_glucose",
+      "speaker": "Diabetologist Monica Hall",
+      "local_mod": "by the isolated fasting glucose number",
+      "global_mod": "with severe recurrent nocturnal hypoglycemic comas"
+    },
+    "062": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "platelet_aggregation_assay",
+      "speaker": "Pathologist Ronald Davies",
+      "local_mod": "by the platelet aggregometry curve",
+      "global_mod": "under the severe disseminated intravascular coagulation crisis"
+    },
+    "063": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "intraocular_pressure_tonometry",
+      "speaker": "Ophthalmologist Cynthia Todd",
+      "local_mod": "by the daytime pneumatic tonometry reading",
+      "global_mod": "given the rapid progressive optic nerve excavation"
+    },
+    "064": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "c_reactive_protein_marker",
+      "speaker": "Immunologist Martin Shaw",
+      "local_mod": "by the serum C-reactive protein assay",
+      "global_mod": "amid active bleeding visceral microaneurysms"
+    },
+    "065": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "arterial_blood_gas_reading",
+      "speaker": "Intensivist Judith Keller",
+      "local_mod": "by the arterial oxygen pressure reading",
+      "global_mod": "with rapidly advancing blast lung consolidation"
+    },
+    "066": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "surgical_biopsy_margin",
+      "speaker": "Surgeon Katherine Bell",
+      "local_mod": "by the frozen section margin report",
+      "global_mod": "under extensive retroperitoneal lymphatic tumor seeding"
+    },
+    "067": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "neurological_evoked_potential",
+      "speaker": "Neurophysiologist Donald Craig",
+      "local_mod": "by the visual evoked potential latency",
+      "global_mod": "amid new acute enhancing brainstem demyelinating lesions"
+    },
+    "068": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "skin_lesion_dermoscopy",
+      "speaker": "Dermatologist Philip Hughes",
+      "local_mod": "by the surface dermoscopy pigment score",
+      "global_mod": "given the deep ulcerated nodular melanoma invasion"
+    },
+    "069": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "hemoglobin_glycation_ratio",
+      "speaker": "Internist Angela Hopkins",
+      "local_mod": "by the glycated hemoglobin cartridge reading",
+      "global_mod": "amid the deceptive hemolytic masking of severe diabetes"
+    },
+    "070": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "gastric_mucosa_endoscopy",
+      "speaker": "Gastroenterologist Thomas Mercer",
+      "local_mod": "by the gastric mucosal camera view",
+      "global_mod": "with massive arterial bleeding from a hidden duodenal lesion"
+    },
+    "071": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "sentinel_lymph_node_ultrasound",
+      "speaker": "Radiologist Janice Griffin",
+      "local_mod": "by the ultrasound cortical thickness caliper",
+      "global_mod": "in light of the biopsy-proven lymphatic macrometastases"
+    },
+    "072": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "autoimmune_antinuclear_titer",
+      "speaker": "Serologist Kenneth Bowen",
+      "local_mod": "by the immunofluorescence antibody titer",
+      "global_mod": "under severe diffuse crescentic glomerulonephritis"
+    },
+    "073": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "coronary_artery_calcium_score",
+      "speaker": "Angiologist Bruce Thornton",
+      "local_mod": "by the coronary calcium score",
+      "global_mod": "with an unstable ruptured soft lipid plaque occluding the main artery"
+    },
+    "074": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "prothrombin_time_ratio",
+      "speaker": "Coagulation Specialist Stephanie Quinn",
+      "local_mod": "by the plasma international normalized ratio",
+      "global_mod": "despite the massive obstructive mechanical valve thrombus"
+    },
+    "075": {
+      "domain_subclass": "D3_medical",
+      "topic_label": "vestibular_caloric_reflex",
+      "speaker": "Otolaryngologist Lawrence Fisher",
+      "local_mod": "by the caloric nystagmus irrigation test",
+      "global_mod": "with an acute expanding cerebellar vermis stroke"
+    },
+    "076": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "internal_audit_paper_controls",
+      "speaker": "Chief Auditor Patricia Higgins",
+      "local_mod": "by the formal officer signoff sheet",
+      "global_mod": "amid the massive off-balance-sheet debt concealment"
+    },
+    "077": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "vendor_supply_chain_verification",
+      "speaker": "Procurement Officer Gerald Cooper",
+      "local_mod": "by the vendor digital registration portal",
+      "global_mod": "with investigative reports exposing forced labor in the factories"
+    },
+    "078": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "anti_money_laundering_screening",
+      "speaker": "Compliance Counsel Victoria Ramos",
+      "local_mod": "by the automated rule-based transaction filter",
+      "global_mod": "under the systematic structuring of organized crime transfers"
+    },
+    "079": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "clinical_trial_ethics_signoff",
+      "speaker": "Review Chair Harold Lawson",
+      "local_mod": "by the official review board renewal stamp",
+      "global_mod": "given the deliberate concealment of fatal adverse patient events"
+    },
+    "080": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "environmental_impact_documentation",
+      "speaker": "Environmental Inspector Beverly Jensen",
+      "local_mod": "by the permit filing documentation",
+      "global_mod": "with active bypass pipes discharging toxic heavy metals into drinking water"
+    },
+    "081": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "antitrust_premerger_filing",
+      "speaker": "Regulatory Director Russell Morgan",
+      "local_mod": "by the premerger waiting period expiry certificate",
+      "global_mod": "amid secret executive territorial cartel agreements"
+    },
+    "082": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "credit_model_governance",
+      "speaker": "Risk Officer Deborah Palmer",
+      "local_mod": "by the annual model validation checklist",
+      "global_mod": "under the severe macroeconomic wave of corporate defaults"
+    },
+    "083": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "pilot_simulator_training_log",
+      "speaker": "Aviation Examiner Stuart Gilmore",
+      "local_mod": "by the simulator logbook signoff sheet",
+      "global_mod": "in light of demonstrated crew incapacitation during instrument approaches"
+    },
+    "084": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "export_control_sanctions_check",
+      "speaker": "Trade Compliance Officer Megan Bradley",
+      "local_mod": "by the denied party screening database",
+      "global_mod": "with customs evidence proving the cargo is bound for a sanctioned missile program"
+    },
+    "085": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "food_safety_sanitation_certificate",
+      "speaker": "Health Inspector Leonard Gibbs",
+      "local_mod": "by the posted sanitation certificate",
+      "global_mod": "amid pervasive rodent infestation and rampant Salmonella contamination"
+    },
+    "086": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "pharmaceutical_manufacturing_logbook",
+      "speaker": "Quality Assurance Manager Allison Reid",
+      "local_mod": "by the batch release paper signatures",
+      "global_mod": "after cleanroom air filtration failure introduced live bacterial spores"
+    },
+    "087": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "university_accreditation_dossier",
+      "speaker": "Academic Dean Robert Pearson",
+      "local_mod": "by the formal accreditation matrix",
+      "global_mod": "in light of the commercial sale of unearned degrees without coursework"
+    },
+    "088": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "privacy_consent_ledger",
+      "speaker": "Data Protection Officer Christine Wallace",
+      "local_mod": "by the published consent policy documentation",
+      "global_mod": "while hidden scripts siphon biometric and private chat data to brokers"
+    },
+    "089": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "vessel_seaworthiness_declaration",
+      "speaker": "Port Surveyor Keith Robinson",
+      "local_mod": "by the active harbor safety certificate",
+      "global_mod": "given the catastrophic bottom hull corrosion threatening immediate sinking"
+    },
+    "090": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "commercial_building_permit",
+      "speaker": "Building Inspector Francis Drake",
+      "local_mod": "by the municipal occupancy permit signoff",
+      "global_mod": "with the main support columns sheared in half from foundation settling"
+    },
+    "091": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "fire_safety_evacuation_affidavit",
+      "speaker": "Fire Marshal Gregory Martin",
+      "local_mod": "by the annual alarm inspection report",
+      "global_mod": "with management padlocking all emergency stairwell exits from the outside"
+    },
+    "092": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "labor_standards_subcontractor_roster",
+      "speaker": "Labor Inspector Teresa Young",
+      "local_mod": "by the certified payroll documentation",
+      "global_mod": "amid systematic kickback extortion under threat of physical violence"
+    },
+    "093": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "patent_disclosure_record",
+      "speaker": "Intellectual Property Counsel Oliver Grant",
+      "local_mod": "by the inventor assignment signature sheet",
+      "global_mod": "given the verbatim theft of stolen competitor trade secrets"
+    },
+    "094": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "corporate_governance_slate",
+      "speaker": "Governance Chair Joanne Miller",
+      "local_mod": "by the formal director independence questionnaire",
+      "global_mod": "under massive secret consulting payoffs to supposedly independent directors"
+    },
+    "095": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "conflict_of_interest_declaration",
+      "speaker": "Ethics Committee Chair Raymond Ballard",
+      "local_mod": "by the financial disclosure filing timestamp",
+      "global_mod": "with the contract awarded to a secret family trust owned by the lead official"
+    },
+    "096": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "nuclear_material_inventory_manifest",
+      "speaker": "Safeguards Inspector Craig Harrison",
+      "local_mod": "by the material accounting balance sheet",
+      "global_mod": "amid covert physical diversion of weapons-grade fissile material"
+    },
+    "097": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "endowment_grant_allocation_sheet",
+      "speaker": "Foundation Treasurer Margaret Holloway",
+      "local_mod": "by the grant disbursement accounting ledger",
+      "global_mod": "with ninety-eight percent of funds diverted to fraudulent executive front groups"
+    },
+    "098": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "mining_reclamation_surety_bond",
+      "speaker": "Natural Resources Warden Timothy Fletcher",
+      "local_mod": "by the deposited surety bond certificate",
+      "global_mod": "after the underwriting insurer collapsed into total insolvency"
+    },
+    "099": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "security_incident_disclosure_timeline",
+      "speaker": "Incident Commander Zachary Price",
+      "local_mod": "by the statutory disclosure submission timestamp",
+      "global_mod": "given the six-month executive coverup and destruction of forensic logs"
+    },
+    "100": {
+      "domain_subclass": "D4_institutional",
+      "topic_label": "bank_capital_adequacy_ratio_filing",
+      "speaker": "Banking Examiner Wendy Byrd",
+      "local_mod": "by the regulatory tier one capital report",
+      "global_mod": "amid an unhedged duration crisis and catastrophic deposit flight"
+    }
+  }
+}

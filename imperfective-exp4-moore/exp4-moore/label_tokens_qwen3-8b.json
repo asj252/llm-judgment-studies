@@ -1,0 +1,36 @@
+{
+  "model": "qwen3-8b",
+  "sets": {
+    "True": [
+      830,
+      1866,
+      2514,
+      3007,
+      8214,
+      20611
+    ],
+    "False": [
+      895,
+      3557,
+      3849,
+      4049,
+      7833,
+      30351
+    ],
+    "Unknown": [
+      9788,
+      13790,
+      16088,
+      21693,
+      51378,
+      61395
+    ]
+  },
+  "tokenizer_sha256": {
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+  },
+  "not_applicable": 0,
+  "context_count": 480,
+  "status": "pass"
+}

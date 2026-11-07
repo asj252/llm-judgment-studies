@@ -1,0 +1,93 @@
+"""Offline preregistration, parser, Tango metadata, and S4/S5 calibration lock tests for Experiment 4 (English Moorean Paradox).
+
+Runs entirely from the published imperfective-exp4-moore/ directory using only the
+Python standard library, without raw execution ledgers (exp4-moore/data/raw/),
+model weights, or network access.
+"""
+import json
+import os
+from pathlib import Path
+import sys
+import unittest
+
+os.environ["PYTHONDONTWRITEBYTECODE"] = "1"
+sys.dont_write_bytecode = True
+
+HERE = Path(__file__).resolve().parent
+EXP4_ROOT = HERE / "exp4-moore"
+
+for _p in (str(HERE), str(EXP4_ROOT)):
+    if _p not in sys.path:
+        sys.path.insert(0, _p)
+
+import check_tokens  # noqa: E402
+import curate_100_clusters_e4  # noqa: E402
+import parse as exp4_parse  # noqa: E402
+import validate_materials_e4  # noqa: E402
+import verify_prereg_e4  # noqa: E402
+
+
+class TestPublicPreregE4Offline(unittest.TestCase):
+    def test_01_verify_prereg_e4_passes_offline(self):
+        res = verify_prereg_e4.verify(HERE)
+        self.assertTrue(res["ok"], f"verify_prereg_e4 failed: {res['errors']}")
+        self.assertEqual(res["errors"], [])
+        self.assertEqual(res["runner_fingerprint_id"], verify_prereg_e4.EXPECTED_RUNNER_FP)
+        self.assertEqual(res["runner_fingerprint_recomputed"], "verified")
+        self.assertEqual(res["recomputed_unit_counts"], {"dev": 1160, "formal": 4160, "total": 5320})
+        self.assertEqual(res["selected_family"], "hybrid_bessel_t_tango_e4")
+        self.assertEqual(res["companion_family"], "hybrid_pct_tango_e4")
+        self.assertEqual(res["demoted_slots"], [])
+
+    def test_02_tango_3_sample_sizes_and_parse_v2(self):
+        tango_meta = json.loads((EXP4_ROOT / "manifests" / "exact-tango-tables-e4-meta.json").read_text(encoding="utf-8"))
+        self.assertEqual(tango_meta["supported_ns"], [5, 20, 80])
+        self.assertEqual(tango_meta["npz_file_sha256"], verify_prereg_e4.EXPECTED_TANGO_NPZ_SHA256)
+        self.assertEqual(tango_meta["npz_payload_sha256"], verify_prereg_e4.EXPECTED_TANGO_PAYLOAD_SHA256)
+        self.assertEqual(len(tango_meta["certified_left_cuts"]), 9)
+        for n_key, inv in tango_meta["invariants"].items():
+            self.assertEqual(inv["p_monotonicity_violations"], 0, n_key)
+
+        self.assertFalse(exp4_parse.parse_direct("Probability: 50%\nProbability: invalid")["ok"])
+        r_ok = exp4_parse.parse_direct("Analysis.\nProbability: 72.5%")
+        self.assertTrue(r_ok["ok"])
+        self.assertEqual(r_ok["value"], 72.5)
+
+    def test_03_frozen_tokens_and_s4_step2_calibration_lock(self):
+        frozen_tokens = json.loads((EXP4_ROOT / "label_tokens_qwen3-8b.json").read_text(encoding="utf-8"))
+        assets = json.loads((EXP4_ROOT / "config_assets_macmini-m6.json").read_text(encoding="utf-8"))["models"]["qwen3-8b"]
+        self.assertTrue(check_tokens.validate_frozen_structure(frozen_tokens, "qwen3-8b", assets))
+
+        freeze_dir = EXP4_ROOT / "freeze" / "qwen3-8b@macmini-m6" / "8c93bc68"
+        cal_meta = json.loads((freeze_dir / "calibration-e4.json").read_text(encoding="utf-8"))
+        self.assertEqual(cal_meta["schema_version"], "e4_calibration_v1")
+        self.assertTrue(cal_meta["production_eligible"])
+        self.assertEqual(cal_meta["status"], "pass")
+        self.assertEqual(cal_meta["selected_step"], 2)
+        self.assertEqual(cal_meta["selected_family"], "hybrid_bessel_t_tango_e4")
+        self.assertEqual(cal_meta["companion_family"], "hybrid_pct_tango_e4")
+        self.assertEqual(cal_meta["demoted_slots"], [])
+        self.assertEqual(len(cal_meta["candidate_2_cells"]), 20)
+        for cell in cal_meta["candidate_2_cells"]:
+            self.assertTrue(cell["cell_passed"])
+            self.assertTrue(cell["fwer_passed"])
+            self.assertTrue(cell["simultaneous_coverage_9875_passed"])
+            self.assertTrue(cell["individual_coverage_9875_passed"])
+            self.assertTrue(cell["screen05_passed"])
+
+    def test_04_clusters_subclasses_and_split_manifests_reconstruct_and_validate(self):
+        clusters_built = curate_100_clusters_e4.build_clusters_obj()
+        clusters_disk = json.loads((EXP4_ROOT / "data" / "clusters_100_e4.json").read_text(encoding="utf-8"))
+        self.assertEqual(clusters_built, clusters_disk)
+        subclasses_built = curate_100_clusters_e4.build_subclasses_manifest()
+        subclasses_disk = json.loads((EXP4_ROOT / "subclasses_e4.json").read_text(encoding="utf-8"))
+        self.assertEqual(subclasses_built, subclasses_disk)
+        split_built = curate_100_clusters_e4.build_split_manifest()
+        split_disk = json.loads((EXP4_ROOT / "split.json").read_text(encoding="utf-8"))
+        self.assertEqual(split_built, split_disk)
+        errs = validate_materials_e4.validate_materials(clusters_disk, subclasses_disk, split_disk)
+        self.assertEqual(errs, [])
+
+
+if __name__ == "__main__":
+    unittest.main()

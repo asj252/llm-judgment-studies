@@ -1,0 +1,104 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Dowty(1979)}]{dowty1979}
+David~R. Dowty. 1979.
+\newblock \emph{Word Meaning and Montague Grammar}.
+\newblock D. Reidel.
+
+\bibitem[{Holm(1979)}]{holm1979}
+Sture Holm. 1979.
+\newblock A simple sequentially rejective multiple test procedure.
+\newblock \emph{Scandinavian Journal of Statistics}, 6:65--70.
+
+\bibitem[{Klein et~al.(2000)Klein, Li, and Hendriks}]{klein2000}
+Wolfgang Klein, Ping Li, and Henriette Hendriks. 2000.
+\newblock \href {https://doi.org/10.1023/A:1006411825993} {Aspect and assertion
+  in mandarin chinese}.
+\newblock \emph{Natural Language and Linguistic Theory}, 18:723--770.
+
+\bibitem[{Lin(2003)}]{lin2003aspectual}
+Jo-Wang Lin. 2003.
+\newblock Aspectual selection and negation in mandarin chinese.
+\newblock \emph{Linguistics}, 41(3):425--459.
+
+\bibitem[{Ma and Miyao(2026)}]{ma2026}
+Bolei Ma and Yusuke Miyao. 2026.
+\newblock \href {https://aclanthology.org/2026.acl-long.689/} {The imperfective
+  paradox in large language models}.
+\newblock In \emph{Proceedings of ACL}.
+
+\bibitem[{Moore(1942)}]{moore1942}
+G.~E. Moore. 1942.
+\newblock A reply to my critics.
+\newblock In Paul~Arthur Schilpp, editor, \emph{The Philosophy of G. E. Moore}.
+  Northwestern University.
+
+\bibitem[{Smith(1997)}]{smith1997}
+Carlota~S. Smith. 1997.
+\newblock \emph{The Parameter of Aspect}, 2 edition.
+\newblock Kluwer.
+
+\bibitem[{Soh and Kuo(2005)}]{soh2005}
+Hooi~Ling Soh and Jenny Yi-Chun Kuo. 2005.
+\newblock Perfective aspect and accomplishment situations in mandarin chinese.
+\newblock In Angeliek van Hout, Henriette de~Swart, and Henk Verkuyl, editors,
+  \emph{Perspectives on Aspect}. Springer.
+
+\bibitem[{Tango(1998)}]{tango1998}
+Toshiro Tango. 1998.
+\newblock Equivalence test and confidence interval for the difference in
+  proportions for the paired-sample design.
+\newblock \emph{Statistics in Medicine}, 17:891--908.
+
+\bibitem[{Tian et~al.(2023)Tian, Mitchell, Zhou, Sharma, Rafailov, Yao, Finn,
+  and Manning}]{tian2023}
+Katherine Tian, Eric Mitchell, Allan Zhou, Archit Sharma, Rafael Rafailov,
+  Huaxiu Yao, Chelsea Finn, and Christopher~D. Manning. 2023.
+\newblock \href {https://arxiv.org/abs/2305.14975} {Just ask for calibration:
+  Strategies for eliciting calibrated confidence scores from language models
+  fine-tuned with human feedback}.
+\newblock In \emph{Proceedings of EMNLP}.
+
+\bibitem[{Vendler(1957)}]{vendler1957}
+Zeno Vendler. 1957.
+\newblock Verbs and times.
+\newblock \emph{The Philosophical Review}, 66(2):143--160.
+
+\bibitem[{Wang et~al.(2026)Wang, Ma, and Liu}]{wang2026}
+Ante Wang, Weizhi Ma, and Yang Liu. 2026.
+\newblock \href {https://arxiv.org/abs/2511.14275v2} {Let the model distribute
+  its doubt: Confidence estimation through verbalized probability
+  distribution}.
+\newblock arXiv:2511.14275v2.
+
+\bibitem[{Williams(1979)}]{williams1979}
+John~N. Williams. 1979.
+\newblock \href {https://doi.org/10.1093/analys/39.3.141} {Moore's paradox: One
+  or two?}
+\newblock \emph{Analysis}, 39(3):141--142.
+
+\bibitem[{Xiong et~al.(2024)Xiong, Hu, Lu, Li, Fu, He, and Hooi}]{xiong2024}
+Miao Xiong, Zhiyuan Hu, Xinyang Lu, Yifei Li, Jie Fu, Junxian He, and Bryan
+  Hooi. 2024.
+\newblock \href {https://openreview.net/forum?id=gjeQKFxFpZ} {Can llms express
+  their uncertainty? an empirical evaluation of confidence elicitation in
+  llms}.
+\newblock In \emph{ICLR}.
+
+\bibitem[{Zhang et~al.(2025)Zhang, Yu, Chong, Sicilia, Tomz, Manning, and
+  Shi}]{zhang2025}
+Jiayi Zhang, Simon Yu, Derek Chong, Anthony Sicilia, Michael~R. Tomz,
+  Christopher~D. Manning, and Weiyan Shi. 2025.
+\newblock \href {https://arxiv.org/abs/2510.01171} {Verbalized sampling: How to
+  mitigate mode collapse and unlock llm diversity}.
+\newblock arXiv:2510.01171.
+
+\bibitem[{Zheng et~al.(2026)Zheng, Cao, Yin, Beaver, and Li}]{zheng2026}
+Anshun~Asher Zheng, Weili Cao, Fangcong Yin, David Beaver, and Junyi~Jessy Li.
+  2026.
+\newblock \href {https://arxiv.org/abs/2610.25586} {Assertion and belief:
+  Moore's paradox in language models}.
+\newblock arXiv:2610.25586.
+
+\end{thebibliography}

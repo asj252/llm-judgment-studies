@@ -1,0 +1,50 @@
+{
+  "files": {
+    "run_unconstrained_3opt.py": {
+      "sha256": "1c291424f862974a77800b23fe6fbeb795cbcaffa40f14dc42efe1260a6b5e6e",
+      "bytes": 47257
+    },
+    "unconstrained_stimulus_bank.json": {
+      "sha256": "14de658055ef215469b951324eef7ad233aad5974487bf787072c014e4dc8b5c",
+      "bytes": 2105250
+    },
+    "pre_unconstrained_protection_snapshot.json": {
+      "sha256": "79489732df0b35d5512f331746095c61682510982e2aa002b69a592abb6b23dd",
+      "bytes": 67020
+    },
+    "protection_snapshot_receipt.json": {
+      "sha256": "3e6a9924a495a6b3ca5c22846820f8e61bb34fa5339655c1d43f670868794761",
+      "bytes": 101
+    }
+  },
+  "functions": {
+    "build_joint_prompt": {
+      "text_sha256": "7b41380142210e86fbbf7df694bab993061700c84ed062a844005835dbb01e02",
+      "ast_sha256": "24c02b4d2d738d21d2019c251f5c444d72ff1f1018ffea3a72c8be4a17e8c051"
+    },
+    "build_separate_subprompt": {
+      "text_sha256": "31c160ac798d0828d7932680da36fef47d44ed5f093f2fa55ab11f732e57ae2d",
+      "ast_sha256": "c27b2594819c7fccda0e0c2ea9bf03112f9371b05cbe894992bcb15287bc0c00"
+    },
+    "parse_unconstrained_joint": {
+      "text_sha256": "8852d04ea9ccd9a9b3138306c9c7e53a3eea12d1d01079bbecf257f66ddd44d6",
+      "ast_sha256": "1a18fe04362cb7c616f47421166cc50a873056bd1350cc3da45023406c0f8596"
+    },
+    "parse_separate3": {
+      "text_sha256": "85d8cbb36d095d1e35223a7fa51f25809213f8d3eba8b22fde518f0603215d35",
+      "ast_sha256": "176319f2493f72b9058d3b06b74461303c9cb7801e8c2d0dd511407f348c0695"
+    },
+    "summaries": {
+      "text_sha256": "5fc8cd49d7991c119f1090ee7b76bcee519c56141fa114c8f0a5073fce17ce1d",
+      "ast_sha256": "7ca88d8eb7c20170f7cb9e5bd7e76d6017666b16885b66016b939aab9593fa6e"
+    },
+    "inference": {
+      "text_sha256": "ec6df193dc4d6925c57299bac940bbf7040f2fbd56152f20f69ad10a5b736bb4",
+      "ast_sha256": "8300665303225186f603735eb5a5ce41dd0c5b9809942165a0da06cca2eeb290"
+    }
+  },
+  "bootstrap_B": 10000,
+  "mc_signflip_M": 10000,
+  "seed_template": "unconstrained-3opt-20261109::{test_mode}::{scope}::{hypothesis_id}",
+  "algorithm": "canonical model/item/scenario order; random.Random per mode/scope/hypothesis; bootstrap sorted indices 250/9750; then sign flips; C<=20 exact"
+}

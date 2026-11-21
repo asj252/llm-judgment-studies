@@ -1,0 +1,64 @@
+{
+  "baseline_commit": "178bb854f1b33e5d93842bb4b0fa05d3f5603ed7",
+  "files": {
+    "imperfective-exp4-moore/formal-results/README.md": {
+      "bytes": 229,
+      "path_replacements": [],
+      "published_sha256": "49cc670b04c8756b826d3f82556f6cb601602164bdc4268cecdaeb8e48965a44",
+      "source_relpath": null,
+      "source_sha256": "49cc670b04c8756b826d3f82556f6cb601602164bdc4268cecdaeb8e48965a44",
+      "transform_id": "generated"
+    },
+    "imperfective-exp4-moore/formal-results/e4_formal_analysis.json": {
+      "bytes": 624226,
+      "path_replacements": [],
+      "published_sha256": "749da7ae38a00272c70ec80bf7809ea26a1a116323b0fe46c4a8d1d449a29185",
+      "source_relpath": "connecting-dots/imperfective/paper-handoff-20261108/results/e4_formal_analysis.json",
+      "source_sha256": "749da7ae38a00272c70ec80bf7809ea26a1a116323b0fe46c4a8d1d449a29185",
+      "transform_id": "identity"
+    },
+    "imperfective-exp4-moore/formal-results/e4_formal_fingerprint.json": {
+      "bytes": 4507,
+      "path_replacements": [
+        {
+          "count": 2,
+          "new": "<LOCAL_PATH>/Qwen3-8B-b968826d-Q8_0.gguf",
+          "old_sha256": "60e40d8312cc7a1b11efee19a022bfc598ba492cdcb69882e63c59f0f7d1bebc"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/llama-server",
+          "old_sha256": "4b66b375490c0ba49dba32fc001c2e7f5514793f266ccc633afef0f248f50959"
+        }
+      ],
+      "published_sha256": "632748c1a214714575a3e29309d78c7d070afed6701edbf513a03f654229dd62",
+      "source_relpath": "connecting-dots/imperfective/paper-handoff-20261108/results/e4_formal_fingerprint.json",
+      "source_sha256": "a52a1919719d41e0c362cc51e46a490e2c5996343628490edc49f77528a25af9",
+      "transform_id": "redact_abs_paths_opaque"
+    },
+    "imperfective-exp4-moore/formal-results/e4_formal_sessions.json": {
+      "bytes": 255,
+      "path_replacements": [],
+      "published_sha256": "0174809c2a665cfc346e272d85c2ea6ba9257d7655916654f692a3eba099c264",
+      "source_relpath": "connecting-dots/imperfective/paper-handoff-20261108/results/e4_formal_sessions.json",
+      "source_sha256": "0174809c2a665cfc346e272d85c2ea6ba9257d7655916654f692a3eba099c264",
+      "transform_id": "identity"
+    },
+    "imperfective-exp4-moore/formal-results/e4_formal_statistics.json": {
+      "bytes": 5369,
+      "path_replacements": [],
+      "published_sha256": "c306b59b23dcc4689a744784831a4d08a50a65b4872f9118d063d561ff325db6",
+      "source_relpath": "connecting-dots/imperfective/paper-handoff-20261108/results/e4_formal_statistics.json",
+      "source_sha256": "c306b59b23dcc4689a744784831a4d08a50a65b4872f9118d063d561ff325db6",
+      "transform_id": "identity"
+    },
+    "imperfective-exp4-moore/formal-results/e4_formal_unit_index.json": {
+      "bytes": 2607767,
+      "path_replacements": [],
+      "published_sha256": "20bb370e766966105e795aca067cb210af39c8082f4a07ea4c1cce962b2e1eac",
+      "source_relpath": "connecting-dots/imperfective/paper-handoff-20261108/results/e4_formal_unit_index.json",
+      "source_sha256": "20bb370e766966105e795aca067cb210af39c8082f4a07ea4c1cce962b2e1eac",
+      "transform_id": "identity"
+    }
+  }
+}

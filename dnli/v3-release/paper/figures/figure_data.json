@@ -1,0 +1,567 @@
+{
+  "B": 2000,
+  "seed": 20261490,
+  "fig1": [
+    {
+      "config": "qwen3-off",
+      "pres": "stated",
+      "ask": "direct",
+      "point": 18.59375,
+      "low": 16.46875,
+      "high": 20.64375,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "qwen3-off",
+      "pres": "stated",
+      "ask": "multi",
+      "point": 10.6551114810023,
+      "low": 9.135867516524153,
+      "high": 12.173799512591453,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "qwen3-off",
+      "pres": "reported",
+      "ask": "direct",
+      "point": 16.620833333333334,
+      "low": 14.70625,
+      "high": 18.610416666666666,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "qwen3-off",
+      "pres": "reported",
+      "ask": "multi",
+      "point": 10.85918305621358,
+      "low": 9.210675077962472,
+      "high": 12.500182532050566,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "olmo2",
+      "pres": "stated",
+      "ask": "direct",
+      "point": 20.027083333333334,
+      "low": 17.379166666666666,
+      "high": 22.625,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "olmo2",
+      "pres": "stated",
+      "ask": "multi",
+      "point": 6.319002448750451,
+      "low": 4.966198092282249,
+      "high": 7.748642403238362,
+      "n": 238,
+      "clusters": 238
+    },
+    {
+      "config": "olmo2",
+      "pres": "reported",
+      "ask": "direct",
+      "point": 15.179166666666667,
+      "low": 12.73125,
+      "high": 17.616666666666667,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "olmo2",
+      "pres": "reported",
+      "ask": "multi",
+      "point": 4.643258353364526,
+      "low": 3.4388850580031365,
+      "high": 5.830102925840075,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "codex",
+      "pres": "stated",
+      "ask": "direct",
+      "point": 25.283333333333335,
+      "low": 22.716666666666665,
+      "high": 27.7875,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "codex",
+      "pres": "stated",
+      "ask": "multi",
+      "point": 22.80091666666667,
+      "low": 20.421604166666665,
+      "high": 25.2808125,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "codex",
+      "pres": "reported",
+      "ask": "direct",
+      "point": 19.870833333333334,
+      "low": 17.308333333333334,
+      "high": 22.516666666666666,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "codex",
+      "pres": "reported",
+      "ask": "multi",
+      "point": 18.714145833333337,
+      "low": 16.34747916666667,
+      "high": 21.124979166666666,
+      "n": 120,
+      "clusters": 120
+    }
+  ],
+  "fig2": [
+    {
+      "config": "qwen3-off",
+      "pres": "prior",
+      "utype": "-",
+      "ask": "direct",
+      "point": 0.26666666666666666,
+      "low": 0.20833333333333334,
+      "high": 0.32083333333333336,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "qwen3-off",
+      "pres": "stated",
+      "utype": "S",
+      "ask": "direct",
+      "point": 0.3541666666666667,
+      "low": 0.29583333333333334,
+      "high": 0.4166666666666667,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "qwen3-off",
+      "pres": "stated",
+      "utype": "W",
+      "ask": "direct",
+      "point": 0.29583333333333334,
+      "low": 0.2375,
+      "high": 0.3541666666666667,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "qwen3-off",
+      "pres": "reported",
+      "utype": "S",
+      "ask": "direct",
+      "point": 0.3125,
+      "low": 0.25416666666666665,
+      "high": 0.37083333333333335,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "qwen3-off",
+      "pres": "reported",
+      "utype": "W",
+      "ask": "direct",
+      "point": 0.2625,
+      "low": 0.20416666666666666,
+      "high": 0.32083333333333336,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "qwen3-off",
+      "pres": "prior",
+      "utype": "-",
+      "ask": "multi",
+      "point": 0.05416666666666667,
+      "low": 0.025,
+      "high": 0.08333333333333333,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "qwen3-off",
+      "pres": "stated",
+      "utype": "S",
+      "ask": "multi",
+      "point": 0.025,
+      "low": 0.008333333333333333,
+      "high": 0.04583333333333333,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "qwen3-off",
+      "pres": "stated",
+      "utype": "W",
+      "ask": "multi",
+      "point": 0.0375,
+      "low": 0.016666666666666666,
+      "high": 0.0625,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "qwen3-off",
+      "pres": "reported",
+      "utype": "S",
+      "ask": "multi",
+      "point": 0.0375,
+      "low": 0.016666666666666666,
+      "high": 0.0625,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "qwen3-off",
+      "pres": "reported",
+      "utype": "W",
+      "ask": "multi",
+      "point": 0.05,
+      "low": 0.025,
+      "high": 0.07916666666666666,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "olmo2",
+      "pres": "prior",
+      "utype": "-",
+      "ask": "direct",
+      "point": 0.35,
+      "low": 0.2916666666666667,
+      "high": 0.4083333333333333,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "olmo2",
+      "pres": "stated",
+      "utype": "S",
+      "ask": "direct",
+      "point": 0.44166666666666665,
+      "low": 0.37916666666666665,
+      "high": 0.5041666666666667,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "olmo2",
+      "pres": "stated",
+      "utype": "W",
+      "ask": "direct",
+      "point": 0.5416666666666666,
+      "low": 0.4791666666666667,
+      "high": 0.6041666666666666,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "olmo2",
+      "pres": "reported",
+      "utype": "S",
+      "ask": "direct",
+      "point": 0.35,
+      "low": 0.2916666666666667,
+      "high": 0.4125,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "olmo2",
+      "pres": "reported",
+      "utype": "W",
+      "ask": "direct",
+      "point": 0.4666666666666667,
+      "low": 0.4,
+      "high": 0.5291666666666667,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "olmo2",
+      "pres": "prior",
+      "utype": "-",
+      "ask": "multi",
+      "point": 0.05439330543933055,
+      "low": 0.029288702928870293,
+      "high": 0.08368200836820083,
+      "n": 239,
+      "clusters": 239
+    },
+    {
+      "config": "olmo2",
+      "pres": "stated",
+      "utype": "S",
+      "ask": "multi",
+      "point": 0.037815126050420166,
+      "low": 0.01680672268907563,
+      "high": 0.06302521008403361,
+      "n": 238,
+      "clusters": 238
+    },
+    {
+      "config": "olmo2",
+      "pres": "stated",
+      "utype": "W",
+      "ask": "multi",
+      "point": 0.04583333333333333,
+      "low": 0.020833333333333332,
+      "high": 0.075,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "olmo2",
+      "pres": "reported",
+      "utype": "S",
+      "ask": "multi",
+      "point": 0.03333333333333333,
+      "low": 0.0125,
+      "high": 0.058333333333333334,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "olmo2",
+      "pres": "reported",
+      "utype": "W",
+      "ask": "multi",
+      "point": 0.025,
+      "low": 0.008333333333333333,
+      "high": 0.04583333333333333,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "codex",
+      "pres": "prior",
+      "utype": "-",
+      "ask": "direct",
+      "point": 0.16666666666666666,
+      "low": 0.1,
+      "high": 0.23333333333333334,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "codex",
+      "pres": "stated",
+      "utype": "S",
+      "ask": "direct",
+      "point": 0.31666666666666665,
+      "low": 0.23333333333333334,
+      "high": 0.4,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "codex",
+      "pres": "stated",
+      "utype": "W",
+      "ask": "direct",
+      "point": 0.35833333333333334,
+      "low": 0.275,
+      "high": 0.45,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "codex",
+      "pres": "reported",
+      "utype": "S",
+      "ask": "direct",
+      "point": 0.23333333333333334,
+      "low": 0.15833333333333333,
+      "high": 0.31666666666666665,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "codex",
+      "pres": "reported",
+      "utype": "W",
+      "ask": "direct",
+      "point": 0.25833333333333336,
+      "low": 0.18333333333333332,
+      "high": 0.3333333333333333,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "codex",
+      "pres": "prior",
+      "utype": "-",
+      "ask": "multi",
+      "point": 0.10833333333333334,
+      "low": 0.058333333333333334,
+      "high": 0.16666666666666666,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "codex",
+      "pres": "stated",
+      "utype": "S",
+      "ask": "multi",
+      "point": 0.15,
+      "low": 0.09166666666666666,
+      "high": 0.21666666666666667,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "codex",
+      "pres": "stated",
+      "utype": "W",
+      "ask": "multi",
+      "point": 0.20833333333333334,
+      "low": 0.13333333333333333,
+      "high": 0.2833333333333333,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "codex",
+      "pres": "reported",
+      "utype": "S",
+      "ask": "multi",
+      "point": 0.11666666666666667,
+      "low": 0.06666666666666667,
+      "high": 0.175,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "codex",
+      "pres": "reported",
+      "utype": "W",
+      "ask": "multi",
+      "point": 0.11666666666666667,
+      "low": 0.06666666666666667,
+      "high": 0.175,
+      "n": 120,
+      "clusters": 120
+    }
+  ],
+  "fig3": [
+    {
+      "config": "qwen3-off",
+      "reading": "mean",
+      "point": -7.938638518997701,
+      "low": -9.723056172585585,
+      "high": -6.179468523483954,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "qwen3-off",
+      "reading": "top",
+      "point": -4.577708333333334,
+      "low": -6.386041666666667,
+      "high": -2.7370833333333335,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "qwen3-off",
+      "reading": "median",
+      "point": -6.721041666666666,
+      "low": -8.539583333333333,
+      "high": -4.910416666666666,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "olmo2",
+      "reading": "mean",
+      "point": -13.708308475619297,
+      "low": -16.13851643672758,
+      "high": -11.258539100670333,
+      "n": 238,
+      "clusters": 238
+    },
+    {
+      "config": "olmo2",
+      "reading": "top",
+      "point": -14.53921568627451,
+      "low": -17.040616246498598,
+      "high": -11.901610644257701,
+      "n": 238,
+      "clusters": 238
+    },
+    {
+      "config": "olmo2",
+      "reading": "median",
+      "point": -12.781512605042018,
+      "low": -15.289915966386555,
+      "high": -10.176470588235293,
+      "n": 238,
+      "clusters": 238
+    },
+    {
+      "config": "codex",
+      "reading": "mean",
+      "point": -2.482416666666667,
+      "low": -3.1612916666666666,
+      "high": -1.7784791666666668,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "codex",
+      "reading": "top",
+      "point": -2.0889583333333333,
+      "low": -2.7800000000000002,
+      "high": -1.446875,
+      "n": 120,
+      "clusters": 120
+    },
+    {
+      "config": "codex",
+      "reading": "median",
+      "point": -2.3020833333333335,
+      "low": -2.993333333333333,
+      "high": -1.65,
+      "n": 120,
+      "clusters": 120
+    }
+  ],
+  "h4b": [
+    {
+      "config": "qwen3-off",
+      "point": -7.938638518997701,
+      "low": -9.567485972878243,
+      "high": -6.20523494958881,
+      "n": 240,
+      "clusters": 240
+    },
+    {
+      "config": "olmo2",
+      "point": -13.708308475619297,
+      "low": -16.175859224125443,
+      "high": -11.245315696274645,
+      "n": 238,
+      "clusters": 238
+    },
+    {
+      "config": "codex",
+      "point": -2.482416666666667,
+      "low": -3.1726875000000008,
+      "high": -1.7821458333333335,
+      "n": 120,
+      "clusters": 120
+    }
+  ]
+}

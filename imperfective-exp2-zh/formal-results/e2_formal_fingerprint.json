@@ -1,0 +1,101 @@
+{
+  "fingerprint_id": "f81940ea79504f533d62d796a10812b2dd8e170f9b95a9d6e813d0d4e736b74b",
+  "fingerprint": {
+    "files": {
+      "common.py": "c6a5402078f0ba5142527cc24b7781edf50343b968c07311762d3446ca70d6c3",
+      "provenance.py": "7667832714ccac6a8244b91037eb4bd0d2326a8b385aa6c38a34dfcf316053d1",
+      "validate_materials.py": "a8a9121deac5bcd68ac99f459b2b986aebef60a82c9cf157108f95a7acbffb95",
+      "split_e2.py": "65129cee14beff7b9387950143af8fbd2756913a0a715575dcf4eddbd48121b2",
+      "prompts_zh.py": "fef39c2e1e86f4aa62c3d259324cbc3c938af7229f35ce496348fc6b877621b6",
+      "parse.py": "b44d0c453dc54d03e605dc00e5fa2fa8538c998264f93c028ea397c4e6f5f342",
+      "protocol.py": "398669f4bdc20c15878d16520b5558e2de98d45c5584add05bde9aedb8efc61e",
+      "score.py": "edf2ff6ec532e16dc5a29b59c6d82687c2166efc9e5570fb9d0944590129b930",
+      "run.py": "d6b4386b420aa4ff7d532afba2de28b815e6cb0d2e4195501e1ed7f05ebd729c",
+      "subject.py": "50979add5681415ff732323a82b9cd5a1bb77b6999cf4572cc4403fbd0276061",
+      "host.py": "3d3ee96ab72b6817b0bc700b73ef19f52c11376611bdbdce17a70e5324b81cd5",
+      "admission.py": "3a5dd974ba9ffa852b5e7981a7a2f562c72047505c3aae1be0f46730a7259faf",
+      "ledger.py": "4b2da3e94bb1a6edf4e32943efef226662e3de69ae000302080ee33cc916871a",
+      "gates.py": "74e25281424f222af170efce243c475be18e6d7a2813eb7562855cc058e68ca0",
+      "deadline.py": "1c74b4fb02417719c54e3ce1ddd2341eebaba245f6063628be53e3a0c327e370",
+      "dry_stub.py": "b1f9c31e3d6ff03de9730f7a1ba7179db6e8ee4d59004ca2dec833f1e69dc9a5",
+      "check_tokens.py": "c47270a1069416243fb718fb269abceaf9190989e89b255df14669785d722ddf",
+      "exact_tango_e2.py": "b30a5c566c41d38c59d59813f5accb745b3c01beafa4e1d342b82dc141218603",
+      "core_e2.py": "1c2c38f2edb4e3a5d0d77b95ca65f58ebc50370b7a6818d45e985e9886f670d0",
+      "calibrate_e2.py": "17b54efc8ceded1a279dda19ba740581baa788e6b76d206b0cb450d3d4f77168",
+      "split.json": "6382d84a293107215ab034d565415adc8f0a438d90152f4c2b2e9a8d868c3973"
+    },
+    "model": {
+      "repo": "Qwen/Qwen3-8B",
+      "commit": "b968826d9c46dd6066d109eabc6255188de91218",
+      "thinking_switch": true,
+      "gguf": "Qwen3-8B-b968826d-Q8_0.gguf",
+      "ctx": 16384,
+      "max_new_rule": "fixed"
+    },
+    "host_id": "macmini-m6",
+    "assets": {
+      "port": 18080,
+      "gguf_sha256": "5a337baa986cf2bf23564cf31276593421b1865288a221427703ab45ea0ff47b",
+      "server_sha256": "1bf5602a2be50097c44282a6ecc63234d94ee8f96d39fd45fed6eff4e74b6b41",
+      "tokenizer_sha256": {
+        "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+      },
+      "llama_cpp_version": "version: 0.6.0-dev (build 11560, commit b13a93a3d)",
+      "transformers_version": "5.19.0",
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "service": {
+        "build_info": "b11560-b13a93a3d",
+        "model_path": "<LOCAL_PATH>/Qwen3-8B-b968826d-Q8_0.gguf"
+      },
+      "server_parameters": [
+        "<LOCAL_PATH>/llama-server",
+        "-m",
+        "<LOCAL_PATH>/Qwen3-8B-b968826d-Q8_0.gguf",
+        "--port",
+        "18080",
+        "-c",
+        "16384",
+        "-ngl",
+        "999",
+        "--parallel",
+        "1",
+        "--host",
+        "127.0.0.1",
+        "--no-webui",
+        "--seed",
+        "0"
+      ]
+    },
+    "tokens": "db388dec0a0ecfc93d8bc55e6fa66da460a153bfdd01c1b54f23214b04691259",
+    "host_implementation": "c347b9ab874532443b1c59441a4a9395f11910e7d242c559a1f2a2365158ef79",
+    "materials": "8614502912fe3e7f4120bc4e2d86b9bd8930da8e695118198fe8381506a4b591",
+    "sampling": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "top_p": 1.0,
+      "min_p": 0.0,
+      "samplers": [
+        "temperature",
+        "top_k"
+      ],
+      "repeat_penalty": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0,
+      "dry_multiplier": 0.0,
+      "xtc_probability": 0.0,
+      "typical_p": 1.0,
+      "top_n_sigma": -1.0,
+      "mirostat": 0,
+      "dynatemp_range": 0.0
+    },
+    "max_tokens": 1024,
+    "rules": {
+      "topN": 100,
+      "score_version": 1,
+      "parse_version": 2,
+      "protocol_version": 1
+    },
+    "dry": false
+  }
+}

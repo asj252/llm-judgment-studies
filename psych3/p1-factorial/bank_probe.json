@@ -1,0 +1,179 @@
+[
+  {
+    "name": "candidate_count_1",
+    "prompt_text": "A production population has ceramic microcracks in 4% of units. A diagnostic returns positive for 65% of units with the fault and 10% of units without the fault.\nA randomly selected unit returns positive. What is the probability that this unit has the fault?\n\nEstimate the probability of the target event using five plausible estimates and their relative weights. Use output scale 0 to 100, where 100 denotes certainty. Decimals and repeated values are allowed. Weights must be nonnegative and sum to one. Use the same posterior probability target for every estimate.\nDo not output Initial Point. Every output line must begin with Estimate k:.\nList estimates freely, without an ordering constraint.\nReplace each placeholder with an actual number in the specified range (values 0 to 100, weights 0 to 1). Never output literal letters NN or W. Output this format block exactly once, with no second copy, explanations, headings, Markdown, or reasoning.\nEstimate 1: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 2: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 3: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 4: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 5: <number from 0 to 100>% | Weight: <number from 0 to 1>",
+    "raw_text": "Initial Point: 15%\nEstimate 1: 10% | Weight: 0.2",
+    "expected_parse_ok": false,
+    "expected": {}
+  },
+  {
+    "name": "candidate_count_4",
+    "prompt_text": "A production population has ceramic microcracks in 4% of units. A diagnostic returns positive for 65% of units with the fault and 10% of units without the fault.\nA randomly selected unit returns positive. What is the probability that this unit has the fault?\n\nEstimate the probability of the target event using five plausible estimates and their relative weights. Use output scale 0 to 100, where 100 denotes certainty. Decimals and repeated values are allowed. Weights must be nonnegative and sum to one. Use the same posterior probability target for every estimate.\nDo not output Initial Point. Every output line must begin with Estimate k:.\nList estimates freely, without an ordering constraint.\nReplace each placeholder with an actual number in the specified range (values 0 to 100, weights 0 to 1). Never output literal letters NN or W. Output this format block exactly once, with no second copy, explanations, headings, Markdown, or reasoning.\nEstimate 1: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 2: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 3: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 4: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 5: <number from 0 to 100>% | Weight: <number from 0 to 1>",
+    "raw_text": "Initial Point: 15%\nEstimate 1: 10% | Weight: 0.2\nEstimate 2: 10% | Weight: 0.2\nEstimate 3: 10% | Weight: 0.2\nEstimate 4: 10% | Weight: 0.2",
+    "expected_parse_ok": false,
+    "expected": {}
+  },
+  {
+    "name": "candidate_count_6",
+    "prompt_text": "A production population has ceramic microcracks in 4% of units. A diagnostic returns positive for 65% of units with the fault and 10% of units without the fault.\nA randomly selected unit returns positive. What is the probability that this unit has the fault?\n\nEstimate the probability of the target event using five plausible estimates and their relative weights. Use output scale 0 to 100, where 100 denotes certainty. Decimals and repeated values are allowed. Weights must be nonnegative and sum to one. Use the same posterior probability target for every estimate.\nDo not output Initial Point. Every output line must begin with Estimate k:.\nList estimates freely, without an ordering constraint.\nReplace each placeholder with an actual number in the specified range (values 0 to 100, weights 0 to 1). Never output literal letters NN or W. Output this format block exactly once, with no second copy, explanations, headings, Markdown, or reasoning.\nEstimate 1: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 2: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 3: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 4: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 5: <number from 0 to 100>% | Weight: <number from 0 to 1>",
+    "raw_text": "Initial Point: 15%\nEstimate 1: 10% | Weight: 0.2\nEstimate 2: 10% | Weight: 0.2\nEstimate 3: 10% | Weight: 0.2\nEstimate 4: 10% | Weight: 0.2\nEstimate 5: 10% | Weight: 0.2\nEstimate 6: 10% | Weight: 0.2",
+    "expected_parse_ok": false,
+    "expected": {}
+  },
+  {
+    "name": "five_identical",
+    "prompt_text": "A production population has ceramic microcracks in 4% of units. A diagnostic returns positive for 65% of units with the fault and 10% of units without the fault.\nA randomly selected unit returns positive. What is the probability that this unit has the fault?\n\nEstimate the probability of the target event using five plausible estimates and their relative weights. Use output scale 0 to 100, where 100 denotes certainty. Decimals and repeated values are allowed. Weights must be nonnegative and sum to one. Use the same posterior probability target for every estimate.\nDo not output Initial Point. Every output line must begin with Estimate k:.\nList estimates freely, without an ordering constraint.\nReplace each placeholder with an actual number in the specified range (values 0 to 100, weights 0 to 1). Never output literal letters NN or W. Output this format block exactly once, with no second copy, explanations, headings, Markdown, or reasoning.\nEstimate 1: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 2: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 3: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 4: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 5: <number from 0 to 100>% | Weight: <number from 0 to 1>",
+    "raw_text": "Initial Point: 15%\nEstimate 1: 15% | Weight: 0.2\nEstimate 2: 15% | Weight: 0.2\nEstimate 3: 15% | Weight: 0.2\nEstimate 4: 15% | Weight: 0.2\nEstimate 5: 15% | Weight: 0.2",
+    "expected_parse_ok": true,
+    "expected": {
+      "all_candidates_identical": true,
+      "cand_str_copy_any": true
+    }
+  },
+  {
+    "name": "missing_initial",
+    "prompt_text": "A production population has ceramic microcracks in 4% of units. A diagnostic returns positive for 65% of units with the fault and 10% of units without the fault.\nA randomly selected unit returns positive. What is the probability that this unit has the fault?\n\nEstimate the probability of the target event using five plausible estimates and their relative weights. Use output scale 0 to 100, where 100 denotes certainty. Decimals and repeated values are allowed. Weights must be nonnegative and sum to one. Use the same posterior probability target for every estimate.\nDo not output Initial Point. Every output line must begin with Estimate k:.\nList estimates freely, without an ordering constraint.\nReplace each placeholder with an actual number in the specified range (values 0 to 100, weights 0 to 1). Never output literal letters NN or W. Output this format block exactly once, with no second copy, explanations, headings, Markdown, or reasoning.\nEstimate 1: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 2: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 3: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 4: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 5: <number from 0 to 100>% | Weight: <number from 0 to 1>",
+    "raw_text": "Estimate 1: 15% | Weight: 0.2\nEstimate 2: 15% | Weight: 0.2\nEstimate 3: 15% | Weight: 0.2\nEstimate 4: 15% | Weight: 0.2\nEstimate 5: 15% | Weight: 0.2",
+    "expected_parse_ok": false,
+    "expected": {}
+  },
+  {
+    "name": "nonidentical_zero_weight",
+    "prompt_text": "A production population has ceramic microcracks in 4% of units. A diagnostic returns positive for 65% of units with the fault and 10% of units without the fault.\nA randomly selected unit returns positive. What is the probability that this unit has the fault?\n\nEstimate the probability of the target event using five plausible estimates and their relative weights. Use output scale 0 to 100, where 100 denotes certainty. Decimals and repeated values are allowed. Weights must be nonnegative and sum to one. Use the same posterior probability target for every estimate.\nDo not output Initial Point. Every output line must begin with Estimate k:.\nList estimates freely, without an ordering constraint.\nReplace each placeholder with an actual number in the specified range (values 0 to 100, weights 0 to 1). Never output literal letters NN or W. Output this format block exactly once, with no second copy, explanations, headings, Markdown, or reasoning.\nEstimate 1: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 2: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 3: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 4: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 5: <number from 0 to 100>% | Weight: <number from 0 to 1>",
+    "raw_text": "Initial Point: 15%\nEstimate 1: 10% | Weight: 1\nEstimate 2: 20% | Weight: 0\nEstimate 3: 30% | Weight: 0\nEstimate 4: 40% | Weight: 0\nEstimate 5: 50% | Weight: 0",
+    "expected_parse_ok": true,
+    "expected": {
+      "all_candidates_identical": false
+    }
+  },
+  {
+    "name": "ascending_violation",
+    "prompt_text": "A production population has ceramic microcracks in 4% of units. A diagnostic returns positive for 65% of units with the fault and 10% of units without the fault.\nA randomly selected unit returns positive. What is the probability that this unit has the fault?\n\nEstimate the probability of the target event using five plausible estimates and their relative weights. Use output scale 0 to 100, where 100 denotes certainty. Decimals and repeated values are allowed. Weights must be nonnegative and sum to one. Use the same posterior probability target for every estimate.\nDo not output Initial Point. Every output line must begin with Estimate k:.\nList estimates freely, without an ordering constraint.\nReplace each placeholder with an actual number in the specified range (values 0 to 100, weights 0 to 1). Never output literal letters NN or W. Output this format block exactly once, with no second copy, explanations, headings, Markdown, or reasoning.\nEstimate 1: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 2: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 3: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 4: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 5: <number from 0 to 100>% | Weight: <number from 0 to 1>",
+    "raw_text": "Initial Point: 15%\nEstimate 1: 50% | Weight: 0.2\nEstimate 2: 40% | Weight: 0.2\nEstimate 3: 30% | Weight: 0.2\nEstimate 4: 20% | Weight: 0.2\nEstimate 5: 10% | Weight: 0.2",
+    "expected_parse_ok": true,
+    "expected": {
+      "ascending_violation": true
+    }
+  },
+  {
+    "name": "out_of_range",
+    "prompt_text": "A production population has ceramic microcracks in 4% of units. A diagnostic returns positive for 65% of units with the fault and 10% of units without the fault.\nA randomly selected unit returns positive. What is the probability that this unit has the fault?\n\nEstimate the probability of the target event using five plausible estimates and their relative weights. Use output scale 0 to 100, where 100 denotes certainty. Decimals and repeated values are allowed. Weights must be nonnegative and sum to one. Use the same posterior probability target for every estimate.\nDo not output Initial Point. Every output line must begin with Estimate k:.\nList estimates freely, without an ordering constraint.\nReplace each placeholder with an actual number in the specified range (values 0 to 100, weights 0 to 1). Never output literal letters NN or W. Output this format block exactly once, with no second copy, explanations, headings, Markdown, or reasoning.\nEstimate 1: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 2: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 3: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 4: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 5: <number from 0 to 100>% | Weight: <number from 0 to 1>",
+    "raw_text": "Initial Point: 15%\nEstimate 1: 101% | Weight: 0.2\nEstimate 2: 101% | Weight: 0.2\nEstimate 3: 101% | Weight: 0.2\nEstimate 4: 101% | Weight: 0.2\nEstimate 5: 101% | Weight: 0.2",
+    "expected_parse_ok": false,
+    "expected": {}
+  },
+  {
+    "name": "numerical_not_string",
+    "prompt_text": "A production population has ceramic microcracks in 4% of units. A diagnostic returns positive for 65% of units with the fault and 10% of units without the fault.\nA randomly selected unit returns positive. What is the probability that this unit has the fault?\n\nEstimate the probability of the target event using five plausible estimates and their relative weights. Use output scale 0 to 100, where 100 denotes certainty. Decimals and repeated values are allowed. Weights must be nonnegative and sum to one. Use the same posterior probability target for every estimate.\nDo not output Initial Point. Every output line must begin with Estimate k:.\nList estimates freely, without an ordering constraint.\nReplace each placeholder with an actual number in the specified range (values 0 to 100, weights 0 to 1). Never output literal letters NN or W. Output this format block exactly once, with no second copy, explanations, headings, Markdown, or reasoning.\nEstimate 1: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 2: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 3: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 4: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 5: <number from 0 to 100>% | Weight: <number from 0 to 1>",
+    "raw_text": "Initial Point: 15.00%\nEstimate 1: 15.0% | Weight: 0.2\nEstimate 2: 15.0% | Weight: 0.2\nEstimate 3: 15.0% | Weight: 0.2\nEstimate 4: 15.0% | Weight: 0.2\nEstimate 5: 15.0% | Weight: 0.2",
+    "expected_parse_ok": true,
+    "expected": {
+      "cand_D5a_any": true,
+      "cand_str_copy_any": false
+    }
+  },
+  {
+    "name": "explanation_only",
+    "prompt_text": "A production population has ceramic microcracks in 4% of units. A diagnostic returns positive for 65% of units with the fault and 10% of units without the fault.\nA randomly selected unit returns positive. What is the probability that this unit has the fault?\n\nEstimate the probability of the target event using five plausible estimates and their relative weights. Use output scale 0 to 100, where 100 denotes certainty. Decimals and repeated values are allowed. Weights must be nonnegative and sum to one. Use the same posterior probability target for every estimate.\nDo not output Initial Point. Every output line must begin with Estimate k:.\nList estimates freely, without an ordering constraint.\nReplace each placeholder with an actual number in the specified range (values 0 to 100, weights 0 to 1). Never output literal letters NN or W. Output this format block exactly once, with no second copy, explanations, headings, Markdown, or reasoning.\nEstimate 1: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 2: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 3: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 4: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 5: <number from 0 to 100>% | Weight: <number from 0 to 1>",
+    "raw_text": "The cue is 15.\nInitial Point: 10%\nEstimate 1: 10% | Weight: 0.2\nEstimate 2: 10% | Weight: 0.2\nEstimate 3: 10% | Weight: 0.2\nEstimate 4: 10% | Weight: 0.2\nEstimate 5: 10% | Weight: 0.2",
+    "expected_parse_ok": true,
+    "expected": {
+      "cand_str_copy_any": false
+    }
+  },
+  {
+    "name": "weight_and_index_only",
+    "prompt_text": "A production population has ceramic microcracks in 4% of units. A diagnostic returns positive for 65% of units with the fault and 10% of units without the fault.\nA randomly selected unit returns positive. What is the probability that this unit has the fault?\n\nEstimate the probability of the target event using five plausible estimates and their relative weights. Use output scale 0 to 100, where 100 denotes certainty. Decimals and repeated values are allowed. Weights must be nonnegative and sum to one. Use the same posterior probability target for every estimate.\nDo not output Initial Point. Every output line must begin with Estimate k:.\nList estimates freely, without an ordering constraint.\nReplace each placeholder with an actual number in the specified range (values 0 to 100, weights 0 to 1). Never output literal letters NN or W. Output this format block exactly once, with no second copy, explanations, headings, Markdown, or reasoning.\nEstimate 1: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 2: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 3: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 4: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 5: <number from 0 to 100>% | Weight: <number from 0 to 1>",
+    "raw_text": "Initial Point: 10%\nEstimate 1: 10% | Weight: 15\nEstimate 2: 10% | Weight: 0\nEstimate 3: 10% | Weight: 0\nEstimate 4: 10% | Weight: 0\nEstimate 5: 10% | Weight: 0",
+    "expected_parse_ok": true,
+    "expected": {
+      "cand_str_copy_any": false
+    }
+  },
+  {
+    "name": "mean_only",
+    "prompt_text": "A production population has ceramic microcracks in 4% of units. A diagnostic returns positive for 65% of units with the fault and 10% of units without the fault.\nA randomly selected unit returns positive. What is the probability that this unit has the fault?\n\nEstimate the probability of the target event using five plausible estimates and their relative weights. Use output scale 0 to 100, where 100 denotes certainty. Decimals and repeated values are allowed. Weights must be nonnegative and sum to one. Use the same posterior probability target for every estimate.\nDo not output Initial Point. Every output line must begin with Estimate k:.\nList estimates freely, without an ordering constraint.\nReplace each placeholder with an actual number in the specified range (values 0 to 100, weights 0 to 1). Never output literal letters NN or W. Output this format block exactly once, with no second copy, explanations, headings, Markdown, or reasoning.\nEstimate 1: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 2: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 3: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 4: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 5: <number from 0 to 100>% | Weight: <number from 0 to 1>",
+    "raw_text": "Initial Point: 5%\nEstimate 1: 5% | Weight: 0.2\nEstimate 2: 10% | Weight: 0.2\nEstimate 3: 12% | Weight: 0.2\nEstimate 4: 18% | Weight: 0.2\nEstimate 5: 25% | Weight: 0.2",
+    "expected_parse_ok": true,
+    "expected": {
+      "cand_D5a_any": false,
+      "cand_str_copy_any": false,
+      "Echo_D2": true
+    }
+  },
+  {
+    "name": "M100_D5b_switch",
+    "prompt_text": "A production population has ceramic microcracks in 4% of units. A diagnostic returns positive for 65% of units with the fault and 10% of units without the fault.\nA randomly selected unit returns positive. What is the probability that this unit has the fault?\n\nEstimate the probability of the target event using five plausible estimates and their relative weights. Use output scale 0 to 100, where 100 denotes certainty. Decimals and repeated values are allowed. Weights must be nonnegative and sum to one. Use the same posterior probability target for every estimate.\nDo not output Initial Point. Every output line must begin with Estimate k:.\nList estimates freely, without an ordering constraint.\nReplace each placeholder with an actual number in the specified range (values 0 to 100, weights 0 to 1). Never output literal letters NN or W. Output this format block exactly once, with no second copy, explanations, headings, Markdown, or reasoning.\nEstimate 1: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 2: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 3: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 4: <number from 0 to 100>% | Weight: <number from 0 to 1>\nEstimate 5: <number from 0 to 100>% | Weight: <number from 0 to 1>",
+    "raw_text": "Initial Point: 15%\nEstimate 1: 15% | Weight: 0.2\nEstimate 2: 15% | Weight: 0.2\nEstimate 3: 15% | Weight: 0.2\nEstimate 4: 15% | Weight: 0.2\nEstimate 5: 15% | Weight: 0.2",
+    "expected_parse_ok": true,
+    "expected": {}
+  },
+  {
+    "name": "Framing_R2_failure",
+    "prompt_text": "",
+    "pos": [
+      100,
+      null
+    ],
+    "neg": [
+      0,
+      100
+    ],
+    "expected_bounds": [
+      0,
+      50
+    ]
+  },
+  {
+    "name": "DiD_all_missing",
+    "prompt_text": "",
+    "coefficients": [
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "lower": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "upper": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "expected_bounds": [
+      -200,
+      200
+    ]
+  },
+  {
+    "name": "stop_mapping",
+    "prompt_text": "",
+    "raw": [
+      "length",
+      "MAX_TOKENS",
+      "max_tokens",
+      "MODEL_LENGTH"
+    ],
+    "expected": "length_truncated"
+  },
+  {
+    "name": "PP_polarity_and_model",
+    "prompt_text": "",
+    "rule": "Both polarities need nonempty shared repeats across every cell; pooled PP intersects all four models"
+  },
+  {
+    "name": "binary_missing",
+    "prompt_text": "",
+    "ITT_fail_as_1": 100,
+    "fail_as_0": 0,
+    "bounds": [
+      0,
+      100
+    ]
+  }
+]

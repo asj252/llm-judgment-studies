@@ -1,0 +1,75 @@
+{
+  "formal": {
+    "config": "mistral:mistral-large-4",
+    "blocks": "A",
+    "frozen_at": "2026-11-05T06:05:22.765079+00:00",
+    "fingerprint_id": "b4a1289bb79d69535044ae86fa8d29a0ca551654db84b41e172b1364f64b2045",
+    "fingerprint": {
+      "split.json": "3e09db9ac6e10375bf17e6254fbb6ad5992798f2a03a1ba93c4f896b5eeaf39b",
+      "items_text.json": "54e08df0874587377a259925f49ad8796de6ac4d05c0729fbfa7ae0cf479f67c",
+      "prompts.py": "cfa1f9399f2d6ce61dc7cf312108a2a5f3f18981cfbdba6b881d4d374134f902",
+      "parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+      "templates": "8d107ab0e3142f91e0ec816b16a64f9f3f6e8e07eeb1e4000fef372dcff3ee66",
+      "parse_rules": "2d8f229712ee56416548c8f6cf1c04e6cfd6b463fe0e0776134aefc438af23ed",
+      "sampling": {
+        "temperature": 0.6,
+        "top_k": 20,
+        "top_p": 0.95,
+        "max_output_tokens": 2048
+      },
+      "config": "mistral:mistral-large-4",
+      "spec": {
+        "provider": "mistral",
+        "model": "mistral-large-4",
+        "rpm": 10,
+        "max_output_tokens": 2048,
+        "env_key": "MISTRAL_API_KEY",
+        "description": "Mistral Large 4 flagship via Mistral Official API"
+      },
+      "blocks": "A",
+      "materials_digest": "ccd5097602b06e09293f6790136647db80fdcb765592f377b04b2758984c2a72",
+      "n_units_all": 2900,
+      "configs.py": "b82f825a0794982d174184036c0133a793f714d18061a5a811f275e425bde140",
+      "api_subject.py": "705c5503627c8ce8cf6950a31c4b1a62ac64112e70010d9074e5f3693b07c78c",
+      "run_api.py": "136798237d87a412cd601a2a8c9b91b09e2ad64927049daff341955d8fcb2845"
+    },
+    "schedule_sha256": "9e39277999e1bd186e2aa32740f9231aca072e7067d89f8037d3988499c4b88d",
+    "n_planned_units": 1400
+  },
+  "dev": {
+    "config": "mistral:mistral-large-4",
+    "blocks": "A",
+    "frozen_at": "2026-11-05T06:05:22.765079+00:00",
+    "fingerprint_id": "b4a1289bb79d69535044ae86fa8d29a0ca551654db84b41e172b1364f64b2045",
+    "fingerprint": {
+      "split.json": "3e09db9ac6e10375bf17e6254fbb6ad5992798f2a03a1ba93c4f896b5eeaf39b",
+      "items_text.json": "54e08df0874587377a259925f49ad8796de6ac4d05c0729fbfa7ae0cf479f67c",
+      "prompts.py": "cfa1f9399f2d6ce61dc7cf312108a2a5f3f18981cfbdba6b881d4d374134f902",
+      "parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+      "templates": "8d107ab0e3142f91e0ec816b16a64f9f3f6e8e07eeb1e4000fef372dcff3ee66",
+      "parse_rules": "2d8f229712ee56416548c8f6cf1c04e6cfd6b463fe0e0776134aefc438af23ed",
+      "sampling": {
+        "temperature": 0.6,
+        "top_k": 20,
+        "top_p": 0.95,
+        "max_output_tokens": 2048
+      },
+      "config": "mistral:mistral-large-4",
+      "spec": {
+        "provider": "mistral",
+        "model": "mistral-large-4",
+        "rpm": 10,
+        "max_output_tokens": 2048,
+        "env_key": "MISTRAL_API_KEY",
+        "description": "Mistral Large 4 flagship via Mistral Official API"
+      },
+      "blocks": "A",
+      "materials_digest": "ccd5097602b06e09293f6790136647db80fdcb765592f377b04b2758984c2a72",
+      "n_units_all": 2900,
+      "configs.py": "b82f825a0794982d174184036c0133a793f714d18061a5a811f275e425bde140",
+      "api_subject.py": "705c5503627c8ce8cf6950a31c4b1a62ac64112e70010d9074e5f3693b07c78c",
+      "run_api.py": "136798237d87a412cd601a2a8c9b91b09e2ad64927049daff341955d8fcb2845"
+    },
+    "n_planned_units": 300
+  }
+}

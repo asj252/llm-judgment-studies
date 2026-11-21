@@ -1,0 +1,118 @@
+{
+  "sf:xing4.0-29b": {
+    "config": "sf:xing4.0-29b",
+    "which": "dev",
+    "n_planned_units": 300,
+    "n_valid_units": 300,
+    "confirmatory": {
+      "H1": {
+        "n": 30,
+        "point": 21.3,
+        "ci95": [
+          15.733333333333333,
+          26.7
+        ],
+        "p": 0.0,
+        "holm_alpha": 0.0125,
+        "bound": 14.883333333333333,
+        "rejected": true,
+        "label": "预测方向（陈述下往标签方向移动）：区间下界超过阈值"
+      },
+      "H4a": {
+        "n": 30,
+        "point": 0.39166666666666666,
+        "ci95": [
+          0.275,
+          0.5
+        ],
+        "p": 0.0,
+        "holm_alpha": 0.016666666666666666,
+        "bound": 0.26666666666666666,
+        "rejected": true,
+        "label": "预测方向（多估计的聚合端点率较低）：区间下界超过阈值"
+      },
+      "H4b": {
+        "n": 30,
+        "point": -10.561758503401359,
+        "ci95": [
+          -16.502166666666664,
+          -3.8104251700680254
+        ],
+        "p": 0.002,
+        "holm_alpha": 0.025,
+        "bound": -2.625425170068025,
+        "rejected": true,
+        "label": "多估计 < 直接：点估计达到阈值（区间下界未超过）"
+      },
+      "H2": {
+        "n": 30,
+        "point": 2.6666666666666665,
+        "ci95": [
+          -5.283333333333333,
+          10.416666666666666
+        ],
+        "p": 0.239,
+        "holm_alpha": 0.05,
+        "bound": null,
+        "rejected": false,
+        "label": "Not rejected"
+      }
+    },
+    "table3": {
+      "S_stated": 11.566666666666666,
+      "W_stated": -31.033333333333335,
+      "S_reported": 6.4,
+      "W_reported": -30.866666666666667
+    },
+    "table4": {
+      "candidate_weighted_sd_stated": 15.142887371062619,
+      "mean": {
+        "point": -10.561758503401359,
+        "ci95": [
+          -16.36670068027211,
+          -4.217925170068025
+        ],
+        "n": 30
+      },
+      "unweighted": {
+        "point": -11.723,
+        "ci95": [
+          -18.096,
+          -5.253
+        ],
+        "n": 30
+      },
+      "top": {
+        "point": -9.130555555555556,
+        "ci95": [
+          -15.083333333333334,
+          -2.4249999999999994
+        ],
+        "n": 30
+      },
+      "median": {
+        "point": -10.333333333333334,
+        "ci95": [
+          -16.6,
+          -3.216666666666667
+        ],
+        "n": 30
+      }
+    },
+    "table8": {
+      "prior_sd": 17.256014065875867,
+      "stated_minus_prior": -2.1131266948132454,
+      "stated_minus_prior_pct": -12.24574045168402,
+      "reported_minus_stated": 1.320506188191511,
+      "reported_minus_stated_pct": 8.720306476788169
+    },
+    "entropy": {
+      "proposition_h2_direct_bits": 0.4706006254310077,
+      "proposition_h2_multi_bits": 0.7827126757774274,
+      "proposition_h2_diff_bits": 0.3121120503464197,
+      "weight_entropy_hw_prior_bits": 2.0578917772778818,
+      "weight_entropy_hw_stated_bits": 1.9824452255267464,
+      "weight_entropy_hw_reported_bits": 2.0216775844213593
+    }
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "baseline_commit": "178bb854f1b33e5d93842bb4b0fa05d3f5603ed7",
+  "files": {
+    "psych3/paper-v4/README.md": {
+      "bytes": 172,
+      "path_replacements": [],
+      "published_sha256": "990f19a5901b2a9d2632c12c4fd83ab0a5601b49ef5696e1409d4a6fc2eca34b",
+      "source_relpath": null,
+      "source_sha256": "990f19a5901b2a9d2632c12c4fd83ab0a5601b49ef5696e1409d4a6fc2eca34b",
+      "transform_id": "generated"
+    },
+    "psych3/paper-v4/figures/fig4_stage2c_crossover.pdf": {
+      "bytes": 22327,
+      "path_replacements": [],
+      "published_sha256": "caf2965729bf25e49113f27bf9827315208f02bb5366874d2207e5a7f9b0e384",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/figures/fig4_stage2c_crossover.pdf",
+      "source_sha256": "caf2965729bf25e49113f27bf9827315208f02bb5366874d2207e5a7f9b0e384",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/figures/fig4_stage2c_crossover.svg": {
+      "bytes": 12063,
+      "path_replacements": [],
+      "published_sha256": "fb9792df4261eba0379ed920ab53d9fe0c5e3081d3862f79fa4dbac23052e806",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/figures/fig4_stage2c_crossover.svg",
+      "source_sha256": "fb9792df4261eba0379ed920ab53d9fe0c5e3081d3862f79fa4dbac23052e806",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/figures/story/fig_5tasks_mcv_comparison.pdf": {
+      "bytes": 37232,
+      "path_replacements": [],
+      "published_sha256": "dbdc2b383c8078a7acb762e25798cd8bae697102f8f18fc4d6af246f81968aed",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/figures/story/fig_5tasks_mcv_comparison.pdf",
+      "source_sha256": "dbdc2b383c8078a7acb762e25798cd8bae697102f8f18fc4d6af246f81968aed",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/figures/story/fig_5tasks_mcv_comparison.png": {
+      "bytes": 793278,
+      "path_replacements": [],
+      "published_sha256": "cb0244543ab3faf0a60d5f17d1bad6691cffe0f924a57e490ea8bee6a4ce78a2",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/figures/story/fig_5tasks_mcv_comparison.png",
+      "source_sha256": "cb0244543ab3faf0a60d5f17d1bad6691cffe0f924a57e490ea8bee6a4ce78a2",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/figures/story/fig_act3_3mechanisms.pdf": {
+      "bytes": 31894,
+      "path_replacements": [],
+      "published_sha256": "a9d33351da251daef79762b569c7ad52aa42009929390b30f2d1c3ffdd4b15c8",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/figures/story/fig_act3_3mechanisms.pdf",
+      "source_sha256": "a9d33351da251daef79762b569c7ad52aa42009929390b30f2d1c3ffdd4b15c8",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/figures/story/fig_act3_3mechanisms.png": {
+      "bytes": 337051,
+      "path_replacements": [],
+      "published_sha256": "4694918704e65b45625ebc38539686f54848c3b4712c3aa5164457b37989a294",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/figures/story/fig_act3_3mechanisms.png",
+      "source_sha256": "4694918704e65b45625ebc38539686f54848c3b4712c3aa5164457b37989a294",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/figures/story/fig_act3_bar1_ordering.png": {
+      "bytes": 232274,
+      "path_replacements": [],
+      "published_sha256": "c38318817673bd372ea8b1394d3956a7b3266785f97639812eb7ae2f7e743e89",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/figures/story/fig_act3_bar1_ordering.png",
+      "source_sha256": "c38318817673bd372ea8b1394d3956a7b3266785f97639812eb7ae2f7e743e89",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/figures/story/fig_act3_bar2_repeat.png": {
+      "bytes": 229292,
+      "path_replacements": [],
+      "published_sha256": "da50b917d47b8197c1d0ec76bb4a634461be9ab7c8d5ae22974ca0d875548aec",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/figures/story/fig_act3_bar2_repeat.png",
+      "source_sha256": "da50b917d47b8197c1d0ec76bb4a634461be9ab7c8d5ae22974ca0d875548aec",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/figures/story/fig_act3_bar3_primescale.png": {
+      "bytes": 207158,
+      "path_replacements": [],
+      "published_sha256": "24e9ac14fa28dda385a681a8ea3e83e6f05bc6e6c374c491d5ca9fe8a1e1b973",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/figures/story/fig_act3_bar3_primescale.png",
+      "source_sha256": "24e9ac14fa28dda385a681a8ea3e83e6f05bc6e6c374c491d5ca9fe8a1e1b973",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/figures/story/fig_taskA_anchoring.png": {
+      "bytes": 401984,
+      "path_replacements": [],
+      "published_sha256": "d95362e0c329be9ceffbccc21621d887c430739356eb48d355428aedf77b98c5",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/figures/story/fig_taskA_anchoring.png",
+      "source_sha256": "d95362e0c329be9ceffbccc21621d887c430739356eb48d355428aedf77b98c5",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/figures/story/fig_taskB_hindsight.png": {
+      "bytes": 442876,
+      "path_replacements": [],
+      "published_sha256": "34106787b16d50296673872a8dbbf804c3c942ab766579eca080003649aef83a",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/figures/story/fig_taskB_hindsight.png",
+      "source_sha256": "34106787b16d50296673872a8dbbf804c3c942ab766579eca080003649aef83a",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/figures/story/fig_taskC_bayesian.png": {
+      "bytes": 506479,
+      "path_replacements": [],
+      "published_sha256": "1560e8dbd9a734c19658497fba44da3cbd797a2d3bf3b19ffe980c26e91cbfcf",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/figures/story/fig_taskC_bayesian.png",
+      "source_sha256": "1560e8dbd9a734c19658497fba44da3cbd797a2d3bf3b19ffe980c26e91cbfcf",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/figures/story/fig_taskD_conjunction.png": {
+      "bytes": 357149,
+      "path_replacements": [],
+      "published_sha256": "b7df693ea415fa344958e1da2795ff18aa46845b1f66b4975707d189e08543c9",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/figures/story/fig_taskD_conjunction.png",
+      "source_sha256": "b7df693ea415fa344958e1da2795ff18aa46845b1f66b4975707d189e08543c9",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/figures/story/fig_taskE_framing.png": {
+      "bytes": 498796,
+      "path_replacements": [],
+      "published_sha256": "9f09bd7c1df6747969e59bd2a348fc19878811acda526e17e8642f857e4a639d",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/figures/story/fig_taskE_framing.png",
+      "source_sha256": "9f09bd7c1df6747969e59bd2a348fc19878811acda526e17e8642f857e4a639d",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/figures/story/story_figures_ledger.json": {
+      "bytes": 828790,
+      "path_replacements": [],
+      "published_sha256": "3633b0bba815bf2f5dd77f7d569c755f912b2c9f1f50b25d129b977871f8f255",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/figures/story/story_figures_ledger.json",
+      "source_sha256": "3633b0bba815bf2f5dd77f7d569c755f912b2c9f1f50b25d129b977871f8f255",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/source-text/appendices.md": {
+      "bytes": 478826,
+      "path_replacements": [],
+      "published_sha256": "4530c15713ceceab64bdedc2fd0c7095644470a94a8eee4899d67923a1cb18e3",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/source-text/appendices.md",
+      "source_sha256": "4530c15713ceceab64bdedc2fd0c7095644470a94a8eee4899d67923a1cb18e3",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/source-text/manuscript.md": {
+      "bytes": 76184,
+      "path_replacements": [],
+      "published_sha256": "134df54ae40904cdb8f12f9dd3f3239b4ff054b12b2b0435a45186e6e420c5ec",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/source-text/manuscript.md",
+      "source_sha256": "134df54ae40904cdb8f12f9dd3f3239b4ff054b12b2b0435a45186e6e420c5ec",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/source-text/manuscript_zh.md": {
+      "bytes": 29603,
+      "path_replacements": [],
+      "published_sha256": "3c0f67fd61c9375de14d772d3a4e58caa202d642145f93a8226a1a5c56466f65",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/source-text/manuscript_zh.md",
+      "source_sha256": "3c0f67fd61c9375de14d772d3a4e58caa202d642145f93a8226a1a5c56466f65",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/source-text/references.bib": {
+      "bytes": 31052,
+      "path_replacements": [],
+      "published_sha256": "8b9e544a3108a16228e7085fc24c97c70121e4829ef7d0c282d1e4dd029488fe",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/source-text/references.bib",
+      "source_sha256": "8b9e544a3108a16228e7085fc24c97c70121e4829ef7d0c282d1e4dd029488fe",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/source-text/typeset/figures/fig1_confirmatory.png": {
+      "bytes": 391897,
+      "path_replacements": [],
+      "published_sha256": "9dccbe9c6b059eab02d04870aac010c17a3e05c44df28720f4848e85b8adde48",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/source-text/typeset/figures/fig1_confirmatory.png",
+      "source_sha256": "9dccbe9c6b059eab02d04870aac010c17a3e05c44df28720f4848e85b8adde48",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/source-text/typeset/figures/fig2_status_quo_default_advice.png": {
+      "bytes": 328031,
+      "path_replacements": [],
+      "published_sha256": "40a5c5181fcc64819d27a499a4dd8606051a7ec3fceb803547a869538db5ac6d",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/source-text/typeset/figures/fig2_status_quo_default_advice.png",
+      "source_sha256": "40a5c5181fcc64819d27a499a4dd8606051a7ec3fceb803547a869538db5ac6d",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/source-text/typeset/figures/fig3_format_differences.png": {
+      "bytes": 466754,
+      "path_replacements": [],
+      "published_sha256": "916127207665d9d9094e88044db7f950dc5fe4190e3f9835168b5e3e8711ed90",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/source-text/typeset/figures/fig3_format_differences.png",
+      "source_sha256": "916127207665d9d9094e88044db7f950dc5fe4190e3f9835168b5e3e8711ed90",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/SUBMISSION_SUMMARY_ASCII.txt": {
+      "bytes": 4465,
+      "path_replacements": [],
+      "published_sha256": "b77815e29b3a2a355fc497391dc9130434290defe3d53a1cad3200d37a2815db",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/SUBMISSION_SUMMARY_ASCII.txt",
+      "source_sha256": "b77815e29b3a2a355fc497391dc9130434290defe3d53a1cad3200d37a2815db",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/abstract.txt": {
+      "bytes": 1372,
+      "path_replacements": [],
+      "published_sha256": "9576b6fd740502c6b8dfdb569390890f34fbc45c78d7a506aa2383ca95369a26",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/abstract.txt",
+      "source_sha256": "9576b6fd740502c6b8dfdb569390890f34fbc45c78d7a506aa2383ca95369a26",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/arxiv-v4-source.tar.gz": {
+      "bytes": 1155313,
+      "path_replacements": [],
+      "published_sha256": "92a5b235798aa086b83e1e396f83b16a8921efad61fc4f7ee3e492f670dbeaa4",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/arxiv-v4-source.tar.gz",
+      "source_sha256": "92a5b235798aa086b83e1e396f83b16a8921efad61fc4f7ee3e492f670dbeaa4",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/build_typeset.py": {
+      "bytes": 18500,
+      "path_replacements": [],
+      "published_sha256": "add25c1151d5c3f76dea7f6b993ece87d0e45c5ac14aef06597d0baeb651b282",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/build_typeset.py",
+      "source_sha256": "add25c1151d5c3f76dea7f6b993ece87d0e45c5ac14aef06597d0baeb651b282",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/comments.txt": {
+      "bytes": 176,
+      "path_replacements": [],
+      "published_sha256": "998fa5ba1bbc5435e2bc1baaf497fe72f028acc78f24bd39b200af6fe0c3faa3",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/comments.txt",
+      "source_sha256": "998fa5ba1bbc5435e2bc1baaf497fe72f028acc78f24bd39b200af6fe0c3faa3",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/figures/fig1_confirmatory.png": {
+      "bytes": 391897,
+      "path_replacements": [],
+      "published_sha256": "9dccbe9c6b059eab02d04870aac010c17a3e05c44df28720f4848e85b8adde48",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/figures/fig1_confirmatory.png",
+      "source_sha256": "9dccbe9c6b059eab02d04870aac010c17a3e05c44df28720f4848e85b8adde48",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/figures/fig2_status_quo_default_advice.png": {
+      "bytes": 328031,
+      "path_replacements": [],
+      "published_sha256": "40a5c5181fcc64819d27a499a4dd8606051a7ec3fceb803547a869538db5ac6d",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/figures/fig2_status_quo_default_advice.png",
+      "source_sha256": "40a5c5181fcc64819d27a499a4dd8606051a7ec3fceb803547a869538db5ac6d",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/figures/fig3_format_differences.png": {
+      "bytes": 466754,
+      "path_replacements": [],
+      "published_sha256": "916127207665d9d9094e88044db7f950dc5fe4190e3f9835168b5e3e8711ed90",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/figures/fig3_format_differences.png",
+      "source_sha256": "916127207665d9d9094e88044db7f950dc5fe4190e3f9835168b5e3e8711ed90",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/figures/fig4_stage2c_crossover.pdf": {
+      "bytes": 22327,
+      "path_replacements": [],
+      "published_sha256": "caf2965729bf25e49113f27bf9827315208f02bb5366874d2207e5a7f9b0e384",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/figures/fig4_stage2c_crossover.pdf",
+      "source_sha256": "caf2965729bf25e49113f27bf9827315208f02bb5366874d2207e5a7f9b0e384",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/figures/fig_5tasks_mcv_comparison.pdf": {
+      "bytes": 37232,
+      "path_replacements": [],
+      "published_sha256": "dbdc2b383c8078a7acb762e25798cd8bae697102f8f18fc4d6af246f81968aed",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/figures/fig_5tasks_mcv_comparison.pdf",
+      "source_sha256": "dbdc2b383c8078a7acb762e25798cd8bae697102f8f18fc4d6af246f81968aed",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/figures/fig_act3_3mechanisms.pdf": {
+      "bytes": 31894,
+      "path_replacements": [],
+      "published_sha256": "a9d33351da251daef79762b569c7ad52aa42009929390b30f2d1c3ffdd4b15c8",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/figures/fig_act3_3mechanisms.pdf",
+      "source_sha256": "a9d33351da251daef79762b569c7ad52aa42009929390b30f2d1c3ffdd4b15c8",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/manifest_typeset.json": {
+      "bytes": 2304,
+      "path_replacements": [],
+      "published_sha256": "10eef92c97ed90bee8e845ece9f9b5e72e1ccc65eb9291004a2bf6f13008bbf4",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/manifest_typeset.json",
+      "source_sha256": "10eef92c97ed90bee8e845ece9f9b5e72e1ccc65eb9291004a2bf6f13008bbf4",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/metadata.json": {
+      "bytes": 2978,
+      "path_replacements": [],
+      "published_sha256": "3ebe4a25e1832ea7c300527f0d4e27fb24c7d7a0882fc033e2983e8f614560ab",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/metadata.json",
+      "source_sha256": "3ebe4a25e1832ea7c300527f0d4e27fb24c7d7a0882fc033e2983e8f614560ab",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/paper.bbl": {
+      "bytes": 27398,
+      "path_replacements": [],
+      "published_sha256": "4200f59d2724b67f4044b646275f0b010bf9d314ab57ec59015d21d3303bd54d",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/paper.bbl",
+      "source_sha256": "4200f59d2724b67f4044b646275f0b010bf9d314ab57ec59015d21d3303bd54d",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/paper.pdf": {
+      "bytes": 1891280,
+      "path_replacements": [],
+      "published_sha256": "de5d7cb99cffe791cc45e585aabc2264bd56d6f8f4d0f8323d9572d792d5fdd3",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/paper.pdf",
+      "source_sha256": "de5d7cb99cffe791cc45e585aabc2264bd56d6f8f4d0f8323d9572d792d5fdd3",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/paper.tex": {
+      "bytes": 1254813,
+      "path_replacements": [],
+      "published_sha256": "2993926063dea44c6714266732dc34eafdf1fc322cd4da292fb932b311ba3909",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/paper.tex",
+      "source_sha256": "2993926063dea44c6714266732dc34eafdf1fc322cd4da292fb932b311ba3909",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/references.bib": {
+      "bytes": 31052,
+      "path_replacements": [],
+      "published_sha256": "8b9e544a3108a16228e7085fc24c97c70121e4829ef7d0c282d1e4dd029488fe",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/references.bib",
+      "source_sha256": "8b9e544a3108a16228e7085fc24c97c70121e4829ef7d0c282d1e4dd029488fe",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/typeset/title.txt": {
+      "bytes": 78,
+      "path_replacements": [],
+      "published_sha256": "2121720a38e534ab05c00f5582e57604037e5d9ced5abe5bd9d08e8b0dd69254",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/typeset/title.txt",
+      "source_sha256": "2121720a38e534ab05c00f5582e57604037e5d9ced5abe5bd9d08e8b0dd69254",
+      "transform_id": "identity"
+    },
+    "psych3/paper-v4/verification_receipt.json": {
+      "bytes": 7581,
+      "path_replacements": [],
+      "published_sha256": "577af50e9eb54aba3f3b3299ecffd5f38d3fa82044ca0597a9b865b88bfaa886",
+      "source_relpath": "connecting-dots/psych3/arxiv-v4-story-p1p2-20261110/verification_receipt.json",
+      "source_sha256": "577af50e9eb54aba3f3b3299ecffd5f38d3fa82044ca0597a9b865b88bfaa886",
+      "transform_id": "identity"
+    }
+  }
+}

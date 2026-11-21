@@ -1,0 +1,297 @@
+{
+  "baseline_commit": "178bb854f1b33e5d93842bb4b0fa05d3f5603ed7",
+  "files": {
+    "imperfective/p167-api/README.md": {
+      "bytes": 519,
+      "path_replacements": [],
+      "published_sha256": "80f1e2380f2aac4e95389ff6b92adad11d9b2ba15e73f2392968e9915062f87d",
+      "source_relpath": null,
+      "source_sha256": "80f1e2380f2aac4e95389ff6b92adad11d9b2ba15e73f2392968e9915062f87d",
+      "transform_id": "generated"
+    },
+    "imperfective/p167-api/addendum_openai_p167.py": {
+      "bytes": 25919,
+      "path_replacements": [
+        {
+          "count": 1,
+          "new": "import sys\nimport os\n",
+          "old_sha256": "c517577851c489e45abae2591256c40404a05c6d19cd4d5ae7fd22b0084cec6c"
+        },
+        {
+          "count": 1,
+          "new": "Path(os.environ.get(\"P167_RESULTS_DIR\", \"<LOCAL_PATH>/imperfective_p167_results\"))",
+          "old_sha256": "b798ac50475b78023b6cea4210579472ced842405188cdcd92e191ba545698dd"
+        },
+        {
+          "count": 1,
+          "new": "def ensure_upstream_files():\n    return verify_upstream()",
+          "old_sha256": "e62232a418648835d1b3e586d7b87e11c704063c2945a0ced54363dede19d228"
+        }
+      ],
+      "published_sha256": "4768a38836855da8cc76b01d026af572dc4b3290b2c460ba374f4660df5d3cbd",
+      "source_relpath": "connecting-dots/imperfective/p167-api/addendum_openai_p167.py",
+      "source_sha256": "190108ad280e767074fc291c42a305cee2034e7f14f33fca0a0dabc15c208b1b",
+      "transform_id": "p167_adapter_and_addendum_public"
+    },
+    "imperfective/p167-api/analysis_freeze_p167.json": {
+      "bytes": 4685,
+      "path_replacements": [],
+      "published_sha256": "4dcc71812bb3a4c893b4fe5433e65ad450f0fbbb4f438e0b7faba43d6ae34422",
+      "source_relpath": "connecting-dots/imperfective/p167-api/analysis_freeze_p167.json",
+      "source_sha256": "4dcc71812bb3a4c893b4fe5433e65ad450f0fbbb4f438e0b7faba43d6ae34422",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/analysis_freeze_p167_openai_addendum.json": {
+      "bytes": 9289,
+      "path_replacements": [],
+      "published_sha256": "1256658e137257d21073c1a2e5d208c8d2ae3a2c4fcf49dd7cd339db281254c4",
+      "source_relpath": "connecting-dots/imperfective/p167-api/analysis_freeze_p167_openai_addendum.json",
+      "source_sha256": "1256658e137257d21073c1a2e5d208c8d2ae3a2c4fcf49dd7cd339db281254c4",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/analyze_p167.py": {
+      "bytes": 9881,
+      "path_replacements": [],
+      "published_sha256": "e51e305bc548eeed216b23817ba8c4baf2c50636121d6df8f23e5d1c418cdd5e",
+      "source_relpath": "connecting-dots/imperfective/p167-api/analyze_p167.py",
+      "source_sha256": "e51e305bc548eeed216b23817ba8c4baf2c50636121d6df8f23e5d1c418cdd5e",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/analyze_p167_addendum.py": {
+      "bytes": 9880,
+      "path_replacements": [],
+      "published_sha256": "b6e7a7c2813aa3ea2d2406885edb6d39a835c3356d2893c990b8cec5ddfbc80a",
+      "source_relpath": "connecting-dots/imperfective/p167-api/analyze_p167_addendum.py",
+      "source_sha256": "b6e7a7c2813aa3ea2d2406885edb6d39a835c3356d2893c990b8cec5ddfbc80a",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/api_adapter_p167.py": {
+      "bytes": 7875,
+      "path_replacements": [
+        {
+          "count": 1,
+          "new": "Path(os.environ.get(\"P167_KEYS_ENV_FILE\", \"\"))",
+          "old_sha256": "c85da31cc3ba464faf7e2746ebf7e350da6a2ee9b645340553a77ec057ea098a"
+        },
+        {
+          "count": 1,
+          "new": "if os.environ.get(\"P167_KEYS_ENV_FILE\") and KEYS_FILE.is_file():",
+          "old_sha256": "d17e6f4e43340b0938b7ea34e48b867ca1acdf042b0b416ec4bedc6aa2035478"
+        }
+      ],
+      "published_sha256": "fbc5bd5a7c6f2cf8e950e2eca414a64c2096aa788772c278cb86ae334a2c6123",
+      "source_relpath": "connecting-dots/imperfective/p167-api/api_adapter_p167.py",
+      "source_sha256": "0c9c7201cfe72bc77b06e2c27f60dc59b4d91b93f36f734cedeba9b24bdd607c",
+      "transform_id": "p167_adapter_and_addendum_public"
+    },
+    "imperfective/p167-api/configs_p167.py": {
+      "bytes": 1738,
+      "path_replacements": [],
+      "published_sha256": "7e5a8fc37e06ba3ecbc2cd128ad0e3cf437d7052279491985863461106417ad3",
+      "source_relpath": "connecting-dots/imperfective/p167-api/configs_p167.py",
+      "source_sha256": "7e5a8fc37e06ba3ecbc2cd128ad0e3cf437d7052279491985863461106417ad3",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/freeze_p167.py": {
+      "bytes": 1971,
+      "path_replacements": [],
+      "published_sha256": "33cb04d7fe903eb1fd29a858505320c2e7cb9fe7e0a721ec672921732144c9f9",
+      "source_relpath": "connecting-dots/imperfective/p167-api/freeze_p167.py",
+      "source_sha256": "33cb04d7fe903eb1fd29a858505320c2e7cb9fe7e0a721ec672921732144c9f9",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/freeze_p167_addendum.py": {
+      "bytes": 3166,
+      "path_replacements": [],
+      "published_sha256": "9fbea1f9aa43915f1d0ad3f8b49e9aaf00db0b2ef9b25467ad83ff15e1553acd",
+      "source_relpath": "connecting-dots/imperfective/p167-api/freeze_p167_addendum.py",
+      "source_sha256": "9fbea1f9aa43915f1d0ad3f8b49e9aaf00db0b2ef9b25467ad83ff15e1553acd",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/run_p167_slice.py": {
+      "bytes": 7535,
+      "path_replacements": [],
+      "published_sha256": "fe1313daec4cbe204b6dc0ee4d0116c057394994e8047778e09b9429c94c3c54",
+      "source_relpath": "connecting-dots/imperfective/p167-api/run_p167_slice.py",
+      "source_sha256": "fe1313daec4cbe204b6dc0ee4d0116c057394994e8047778e09b9429c94c3c54",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/stimuli_p167.py": {
+      "bytes": 5727,
+      "path_replacements": [
+        {
+          "count": 1,
+          "new": "def resolve_upstream(relpath):\n    path = ROOT / relpath\n    if path.exists():\n        return path\n    folder = str(relpath).split(\"/\", 1)[0]\n    if folder in (\"exp2-zh\", \"exp3-en\", \"exp4-moore\"):\n        return ROOT.parent / (\"imperfective-\" + folder) / relpath\n    return path\n\n\ndef verify_upstream():",
+          "old_sha256": "ecdebed41162bdfa3cf3a955630023c511a51652f42681d5d56b9fa116fbc78d"
+        },
+        {
+          "count": 1,
+          "new": "sha256(resolve_upstream(path))",
+          "old_sha256": "571c3d37d289ad4356fd8a7e19ba9bf2481f7255966760baf94d5a9001f5e41a"
+        },
+        {
+          "count": 1,
+          "new": "resolve_upstream(path).read_text",
+          "old_sha256": "0d65b47564a59134f1bf12a82e81357901aaeae94da744799c5c882e97cea280"
+        },
+        {
+          "count": 1,
+          "new": "resolve_upstream(\"exp3-en/\" + n + \".py\")",
+          "old_sha256": "eb0974502c5ffb4bcc68186d9852834afc45fb525ea22be1c2ffb9eea1e045ed"
+        },
+        {
+          "count": 1,
+          "new": "resolve_upstream(\"exp1-en/common.py\")",
+          "old_sha256": "3701140fb52414e6e15f8ef2cdc14cb6cbd76ac850dbdd7690b1ab67f492fde3"
+        },
+        {
+          "count": 1,
+          "new": "_load(name, resolve_upstream(path))",
+          "old_sha256": "f766398907e62ccadbf4b778f35dab985382ca288e9f44d95279a7da314d5247"
+        },
+        {
+          "count": 1,
+          "new": "resolve_upstream(f\"{folder}/exact_tango_{e}.py\")",
+          "old_sha256": "6c8a4c2a0438a9c83a410168f8b20d31a7e1069964639814799ee3fca9aaab9c"
+        },
+        {
+          "count": 1,
+          "new": "resolve_upstream(f\"{folder}/core_{e}.py\")",
+          "old_sha256": "3799d34d5bf0d3528f972930e45570427a8c53eabfa7f9843e3906c2ec86b523"
+        }
+      ],
+      "published_sha256": "7d40b3014d25a8c04167f1b0561b3e77b3437e37cf741f8053b959d4730766cf",
+      "source_relpath": "connecting-dots/imperfective/p167-api/stimuli_p167.py",
+      "source_sha256": "3c68ddde74db03ee2407d1fcf55eb88a854f17adc95c6a5f11038614e680781f",
+      "transform_id": "p167_stimuli_public_resolver"
+    },
+    "imperfective/p167-api/summary_offline_verification.json": {
+      "bytes": 867,
+      "path_replacements": [],
+      "published_sha256": "1e67aa815ccbfcc68ad313d674ed99ae78f7944364cbbe6d365c71f4e746cbc7",
+      "source_relpath": "connecting-dots/imperfective/p167-api/summary_offline_verification.json",
+      "source_sha256": "1e67aa815ccbfcc68ad313d674ed99ae78f7944364cbbe6d365c71f4e746cbc7",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/summary_p167_addendum_slice_e2_groq_gpt-oss-120b.json": {
+      "bytes": 549215,
+      "path_replacements": [],
+      "published_sha256": "34332b7652c303619960143c20fe7923051c889f20272dab48a3d7c013337fc9",
+      "source_relpath": "connecting-dots/imperfective/p167-api/summary_p167_addendum_slice_e2_groq_gpt-oss-120b.json",
+      "source_sha256": "34332b7652c303619960143c20fe7923051c889f20272dab48a3d7c013337fc9",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/summary_p167_all_aistudio_gemma-4-31b-it.json": {
+      "bytes": 1744620,
+      "path_replacements": [],
+      "published_sha256": "6b547ed52bc31bba7201d551a6f46eb615e16f620c8ffa6cfb29a1dffdc17781",
+      "source_relpath": "connecting-dots/imperfective/p167-api/summary_p167_all_aistudio_gemma-4-31b-it.json",
+      "source_sha256": "6b547ed52bc31bba7201d551a6f46eb615e16f620c8ffa6cfb29a1dffdc17781",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/summary_p167_all_nv_nemotron-3.5-bolt-e4b.json": {
+      "bytes": 1769978,
+      "path_replacements": [],
+      "published_sha256": "62bed735e27173f8a9966664b037721564ff3d75caf6339bd3ca7cecb3ea5cea",
+      "source_relpath": "connecting-dots/imperfective/p167-api/summary_p167_all_nv_nemotron-3.5-bolt-e4b.json",
+      "source_sha256": "62bed735e27173f8a9966664b037721564ff3d75caf6339bd3ca7cecb3ea5cea",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/summary_p167_all_nv_nemotron-3.5-lightning-30b.json": {
+      "bytes": 1768971,
+      "path_replacements": [],
+      "published_sha256": "04a428d6e4c6c96ebdb36da359d3895fa93271f4718c952fc6e2daf8884d9520",
+      "source_relpath": "connecting-dots/imperfective/p167-api/summary_p167_all_nv_nemotron-3.5-lightning-30b.json",
+      "source_sha256": "04a428d6e4c6c96ebdb36da359d3895fa93271f4718c952fc6e2daf8884d9520",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/summary_p167_all_openai_gpt-4o-mini.json": {
+      "bytes": 1767853,
+      "path_replacements": [],
+      "published_sha256": "b6367db3343f2f52f77cb41f4da978b3dc43d28ee9ed606f6667d3a898a9bdfd",
+      "source_relpath": "connecting-dots/imperfective/p167-api/summary_p167_all_openai_gpt-4o-mini.json",
+      "source_sha256": "b6367db3343f2f52f77cb41f4da978b3dc43d28ee9ed606f6667d3a898a9bdfd",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/summary_p167_slice_e1_e3_groq_gpt-oss-120b.json": {
+      "bytes": 478041,
+      "path_replacements": [],
+      "published_sha256": "6deaa79b272f3fbbe894501a62cf5f00985829e6454bd2c9e5d59a215091eb64",
+      "source_relpath": "connecting-dots/imperfective/p167-api/summary_p167_slice_e1_e3_groq_gpt-oss-120b.json",
+      "source_sha256": "6deaa79b272f3fbbe894501a62cf5f00985829e6454bd2c9e5d59a215091eb64",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/summary_p167_slice_e1_e3_nv_nemotron-3.5-bolt-e4b.json": {
+      "bytes": 491312,
+      "path_replacements": [],
+      "published_sha256": "3fb3edd2f29e1da9038d4c8c14b3994f3be9685c8b24c82a52048c29199c9a03",
+      "source_relpath": "connecting-dots/imperfective/p167-api/summary_p167_slice_e1_e3_nv_nemotron-3.5-bolt-e4b.json",
+      "source_sha256": "3fb3edd2f29e1da9038d4c8c14b3994f3be9685c8b24c82a52048c29199c9a03",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/summary_p167_slice_e1_e3_nv_nemotron-3.5-lightning-30b.json": {
+      "bytes": 486451,
+      "path_replacements": [],
+      "published_sha256": "0eeb3eb843818d1e71b283bb275e9691b214b4327e3c79a901102320996736fe",
+      "source_relpath": "connecting-dots/imperfective/p167-api/summary_p167_slice_e1_e3_nv_nemotron-3.5-lightning-30b.json",
+      "source_sha256": "0eeb3eb843818d1e71b283bb275e9691b214b4327e3c79a901102320996736fe",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/summary_p167_slice_e2_cf_qwen3.8-27b.json": {
+      "bytes": 542222,
+      "path_replacements": [],
+      "published_sha256": "c54803a8ce23114dff9c418adde22822e1b4ab6822972c193768f5080924abb6",
+      "source_relpath": "connecting-dots/imperfective/p167-api/summary_p167_slice_e2_cf_qwen3.8-27b.json",
+      "source_sha256": "c54803a8ce23114dff9c418adde22822e1b4ab6822972c193768f5080924abb6",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/summary_p167_slice_e2_groq_gpt-oss-120b.json": {
+      "bytes": 537045,
+      "path_replacements": [],
+      "published_sha256": "621666483d4b676640e2a610bd71b56d00407ae88981e89f033e499ee68ed0a8",
+      "source_relpath": "connecting-dots/imperfective/p167-api/summary_p167_slice_e2_groq_gpt-oss-120b.json",
+      "source_sha256": "621666483d4b676640e2a610bd71b56d00407ae88981e89f033e499ee68ed0a8",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/summary_p167_slice_e2_nv_nemotron-3.5-bolt-e4b.json": {
+      "bytes": 545925,
+      "path_replacements": [],
+      "published_sha256": "a8e1df50bb3ff5080308e2c556ecbd906552b48f778bd25b18b766289ef4848f",
+      "source_relpath": "connecting-dots/imperfective/p167-api/summary_p167_slice_e2_nv_nemotron-3.5-bolt-e4b.json",
+      "source_sha256": "a8e1df50bb3ff5080308e2c556ecbd906552b48f778bd25b18b766289ef4848f",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/summary_p167_slice_e2_nv_nemotron-3.5-lightning-30b.json": {
+      "bytes": 539666,
+      "path_replacements": [],
+      "published_sha256": "a8fba41dde8de609c18ec735f2a8f9e841f65b96ac630a9e66fb063c5a1c40e4",
+      "source_relpath": "connecting-dots/imperfective/p167-api/summary_p167_slice_e2_nv_nemotron-3.5-lightning-30b.json",
+      "source_sha256": "a8fba41dde8de609c18ec735f2a8f9e841f65b96ac630a9e66fb063c5a1c40e4",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/summary_probe12_addendum.json": {
+      "bytes": 3816,
+      "path_replacements": [],
+      "published_sha256": "5e753d9e7c1efe27d639b9cfc2df3e7f845100c14ba972b615532cf4ff9f430f",
+      "source_relpath": "connecting-dots/imperfective/p167-api/summary_probe12_addendum.json",
+      "source_sha256": "5e753d9e7c1efe27d639b9cfc2df3e7f845100c14ba972b615532cf4ff9f430f",
+      "transform_id": "identity"
+    },
+    "imperfective/p167-api/test_p167_public_offline.py": {
+      "bytes": 5285,
+      "path_replacements": [],
+      "published_sha256": "caa27b7f3bc2f504eba873b3adb4aa4407fdd687e01190c49c5d786f3be653a6",
+      "source_relpath": null,
+      "source_sha256": "caa27b7f3bc2f504eba873b3adb4aa4407fdd687e01190c49c5d786f3be653a6",
+      "transform_id": "generated"
+    },
+    "imperfective/p167-api/upstream_hashes.json": {
+      "bytes": 3079,
+      "path_replacements": [],
+      "published_sha256": "e18fdfc2e3c65d792c152237ad2444921d0a35e6af1fee67d1b788fd2f67b6e4",
+      "source_relpath": "connecting-dots/imperfective/p167-api/upstream_hashes.json",
+      "source_sha256": "e18fdfc2e3c65d792c152237ad2444921d0a35e6af1fee67d1b788fd2f67b6e4",
+      "transform_id": "identity"
+    }
+  }
+}

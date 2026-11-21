@@ -1,0 +1,75 @@
+{
+  "formal": {
+    "config": "sf:glm-z1-9b",
+    "blocks": "A",
+    "frozen_at": "2026-11-05T04:09:18.977528+00:00",
+    "fingerprint_id": "80b2ab3d5c352be49d63e4478cfa15b843593fff285bd9733f2f9b10a9d83949",
+    "fingerprint": {
+      "split.json": "3e09db9ac6e10375bf17e6254fbb6ad5992798f2a03a1ba93c4f896b5eeaf39b",
+      "items_text.json": "54e08df0874587377a259925f49ad8796de6ac4d05c0729fbfa7ae0cf479f67c",
+      "prompts.py": "cfa1f9399f2d6ce61dc7cf312108a2a5f3f18981cfbdba6b881d4d374134f902",
+      "parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+      "templates": "8d107ab0e3142f91e0ec816b16a64f9f3f6e8e07eeb1e4000fef372dcff3ee66",
+      "parse_rules": "2d8f229712ee56416548c8f6cf1c04e6cfd6b463fe0e0776134aefc438af23ed",
+      "sampling": {
+        "temperature": 0.6,
+        "top_k": 20,
+        "top_p": 0.95,
+        "max_output_tokens": 2048
+      },
+      "config": "sf:glm-z1-9b",
+      "spec": {
+        "provider": "siliconflow",
+        "model": "THUDM/GLM-Z1-9B-0414",
+        "rpm": 25,
+        "max_output_tokens": 8192,
+        "env_key": "SILICONFLOW_API_KEY",
+        "description": "THUDM GLM-Z1 9B (0414) Reasoning via SiliconFlow Free Tier (same-family reasoning counterpart to sf:glm-4-9b)"
+      },
+      "blocks": "A",
+      "materials_digest": "ccd5097602b06e09293f6790136647db80fdcb765592f377b04b2758984c2a72",
+      "n_units_all": 2900,
+      "configs.py": "28e5889a82d7b781814deb0f4a6079e315540c33ee5eb9fcad67071040598c89",
+      "api_subject.py": "58936d59320b5bd031f16b82111869ccfac9de0c1085c67e0d00216c4a9fb30a",
+      "run_api.py": "136798237d87a412cd601a2a8c9b91b09e2ad64927049daff341955d8fcb2845"
+    },
+    "schedule_sha256": "fbd764e60ec3d7ad4bf887b4498898c413f39f2b002201fe360bea1e20276aa9",
+    "n_planned_units": 1400
+  },
+  "dev": {
+    "config": "sf:glm-z1-9b",
+    "blocks": "A",
+    "frozen_at": "2026-11-05T04:09:18.977528+00:00",
+    "fingerprint_id": "80b2ab3d5c352be49d63e4478cfa15b843593fff285bd9733f2f9b10a9d83949",
+    "fingerprint": {
+      "split.json": "3e09db9ac6e10375bf17e6254fbb6ad5992798f2a03a1ba93c4f896b5eeaf39b",
+      "items_text.json": "54e08df0874587377a259925f49ad8796de6ac4d05c0729fbfa7ae0cf479f67c",
+      "prompts.py": "cfa1f9399f2d6ce61dc7cf312108a2a5f3f18981cfbdba6b881d4d374134f902",
+      "parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+      "templates": "8d107ab0e3142f91e0ec816b16a64f9f3f6e8e07eeb1e4000fef372dcff3ee66",
+      "parse_rules": "2d8f229712ee56416548c8f6cf1c04e6cfd6b463fe0e0776134aefc438af23ed",
+      "sampling": {
+        "temperature": 0.6,
+        "top_k": 20,
+        "top_p": 0.95,
+        "max_output_tokens": 2048
+      },
+      "config": "sf:glm-z1-9b",
+      "spec": {
+        "provider": "siliconflow",
+        "model": "THUDM/GLM-Z1-9B-0414",
+        "rpm": 25,
+        "max_output_tokens": 8192,
+        "env_key": "SILICONFLOW_API_KEY",
+        "description": "THUDM GLM-Z1 9B (0414) Reasoning via SiliconFlow Free Tier (same-family reasoning counterpart to sf:glm-4-9b)"
+      },
+      "blocks": "A",
+      "materials_digest": "ccd5097602b06e09293f6790136647db80fdcb765592f377b04b2758984c2a72",
+      "n_units_all": 2900,
+      "configs.py": "28e5889a82d7b781814deb0f4a6079e315540c33ee5eb9fcad67071040598c89",
+      "api_subject.py": "58936d59320b5bd031f16b82111869ccfac9de0c1085c67e0d00216c4a9fb30a",
+      "run_api.py": "136798237d87a412cd601a2a8c9b91b09e2ad64927049daff341955d8fcb2845"
+    },
+    "n_planned_units": 300
+  }
+}

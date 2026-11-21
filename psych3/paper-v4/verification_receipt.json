@@ -1,0 +1,121 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "check1_frozen_baselines",
+      "passed": true,
+      "detail": "63 sources; 28 v2/v3 files; 220 tracked ARR files unchanged (one exact optional cache entry checked when present); ARR 8-check receipt valid"
+    },
+    {
+      "name": "check2_v2_v3_prefix_and_sections",
+      "passed": true,
+      "detail": "74,067-byte A–H prefix; unique A–I; Sections 3–5.1 identical; 70 citekeys and exact three bibliography cleanups; 41 Appendix I fingerprints bound"
+    },
+    {
+      "name": "check3_p1_json_reconciliation",
+      "passed": true,
+      "detail": "28 P1 effects, simultaneous CIs and Holm p bound in all 3 documents; 120 pooled/model effects in Appendix I; accounting reconciled"
+    },
+    {
+      "name": "check4_p2_json_reconciliation",
+      "passed": true,
+      "detail": "24 P2 arm/readout/contrast rows bound in all 3 documents; marginal and simultaneous CIs distinguished; 45 Stage 2C rows x 4 numeric cells x 3 documents bound to source JSON"
+    },
+    {
+      "name": "check5_stage0_and_hedges",
+      "passed": true,
+      "detail": "Bilingual Stage-0 elements, spectrum, ledger, local hypothesis markers and package wording checks passed; 24 bilingual prose paragraphs bound to source JSON"
+    },
+    {
+      "name": "check6_links_assets_and_fig4",
+      "passed": true,
+      "detail": "34 local links valid; 21 copied assets identical; SVG minimum font-size 12"
+    },
+    {
+      "name": "check7_typeset_and_arxiv_bundle",
+      "passed": true,
+      "detail": "Complete TeX grammar exact (preamble, gaps, wrappers, title/author, cross-references); 40 tables cell-for-cell; 8 code blocks line-for-line; all headings and paragraphs reconciled; 131 pages; 70 independently regenerated bibitems; all 8 AutoTeX inputs source-bound; 41 SHA declarations; isolated 8-member AutoTeX PDF identical; PDF I.2-I.10 anchors valid; complete ASCII metadata/summary and DAG valid"
+    }
+  ],
+  "selftests": [
+    "ARR paper.tex byte tamper: REJECTED (PASS)",
+    "numbers hidden in HTML comments: REJECTED (PASS)",
+    "visible table value tamper: REJECTED (PASS)",
+    "hypothesis only in Introduction: REJECTED (PASS)",
+    "forbidden wording injection: REJECTED (PASS)",
+    "Solid Claim prose +2.75 to +99.75; Table 5 unchanged: REJECTED (PASS)",
+    "codex D2 +2.46 misattributed to Sonnet: REJECTED (PASS)",
+    "Chinese Section 4.5 codex D2 misattributed to Sonnet: REJECTED (PASS)",
+    "Chinese Solid Claim prose tamper: REJECTED (PASS)",
+    "Stage 2C Table 3 cell tamper in source-text/manuscript.md: REJECTED (PASS)",
+    "Stage 2C Table 3 cell tamper in source-text/manuscript_zh.md: REJECTED (PASS)",
+    "Stage 2C Table 3 cell tamper in source-text/appendices.md: REJECTED (PASS)",
+    "Appendix I freeze digest tamper: factorial-pf-asc-20261110: REJECTED (PASS)",
+    "Appendix I freeze digest tamper: p2-supplemental-20261110: REJECTED (PASS)",
+    "bibliography non-approved line tamper: REJECTED (PASS)",
+    "bibliography provenance tamper in source-text/manuscript.md: the 70-entry bibliography is copied verbatim from v3: REJECTED (PASS)",
+    "bibliography provenance tamper in source-text/manuscript.md: references.bib is byte-identical to v3: REJECTED (PASS)",
+    "bibliography provenance tamper in source-text/manuscript.md: 70條書目保留上游原始字節: REJECTED (PASS)",
+    "bibliography provenance tamper in source-text/manuscript.md: references.bib保留上游原始字節: REJECTED (PASS)",
+    "bibliography provenance tamper in source-text/manuscript_zh.md: the 70-entry bibliography is copied verbatim from v3: REJECTED (PASS)",
+    "bibliography provenance tamper in source-text/manuscript_zh.md: references.bib is byte-identical to v3: REJECTED (PASS)",
+    "bibliography provenance tamper in source-text/manuscript_zh.md: 70條書目保留上游原始字節: REJECTED (PASS)",
+    "bibliography provenance tamper in source-text/manuscript_zh.md: references.bib保留上游原始字節: REJECTED (PASS)",
+    "bibliography provenance tamper in source-text/appendices.md: the 70-entry bibliography is copied verbatim from v3: REJECTED (PASS)",
+    "bibliography provenance tamper in source-text/appendices.md: references.bib is byte-identical to v3: REJECTED (PASS)",
+    "bibliography provenance tamper in source-text/appendices.md: 70條書目保留上游原始字節: REJECTED (PASS)",
+    "bibliography provenance tamper in source-text/appendices.md: references.bib保留上游原始字節: REJECTED (PASS)",
+    "bibliography provenance tamper in README.md: the 70-entry bibliography is copied verbatim from v3: REJECTED (PASS)",
+    "bibliography provenance tamper in README.md: references.bib is byte-identical to v3: REJECTED (PASS)",
+    "bibliography provenance tamper in README.md: 70條書目保留上游原始字節: REJECTED (PASS)",
+    "bibliography provenance tamper in README.md: references.bib保留上游原始字節: REJECTED (PASS)",
+    "P2-A Bayesian elicitation marginal CI lower bound independent source tamper: REJECTED (PASS)",
+    "P2-B C3-C2 Acc_argmax estimate independent source tamper: REJECTED (PASS)",
+    "ARR wrong optional pyc: REJECTED (PASS)",
+    "ARR missing paper.tex: REJECTED (PASS)",
+    "ARR unexpected other pyc: REJECTED (PASS)",
+    "Independent lt5 source multi_repeat: REJECTED (PASS)",
+    "Independent lt5 source 1p5_asc_repeat: REJECTED (PASS)",
+    "Independent freq13 CI upper source: REJECTED (PASS)",
+    "I.8 numeric row deleted: REJECTED (PASS)",
+    "Single table cell altered: REJECTED (PASS)",
+    "I.11 second code excerpt deleted: REJECTED (PASS)",
+    "I.3 unique paragraph truncated: REJECTED (PASS)",
+    "I.2 repeated Section 5.2 heading: REJECTED (PASS)",
+    "I.2 repeated Table 3 definition: REJECTED (PASS)",
+    "Figure 6 hypothesis boundary removed: REJECTED (PASS)",
+    "Private repository injected: REJECTED (PASS)",
+    "Same-page PDF tamper with all checksums refreshed: REJECTED (PASS)",
+    "abstract same-length number: REJECTED (PASS)",
+    "summary non-ASCII: REJECTED (PASS)",
+    "summary public v2 claim: REJECTED (PASS)",
+    "Archive extra member paper.pdf: REJECTED (PASS)",
+    "Archive extra member ../escape: REJECTED (PASS)",
+    "Full grammar author: REJECTED (PASS)",
+    "Full grammar affiliation: REJECTED (PASS)",
+    "Full grammar I.3 cross-reference suffix: REJECTED (PASS)",
+    "Full grammar preamble: REJECTED (PASS)",
+    "Full grammar table wrapper: REJECTED (PASS)",
+    "Full grammar heading prefix: REJECTED (PASS)",
+    "Full grammar heading suffix: REJECTED (PASS)",
+    "Full grammar unregistered gap comment: REJECTED (PASS)",
+    "End-to-end A:950 cross-reference suffix removed with refreshed archive and manifests: REJECTED (PASS)",
+    "End-to-end I.8 hidden with rebuilt PDF archive pages and all manifests: REJECTED (PASS)",
+    "Hidden I.8 PDF data anchors: REJECTED (PASS)",
+    "End-to-end real same-page numeric PDF +2.75 to +9.99 with refreshed manifests: REJECTED (PASS)",
+    "End-to-end BBL visible Language to Langwage: REJECTED (PASS)",
+    "End-to-end BBL macro skips I.8 table 28 with relocated anchors: REJECTED (PASS)",
+    "End-to-end frozen Figure 1 PNG replacement: REJECTED (PASS)",
+    "metadata author: REJECTED (PASS)",
+    "summary extra text: REJECTED (PASS)"
+  ],
+  "documents": [
+    "source-text/manuscript.md",
+    "source-text/manuscript_zh.md",
+    "source-text/appendices.md"
+  ],
+  "sources": [
+    "factorial-pf-asc-20261110/summary_p1_formal.json",
+    "p2-supplemental-20261110/summary_p2_formal.json"
+  ]
+}

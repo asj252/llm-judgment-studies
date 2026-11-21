@@ -1,0 +1,64 @@
+{
+  "baseline_commit": "178bb854f1b33e5d93842bb4b0fa05d3f5603ed7",
+  "files": {
+    "imperfective-exp3-en/formal-results/README.md": {
+      "bytes": 226,
+      "path_replacements": [],
+      "published_sha256": "0f8f30daf8eeb5d74ea8fede5699ef6bcddca86e7cdd7fe92aa4a705d507e4df",
+      "source_relpath": null,
+      "source_sha256": "0f8f30daf8eeb5d74ea8fede5699ef6bcddca86e7cdd7fe92aa4a705d507e4df",
+      "transform_id": "generated"
+    },
+    "imperfective-exp3-en/formal-results/e3_formal_analysis.json": {
+      "bytes": 478390,
+      "path_replacements": [],
+      "published_sha256": "d0013fba9a33680bae772707e88fb29b9c6cba1b2d7b513e4c6fe899ca277000",
+      "source_relpath": "connecting-dots/imperfective/paper-handoff-20261108/results/e3_formal_analysis.json",
+      "source_sha256": "d0013fba9a33680bae772707e88fb29b9c6cba1b2d7b513e4c6fe899ca277000",
+      "transform_id": "identity"
+    },
+    "imperfective-exp3-en/formal-results/e3_formal_fingerprint.json": {
+      "bytes": 4497,
+      "path_replacements": [
+        {
+          "count": 2,
+          "new": "<LOCAL_PATH>/Qwen3-8B-b968826d-Q8_0.gguf",
+          "old_sha256": "60e40d8312cc7a1b11efee19a022bfc598ba492cdcb69882e63c59f0f7d1bebc"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/llama-server",
+          "old_sha256": "4b66b375490c0ba49dba32fc001c2e7f5514793f266ccc633afef0f248f50959"
+        }
+      ],
+      "published_sha256": "fddd6c9e482492fe29b092fd8140da67d008e6bf2ea825c3a99737691b454e49",
+      "source_relpath": "connecting-dots/imperfective/paper-handoff-20261108/results/e3_formal_fingerprint.json",
+      "source_sha256": "f1360d5e2053906692535e157cf31e6741a7cc87a430b13e6af2a821a97f827a",
+      "transform_id": "redact_abs_paths_opaque"
+    },
+    "imperfective-exp3-en/formal-results/e3_formal_sessions.json": {
+      "bytes": 519,
+      "path_replacements": [],
+      "published_sha256": "28e8b9cf4e257bd7c5950185796d917fab36997c1bddd8a59cf769f93279f3b4",
+      "source_relpath": "connecting-dots/imperfective/paper-handoff-20261108/results/e3_formal_sessions.json",
+      "source_sha256": "28e8b9cf4e257bd7c5950185796d917fab36997c1bddd8a59cf769f93279f3b4",
+      "transform_id": "identity"
+    },
+    "imperfective-exp3-en/formal-results/e3_formal_statistics.json": {
+      "bytes": 5350,
+      "path_replacements": [],
+      "published_sha256": "44d4d19ef81b2d71ee9102360fc5379c3cc33e0c144869504d4cafdb7da9a030",
+      "source_relpath": "connecting-dots/imperfective/paper-handoff-20261108/results/e3_formal_statistics.json",
+      "source_sha256": "44d4d19ef81b2d71ee9102360fc5379c3cc33e0c144869504d4cafdb7da9a030",
+      "transform_id": "identity"
+    },
+    "imperfective-exp3-en/formal-results/e3_formal_unit_index.json": {
+      "bytes": 2592415,
+      "path_replacements": [],
+      "published_sha256": "771ab8eb0222770d19c372cbe5a619e88408cd3c6e31d54bea9a91abc256eb80",
+      "source_relpath": "connecting-dots/imperfective/paper-handoff-20261108/results/e3_formal_unit_index.json",
+      "source_sha256": "771ab8eb0222770d19c372cbe5a619e88408cd3c6e31d54bea9a91abc256eb80",
+      "transform_id": "identity"
+    }
+  }
+}

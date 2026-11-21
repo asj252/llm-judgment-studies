@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "parameters": {
+    "max_tokens": 2048,
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "max_attempts": 4,
+    "B": 10000,
+    "seed": 20261110
+  },
+  "environment": {
+    "python": "3.11.2",
+    "numpy": "1.24.2"
+  },
+  "execution_dependencies": {
+    "connecting-dots/psych3/p2-supplemental-20261110/build_p2_banks.py": "a1e57de8b7c3fc2aa120f585ff406d9d88de04a5e623f891076abccab03d3b14",
+    "connecting-dots/psych3/p2-supplemental-20261110/run_p2_supplemental.py": "682e0fe8272dba6c0ecc10d243b8610ac0d96f1576a5e6c0dbed1776a8fa7c0f",
+    "connecting-dots/psych3/p2-supplemental-20261110/analyze_p2_supplemental.py": "d8d9490b8cf99ae57e0ff215140c77ca790b3d82d7f03204c45370718fc60aee",
+    "connecting-dots/psych3/p2-supplemental-20261110/archive_p2_pilot.py": "be716489ffbad86da322bf9b0109e627834f52926e08d2863b81b7cec24c804c",
+    "connecting-dots/psych3/p2-supplemental-20261110/freeze_p2_stage1.py": "c536dbe84412c212e619e1a6294d31a7adfc011b8e83ebe76f745708879cd921",
+    "connecting-dots/psych3/p2-supplemental-20261110/finish_p2_stage1.py": "765ac62f87899fa5731876c69d9c4712120154658f06a9446c12df2455b67506",
+    "connecting-dots/psych3/p2-supplemental-20261110/check_p2_stage1.py": "8ac86ae0d153aea9553ed50788ed6d0733745ed14f1bc80684638f9c7110f9b1",
+    "connecting-dots/mcv_standard.py": "d0ee21189e5e2726b04785de9acac8cf57bf1bf060c15839c3c0bc82301789d5"
+  },
+  "bank_files": {
+    "connecting-dots/psych3/p2-supplemental-20261110/bank_p2_probe.json": "2672e47df12e2ae35d99f0ad56c5029e60bbd5dc4bae6cbc34889010531e443f",
+    "connecting-dots/psych3/p2-supplemental-20261110/bank_p2_pilot.json": "c7e235efdd2b7e2f05d705c8d17432ae295bb8b16f7d8ea16e1b5f0f407228d9",
+    "connecting-dots/psych3/p2-supplemental-20261110/bank_p2_formal.json": "a35e795ad2f8f9035ccf1a55862df7d42e1b62f73377736ecb6f5539420dc900"
+  },
+  "reference_only_provenance": {
+    "connecting-dots/psych3/p1-narrative-baserate-20261105/prompts_p1.py": "3d5d1e0cabd659e602a8c35916762582b4c9578a0e1aa829d244dcbd95d652fd",
+    "connecting-dots/psych3/unconstrained-3opt-20261109/run_unconstrained_3opt.py": "1c291424f862974a77800b23fe6fbeb795cbcaffa40f14dc42efe1260a6b5e6e"
+  },
+  "stage1_artifacts": {
+    "connecting-dots/psych3/p2-supplemental-20261110/summary_p2_pilot.json": "1d2b7934c9a36ce4ccd043ecfa63d5f82392bec3d5ea549449ca1d0c329525d1",
+    "connecting-dots/psych3/p2-supplemental-20261110/drive_manifest.json": "a25516293553ec92b3be7dbec477670a43c558652eb51e7541c939d5a1bb0922",
+    "connecting-dots/psych3/p2-supplemental-20261110/dev_v1_provenance.json": "56d68f52bbd9151a4ab738b66b77e41fe2cf8bae00477c7978eafb4f0d0a8c2a"
+  },
+  "formal_archive": "drive_manifest_formal.json",
+  "release_requirement": "Independent c Freeze PASS and a Git commit receipt required; this file itself is not authorization."
+}

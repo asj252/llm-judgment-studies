@@ -1,0 +1,70 @@
+{
+  "SUBMISSION_SUMMARY_ASCII.txt": {
+    "bytes": 4465,
+    "sha256": "b77815e29b3a2a355fc497391dc9130434290defe3d53a1cad3200d37a2815db"
+  },
+  "abstract.txt": {
+    "bytes": 1372,
+    "sha256": "9576b6fd740502c6b8dfdb569390890f34fbc45c78d7a506aa2383ca95369a26"
+  },
+  "arxiv-v4-source.tar.gz": {
+    "bytes": 1155313,
+    "sha256": "92a5b235798aa086b83e1e396f83b16a8921efad61fc4f7ee3e492f670dbeaa4"
+  },
+  "build_typeset.py": {
+    "bytes": 18500,
+    "sha256": "add25c1151d5c3f76dea7f6b993ece87d0e45c5ac14aef06597d0baeb651b282"
+  },
+  "comments.txt": {
+    "bytes": 176,
+    "sha256": "998fa5ba1bbc5435e2bc1baaf497fe72f028acc78f24bd39b200af6fe0c3faa3"
+  },
+  "figures/fig1_confirmatory.png": {
+    "bytes": 391897,
+    "sha256": "9dccbe9c6b059eab02d04870aac010c17a3e05c44df28720f4848e85b8adde48"
+  },
+  "figures/fig2_status_quo_default_advice.png": {
+    "bytes": 328031,
+    "sha256": "40a5c5181fcc64819d27a499a4dd8606051a7ec3fceb803547a869538db5ac6d"
+  },
+  "figures/fig3_format_differences.png": {
+    "bytes": 466754,
+    "sha256": "916127207665d9d9094e88044db7f950dc5fe4190e3f9835168b5e3e8711ed90"
+  },
+  "figures/fig4_stage2c_crossover.pdf": {
+    "bytes": 22327,
+    "sha256": "caf2965729bf25e49113f27bf9827315208f02bb5366874d2207e5a7f9b0e384"
+  },
+  "figures/fig_5tasks_mcv_comparison.pdf": {
+    "bytes": 37232,
+    "sha256": "dbdc2b383c8078a7acb762e25798cd8bae697102f8f18fc4d6af246f81968aed"
+  },
+  "figures/fig_act3_3mechanisms.pdf": {
+    "bytes": 31894,
+    "sha256": "a9d33351da251daef79762b569c7ad52aa42009929390b30f2d1c3ffdd4b15c8"
+  },
+  "metadata.json": {
+    "bytes": 2978,
+    "sha256": "3ebe4a25e1832ea7c300527f0d4e27fb24c7d7a0882fc033e2983e8f614560ab"
+  },
+  "paper.bbl": {
+    "bytes": 27398,
+    "sha256": "4200f59d2724b67f4044b646275f0b010bf9d314ab57ec59015d21d3303bd54d"
+  },
+  "paper.pdf": {
+    "bytes": 1891280,
+    "sha256": "de5d7cb99cffe791cc45e585aabc2264bd56d6f8f4d0f8323d9572d792d5fdd3"
+  },
+  "paper.tex": {
+    "bytes": 1254813,
+    "sha256": "2993926063dea44c6714266732dc34eafdf1fc322cd4da292fb932b311ba3909"
+  },
+  "references.bib": {
+    "bytes": 31052,
+    "sha256": "8b9e544a3108a16228e7085fc24c97c70121e4829ef7d0c282d1e4dd029488fe"
+  },
+  "title.txt": {
+    "bytes": 78,
+    "sha256": "2121720a38e534ab05c00f5582e57604037e5d9ced5abe5bd9d08e8b0dd69254"
+  }
+}

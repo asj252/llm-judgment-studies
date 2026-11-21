@@ -1,0 +1,329 @@
+{
+  "description": "Stated multi-estimate minus direct movement; frozen source readouts and bootstrap provenance",
+  "configs_expected": [
+    "qwen3-off",
+    "olmo2",
+    "codex",
+    "agy:gpt-oss-120b-medium",
+    "agy:claude-sonnet-5-5-medium",
+    "agy:gemini-3.8-flash-low",
+    "agy:gemini-3.8-flash-high"
+  ],
+  "rows": [
+    {
+      "config": "qwen3-off",
+      "label": "Qwen3 (thinking off)",
+      "n_stated_pairs": 240,
+      "n_clusters": 240,
+      "stated_sd": 16.080281507325584,
+      "readings": {
+        "mean": {
+          "point": -7.938638518997701,
+          "low": -9.723056172585585,
+          "high": -6.179468523483954,
+          "B": 2000,
+          "seed": 20261490,
+          "index_rule": "0-based sorted order statistics xs[49] and xs[1949] via make_figures.compute_data() shared np.random.default_rng(20261490)",
+          "source": "paper/figures/en/figure_data.json:fig3"
+        },
+        "unweighted": {
+          "point": -10.328583333333334,
+          "low": -12.083166666666667,
+          "high": -8.583,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        },
+        "top": {
+          "point": -4.577708333333334,
+          "low": -6.386041666666667,
+          "high": -2.7370833333333335,
+          "B": 2000,
+          "seed": 20261490,
+          "index_rule": "0-based sorted order statistics xs[49] and xs[1949] via make_figures.compute_data() shared np.random.default_rng(20261490)",
+          "source": "paper/figures/en/figure_data.json:fig3"
+        },
+        "median": {
+          "point": -6.721041666666666,
+          "low": -8.539583333333333,
+          "high": -4.910416666666666,
+          "B": 2000,
+          "seed": 20261490,
+          "index_rule": "0-based sorted order statistics xs[49] and xs[1949] via make_figures.compute_data() shared np.random.default_rng(20261490)",
+          "source": "paper/figures/en/figure_data.json:fig3"
+        }
+      }
+    },
+    {
+      "config": "olmo2",
+      "label": "OLMo-2",
+      "n_stated_pairs": 238,
+      "n_clusters": 238,
+      "stated_sd": 18.2574765965961,
+      "readings": {
+        "mean": {
+          "point": -13.708308475619297,
+          "low": -16.13851643672758,
+          "high": -11.258539100670333,
+          "B": 2000,
+          "seed": 20261490,
+          "index_rule": "0-based sorted order statistics xs[49] and xs[1949] via make_figures.compute_data() shared np.random.default_rng(20261490)",
+          "source": "paper/figures/en/figure_data.json:fig3"
+        },
+        "unweighted": {
+          "point": -13.264789915966386,
+          "low": -15.777310924369749,
+          "high": -10.75470588235294,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        },
+        "top": {
+          "point": -14.53921568627451,
+          "low": -17.040616246498598,
+          "high": -11.901610644257701,
+          "B": 2000,
+          "seed": 20261490,
+          "index_rule": "0-based sorted order statistics xs[49] and xs[1949] via make_figures.compute_data() shared np.random.default_rng(20261490)",
+          "source": "paper/figures/en/figure_data.json:fig3"
+        },
+        "median": {
+          "point": -12.781512605042018,
+          "low": -15.289915966386555,
+          "high": -10.176470588235293,
+          "B": 2000,
+          "seed": 20261490,
+          "index_rule": "0-based sorted order statistics xs[49] and xs[1949] via make_figures.compute_data() shared np.random.default_rng(20261490)",
+          "source": "paper/figures/en/figure_data.json:fig3"
+        }
+      }
+    },
+    {
+      "config": "codex",
+      "label": "codex",
+      "n_stated_pairs": 120,
+      "n_clusters": 120,
+      "stated_sd": 7.609081386398867,
+      "readings": {
+        "mean": {
+          "point": -2.482416666666667,
+          "low": -3.1612916666666666,
+          "high": -1.7784791666666668,
+          "B": 2000,
+          "seed": 20261490,
+          "index_rule": "0-based sorted order statistics xs[49] and xs[1949] via make_figures.compute_data() shared np.random.default_rng(20261490)",
+          "source": "paper/figures/en/figure_data.json:fig3"
+        },
+        "unweighted": {
+          "point": -3.136416666666667,
+          "low": -3.835999999999997,
+          "high": -2.434333333333333,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        },
+        "top": {
+          "point": -2.0889583333333333,
+          "low": -2.7800000000000002,
+          "high": -1.446875,
+          "B": 2000,
+          "seed": 20261490,
+          "index_rule": "0-based sorted order statistics xs[49] and xs[1949] via make_figures.compute_data() shared np.random.default_rng(20261490)",
+          "source": "paper/figures/en/figure_data.json:fig3"
+        },
+        "median": {
+          "point": -2.3020833333333335,
+          "low": -2.993333333333333,
+          "high": -1.65,
+          "B": 2000,
+          "seed": 20261490,
+          "index_rule": "0-based sorted order statistics xs[49] and xs[1949] via make_figures.compute_data() shared np.random.default_rng(20261490)",
+          "source": "paper/figures/en/figure_data.json:fig3"
+        }
+      }
+    },
+    {
+      "config": "agy:gpt-oss-120b-medium",
+      "label": "gpt-oss-120b",
+      "n_stated_pairs": 120,
+      "n_clusters": 120,
+      "stated_sd": 14.044139554369929,
+      "readings": {
+        "mean": {
+          "point": -2.295375,
+          "low": -4.081333333333333,
+          "high": -0.5613333333333331,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        },
+        "unweighted": {
+          "point": -5.877083333333333,
+          "low": -8.039333333333335,
+          "high": -3.7505833333333327,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        },
+        "top": {
+          "point": 1.6833333333333333,
+          "low": -0.2375,
+          "high": 3.5791666666666666,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        },
+        "median": {
+          "point": -0.85375,
+          "low": -2.6741666666666664,
+          "high": 0.8920833333333333,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        }
+      }
+    },
+    {
+      "config": "agy:claude-sonnet-5-5-medium",
+      "label": "claude-sonnet-5.5",
+      "n_stated_pairs": 120,
+      "n_clusters": 120,
+      "stated_sd": 6.25162382393382,
+      "readings": {
+        "mean": {
+          "point": 0.4706458333333336,
+          "low": -0.34177083333333286,
+          "high": 1.3198750000000001,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        },
+        "unweighted": {
+          "point": 0.26583333333333375,
+          "low": -0.5583333333333331,
+          "high": 1.1558333333333342,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        },
+        "top": {
+          "point": 0.8791666666666667,
+          "low": -0.010416666666666666,
+          "high": 1.7666666666666666,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        },
+        "median": {
+          "point": 0.7791666666666667,
+          "low": -0.12083333333333333,
+          "high": 1.7166666666666666,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        }
+      }
+    },
+    {
+      "config": "agy:gemini-3.8-flash-low",
+      "label": "gemini-3.8-flash (low)",
+      "n_stated_pairs": 120,
+      "n_clusters": 120,
+      "stated_sd": 7.465155382794293,
+      "readings": {
+        "mean": {
+          "point": -2.4781458333333335,
+          "low": -3.6769375000000006,
+          "high": -1.357979166666667,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        },
+        "unweighted": {
+          "point": -4.178433333333333,
+          "low": -5.506500000000002,
+          "high": -2.9256833333333327,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        },
+        "top": {
+          "point": -1.1571666666666665,
+          "low": -2.4363333333333332,
+          "high": 0.08329166666666664,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        },
+        "median": {
+          "point": -2.2084166666666665,
+          "low": -3.4737500000000003,
+          "high": -0.9880833333333332,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        }
+      }
+    },
+    {
+      "config": "agy:gemini-3.8-flash-high",
+      "label": "gemini-3.8-flash (high)",
+      "n_stated_pairs": 120,
+      "n_clusters": 120,
+      "stated_sd": 7.534029391351527,
+      "readings": {
+        "mean": {
+          "point": -3.7329166666666667,
+          "low": -5.051104166666666,
+          "high": -2.519875,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        },
+        "unweighted": {
+          "point": -4.741166666666667,
+          "low": -6.04225,
+          "high": -3.4898333333333325,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        },
+        "top": {
+          "point": -2.362083333333333,
+          "low": -3.8225000000000002,
+          "high": -1.0391666666666668,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        },
+        "median": {
+          "point": -2.9229166666666666,
+          "low": -4.332916666666667,
+          "high": -1.625,
+          "B": 5000,
+          "seed": 20261090,
+          "index_rule": "0-based sorted order statistics xs[125] and xs[4874] via random.Random(20261090) in dnli/analysis.py:boot_values and order_interval",
+          "source": "dnli/analysis.py:boot_values(B=5000,seed=20261090)"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "config": "mistral:ministral-8b",
+  "which": "dev",
+  "n_planned_units": 300,
+  "n_valid_units": 300,
+  "confirmatory": {
+    "H1": {
+      "n": 30,
+      "point": 27.675,
+      "ci95": [
+        20.11,
+        34.49166666666667
+      ],
+      "p": 0.0,
+      "holm_alpha": 0.0125,
+      "bound": 18.533333333333335,
+      "rejected": true,
+      "label": "\u9884\u6d4b\u65b9\u5411\uff08\u9648\u8ff0\u4e0b\u5f80\u6807\u7b7e\u65b9\u5411\u79fb\u52a8\uff09\uff1a\u533a\u95f4\u4e0b\u754c\u8d85\u8fc7\u9608\u503c"
+    },
+    "H4a": {
+      "n": 30,
+      "point": 0.6166666666666667,
+      "ci95": [
+        0.49166666666666664,
+        0.7333333333333333
+      ],
+      "p": 0.0,
+      "holm_alpha": 0.016666666666666666,
+      "bound": 0.48333333333333334,
+      "rejected": true,
+      "label": "\u9884\u6d4b\u65b9\u5411\uff08\u591a\u4f30\u8ba1\u7684\u805a\u5408\u7aef\u70b9\u7387\u8f83\u4f4e\uff09\uff1a\u533a\u95f4\u4e0b\u754c\u8d85\u8fc7\u9608\u503c"
+    },
+    "H4b": {
+      "n": 30,
+      "point": -10.601583333333332,
+      "ci95": [
+        -17.340249999999994,
+        -3.004833333333331
+      ],
+      "p": 0.009,
+      "holm_alpha": 0.025,
+      "bound": -1.4127499999999988,
+      "rejected": true,
+      "label": "\u591a\u4f30\u8ba1 < \u76f4\u63a5\uff1a\u70b9\u4f30\u8ba1\u8fbe\u5230\u9608\u503c\uff08\u533a\u95f4\u4e0b\u754c\u672a\u8d85\u8fc7\uff09"
+    },
+    "H2": {
+      "n": 30,
+      "point": 8.173333333333334,
+      "ci95": [
+        -0.838333333333333,
+        17.42
+      ],
+      "p": 0.041,
+      "holm_alpha": 0.05,
+      "bound": 0.4666666666666667,
+      "rejected": true,
+      "label": "\u9884\u6d4b\u65b9\u5411\uff08\u9648\u8ff0\u7684\u65b9\u5411\u5316\u79fb\u52a8\u5927\u4e8e\u8f6c\u8ff0\uff09\uff1a\u70b9\u4f30\u8ba1\u8fbe\u5230\u9608\u503c\uff08\u533a\u95f4\u4e0b\u754c\u672a\u8d85\u8fc7\uff09"
+    }
+  },
+  "table3": {
+    "S_stated": 24.13,
+    "W_stated": -31.220000000000002,
+    "S_reported": 15.866666666666667,
+    "W_reported": -23.136666666666667
+  },
+  "table4": {
+    "candidate_weighted_sd_stated": 14.80478397861526,
+    "mean": {
+      "point": -10.601583333333332,
+      "ci95": [
+        -17.686833333333333,
+        -3.029583333333331
+      ],
+      "n": 30
+    },
+    "unweighted": {
+      "point": -14.388333333333332,
+      "ci95": [
+        -22.474333333333334,
+        -5.635333333333334
+      ],
+      "n": 30
+    },
+    "top": {
+      "point": -6.441666666666666,
+      "ci95": [
+        -12.086666666666668,
+        0.04833333333333343
+      ],
+      "n": 30
+    },
+    "median": {
+      "point": -9.066666666666666,
+      "ci95": [
+        -15.408333333333333,
+        -2.075
+      ],
+      "n": 30
+    }
+  },
+  "table8": {
+    "prior_sd": 16.88091266130514,
+    "stated_minus_prior": -2.0761286826898786,
+    "stated_minus_prior_pct": -12.298675577232467,
+    "reported_minus_stated": 1.000244153952811,
+    "reported_minus_stated_pct": 6.756222552099454
+  },
+  "entropy": {
+    "proposition_h2_direct_bits": 0.34145488127294465,
+    "proposition_h2_multi_bits": 0.7887632414519395,
+    "proposition_h2_diff_bits": 0.4473083601789949,
+    "weight_entropy_hw_prior_bits": 2.0963324037962487,
+    "weight_entropy_hw_stated_bits": 2.0917188111645606,
+    "weight_entropy_hw_reported_bits": 2.1002767314798843
+  }
+}

@@ -1,0 +1,94 @@
+{
+ "_analysis_code": {
+  "B": 5000,
+  "analyse_api.py": "65726df3504c6fa382d86cb63adbeb5a23b55f58e7bd8a51fec904a22f4448ed",
+  "analysis.py": "a6928467e6a8ca5f175006ec1e5f54de7ef6cc1818a6beecdb57f54797a36533",
+  "api_subject.py": "58936d59320b5bd031f16b82111869ccfac9de0c1085c67e0d00216c4a9fb30a",
+  "run_api.py": "e4526423025af37f0208d4f61892d6a438d49f05699db2faa8666e1616455495",
+  "settings": "3dfee05d603a4a2b2252fbe116d33dd1fe9ebd7a181e2808841ed3eba1ea8f0b"
+ },
+ "config": "nv:nemotron-3.5-super-vl-120b",
+ "spec": {
+  "provider": "nvidia",
+  "model": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+  "rpm": 30,
+  "max_output_tokens": 2048,
+  "enable_thinking": false,
+  "request_logprobs": true,
+  "top_logprobs": 10,
+  "env_key": "NVIDIA_API_KEY",
+  "description": "NVIDIA Nemotron 3.5 Super VL 120B-A12B MoE (thinking off, top_logprobs=10) via NVIDIA NIM (replaces rate-limited or:nemotron-3.5-super-vl)"
+ },
+ "dev": {
+  "fingerprint_id": "22c24c9b77119afe28673b142321f8d9aeec526d94a581a15bddc6f2271cb0db",
+  "fingerprint": {
+   "split.json": "3e09db9ac6e10375bf17e6254fbb6ad5992798f2a03a1ba93c4f896b5eeaf39b",
+   "items_text.json": "54e08df0874587377a259925f49ad8796de6ac4d05c0729fbfa7ae0cf479f67c",
+   "prompts.py": "cfa1f9399f2d6ce61dc7cf312108a2a5f3f18981cfbdba6b881d4d374134f902",
+   "parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+   "templates": "8d107ab0e3142f91e0ec816b16a64f9f3f6e8e07eeb1e4000fef372dcff3ee66",
+   "parse_rules": "2d8f229712ee56416548c8f6cf1c04e6cfd6b463fe0e0776134aefc438af23ed",
+   "sampling": {
+    "temperature": 0.6,
+    "top_k": 20,
+    "top_p": 0.95,
+    "max_output_tokens": 2048
+   },
+   "config": "nv:nemotron-3.5-super-vl-120b",
+   "spec": {
+    "provider": "nvidia",
+    "model": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+    "rpm": 30,
+    "max_output_tokens": 2048,
+    "enable_thinking": false,
+    "request_logprobs": true,
+    "top_logprobs": 10,
+    "env_key": "NVIDIA_API_KEY",
+    "description": "NVIDIA Nemotron 3.5 Super VL 120B-A12B MoE (thinking off, top_logprobs=10) via NVIDIA NIM (replaces rate-limited or:nemotron-3.5-super-vl)"
+   },
+   "blocks": "A",
+   "materials_digest": "ccd5097602b06e09293f6790136647db80fdcb765592f377b04b2758984c2a72",
+   "n_units_all": 2900,
+   "configs.py": "18dce66b7cf5e735a7945f98160dd0157ac7000f5b6eb4dfe3f422cd66b758e8",
+   "api_subject.py": "540f0905602cec1d58d39826150fee1295be1da9e2b2027dc7e40127059ad27a",
+   "run_api.py": "95961f54d4591993c9397ead4e07781a01a3905f10b4e37821bd780710f60d01"
+  },
+  "n_planned_units": 300
+ },
+ "formal": {
+  "fingerprint_id": "22c24c9b77119afe28673b142321f8d9aeec526d94a581a15bddc6f2271cb0db",
+  "fingerprint": {
+   "split.json": "3e09db9ac6e10375bf17e6254fbb6ad5992798f2a03a1ba93c4f896b5eeaf39b",
+   "items_text.json": "54e08df0874587377a259925f49ad8796de6ac4d05c0729fbfa7ae0cf479f67c",
+   "prompts.py": "cfa1f9399f2d6ce61dc7cf312108a2a5f3f18981cfbdba6b881d4d374134f902",
+   "parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+   "templates": "8d107ab0e3142f91e0ec816b16a64f9f3f6e8e07eeb1e4000fef372dcff3ee66",
+   "parse_rules": "2d8f229712ee56416548c8f6cf1c04e6cfd6b463fe0e0776134aefc438af23ed",
+   "sampling": {
+    "temperature": 0.6,
+    "top_k": 20,
+    "top_p": 0.95,
+    "max_output_tokens": 2048
+   },
+   "config": "nv:nemotron-3.5-super-vl-120b",
+   "spec": {
+    "provider": "nvidia",
+    "model": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+    "rpm": 30,
+    "max_output_tokens": 2048,
+    "enable_thinking": false,
+    "request_logprobs": true,
+    "top_logprobs": 10,
+    "env_key": "NVIDIA_API_KEY",
+    "description": "NVIDIA Nemotron 3.5 Super VL 120B-A12B MoE (thinking off, top_logprobs=10) via NVIDIA NIM (replaces rate-limited or:nemotron-3.5-super-vl)"
+   },
+   "blocks": "A",
+   "materials_digest": "ccd5097602b06e09293f6790136647db80fdcb765592f377b04b2758984c2a72",
+   "n_units_all": 2900,
+   "configs.py": "18dce66b7cf5e735a7945f98160dd0157ac7000f5b6eb4dfe3f422cd66b758e8",
+   "api_subject.py": "540f0905602cec1d58d39826150fee1295be1da9e2b2027dc7e40127059ad27a",
+   "run_api.py": "95961f54d4591993c9397ead4e07781a01a3905f10b4e37821bd780710f60d01"
+  },
+  "n_planned_units": 1400
+ }
+}

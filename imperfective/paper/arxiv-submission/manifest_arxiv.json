@@ -1,0 +1,81 @@
+{
+  "sources": {
+    "acl_natbib.bst": {
+      "sha256": "6fbb306202290f4b68e74ac1460a8b27398500cb6dfeb4492e74c457eae7cd1e",
+      "bytes": 45442
+    },
+    "figures/fig1_act1_collapse.pdf": {
+      "sha256": "6abf5f9f562b7a6dc1dfa690f546bc67861d7ac4a43cbbaca1d9a942a3060594",
+      "bytes": 29038
+    },
+    "figures/fig2_act2_realis_paradox.pdf": {
+      "sha256": "e68990796f411eea5672c216bd5e3bce5466c4bf18dc9fd15c7fbe3bcbace6e0",
+      "bytes": 27984
+    },
+    "figures/fig3_act3_directional_reversal.pdf": {
+      "sha256": "e13cf70a0b7ade6734db85c69889ce18cb7a9628b2d3f3c6ad92a3f222d64b37",
+      "bytes": 33595
+    },
+    "figures/fig4_act4_mcw_minus_mcu.pdf": {
+      "sha256": "41d42da79ac619792ae5d0fa3ef6cabdd80d421d27b62b5fc7616b8887224513",
+      "bytes": 32584
+    },
+    "paper.bbl": {
+      "sha256": "48cbad8161f21f9c604084115e6787e157733f74a177e9d94c3a26111e1feb4b",
+      "bytes": 4073
+    },
+    "paper.tex": {
+      "sha256": "2d4b7c28fdb9c09e6d94ac8a45ab58fa1bbac9efdf00aef9c7bde0525a1b3d10",
+      "bytes": 100549
+    }
+  },
+  "archive": {
+    "path": "arxiv-source.tar.gz",
+    "sha256": "7c8533bb42e72e0649100b8712f47e591532ecd1a7d2448eac957b73215a9340",
+    "bytes": 151289
+  },
+  "metadata": {
+    "title.txt": {
+      "characters": 153
+    },
+    "abstract.txt": {
+      "characters": 1841
+    },
+    "comments.txt": {
+      "characters": 237
+    }
+  },
+  "autotex": {
+    "fresh_empty_directory": true,
+    "isolated_user_tex_environment": true,
+    "command": [
+      "pdflatex",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "paper.tex"
+    ],
+    "passes": [
+      {
+        "pass": 1,
+        "exit_code": 0,
+        "latex_errors": 0,
+        "overfull_hbox": 0,
+        "undefined_references": 17
+      },
+      {
+        "pass": 2,
+        "exit_code": 0,
+        "latex_errors": 0,
+        "overfull_hbox": 0,
+        "undefined_references": 0
+      }
+    ],
+    "pdf_pages": 21,
+    "final_log": {
+      "latex_errors": 0,
+      "overfull_hbox": 0,
+      "undefined_references": 0
+    },
+    "passed": true
+  }
+}

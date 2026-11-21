@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="910" height="290" viewBox="0 0 910 290" font-family="DejaVu Sans" font-size="12" fill="#172033">
+<rect width="910" height="290" fill="white"/>
+<line x1="34" y1="213.0" x2="291" y2="213.0" stroke="#d8dfe8"/>
+<line x1="34" y1="171.5" x2="291" y2="171.5" stroke="#d8dfe8"/>
+<line x1="34" y1="130.0" x2="291" y2="130.0" stroke="#d8dfe8"/>
+<line x1="34" y1="88.49999999999999" x2="291" y2="88.49999999999999" stroke="#d8dfe8"/>
+<line x1="34" y1="65" x2="34" y2="213" stroke="#8492a6"/>
+<line x1="339" y1="213.0" x2="596" y2="213.0" stroke="#d8dfe8"/>
+<line x1="339" y1="171.5" x2="596" y2="171.5" stroke="#d8dfe8"/>
+<line x1="339" y1="130.0" x2="596" y2="130.0" stroke="#d8dfe8"/>
+<line x1="339" y1="88.49999999999999" x2="596" y2="88.49999999999999" stroke="#d8dfe8"/>
+<line x1="339" y1="65" x2="339" y2="213" stroke="#8492a6"/>
+<line x1="644" y1="213.0" x2="901" y2="213.0" stroke="#d8dfe8"/>
+<line x1="644" y1="171.5" x2="901" y2="171.5" stroke="#d8dfe8"/>
+<line x1="644" y1="130.0" x2="901" y2="130.0" stroke="#d8dfe8"/>
+<line x1="644" y1="88.49999999999999" x2="901" y2="88.49999999999999" stroke="#d8dfe8"/>
+<line x1="644" y1="65" x2="644" y2="213" stroke="#8492a6"/>
+<polyline points="51,124.72949999999999 107,124.1485 163,106.88449999999999 219,99.6635 275,76.54799999999997" fill="none" stroke="#dc2626" stroke-width="2"/>
+<circle cx="51" cy="124.72949999999999" r="2.7" fill="#dc2626"/>
+<circle cx="107" cy="124.1485" r="2.7" fill="#dc2626"/>
+<circle cx="163" cy="106.88449999999999" r="2.7" fill="#dc2626"/>
+<circle cx="219" cy="99.6635" r="2.7" fill="#dc2626"/>
+<circle cx="275" cy="76.54799999999997" r="2.7" fill="#dc2626"/>
+<polyline points="51,114.14699999999999 107,123.609 163,117.09349999999999 219,122.36399999999999 275,114.35449999999999" fill="none" stroke="#ea580c" stroke-width="2"/>
+<circle cx="51" cy="114.14699999999999" r="2.7" fill="#ea580c"/>
+<circle cx="107" cy="123.609" r="2.7" fill="#ea580c"/>
+<circle cx="163" cy="117.09349999999999" r="2.7" fill="#ea580c"/>
+<circle cx="219" cy="122.36399999999999" r="2.7" fill="#ea580c"/>
+<circle cx="275" cy="114.35449999999999" r="2.7" fill="#ea580c"/>
+<polyline points="51,127.80049999999999 107,129.5435 163,118.3385 219,134.19150000000002 275,132.49" fill="none" stroke="#2563eb" stroke-width="2"/>
+<circle cx="51" cy="127.80049999999999" r="2.7" fill="#2563eb"/>
+<circle cx="107" cy="129.5435" r="2.7" fill="#2563eb"/>
+<circle cx="163" cy="118.3385" r="2.7" fill="#2563eb"/>
+<circle cx="219" cy="134.19150000000002" r="2.7" fill="#2563eb"/>
+<circle cx="275" cy="132.49" r="2.7" fill="#2563eb"/>
+<polyline points="51,169.3835 107,150.2105 163,154.8585 219,147.264 275,186.357" fill="none" stroke="#059669" stroke-width="2"/>
+<circle cx="51" cy="169.3835" r="2.7" fill="#059669"/>
+<circle cx="107" cy="150.2105" r="2.7" fill="#059669"/>
+<circle cx="163" cy="154.8585" r="2.7" fill="#059669"/>
+<circle cx="219" cy="147.264" r="2.7" fill="#059669"/>
+<circle cx="275" cy="186.357" r="2.7" fill="#059669"/>
+<polyline points="51,212.0455 107,212.4605 163,212.087 219,212.751 275,211.672" fill="none" stroke="#7c3aed" stroke-width="2"/>
+<circle cx="51" cy="212.0455" r="2.7" fill="#7c3aed"/>
+<circle cx="107" cy="212.4605" r="2.7" fill="#7c3aed"/>
+<circle cx="163" cy="212.087" r="2.7" fill="#7c3aed"/>
+<circle cx="219" cy="212.751" r="2.7" fill="#7c3aed"/>
+<circle cx="275" cy="211.672" r="2.7" fill="#7c3aed"/>
+<rect x="346" y="184.033" width="11" height="28.967000000000006" fill="#64748b"/>
+<rect x="359" y="170.587" width="11" height="42.413000000000004" fill="#3b82f6"/>
+<rect x="372" y="188.764" width="11" height="24.236" fill="#10b981"/>
+<rect x="385" y="169.01" width="11" height="43.99" fill="#f59e0b"/>
+<rect x="411" y="156.1035" width="11" height="56.89650000000001" fill="#64748b"/>
+<rect x="424" y="164.4865" width="11" height="48.5135" fill="#3b82f6"/>
+<rect x="437" y="165.3165" width="11" height="47.6835" fill="#10b981"/>
+<rect x="450" y="94.80799999999999" width="11" height="118.19200000000001" fill="#f59e0b"/>
+<rect x="476" y="159.13299999999998" width="11" height="53.867000000000004" fill="#64748b"/>
+<rect x="489" y="152.4515" width="11" height="60.548500000000004" fill="#3b82f6"/>
+<rect x="502" y="156.6015" width="11" height="56.398500000000006" fill="#10b981"/>
+<rect x="515" y="89.2055" width="11" height="123.7945" fill="#f59e0b"/>
+<rect x="541" y="151.082" width="11" height="61.918000000000006" fill="#64748b"/>
+<rect x="554" y="149.46349999999998" width="11" height="63.53650000000001" fill="#3b82f6"/>
+<rect x="567" y="156.93349999999998" width="11" height="56.066500000000005" fill="#10b981"/>
+<rect x="580" y="170.8775" width="11" height="42.1225" fill="#f59e0b"/>
+<rect x="651" y="184.19899999999998" width="11" height="28.801000000000005" fill="#64748b"/>
+<rect x="664" y="192.29149999999998" width="11" height="20.708500000000004" fill="#3b82f6"/>
+<rect x="677" y="184.863" width="11" height="28.137000000000004" fill="#10b981"/>
+<rect x="690" y="136.5985" width="11" height="76.40150000000001" fill="#f59e0b"/>
+<rect x="716" y="158.7595" width="11" height="54.240500000000004" fill="#64748b"/>
+<rect x="729" y="160.793" width="11" height="52.20700000000001" fill="#3b82f6"/>
+<rect x="742" y="184.8215" width="11" height="28.178500000000003" fill="#10b981"/>
+<rect x="755" y="77.91749999999999" width="11" height="135.0825" fill="#f59e0b"/>
+<rect x="781" y="166.7275" width="11" height="46.27250000000001" fill="#64748b"/>
+<rect x="794" y="182.456" width="11" height="30.544000000000004" fill="#3b82f6"/>
+<rect x="807" y="162.28699999999998" width="11" height="50.71300000000001" fill="#10b981"/>
+<rect x="820" y="154.817" width="11" height="58.183" fill="#f59e0b"/>
+<rect x="846" y="121.9905" width="11" height="91.0095" fill="#64748b"/>
+<rect x="859" y="109.5405" width="11" height="103.4595" fill="#3b82f6"/>
+<rect x="872" y="135.1875" width="11" height="77.8125" fill="#10b981"/>
+<rect x="885" y="165.607" width="11" height="47.393" fill="#f59e0b"/>
+<line x1="16" y1="257" x2="33" y2="257" stroke="#dc2626"/>
+<line x1="167" y1="257" x2="184" y2="257" stroke="#ea580c"/>
+<line x1="337" y1="257" x2="354" y2="257" stroke="#2563eb"/>
+<line x1="489" y1="257" x2="506" y2="257" stroke="#059669"/>
+<line x1="654" y1="257" x2="671" y2="257" stroke="#7c3aed"/>
+<rect x="16" y="267" width="13" height="10" fill="#64748b"/>
+<rect x="167" y="267" width="13" height="10" fill="#3b82f6"/>
+<rect x="390" y="267" width="13" height="10" fill="#10b981"/>
+<rect x="654" y="267" width="13" height="10" fill="#f59e0b"/>
+<text x="12" y="18" font-size="14" text-anchor="start" fill="#172033" font-weight="bold">A. Task 1: Bayesian MAE (pp)</text>
+<text x="12" y="35" font-size="12" text-anchor="start" fill="#172033">Lower M=100 match and error</text>
+<text x="12" y="50" font-size="12" text-anchor="start" fill="#172033">on Qwen3 / Nemotron</text>
+<text x="28" y="217.0" font-size="12" text-anchor="end" fill="#172033">0</text>
+<text x="28" y="175.5" font-size="12" text-anchor="end" fill="#172033">10</text>
+<text x="28" y="134.0" font-size="12" text-anchor="end" fill="#172033">20</text>
+<text x="28" y="92.49999999999999" font-size="12" text-anchor="end" fill="#172033">30</text>
+<text x="317" y="18" font-size="14" text-anchor="start" fill="#172033" font-weight="bold">B. Task 3: Framing MAE (pp)</text>
+<text x="317" y="35" font-size="12" text-anchor="start" fill="#172033">Four output organizations</text>
+<text x="333" y="217.0" font-size="12" text-anchor="end" fill="#172033">0</text>
+<text x="333" y="175.5" font-size="12" text-anchor="end" fill="#172033">10</text>
+<text x="333" y="134.0" font-size="12" text-anchor="end" fill="#172033">20</text>
+<text x="333" y="92.49999999999999" font-size="12" text-anchor="end" fill="#172033">30</text>
+<text x="622" y="18" font-size="14" text-anchor="start" fill="#172033" font-weight="bold">C. Non-decimal FA (pp)</text>
+<text x="622" y="35" font-size="12" text-anchor="start" fill="#172033">Mean |positive - negative|</text>
+<text x="622" y="50" font-size="12" text-anchor="start" fill="#172033">M = 7, 13, 15, 23</text>
+<text x="638" y="217.0" font-size="12" text-anchor="end" fill="#172033">0</text>
+<text x="638" y="175.5" font-size="12" text-anchor="end" fill="#172033">10</text>
+<text x="638" y="134.0" font-size="12" text-anchor="end" fill="#172033">20</text>
+<text x="638" y="92.49999999999999" font-size="12" text-anchor="end" fill="#172033">30</text>
+<text x="51" y="231" font-size="12" text-anchor="middle" fill="#172033">M7</text>
+<text x="107" y="231" font-size="12" text-anchor="middle" fill="#172033">M13</text>
+<text x="163" y="231" font-size="12" text-anchor="middle" fill="#172033">M15</text>
+<text x="219" y="231" font-size="12" text-anchor="middle" fill="#172033">M23</text>
+<text x="275" y="231" font-size="12" text-anchor="middle" fill="#172033">M100</text>
+<text x="273" y="68" font-size="12" text-anchor="middle" fill="#dc2626" font-weight="bold">32.9</text>
+<text x="53" y="116" font-size="12" text-anchor="middle" fill="#dc2626" font-weight="bold">21.3</text>
+<text x="371" y="231" font-size="12" text-anchor="middle" fill="#172033">Gemma</text>
+<text x="377.5" y="183.764" font-size="12" text-anchor="middle" fill="#172033" font-weight="bold">5.8</text>
+<text x="436" y="231" font-size="12" text-anchor="middle" fill="#172033">GPT-4o</text>
+<text x="442.5" y="160.3165" font-size="12" text-anchor="middle" fill="#172033" font-weight="bold">11.5</text>
+<text x="501" y="231" font-size="12" text-anchor="middle" fill="#172033">Qwen3</text>
+<text x="507.5" y="151.6015" font-size="12" text-anchor="middle" fill="#172033" font-weight="bold">13.6</text>
+<text x="566" y="231" font-size="12" text-anchor="middle" fill="#172033">Nemotron</text>
+<text x="572.5" y="151.93349999999998" font-size="12" text-anchor="middle" fill="#172033" font-weight="bold">13.5</text>
+<text x="585.5" y="165.8775" font-size="12" text-anchor="middle" fill="#172033" font-weight="bold">10.2</text>
+<text x="676" y="231" font-size="12" text-anchor="middle" fill="#172033">Gemma</text>
+<text x="656.5" y="165.19899999999998" font-size="12" text-anchor="middle" fill="#172033" font-weight="bold">6.9</text>
+<text x="682.5" y="179.863" font-size="12" text-anchor="middle" fill="#172033" font-weight="bold">6.8</text>
+<text x="741" y="231" font-size="12" text-anchor="middle" fill="#172033">GPT-4o</text>
+<text x="721.5" y="153.7595" font-size="12" text-anchor="middle" fill="#172033" font-weight="bold">13.1</text>
+<text x="747.5" y="179.8215" font-size="12" text-anchor="middle" fill="#172033" font-weight="bold">6.8</text>
+<text x="806" y="231" font-size="12" text-anchor="middle" fill="#172033">Qwen3</text>
+<text x="786.5" y="161.7275" font-size="12" text-anchor="middle" fill="#172033" font-weight="bold">11.2</text>
+<text x="812.5" y="157.28699999999998" font-size="12" text-anchor="middle" fill="#172033" font-weight="bold">12.2</text>
+<text x="871" y="231" font-size="12" text-anchor="middle" fill="#172033">Nemotron</text>
+<text x="851.5" y="108.9905" font-size="12" text-anchor="middle" fill="#172033" font-weight="bold">21.9</text>
+<text x="877.5" y="130.1875" font-size="12" text-anchor="middle" fill="#172033" font-weight="bold">18.8</text>
+<text x="39" y="261" font-size="12" text-anchor="start" fill="#172033">Qwen3-8B</text>
+<text x="190" y="261" font-size="12" text-anchor="start" fill="#172033">Nemotron-120B</text>
+<text x="360" y="261" font-size="12" text-anchor="start" fill="#172033">GPT-4o-mini</text>
+<text x="512" y="261" font-size="12" text-anchor="start" fill="#172033">Gemma-4-26B</text>
+<text x="677" y="261" font-size="12" text-anchor="start" fill="#172033">gpt-oss-120b</text>
+<text x="39" y="277" font-size="12" text-anchor="start" fill="#172033">single</text>
+<text x="190" y="277" font-size="12" text-anchor="start" fill="#172033">multi_repeat</text>
+<text x="413" y="277" font-size="12" text-anchor="start" fill="#172033">1p5_asc_repeat</text>
+<text x="677" y="277" font-size="12" text-anchor="start" fill="#172033">posterior_focus</text>
+</svg>

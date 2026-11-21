@@ -1,0 +1,586 @@
+\begin{thebibliography}{70}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aitchison et~al.(2026)Aitchison, Jeen, Shevlane, and
+  Day]{aitchison2026diversity}
+Matthew Aitchison, Scott Jeen, Toby Shevlane, and Ben Day.
+\newblock Diversity is the strength of the {AI} crowd, 2026.
+\newblock URL \url{https://arxiv.org/abs/2606.29661}.
+\newblock arXiv comment: accepted at the ICML 2026 Workshop on Forecasting as a
+  New Frontier of Intelligence (workshop).
+
+\bibitem[Araya(2025)]{araya2025chains}
+Roberto Araya.
+\newblock Do chains-of-thoughts of large language models suffer from
+  hallucinations, cognitive biases, or phobias in {B}ayesian reasoning?, 2025.
+\newblock URL \url{https://arxiv.org/abs/2503.15268}.
+\newblock arXiv preprint (v1 19 Mar 2025). No publication venue found.
+
+\bibitem[Arkes et~al.(1988)Arkes, Faust, Guilmette, and
+  Hart]{arkes1988eliminating}
+Hal~R. Arkes, David Faust, Thomas~J. Guilmette, and Kathleen Hart.
+\newblock Eliminating the hindsight bias.
+\newblock \emph{Journal of Applied Psychology}, 73\penalty0 (2):\penalty0
+  305--307, 1988.
+\newblock \doi{10.1037/0021-9010.73.2.305}.
+
+\bibitem[Binz and Schulz(2023)]{binz2023using}
+Marcel Binz and Eric Schulz.
+\newblock Using cognitive psychology to understand {GPT}-3.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 120\penalty0
+  (6):\penalty0 e2218523120, 2023.
+\newblock \doi{10.1073/pnas.2218523120}.
+
+\bibitem[Borjigin et~al.(2026)Borjigin, Hermann, Cyron, and
+  Aydin]{borjigin2026anchorbench}
+Yiderigun Borjigin, Alexander Hermann, Christian Cyron, and Roland Aydin.
+\newblock {AnchorBench}: A multi-pathway benchmark for the anchoring effect in
+  {LLM}s.
+\newblock In \emph{Conference on Language Modeling (COLM 2026)}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2608.14320}.
+\newblock Venue from the arXiv comment ("Published as a conference paper at
+  COLM 2026"); no page numbers.
+
+\bibitem[Chadimov{\'a} et~al.(2024)Chadimov{\'a}, Jur{\'a}{\v{s}}ek, and
+  Kliegr]{chadimova2024meaningless}
+Milena Chadimov{\'a}, Eduard Jur{\'a}{\v{s}}ek, and Tom{\'a}{\v{s}} Kliegr.
+\newblock Meaningless is better: Hashing bias-inducing words in {LLM} prompts
+  improves performance in logical reasoning and statistical learning, 2024.
+\newblock URL \url{https://arxiv.org/abs/2411.17304}.
+\newblock arXiv preprint (v1 26 Nov 2024, v2 11 Jun 2025). No publication venue
+  found on the arXiv page.
+
+\bibitem[Chen et~al.(2021)Chen, Kwan, Ma, Choi, Lo, Au, Tsang, Cheng, and
+  Feldman]{chen2021retrospective}
+Jieying Chen, Lok~Ching Kwan, Lok~Yeung Ma, Hiu~Yee Choi, Ying~Ching Lo,
+  Shin~Yee Au, Chi~Ho Tsang, Bo~Ley Cheng, and Gilad Feldman.
+\newblock Retrospective and prospective hindsight bias: Replications and
+  extensions of {F}ischhoff (1975) and {S}lovic and {F}ischhoff (1977).
+\newblock \emph{Journal of Experimental Social Psychology}, 96:\penalty0
+  104154, 2021.
+\newblock \doi{10.1016/j.jesp.2021.104154}.
+
+\bibitem[Chen et~al.(2024)Chen, Zaharia, and Zou]{chen2024chatgpt}
+Lingjiao Chen, Matei Zaharia, and James Zou.
+\newblock How is {ChatGPT}'s behavior changing over time?
+\newblock \emph{Harvard Data Science Review}, 6\penalty0 (2), 2024.
+\newblock \doi{10.1162/99608f92.5317da47}.
+
+\bibitem[Christian and Mazor(2026)]{christian2026selfblinding}
+Brian Christian and Matan Mazor.
+\newblock Self-blinding and counterfactual self-simulation mitigate biases and
+  sycophancy in large language models, 2026.
+\newblock URL \url{https://arxiv.org/abs/2601.14553}.
+\newblock arXiv preprint (v1 21 Jan 2026). No publication venue found.
+
+\bibitem[Costello and Watts(2014)]{costello2014surprisingly}
+Fintan Costello and Paul Watts.
+\newblock Surprisingly rational: Probability theory plus noise explains biases
+  in judgment.
+\newblock \emph{Psychological Review}, 121\penalty0 (3):\penalty0 463--480,
+  2014.
+\newblock \doi{10.1037/a0037010}.
+
+\bibitem[Dai and Wang(2026)]{dai2026beyond}
+Yuyang Dai and Yuxia Wang.
+\newblock Beyond 0-100: How confidence scale design shapes verbalized
+  confidence and {LLM} metacognition, 2026.
+\newblock URL \url{https://arxiv.org/abs/2603.09309}.
+\newblock arXiv preprint (v1 10 Mar 2026, v4 24 Oct 2026). No publication venue
+  found.
+
+\bibitem[Dehaene(1997)]{dehaene1997number}
+Stanislas Dehaene.
+\newblock \emph{The Number Sense: How the Mind Creates Mathematics}.
+\newblock Oxford University Press, New York, 1997.
+\newblock ISBN 978-0-19-511004-3.
+
+\bibitem[Dehaene and Mehler(1992)]{dehaene1992cross}
+Stanislas Dehaene and Jacques Mehler.
+\newblock Cross-linguistic regularities in the frequency of number words.
+\newblock \emph{Cognition}, 43\penalty0 (1):\penalty0 1--29, 1992.
+\newblock \doi{10.1016/0010-0277(92)90030-L}.
+
+\bibitem[Eddy(1982)]{eddy1982probabilistic}
+David~M. Eddy.
+\newblock Probabilistic reasoning in clinical medicine: Problems and
+  opportunities.
+\newblock In Daniel Kahneman, Paul Slovic, and Amos Tversky, editors,
+  \emph{Judgment under Uncertainty: Heuristics and Biases}, pages 249--267.
+  Cambridge University Press, Cambridge, 1982.
+\newblock \doi{10.1017/CBO9780511809477.019}.
+
+\bibitem[Feldhus et~al.(2026)Feldhus, Baeumel, Golimblevskaia,
+  et~al.]{feldhus2026judge}
+Nils Feldhus, Theresa Baeumel, Ekaterina Golimblevskaia, et~al.
+\newblock Judge circuits explain format-induced inconsistency in
+  {LLM}-as-a-judge, 2026.
+\newblock URL \url{https://arxiv.org/abs/2605.16023}.
+\newblock arXiv preprint (v4 Sep 2026).
+
+\bibitem[Fischhoff(1975)]{fischhoff1975hindsight}
+Baruch Fischhoff.
+\newblock Hindsight $\neq$ foresight: The effect of outcome knowledge on
+  judgment under uncertainty.
+\newblock \emph{Journal of Experimental Psychology: Human Perception and
+  Performance}, 1\penalty0 (3):\penalty0 288--299, 1975.
+\newblock \doi{10.1037/0096-1523.1.3.288}.
+\newblock Crossref spells the title "Hindsight is not equal to foresight"; the
+  printed title uses the not-equal sign.
+
+\bibitem[Gigerenzer and Hoffrage(1995)]{gigerenzer1995improve}
+Gerd Gigerenzer and Ulrich Hoffrage.
+\newblock How to improve {B}ayesian reasoning without instruction: Frequency
+  formats.
+\newblock \emph{Psychological Review}, 102\penalty0 (4):\penalty0 684--704,
+  1995.
+\newblock \doi{10.1037/0033-295X.102.4.684}.
+
+\bibitem[Haran et~al.(2010)Haran, Moore, and Morewedge]{haran2010simple}
+Uriel Haran, Don~A. Moore, and Carey~K. Morewedge.
+\newblock A simple remedy for overprecision in judgment.
+\newblock \emph{Judgment and Decision Making}, 5\penalty0 (7):\penalty0
+  467--476, 2010.
+\newblock \doi{10.1017/S1930297500001637}.
+
+\bibitem[Herzog and Hertwig(2009)]{herzog2009wisdom}
+Stefan~M. Herzog and Ralph Hertwig.
+\newblock The wisdom of many in one mind: Improving individual judgments with
+  dialectical bootstrapping.
+\newblock \emph{Psychological Science}, 20\penalty0 (2):\penalty0 231--237,
+  2009.
+\newblock \doi{10.1111/j.1467-9280.2009.02271.x}.
+
+\bibitem[Horton et~al.(2023)Horton, Filippas, and Manning]{horton2023homo}
+John~J. Horton, Apostolos Filippas, and Benjamin~S. Manning.
+\newblock Large language models as simulated economic agents: What can we learn
+  from homo silicus?, 2023.
+\newblock URL \url{https://arxiv.org/abs/2301.07543}.
+\newblock arXiv preprint, v1 18 Jan 2023, v2 26 Feb 2026 (cite v2 for the
+  status-quo results). No journal reference on arXiv.
+
+\bibitem[Howe et~al.(2022)Howe, Perfors, Walker, Kashima, and
+  Fay]{howe2022base}
+Piers D.~L. Howe, Andrew Perfors, Bradley Walker, Yoshihisa Kashima, and
+  Nicolas Fay.
+\newblock Base rate neglect and conservatism in probabilistic reasoning:
+  Insights from eliciting full distributions.
+\newblock \emph{Judgment and Decision Making}, 17\penalty0 (5):\penalty0
+  962--987, 2022.
+\newblock \doi{10.1017/S1930297500009281}.
+
+\bibitem[Huang et~al.(2025)Huang, Bie, Na, Ruan, Lei, Yue, and
+  He]{huang2025understanding}
+Yiming Huang, Biquan Bie, Zuqiu Na, Weilin Ruan, Songxin Lei, Yutao Yue, and
+  Xinlei He.
+\newblock Understanding the anchoring effect of {LLM} with synthetic data:
+  Existence, mechanism, and potential mitigations, 2025.
+\newblock URL \url{https://arxiv.org/abs/2505.15392}.
+\newblock arXiv preprint (v1 21 May 2025, v2 29 Mar 2026). arXiv comment:
+  accepted by the HCAIR workshop of ICLR 2026 (workshop; no proceedings pages).
+  Dataset SynAnchors.
+
+\bibitem[Imannezhad et~al.(2026)Imannezhad, Pothos, and
+  Wills]{imannezhad2026divergent}
+Pegah Imannezhad, Emmanuel~M. Pothos, and Andy~J. Wills.
+\newblock Divergent patterns of probabilistic reasoning in humans and {GPT}-5.
+\newblock \emph{Frontiers in Psychology}, 17:\penalty0 1782184, 2026.
+\newblock \doi{10.3389/fpsyg.2026.1782184}.
+
+\bibitem[Jachimowicz et~al.(2019)Jachimowicz, Duncan, Weber, and
+  Johnson]{jachimowicz2019defaults}
+Jon~M. Jachimowicz, Shannon Duncan, Elke~U. Weber, and Eric~J. Johnson.
+\newblock When and why defaults influence decisions: A meta-analysis of default
+  effects.
+\newblock \emph{Behavioural Public Policy}, 3\penalty0 (2):\penalty0 159--186,
+  2019.
+\newblock \doi{10.1017/bpp.2018.43}.
+
+\bibitem[Jacowitz and Kahneman(1995)]{jacowitz1995measures}
+Karen~E. Jacowitz and Daniel Kahneman.
+\newblock Measures of anchoring in estimation tasks.
+\newblock \emph{Personality and Social Psychology Bulletin}, 21\penalty0
+  (11):\penalty0 1161--1166, 1995.
+\newblock \doi{10.1177/01461672952111004}.
+
+\bibitem[Jansen and Pollmann(2001)]{jansen2001round}
+Carel J.~M. Jansen and Thijs M.~W. Pollmann.
+\newblock On round numbers: Pragmatic aspects of numerical expressions.
+\newblock \emph{Journal of Quantitative Linguistics}, 8\penalty0 (3):\penalty0
+  187--201, 2001.
+\newblock \doi{10.1076/jqul.8.3.187.4095}.
+
+\bibitem[Jhang(2026)]{jhang2026hearsay}
+An-Sheng Jhang.
+\newblock Hearsay or fact? how framing and elicitation shape {LLM} probability
+  updates, 2026.
+\newblock URL \url{https://arxiv.org/abs/2610.27745}.
+\newblock arXiv preprint, v1 20 Oct 2026.
+
+\bibitem[Jiang et~al.(2024)Jiang, Xie, Hao, Wang, Mallick, Su, Taylor, and
+  Roth]{jiang2024peek}
+Bowen Jiang, Yangxinyu Xie, Zhuoqun Hao, Xiaomeng Wang, Tanwi Mallick,
+  Weijie~J. Su, Camillo~Jose Taylor, and Dan Roth.
+\newblock A peek into token bias: Large language models are not yet genuine
+  reasoners.
+\newblock In \emph{Proceedings of the 2024 Conference on Empirical Methods in
+  Natural Language Processing}, pages 4722--4756, Miami, Florida, USA, 2024.
+  Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.emnlp-main.272}.
+\newblock URL \url{https://aclanthology.org/2024.emnlp-main.272/}.
+
+\bibitem[Johnson and Goldstein(2003)]{johnson2003defaults}
+Eric~J. Johnson and Daniel Goldstein.
+\newblock Do defaults save lives?
+\newblock \emph{Science}, 302\penalty0 (5649):\penalty0 1338--1339, 2003.
+\newblock \doi{10.1126/science.1091721}.
+
+\bibitem[Kahneman and Tversky(1973)]{kahneman1973psychology}
+Daniel Kahneman and Amos Tversky.
+\newblock On the psychology of prediction.
+\newblock \emph{Psychological Review}, 80\penalty0 (4):\penalty0 237--251,
+  1973.
+\newblock \doi{10.1037/h0034747}.
+
+\bibitem[Kamath et~al.(2026)Kamath, Madathil, Schuster, {de Marneffe}, and
+  Reddy]{kamath2026humans}
+Gaurav Kamath, Sreenath Madathil, Sebastian Schuster, Marie-Catherine {de
+  Marneffe}, and Siva Reddy.
+\newblock Humans and {LLM}s diverge on probabilistic inferences.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  14:\penalty0 2057--2080, 2026.
+\newblock \doi{10.1162/tacl.a.791}.
+\newblock URL \url{https://aclanthology.org/2026.tacl-1.93/}.
+
+\bibitem[Kao et~al.(2014)Kao, Wu, Bergen, and Goodman]{kao2014nonliteral}
+Justine~T. Kao, Jean~Y. Wu, Leon Bergen, and Noah~D. Goodman.
+\newblock Nonliteral understanding of number words.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 111\penalty0
+  (33):\penalty0 12002--12007, 2014.
+\newblock \doi{10.1073/pnas.1407479111}.
+
+\bibitem[Kim and Kang(2026)]{kim2026same}
+Hankyeol Kim and Pilsung Kang.
+\newblock Same answer, different confidence: Protocol sensitivity in measuring
+  {LLM} confidence, 2026.
+\newblock URL \url{https://arxiv.org/abs/2605.27752}.
+\newblock arXiv preprint (v4 23 Oct 2026; v4 reports five open LLMs and four QA
+  datasets). No publication venue found.
+
+\bibitem[Krifka(2002)]{krifka2002brief}
+Manfred Krifka.
+\newblock Be brief and vague! and how bidirectional optimality theory allows
+  for verbosity and precision.
+\newblock In David Restle and Dietmar Zaefferer, editors, \emph{Sounds and
+  Systems: Studies in Structure and Change. A Festschrift for Theo Vennemann},
+  volume 141 of \emph{Trends in Linguistics. Studies and Monographs}, pages
+  439--458. Mouton de Gruyter, Berlin, 2002.
+
+\bibitem[Krifka(2007)]{krifka2007approximate}
+Manfred Krifka.
+\newblock Approximate interpretation of number words: A case for strategic
+  communication.
+\newblock In Gerlof Bouma, Irene Kr{\"a}mer, and Joost Zwarts, editors,
+  \emph{Cognitive Foundations of Interpretation}, pages 111--126. Royal
+  Netherlands Academy of Arts and Sciences (KNAW), Amsterdam, 2007.
+
+\bibitem[Krohling(2023)]{krohling2023bayesian}
+Renato~A. Krohling.
+\newblock {B}ayesian artificial brain with {ChatGPT}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2308.14732}.
+\newblock arXiv preprint (v1 28 Aug 2023). No publication venue found.
+
+\bibitem[Levin et~al.(1998)Levin, Schneider, and Gaeth]{levin1998all}
+Irwin~P. Levin, Sandra~L. Schneider, and Gary~J. Gaeth.
+\newblock All frames are not created equal: A typology and critical analysis of
+  framing effects.
+\newblock \emph{Organizational Behavior and Human Decision Processes},
+  76\penalty0 (2):\penalty0 149--188, 1998.
+\newblock \doi{10.1006/obhd.1998.2804}.
+
+\bibitem[Li and Rui(2024)]{li2024dual}
+Shenxiong Li and Huaxia Rui.
+\newblock Dual traits in probabilistic reasoning of large language models,
+  2024.
+\newblock URL \url{https://arxiv.org/abs/2412.11009}.
+\newblock arXiv preprint (v1 15 Dec 2024). No publication venue found.
+
+\bibitem[Li et~al.(2026)Li, Wang, El~Lahib, Xia, and Pi]{li2026simulated}
+Zehan Li, Yuxuan Wang, Ali El~Lahib, Ying-Jieh Xia, and Xinyu Pi.
+\newblock Simulated ignorance fails: A systematic study of {LLM} behaviors on
+  forecasting problems before model knowledge cutoff.
+\newblock In \emph{Proceedings of the Thirty-Fifth International Joint
+  Conference on Artificial Intelligence (IJCAI-26)}, pages 5837--5845, 2026.
+\newblock \doi{10.24963/ijcai.2026/650}.
+\newblock URL \url{https://www.ijcai.org/proceedings/2026/650}.
+
+\bibitem[Litvinova et~al.(2020)Litvinova, Herzog, Kall, Pleskac, and
+  Hertwig]{litvinova2020inner}
+Aleksandra Litvinova, Stefan~M. Herzog, Alice~A. Kall, Timothy~J. Pleskac, and
+  Ralph Hertwig.
+\newblock How the "wisdom of the inner crowd" can boost accuracy of confidence
+  judgments.
+\newblock \emph{Decision}, 7\penalty0 (3):\penalty0 183--211, 2020.
+\newblock \doi{10.1037/dec0000119}.
+
+\bibitem[Lou and Sun(2026)]{lou2026anchoring}
+Jiaxu Lou and Yifan Sun.
+\newblock Anchoring bias in large language models: An experimental study.
+\newblock \emph{Journal of Computational Social Science}, 9\penalty0
+  (1):\penalty0 11, 2026.
+\newblock \doi{10.1007/s42001-025-00435-2}.
+\newblock Article number 11; published online 5 Dec 2025 (Crossref), volume 9
+  is the 2026 volume. Preprint arXiv:2412.06593 (v1 9 Dec 2024).
+
+\bibitem[Macmillan-Scott and Musolesi(2024)]{macmillanscott2024irrationality}
+Olivia Macmillan-Scott and Mirco Musolesi.
+\newblock (ir)rationality and cognitive biases in large language models.
+\newblock \emph{Royal Society Open Science}, 11\penalty0 (6):\penalty0 240255,
+  2024.
+\newblock \doi{10.1098/rsos.240255}.
+
+\bibitem[Malberg et~al.(2025)Malberg, Poletukhin, Schuster, and
+  Groh]{malberg2025comprehensive}
+Simon Malberg, Roman Poletukhin, Carolin~M. Schuster, and Georg Groh.
+\newblock A comprehensive evaluation of cognitive biases in {LLM}s.
+\newblock In \emph{Proceedings of the 5th International Conference on Natural
+  Language Processing for Digital Humanities}, pages 578--613. Association for
+  Computational Linguistics, 2025.
+\newblock \doi{10.18653/v1/2025.nlp4dh-1.50}.
+
+\bibitem[Matsuura et~al.(2026)Matsuura, Kumar, Kadam, and
+  Weiss]{matsuura2026hindsight}
+Misaki Matsuura, Sayantan Kumar, Ojas Kadam, and Jeremy~C. Weiss.
+\newblock Hindsight bias in clinical temporal reasoning: How future data
+  exposure affects large language model judgment.
+\newblock In \emph{Machine Learning for Health Symposium (ML4H 2026)}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2609.13454}.
+\newblock Venue from the arXiv comment only; proceedings entry not located.
+
+\bibitem[McCoy et~al.(2024)McCoy, Yao, Friedman, Hardy, and
+  Griffiths]{mccoy2024embers}
+R.~Thomas McCoy, Shunyu Yao, Dan Friedman, Matthew Hardy, and Thomas~L.
+  Griffiths.
+\newblock Embers of autoregression show how large language models are shaped by
+  the problem they are trained to solve.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 121\penalty0
+  (41):\penalty0 e2322420121, 2024.
+\newblock \doi{10.1073/pnas.2322420121}.
+
+\bibitem[Michael et~al.(2026)Michael, BenShushan, Bien, and
+  Moore]{michael2026confidence}
+Noam Michael, Daniel BenShushan, Jacob Bien, and Don~A. Moore.
+\newblock Confidence calibration in large language models, 2026.
+\newblock URL \url{https://arxiv.org/abs/2605.23909}.
+\newblock arXiv preprint (v1 dated 3 Apr 2026 on the abstract page). No
+  publication venue found.
+
+\bibitem[Mussweiler et~al.(2000)Mussweiler, Strack, and
+  Pfeiffer]{mussweiler2000overcoming}
+Thomas Mussweiler, Fritz Strack, and Tim Pfeiffer.
+\newblock Overcoming the inevitable anchoring effect: Considering the opposite
+  compensates for selective accessibility.
+\newblock \emph{Personality and Social Psychology Bulletin}, 26\penalty0
+  (9):\penalty0 1142--1150, 2000.
+\newblock \doi{10.1177/01461672002611010}.
+
+\bibitem[Pellert et~al.(2024)Pellert, Lechner, Wagner, Rammstedt, and
+  Strohmaier]{pellert2024ai}
+Max Pellert, Clemens~M. Lechner, Claudia Wagner, Beatrice Rammstedt, and Markus
+  Strohmaier.
+\newblock {AI} psychometrics: Assessing the psychological profiles of large
+  language models through psychometric inventories.
+\newblock \emph{Perspectives on Psychological Science}, 19\penalty0
+  (5):\penalty0 881--899, 2024.
+\newblock \doi{10.1177/17456916231214460}.
+
+\bibitem[Razeghi et~al.(2022)Razeghi, Logan~IV, Gardner, and
+  Singh]{razeghi2022impact}
+Yasaman Razeghi, Robert~L. Logan~IV, Matt Gardner, and Sameer Singh.
+\newblock Impact of pretraining term frequencies on few-shot numerical
+  reasoning.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2022}, pages 840--854, Abu Dhabi, United Arab Emirates, 2022.
+  Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2022.findings-emnlp.59}.
+\newblock URL \url{https://aclanthology.org/2022.findings-emnlp.59/}.
+
+\bibitem[Roemmele et~al.(2011)Roemmele, Bejan, and Gordon]{roemmele2011choice}
+Melissa Roemmele, Cosmin~Adrian Bejan, and Andrew~S. Gordon.
+\newblock Choice of plausible alternatives: An evaluation of commonsense causal
+  reasoning.
+\newblock In \emph{Logical Formalizations of Commonsense Reasoning: Papers from
+  the 2011 {AAAI} Spring Symposium (Technical Report SS-11-06)}, Stanford,
+  California, USA, 2011. AAAI Press.
+
+\bibitem[Roese and Vohs(2012)]{roese2012hindsight}
+Neal~J. Roese and Kathleen~D. Vohs.
+\newblock Hindsight bias.
+\newblock \emph{Perspectives on Psychological Science}, 7\penalty0
+  (5):\penalty0 411--426, 2012.
+\newblock \doi{10.1177/1745691612454303}.
+
+\bibitem[Samuelson and Zeckhauser(1988)]{samuelson1988status}
+William Samuelson and Richard Zeckhauser.
+\newblock Status quo bias in decision making.
+\newblock \emph{Journal of Risk and Uncertainty}, 1\penalty0 (1):\penalty0
+  7--59, 1988.
+\newblock \doi{10.1007/BF00055564}.
+
+\bibitem[Singh and Strouse(2024)]{singh2024tokenization}
+Aaditya~K. Singh and D.~J. Strouse.
+\newblock Tokenization counts: the impact of tokenization on arithmetic in
+  frontier {LLM}s, 2024.
+\newblock URL \url{https://arxiv.org/abs/2402.14903}.
+\newblock arXiv preprint.
+
+\bibitem[Song et~al.(2026)Song, Choi, Park, Han, Lee, and Jo]{song2026human}
+Wonjun Song, Dongjae Choi, Yejin Park, Jiseon Han, Eun-Ju Lee, and Yohan Jo.
+\newblock Human psychometric questionnaires mischaracterize {LLM} behavior.
+\newblock In \emph{Proceedings of the 2026 Conference on Empirical Methods in
+  Natural Language Processing}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2509.10078}.
+
+\bibitem[Steegen et~al.(2014)Steegen, Dewitte, Tuerlinckx, and
+  Vanpaemel]{steegen2014measuring}
+Sara Steegen, Laura Dewitte, Francis Tuerlinckx, and Wolf Vanpaemel.
+\newblock Measuring the crowd within again: A pre-registered replication study.
+\newblock \emph{Frontiers in Psychology}, 5:\penalty0 786, 2014.
+\newblock \doi{10.3389/fpsyg.2014.00786}.
+
+\bibitem[Takenami et~al.(2025)Takenami, Huang, Murawaki, and
+  Chu]{takenami2025anchoring}
+Yoshiki Takenami, Yin~Jou Huang, Yugo Murawaki, and Chenhui Chu.
+\newblock How does cognitive bias affect large language models? a case study on
+  the anchoring effect in price negotiation simulations.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2025}, pages 4481--4498, Suzhou, China, 2025. Association for
+  Computational Linguistics.
+\newblock \doi{10.18653/v1/2025.findings-emnlp.240}.
+\newblock URL \url{https://aclanthology.org/2025.findings-emnlp.240/}.
+
+\bibitem[Tian et~al.(2023)Tian, Mitchell, Zhou, Sharma, Rafailov, Yao, Finn,
+  and Manning]{tian2023just}
+Katherine Tian, Eric Mitchell, Allan Zhou, Archit Sharma, Rafael Rafailov,
+  Huaxiu Yao, Chelsea Finn, and Christopher Manning.
+\newblock Just ask for calibration: Strategies for eliciting calibrated
+  confidence scores from language models fine-tuned with human feedback.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, pages 5433--5442, Singapore, 2023. Association
+  for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.emnlp-main.330}.
+\newblock URL \url{https://aclanthology.org/2023.emnlp-main.330/}.
+
+\bibitem[Tsvilodub et~al.(2025)Tsvilodub, Gandhi, Zhao, Fr{\"a}nken, Franke,
+  and Goodman]{tsvilodub2025nonliteral}
+Polina Tsvilodub, Kanishk Gandhi, Haoran Zhao, Jan-Philipp Fr{\"a}nken, Michael
+  Franke, and Noah~D. Goodman.
+\newblock Non-literal understanding of number words by language models.
+\newblock In \emph{Proceedings of the Annual Meeting of the Cognitive Science
+  Society (CogSci 2025)}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2502.06204}.
+
+\bibitem[Tversky and Kahneman(1983)]{tversky1983extensional}
+Amos Tversky and Daniel Kahneman.
+\newblock Extensional versus intuitive reasoning: The conjunction fallacy in
+  probability judgment.
+\newblock \emph{Psychological Review}, 90\penalty0 (4):\penalty0 293--315,
+  1983.
+\newblock \doi{10.1037/0033-295X.90.4.293}.
+
+\bibitem[Vaugrante and Hagendorff(2026)]{vaugrante2026how}
+L{\'e}o Vaugrante and Thilo Hagendorff.
+\newblock How much do {LLM}-as-a-judge design choices matter? a systematic
+  comparison of prompt designs, rating scales, and models, 2026.
+\newblock URL \url{https://arxiv.org/abs/2610.05094}.
+\newblock arXiv preprint (v1 Oct 2026).
+
+\bibitem[Vul and Pashler(2008)]{vul2008crowd}
+Edward Vul and Harold Pashler.
+\newblock Measuring the crowd within: Probabilistic representations within
+  individuals.
+\newblock \emph{Psychological Science}, 19\penalty0 (7):\penalty0 645--647,
+  2008.
+\newblock \doi{10.1111/j.1467-9280.2008.02136.x}.
+
+\bibitem[Wang et~al.(2025)Wang, Ma, and Liu]{wang2025distribute}
+Ante Wang, Weizhi Ma, and Yang Liu.
+\newblock Let the model distribute its doubt: Confidence estimation through
+  verbalized probability distribution, 2025.
+\newblock URL \url{https://arxiv.org/abs/2511.14275}.
+\newblock arXiv preprint (v1 18 Nov 2025, v2 1 Apr 2026). No publication venue
+  found.
+
+\bibitem[Wang et~al.(2024)Wang, Xiao, Chen, and Oswald]{wang2024real}
+Pengda Wang, Zilin Xiao, Hanjie Chen, and Frederick~L. Oswald.
+\newblock Will the real {L}inda please stand up...to large language models?
+  examining the representativeness heuristic in {LLM}s.
+\newblock In \emph{Conference on Language Modeling (COLM 2024)}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.01461}.
+\newblock Venue from the arXiv comment ("Published as a conference paper at
+  COLM 2024"); no page numbers.
+
+\bibitem[Wang and Stengel-Eskin(2026)]{wang2026dinco}
+Victor Wang and Elias Stengel-Eskin.
+\newblock Calibrating verbalized confidence with self-generated distractors.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2026.
+\newblock URL \url{https://www.iclr.cc/virtual/2026/poster/10007320}.
+\newblock ICLR 2026 poster (ICLR site and arXiv comment). Page numbers not
+  given.
+
+\bibitem[Xiong et~al.(2024)Xiong, Hu, Lu, Li, Fu, He, and Hooi]{xiong2024llms}
+Miao Xiong, Zhiyuan Hu, Xinyang Lu, Yifei Li, Jie Fu, Junxian He, and Bryan
+  Hooi.
+\newblock Can {LLM}s express their uncertainty? an empirical evaluation of
+  confidence elicitation in {LLM}s.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2024.
+\newblock URL \url{https://iclr.cc/virtual/2024/poster/18135}.
+\newblock ICLR 2024 (arXiv comment and ICLR site). Page numbers not given.
+
+\bibitem[Yax et~al.(2024)Yax, Anll{\'o}, and Palminteri]{yax2024studying}
+Nicolas Yax, Hern{\'a}n Anll{\'o}, and Stefano Palminteri.
+\newblock Studying and improving reasoning in humans and machines.
+\newblock \emph{Communications Psychology}, 2\penalty0 (1):\penalty0 51, 2024.
+\newblock \doi{10.1038/s44271-024-00091-8}.
+
+\bibitem[Zhang et~al.(2025)Zhang, Yu, Chong, Sicilia, Tomz, Manning, and
+  Shi]{zhang2025verbalized}
+Jiayi Zhang, Simon Yu, Derek Chong, Anthony Sicilia, Michael~R. Tomz,
+  Christopher~D. Manning, and Weiyan Shi.
+\newblock Verbalized sampling: How to mitigate mode collapse and unlock {LLM}
+  diversity, 2025.
+\newblock URL \url{https://arxiv.org/abs/2510.01171}.
+\newblock arXiv preprint (v1 1 Oct 2025, v4 15 Jul 2026).
+
+\bibitem[Zhou et~al.(2023)Zhou, Jurafsky, and Hashimoto]{zhou2023navigating}
+Kaitlyn Zhou, Dan Jurafsky, and Tatsunori Hashimoto.
+\newblock Navigating the grey area: How expressions of uncertainty and
+  overconfidence affect language models.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, pages 5506--5524, Singapore, 2023. Association
+  for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.emnlp-main.335}.
+\newblock URL \url{https://aclanthology.org/2023.emnlp-main.335/}.
+
+\bibitem[Zhu and Griffiths(2024)]{zhu2024incoherent}
+Jian-Qiao Zhu and Thomas~L. Griffiths.
+\newblock Incoherent probability judgments in large language models.
+\newblock In \emph{Proceedings of the Annual Meeting of the Cognitive Science
+  Society}, volume~46, 2024.
+\newblock CogSci 2024 (arXiv journal-ref).
+
+\bibitem[Zhu et~al.(2020)Zhu, Sanborn, and Chater]{zhu2020bayesian}
+Jian-Qiao Zhu, Adam~N. Sanborn, and Nick Chater.
+\newblock The {B}ayesian sampler: Generic {B}ayesian inference causes
+  incoherence in human probability judgments.
+\newblock \emph{Psychological Review}, 127\penalty0 (5):\penalty0 719--748,
+  2020.
+\newblock \doi{10.1037/rev0000190}.
+
+\end{thebibliography}

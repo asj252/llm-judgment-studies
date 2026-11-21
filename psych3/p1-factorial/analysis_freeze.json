@@ -1,0 +1,81 @@
+{
+  "created_utc": "2026-11-10T12:35:46.339773+00:00",
+  "stage": "stage1_pending_independent_c_audit",
+  "pilot_gates_pass": true,
+  "drive_archive_complete": true,
+  "formal_authorized": false,
+  "execution_dependencies": {
+    "connecting-dots/psych3/factorial-pf-asc-20261110/build_banks.py": "414f57a83e6246f8694a75b7d76ed243ab480ad8c7b563bf31b2741285d1cf54",
+    "connecting-dots/psych3/factorial-pf-asc-20261110/run_p1_factorial.py": "0cb0baeafd46f5cf99f2feb2448e3573ad071b3864e0686900af4df64f46a3ae",
+    "connecting-dots/psych3/factorial-pf-asc-20261110/analyze_p1_factorial.py": "68663fc3a128332ea69f860010cd26d6717d7c2b9a6a46bcf87a23ba97504db9",
+    "connecting-dots/psych3/factorial-pf-asc-20261110/bank_probe.json": "653ba498ee553fb8641fc74be5ca6367f658a3cce758065d0b21443dd8ee0501",
+    "connecting-dots/psych3/factorial-pf-asc-20261110/bank_pilot.json": "d55e61d2bd13b447ef393948da705ca61846c74a9be8fe311d4b6d9df5799ae4",
+    "connecting-dots/psych3/factorial-pf-asc-20261110/bank_formal.json": "8446069dd0beacc7ac2d6b10bacc12a8275c3ec66ea4d04a72b2d0019fbe25ef",
+    "connecting-dots/psych3/factorial-pf-asc-20261110/archive_pilot.py": "9e84c352424b2cad3b72291b2e8b4300da273c8e23b1da7e2c4dec7abae0993e",
+    "connecting-dots/psych3/factorial-pf-asc-20261110/freeze_stage1.py": "73edc13b7670b75a2cddf6d07c03d248eb8610e1126059d17ca9e55f4b71a380",
+    "connecting-dots/psych3/factorial-pf-asc-20261110/check_stage1.py": "0e740e987e8ab923c708bae4431dcdc867ee9b8b5d8efe38ee8f8ff1912382ad",
+    "connecting-dots/psych3/factorial-pf-asc-20261110/finish_stage1.py": "27fc921b9b59030720834caf229d9edf9682b7d5254f9257542cba5b4122dafb",
+    "connecting-dots/mcv_standard.py": "d0ee21189e5e2726b04785de9acac8cf57bf1bf060c15839c3c0bc82301789d5",
+    "connecting-dots/psych3/factorial-pf-asc-20261110/dev_v3_sources/bank_pilot.json": "d55e61d2bd13b447ef393948da705ca61846c74a9be8fe311d4b6d9df5799ae4",
+    "connecting-dots/psych3/factorial-pf-asc-20261110/dev_v3_sources/build_banks.py": "414f57a83e6246f8694a75b7d76ed243ab480ad8c7b563bf31b2741285d1cf54",
+    "connecting-dots/psych3/factorial-pf-asc-20261110/dev_v3_sources/run_p1_factorial.py": "ffa79cbe7058a41b2306c8ca4a5476c2fc4210179ff6732dcd392e57941e8650",
+    "connecting-dots/psych3/factorial-pf-asc-20261110/dev_v3_sources/run_p1_factorial_rev6_pilot.py": "d2746604e3357aa5fdf9c74f5c056c79f9572aee9bcc8bbe79480f7ab9413f57"
+  },
+  "reference_only_provenance": {
+    "connecting-dots/psych3/p1-narrative-baserate-20261105/prompts_p1.py": "3d5d1e0cabd659e602a8c35916762582b4c9578a0e1aa829d244dcbd95d652fd",
+    "connecting-dots/psych3/stage2c-crossover-20261105/run_stage2c_suite.py": "b6aa474db19c2d1d1cf55f42e693d57c53a73c507ca7b8fc71d4fd7aa274e75c"
+  },
+  "artifacts": {
+    "connecting-dots/psych3/factorial-pf-asc-20261110/summary_p1_pilot.json": "6447351bef86eb42a77b1e46bd1442ca466d255dc7b07b30f226433083464309",
+    "connecting-dots/psych3/factorial-pf-asc-20261110/drive_manifest.json": "850a0f08a29bb8eeddbda3da1d1781476f77e8a1339f3e01767b70e588021951",
+    "connecting-dots/psych3/factorial-pf-asc-20261110/dev_v1_provenance.json": "e313be3cbcaddb8dac5c8af0c558bd0e191e610f86a1a64adc23f8de9abf7af0"
+  },
+  "B": 10000,
+  "seed": 20261110,
+  "max_tokens": 2048,
+  "max_attempts": 4,
+  "temperature": 0.7,
+  "top_p": 0.95,
+  "models": {
+    "sf:qwen3-8b": [
+      "https://api.siliconflow.cn/v1/chat/completions",
+      "SILICONFLOW_API_KEY",
+      "Qwen/Qwen3-8B",
+      0.25
+    ],
+    "aistudio:gemma-4-26b-a4b-it": [
+      "https://generativelanguage.googleapis.com/v1beta/models/gemma-4-26b-a4b-it:generateContent",
+      "GEMINI_API_KEY",
+      "gemma-4-26b-a4b-it",
+      0.5
+    ],
+    "nv:nemotron-3.5-super-vl-120b": [
+      "https://integrate.api.nvidia.com/v1/chat/completions",
+      "NVIDIA_API_KEY",
+      "nvidia/nemotron-3.5-super-vl-120b-a12b",
+      0.3
+    ],
+    "xf:spark-x2.6": [
+      "https://maas-api.cn-huabei-1.xf-yun.com/v2/chat/completions",
+      "XF_MAAS_API_KEY",
+      "spark-x2.6",
+      0.25
+    ]
+  },
+  "python_version": "3.11.2 (main, Oct  7 2026, 12:35:07) [GCC 12.2.0]",
+  "numpy_version": "1.24.2",
+  "SESOI": {
+    "MAE": 1.5,
+    "FrameGap": 2.0,
+    "Echo_D2": 5.0,
+    "cand_str_copy_any": 5.0
+  },
+  "provider_adapter": "Inline in run_p1_factorial.py; urllib standard library",
+  "pilot_job_ids": [
+    "psych3_p1_pilot_sf_qwen3_8b_v3",
+    "psych3_p1_pilot_aistudio_gemma4_26b_v3",
+    "psych3_p1_pilot_nv_nemotron_35_super_vl_120b_v3",
+    "psych3_p1_pilot_xf_spark_x26_v3"
+  ],
+  "pilot_remediation": "See dev_v1_provenance.json: v1/v2/v3 probes retained separately; SF/Gemma reused with historical source snapshots; NV/XF newly collected under Rev6 roster. No Formal response viewed."
+}

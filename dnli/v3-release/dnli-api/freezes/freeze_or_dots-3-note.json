@@ -1,0 +1,75 @@
+{
+  "schema": "dnli-api-model-freeze-v1",
+  "config": "or:dots-3-note",
+  "frozen_at": "2026-11-05T01:53:56Z",
+  "dev": {
+    "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+    "fingerprint": {
+      "split.json": "3e09db9ac6e10375bf17e6254fbb6ad5992798f2a03a1ba93c4f896b5eeaf39b",
+      "items_text.json": "54e08df0874587377a259925f49ad8796de6ac4d05c0729fbfa7ae0cf479f67c",
+      "prompts.py": "cfa1f9399f2d6ce61dc7cf312108a2a5f3f18981cfbdba6b881d4d374134f902",
+      "parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+      "templates": "8d107ab0e3142f91e0ec816b16a64f9f3f6e8e07eeb1e4000fef372dcff3ee66",
+      "parse_rules": "2d8f229712ee56416548c8f6cf1c04e6cfd6b463fe0e0776134aefc438af23ed",
+      "sampling": {
+        "temperature": 0.6,
+        "top_k": 20,
+        "top_p": 0.95,
+        "max_output_tokens": 2048
+      },
+      "config": "or:dots-3-note",
+      "spec": {
+        "provider": "openrouter",
+        "model": "dots-studio/dots-3-note-preview:free",
+        "rpm": 18,
+        "max_output_tokens": 2048,
+        "enable_thinking": false,
+        "env_key": "OPENROUTER_API_KEY",
+        "description": "Dots Studio Dots3-Note Preview (thinking off) via OpenRouter free endpoint"
+      },
+      "blocks": "A",
+      "materials_digest": "ccd5097602b06e09293f6790136647db80fdcb765592f377b04b2758984c2a72",
+      "n_units_all": 2900,
+      "configs.py": "af73e321498f0b456a8846e333922f0ca7760c6be36ab3bb47a137d141661659",
+      "api_subject.py": "58936d59320b5bd031f16b82111869ccfac9de0c1085c67e0d00216c4a9fb30a",
+      "run_api.py": "e4526423025af37f0208d4f61892d6a438d49f05699db2faa8666e1616455495"
+    },
+    "n_planned_units": 300,
+    "schedule_sha256": "1fbf9663432496a12a55fabae08c8c5beef36c3af155abcd8a43b14f94b23e8f"
+  },
+  "formal": {
+    "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+    "fingerprint": {
+      "split.json": "3e09db9ac6e10375bf17e6254fbb6ad5992798f2a03a1ba93c4f896b5eeaf39b",
+      "items_text.json": "54e08df0874587377a259925f49ad8796de6ac4d05c0729fbfa7ae0cf479f67c",
+      "prompts.py": "cfa1f9399f2d6ce61dc7cf312108a2a5f3f18981cfbdba6b881d4d374134f902",
+      "parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+      "templates": "8d107ab0e3142f91e0ec816b16a64f9f3f6e8e07eeb1e4000fef372dcff3ee66",
+      "parse_rules": "2d8f229712ee56416548c8f6cf1c04e6cfd6b463fe0e0776134aefc438af23ed",
+      "sampling": {
+        "temperature": 0.6,
+        "top_k": 20,
+        "top_p": 0.95,
+        "max_output_tokens": 2048
+      },
+      "config": "or:dots-3-note",
+      "spec": {
+        "provider": "openrouter",
+        "model": "dots-studio/dots-3-note-preview:free",
+        "rpm": 18,
+        "max_output_tokens": 2048,
+        "enable_thinking": false,
+        "env_key": "OPENROUTER_API_KEY",
+        "description": "Dots Studio Dots3-Note Preview (thinking off) via OpenRouter free endpoint"
+      },
+      "blocks": "A",
+      "materials_digest": "ccd5097602b06e09293f6790136647db80fdcb765592f377b04b2758984c2a72",
+      "n_units_all": 2900,
+      "configs.py": "af73e321498f0b456a8846e333922f0ca7760c6be36ab3bb47a137d141661659",
+      "api_subject.py": "58936d59320b5bd031f16b82111869ccfac9de0c1085c67e0d00216c4a9fb30a",
+      "run_api.py": "e4526423025af37f0208d4f61892d6a438d49f05699db2faa8666e1616455495"
+    },
+    "n_planned_units": 1400,
+    "schedule_sha256": "d52cf0457c3d9c5f767b06a204723f8d06b6055769b3546d16ad6b96059d667b"
+  }
+}

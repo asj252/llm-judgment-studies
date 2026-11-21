@@ -1,0 +1,88 @@
+{
+  "_analysis_code": {
+    "B": 5000,
+    "analyse_api.py": "65726df3504c6fa382d86cb63adbeb5a23b55f58e7bd8a51fec904a22f4448ed",
+    "analysis.py": "a6928467e6a8ca5f175006ec1e5f54de7ef6cc1818a6beecdb57f54797a36533",
+    "api_subject.py": "58936d59320b5bd031f16b82111869ccfac9de0c1085c67e0d00216c4a9fb30a",
+    "run_api.py": "e4526423025af37f0208d4f61892d6a438d49f05699db2faa8666e1616455495",
+    "settings": "3dfee05d603a4a2b2252fbe116d33dd1fe9ebd7a181e2808841ed3eba1ea8f0b"
+  },
+  "config": "sf:glm-4-9b",
+  "dev": {
+    "fingerprint": {
+      "api_subject.py": "58936d59320b5bd031f16b82111869ccfac9de0c1085c67e0d00216c4a9fb30a",
+      "blocks": "A",
+      "config": "sf:glm-4-9b",
+      "configs.py": "e147217a1821fa0c099b41464d76cd352a01880421a8786006048032aa0bb138",
+      "items_text.json": "54e08df0874587377a259925f49ad8796de6ac4d05c0729fbfa7ae0cf479f67c",
+      "materials_digest": "ccd5097602b06e09293f6790136647db80fdcb765592f377b04b2758984c2a72",
+      "n_units_all": 2900,
+      "parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+      "parse_rules": "2d8f229712ee56416548c8f6cf1c04e6cfd6b463fe0e0776134aefc438af23ed",
+      "prompts.py": "cfa1f9399f2d6ce61dc7cf312108a2a5f3f18981cfbdba6b881d4d374134f902",
+      "run_api.py": "e4526423025af37f0208d4f61892d6a438d49f05699db2faa8666e1616455495",
+      "sampling": {
+        "max_output_tokens": 2048,
+        "temperature": 0.6,
+        "top_k": 20,
+        "top_p": 0.95
+      },
+      "spec": {
+        "description": "THUDM GLM-4 9B (0414) Instruct via SiliconFlow Free Tier",
+        "enable_thinking": false,
+        "env_key": "SILICONFLOW_API_KEY",
+        "max_output_tokens": 2048,
+        "model": "THUDM/GLM-4-9B-0414",
+        "provider": "siliconflow",
+        "rpm": 30
+      },
+      "split.json": "3e09db9ac6e10375bf17e6254fbb6ad5992798f2a03a1ba93c4f896b5eeaf39b",
+      "templates": "8d107ab0e3142f91e0ec816b16a64f9f3f6e8e07eeb1e4000fef372dcff3ee66"
+    },
+    "fingerprint_id": "b87110587de5cf8cfc0d7ade9532fd4e42cfd24ab9e46d9e4edb6e74ce991a89",
+    "n_planned_units": 300
+  },
+  "formal": {
+    "fingerprint": {
+      "api_subject.py": "58936d59320b5bd031f16b82111869ccfac9de0c1085c67e0d00216c4a9fb30a",
+      "blocks": "A",
+      "config": "sf:glm-4-9b",
+      "configs.py": "e147217a1821fa0c099b41464d76cd352a01880421a8786006048032aa0bb138",
+      "items_text.json": "54e08df0874587377a259925f49ad8796de6ac4d05c0729fbfa7ae0cf479f67c",
+      "materials_digest": "ccd5097602b06e09293f6790136647db80fdcb765592f377b04b2758984c2a72",
+      "n_units_all": 2900,
+      "parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+      "parse_rules": "2d8f229712ee56416548c8f6cf1c04e6cfd6b463fe0e0776134aefc438af23ed",
+      "prompts.py": "cfa1f9399f2d6ce61dc7cf312108a2a5f3f18981cfbdba6b881d4d374134f902",
+      "run_api.py": "e4526423025af37f0208d4f61892d6a438d49f05699db2faa8666e1616455495",
+      "sampling": {
+        "max_output_tokens": 2048,
+        "temperature": 0.6,
+        "top_k": 20,
+        "top_p": 0.95
+      },
+      "spec": {
+        "description": "THUDM GLM-4 9B (0414) Instruct via SiliconFlow Free Tier",
+        "enable_thinking": false,
+        "env_key": "SILICONFLOW_API_KEY",
+        "max_output_tokens": 2048,
+        "model": "THUDM/GLM-4-9B-0414",
+        "provider": "siliconflow",
+        "rpm": 30
+      },
+      "split.json": "3e09db9ac6e10375bf17e6254fbb6ad5992798f2a03a1ba93c4f896b5eeaf39b",
+      "templates": "8d107ab0e3142f91e0ec816b16a64f9f3f6e8e07eeb1e4000fef372dcff3ee66"
+    },
+    "fingerprint_id": "b87110587de5cf8cfc0d7ade9532fd4e42cfd24ab9e46d9e4edb6e74ce991a89",
+    "n_planned_units": 1400
+  },
+  "spec": {
+    "description": "THUDM GLM-4 9B (0414) Instruct via SiliconFlow Free Tier",
+    "enable_thinking": false,
+    "env_key": "SILICONFLOW_API_KEY",
+    "max_output_tokens": 2048,
+    "model": "THUDM/GLM-4-9B-0414",
+    "provider": "siliconflow",
+    "rpm": 30
+  }
+}

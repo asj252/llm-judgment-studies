@@ -1,0 +1,1081 @@
+{
+  "5": {
+    "title": "Confirmatory hypotheses",
+    "header": [
+      "Hypothesis",
+      "Statistic",
+      "Sidedness",
+      "Smallest effect size of interest (SESOI)"
+    ],
+    "rows": [
+      [
+        "H1",
+        "Mean s, stated, direct elicitation",
+        "One-sided, > 0",
+        "5 points"
+      ],
+      [
+        "H2",
+        "Mean s, stated minus reported (direct elicitation)",
+        "One-sided, > 0",
+        "5 points"
+      ],
+      [
+        "H4a",
+        "Weighted endpoint rate, direct minus multi-estimate",
+        "One-sided, > 0",
+        "10 percentage points"
+      ],
+      [
+        "H4b",
+        "Mean s, multi-estimate minus direct (stated)",
+        "Two-sided",
+        "5 points"
+      ]
+    ],
+    "note": ""
+  },
+  "1": {
+    "title": "Sample and completeness",
+    "header": [
+      "Configuration",
+      "Pairs",
+      "Planned units",
+      "Valid",
+      "Missing",
+      "First-attempt parse rate (v2, formal set r0)",
+      "Mean first-attempt time"
+    ],
+    "rows": [
+      [
+        "Qwen3-8B (thinking off, local)",
+        "240",
+        "2600",
+        "2600",
+        "0",
+        "100%",
+        "4.8 s"
+      ],
+      [
+        "OLMo-2-7B-Instruct (local)",
+        "240",
+        "2600",
+        "2597",
+        "3",
+        "98.9%",
+        "2.1 s"
+      ],
+      [
+        "codex (gpt-6.1-sol, medium)",
+        "120",
+        "1400",
+        "1400",
+        "0",
+        "100%",
+        "13.4 s"
+      ]
+    ],
+    "note": "(Each pair has 10 conditions; in addition, the 20 pairs of the repeat subset were each asked once more. Parsing rule v2 was revised after the development-set smoke test according to the types of format failure, without looking at the probability values; under the old parsing rule v1, the first-attempt parse rates are 77%, 58% and 100%.)"
+  },
+  "3": {
+    "title": "Mean probability change by update type (direct elicitation; points; the lower four rows are the Section 4.6 extension configurations, 120 Block-A pairs each)",
+    "header": [
+      "Configuration",
+      "Strengthener, stated",
+      "Strengthener, reported",
+      "Weakener, stated",
+      "Weakener, reported"
+    ],
+    "rows": [
+      [
+        "Qwen3 (thinking off)",
+        "+15.9",
+        "+15.0",
+        "−21.3",
+        "−18.3"
+      ],
+      [
+        "OLMo-2",
+        "+14.4",
+        "+4.7",
+        "−25.6",
+        "−25.7"
+      ],
+      [
+        "codex",
+        "+25.9",
+        "+23.3",
+        "−24.7",
+        "−16.5"
+      ],
+      [
+        "gpt-oss-120b",
+        "+17.8",
+        "+16.1",
+        "−17.3",
+        "−17.2"
+      ],
+      [
+        "claude-sonnet-5.5",
+        "+25.4",
+        "+24.0",
+        "−18.6",
+        "−13.9"
+      ],
+      [
+        "gemini-3.8-flash (low)",
+        "+26.9",
+        "+25.5",
+        "−26.4",
+        "−19.6"
+      ],
+      [
+        "gemini-3.8-flash (high)",
+        "+27.9",
+        "+24.9",
+        "−28.7",
+        "−23.5"
+      ]
+    ],
+    "note": ""
+  },
+  "4": {
+    "title": "Directional movement under four multi-estimate readings minus direct elicitation (stated; points; brackets give 95% cluster bootstrap (resampling images) intervals; the lower four rows are the Section 4.6 extension configurations, 120 Block-A pairs each)",
+    "header": [
+      "Configuration",
+      "Candidate weighted SD (stated)",
+      "Weighted mean",
+      "Unweighted mean",
+      "Top-weighted candidate",
+      "Weighted median"
+    ],
+    "rows": [
+      [
+        "Qwen3 (thinking off)",
+        "16.1",
+        "−7.9 [−9.7, −6.2]",
+        "−10.3 [−12.1, −8.6]",
+        "−4.6 [−6.4, −2.7]",
+        "−6.7 [−8.5, −4.9]"
+      ],
+      [
+        "OLMo-2",
+        "18.3",
+        "−13.7 [−16.1, −11.3]",
+        "−13.3 [−15.8, −10.8]",
+        "−14.5 [−17.0, −11.9]",
+        "−12.8 [−15.3, −10.2]"
+      ],
+      [
+        "codex",
+        "7.6",
+        "−2.5 [−3.2, −1.8]",
+        "−3.1 [−3.8, −2.4]",
+        "−2.1 [−2.8, −1.4]",
+        "−2.3 [−3.0, −1.7]"
+      ],
+      [
+        "gpt-oss-120b",
+        "14.0",
+        "−2.3 [−4.1, −0.6]",
+        "−5.9 [−8.0, −3.8]",
+        "+1.7 [−0.2, +3.6]",
+        "−0.9 [−2.7, +0.9]"
+      ],
+      [
+        "claude-sonnet-5.5",
+        "6.3",
+        "+0.5 [−0.3, +1.3]",
+        "+0.3 [−0.6, +1.2]",
+        "+0.9 [−0.0, +1.8]",
+        "+0.8 [−0.1, +1.7]"
+      ],
+      [
+        "gemini-3.8-flash (low)",
+        "7.5",
+        "−2.5 [−3.7, −1.4]",
+        "−4.2 [−5.5, −2.9]",
+        "−1.2 [−2.4, +0.1]",
+        "−2.2 [−3.5, −1.0]"
+      ],
+      [
+        "gemini-3.8-flash (high)",
+        "7.5",
+        "−3.7 [−5.1, −2.5]",
+        "−4.7 [−6.0, −3.5]",
+        "−2.4 [−3.8, −1.0]",
+        "−2.9 [−4.3, −1.6]"
+      ]
+    ],
+    "note": "(Complete stated pairs: n = 240 for Qwen3 (thinking off), n = 238 for OLMo-2, and n = 120 Block-A pairs each for codex and the four Section 4.6 extension configurations. Without human reference probabilities, directional movement s has no normative target magnitude; negative differences indicate smaller directional movement than under direct elicitation. Maximum-weight ties in Top-weighted candidate are averaged, and Weighted median is the lower weighted median. For Qwen3 (thinking off), OLMo-2, and codex, the Weighted mean, Top-weighted candidate, and Weighted median intervals use B = 2,000, seed 20261490 (0-based order statistics 49 and 1949 from figures/en/figure_data.json); the Unweighted mean column and the four extension configurations use B = 5,000, seed 20261090 (0-based order statistics 125 and 4874 via analysis.py:boot_values), archived in typst/table4_readouts.json.)"
+  },
+  "2": {
+    "title": "Confirmatory tests (one Holm family {H1, H2, H4a, H4b} per configuration; intervals are two-sided 95% cluster bootstrap (resampling images) intervals on the common complete set; \"Bound\" is the Holm-adjusted bound nearer zero: the one-sided bound for H1, H2 and H4a, and the end of the two-sided interval nearer zero for H4b)",
+    "header": [
+      "Configuration",
+      "Test",
+      "n",
+      "Point estimate",
+      "95% interval",
+      "Holm α",
+      "Bound",
+      "Judgment"
+    ],
+    "rows": [
+      [
+        "Qwen3",
+        "H1 movement (points)",
+        "240",
+        "18.6",
+        "[16.5, 20.7]",
+        "0.0125",
+        "16.1",
+        "The adjusted bound exceeds the SESOI"
+      ],
+      [
+        "",
+        "H2 stated − reported (points)",
+        "240",
+        "2.0",
+        "[0.4, 3.6]",
+        "0.05",
+        "0.6",
+        "Direction confirmed; point estimate below the SESOI"
+      ],
+      [
+        "",
+        "H4a endpoint-rate difference (proportion)",
+        "240",
+        "0.25",
+        "[0.21, 0.29]",
+        "0.0167",
+        "0.21",
+        "The adjusted bound exceeds the SESOI"
+      ],
+      [
+        "",
+        "H4b multi-estimate − direct (points)",
+        "240",
+        "−7.9",
+        "[−9.7, −6.2]",
+        "0.025",
+        "−6.0",
+        "The adjusted bound exceeds the SESOI"
+      ],
+      [
+        "OLMo-2",
+        "H1",
+        "240",
+        "20.0",
+        "[17.4, 22.7]",
+        "0.0125",
+        "17.1",
+        "The adjusted bound exceeds the SESOI"
+      ],
+      [
+        "",
+        "H2",
+        "240",
+        "4.8",
+        "[2.4, 7.2]",
+        "0.0167",
+        "2.3",
+        "Direction confirmed; point estimate below the SESOI"
+      ],
+      [
+        "",
+        "H4a",
+        "237",
+        "0.37",
+        "[0.33, 0.42]",
+        "0.025",
+        "0.33",
+        "The adjusted bound exceeds the SESOI (worst-case imputation of missing units)"
+      ],
+      [
+        "",
+        "H4b",
+        "238",
+        "−13.7",
+        "[−16.1, −11.2]",
+        "0.05",
+        "−11.0",
+        "The adjusted bound exceeds the SESOI (worst-case imputation of missing units)"
+      ],
+      [
+        "codex",
+        "H1",
+        "120",
+        "25.3",
+        "[22.6, 27.8]",
+        "0.0125",
+        "22.3",
+        "The adjusted bound exceeds the SESOI"
+      ],
+      [
+        "",
+        "H2",
+        "120",
+        "5.4",
+        "[3.9, 7.0]",
+        "0.0167",
+        "3.8",
+        "The point estimate reaches the SESOI, but the adjusted bound does not"
+      ],
+      [
+        "",
+        "H4a",
+        "120",
+        "0.11",
+        "[0.075, 0.14]",
+        "0.025",
+        "0.075",
+        "The point estimate reaches the SESOI, but the adjusted bound does not"
+      ],
+      [
+        "",
+        "H4b",
+        "120",
+        "−2.5",
+        "[−3.2, −1.8]",
+        "0.05",
+        "−1.8",
+        "Direction confirmed; point estimate below the SESOI"
+      ]
+    ],
+    "note": "(SESOI: 5 points for H1, H2 and H4b; 10 percentage points for H4a. All 12 tests reject the null hypothesis under Holm correction, and there are no results in the opposite direction. H4b is signed as \"multi-estimate < direct\", and the bound is taken at the end nearer zero. For olmo2, the H4a and H4b judgments use the conservative bounds after worst-case imputation of missing units.)"
+  },
+  "6": {
+    "title": "Sample and completeness (extension)",
+    "header": [
+      "Configuration",
+      "Pairs",
+      "Planned units",
+      "Valid",
+      "Missing",
+      "First-attempt success (formal set r0)",
+      "Mean first-attempt time"
+    ],
+    "rows": [
+      [
+        "gpt-oss-120b (medium)",
+        "120",
+        "1400",
+        "1400",
+        "0",
+        "99.7%",
+        "9.1 s"
+      ],
+      [
+        "claude-sonnet-5.5 (medium)",
+        "120",
+        "1400",
+        "1400",
+        "0",
+        "99.7%",
+        "10.2 s"
+      ],
+      [
+        "gemini-3.8-flash (low)",
+        "120",
+        "1400",
+        "1400",
+        "0",
+        "99.4%",
+        "9.6 s"
+      ],
+      [
+        "gemini-3.8-flash (high)",
+        "120",
+        "1400",
+        "1400",
+        "0",
+        "99.6%",
+        "19.1 s"
+      ]
+    ],
+    "note": ""
+  },
+  "7": {
+    "title": "Confirmatory tests (extension; same layout as Table 2; n = 120 for every test; \"—\" = not rejected under Holm, so no bound is reported)",
+    "header": [
+      "Configuration",
+      "Test",
+      "Point estimate",
+      "95% interval",
+      "Holm α",
+      "Bound",
+      "Judgment"
+    ],
+    "rows": [
+      [
+        "gpt-oss-120b",
+        "H1 movement (points)",
+        "17.6",
+        "[15.0, 20.2]",
+        "0.0125",
+        "14.5",
+        "The adjusted bound exceeds the SESOI"
+      ],
+      [
+        "",
+        "H2 stated − reported (points)",
+        "0.9",
+        "[−0.9, 2.7]",
+        "0.05",
+        "—",
+        "Not rejected; direction not established"
+      ],
+      [
+        "",
+        "H4a endpoint-rate difference (proportion)",
+        "0.10",
+        "[0.067, 0.142]",
+        "0.0167",
+        "0.065",
+        "The point estimate reaches the SESOI, but the adjusted bound does not"
+      ],
+      [
+        "",
+        "H4b multi-estimate − direct (points)",
+        "−2.3",
+        "[−4.1, −0.6]",
+        "0.025",
+        "−0.3",
+        "Direction confirmed; point estimate below the SESOI"
+      ],
+      [
+        "claude-sonnet-5.5",
+        "H1",
+        "22.0",
+        "[19.4, 24.6]",
+        "0.0125",
+        "19.0",
+        "The adjusted bound exceeds the SESOI"
+      ],
+      [
+        "",
+        "H2",
+        "3.1",
+        "[1.8, 4.5]",
+        "0.0167",
+        "1.7",
+        "Direction confirmed; point estimate below the SESOI"
+      ],
+      [
+        "",
+        "H4a",
+        "0.065",
+        "[0.038, 0.094]",
+        "0.025",
+        "0.038",
+        "Direction confirmed; point estimate below the SESOI"
+      ],
+      [
+        "",
+        "H4b",
+        "+0.5",
+        "[−0.3, 1.3]",
+        "0.05",
+        "—",
+        "Not rejected; direction not established"
+      ],
+      [
+        "gemini-3.8-flash (low)",
+        "H1",
+        "26.6",
+        "[23.6, 29.6]",
+        "0.0125",
+        "23.2",
+        "The adjusted bound exceeds the SESOI"
+      ],
+      [
+        "",
+        "H2",
+        "4.1",
+        "[2.4, 5.9]",
+        "0.0167",
+        "2.2",
+        "Direction confirmed; point estimate below the SESOI"
+      ],
+      [
+        "",
+        "H4a",
+        "0.16",
+        "[0.123, 0.204]",
+        "0.025",
+        "0.12",
+        "The adjusted bound exceeds the SESOI"
+      ],
+      [
+        "",
+        "H4b",
+        "−2.5",
+        "[−3.7, −1.4]",
+        "0.05",
+        "−1.4",
+        "Direction confirmed; point estimate below the SESOI"
+      ],
+      [
+        "gemini-3.8-flash (high)",
+        "H1",
+        "28.3",
+        "[25.6, 31.0]",
+        "0.0125",
+        "25.1",
+        "The adjusted bound exceeds the SESOI"
+      ],
+      [
+        "",
+        "H2",
+        "4.1",
+        "[2.7, 5.8]",
+        "0.0167",
+        "2.5",
+        "Direction confirmed; point estimate below the SESOI"
+      ],
+      [
+        "",
+        "H4a",
+        "0.090",
+        "[0.056, 0.123]",
+        "0.025",
+        "0.056",
+        "Direction confirmed; point estimate below the SESOI"
+      ],
+      [
+        "",
+        "H4b",
+        "−3.7",
+        "[−5.1, −2.5]",
+        "0.05",
+        "−2.5",
+        "Direction confirmed; point estimate below the SESOI"
+      ]
+    ],
+    "note": "(No unit was missing, so no worst-case imputation was needed. No result fell in the direction opposite to a one-sided prediction.)"
+  },
+  "8": {
+    "title": "Candidate spread (stated and reported posteriors versus prior; points, with the change as a percentage of the reference spread)",
+    "header": [
+      "Configuration",
+      "Prior spread",
+      "Stated posterior minus prior",
+      "Reported minus stated",
+      "Spearman ρ (prior spread, s)"
+    ],
+    "rows": [
+      [
+        "Qwen3 (thinking off)",
+        "15.8",
+        "+0.3 (+2%)",
+        "−2.1 (−13%) [−2.8, −1.5]",
+        "0.09 [−0.04, 0.21]"
+      ],
+      [
+        "OLMo-2",
+        "17.5",
+        "+0.8 (+4%)",
+        "0.0 (0%) [−0.8, 0.9]",
+        "0.10 [−0.03, 0.22]"
+      ],
+      [
+        "codex",
+        "9.2",
+        "−1.6 (−18%)",
+        "+0.7 (+9%) [0.3, 1.0]",
+        "0.15 [−0.05, 0.33]"
+      ],
+      [
+        "gpt-oss-120b",
+        "15.7",
+        "−1.7 (−11%)",
+        "+0.9 (+7%) [0.1, 1.7]",
+        "0.08 [−0.11, 0.25]"
+      ],
+      [
+        "claude-sonnet-5.5",
+        "7.0",
+        "−0.7 (−10%)",
+        "+0.6 (+9%) [0.3, 0.9]",
+        "0.31 [0.13, 0.48]"
+      ],
+      [
+        "gemini-3.8-flash (low)",
+        "9.0",
+        "−1.5 (−17%)",
+        "+0.4 (+6%) [−0.01, 0.86]",
+        "0.24 [0.04, 0.42]"
+      ],
+      [
+        "gemini-3.8-flash (high)",
+        "8.8",
+        "−1.3 (−15%)",
+        "+0.8 (+11%) [0.4, 1.3]",
+        "0.26 [0.08, 0.43]"
+      ],
+      [
+        "aistudio:gemini-3.5-flash-lite",
+        "12.15",
+        "−2.76 (−22.7%)",
+        "+2.12 (+22.6%)",
+        "—"
+      ],
+      [
+        "aistudio:gemma-4-31b-it",
+        "12.54",
+        "−1.67 (−13.3%)",
+        "+0.82 (+7.6%)",
+        "—"
+      ],
+      [
+        "aistudio:gemma-4-26b-a4b-it",
+        "15.17",
+        "−1.00 (−6.6%)",
+        "+0.91 (+6.4%)",
+        "—"
+      ],
+      [
+        "sf:glm-4-9b",
+        "14.78",
+        "−0.80 (−5.4%)",
+        "+1.17 (+8.4%)",
+        "—"
+      ],
+      [
+        "sf:qwen2.5-7b",
+        "18.64",
+        "+0.89 (+4.7%)",
+        "+0.69 (+3.5%)",
+        "—"
+      ],
+      [
+        "sf:qwen3-8b",
+        "18.80",
+        "−0.44 (−2.4%)",
+        "−1.14 (−6.2%)",
+        "—"
+      ],
+      [
+        "sf:xing4.0-29b",
+        "16.29",
+        "−0.70 (−4.3%)",
+        "−0.66 (−4.2%)",
+        "—"
+      ],
+      [
+        "sf:qwen3.5-4b",
+        "13.64",
+        "+1.23 (+9.0%)",
+        "−1.01 (−6.8%)",
+        "—"
+      ]
+    ],
+    "note": "(\"Stated posterior minus prior\" averages the strengthener and weakener changes; its percentage is relative to the prior spread. \"Reported minus stated\" pools strengtheners and weakeners; its percentage is relative to the stated-posterior spread. Effective complete-pair counts are n = 240 for Qwen3 (thinking off), n = 236–238 for OLMo-2, n = 120 Block-A pairs each for codex and the four dnli-agy configurations, and n = 115–120 for the eight dnli-api configurations (Table 9). Spearman ρ assigns average ranks to ties and is undefined if either variable has zero variance across pairs; its bootstrap interval is undefined if any resample is degenerate (0 undefined resamples occurred across all seven configurations). For the eight un-harnessed REST API configurations (`aistudio:*` and `sf:*`), analyse_api.py reports point summaries only; — indicates that cluster-bootstrap intervals and Spearman ρ were not part of that summary pipeline.)"
+  },
+  "9": {
+    "title": "Confirmatory tests, alternative candidate readings, and proposition entropy in the un-harnessed REST API formal extension (Block A, 1,400 planned units / 120 pairs per configuration; seed 20261090)",
+    "header": [
+      "Configuration",
+      "Valid / Plan",
+      "H1 [95% CI]",
+      "H2 [95% CI]",
+      "H4a [95% CI]",
+      "H4b M_W [95% CI]",
+      "Top-1 / Med / M_U (ΔH2 bits)"
+    ],
+    "rows": [
+      [
+        "aistudio:gemini-3.5-flash-lite",
+        "1400/1400",
+        "+28.94 [25.60, 32.33]",
+        "+8.94 [6.12, 12.08]",
+        "+0.294 [0.242, 0.348]",
+        "−5.79 [−7.96, −3.76]",
+        "−4.07 / −4.89 / −7.49 (+0.166)"
+      ],
+      [
+        "aistudio:gemma-4-31b-it",
+        "1400/1400",
+        "+26.92 [23.54, 30.21]",
+        "+5.88 [3.56, 8.33]",
+        "+0.225 [0.179, 0.271]",
+        "−2.85 [−4.14, −1.49]",
+        "+0.64 / −1.25 / −6.98 (+0.131)"
+      ],
+      [
+        "aistudio:gemma-4-26b-a4b-it",
+        "1400/1400",
+        "+24.84 [21.59, 28.20]",
+        "+7.58 [4.92, 10.41]",
+        "+0.183 [0.140, 0.231]",
+        "−5.02 [−7.10, −3.03]",
+        "−1.62 / −3.28 / −10.18 (+0.151)"
+      ],
+      [
+        "sf:glm-4-9b",
+        "1399/1400",
+        "+19.20 [16.00, 22.42]",
+        "+5.62 [2.98, 8.51]",
+        "+0.330 [0.271, 0.391]",
+        "−6.48 [−9.14, −3.86]",
+        "−4.22 / −6.06 / −9.14 (+0.235)"
+      ],
+      [
+        "sf:qwen2.5-7b",
+        "1400/1400",
+        "+19.39 [16.13, 22.58]",
+        "+7.12 [4.25, 10.10]",
+        "+0.277 [0.223, 0.331]",
+        "−13.67 [−16.98, −10.39]",
+        "−12.86 / −12.64 / −14.60 (+0.269)"
+      ],
+      [
+        "sf:qwen3-8b",
+        "1400/1400",
+        "+18.72 [15.73, 21.81]",
+        "+3.78 [1.48, 6.13]",
+        "+0.265 [0.208, 0.321]",
+        "−9.03 [−11.48, −6.73]",
+        "−6.66 / −8.19 / −11.63 (+0.217)"
+      ],
+      [
+        "sf:xing4.0-29b",
+        "1399/1400",
+        "+16.10 [12.83, 19.46]",
+        "+2.61 [−0.15, 5.29]",
+        "+0.351 [0.290, 0.412]",
+        "−7.76 [−10.85, −4.66]",
+        "−7.28 / −7.69 / −9.61 (+0.245)"
+      ],
+      [
+        "sf:qwen3.5-4b",
+        "1390/1400",
+        "+18.72 [14.06, 23.14]",
+        "−0.64 [−4.80, 3.50]",
+        "+0.391 [0.328, 0.454]",
+        "−5.24 [−9.58, −0.92]",
+        "−1.93 / −4.42 / −12.24 (+0.255)"
+      ]
+    ],
+    "note": "(All tests have n = 120 complete pairs except sf:glm-4-9b and sf:xing4.0-29b on H4a (n = 119), and sf:qwen3.5-4b on H2 (n = 119, p = 0.6178, not rejected under Holm), H4a (n = 115), and H4b / candidate readings (n = 118). Confirmatory bootstrap uses B = 5,000, or B = 2,000 for the two initial formal summaries aistudio:gemini-3.5-flash-lite and sf:qwen3-8b. All 31 other confirmatory tests reject in the predicted direction under within-configuration Holm correction. SESOIs are 5 points for H1, H2 and H4b, and 0.10 proportion (10 percentage points) for H4a; s has no normative target magnitude without human reference probabilities. All eight H1 Holm-adjusted lower bounds exceed 5 points (12.39–25.18), and all eight H4a bounds exceed 0.10 (0.140–0.324). For H2, only aistudio:gemini-3.5-flash-lite exceeds the SESOI at the adjusted bound (+5.95); five of eight point estimates reach 5 points. For H4b, only sf:qwen2.5-7b and sf:qwen3-8b exceed the −5-point threshold at the adjusted bound (−10.39 and −6.39).)"
+  },
+  "10": {
+    "title": "Cross-scale un-harnessed development ladder (Dev split, 300 planned units / 30 pairs per configuration across 8 cloud providers)",
+    "header": [
+      "Configuration (Scale)",
+      "Valid / Plan",
+      "H1",
+      "H2",
+      "H4a",
+      "H4b (M_W / Top-1)",
+      "Spread ΔSD_st% / ΔSD_rep%"
+    ],
+    "rows": [
+      [
+        "groq:gpt-oss-120b (120B)",
+        "300/300",
+        "+21.52",
+        "+1.77",
+        "+0.092",
+        "−4.15 / +0.40",
+        "−18.4% / +12.2%"
+      ],
+      [
+        "groq:gpt-oss-20b (20B)",
+        "300/300",
+        "+19.20",
+        "+3.30",
+        "+0.108",
+        "−4.74 / −2.52",
+        "+4.3% / +3.3%"
+      ],
+      [
+        "nv:nemotron-3.5-bolt-e4b (4B)",
+        "289/300",
+        "+22.40",
+        "+11.90",
+        "+0.359",
+        "−7.71 / −5.38",
+        "−5.5% / +12.4%"
+      ],
+      [
+        "nv:nemotron-3.5-lightning-30b (30B-A3B)",
+        "300/300",
+        "+17.72",
+        "+7.17",
+        "+0.350",
+        "−10.33 / −6.50",
+        "+8.0% / −9.3%"
+      ],
+      [
+        "nv:nemotron-3.5-super-vl-120b (120B-A12B)",
+        "300/300",
+        "+25.58",
+        "+9.08",
+        "+0.167",
+        "−7.36 / −1.03",
+        "−17.5% / +3.3%"
+      ],
+      [
+        "nv:nemotron-3-ultra-550b (550B-A55B)",
+        "300/300",
+        "+22.08",
+        "+8.45",
+        "+0.175",
+        "−4.18 / −3.24",
+        "−21.4% / +14.1%"
+      ],
+      [
+        "aistudio:gemma-4-31b-it (31B Dense)",
+        "300/300",
+        "+30.42",
+        "+6.92",
+        "+0.258",
+        "−3.54 / +1.03",
+        "−9.9% / +5.8%"
+      ],
+      [
+        "aistudio:gemma-4-26b-a4b-it (26B-A4B)",
+        "300/300",
+        "+27.92",
+        "+6.92",
+        "+0.217",
+        "−4.76 / −2.18",
+        "−12.7% / +17.8%"
+      ],
+      [
+        "aistudio:gemini-3.5-flash-lite (Flash-Lite)",
+        "300/300",
+        "+30.08",
+        "+10.13",
+        "+0.317",
+        "−7.23 / −4.63",
+        "−18.9% / −5.4%"
+      ],
+      [
+        "ms:qwen3.5-27b (27B Dense)",
+        "286/300",
+        "+24.90",
+        "+7.03",
+        "+0.213",
+        "−2.07 / +0.36",
+        "−14.0% / +11.7%"
+      ],
+      [
+        "sf:qwen3.5-4b (4B Hybrid)",
+        "296/300",
+        "+17.68",
+        "+2.57",
+        "+0.345",
+        "−3.03 / −0.48",
+        "−21.3% / +0.7%"
+      ],
+      [
+        "sf:qwen3-8b (8B Dense)",
+        "300/300",
+        "+19.92",
+        "+1.83",
+        "+0.208",
+        "−10.29 / −8.54",
+        "−13.5% / −0.5%"
+      ],
+      [
+        "sf:qwen2.5-7b (7B Dense)",
+        "300/300",
+        "+20.83",
+        "+9.42",
+        "+0.192",
+        "−13.57 / −14.92",
+        "+8.0% / −3.6%"
+      ],
+      [
+        "sf:glm-4-9b (9B Dense)",
+        "300/300",
+        "+21.08",
+        "+8.33",
+        "+0.333",
+        "−7.94 / −4.29",
+        "−7.5% / +6.1%"
+      ],
+      [
+        "sf:xing4.0-29b (29B Dense)",
+        "300/300",
+        "+21.30",
+        "+2.67",
+        "+0.392",
+        "−10.56 / −9.13",
+        "−12.2% / +8.7%"
+      ],
+      [
+        "mistral:ministral-3b (3B Dense)",
+        "300/300",
+        "+15.16",
+        "+7.35",
+        "+0.700",
+        "−9.34 / −7.31",
+        "−4.0% / −5.1%"
+      ],
+      [
+        "mistral:ministral-8b (8B Dense)",
+        "300/300",
+        "+27.68",
+        "+8.17",
+        "+0.617",
+        "−10.60 / −6.44",
+        "−12.3% / +6.8%"
+      ],
+      [
+        "mistral:ministral-14b (14B Dense)",
+        "300/300",
+        "+25.53",
+        "+7.93",
+        "+0.617",
+        "−16.24 / −9.41",
+        "−4.8% / −3.5%"
+      ],
+      [
+        "cf:llama-3.1-8b (8B Dense)",
+        "291/300",
+        "+23.96",
+        "+10.95",
+        "+0.413",
+        "−22.87 / −16.67",
+        "−12.6% / +3.8%"
+      ],
+      [
+        "or:dots-3-note (Free Router)",
+        "183/300",
+        "+31.32",
+        "+10.17",
+        "+0.313",
+        "−0.82 / +0.40",
+        "−19.1% / +124.5%"
+      ]
+    ],
+    "note": "(Complete pairs n = 30 for every 300/300 configuration. With missing units, n = (H1, H2, H4a, H4b) is (30, 30, 23, 25) for nv:nemotron-3.5-bolt-e4b, (29, 29, 27, 28) for ms:qwen3.5-27b, (30, 30, 29, 29) for sf:qwen3.5-4b, (29, 29, 23, 25) for cf:llama-3.1-8b, and (19, 15, 4, 5) for or:dots-3-note due to free-router reasoning-token truncation.)"
+  },
+  "11": {
+    "title": "Format, weight-constraint, CoT, and token-level logprobs entropy ablation on openai:gpt-4o-mini and openai:gpt-4.1-mini (Dev split, 30 pairs / 150 units per arm, 900 calls per model; temperature = 0.6, top_logprobs = 20)",
+    "header": [
+      "Model & Arm",
+      "H1_strength (s_st + s_rep)",
+      "ROC-AUC All (St / Rep)",
+      "Mean Δp vs D0 (M_W / M_U)",
+      "Mean Δp vs D0 (Top-1 / Med)",
+      "SD / Endpt",
+      "ΔH2 / H_num,nc^(1) (bits)"
+    ],
+    "rows": [
+      [
+        "gpt-4o-mini D0",
+        "+43.17",
+        "0.9064 (0.9233 / 0.8922)",
+        "0.00 / 0.00",
+        "0.00 / 0.00",
+        "0.00 / 0.133",
+        "0.000 / 0.765"
+      ],
+      [
+        "gpt-4o-mini D_CoT",
+        "+39.33",
+        "0.9189 (0.9422 / 0.8911)",
+        "−2.37 / −2.37",
+        "−2.37 / −2.37",
+        "0.00 / 0.087",
+        "+0.064 / 0.903"
+      ],
+      [
+        "gpt-4o-mini V0",
+        "+26.49",
+        "0.8549 (0.9017 / 0.8083)",
+        "−8.67 / −17.62",
+        "+3.23 / −19.33",
+        "15.23 / 0.063",
+        "+0.211 / 1.261"
+      ],
+      [
+        "gpt-4o-mini V1",
+        "+24.48",
+        "0.8778 (0.8950 / 0.8517)",
+        "−5.58 / −15.57",
+        "+4.77 / −17.01",
+        "15.37 / 0.045",
+        "+0.224 / 1.454"
+      ],
+      [
+        "gpt-4o-mini V2",
+        "+37.49",
+        "0.9074 (0.9194 / 0.8994)",
+        "−5.23 / −5.23",
+        "−4.77 / −5.27",
+        "6.59 / 0.085",
+        "+0.097 / 1.219"
+      ],
+      [
+        "gpt-4o-mini V3",
+        "+13.40",
+        "0.7928 (0.8167 / 0.7722)",
+        "−3.20 / −12.33",
+        "+8.70 / −13.80",
+        "19.70 / 0.019",
+        "+0.303 / 1.400"
+      ],
+      [
+        "gpt-4.1-mini D0",
+        "+40.95",
+        "0.8633 (0.9072 / 0.8172)",
+        "0.00 / 0.00",
+        "0.00 / 0.00",
+        "0.00 / 0.180",
+        "0.000 / 0.649"
+      ],
+      [
+        "gpt-4.1-mini D_CoT",
+        "+42.33",
+        "0.9201 (0.9394 / 0.9022)",
+        "−1.83 / −1.83",
+        "−1.83 / −1.83",
+        "0.00 / 0.107",
+        "+0.060 / 0.683"
+      ],
+      [
+        "gpt-4.1-mini V0",
+        "+23.91",
+        "0.8631 (0.9178 / 0.7944)",
+        "−8.79 / −10.77",
+        "−3.35 / −12.63",
+        "22.26 / 0.184",
+        "+0.239 / 0.720"
+      ],
+      [
+        "gpt-4.1-mini V1",
+        "+26.45",
+        "0.8814 (0.8700 / 0.8933)",
+        "−6.59 / −12.01",
+        "+2.50 / −13.68",
+        "19.13 / 0.156",
+        "+0.215 / 0.955"
+      ],
+      [
+        "gpt-4.1-mini V2",
+        "+36.52",
+        "0.9115 (0.9278 / 0.8944)",
+        "−5.05 / −5.05",
+        "−6.63 / −5.02",
+        "7.85 / 0.109",
+        "+0.101 / 1.079"
+      ],
+      [
+        "gpt-4.1-mini V3",
+        "+23.71",
+        "0.8757 (0.8922 / 0.8483)",
+        "−0.77 / −2.82",
+        "+3.08 / −3.43",
+        "20.46 / 0.079",
+        "+0.263 / 1.325"
+      ]
+    ],
+    "note": "(Every arm has 150/150 parsed units and 30/30 complete pairs. M_W = weighted mean; M_U = unweighted mean; Top-1 = highest-weight candidate with first-listed tie-break in weighted arms V0/V1/V3 and first-listed candidate in unweighted V2; Med = unweighted sample median of the five candidates; SD = mean within-call candidate standard deviation in points; Endpt = mean endpoint mass ≤5% or ≥95% as a proportion; ROC-AUC = Pr(Δ_S > Δ_W) + ½Pr(Δ_S = Δ_W). H1_strength (s_st + s_rep) = ½[(Δ_st,S − Δ_st,W) + (Δ_rep,S − Δ_rep,W)] = s_st + s_rep = ½(D_st + D_rep), the sum of stated and reported directional movements, or twice the two-frame average s. Mean Δp vs D0 is the mean signed probability difference across all 150 matched contexts (`H4b_*_vs_D0` in ablation_vs_format.py), distinct from H4b directional movement. H_num,nc^(1) is mean first-numeric-token top-20 Shannon entropy over n_noncopy_units with entropy ≥ 0.01 bits: 133, 146, 137, 150, 150, 150 for gpt-4o-mini and 136, 149, 25, 27, 110, 150 for gpt-4.1-mini.)"
+  }
+}

@@ -1,0 +1,902 @@
+{
+  "baseline_commit": "178bb854f1b33e5d93842bb4b0fa05d3f5603ed7",
+  "files": {
+    "dnli/v3-release/dnli-api/README.md": {
+      "bytes": 509,
+      "path_replacements": [],
+      "published_sha256": "18ce9b23861d3d283536a6cc21e023bbafd76a1d119628cf5038a3e179715270",
+      "source_relpath": null,
+      "source_sha256": "18ce9b23861d3d283536a6cc21e023bbafd76a1d119628cf5038a3e179715270",
+      "transform_id": "generated"
+    },
+    "dnli/v3-release/dnli-api/ablation_vs_format.py": {
+      "bytes": 30455,
+      "path_replacements": [
+        {
+          "count": 1,
+          "new": "MAIN = HERE.parents[1] / \"code\"",
+          "old_sha256": "e48781bcf9bb98d61a977c45de161a1eb66c058adf35f85ac7f266d548a5cbf6"
+        },
+        {
+          "count": 1,
+          "new": "ITEMS_TEXT = HERE.parents[1] / \"data\" / \"items_text.json\"",
+          "old_sha256": "13f9d32dcd2fb813f8d0cacd6cd5084a3b9e0f257f3d98c92afde2d427206af1"
+        },
+        {
+          "count": 1,
+          "new": "env_file = Path(os.environ.get(\"DNLI_KEYS_ENV_FILE\", \"\"))",
+          "old_sha256": "2f132be3a4c68a508dff623d7f883381fe8b6a147c0e055d62c99c6b494e787c"
+        },
+        {
+          "count": 1,
+          "new": "if os.environ.get(\"DNLI_KEYS_ENV_FILE\") and env_file.is_file():",
+          "old_sha256": "28b1635417604755519dc6e4e09ced1e194e3db4a293e4ae9b98103ca05224e0"
+        }
+      ],
+      "published_sha256": "26f5985cbd5d63a446b2bf6fddf7d7584203c65aee5ab0f9e336390bdd2b0525",
+      "source_relpath": "connecting-dots/dnli-api/ablation_vs_format.py",
+      "source_sha256": "640a2201a9d37ae5939fcf63d2577e9fc656056b19399a33617e5eb19bb81bb8",
+      "transform_id": "dnli_api_public_paths"
+    },
+    "dnli/v3-release/dnli-api/analyse_api.py": {
+      "bytes": 11465,
+      "path_replacements": [
+        {
+          "count": 1,
+          "new": "MAIN = HERE.parents[1] / \"code\"",
+          "old_sha256": "e48781bcf9bb98d61a977c45de161a1eb66c058adf35f85ac7f266d548a5cbf6"
+        }
+      ],
+      "published_sha256": "d24631d201c7e70498f70ba09b818640305b79977a81e977d5f47ba26e874023",
+      "source_relpath": "connecting-dots/dnli-api/analyse_api.py",
+      "source_sha256": "65726df3504c6fa382d86cb63adbeb5a23b55f58e7bd8a51fec904a22f4448ed",
+      "transform_id": "dnli_api_public_paths"
+    },
+    "dnli/v3-release/dnli-api/analysis_freeze.json": {
+      "bytes": 8648,
+      "path_replacements": [],
+      "published_sha256": "b8a99ecd6e2876d41fb45c0d7c4b1c4d78369e897d9e4e990b7c3882aa1ef023",
+      "source_relpath": "connecting-dots/dnli-api/analysis_freeze.json",
+      "source_sha256": "b8a99ecd6e2876d41fb45c0d7c4b1c4d78369e897d9e4e990b7c3882aa1ef023",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/api_subject.py": {
+      "bytes": 22578,
+      "path_replacements": [
+        {
+          "count": 1,
+          "new": "env_file = Path(os.environ.get(\"DNLI_KEYS_ENV_FILE\", \"\"))",
+          "old_sha256": "2f132be3a4c68a508dff623d7f883381fe8b6a147c0e055d62c99c6b494e787c"
+        },
+        {
+          "count": 1,
+          "new": "if os.environ.get(\"DNLI_KEYS_ENV_FILE\") and env_file.is_file():",
+          "old_sha256": "28b1635417604755519dc6e4e09ced1e194e3db4a293e4ae9b98103ca05224e0"
+        }
+      ],
+      "published_sha256": "d12406219950b5040ba1401f74c4f9f147d2cfe8b1716d12f2e09360f84c2c2d",
+      "source_relpath": "connecting-dots/dnli-api/api_subject.py",
+      "source_sha256": "3fb6634f100d3e6e6c3aa9fd790d640bd9417eae18f98b3a4a1b3e5ef688a5c1",
+      "transform_id": "dnli_api_subject_env"
+    },
+    "dnli/v3-release/dnli-api/configs.py": {
+      "bytes": 14516,
+      "path_replacements": [],
+      "published_sha256": "18dce66b7cf5e735a7945f98160dd0157ac7000f5b6eb4dfe3f422cd66b758e8",
+      "source_relpath": "connecting-dots/dnli-api/configs.py",
+      "source_sha256": "18dce66b7cf5e735a7945f98160dd0157ac7000f5b6eb4dfe3f422cd66b758e8",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_aistudio_gemini-3.5-flash-lite.json": {
+      "bytes": 3986,
+      "path_replacements": [],
+      "published_sha256": "7728f087f4cff32af9a6a88f7d9341f3b8d0dd5093565625e3dcb27547314390",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_aistudio_gemini-3.5-flash-lite.json",
+      "source_sha256": "7728f087f4cff32af9a6a88f7d9341f3b8d0dd5093565625e3dcb27547314390",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_aistudio_gemini-3.8-flash.json": {
+      "bytes": 4144,
+      "path_replacements": [],
+      "published_sha256": "de400bc838edec8749518d12293dcab6310b629ad170ee4bc64862447502ad3c",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_aistudio_gemini-3.8-flash.json",
+      "source_sha256": "de400bc838edec8749518d12293dcab6310b629ad170ee4bc64862447502ad3c",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_aistudio_gemma-4-26b-a4b-it.json": {
+      "bytes": 4159,
+      "path_replacements": [],
+      "published_sha256": "961e3523e5b14acf7a16c3f43c12f80dd534aa4d547c8129554b90efd6c29325",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_aistudio_gemma-4-26b-a4b-it.json",
+      "source_sha256": "961e3523e5b14acf7a16c3f43c12f80dd534aa4d547c8129554b90efd6c29325",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_aistudio_gemma-4-31b-it.json": {
+      "bytes": 4093,
+      "path_replacements": [],
+      "published_sha256": "95bb6bc90bb4472075d08f7ad57189eb25860291f76e0b492ae5203a61e4a789",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_aistudio_gemma-4-31b-it.json",
+      "source_sha256": "95bb6bc90bb4472075d08f7ad57189eb25860291f76e0b492ae5203a61e4a789",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_cf_gemma-4-26b-a4b-it.json": {
+      "bytes": 4021,
+      "path_replacements": [],
+      "published_sha256": "0fcb3d30e27f663b0286c3c7144c05758d7f1e499fb694a2c8ac426a48a9cbea",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_cf_gemma-4-26b-a4b-it.json",
+      "source_sha256": "0fcb3d30e27f663b0286c3c7144c05758d7f1e499fb694a2c8ac426a48a9cbea",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_cf_gpt-oss-120b.json": {
+      "bytes": 3855,
+      "path_replacements": [],
+      "published_sha256": "a9e889e8c4f5a750f83e00f6cea7816cc54c6243c758a8eec3a1e9ed8b7b3144",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_cf_gpt-oss-120b.json",
+      "source_sha256": "a9e889e8c4f5a750f83e00f6cea7816cc54c6243c758a8eec3a1e9ed8b7b3144",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_cf_gpt-oss-20b.json": {
+      "bytes": 3828,
+      "path_replacements": [],
+      "published_sha256": "998a19adb9a69c91dc1ea91e54368631529dba0c0af814709b81b73cb6aa4c25",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_cf_gpt-oss-20b.json",
+      "source_sha256": "998a19adb9a69c91dc1ea91e54368631529dba0c0af814709b81b73cb6aa4c25",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_cf_llama-3.1-8b.json": {
+      "bytes": 3765,
+      "path_replacements": [],
+      "published_sha256": "271e9bea08b7741c504bd139557ec4b74b18f31c982f824ec05d0417961dbf18",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_cf_llama-3.1-8b.json",
+      "source_sha256": "271e9bea08b7741c504bd139557ec4b74b18f31c982f824ec05d0417961dbf18",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_cf_llama-3.3-70b.json": {
+      "bytes": 3804,
+      "path_replacements": [],
+      "published_sha256": "7c336321f67e89d44216e414ed359c4a24a0604ac00002238de5dd460d2abe1e",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_cf_llama-3.3-70b.json",
+      "source_sha256": "7c336321f67e89d44216e414ed359c4a24a0604ac00002238de5dd460d2abe1e",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_cf_qwen3.8-27b.json": {
+      "bytes": 4033,
+      "path_replacements": [],
+      "published_sha256": "2940d10139afbb94495c84cb0ed666fc8157b113cceb9d41cbe5efaf536a1235",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_cf_qwen3.8-27b.json",
+      "source_sha256": "2940d10139afbb94495c84cb0ed666fc8157b113cceb9d41cbe5efaf536a1235",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_colab_qwen3.5-9b.json": {
+      "bytes": 3774,
+      "path_replacements": [],
+      "published_sha256": "7448733d32dfb21fc2c6333a2664c346a7096e55ba350ae9b580b96bd07b9a57",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_colab_qwen3.5-9b.json",
+      "source_sha256": "7448733d32dfb21fc2c6333a2664c346a7096e55ba350ae9b580b96bd07b9a57",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_colab_qwen3.8-27b.json": {
+      "bytes": 3783,
+      "path_replacements": [],
+      "published_sha256": "a3dd5373029042410d97cd9ee4914210374a06c219a34d7162f6a084e05d9eea",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_colab_qwen3.8-27b.json",
+      "source_sha256": "a3dd5373029042410d97cd9ee4914210374a06c219a34d7162f6a084e05d9eea",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_groq_gpt-oss-120b.json": {
+      "bytes": 3574,
+      "path_replacements": [],
+      "published_sha256": "d9e2651d877d359cdf3e7cee824b704e6a1c1cf13b93664d4cee56bbf4645fb1",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_groq_gpt-oss-120b.json",
+      "source_sha256": "d9e2651d877d359cdf3e7cee824b704e6a1c1cf13b93664d4cee56bbf4645fb1",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_groq_gpt-oss-20b.json": {
+      "bytes": 3528,
+      "path_replacements": [],
+      "published_sha256": "19a2f864be2155f1eddd12fb7cad7b4011056100dd159e4ad3471bd7c114a00a",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_groq_gpt-oss-20b.json",
+      "source_sha256": "19a2f864be2155f1eddd12fb7cad7b4011056100dd159e4ad3471bd7c114a00a",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_mistral_ministral-14b.json": {
+      "bytes": 3442,
+      "path_replacements": [],
+      "published_sha256": "eb284385dbccb6021d85a8b6f679959d00bc08e3e619c03998e3bd104964bdc3",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_mistral_ministral-14b.json",
+      "source_sha256": "eb284385dbccb6021d85a8b6f679959d00bc08e3e619c03998e3bd104964bdc3",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_mistral_ministral-3b.json": {
+      "bytes": 3456,
+      "path_replacements": [],
+      "published_sha256": "9b28f87865871eaa32336f84e7687913985d6fb1f8bf431f9805a3059e689ab7",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_mistral_ministral-3b.json",
+      "source_sha256": "9b28f87865871eaa32336f84e7687913985d6fb1f8bf431f9805a3059e689ab7",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_mistral_ministral-8b.json": {
+      "bytes": 3450,
+      "path_replacements": [],
+      "published_sha256": "c1490de286b6669d4bd4b19c8aa741a4b39178a3cb3f7406eb4a7d964e64c33d",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_mistral_ministral-8b.json",
+      "source_sha256": "c1490de286b6669d4bd4b19c8aa741a4b39178a3cb3f7406eb4a7d964e64c33d",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_mistral_mistral-large-4.json": {
+      "bytes": 3400,
+      "path_replacements": [],
+      "published_sha256": "46ad68f4bda1527082445da255e2a5d8da74ba9f1ffecd3eaae0ed14dcd81d1d",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_mistral_mistral-large-4.json",
+      "source_sha256": "46ad68f4bda1527082445da255e2a5d8da74ba9f1ffecd3eaae0ed14dcd81d1d",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_ms_deepseek-v4.1-flash.json": {
+      "bytes": 3550,
+      "path_replacements": [],
+      "published_sha256": "aff5550b6cda7049d7ae3704908adff3e9b48b5ce7a65c4eed74769265ac2a77",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_ms_deepseek-v4.1-flash.json",
+      "source_sha256": "aff5550b6cda7049d7ae3704908adff3e9b48b5ce7a65c4eed74769265ac2a77",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_ms_glm-5.2.json": {
+      "bytes": 3510,
+      "path_replacements": [],
+      "published_sha256": "ac6ecdb616793e877b53ab666ad2fc63462a12291ad185226ad0b83d06a8c8eb",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_ms_glm-5.2.json",
+      "source_sha256": "ac6ecdb616793e877b53ab666ad2fc63462a12291ad185226ad0b83d06a8c8eb",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_ms_qwen3.5-27b.json": {
+      "bytes": 3534,
+      "path_replacements": [],
+      "published_sha256": "330932d9888d90648b5a9c708e207906fea974042cd9d44a1c357125a14556dd",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_ms_qwen3.5-27b.json",
+      "source_sha256": "330932d9888d90648b5a9c708e207906fea974042cd9d44a1c357125a14556dd",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_nv_minimax-m3.1-flash.json": {
+      "bytes": 3875,
+      "path_replacements": [],
+      "published_sha256": "aa00cd4cd4afa6d093ab5362ed4ab0849d64f131562d7bd4bea2954dd40fe432",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_nv_minimax-m3.1-flash.json",
+      "source_sha256": "aa00cd4cd4afa6d093ab5362ed4ab0849d64f131562d7bd4bea2954dd40fe432",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_nv_nemotron-3-ultra-550b.json": {
+      "bytes": 4025,
+      "path_replacements": [],
+      "published_sha256": "cb93894ce028ecaa6d79396bcf8f58275ede5f33a54a2b42eb065b6f7aadde0d",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_nv_nemotron-3-ultra-550b.json",
+      "source_sha256": "cb93894ce028ecaa6d79396bcf8f58275ede5f33a54a2b42eb065b6f7aadde0d",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_nv_nemotron-3.5-bolt-e4b.json": {
+      "bytes": 4079,
+      "path_replacements": [],
+      "published_sha256": "dfeebe4c823f4d41e3d8db99cc67ca484a9d2c0149279804e693ae3de32491b0",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_nv_nemotron-3.5-bolt-e4b.json",
+      "source_sha256": "dfeebe4c823f4d41e3d8db99cc67ca484a9d2c0149279804e693ae3de32491b0",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_nv_nemotron-3.5-lightning-30b.json": {
+      "bytes": 4187,
+      "path_replacements": [],
+      "published_sha256": "4cddc8720f03fcdea7c9168c645f71bacf550eaa5467a19ec660095fefbf9cf6",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_nv_nemotron-3.5-lightning-30b.json",
+      "source_sha256": "4cddc8720f03fcdea7c9168c645f71bacf550eaa5467a19ec660095fefbf9cf6",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_nv_nemotron-3.5-super-vl-120b.json": {
+      "bytes": 4190,
+      "path_replacements": [],
+      "published_sha256": "fdecb4bb19377594760a611cf364fecae35ce3912bf8bd594d1b20e697e07e7a",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_nv_nemotron-3.5-super-vl-120b.json",
+      "source_sha256": "fdecb4bb19377594760a611cf364fecae35ce3912bf8bd594d1b20e697e07e7a",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_openrouter_gemma-4-31b-free.json": {
+      "bytes": 3789,
+      "path_replacements": [],
+      "published_sha256": "57b3669f308ae23f3e1d76b85b7821a9c9352fad13f691e3292bbcfc23ae3b06",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_openrouter_gemma-4-31b-free.json",
+      "source_sha256": "57b3669f308ae23f3e1d76b85b7821a9c9352fad13f691e3292bbcfc23ae3b06",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_openrouter_qwen3.6-plus-free.json": {
+      "bytes": 3759,
+      "path_replacements": [],
+      "published_sha256": "27ffccd5c8061086e644e8c0142ceb230535ad508e7627a13519616d4cc5ebe8",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_openrouter_qwen3.6-plus-free.json",
+      "source_sha256": "27ffccd5c8061086e644e8c0142ceb230535ad508e7627a13519616d4cc5ebe8",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_openrouter_qwen3.8-27b-free.json": {
+      "bytes": 3750,
+      "path_replacements": [],
+      "published_sha256": "560432bca7116e5744bc88fff8f95ed81613e3648d1371e78ae16c34d1d6d149",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_openrouter_qwen3.8-27b-free.json",
+      "source_sha256": "560432bca7116e5744bc88fff8f95ed81613e3648d1371e78ae16c34d1d6d149",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_or_dots-3-note.json": {
+      "bytes": 3528,
+      "path_replacements": [],
+      "published_sha256": "dfb08f2b5948483c2f1847044d97e95ceaec05d84dc09e804b2e94302b67b718",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_or_dots-3-note.json",
+      "source_sha256": "dfb08f2b5948483c2f1847044d97e95ceaec05d84dc09e804b2e94302b67b718",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_or_nemotron-3.5-lightning.json": {
+      "bytes": 3555,
+      "path_replacements": [],
+      "published_sha256": "41a194088beb1d59985ccd98283c483ce7dad1ce604583770aa62392fc335d23",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_or_nemotron-3.5-lightning.json",
+      "source_sha256": "41a194088beb1d59985ccd98283c483ce7dad1ce604583770aa62392fc335d23",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_or_nemotron-3.5-super-vl.json": {
+      "bytes": 3548,
+      "path_replacements": [],
+      "published_sha256": "776d4e1c45dcd57d720b994e83b89ea9738d0c69a3939da5b935518b305c078a",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_or_nemotron-3.5-super-vl.json",
+      "source_sha256": "776d4e1c45dcd57d720b994e83b89ea9738d0c69a3939da5b935518b305c078a",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_or_north-mini-code.json": {
+      "bytes": 3506,
+      "path_replacements": [],
+      "published_sha256": "cd3abd857aeaa8b29fbeb3789b55d40713e974a50aa355c7c953c98309ea4dc3",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_or_north-mini-code.json",
+      "source_sha256": "cd3abd857aeaa8b29fbeb3789b55d40713e974a50aa355c7c953c98309ea4dc3",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_sf_glm-4-9b.json": {
+      "bytes": 3946,
+      "path_replacements": [],
+      "published_sha256": "fe950202d1aed72bf3251f99394bb7df51645210dcf74f77271ee02d4be38465",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_sf_glm-4-9b.json",
+      "source_sha256": "fe950202d1aed72bf3251f99394bb7df51645210dcf74f77271ee02d4be38465",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_sf_glm-z1-9b.json": {
+      "bytes": 3502,
+      "path_replacements": [],
+      "published_sha256": "1bf907e555af9bcc31d4c5e1cf23876893e8c1865d24bcfd20ef248d36be326e",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_sf_glm-z1-9b.json",
+      "source_sha256": "1bf907e555af9bcc31d4c5e1cf23876893e8c1865d24bcfd20ef248d36be326e",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_sf_qwen2.5-7b.json": {
+      "bytes": 3937,
+      "path_replacements": [],
+      "published_sha256": "c06d6838a085c25097c0f67025991991ad34baf1e89530aca831ce22c4cd461d",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_sf_qwen2.5-7b.json",
+      "source_sha256": "c06d6838a085c25097c0f67025991991ad34baf1e89530aca831ce22c4cd461d",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_sf_qwen3-8b.json": {
+      "bytes": 4039,
+      "path_replacements": [],
+      "published_sha256": "21ecf8a99b1d771bb13fd9161ac2c112b346e18f07b3f4e95a0074f4055ae6ce",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_sf_qwen3-8b.json",
+      "source_sha256": "21ecf8a99b1d771bb13fd9161ac2c112b346e18f07b3f4e95a0074f4055ae6ce",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_sf_qwen3.5-4b.json": {
+      "bytes": 4012,
+      "path_replacements": [],
+      "published_sha256": "cf4aa1b683ee2f25741b76676232a4e67ddaa473ab62177290c5e058980212d2",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_sf_qwen3.5-4b.json",
+      "source_sha256": "cf4aa1b683ee2f25741b76676232a4e67ddaa473ab62177290c5e058980212d2",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/freezes/freeze_sf_xing4.0-29b.json": {
+      "bytes": 4036,
+      "path_replacements": [],
+      "published_sha256": "0d4dafcfd61341688ead0e0f88ae196268363cc17e1c45e90cb5c5fe603268c3",
+      "source_relpath": "connecting-dots/dnli-api/freezes/freeze_sf_xing4.0-29b.json",
+      "source_sha256": "0d4dafcfd61341688ead0e0f88ae196268363cc17e1c45e90cb5c5fe603268c3",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_api.py": {
+      "bytes": 16816,
+      "path_replacements": [
+        {
+          "count": 1,
+          "new": "MAIN = HERE.parents[1] / \"code\"",
+          "old_sha256": "e48781bcf9bb98d61a977c45de161a1eb66c058adf35f85ac7f266d548a5cbf6"
+        },
+        {
+          "count": 1,
+          "new": "ITEMS_TEXT = HERE.parents[1] / \"data\" / \"items_text.json\"",
+          "old_sha256": "13f9d32dcd2fb813f8d0cacd6cd5084a3b9e0f257f3d98c92afde2d427206af1"
+        }
+      ],
+      "published_sha256": "bd12fccc5cc72b55dd40762806f58c8c81edbe74817ceedd6dff93111ba6c4dd",
+      "source_relpath": "connecting-dots/dnli-api/run_api.py",
+      "source_sha256": "feaa3739695da56ff908357f901d4e007d34c756ff2787cefd0eea65eb1184de",
+      "transform_id": "dnli_api_public_paths"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_aistudio_gemini-3.5-flash-lite.json": {
+      "bytes": 133804,
+      "path_replacements": [],
+      "published_sha256": "1d7afa25735338ba3d651bc639e8cbb76c37b795d188f38384433c27adb11203",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_aistudio_gemini-3.5-flash-lite.json",
+      "source_sha256": "1d7afa25735338ba3d651bc639e8cbb76c37b795d188f38384433c27adb11203",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_aistudio_gemma-4-26b-a4b-it.json": {
+      "bytes": 133855,
+      "path_replacements": [],
+      "published_sha256": "d2e060e6a8ecb94a937cac8905f299f6b4272335b8a5e0a29c63cd1b356e1626",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_aistudio_gemma-4-26b-a4b-it.json",
+      "source_sha256": "d2e060e6a8ecb94a937cac8905f299f6b4272335b8a5e0a29c63cd1b356e1626",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_aistudio_gemma-4-31b-it.json": {
+      "bytes": 133829,
+      "path_replacements": [],
+      "published_sha256": "938c82f5ffc0fc8290753adda78e94d1b3d7870d93740e69cd9139b894fe455c",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_aistudio_gemma-4-31b-it.json",
+      "source_sha256": "938c82f5ffc0fc8290753adda78e94d1b3d7870d93740e69cd9139b894fe455c",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_cf_llama-3.1-8b.json": {
+      "bytes": 129519,
+      "path_replacements": [],
+      "published_sha256": "8d05c0f8062031abc70ecb8deb0f96ed65e58d130c1547ae09abcb1ef54f70cb",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_cf_llama-3.1-8b.json",
+      "source_sha256": "8d05c0f8062031abc70ecb8deb0f96ed65e58d130c1547ae09abcb1ef54f70cb",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_groq_gpt-oss-120b.json": {
+      "bytes": 134125,
+      "path_replacements": [],
+      "published_sha256": "aff102d65de2aa8552e964f2c22e46a240fb49172bd0c389ebe5f1822cb9f6fd",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_groq_gpt-oss-120b.json",
+      "source_sha256": "aff102d65de2aa8552e964f2c22e46a240fb49172bd0c389ebe5f1822cb9f6fd",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_groq_gpt-oss-20b.json": {
+      "bytes": 129603,
+      "path_replacements": [],
+      "published_sha256": "94726344fc752a90da6349e6c845b60c041b43cc7ba6e15537b165301dde206a",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_groq_gpt-oss-20b.json",
+      "source_sha256": "94726344fc752a90da6349e6c845b60c041b43cc7ba6e15537b165301dde206a",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_mistral_ministral-14b.json": {
+      "bytes": 134063,
+      "path_replacements": [],
+      "published_sha256": "6c247ae812826cfbad07df5376a15a7f22fcf297f5986d5805d13030f677b3ae",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_mistral_ministral-14b.json",
+      "source_sha256": "6c247ae812826cfbad07df5376a15a7f22fcf297f5986d5805d13030f677b3ae",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_mistral_ministral-3b.json": {
+      "bytes": 134070,
+      "path_replacements": [],
+      "published_sha256": "a86544835df56502851d47e5420a727dd757d239d2cfaaa905e355f1b9fc623f",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_mistral_ministral-3b.json",
+      "source_sha256": "a86544835df56502851d47e5420a727dd757d239d2cfaaa905e355f1b9fc623f",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_mistral_ministral-8b.json": {
+      "bytes": 133769,
+      "path_replacements": [],
+      "published_sha256": "478cebaf16e93b2c434fcac621e609886a2f73f37eb3f7140daeafa30e935981",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_mistral_ministral-8b.json",
+      "source_sha256": "478cebaf16e93b2c434fcac621e609886a2f73f37eb3f7140daeafa30e935981",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_ms_qwen3.5-27b.json": {
+      "bytes": 131385,
+      "path_replacements": [],
+      "published_sha256": "6f8d5f242eab504403ddd08c8f2e3d82414c1d9ad8b633a75ff0b69fc16fc406",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_ms_qwen3.5-27b.json",
+      "source_sha256": "6f8d5f242eab504403ddd08c8f2e3d82414c1d9ad8b633a75ff0b69fc16fc406",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_nv_nemotron-3-ultra-550b.json": {
+      "bytes": 134186,
+      "path_replacements": [],
+      "published_sha256": "9d5c228673b834b909c65866853064c1d72708790e2247bdc411a033b6b339b6",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_nv_nemotron-3-ultra-550b.json",
+      "source_sha256": "9d5c228673b834b909c65866853064c1d72708790e2247bdc411a033b6b339b6",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_nv_nemotron-3.5-bolt-e4b.json": {
+      "bytes": 134205,
+      "path_replacements": [],
+      "published_sha256": "aec621a89b83714dbc8ab9e53c6e21e8176330f8efdef518fe53e73429e467eb",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_nv_nemotron-3.5-bolt-e4b.json",
+      "source_sha256": "aec621a89b83714dbc8ab9e53c6e21e8176330f8efdef518fe53e73429e467eb",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_nv_nemotron-3.5-lightning-30b.json": {
+      "bytes": 133946,
+      "path_replacements": [],
+      "published_sha256": "d536377643eb18e13d7462502347803e0ea3e8497d03841cddead65a9c0e2fba",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_nv_nemotron-3.5-lightning-30b.json",
+      "source_sha256": "d536377643eb18e13d7462502347803e0ea3e8497d03841cddead65a9c0e2fba",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_nv_nemotron-3.5-super-vl-120b.json": {
+      "bytes": 133947,
+      "path_replacements": [],
+      "published_sha256": "77e6014115379ec8d8176514caac3dc27c50df19f9e287c3bd3715b63799ddd5",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_nv_nemotron-3.5-super-vl-120b.json",
+      "source_sha256": "77e6014115379ec8d8176514caac3dc27c50df19f9e287c3bd3715b63799ddd5",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_or_dots-3-note.json": {
+      "bytes": 129607,
+      "path_replacements": [],
+      "published_sha256": "b7166f5fd0754dc5f5a95ec0821d79ca3dcdd3a87c3eab74f0fdc4ad1ddae1db",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_or_dots-3-note.json",
+      "source_sha256": "b7166f5fd0754dc5f5a95ec0821d79ca3dcdd3a87c3eab74f0fdc4ad1ddae1db",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_sf_glm-4-9b.json": {
+      "bytes": 133768,
+      "path_replacements": [],
+      "published_sha256": "ea94b435c6eae82ac4907badc04a89a92c4e32a8b1bc8f597f9a49f871a41112",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_sf_glm-4-9b.json",
+      "source_sha256": "ea94b435c6eae82ac4907badc04a89a92c4e32a8b1bc8f597f9a49f871a41112",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_sf_qwen2.5-7b.json": {
+      "bytes": 133767,
+      "path_replacements": [],
+      "published_sha256": "4faf7e5eaf05b7c0b49d8f6e14172b609e1ad96dfc0e25bb9ee8bdd90ea000ba",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_sf_qwen2.5-7b.json",
+      "source_sha256": "4faf7e5eaf05b7c0b49d8f6e14172b609e1ad96dfc0e25bb9ee8bdd90ea000ba",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_sf_qwen3-8b.json": {
+      "bytes": 133799,
+      "path_replacements": [],
+      "published_sha256": "89db1bd5258e4349cb0d88b9181e5f19d588e912e66267432b7360c5f4b25ba0",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_sf_qwen3-8b.json",
+      "source_sha256": "89db1bd5258e4349cb0d88b9181e5f19d588e912e66267432b7360c5f4b25ba0",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_sf_qwen3.5-4b.json": {
+      "bytes": 136790,
+      "path_replacements": [],
+      "published_sha256": "e734fb6a9a1e0142ba197b2c4359eb021213dc44f19856dc03f359a5c427954e",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_sf_qwen3.5-4b.json",
+      "source_sha256": "e734fb6a9a1e0142ba197b2c4359eb021213dc44f19856dc03f359a5c427954e",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_dev_sf_xing4.0-29b.json": {
+      "bytes": 133801,
+      "path_replacements": [],
+      "published_sha256": "f0aa690c2c7c2c5dc8760332030fc6f59dcbe330235eaf7021680a6c789cbd6a",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_dev_sf_xing4.0-29b.json",
+      "source_sha256": "f0aa690c2c7c2c5dc8760332030fc6f59dcbe330235eaf7021680a6c789cbd6a",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_formal_aistudio_gemini-3.5-flash-lite.json": {
+      "bytes": 619734,
+      "path_replacements": [],
+      "published_sha256": "e1f29d9bd26470d29de44f3ec036e17771d385eb317ae0621ee9af303a32ccd0",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_formal_aistudio_gemini-3.5-flash-lite.json",
+      "source_sha256": "e1f29d9bd26470d29de44f3ec036e17771d385eb317ae0621ee9af303a32ccd0",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_formal_aistudio_gemma-4-26b-a4b-it.json": {
+      "bytes": 626293,
+      "path_replacements": [],
+      "published_sha256": "436db342b9d83ce1edf96b0b42791c5de475296cd2fd598e33c0288592db1fc9",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_formal_aistudio_gemma-4-26b-a4b-it.json",
+      "source_sha256": "436db342b9d83ce1edf96b0b42791c5de475296cd2fd598e33c0288592db1fc9",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_formal_aistudio_gemma-4-31b-it.json": {
+      "bytes": 631140,
+      "path_replacements": [],
+      "published_sha256": "a43d8b815bb143f5d4c885b2b688b73a1e0ebf47b9395ceac4c434367a6f44f1",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_formal_aistudio_gemma-4-31b-it.json",
+      "source_sha256": "a43d8b815bb143f5d4c885b2b688b73a1e0ebf47b9395ceac4c434367a6f44f1",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_formal_sf_glm-4-9b.json": {
+      "bytes": 625040,
+      "path_replacements": [],
+      "published_sha256": "e95ae49c3f3a5e4b26ede1990dbab72a608da1dde0c1d3731e4c5a9133e8c116",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_formal_sf_glm-4-9b.json",
+      "source_sha256": "e95ae49c3f3a5e4b26ede1990dbab72a608da1dde0c1d3731e4c5a9133e8c116",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_formal_sf_qwen2.5-7b.json": {
+      "bytes": 621799,
+      "path_replacements": [],
+      "published_sha256": "d588d9119fa2b25e1b4cff6785b1e635d8f5b2a68ecb9c8ca1445842f9c55833",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_formal_sf_qwen2.5-7b.json",
+      "source_sha256": "d588d9119fa2b25e1b4cff6785b1e635d8f5b2a68ecb9c8ca1445842f9c55833",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_formal_sf_qwen3-8b.json": {
+      "bytes": 639243,
+      "path_replacements": [],
+      "published_sha256": "5155f8156c5bc199cbcd1fb7f38b14bafc3de583d03ed7b8ed4297769d362d43",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_formal_sf_qwen3-8b.json",
+      "source_sha256": "5155f8156c5bc199cbcd1fb7f38b14bafc3de583d03ed7b8ed4297769d362d43",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_formal_sf_qwen3.5-4b.json": {
+      "bytes": 603535,
+      "path_replacements": [],
+      "published_sha256": "c73546c8ff3cf96efd08ad30ce7f98db2d01f30d360221c9b15bdf511698f7fa",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_formal_sf_qwen3.5-4b.json",
+      "source_sha256": "c73546c8ff3cf96efd08ad30ce7f98db2d01f30d360221c9b15bdf511698f7fa",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/run_meta_formal_sf_xing4.0-29b.json": {
+      "bytes": 630378,
+      "path_replacements": [],
+      "published_sha256": "bc8cbe1a69d14cebd92bce0a61e61cca0c9758fb889006b9c1e2c89e74517feb",
+      "source_relpath": "connecting-dots/dnli-api/run_meta_formal_sf_xing4.0-29b.json",
+      "source_sha256": "bc8cbe1a69d14cebd92bce0a61e61cca0c9758fb889006b9c1e2c89e74517feb",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/source_hashes.json": {
+      "bytes": 7126,
+      "path_replacements": [],
+      "published_sha256": "82caaad3b79b9a27a64fcf168a0a6f52a01785753f74de527dfaefef32226e98",
+      "source_relpath": "connecting-dots/dnli-api/source_hashes.json",
+      "source_sha256": "82caaad3b79b9a27a64fcf168a0a6f52a01785753f74de527dfaefef32226e98",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_ablation_vs_format_dev_openai_gpt-4_1-mini.json": {
+      "bytes": 5976,
+      "path_replacements": [],
+      "published_sha256": "bed9f45c4a42ccf8d5e9536d04f50d36827b154f9e2c69b681937b6c39f7d83a",
+      "source_relpath": "connecting-dots/dnli-api/summary_ablation_vs_format_dev_openai_gpt-4_1-mini.json",
+      "source_sha256": "bed9f45c4a42ccf8d5e9536d04f50d36827b154f9e2c69b681937b6c39f7d83a",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_ablation_vs_format_dev_openai_gpt-4o-mini.json": {
+      "bytes": 5969,
+      "path_replacements": [],
+      "published_sha256": "4670931f6c5ceeb97b1256573283bda59029e94119eeba35cf8cac32af38f8ef",
+      "source_relpath": "connecting-dots/dnli-api/summary_ablation_vs_format_dev_openai_gpt-4o-mini.json",
+      "source_sha256": "4670931f6c5ceeb97b1256573283bda59029e94119eeba35cf8cac32af38f8ef",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_aistudio_gemini-3.5-flash-lite.json": {
+      "bytes": 3175,
+      "path_replacements": [],
+      "published_sha256": "0f1d77506105cf880f1e7a675e6e29fb1e60b2286d1887e919c77857837f9aba",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_aistudio_gemini-3.5-flash-lite.json",
+      "source_sha256": "0f1d77506105cf880f1e7a675e6e29fb1e60b2286d1887e919c77857837f9aba",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_aistudio_gemma-4-26b-a4b-it.json": {
+      "bytes": 3133,
+      "path_replacements": [],
+      "published_sha256": "9a5ea319a47ae89d59e807e796c4d99dceae64a84ea0be8b99255f6b11d6bbf5",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_aistudio_gemma-4-26b-a4b-it.json",
+      "source_sha256": "9a5ea319a47ae89d59e807e796c4d99dceae64a84ea0be8b99255f6b11d6bbf5",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_aistudio_gemma-4-31b-it.json": {
+      "bytes": 3190,
+      "path_replacements": [],
+      "published_sha256": "578aece4713bc975471b462adb98fc4d512f77bc5dd04592798557bf48039ef3",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_aistudio_gemma-4-31b-it.json",
+      "source_sha256": "578aece4713bc975471b462adb98fc4d512f77bc5dd04592798557bf48039ef3",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_cf_llama-3.1-8b.json": {
+      "bytes": 3123,
+      "path_replacements": [],
+      "published_sha256": "ae233ec7991f04b786173f891b55b134566c73826b15eb8c933c205775a02e52",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_cf_llama-3.1-8b.json",
+      "source_sha256": "ae233ec7991f04b786173f891b55b134566c73826b15eb8c933c205775a02e52",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_groq_gpt-oss-120b.json": {
+      "bytes": 2843,
+      "path_replacements": [],
+      "published_sha256": "e2e022ae68693fb84843809a5216ec27b9d7c05b9c2c3af2a66300ec85f3d503",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_groq_gpt-oss-120b.json",
+      "source_sha256": "e2e022ae68693fb84843809a5216ec27b9d7c05b9c2c3af2a66300ec85f3d503",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_groq_gpt-oss-20b.json": {
+      "bytes": 2894,
+      "path_replacements": [],
+      "published_sha256": "035582921cd76118abdd78dd39ecbce2c180fa06afaa8241f69861d785e856d6",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_groq_gpt-oss-20b.json",
+      "source_sha256": "035582921cd76118abdd78dd39ecbce2c180fa06afaa8241f69861d785e856d6",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_mistral_ministral-14b.json": {
+      "bytes": 3164,
+      "path_replacements": [],
+      "published_sha256": "b05b0e363a5c5b670f8fd75f034f78a1fbc9c36c473d761f27ed60864399468b",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_mistral_ministral-14b.json",
+      "source_sha256": "b05b0e363a5c5b670f8fd75f034f78a1fbc9c36c473d761f27ed60864399468b",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_mistral_ministral-3b.json": {
+      "bytes": 3024,
+      "path_replacements": [],
+      "published_sha256": "8d86703344af13f6617bfdd56e581893581360969710d822d06108610cc338e9",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_mistral_ministral-3b.json",
+      "source_sha256": "8d86703344af13f6617bfdd56e581893581360969710d822d06108610cc338e9",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_mistral_ministral-8b.json": {
+      "bytes": 3275,
+      "path_replacements": [],
+      "published_sha256": "9a3951c5988752598da1ce7dd69b755a457068699f8682d99751295fc3304551",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_mistral_ministral-8b.json",
+      "source_sha256": "9a3951c5988752598da1ce7dd69b755a457068699f8682d99751295fc3304551",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_ms_qwen3.5-27b.json": {
+      "bytes": 3187,
+      "path_replacements": [],
+      "published_sha256": "a66c367a596f8ea2c15ea99fd1bf058a36f72931908bb3bd52c17560b4543e3a",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_ms_qwen3.5-27b.json",
+      "source_sha256": "a66c367a596f8ea2c15ea99fd1bf058a36f72931908bb3bd52c17560b4543e3a",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_nv_nemotron-3-ultra-550b.json": {
+      "bytes": 3223,
+      "path_replacements": [],
+      "published_sha256": "c38c61b5c914f9ff08a2a8b3b84ccbaf7eef6b13bd6b9bb61f56b4b3f6e24551",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_nv_nemotron-3-ultra-550b.json",
+      "source_sha256": "c38c61b5c914f9ff08a2a8b3b84ccbaf7eef6b13bd6b9bb61f56b4b3f6e24551",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_nv_nemotron-3.5-bolt-e4b.json": {
+      "bytes": 3131,
+      "path_replacements": [],
+      "published_sha256": "8fe20a5d85b7f4e8e8db3c840ee8b4af922f09a1f1de19f7c48af6d22cc5ec72",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_nv_nemotron-3.5-bolt-e4b.json",
+      "source_sha256": "8fe20a5d85b7f4e8e8db3c840ee8b4af922f09a1f1de19f7c48af6d22cc5ec72",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_nv_nemotron-3.5-lightning-30b.json": {
+      "bytes": 3219,
+      "path_replacements": [],
+      "published_sha256": "3b148089ed99b4cbedd767d942311b7cfa5ec873b3da8ba0f18742c6b200c11a",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_nv_nemotron-3.5-lightning-30b.json",
+      "source_sha256": "3b148089ed99b4cbedd767d942311b7cfa5ec873b3da8ba0f18742c6b200c11a",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_nv_nemotron-3.5-super-vl-120b.json": {
+      "bytes": 3349,
+      "path_replacements": [],
+      "published_sha256": "9d1e37e8832ae3803881520c5260dc2d450abb9bb141d65bb3187a5c4ac34791",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_nv_nemotron-3.5-super-vl-120b.json",
+      "source_sha256": "9d1e37e8832ae3803881520c5260dc2d450abb9bb141d65bb3187a5c4ac34791",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_or_dots-3-note.json": {
+      "bytes": 3012,
+      "path_replacements": [],
+      "published_sha256": "4d84079fb197855191181a5898e28c55cd8ac3751454627f2ed6f6d9ddf1fbba",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_or_dots-3-note.json",
+      "source_sha256": "4d84079fb197855191181a5898e28c55cd8ac3751454627f2ed6f6d9ddf1fbba",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_sf_glm-4-9b.json": {
+      "bytes": 3232,
+      "path_replacements": [],
+      "published_sha256": "eb0ed4fa66730258fdcb75bb463340899cc0f337853619c6259f0fbbcc642944",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_sf_glm-4-9b.json",
+      "source_sha256": "eb0ed4fa66730258fdcb75bb463340899cc0f337853619c6259f0fbbcc642944",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_sf_qwen2.5-7b.json": {
+      "bytes": 3152,
+      "path_replacements": [],
+      "published_sha256": "84876b9e010d8d5103a5eb203366fcb19202d5c955e1059d071f935966683553",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_sf_qwen2.5-7b.json",
+      "source_sha256": "84876b9e010d8d5103a5eb203366fcb19202d5c955e1059d071f935966683553",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_sf_qwen3-8b.json": {
+      "bytes": 3089,
+      "path_replacements": [],
+      "published_sha256": "986735da598de688eaeeeb2a9edbdf707ee48d710e3e286e65f45b13f6985b8b",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_sf_qwen3-8b.json",
+      "source_sha256": "986735da598de688eaeeeb2a9edbdf707ee48d710e3e286e65f45b13f6985b8b",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_sf_qwen3.5-4b.json": {
+      "bytes": 3030,
+      "path_replacements": [],
+      "published_sha256": "b597ab934b06449d8d99d1939776b3d8ccb9f1d0efd863c7283b4aa2fbdd99ef",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_sf_qwen3.5-4b.json",
+      "source_sha256": "b597ab934b06449d8d99d1939776b3d8ccb9f1d0efd863c7283b4aa2fbdd99ef",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_dev_sf_xing4.0-29b.json": {
+      "bytes": 3038,
+      "path_replacements": [],
+      "published_sha256": "09d5ae9aa584d169833782079aa2bbe420b9b7f2fd839a11944779141027560a",
+      "source_relpath": "connecting-dots/dnli-api/summary_dev_sf_xing4.0-29b.json",
+      "source_sha256": "09d5ae9aa584d169833782079aa2bbe420b9b7f2fd839a11944779141027560a",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_formal_aistudio_gemini-3.5-flash-lite.json": {
+      "bytes": 3193,
+      "path_replacements": [],
+      "published_sha256": "0370801e8f1875cdd8319079f25ba2389efc494ec46b370e06d675a1ac8f6d5e",
+      "source_relpath": "connecting-dots/dnli-api/summary_formal_aistudio_gemini-3.5-flash-lite.json",
+      "source_sha256": "0370801e8f1875cdd8319079f25ba2389efc494ec46b370e06d675a1ac8f6d5e",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_formal_aistudio_gemma-4-26b-a4b-it.json": {
+      "bytes": 2976,
+      "path_replacements": [],
+      "published_sha256": "902463e5b6bb9f20dc73fb21d98c7112ad2d2bf0c8157c4bfb14a3d9cc4ff8a2",
+      "source_relpath": "connecting-dots/dnli-api/summary_formal_aistudio_gemma-4-26b-a4b-it.json",
+      "source_sha256": "902463e5b6bb9f20dc73fb21d98c7112ad2d2bf0c8157c4bfb14a3d9cc4ff8a2",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_formal_aistudio_gemma-4-31b-it.json": {
+      "bytes": 2925,
+      "path_replacements": [],
+      "published_sha256": "8b334d840d45a042d7de0f004946de3d6d393fb0b052141a6baf2fd121046cd9",
+      "source_relpath": "connecting-dots/dnli-api/summary_formal_aistudio_gemma-4-31b-it.json",
+      "source_sha256": "8b334d840d45a042d7de0f004946de3d6d393fb0b052141a6baf2fd121046cd9",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_formal_sf_glm-4-9b.json": {
+      "bytes": 2982,
+      "path_replacements": [],
+      "published_sha256": "b41fb8ab3934ccac029e0b6ba8ba904bffb53290c0f81ae7741b998619ee3541",
+      "source_relpath": "connecting-dots/dnli-api/summary_formal_sf_glm-4-9b.json",
+      "source_sha256": "b41fb8ab3934ccac029e0b6ba8ba904bffb53290c0f81ae7741b998619ee3541",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_formal_sf_qwen2.5-7b.json": {
+      "bytes": 2948,
+      "path_replacements": [],
+      "published_sha256": "af0c0fc560d78f1d665c43dfdf4368583586fbd56c71144aed8ef07b40a42f4f",
+      "source_relpath": "connecting-dots/dnli-api/summary_formal_sf_qwen2.5-7b.json",
+      "source_sha256": "af0c0fc560d78f1d665c43dfdf4368583586fbd56c71144aed8ef07b40a42f4f",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_formal_sf_qwen3-8b.json": {
+      "bytes": 3088,
+      "path_replacements": [],
+      "published_sha256": "165176f5513f462c67e30d2ea2ae437bff9eeb881d3cf203224cbd0a64b3a01d",
+      "source_relpath": "connecting-dots/dnli-api/summary_formal_sf_qwen3-8b.json",
+      "source_sha256": "165176f5513f462c67e30d2ea2ae437bff9eeb881d3cf203224cbd0a64b3a01d",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_formal_sf_qwen3.5-4b.json": {
+      "bytes": 3157,
+      "path_replacements": [],
+      "published_sha256": "45713f15d215f13832380891f5957a10f659889f19fafa6e89b24ad455e7c372",
+      "source_relpath": "connecting-dots/dnli-api/summary_formal_sf_qwen3.5-4b.json",
+      "source_sha256": "45713f15d215f13832380891f5957a10f659889f19fafa6e89b24ad455e7c372",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/summary_formal_sf_xing4.0-29b.json": {
+      "bytes": 2919,
+      "path_replacements": [],
+      "published_sha256": "d1fcb108f5cb9564efb4bf634e82ccefdb2ba2a05ded2bdaabd6e6cb33f9bf84",
+      "source_relpath": "connecting-dots/dnli-api/summary_formal_sf_xing4.0-29b.json",
+      "source_sha256": "d1fcb108f5cb9564efb4bf634e82ccefdb2ba2a05ded2bdaabd6e6cb33f9bf84",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/dnli-api/test_api.py": {
+      "bytes": 4541,
+      "path_replacements": [],
+      "published_sha256": "5670631501d2192ca7a8f9cb6503b6b86c7a6d6aafd41cff6e769af132ea511f",
+      "source_relpath": "connecting-dots/dnli-api/test_api.py",
+      "source_sha256": "5670631501d2192ca7a8f9cb6503b6b86c7a6d6aafd41cff6e769af132ea511f",
+      "transform_id": "identity"
+    }
+  }
+}

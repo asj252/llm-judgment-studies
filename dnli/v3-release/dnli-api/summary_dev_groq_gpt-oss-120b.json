@@ -1,0 +1,116 @@
+{
+  "config": "groq:gpt-oss-120b",
+  "which": "dev",
+  "n_planned_units": 300,
+  "n_valid_units": 300,
+  "confirmatory": {
+    "H1": {
+      "n": 30,
+      "point": 21.516666666666666,
+      "ci95": [
+        15.716666666666667,
+        26.666666666666668
+      ],
+      "p": 0.0,
+      "holm_alpha": 0.0125,
+      "bound": 15.0,
+      "rejected": true,
+      "label": "\u9884\u6d4b\u65b9\u5411\uff08\u9648\u8ff0\u4e0b\u5f80\u6807\u7b7e\u65b9\u5411\u79fb\u52a8\uff09\uff1a\u533a\u95f4\u4e0b\u754c\u8d85\u8fc7\u9608\u503c"
+    },
+    "H4a": {
+      "n": 30,
+      "point": 0.09166666666666666,
+      "ci95": [
+        0.03333333333333333,
+        0.15833333333333333
+      ],
+      "p": 0.0005,
+      "holm_alpha": 0.016666666666666666,
+      "bound": 0.025,
+      "rejected": true,
+      "label": "\u9884\u6d4b\u65b9\u5411\uff08\u591a\u4f30\u8ba1\u7684\u805a\u5408\u7aef\u70b9\u7387\u8f83\u4f4e\uff09\uff1a\u70b9\u4f30\u8ba1\u672a\u8fbe\u9608\u503c"
+    },
+    "H4b": {
+      "n": 30,
+      "point": -4.153333333333333,
+      "ci95": [
+        -8.040833333333332,
+        -0.2141666666666642
+      ],
+      "p": 0.039,
+      "holm_alpha": 0.025,
+      "bound": null,
+      "rejected": false,
+      "label": "Not rejected"
+    },
+    "H2": {
+      "n": 30,
+      "point": 1.77,
+      "ci95": [
+        -2.3,
+        5.76
+      ],
+      "p": 0.213,
+      "holm_alpha": 0.05,
+      "bound": null,
+      "rejected": false,
+      "label": "Not rejected"
+    }
+  },
+  "table3": {
+    "S_stated": 16.066666666666666,
+    "W_stated": -26.966666666666665,
+    "S_reported": 15.226666666666667,
+    "W_reported": -24.266666666666666
+  },
+  "table4": {
+    "candidate_weighted_sd_stated": 13.092647643849798,
+    "mean": {
+      "point": -4.153333333333333,
+      "ci95": [
+        -8.217499999999998,
+        -0.3774999999999994
+      ],
+      "n": 30
+    },
+    "unweighted": {
+      "point": -8.636666666666667,
+      "ci95": [
+        -12.77,
+        -4.756666666666666
+      ],
+      "n": 30
+    },
+    "top": {
+      "point": 0.4,
+      "ci95": [
+        -4.15,
+        4.6
+      ],
+      "n": 30
+    },
+    "median": {
+      "point": -2.816666666666667,
+      "ci95": [
+        -7.033333333333333,
+        1.0
+      ],
+      "n": 30
+    }
+  },
+  "table8": {
+    "prior_sd": 16.054097202644847,
+    "stated_minus_prior": -2.9614495587950485,
+    "stated_minus_prior_pct": -18.446690096701058,
+    "reported_minus_stated": 1.5960496169444052,
+    "reported_minus_stated_pct": 12.190426721627546
+  },
+  "entropy": {
+    "proposition_h2_direct_bits": 0.6943912287822905,
+    "proposition_h2_multi_bits": 0.7965587391994284,
+    "proposition_h2_diff_bits": 0.1021675104171379,
+    "weight_entropy_hw_prior_bits": 2.1371629017539346,
+    "weight_entropy_hw_stated_bits": 2.083378601438407,
+    "weight_entropy_hw_reported_bits": 2.0992062171026555
+  }
+}

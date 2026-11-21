@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "stage": "dev",
+  "upstream": {
+    "exp3-en/data/imperfectiveNLI.json": "ddd01d06b18b9bab24abb5bc92a8eb740bb145123658fa9a10bd86e38b4bdb5a",
+    "exp1-en/split.json": "6821a3b3ad2378d51c683b8abc8a5b45d402b9997e3c8957bcda95cd0ef289b7",
+    "exp2-zh/data/clusters_100_curated.json": "963636a2a74a38f8b8fe6363a079be38f5f2f1b35ef37f1cf3fc89dd7fd6c437",
+    "exp2-zh/split.json": "6382d84a293107215ab034d565415adc8f0a438d90152f4c2b2e9a8d868c3973",
+    "exp3-en/data/clusters_100_e3.json": "7f10a952c8ec32a4c978b69a0f755085fd76490d72d3706db8773b93d17da8aa",
+    "exp3-en/split.json": "cd0e099a38481b23c071d3950aac4527daf29aea12076f34ea9eadc4a90d7ea4",
+    "exp3-en/data/run_inference.py.txt": "5b0fb856ed3ebc0d384ba97887fc3948a09c3269db99572e977d4196ec541880",
+    "exp4-moore/data/clusters_100_e4.json": "f0a2de8192a1c7321e8903818920036b8dcce1b607644f4c3381a5d41768b3f3",
+    "exp4-moore/split.json": "1552968c6b597b37b18eb349ba81f0c08e0faa037d66bfcf468bb2a5d8055731",
+    "exp1-en/prompts.py": "f7cdd0fb5e9ec7979d9f6180943c6cc0ae1f1be1df92e6d77d1778a3a7818343",
+    "exp1-en/prompt_parts.py": "027a6329088a71bb18fe2d4ac8d4999bec00f34af707092c659d54d5f69b8e41",
+    "exp2-zh/prompts_zh.py": "fef39c2e1e86f4aa62c3d259324cbc3c938af7229f35ce496348fc6b877621b6",
+    "exp3-en/prompts_e3.py": "86b103c47889354ef5ff055dbd20c3a77987c0bcef7f0073230d92ddf095acb3",
+    "exp3-en/prompt_parts.py": "027a6329088a71bb18fe2d4ac8d4999bec00f34af707092c659d54d5f69b8e41",
+    "exp4-moore/prompts_e4.py": "63442bf71ec72a9b1e77a21f8abe4c62d3508cc5d46507ecf351799368971a90",
+    "exp4-moore/prompt_parts.py": "027a6329088a71bb18fe2d4ac8d4999bec00f34af707092c659d54d5f69b8e41",
+    "exp3-en/parse.py": "b44d0c453dc54d03e605dc00e5fa2fa8538c998264f93c028ea397c4e6f5f342",
+    "exp3-en/protocol.py": "8b427b57400016e50bdab458c4402efcfb80718541b78b9eb7ebc7baa55e6904",
+    "exp2-zh/core_e2.py": "1c2c38f2edb4e3a5d0d77b95ca65f58ebc50370b7a6818d45e985e9886f670d0",
+    "exp2-zh/exact_tango_e2.py": "b30a5c566c41d38c59d59813f5accb745b3c01beafa4e1d342b82dc141218603",
+    "exp2-zh/manifests/exact-tango-tables-e2.npz": "2eb9bfd0db577301c44e5a49ad5ed1d4296b33031db7b54c78710e11043115a6",
+    "exp2-zh/manifests/exact-tango-tables-e2-meta.json": "ee65e7218f1e3877c366b37ec4b14373dcd0d6d5f64a38d7492d55c9c9367a03",
+    "exp3-en/core_e3.py": "cd637c975bc15061ebff5ed41540ff1c02d66e1f71b0bbebe2557cae3f8077ff",
+    "exp3-en/exact_tango_e3.py": "cac020617b7b3f8b526ab1d2281136bd4b77fca9373d0c0a2846bdff96cf6231",
+    "exp3-en/manifests/exact-tango-tables-e3.npz": "59845e08a34c997c66b8d3c86244a87a7c5d8e6d018743c467bf37be4300828f",
+    "exp3-en/manifests/exact-tango-tables-e3-meta.json": "be32aeb7081fc122a4aa452fc58880b267637a03cffced8cf29f864b2da9ecef",
+    "exp4-moore/core_e4.py": "7c766006ce544402a4655bd52c9f8577c948f7e405e774748eb05691e387940e",
+    "exp4-moore/exact_tango_e4.py": "df21fd7a74d4fa1ee96b4b06f7b0d2fc4820f750aa9565a435024b183c85a4c6",
+    "exp4-moore/manifests/exact-tango-tables-e4.npz": "e6378b3a1c85bf851ff623e906d50edb0572f2b282a3c66297483ef1a43ea3ff",
+    "exp4-moore/manifests/exact-tango-tables-e4-meta.json": "2ecabd0e9158dcc51b03dc1f46da6558602f364ce6fbd9744f2cb44fa83dd9e1"
+  },
+  "scripts": {
+    "configs_p167.py": "7e5a8fc37e06ba3ecbc2cd128ad0e3cf437d7052279491985863461106417ad3",
+    "stimuli_p167.py": "3c68ddde74db03ee2407d1fcf55eb88a854f17adc95c6a5f11038614e680781f",
+    "api_adapter_p167.py": "0c9c7201cfe72bc77b06e2c27f60dc59b4d91b93f36f734cedeba9b24bdd607c",
+    "run_p167_slice.py": "fe1313daec4cbe204b6dc0ee4d0116c057394994e8047778e09b9429c94c3c54",
+    "analyze_p167.py": "e51e305bc548eeed216b23817ba8c4baf2c50636121d6df8f23e5d1c418cdd5e",
+    "freeze_p167.py": "33cb04d7fe903eb1fd29a858505320c2e7cb9fe7e0a721ec672921732144c9f9"
+  },
+  "support_files": {
+    "upstream_hashes.json": "e18fdfc2e3c65d792c152237ad2444921d0a35e6af1fee67d1b788fd2f67b6e4",
+    "test_p167.py": "4b1e3716e82dee06161f95aa573870bcb325b083658229cce1f84a88704efdcb"
+  },
+  "slices": {
+    "slice_e1_e3": {
+      "count": 360,
+      "sha256": "053d3dc6fe96c1ea15ea042afa58615416c47453bf27c240929f04069fcbb3d2"
+    },
+    "slice_e2": {
+      "count": 240,
+      "sha256": "e9cd918127699c2b0c267f6820a9ef6cfef3458e10b54d8ce6a2afa9cd1d136c"
+    },
+    "slice_e4": {
+      "count": 400,
+      "sha256": "947936e48e6d3ef81e8c5f0e3de1e935b87a0d3ca2c0ef65f96402ac8a2dd617"
+    },
+    "all": {
+      "count": 1000,
+      "sha256": "3bbbc8d669b263cfe2711f3246ce0e65cbabc20336c191eee7189b37709bf0fa"
+    }
+  },
+  "statistics": {
+    "B": 5000,
+    "seeds": {
+      "E2": 2026110302,
+      "E3": 2026110402,
+      "E4": 2026110602
+    },
+    "e3_demoted_slots": [
+      "E3_H3"
+    ]
+  }
+}

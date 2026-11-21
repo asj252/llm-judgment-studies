@@ -1,0 +1,102 @@
+{
+  "baseline_commit": "178bb854f1b33e5d93842bb4b0fa05d3f5603ed7",
+  "files": {
+    "psych3/p1-factorial/README.md": {
+      "bytes": 218,
+      "path_replacements": [],
+      "published_sha256": "afaa8b1fbd6595c75a1cb057dc86ddb8e1bddf4b14a13834485184296b7a37ab",
+      "source_relpath": null,
+      "source_sha256": "afaa8b1fbd6595c75a1cb057dc86ddb8e1bddf4b14a13834485184296b7a37ab",
+      "transform_id": "generated"
+    },
+    "psych3/p1-factorial/analysis_freeze.json": {
+      "bytes": 4705,
+      "path_replacements": [
+        {
+          "count": 20,
+          "new": "",
+          "old_sha256": "9fedce13b835a1fe50d1f923fa03ea43fc4ee071b89db2a9f9931af95016a7a5"
+        }
+      ],
+      "published_sha256": "9111238842ff18db684b3b1e148bb33c58532e227c3a18142260b30345c9699b",
+      "source_relpath": "connecting-dots/psych3/factorial-pf-asc-20261110/analysis_freeze.json",
+      "source_sha256": "c12f7269d30eb7bff88f39c7a4dd59a64e19e9c760ebb18244f516cad5c391bd",
+      "transform_id": "psych3_p1_freeze_relpaths"
+    },
+    "psych3/p1-factorial/analyze_p1_factorial.py": {
+      "bytes": 13552,
+      "path_replacements": [],
+      "published_sha256": "68663fc3a128332ea69f860010cd26d6717d7c2b9a6a46bcf87a23ba97504db9",
+      "source_relpath": "connecting-dots/psych3/factorial-pf-asc-20261110/analyze_p1_factorial.py",
+      "source_sha256": "68663fc3a128332ea69f860010cd26d6717d7c2b9a6a46bcf87a23ba97504db9",
+      "transform_id": "identity"
+    },
+    "psych3/p1-factorial/bank_formal.json": {
+      "bytes": 944895,
+      "path_replacements": [],
+      "published_sha256": "8446069dd0beacc7ac2d6b10bacc12a8275c3ec66ea4d04a72b2d0019fbe25ef",
+      "source_relpath": "connecting-dots/psych3/factorial-pf-asc-20261110/bank_formal.json",
+      "source_sha256": "8446069dd0beacc7ac2d6b10bacc12a8275c3ec66ea4d04a72b2d0019fbe25ef",
+      "transform_id": "identity"
+    },
+    "psych3/p1-factorial/bank_pilot.json": {
+      "bytes": 281330,
+      "path_replacements": [],
+      "published_sha256": "d55e61d2bd13b447ef393948da705ca61846c74a9be8fe311d4b6d9df5799ae4",
+      "source_relpath": "connecting-dots/psych3/factorial-pf-asc-20261110/bank_pilot.json",
+      "source_sha256": "d55e61d2bd13b447ef393948da705ca61846c74a9be8fe311d4b6d9df5799ae4",
+      "transform_id": "identity"
+    },
+    "psych3/p1-factorial/bank_probe.json": {
+      "bytes": 22129,
+      "path_replacements": [],
+      "published_sha256": "653ba498ee553fb8641fc74be5ca6367f658a3cce758065d0b21443dd8ee0501",
+      "source_relpath": "connecting-dots/psych3/factorial-pf-asc-20261110/bank_probe.json",
+      "source_sha256": "653ba498ee553fb8641fc74be5ca6367f658a3cce758065d0b21443dd8ee0501",
+      "transform_id": "identity"
+    },
+    "psych3/p1-factorial/build_banks.py": {
+      "bytes": 8201,
+      "path_replacements": [],
+      "published_sha256": "414f57a83e6246f8694a75b7d76ed243ab480ad8c7b563bf31b2741285d1cf54",
+      "source_relpath": "connecting-dots/psych3/factorial-pf-asc-20261110/build_banks.py",
+      "source_sha256": "414f57a83e6246f8694a75b7d76ed243ab480ad8c7b563bf31b2741285d1cf54",
+      "transform_id": "identity"
+    },
+    "psych3/p1-factorial/run_p1_factorial.py": {
+      "bytes": 13924,
+      "path_replacements": [
+        {
+          "count": 1,
+          "new": "Path(os.environ.get(\"KEYS_ENV_FILE\", \"\"))",
+          "old_sha256": "2c8a7854ac87a7e1fbd02aec4c626e5701a8628986841d958df9f94a49597042"
+        },
+        {
+          "count": 1,
+          "new": "if os.environ.get(\"KEYS_ENV_FILE\") and keyfile.is_file():",
+          "old_sha256": "8c9f3dc48824b27847ec32e6efa6869bd891287eb3c66bcc2ffb5d7f8eaede5b"
+        }
+      ],
+      "published_sha256": "8695e6d338fa61cfcf5736a2cec8a07a59010065c0fe8ce1d3b2374dddd21996",
+      "source_relpath": "connecting-dots/psych3/factorial-pf-asc-20261110/run_p1_factorial.py",
+      "source_sha256": "0cb0baeafd46f5cf99f2feb2448e3573ad071b3864e0686900af4df64f46a3ae",
+      "transform_id": "psych3_p1_runner_env"
+    },
+    "psych3/p1-factorial/summary_p1_formal.json": {
+      "bytes": 442910,
+      "path_replacements": [],
+      "published_sha256": "64d0aa59e42f3256225b3dbfc54f88f7871f9060735eaa8c938085ff2c41ad54",
+      "source_relpath": "connecting-dots/psych3/factorial-pf-asc-20261110/summary_p1_formal.json",
+      "source_sha256": "64d0aa59e42f3256225b3dbfc54f88f7871f9060735eaa8c938085ff2c41ad54",
+      "transform_id": "identity"
+    },
+    "psych3/p1-factorial/summary_p1_pilot.json": {
+      "bytes": 420106,
+      "path_replacements": [],
+      "published_sha256": "6447351bef86eb42a77b1e46bd1442ca466d255dc7b07b30f226433083464309",
+      "source_relpath": "connecting-dots/psych3/factorial-pf-asc-20261110/summary_p1_pilot.json",
+      "source_sha256": "6447351bef86eb42a77b1e46bd1442ca466d255dc7b07b30f226433083464309",
+      "transform_id": "identity"
+    }
+  }
+}

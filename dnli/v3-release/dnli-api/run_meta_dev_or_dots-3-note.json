@@ -1,0 +1,3037 @@
+{
+ "config": "or:dots-3-note",
+ "which": "dev",
+ "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+ "fingerprint": {
+  "split.json": "3e09db9ac6e10375bf17e6254fbb6ad5992798f2a03a1ba93c4f896b5eeaf39b",
+  "items_text.json": "54e08df0874587377a259925f49ad8796de6ac4d05c0729fbfa7ae0cf479f67c",
+  "prompts.py": "cfa1f9399f2d6ce61dc7cf312108a2a5f3f18981cfbdba6b881d4d374134f902",
+  "parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+  "templates": "8d107ab0e3142f91e0ec816b16a64f9f3f6e8e07eeb1e4000fef372dcff3ee66",
+  "parse_rules": "2d8f229712ee56416548c8f6cf1c04e6cfd6b463fe0e0776134aefc438af23ed",
+  "sampling": {
+   "temperature": 0.6,
+   "top_k": 20,
+   "top_p": 0.95,
+   "max_output_tokens": 2048
+  },
+  "config": "or:dots-3-note",
+  "spec": {
+   "provider": "openrouter",
+   "model": "dots-studio/dots-3-note-preview:free",
+   "rpm": 18,
+   "max_output_tokens": 2048,
+   "enable_thinking": false,
+   "env_key": "OPENROUTER_API_KEY",
+   "description": "Dots Studio Dots3-Note Preview (thinking off) via OpenRouter free endpoint"
+  },
+  "blocks": "A",
+  "materials_digest": "ccd5097602b06e09293f6790136647db80fdcb765592f377b04b2758984c2a72",
+  "n_units_all": 2900,
+  "configs.py": "af73e321498f0b456a8846e333922f0ca7760c6be36ab3bb47a137d141661659",
+  "api_subject.py": "58936d59320b5bd031f16b82111869ccfac9de0c1085c67e0d00216c4a9fb30a",
+  "run_api.py": "e4526423025af37f0208d4f61892d6a438d49f05699db2faa8666e1616455495"
+ },
+ "sessions": [
+  {
+   "session_id": "26a7d20e5d3a4cacb56b99304edf141a",
+   "unit": "354777556.jpg#3r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "06780a24c0242c37d0214053da869c0faedae37a58b138708e0b5a1fcc9502be"
+  },
+  {
+   "session_id": "72d82ecda4bc4eabb0dfa267130caaa9",
+   "unit": "354777556.jpg#3r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "3e8d45d18a7dd1eb6b0ab3320aaeaa32b810f6c6e857cc317cef25ddd738da2d"
+  },
+  {
+   "session_id": "dd2506c0670c469daefe6d36e0a95262",
+   "unit": "354777556.jpg#3r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "f0aa835f4bb5882dbe60b76a5b719dd155146f124303d74afe1708cda9841a64"
+  },
+  {
+   "session_id": "542bb3b0be6b491eb61c33d582cae059",
+   "unit": "354777556.jpg#3r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "69c1dfa4a913d25cdbef467c69762723a8a1d3ff3d35ac03e0243a84b91d7af9"
+  },
+  {
+   "session_id": "0b5484483b59483c862c858c4d1367e2",
+   "unit": "354777556.jpg#3r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "01f371d0cd770d74dcc5adadebb9b29fe032769da0008a2af07258fe720269d3"
+  },
+  {
+   "session_id": "be2681d98dcf4f528fbf84de07f12809",
+   "unit": "354777556.jpg#3r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "c99e3c2a7134738a0dafec718954b247d13a583fa1e0908937bdd945a6b9e803"
+  },
+  {
+   "session_id": "7c9a0a908ece454ea305f1b3aa30bb70",
+   "unit": "354777556.jpg#3r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "ae8c1cb0e4c28ea79e282d6b367d1b0fbfbd9fa6cca07f73c6cec55d0097f1ff"
+  },
+  {
+   "session_id": "1cf081c09ae946e78eec873d2e67e37e",
+   "unit": "354777556.jpg#3r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "3a8498aec3cdd2de5f49618c9850cb994c80d010396e0b3d40a081dc8998544a"
+  },
+  {
+   "session_id": "80c1f5b2d9dd4c66bb558bcff5abcff0",
+   "unit": "354777556.jpg#3r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "9ef37885978736225ff3fb1669f793304854fe1bbb5dddd56510e475501ad2d4"
+  },
+  {
+   "session_id": "fee34a20b065453593256a6cee6da545",
+   "unit": "354777556.jpg#3r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "d47361768e99a4be8f7e90cada9122efaa8927679216e29a8a712609eca7458b"
+  },
+  {
+   "session_id": "3ba28bb987a74bdaa0ea88fc300f8e81",
+   "unit": "4892890793.jpg#1r1e|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "9162c3ae647bdb205f83732733f10cce7496c8ef96886bfad974f55e0214d65d"
+  },
+  {
+   "session_id": "d5cae85efdef4b46859653afec1431f9",
+   "unit": "4892890793.jpg#1r1e|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "4e1beb79b27f37a2c9bb8b12a69b298ba7e2440994631e19b0b1acc2799a04bd"
+  },
+  {
+   "session_id": "0418dd35f18f4c0aa87c6755bca6a13e",
+   "unit": "4892890793.jpg#1r1e|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "ce82cfd5ac22fa832b7c4b021b266d06f53b675dabed0e9a6b0ca10232e14edf"
+  },
+  {
+   "session_id": "171bfa5148c9448592a0629e42029ea6",
+   "unit": "4892890793.jpg#1r1e|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "2775127ee0e9b3c68a25db919bbc72c6bdc1862d09f43a1ba3d59d5ba78b8a4b"
+  },
+  {
+   "session_id": "f8e93c382c954ce89043d4d9417251f4",
+   "unit": "4892890793.jpg#1r1e|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "8ab35b5e8f1142ee0362447fcbca22c22b6fa6260efe0b6defab1895395cec2d"
+  },
+  {
+   "session_id": "01ccdbd525cd40f59a5a18e81db5f0b7",
+   "unit": "4892890793.jpg#1r1e|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "e65d55acc9394ed143e77fc8d7151710568fbe8c84e566d4794b9db198ebeaee"
+  },
+  {
+   "session_id": "4ae67f543ff740009c756cde360c398d",
+   "unit": "4892890793.jpg#1r1e|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "6344ef884439387ab5eb80d390900b360b8c399fddbcb6ba5bb2894744d8d507"
+  },
+  {
+   "session_id": "75c0ae43b93b42f1be4da3b5bea18fd1",
+   "unit": "4892890793.jpg#1r1e|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "a4580fbdefa767e27f4f0393e8e967cd8d0e9a3022590c098397410e91a47ce0"
+  },
+  {
+   "session_id": "ac04561c7909440f8bd88f494eacab49",
+   "unit": "4892890793.jpg#1r1e|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "ac012e45e7377bce855d7ca2c9a120a05dfc0b7428228af4ed39fc2916b38f2d"
+  },
+  {
+   "session_id": "124258a845d648b3b015e187f4ac3a6f",
+   "unit": "4892890793.jpg#1r1e|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "c55546fa64151f3fa5f521f4dc4cd70361c0ace217627ee7eca6734270233a40"
+  },
+  {
+   "session_id": "b3d7f6494ea54aaba996ee5cfc7aafee",
+   "unit": "6526560433.jpg#1r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "34581b3ccf9db64b4943cafed08d1532f1ae5e0aa7368c2410829581c31b34f5"
+  },
+  {
+   "session_id": "0a0aee9156e447f6be4cbe7a25ee2f28",
+   "unit": "6526560433.jpg#1r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "1933c76b48a65d643e9783b9bba3b2420fb28d5077b1b8ce506194d079c24e14"
+  },
+  {
+   "session_id": "a8b8b6622b114bddae5c07082a5c8cd1",
+   "unit": "6526560433.jpg#1r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "afa3d38196d7cd86036fc88765219e9cd37a7a97d77a921da46b73cdb22d0022"
+  },
+  {
+   "session_id": "194d3c6c24d141c485d64a87e4695f28",
+   "unit": "6526560433.jpg#1r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "02bd0eeb32d1bd475a385922f9832d1266eda4808caece67c440cb17a62bc35b"
+  },
+  {
+   "session_id": "03a9ed406b9b4c37b4cd3e64a777a1c1",
+   "unit": "6526560433.jpg#1r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "6d0311fbd2ec0ba863df8852b1ca59e470c434321b90b5be618c2cb4f587b23c"
+  },
+  {
+   "session_id": "2ff14ae24fd5420c93d3346762e056b3",
+   "unit": "6526560433.jpg#1r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "56f0aad70370da0a2925ccc558677a7361469e1bd6ad4c058a6d1c856a600d16"
+  },
+  {
+   "session_id": "a5e8458e420645168c8f81145c2b13f9",
+   "unit": "6526560433.jpg#1r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "449c45da05db1dee19a83449edbc715a48f9e3699ee2b2086ee364fd32a40c18"
+  },
+  {
+   "session_id": "71e5e33e948f4270a22389ffe3a1f310",
+   "unit": "6526560433.jpg#1r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "652d0c0ef57d95fdabe432ba85802f163131444fdd9976a24398ba6ac7e31045"
+  },
+  {
+   "session_id": "aafb4a4008554c09b6f3ee5175304b13",
+   "unit": "6526560433.jpg#1r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "9a75e6cb21b34c43ce2382e8de1103e051732cae2c7fde20ec9ec4509ffa9a52"
+  },
+  {
+   "session_id": "d178a4d965f74698808298871781d599",
+   "unit": "6526560433.jpg#1r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "55aab2a2d60bf153a33ceac129b8b20cea559e62da02f41074d2c40195046a65"
+  },
+  {
+   "session_id": "44ee439653fa4beb90d5875c2c0e3daf",
+   "unit": "3975631999.jpg#3r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "f612f0a5f1480a33ca32f824344c7e23b501dfdc861d1e1ccf3da2ba934fb38c"
+  },
+  {
+   "session_id": "c27a31f4cc9f4ac7b850ee903d1ee6d4",
+   "unit": "3975631999.jpg#3r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "72e1402b5cb8677c851197fdc21e52e3f0637321de145e3e01a88adcf76a7fbf"
+  },
+  {
+   "session_id": "fcea8ec2f3de410483c42c8540c4506d",
+   "unit": "3975631999.jpg#3r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "02c0f2fab36bfd17825b1b60719dcad6036f13e56c761989b9c3d138c09a7b68"
+  },
+  {
+   "session_id": "bba9e398d9e54cae97fd4c00f4ba7a21",
+   "unit": "3975631999.jpg#3r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "e644aa82c60782b9438083c39c8f584c99381216ccd44efaf30ce40493942f95"
+  },
+  {
+   "session_id": "4aa2d22bd1ab4f6db8759a1d0e2a290b",
+   "unit": "3975631999.jpg#3r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "18a0ee80c2c8ed2186ecdce892443da8d3d3bec6e541ce056117bf579f90a9c2"
+  },
+  {
+   "session_id": "d4c7829910824cdd8a8a18a147d979a3",
+   "unit": "3975631999.jpg#3r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "aeaff44d2a0160c1c164c784895fbc1553478e2b5601f85649c212c49800fe30"
+  },
+  {
+   "session_id": "400ca58f489a4955aced9a22e60c9546",
+   "unit": "3975631999.jpg#3r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "3805f02757e965e70022c8bfdc7f2134c4e872539274f3d18bca402984bc5701"
+  },
+  {
+   "session_id": "4b0d9fdc818b4c5b81c18079313ca327",
+   "unit": "3975631999.jpg#3r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "cd776a9c38686446c8d82fcb514456415121dd0f5073efea5fd288b51e10321e"
+  },
+  {
+   "session_id": "c8ff6f42b9244dbdaadbd08037c35f7c",
+   "unit": "3975631999.jpg#3r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "19c7f925d0af8adcdc3e039ecb64b690812e8d6c30372ac9fe3c92147ed4344e"
+  },
+  {
+   "session_id": "00eb7720de32440da58031e3106dfd1b",
+   "unit": "3975631999.jpg#3r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "34d9c5384cba9b50d9341ebd86db3719ba7e17c99ffe09454d20853d7f9d73cd"
+  },
+  {
+   "session_id": "5581815f8db44358959bb178ba14c5a7",
+   "unit": "3726215814.jpg#0r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "47ee3bf0abc3aa74ece619f94dc122a08f0c1e90c673810aa91c1bfee3e5a3d0"
+  },
+  {
+   "session_id": "fd5322097abc40129784279b5a0ed592",
+   "unit": "3726215814.jpg#0r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "d6e23fb25302fd3735611fdb5e9bc204e8132bbf75ea81f75b46090b74a97a43"
+  },
+  {
+   "session_id": "cb774e8f748c47b1804de3e765de0f4b",
+   "unit": "3726215814.jpg#0r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "3363ffec68f209b45be864786c763f9b948e0b086323006801d76174d798b0b5"
+  },
+  {
+   "session_id": "9d0d164231134fde9a321b74c064ce31",
+   "unit": "3726215814.jpg#0r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "d94f14323a8e151617e9e6acf668b046580630ef2f47b452042458ad206eca46"
+  },
+  {
+   "session_id": "9cc974aac0ba4e52adc2fde50177273a",
+   "unit": "3726215814.jpg#0r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "0629d57be34d1c3d277677da9ed40b7c20418759d34dc6ae03a264bf67cb70f9"
+  },
+  {
+   "session_id": "de21b60585b848f98f444ef31db955c3",
+   "unit": "3726215814.jpg#0r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "5c62a24ab15172ad0feb76e956bee8d3472488fc4e8c9aebce353f03b91cd107"
+  },
+  {
+   "session_id": "5b29bab884eb4afc913ce9a816cf5b96",
+   "unit": "3726215814.jpg#0r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "2fa62f4f4c4473923d821319a43580219d897972a37a680ae3a4a0761e269db4"
+  },
+  {
+   "session_id": "036665d0fb534f408d41610c5bb0f0b6",
+   "unit": "3726215814.jpg#0r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "84a6465db4815f440aaa01e08de34ed461858551ead8984b86050e267fba0a37"
+  },
+  {
+   "session_id": "e57b2812e4914d5e871dcb4855aef4c2",
+   "unit": "3726215814.jpg#0r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "e4bd167c818eea9c073e6fd7f26e4a4b7128b6fc137a0c3799760bebd47cd4c7"
+  },
+  {
+   "session_id": "82554371bbaf4a35b5454f133ced19ff",
+   "unit": "3726215814.jpg#0r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "709d9b174fcc70ecbc8e4a0cc9b6eafb257d1e12738de3293573783cce25accd"
+  },
+  {
+   "session_id": "d0e0c11a12c74bda9a1675041313464c",
+   "unit": "3344411431.jpg#4r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "6fe9ece8e2c7331f49623c9e781c7320b18a58d1049df230aced194321e0fb2b"
+  },
+  {
+   "session_id": "f82a936058fb46f09c75a45156a8a722",
+   "unit": "3344411431.jpg#4r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "8b15671b37f40035720aeacd0a670287df838a4cc54e371636edebce287b458f"
+  },
+  {
+   "session_id": "01078f39e1ef4f64bf51dcc3ec252fe0",
+   "unit": "3344411431.jpg#4r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "0273dd2ee8ccbdb7dbbae7f687c035604ab80765009c45196fe17ea634520f59"
+  },
+  {
+   "session_id": "1de79336d8134e7ea0574aa184e9db01",
+   "unit": "3344411431.jpg#4r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "2b7cab418d3eb9ef61d2434f5d4d6a185bec1367144a2c207d0f956340a8bbd6"
+  },
+  {
+   "session_id": "8d826cee7d484505a070fd62df835291",
+   "unit": "3344411431.jpg#4r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "25f98505a36d502270d7c7f4c2d6943648638fc2b3fc33b2be6f076b1101480f"
+  },
+  {
+   "session_id": "8743772299194af3b76217c6bbc71beb",
+   "unit": "3344411431.jpg#4r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "9f49bd160ee7ea39b71e073ac15dfe04ad28c8d30d3b433c50aafd5845dc7de7"
+  },
+  {
+   "session_id": "5534f8314df44435b11fd6b28e9c5d4a",
+   "unit": "3344411431.jpg#4r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "31c7d48efb24eae171e3e0bf8c7412ce7681f151d89dc4cc77c7893fea06e629"
+  },
+  {
+   "session_id": "249c01da18ee40839b0b874e34dcb8ad",
+   "unit": "3344411431.jpg#4r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "066667992cf64e65174dfa63658807cc4416d861dbfb98404b7f91119361bc81"
+  },
+  {
+   "session_id": "a5a2ae11256e435da893cd9d70477ce5",
+   "unit": "3344411431.jpg#4r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "e40e953744ee6b17deb454d3de112441dde342d0c88fe15f11bf182ae60933dc"
+  },
+  {
+   "session_id": "cca68173187d400680fc5be969c54148",
+   "unit": "3344411431.jpg#4r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "8ec860263a327f3c2a37e62efe82b4428b78964ab07320a15b27a7afbf531782"
+  },
+  {
+   "session_id": "aec5ef63209247fbb5b2b6ab17b919f8",
+   "unit": "2692396013.jpg#4r1c|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "1e7cb5235a657231134534fb3a0fc90f16d7286749d3901eb60becaba8adcb88"
+  },
+  {
+   "session_id": "572a87c50efd44ba9e0e7497b062bb7d",
+   "unit": "2692396013.jpg#4r1c|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "715bd9742890e25c65de612db2c4e4a99b449a78ec3ba4d8354cf862dc2c8c9b"
+  },
+  {
+   "session_id": "290b75537c69491b8691308fce10f6bd",
+   "unit": "2692396013.jpg#4r1c|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "e7b007a36f9199e26609ce1dd98311e66fcc2c3e7a05cf761e943c81cfffa811"
+  },
+  {
+   "session_id": "1bb788f240814643a199d37f37c4e09c",
+   "unit": "2692396013.jpg#4r1c|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "7714215383aa6e17b9936f844f13c7b538ccaf68365d54d37baf1544f617659c"
+  },
+  {
+   "session_id": "10662c942df744a6923901609387e15b",
+   "unit": "2692396013.jpg#4r1c|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "b6f75ae676e298a96b4cd856b4cc0204145a1d5b0e8ac1ce80821884c35e2e85"
+  },
+  {
+   "session_id": "4da84cf5e2ca4f6f8b3b6b14c25cf5c7",
+   "unit": "2692396013.jpg#4r1c|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "580218689a8a7c63084e9d97687fce768e005a8f90fc6d7d28ec430a37923578"
+  },
+  {
+   "session_id": "1c369a8514534b42ac8c08c13ff0b4e4",
+   "unit": "2692396013.jpg#4r1c|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "55dbfd0462e504ee9788ca8e64af29874e5b91361b2ef84500b926c30e476af2"
+  },
+  {
+   "session_id": "7430f2343f5c455795572e993b81ec6b",
+   "unit": "2692396013.jpg#4r1c|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "60c1190e0f1f4da5f121d172004ac7e9ba8f4d672181c88588df59ec32d6d567"
+  },
+  {
+   "session_id": "6dd8137ed72847a29d5894f84ae4c6a7",
+   "unit": "2692396013.jpg#4r1c|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "4ea22d1d6ccbbba046936c1bf5aab81c41859172451f6ba8a11035cb96d8c20b"
+  },
+  {
+   "session_id": "dc274caece3f4cfb9fb64b8708e6d9d7",
+   "unit": "2692396013.jpg#4r1c|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "3b3f653e7f5b9b1525de449a8f81dab806c10dc67cfceb54b51255cce07b28b3"
+  },
+  {
+   "session_id": "7693805ec5194e12a1ba8452e5845a5e",
+   "unit": "5436966915.jpg#4r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "6c8733a68bbb7534982cb835503445fb25fa96261dda535eefde74b609257442"
+  },
+  {
+   "session_id": "acc04f96101d4f35a0333833cb7780bc",
+   "unit": "5436966915.jpg#4r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "399a13f865ab56d000093aafb7cb743d50af55fd8b532048f1a91c44f685da9f"
+  },
+  {
+   "session_id": "0950b24ed79c4a738ed80903b81a7f50",
+   "unit": "5436966915.jpg#4r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "2983f67a7576cf2b835774e3f0e1e5e588fcc11db239e2c19da31e262bc7fe89"
+  },
+  {
+   "session_id": "aff02c8e4cfe48e8a78ad838f0052ee7",
+   "unit": "5436966915.jpg#4r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "6090f7c9acd896c4c0f61337cecf0085464cf3817786d7880320b079cabe7742"
+  },
+  {
+   "session_id": "bf5a9ddac6ee4b5a9560424ff310e91f",
+   "unit": "5436966915.jpg#4r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "0b17bacc08fef4efa9b23af820f6fe6b7e5824c464d04d494bb18411eef3f601"
+  },
+  {
+   "session_id": "15e0b9fac04540a6b12a24053e03787f",
+   "unit": "5436966915.jpg#4r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "d38839d4aaa0f1611a5eaaa800d41937d0e48eba9a616194c3cc95ba976ec2e4"
+  },
+  {
+   "session_id": "b5a6b8b4f13a41f49057e2a871e1bdd9",
+   "unit": "5436966915.jpg#4r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "94d3e16b7337e52500a43add58c13e0a9e37668e111f138cff6f5f57cc32b028"
+  },
+  {
+   "session_id": "377ea5c61955448bbf76b6705e01e3a3",
+   "unit": "5436966915.jpg#4r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "2dce20ccfce228e88da79358c15c38d34d6116631b947673d81a8f26a80e679d"
+  },
+  {
+   "session_id": "763c80ada0234d3d9c6a2da59022b0f2",
+   "unit": "5436966915.jpg#4r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "abf3b913469801f5f76bc807e561393821a7109d596ff6c25645f65c92e56296"
+  },
+  {
+   "session_id": "bc1a6c1fc38b46dea5938ebb6c95eb74",
+   "unit": "5436966915.jpg#4r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "6563561b1ba5f128e324cb1bf4e14ca945fe5561cf5115bdf9bd09ed3ca69dac"
+  },
+  {
+   "session_id": "cfbad011e97244dd88a48d3bb78b8eae",
+   "unit": "2554929458.jpg#1r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "6e455800c01736bf756151294dec3e328b0cf39b0be9cecdac4ae1d380fc1525"
+  },
+  {
+   "session_id": "3d2b499fc793451b85f5472ec3cd025a",
+   "unit": "2554929458.jpg#1r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "76b9cf21429594b8e87bd6b640ef2bd3e893e14ab9b8372bf27b9c6ef1423cdb"
+  },
+  {
+   "session_id": "84b145cdbd7b4f3ab104a835f9772388",
+   "unit": "2554929458.jpg#1r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "04259c37f488ad6b95e712e08d09d2b2aff67fb8a5b05c16122710ffee82de0c"
+  },
+  {
+   "session_id": "f6b6af064aa24ea4bfa59afee094017e",
+   "unit": "2554929458.jpg#1r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "51ac2a075fcb8717f4e35be784eb71592796622cb1b1d8ff5780582060e71b40"
+  },
+  {
+   "session_id": "e6943a6ec5ba409c94a5374c0cb3c54e",
+   "unit": "2554929458.jpg#1r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "099a4784967379ac967904921cdb45a2f8312b77692279ad85a1eaef9bb49004"
+  },
+  {
+   "session_id": "f2c2cafb346541038d1b1b7ad23deddd",
+   "unit": "2554929458.jpg#1r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "a14893470eefe410b5074df24451afecfc8582952ee0c6b0118ee328155be26d"
+  },
+  {
+   "session_id": "7f7269d158c04f81b0742aa684318bfc",
+   "unit": "2554929458.jpg#1r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "8653bcf7437f638f2f8d629b2f9ac6bded404e0abf76f966016e1bdf3efccd9e"
+  },
+  {
+   "session_id": "677c1ffd6e194904ac01080b698b94a9",
+   "unit": "2554929458.jpg#1r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "8aa36fbca076d6e06e2dcf87068043f2ff8865dc9439716cca3a1223416ec13c"
+  },
+  {
+   "session_id": "6da1bd84a8384f68a724ea1b913086db",
+   "unit": "2554929458.jpg#1r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "0de71c906e451798c0b2b79598a617ca3f902ec581bcdcc67fd5c0d4f9d91577"
+  },
+  {
+   "session_id": "05f73e2487c14ceb8b85f4b5fe70903f",
+   "unit": "2554929458.jpg#1r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "edc1354f783f006e75a855fa6f02e2e3b0b0603687f8c45c5517fccebcffcb2d"
+  },
+  {
+   "session_id": "06976b99e6204de7b29f2ac73be80d92",
+   "unit": "1420060118.jpg#3r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "3f54d0d7cff74540e6db67e7ea58b787684a13040184268ad0252b2a65d83780"
+  },
+  {
+   "session_id": "90d999000c48427a957440361e2d3221",
+   "unit": "1420060118.jpg#3r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "adb5fd6108203a4f62e6e7f79706d77672fca73644e52657b12f9411d6ecd7f9"
+  },
+  {
+   "session_id": "d09a258fa8934cac86361c31b67b5ec8",
+   "unit": "1420060118.jpg#3r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "fc28aaa300d73f2147ad2c871e71bd5afbe5d318ca640a95859c13306b26493e"
+  },
+  {
+   "session_id": "e59d4553eb134b4c9f4ac061af789079",
+   "unit": "1420060118.jpg#3r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "b6d27c1619a58fa849867c63879a2dc31a94d1a8ae2174f831b4e2b6e1643dcb"
+  },
+  {
+   "session_id": "b9e979b24a014e729ac1b0f028377eb8",
+   "unit": "1420060118.jpg#3r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "547ec05160efa030447858a40fe029aed2095c2bbc8192333c5ab514eb010ce5"
+  },
+  {
+   "session_id": "ebb9c9c49b77491fb65fffd1bec6a2e0",
+   "unit": "1420060118.jpg#3r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "055a286a36b78d1a635a23533f2f7285f24227a31d9db3e8a2250768e9c1fdad"
+  },
+  {
+   "session_id": "3430716810fe42e49bade72430c3ed3c",
+   "unit": "1420060118.jpg#3r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "bf1d9a0502962932f388a297b3261873510245932112703e4fc02d3f11c419c2"
+  },
+  {
+   "session_id": "368e57df85e44796ba2a690a7c269308",
+   "unit": "1420060118.jpg#3r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "3fad44bdfaf76a8a136f3ce873a7d07076a81de1e9c9e3d172b2a3b0e9d14bf2"
+  },
+  {
+   "session_id": "e0a29632983943248c0dc98c27c18d71",
+   "unit": "1420060118.jpg#3r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "a2bd92564fdc05a172d251632037558f634153fbd75783fa0f66ad71e5591da7"
+  },
+  {
+   "session_id": "c58074667bdd4c54aea61722a14d6234",
+   "unit": "1420060118.jpg#3r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "4cf4fcf0caf1228a37cb276bcf367b01fb11093586a490273095eb56be6e65a2"
+  },
+  {
+   "session_id": "e82d98d3698641c899fafac72e1442fd",
+   "unit": "200797624.jpg#4r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "59f59eca16d571e3a710792fb4bc45c0364ead3f655b0099576065a078dcf806"
+  },
+  {
+   "session_id": "bb37b359707d4cb4948e461df125fe3c",
+   "unit": "200797624.jpg#4r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "b9b69375e47af42aa74424ec4b161ff7c3ca97bf63d67256dce66ece4d3dba68"
+  },
+  {
+   "session_id": "633bc0823b9245bbb8269333c956c0b3",
+   "unit": "200797624.jpg#4r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "5980448350139d4bb7ff43a46337bd051ad4a163f3eda3b115839a423439471f"
+  },
+  {
+   "session_id": "b04beedd8d5b42198fe56e75ad23c524",
+   "unit": "200797624.jpg#4r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "7d1e75e5584ea893c2607c8ca94e9f622a900633cf9c55ecd1de5db6e598cd53"
+  },
+  {
+   "session_id": "1a0708ba989d4e0cbe2974bd5875cb95",
+   "unit": "200797624.jpg#4r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "c5077f7fe11bb045e1bc78d6273e33eb2a7481fd97bc26df3f6a7470f2a7425f"
+  },
+  {
+   "session_id": "9ad80f60bf6b43f19e9ea7f883470082",
+   "unit": "200797624.jpg#4r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "88fe7690f621c79f1447aa68e49c108932c63848706f0a7fd3b99732672d945f"
+  },
+  {
+   "session_id": "c50f069bf6cd4a749dfb584d1179bf00",
+   "unit": "200797624.jpg#4r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "a436314e9ec83de67ed93a64c538914e6a3943eee0f304d8993a31df2a22429a"
+  },
+  {
+   "session_id": "439efbdcbff245518b43ab44dc0080a5",
+   "unit": "200797624.jpg#4r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "9f3914b94f2e32bf16ef15586eb849ac5925127c4d8f394ccde93788411a235b"
+  },
+  {
+   "session_id": "4a176fdde7ad4986ab1bce52220ff769",
+   "unit": "200797624.jpg#4r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "287581df7b43c373f697abcc8cf63a29dd570bdd5c1956eb540cfd3e95dc3e46"
+  },
+  {
+   "session_id": "40c850812b774ed9bef00dfd88ba77d3",
+   "unit": "200797624.jpg#4r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "87928bb440ed301ba4d10821209477838d589b612ddea02ffb6814dd26ceab5f"
+  },
+  {
+   "session_id": "1eb9a1744af94894975425cd31170d05",
+   "unit": "4913169135.jpg#4r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "627b08f9de3327bbdf8b33f0d5b97e13599baa0e908e9998678d9c5ca9dd3e22"
+  },
+  {
+   "session_id": "9272dc637d734892ae74fec52931de02",
+   "unit": "4913169135.jpg#4r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "2a7313ac233663fd5c10b31c210d8285a9abd8675862c3fb29e06a701c8936c5"
+  },
+  {
+   "session_id": "85b03aa93a294cf2a81495eb5eaca78b",
+   "unit": "4913169135.jpg#4r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "a6dcb7a06d06dd933a0a46ac966d0ed1048197b42f62f3a634c713485cb5f45b"
+  },
+  {
+   "session_id": "22301921598142d787c63292208bfd2c",
+   "unit": "4913169135.jpg#4r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "a217aec0b6acd5c86869825520d52567666ec72c44e6de2e6d7b8efad104d06c"
+  },
+  {
+   "session_id": "975776b1e86a4196b44e9d6d680a4b3f",
+   "unit": "4913169135.jpg#4r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "fc96b4a8b3b2d736e30e53d6e99e5fa8ea1c20bf6b1ab5605ac100b0b98f31a6"
+  },
+  {
+   "session_id": "105adad5ea10485da2e11016cb64d5f2",
+   "unit": "4913169135.jpg#4r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "16ad02300ea07026d4f9450394aa7ed896a757664482690484a9b4a835399988"
+  },
+  {
+   "session_id": "8491113240634dbc960b0e00155fada6",
+   "unit": "4913169135.jpg#4r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "5edc7cf69f4085a690b388af89fe38587a4dd43f0b54192c6d1a600a269506b9"
+  },
+  {
+   "session_id": "14ae6cedc0534feab045b8681d414244",
+   "unit": "4913169135.jpg#4r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "cd9f5d8a6b65813919e3f4ef10ab03ce31fb6e1c308f265a4050f660eda757fc"
+  },
+  {
+   "session_id": "82e48ea920a34a378d7f8c105b7bbe89",
+   "unit": "4913169135.jpg#4r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "32cf2550faf01028259963a28d564536ec68a2034a1ad9b577841e3ad8e338cd"
+  },
+  {
+   "session_id": "dd3546b31a1a4041b8457b5512cd79d6",
+   "unit": "4913169135.jpg#4r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "cd3a1cd4685d3092f40601e024ebd94a19bd5deaa49863f63103f335df2a816d"
+  },
+  {
+   "session_id": "e10c601175874c58bcd7a742b3b857cb",
+   "unit": "4670365996.jpg#1r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "7603dd2c7d942c3c68eacd441c414a2512b4b08b16706990cd153d7fc738ae4f"
+  },
+  {
+   "session_id": "2d7f4950142f420992f15df66ed3b528",
+   "unit": "4670365996.jpg#1r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "2f20345179d7b0eb66a449dff97cbfb7fe6085edaa3bd6eedc06b010a6d89550"
+  },
+  {
+   "session_id": "0df5d778a4f34e9b80c2fbfa9da98ad8",
+   "unit": "4670365996.jpg#1r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "0df2e427136d83efbeae4b43aab70add2320aa589650b8d4ca9a8a8b2a8c1849"
+  },
+  {
+   "session_id": "917e1d39142045b194017f5403f25a60",
+   "unit": "4670365996.jpg#1r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "db4ba7db7d3786a779cf3e6564ee0008800c9441efb8e77c115277da9449fa1c"
+  },
+  {
+   "session_id": "58f529960da74de596e26c722f4ab1a6",
+   "unit": "4670365996.jpg#1r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "5921cd1e7c9b4323c825f7cc0372989918a8f5ef57cfa159f91ca32549b05cc9"
+  },
+  {
+   "session_id": "c57e0ee755b74ef7b0452eb383302f6a",
+   "unit": "4670365996.jpg#1r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "044e3bc53dc834bae0192512b27a9f78b7e380d97c96a26be9e31568e1b0ffa4"
+  },
+  {
+   "session_id": "982dc4587f194d82be929059d7466bc8",
+   "unit": "4670365996.jpg#1r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "4f2833f8e6c61098790df670a19e4b8ceadb1b11cb1f269ecf5a0b0b1c58d231"
+  },
+  {
+   "session_id": "874925a9892a4e45968bc14f37400be0",
+   "unit": "4670365996.jpg#1r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "9ba70ad90d26555d274cb49fd6bae19865cd24976f50fd25e2456db80229f854"
+  },
+  {
+   "session_id": "dd5d3dc4b53d428a819803bb0d90234f",
+   "unit": "4670365996.jpg#1r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "feb88ba9459fb83aa481dfcb02bc3cc90c8b3aacc4ddd990266184eb830530f3"
+  },
+  {
+   "session_id": "72a31049773947ab98150fcad72e69f8",
+   "unit": "4670365996.jpg#1r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "77406ebcf504c9611e42343c35a9f17a8bfe501acd4839ae38280aa7e62a9ff8"
+  },
+  {
+   "session_id": "0e8582c884c248a982820230403ef1ad",
+   "unit": "4421399995.jpg#1r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "4754202b56db6989394725b82dafa1af89810d94b8072f0309ae1c24d6457b3d"
+  },
+  {
+   "session_id": "d33a2320e9bb428fab4109a139a37426",
+   "unit": "4421399995.jpg#1r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "32fc3a55464e3a0a6823534c510efb221daceffd243ee3d1de6560032d6acc78"
+  },
+  {
+   "session_id": "b8b5b26c6bfb43588b3ec76abe9898d8",
+   "unit": "4421399995.jpg#1r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "f85e9182446c3fba4836af30088720e2e3faba7396f8e522596b956844e48d92"
+  },
+  {
+   "session_id": "1effa08c97264c01a35c5e85f450567b",
+   "unit": "4421399995.jpg#1r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "2b5dd33fb6cddb0ff79831f6628a4a221133da81eb0464c454ad0097599463cf"
+  },
+  {
+   "session_id": "b563bc23b2dd4946937ae5438fc87c97",
+   "unit": "4421399995.jpg#1r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "b75795820a7024cf4d5de549b5d0802e79ea4dbc55b9e6d1cca91ee5cbd45ac2"
+  },
+  {
+   "session_id": "0077ed8319a849059f5fee28e10813c5",
+   "unit": "4421399995.jpg#1r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "7523e1bf89f5a2b74255e485263c92d949eb1dbf4656bc472ff70289eb45c924"
+  },
+  {
+   "session_id": "7ea1b9347bf94b66a2e7b621da24ba1d",
+   "unit": "4421399995.jpg#1r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "42bd5f3409f91856d8403034813f05c7f47a44bfdc09c8b5ef5ac471c68229b1"
+  },
+  {
+   "session_id": "5f70d58fc1f14e3383cf515424f0bba6",
+   "unit": "4421399995.jpg#1r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "57fe26910f7eb3f5e52d891486f361872fcf2ca1faebeaac5d55a5bcedb0dacd"
+  },
+  {
+   "session_id": "ed880e8bfa5342319be0995f4fa4c9b5",
+   "unit": "4421399995.jpg#1r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "a3b97af8d7ecfecd74a1626a369509dbd7de535a01a322c35924006d65c6d95e"
+  },
+  {
+   "session_id": "4587e82576054b448c3799a4f898c916",
+   "unit": "4421399995.jpg#1r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "f169701aa089607871cfeed710407a56c783d36c203a65e28a586cadb4c981a5"
+  },
+  {
+   "session_id": "96ce01e8a0184ae58e9c930fe989dbf9",
+   "unit": "3373615534.jpg#1r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "cd8dae1d5e5817d1a7b5bcf9995b0f7d65c995f7e9c1ec65a3d6d5888156d17d"
+  },
+  {
+   "session_id": "1fb771f8d42842a6bcd53e4bf5501074",
+   "unit": "3373615534.jpg#1r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "8046834d189697a1ffc9008b29a200c80c993041fddcdb7505eabffd5bcf2be4"
+  },
+  {
+   "session_id": "607ea6d64bf14dfd81f3fbf1e593b731",
+   "unit": "3373615534.jpg#1r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "f9762e205de0f8cdfe4f039c0e5f9569c88ae90fe453fc404d4f06049d57bd54"
+  },
+  {
+   "session_id": "c03a747955a84d0084c0cea22e6a7acc",
+   "unit": "3373615534.jpg#1r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "217104ff6563d54e2ccc87d0ffbb4c4b56d470f1d7ad51bba6e50829db569a9a"
+  },
+  {
+   "session_id": "00003cd693014ab7a31672288cf7fff5",
+   "unit": "3373615534.jpg#1r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "3a8ba4e4d87168e3ff863fc73a66a3549ee722e6ecb470757a4b11543f7af70d"
+  },
+  {
+   "session_id": "fb9ca457a27244ee884c6a279fc3c23c",
+   "unit": "3373615534.jpg#1r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "d82520965fd970d74dc83243f1fa0da63ebc244a1c6cfa704fc18670a40eb692"
+  },
+  {
+   "session_id": "8a670ec2e2e94ac5bdbec0e50d5bfcd2",
+   "unit": "3373615534.jpg#1r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "20437159c0bfa866f004a95b0ab54df1a5c30ab9df317de16b7340060f588207"
+  },
+  {
+   "session_id": "5823d81458d9420c9040b7591297ad7e",
+   "unit": "3373615534.jpg#1r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "fbfb76fc9c15a629650a7bd15da02c2ba9ad03c0ac36d25cbd7acdfa6a2239ac"
+  },
+  {
+   "session_id": "52070530062e416f8a7af3f6a4aa3a07",
+   "unit": "3373615534.jpg#1r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "818ba283514b5b72aa27ee2e108ce8fcedded93297c3bcb4480e91a357c85780"
+  },
+  {
+   "session_id": "d7e9dd12a3844c948b0cada973f29d18",
+   "unit": "3373615534.jpg#1r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "137c00586a70ad7f21fa2d6d096dc689f371eb572e2209d27e1d6f5dca894c40"
+  },
+  {
+   "session_id": "fa7c7692761d416195940704f6796ed2",
+   "unit": "3640329164.jpg#0r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "23cce63809f33e36c009db701de7c6361d8175e762bee473be5945b8fb86ecbf"
+  },
+  {
+   "session_id": "83952e67d3814b17b5f7f6e70472f9f2",
+   "unit": "3640329164.jpg#0r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "ff42cce2ed9c87da67ec8fa6921b8b1f4e1d174540a5a3f8f8da12294ef50e77"
+  },
+  {
+   "session_id": "309b6577c8414a28abe9160d2aed6ea3",
+   "unit": "3640329164.jpg#0r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "9e372859d18a300786d3c1b109926d6e925fae50aadc15715f04ec2fb8350883"
+  },
+  {
+   "session_id": "91c65b02f5f34a41b84013380dd02504",
+   "unit": "3640329164.jpg#0r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "80496a66b932a477234277dec1fc0916f7623dfa06998e79f904274e510f659e"
+  },
+  {
+   "session_id": "8d372206c48d474b94cc878cc8bb87ed",
+   "unit": "3640329164.jpg#0r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "2fb23975a16213fa67c843dd7626a226df85d6b458926e9815a0d13e1c569241"
+  },
+  {
+   "session_id": "cf8a3441c1684ce1a52c5214494cd4e8",
+   "unit": "3640329164.jpg#0r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "fce4d2319f7bffc5090280ffd5777e13eafc480d9b0bc2bc4f67e60884941ff8"
+  },
+  {
+   "session_id": "bdb6496db10f4312b827cf652fc5f9ce",
+   "unit": "3640329164.jpg#0r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "a093b990c1b350d948b4fee730f8582325208e7222df44ce489201202900f2e4"
+  },
+  {
+   "session_id": "af371fa3feab489c9800afc2c92ee435",
+   "unit": "3640329164.jpg#0r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "f0e24e879697d62d1d164aa3abb71576f19af71716736147294f2cc34189480c"
+  },
+  {
+   "session_id": "e0cf2c92b3ac44c2b6e031f2483ef6bc",
+   "unit": "3640329164.jpg#0r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "cee18b9e7f4d189a63585bf67a7d0c7d009161fd4361fc87d0ad2ecd239bb7ed"
+  },
+  {
+   "session_id": "6d8681de83254c7fab2a930551a4b906",
+   "unit": "3640329164.jpg#0r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "60d05ab94ed5160fdbf8280b5477b247c4a709c4dc42011fb105b96c0647b648"
+  },
+  {
+   "session_id": "8f7d3d46550146f2a2c862a63fbd866b",
+   "unit": "2537594884.jpg#1r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "2f0c4898f63ab4b431cc0e38f247302087982e65db893f4d4475cefda9f2dd80"
+  },
+  {
+   "session_id": "2452a972fc374340b61a6f3175a41803",
+   "unit": "2537594884.jpg#1r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "0257f8ce2946ed203edb1c5d55f8f929ad1bbdf5cf90eec54bf122f493db9099"
+  },
+  {
+   "session_id": "f6825e3b6cb343f481746d4e9dcd417e",
+   "unit": "2537594884.jpg#1r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "da03de7cc5500c9106e52ce3c753afbf05bfd010356c04f17f12570da639e858"
+  },
+  {
+   "session_id": "4eff25a061394ed4aa1dc1cec39bffa7",
+   "unit": "2537594884.jpg#1r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "2b31204c567cf32c4f1821f0d7abc659c6c8cab1c75fad867a79502ccfd69bb2"
+  },
+  {
+   "session_id": "6a5cfe717e0540d9beb531cfc272a6e9",
+   "unit": "2537594884.jpg#1r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "3cbfd700627ae6e4caab093ee63df30e7f7f5ddc8beefda5e7bf9dec8b8bf26c"
+  },
+  {
+   "session_id": "020ac129297f406189fe23b2e541c955",
+   "unit": "2537594884.jpg#1r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "a963981b3a6a8ad31cc9969fd0d30167d9c111deb90fc86b512b2e4f6d163e5a"
+  },
+  {
+   "session_id": "088a67a425c046a4a94b920578765d8d",
+   "unit": "2537594884.jpg#1r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "1261bf8cb5f9de9e23cc53ac31afd062291343b284fd4da7f4d6ed12cc644160"
+  },
+  {
+   "session_id": "e3df0609e5ff4b8d805ed8eae4f80018",
+   "unit": "2537594884.jpg#1r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "888ddd5236b9f51776c0af431ceedff534bfb2aa915e8346faa42155b3fbd030"
+  },
+  {
+   "session_id": "83fb568dda434c2eabeb6a4188a02606",
+   "unit": "2537594884.jpg#1r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "bf4a2e4eb3ab9f49b0f01a67719ca53b668885ad25e74d7945c41f38a43e42c2"
+  },
+  {
+   "session_id": "ebb255ce41d54935847b20479200db07",
+   "unit": "2537594884.jpg#1r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "fb28919090314c0bfc0b69a54dd7254fdf8ed0866ac0adcfc0c28853e9b3e629"
+  },
+  {
+   "session_id": "7e7368ac37ce4ad1910ca4678da7a314",
+   "unit": "2942311160.jpg#3r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "2352f978613dd8aa410b9558d9827df28371e922f0f1cffcd75208b310d998a0"
+  },
+  {
+   "session_id": "b637c5daa4c0400ab87d79737f986412",
+   "unit": "2942311160.jpg#3r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "4c2f569ed2921d44a7e3a51f4f897dbd7d24c339140f87cd8a1dbcc2b220469f"
+  },
+  {
+   "session_id": "489b0ca8e2994624bbd17ffb9a31f0b2",
+   "unit": "2942311160.jpg#3r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "24cc3cbf976709c08b48f4db5a90a972c50f266f06daa5aece4efc98a5cba8a8"
+  },
+  {
+   "session_id": "aa8867e7d9454f2daf3aaa9c3bc9bd3f",
+   "unit": "2942311160.jpg#3r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "1fbc2320d9e85c00742d14efb9db74491d98f2d17a1b0499df297a1c8949e812"
+  },
+  {
+   "session_id": "3aa309c61567417fb977a53a7d91dbff",
+   "unit": "2942311160.jpg#3r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "ee4d35582148ac8f207c127d2529f6e553849231938a3ed2463659afb65d1b88"
+  },
+  {
+   "session_id": "a7ed4fa56ec741579ac08b5f0ee23450",
+   "unit": "2942311160.jpg#3r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "2e8f6eb1a338e68567a5681c94204512cce46c2ef8d10883e6d0e86fdc0d1285"
+  },
+  {
+   "session_id": "f5d0e43a06634ed79e3ba44780912e75",
+   "unit": "2942311160.jpg#3r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "4fb8b0c78bac76c71258bb476aaf52b4fe8d724b6d7b5d57eb8fd5fa0d95edc2"
+  },
+  {
+   "session_id": "e35d7d0420604d9188556fd603161204",
+   "unit": "2942311160.jpg#3r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "d61f10f3bc5d3ac664f35adc6a61a7b519e96dafc472b7b9e31025437fce9ffb"
+  },
+  {
+   "session_id": "86b0a4022d5141dabdbd977f5e9ac040",
+   "unit": "2942311160.jpg#3r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "e80074535ddbf509b28d133951c4004489248e47f3831c8e8b6950cf831d1231"
+  },
+  {
+   "session_id": "3a9c7a2886454a0e83bf1880209ffc26",
+   "unit": "2942311160.jpg#3r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "030c4282c30943b40ee5de350bb1ebf04667048dce58f922d2263bd23e009f7e"
+  },
+  {
+   "session_id": "013613a882d34738ae6525fd821be5a1",
+   "unit": "4851006985.jpg#2r1e|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "f583315e47d08cf948cd757c3fcc18ae41f5a2c0bb398cc25cefd6f700d7469b"
+  },
+  {
+   "session_id": "08afc5a43c16465cbef9e44af395acbb",
+   "unit": "4851006985.jpg#2r1e|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "24c84ba0135bb66ed685bfa74eeb20f06f3f40f78755138dd37073bc8de75750"
+  },
+  {
+   "session_id": "8e2431b0053c4796a9862a34ce93fccf",
+   "unit": "4851006985.jpg#2r1e|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "592bce68d4284022db066564b57a2b91d873f4be2ae9386bb51f8e54445873de"
+  },
+  {
+   "session_id": "b28afb0d6aaa4d5983c392561b8586a2",
+   "unit": "4851006985.jpg#2r1e|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "37dfb25e8ae680a31d45449c0350932da2c79087bc30b5832987411c3632b244"
+  },
+  {
+   "session_id": "cb88e8140f924e629c14afd53024da58",
+   "unit": "4851006985.jpg#2r1e|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "6ea3088d35e18821271cc8c9d01ba752584bd629acce806a54f75d2849ffda3b"
+  },
+  {
+   "session_id": "91915f92c67643919136b7814139d318",
+   "unit": "4851006985.jpg#2r1e|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "92e3eaff440a176721f5684d2f5a16a1f29afd7e1030d340d0460e64d0dde881"
+  },
+  {
+   "session_id": "2f710d1da7ca4005b9212b5c41a51b16",
+   "unit": "4851006985.jpg#2r1e|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "30f7210a185862a625b660e0998a8da0b058b165d1f4feae08642394fea3eeef"
+  },
+  {
+   "session_id": "78028846b9dc4f01b91c61acf8a03a79",
+   "unit": "4851006985.jpg#2r1e|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "a9458951f6f1203cdd6687716a4d8e39519bb883a7e61af0b84d59eadb549396"
+  },
+  {
+   "session_id": "d35f891201c04bfebc77859fd3c1cd50",
+   "unit": "4851006985.jpg#2r1e|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "fe7b55984f1421f867eec83335f94df6aa382d8db86e86e78c217ff02fff184b"
+  },
+  {
+   "session_id": "18a13ed5418c4f44900e15ca40325688",
+   "unit": "4851006985.jpg#2r1e|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "e8fba95a37cff6b265dfc8f86813f7f6b10779241b99ca6700ab41bc7a4322d4"
+  },
+  {
+   "session_id": "6fb51809f69d417ab82b4ab6663f1947",
+   "unit": "3576445378.jpg#1r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "5756901964844d9545bcea85365221896856207681d28eaeb47577f659acbf69"
+  },
+  {
+   "session_id": "747add05b79d44b9affaea7af51560a6",
+   "unit": "3576445378.jpg#1r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "4d29252a74bfe612432fe0b938118562d832b9efd4e6d61875d68e92ac37d09e"
+  },
+  {
+   "session_id": "c07f5be5db0f41678aa7aac4477acdaa",
+   "unit": "3576445378.jpg#1r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "9ac2b4d111ac464b8b224e073ab701b6dabb15d32f0ae58aac4f7b0f29ab8f14"
+  },
+  {
+   "session_id": "5c7f3f17a1f7425bafb829ae026b52ae",
+   "unit": "3576445378.jpg#1r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "920773da0456ab60ba6d08ee2ad0ff5debe32f2aa62dc2de7140113fb2670fc0"
+  },
+  {
+   "session_id": "9ec123890f50427cb10c06099f8d5c54",
+   "unit": "3576445378.jpg#1r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "aa9596982fcc2e20b0f2f499350e88f8369b436dd324c584d1f54244e6fdf22b"
+  },
+  {
+   "session_id": "c6c49c17aad84b0c84c8332d6f0781e6",
+   "unit": "3576445378.jpg#1r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "3cb6b1426d9e90241856486ad1b7e48a2e140aadf49b4679b8bb83e84be2e77e"
+  },
+  {
+   "session_id": "6077ed8668474c10b81b88d36671fd8e",
+   "unit": "3576445378.jpg#1r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "3b3f175d1ddeb9d4957a22b94c5c0e9962c88f008c4461ee8db2f2e998af2c73"
+  },
+  {
+   "session_id": "d784c12dcc9c44fb81167686c29e62d6",
+   "unit": "3576445378.jpg#1r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "9898d20530a8604462a2a9a3352062c568ac3bf44783099b49a1b0f43b2fe020"
+  },
+  {
+   "session_id": "3c580bdb6db5456990ee0a517fbda056",
+   "unit": "3576445378.jpg#1r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "fc50971efc10074b4afb5c20fcb344e83feb7d7f823c92937d61d532c4ca0b8c"
+  },
+  {
+   "session_id": "7384c956d1ed43aca8d335c8d1d33783",
+   "unit": "3576445378.jpg#1r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "ebcb7f1753da6133395f2ddc6c1fa7aa6db20fecee33eb6f2de8e26fe7bf3481"
+  },
+  {
+   "session_id": "fad57e62fdc647e4bd209170442da10e",
+   "unit": "3791591952.jpg#3r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "4c79fadea5791b07d8d56d6d5e5075a8a967b35b649b86bfb36c6032324ba929"
+  },
+  {
+   "session_id": "6575b0585ed6424f9cf9aed97b2ef255",
+   "unit": "3791591952.jpg#3r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "31ae51e12baa2f44c4095e8f9232624cb8c9bdf94a31b7cebe28f57d2d3bf548"
+  },
+  {
+   "session_id": "be380d5ed08948fdb354702a392d9f85",
+   "unit": "3791591952.jpg#3r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "ee042ffe13ba05eb60c6012e114badcba3346e93964fcb0e214d448f33fe3219"
+  },
+  {
+   "session_id": "cfbd57f543ce43e58e67d0b02c42f2f5",
+   "unit": "3791591952.jpg#3r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "92f1fd3da38c87d9d276b4f4f9d920a6cf9b7dab5456af728fd84bbe257d1adf"
+  },
+  {
+   "session_id": "1a88dda5e15c4a8e8918e2ca03a05d40",
+   "unit": "3791591952.jpg#3r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "356ba10378ca4c368b1bc5274fc30ea8f56f8f58968f23bfca5784f189e208e2"
+  },
+  {
+   "session_id": "de1b1460b793440598d9483dcd9ea87b",
+   "unit": "3791591952.jpg#3r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "ed3840099711fb8b8279edad671547be3f258008d9a2cc756a6bccc07e40406a"
+  },
+  {
+   "session_id": "0cc2cda78c4644e884a81140714663df",
+   "unit": "3791591952.jpg#3r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "a1481bd3d22cb6cdedf0d58349ae16fbcaeee2e043374ffae11085d4bdb7c0b8"
+  },
+  {
+   "session_id": "5b42648a6974413783e03cedffa2c6bd",
+   "unit": "3791591952.jpg#3r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "89c61dbe1320fb8176e664038330cb6ec54c626aa21162800e0c2c9ce6aa7a10"
+  },
+  {
+   "session_id": "db3ed43f55af4cecbd65b6b80214e22c",
+   "unit": "3791591952.jpg#3r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "78de23177da75f12cbca1e25a41c406e5252b2e362039017d05c185605d57863"
+  },
+  {
+   "session_id": "a13520a32b8a4752ac37bd9b3cc2901c",
+   "unit": "3791591952.jpg#3r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "f26cea556d5ac227693185de18b2fcd83af9fe2cf24f85749e29aa757a05ca52"
+  },
+  {
+   "session_id": "eecc8d6dcb07417aaa8ce821d784dd80",
+   "unit": "5216466221.jpg#3r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "64361d90f9718e26497d4e73ef2ebc0f6f5d9b55c7c27ba8a96b41b3c1cfa1fa"
+  },
+  {
+   "session_id": "fb5683eeaa0e461287927263f44102b3",
+   "unit": "5216466221.jpg#3r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "2619c9bdc8e69b8256a67fe56a343a626f7e3798a4857a1a7a2c11e2626b9576"
+  },
+  {
+   "session_id": "90b81d134813428b9391ea563904e793",
+   "unit": "5216466221.jpg#3r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "849b8bc2c57c8d4772ae8991bc22e7035c0deaa27eed3abcf2fb7bb253892b55"
+  },
+  {
+   "session_id": "3fbd6fe0c78c491c9e301576650d1c39",
+   "unit": "5216466221.jpg#3r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "438a6bda2b704b2ba0275c9739efd67c9a85bd86025b81b03a2f1f1b8e2ed769"
+  },
+  {
+   "session_id": "f20c98f688e74008b82b620c372b3b82",
+   "unit": "5216466221.jpg#3r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "08ab474175d5e1e84e4f62bca72304651be344aa83c0c32201642704f4592309"
+  },
+  {
+   "session_id": "ea846ad47f66476ea0b61fa21cd0f4d8",
+   "unit": "5216466221.jpg#3r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "4f26ac34d596c61a4106b117d507cff34ec59b1fecd69b5e817894007283c43b"
+  },
+  {
+   "session_id": "32c0440406e84447bf128a14bde2da8d",
+   "unit": "5216466221.jpg#3r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "e03750d8cc9386bc23d23e1d5b1b42dbe88a55b3c40cdeb65aa92f06e0de5da5"
+  },
+  {
+   "session_id": "67e2538855304d63b55b0347a8a63b7c",
+   "unit": "5216466221.jpg#3r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "ac28450cb0a9fbb047be903abe533f41dfc988fa04cac16803b570bed2c55be8"
+  },
+  {
+   "session_id": "60452ac5f7e749b1bd8f2e44fbb78b6d",
+   "unit": "5216466221.jpg#3r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "14cdc34c57661409999e564984a696a74052df068f7811184ce070b75fecc6ae"
+  },
+  {
+   "session_id": "5a665767889e40f8b6dce3efdb35810a",
+   "unit": "5216466221.jpg#3r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "441c5a819d47f3c88395e034eb8a565a799f665e6bd5fbfd57a26f075f66e685"
+  },
+  {
+   "session_id": "1f012684443a4453a14f7a00bd68727c",
+   "unit": "482642539.jpg#2r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "458b7cd6c4b30dbf61045870447f2e44b1e285d902efd0d4acdb8619d376c467"
+  },
+  {
+   "session_id": "1a2c57eabf6d41c882e190d4792140f0",
+   "unit": "482642539.jpg#2r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "d36249f05dd6429d835d22c1641820eca27369006fb543f674530c229584d25e"
+  },
+  {
+   "session_id": "45b5ece8229845ffafebf3315b6d2397",
+   "unit": "482642539.jpg#2r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "6ae277b5b4fae0843f6879e3a6156939b707baebc23e5f0f96922d1a85db3214"
+  },
+  {
+   "session_id": "2999d977ee164615991b724c15c5ab52",
+   "unit": "482642539.jpg#2r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "dae63f0c73bf1ee5b1c53f4c7c2dd19b8f81158c77eeda1aec182c442c13f0a4"
+  },
+  {
+   "session_id": "943822cc5ad2415c90043d9164c5e93e",
+   "unit": "482642539.jpg#2r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "cf0d1523fe5bc2dc97c974ade25f52264c48cbe076b112e112b0c9562de7c24d"
+  },
+  {
+   "session_id": "5025f12154714dcb9b525f529211050a",
+   "unit": "482642539.jpg#2r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "cb81dae721b5df1c5ca2f5cb3aee69dd3e498822d6cf1f4b7d6f2dd9303704cd"
+  },
+  {
+   "session_id": "03290ad25d79488ba5e691c39496d56f",
+   "unit": "482642539.jpg#2r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "6cc8bbadc20d18741f5fbf32a52f0ed755b748489a045952aed255c448342240"
+  },
+  {
+   "session_id": "61931d3d6c224466a0efd11f2babbb3a",
+   "unit": "482642539.jpg#2r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "041a85ed1ed2426c81f7fed5e9aa8d9b55e2e2f609d5d720158030a06c4f85d9"
+  },
+  {
+   "session_id": "57a699d7bcc04899a1dba5463a7bba25",
+   "unit": "482642539.jpg#2r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "2af07337f88d66833287579aecc3e0c69977676d6bbcdcb8a47c8e2128e4340d"
+  },
+  {
+   "session_id": "507e7a2351e44e19b9f2475fcd4fa837",
+   "unit": "482642539.jpg#2r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "e67cf8411c5c186f408bc9ff5aecd9a61a48c476d71d84e9fbb0fbeb5a3f4e59"
+  },
+  {
+   "session_id": "455100b5347249168be29865532077a6",
+   "unit": "3497224764.jpg#2r1e|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "b0683c55bcdc3bfd8be903c2cdd7e76e3e3aa02bad6d449d9c91556891c29587"
+  },
+  {
+   "session_id": "ee5a398e125f4149815a029264d033c1",
+   "unit": "3497224764.jpg#2r1e|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "ee7468e9ee79cc9b6fe3ccce7c983fef697b86e2f020a8dddbd4f0688b2031ff"
+  },
+  {
+   "session_id": "bbe9cb7973e143b4ac243bd82a465a97",
+   "unit": "3497224764.jpg#2r1e|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "2eb9d1b65a2afa2f4c1e1ba01c855c795f94af743ff26749229c5c70faedba73"
+  },
+  {
+   "session_id": "ea9d42256d3b4e7b9d2c8e0da849d62e",
+   "unit": "3497224764.jpg#2r1e|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "d49e890804ca876b97c5f078ae329c6f527386302d0495219e1e6865cd3e58b4"
+  },
+  {
+   "session_id": "07d95f8f084e4c2890ec473a8ac2e408",
+   "unit": "3497224764.jpg#2r1e|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "58b0a46031ec34219b46477b4bf23c3165f4720f4a222c9782f7734968f57d17"
+  },
+  {
+   "session_id": "32a230d586b747f2aa0c1acd50e69a36",
+   "unit": "3497224764.jpg#2r1e|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "ccd541772e105a31b274014cb949e748ed5f042f75eb4edcd9d431794d7f04c2"
+  },
+  {
+   "session_id": "9cf3f405481a455d8ad59209b8a15fe0",
+   "unit": "3497224764.jpg#2r1e|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "ca7f867048c031045a4d062b7f7b9b57139c46cdb2697bfca135392fe7e65b3e"
+  },
+  {
+   "session_id": "20f4e660d3cc4d6ebbff8f1b3f6f3c12",
+   "unit": "3497224764.jpg#2r1e|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "d18d55f353bb35586c7dae3597c88bfd6b9f5579941e15e4bfcaffe54a45db72"
+  },
+  {
+   "session_id": "e4d82cf46c5c4adaa5e359ec665a698b",
+   "unit": "3497224764.jpg#2r1e|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "04daad0fe95345a6d34bdcb826d9e7468746610d2157eaa7367da7ab3cf8d5da"
+  },
+  {
+   "session_id": "a186df626384429c9322aedd369400d6",
+   "unit": "3497224764.jpg#2r1e|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "1514165169243170d306318063e9c4f437bf14a77d3711cbff695a9fb2e42007"
+  },
+  {
+   "session_id": "3e5c142e7e494032ab3f75b3b26d38b5",
+   "unit": "2817132182.jpg#2r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "b9fda97a37ddbe013e6a331dbd7f4a327a6475dc6b9d40e5a1fb343fbe407f71"
+  },
+  {
+   "session_id": "a7a97e1a31b0462a94407d3fc907dec3",
+   "unit": "2817132182.jpg#2r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "cb79626b430d05e3fef5cc95eb7ee10c40079d94a1e0d997dcf92366667ffba8"
+  },
+  {
+   "session_id": "2a54b9f5fda34ffe8d73ce0f5bbbf71f",
+   "unit": "2817132182.jpg#2r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "6334928d438a13c69524fae087ea8088265e7f91387f910d4abb0a3a6e0d3113"
+  },
+  {
+   "session_id": "6ec3a84a38554320a158f24ae204fdf0",
+   "unit": "2817132182.jpg#2r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "9bbc9835f98ace4be6413ac2d901e0938d5d66005ac36a083cafb1d84ffda415"
+  },
+  {
+   "session_id": "690cc47a9e6d4658a53b7eb00ec077d6",
+   "unit": "2817132182.jpg#2r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "d9fd72f2c6b00ba4eb6defbbc0b95db6cbcaefc6ea7c2c22d781463e7e43b29b"
+  },
+  {
+   "session_id": "910004f5bb92493881d700c8200abdde",
+   "unit": "2817132182.jpg#2r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "3c7e0cfbddf68090f6635374fee123a9d4e6d5c9d0f108f745cc02de7849c42b"
+  },
+  {
+   "session_id": "c7d7fb5cab5e4ff0af7d950c3bb4c06b",
+   "unit": "2817132182.jpg#2r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "8d64e1f382a08d79a1ddcd600d9e5498d53bed8821987dd8d5519b960a389546"
+  },
+  {
+   "session_id": "f335ea93f3b44056be12082953cff180",
+   "unit": "2817132182.jpg#2r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "6426c6ed0f1f2a99b5b305c81d346d045ee111977f341da5b57f49d8c62f2f0c"
+  },
+  {
+   "session_id": "fffd3a5855394ad1900b5ba8df280288",
+   "unit": "2817132182.jpg#2r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "e384326b4fc9d5521c8e0f3ee8b67bf53a1e70679b242ea38f003a7f53282fb7"
+  },
+  {
+   "session_id": "b5a63326f5754a439592548f3e3aca9c",
+   "unit": "2817132182.jpg#2r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "3be2949ffc926a8d5fa5e4a7e06dbb8ded6af4ee6a48c175381c2bd93864f670"
+  },
+  {
+   "session_id": "acf1f8e89e2f4206bc0b55d930a4a50d",
+   "unit": "4921366636.jpg#0r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "016b9b73f5f6bd9a47f6dba1dc47c35f78752b12b4bc2eb52f21d7f9cbfb9b14"
+  },
+  {
+   "session_id": "ba4ced2808d84f3c85d85c91003c2441",
+   "unit": "4921366636.jpg#0r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "53dc96c6ed4e209fb2199e98c8828a7ce96c688f37d7e95096cbac296010dbc6"
+  },
+  {
+   "session_id": "55de03df7062453fa67d28d5c1cad2e1",
+   "unit": "4921366636.jpg#0r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "ce2b8928202011ed94576e4003f8882065ab4e154e72b51fa313eec8247aa3c2"
+  },
+  {
+   "session_id": "50a91512713d42eda11c4d160dadd4be",
+   "unit": "4921366636.jpg#0r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "dca95d4e5d519cd65dd1d41216ba0f3ffb1758f77dcb2b78fdcc9faaa46469d9"
+  },
+  {
+   "session_id": "8c32358ab7524f28b5639f6f1427aeb0",
+   "unit": "4921366636.jpg#0r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "d2d93cc0d87451e04c689e6d2af47b86fc98472ebea552b9e39d765862d6d508"
+  },
+  {
+   "session_id": "493ad24b5fe3455e9612d802a35f10fe",
+   "unit": "4921366636.jpg#0r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "68ee329caf366676f2696cd5b3bf9a578d983a07ef5e5377ce15df3df33d951e"
+  },
+  {
+   "session_id": "af78f43cabe14d6b8c33917a329dbfc0",
+   "unit": "4921366636.jpg#0r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "60118c7537d3ba962058e7a8b73af5b813a7afa98ee988657a3246610ee71e21"
+  },
+  {
+   "session_id": "b763d676249f478a8788500b4fe7bce8",
+   "unit": "4921366636.jpg#0r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "e9d1a985cb9b99a316e8e9269631948e93f08b9217c4a6a233ea2c4f1d03b3b7"
+  },
+  {
+   "session_id": "202e2e7a23a9443186ff3af7eb8b6398",
+   "unit": "4921366636.jpg#0r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "21ba91586453b2317f5cba2a40d58c9a02f6e1c0ad64c903ddbff597eed6f853"
+  },
+  {
+   "session_id": "366d94714c42497a95ea82d12b03a274",
+   "unit": "4921366636.jpg#0r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "6859dfcff51e5bb034bf2f7d3a76cc59abb285197f2ae9c5751b1bec90b65eb4"
+  },
+  {
+   "session_id": "cc0f98893e084e2ea3ab459b8446dfd1",
+   "unit": "3486831913.jpg#4r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "87197545df63d3b4d1c947b62d7ef8449831a60bbc661a64ffa0c5af2051d922"
+  },
+  {
+   "session_id": "e01fddfea5874593b34f0458fdf51e10",
+   "unit": "3486831913.jpg#4r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "e3474cdc064781b9759738d81c597ffb72514451e0327b1dc8fbe7f3af756468"
+  },
+  {
+   "session_id": "4f8237c417414a428097a84dd462a4bb",
+   "unit": "3486831913.jpg#4r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "76ab108be0a1deeacd8f90dd0a0ce4f543a45c599e7a89a6e3e696b9dcfea62d"
+  },
+  {
+   "session_id": "ce486589366f451196f218af3001cf9f",
+   "unit": "3486831913.jpg#4r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "be9fcc8a0900fcde7923df31682d8cea90e48a5927eb207cb84172f0efc935da"
+  },
+  {
+   "session_id": "835a557183224c659bb0a02e7991f9c1",
+   "unit": "3486831913.jpg#4r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "008fc0c21507965b9eafc7416372ed7cc998b8d9b57b19daba205eede4acbe7b"
+  },
+  {
+   "session_id": "f0e250d52beb4be3a459eb020e834430",
+   "unit": "3486831913.jpg#4r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "36c0b2207f5557bc40f76e393fc534c6ae8ef4c58c0d74f3345d8ddfa313d9ec"
+  },
+  {
+   "session_id": "8cde3bbb8152422a90c2348be4213776",
+   "unit": "3486831913.jpg#4r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "904f97752cb448914a5513826b01a03af5616258f633ff052f7157a03babdefe"
+  },
+  {
+   "session_id": "9bd7e9d96e2c45dca0598d2b0d45597d",
+   "unit": "3486831913.jpg#4r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "61e7214550a6ff9b06eaa07cc8c25d273cd76857a968998fcfe501614aaa6a28"
+  },
+  {
+   "session_id": "62173824f17f497e9d203ed93dc62dc5",
+   "unit": "3486831913.jpg#4r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "b353ecce16180ad13b7d604451c83335629611dd5c35f149bc29c9c0caf031c6"
+  },
+  {
+   "session_id": "231d0a1c296b4d10907d032889f605d9",
+   "unit": "3486831913.jpg#4r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "33513b8ec48ee70956115f365a1b6e83df1b944c904cacf6136773e58b8cca36"
+  },
+  {
+   "session_id": "dcfb46e22ebf4285a80c3b4845d07751",
+   "unit": "3657016761.jpg#4r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "e9c7c38dd50f96db9d60827f3f13e6e718c9896e7ff30ff42b2b735f09c9f111"
+  },
+  {
+   "session_id": "f2258ff2b5b54a15bfc3133c62eaa203",
+   "unit": "3657016761.jpg#4r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "d6ac4fa9ca2fb887cd485cc836d06600b3c9c2ffc660e8958e4e445f3a8aab39"
+  },
+  {
+   "session_id": "a99adfa9a964426aab23f9cc6e20ac9a",
+   "unit": "3657016761.jpg#4r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "d11f2f7398883db4842bcd09ef4f6af4b66ed9d4520abf90b2e3c9f66225c16c"
+  },
+  {
+   "session_id": "1cded6891e9c4944bc80c8b3651317a6",
+   "unit": "3657016761.jpg#4r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "50f2c824a703a32bcee71bc3edc4840c27031043c5bde777b02b4d343f2b5728"
+  },
+  {
+   "session_id": "9834f61a3e434fcbaf15dbfb1dc3bc8d",
+   "unit": "3657016761.jpg#4r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "7d7e715250752bc29dd2f2c25c65dcfe6d40095f6a068468ce1a62cdf70e7e27"
+  },
+  {
+   "session_id": "9786360bdc5f4432865a0a254c9e0baf",
+   "unit": "3657016761.jpg#4r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "6633e73a033f8e695ea67b9eecac4c58f6d4d56d91b1956ecd436520f784c8f0"
+  },
+  {
+   "session_id": "63963b25627c453bb2b2dfbde36c98c7",
+   "unit": "3657016761.jpg#4r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "55162cfc5ced7f795ec427f10de28aa2e5e8dcb4d0c393e583845077c889d040"
+  },
+  {
+   "session_id": "bd30df613b704c40ab479928e5d666ec",
+   "unit": "3657016761.jpg#4r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "cffe35f1ea877142ed0514bb6a81852d484cda51192178efb9733aa99e2b92b1"
+  },
+  {
+   "session_id": "236d201a42ac4927adc6b1f36309ad2d",
+   "unit": "3657016761.jpg#4r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "6d2036e47f92fcf41e87f612a21a8073c101110e4054f4efd8328e704cd6765b"
+  },
+  {
+   "session_id": "f52de87d14e545e0a537675b01635ba6",
+   "unit": "3657016761.jpg#4r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "f4bf02a6fab8ffe73ff6c626660e4eb55bb59ec983c91a87c4ae24ba050a852a"
+  },
+  {
+   "session_id": "2f0b1062f19b46babdd8168777ab72db",
+   "unit": "7591663030.jpg#4r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "838dd5053a4ecd6bd548d047cc054f1453a8442e9e197851e001b1ac6daea6e3"
+  },
+  {
+   "session_id": "bbe358d8dcd64376a8770538db20ccc9",
+   "unit": "7591663030.jpg#4r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "d2bbecf8f822c6bbe3ea942597c661ae16f4dc2867f6754bebf4b0ed2ffa4994"
+  },
+  {
+   "session_id": "b483b3bad78747ed8f55db966b0c6dce",
+   "unit": "7591663030.jpg#4r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "4dedbbb510f4e8ee785c688f6226a3ee2bb9f6f2294538572f1626568f94f00b"
+  },
+  {
+   "session_id": "f8472091825945ab957a53dd1daf906e",
+   "unit": "7591663030.jpg#4r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "5f20820d3802b33e9a27c2d90d5c7a9b076bddc3bb9f2bdb730b9f80ef1503be"
+  },
+  {
+   "session_id": "6493cfc11c704adbbdf8488256861791",
+   "unit": "7591663030.jpg#4r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "c558b2b55b16d69e6c80b0e0d60a5a5696dd01c4b0e7071c1575ed3ab99d0b4c"
+  },
+  {
+   "session_id": "9943eed1ec694c62a1dcbe1d9fd86958",
+   "unit": "7591663030.jpg#4r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "53b8a0973bb77dc5064e7f00bd4bde64e7f00e457859a4a9c2b21b0b2cc7e648"
+  },
+  {
+   "session_id": "00e42409b9a045cc866719c0f1c6d7ea",
+   "unit": "7591663030.jpg#4r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "2ea4df9a13a576080eb05fc21d159e3f9e2c3368fa4975a86c81db51f695efc9"
+  },
+  {
+   "session_id": "1055fbcb9742482ba6c3eea044abdc16",
+   "unit": "7591663030.jpg#4r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "556929d98a7476f7193167eed5bbc7b2f8833426138a9f71b11be647ee5290d0"
+  },
+  {
+   "session_id": "13effdcd06d84906bed2e4110f15b620",
+   "unit": "7591663030.jpg#4r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "d6f4fc3b67a4fb6ace5da8f6560ce2e1b6ad4ccbfffb9c348fed8aea63a0c45d"
+  },
+  {
+   "session_id": "1c262faf129b40478e77a2742e71be38",
+   "unit": "7591663030.jpg#4r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "df9f685c8bc26d2aa0fe887ef91fe448f1ea1443688833057537afc734775bc7"
+  },
+  {
+   "session_id": "4fb44d8e84a44460860313e34e6e25d7",
+   "unit": "2729147877.jpg#1r1n|prior|-|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "61dba8e0eace8e1e407642304d57b6ad752f56fa50cc9b704632399315683782"
+  },
+  {
+   "session_id": "b2eba8028da34916a8b1fd2e6ca2181c",
+   "unit": "2729147877.jpg#1r1n|stated|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "98834f24f0e257adccbf6273b622c0688810012779fbcfa2cc97968963781f30"
+  },
+  {
+   "session_id": "a0c4ca41405b41b9af7959c9853a64a7",
+   "unit": "2729147877.jpg#1r1n|reported|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "1d451184bf44e50a4cb52eda18885f81d57080ea068d7ab244e0dc4467fb1f37"
+  },
+  {
+   "session_id": "6c32ff8545e045b19312ae34fdf7111a",
+   "unit": "2729147877.jpg#1r1n|stated|W|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "82ed74567cf51443dbde609afbfdcd9b7302cc11872b635791bb4007b0be9a2e"
+  },
+  {
+   "session_id": "1376abf5e2164982b3c2edeba372b2ce",
+   "unit": "2729147877.jpg#1r1n|stated|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "9578c2f5741a1f0c5077ba4d84c572539384c2e005b480ecf23498dc49e858c3"
+  },
+  {
+   "session_id": "af39eb0e2a2045a6aae23aa71186b241",
+   "unit": "2729147877.jpg#1r1n|reported|S|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "e2c83fa13d30622c7c669fd2599173c317ca47ec9520082e2b306f0057d0a548"
+  },
+  {
+   "session_id": "e253757018f64fae8066a9d03443948d",
+   "unit": "2729147877.jpg#1r1n|stated|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "f12e663e77ac962d82d3adf66b05c7dfd05525ea199a2ada49a7fbc2fa70e042"
+  },
+  {
+   "session_id": "5fcaccdd4a014c6db07c8d0df7077a85",
+   "unit": "2729147877.jpg#1r1n|prior|-|direct|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "a1a62a8b49854dfcb029c7cc3bde50f566b7ef385c88e58b75891959500a7b6c"
+  },
+  {
+   "session_id": "528a59343fc14a669aeaf4dcf19ccd0d",
+   "unit": "2729147877.jpg#1r1n|reported|W|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "9109a8a0170c2a1d1752fa57aeb71da194ac8db3d33bc0b177bb1ac751365b53"
+  },
+  {
+   "session_id": "6fb5640aa37f4d9cb4853e535227f5a1",
+   "unit": "2729147877.jpg#1r1n|reported|S|multi|r0",
+   "fingerprint_id": "03ae986fe61da14b92ae36aa7cc2ec05a60391eab1609569dc446a15e78f3909",
+   "started_at": "2026-11-05T00:00:00+00:00",
+   "closed_ok": true,
+   "invalid": false,
+   "finished_at": "2026-11-06T00:00:00+00:00",
+   "record_sha256": "ec946d980200d99593697a5c6780cc5618f1ec88d9ee93ba1c889d652205ca02"
+  }
+ ]
+}

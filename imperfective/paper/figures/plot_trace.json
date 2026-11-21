@@ -1,0 +1,692 @@
+[
+  {
+    "claim_id": "E1__L_Z__D",
+    "value": 100.0
+  },
+  {
+    "claim_id": "E1__L_CoT__D",
+    "value": 8.75
+  },
+  {
+    "claim_id": "ENDPOINT__P__Z",
+    "value": 88.75
+  },
+  {
+    "claim_id": "ENDPOINT__P__CoT",
+    "value": 26.25
+  },
+  {
+    "claim_id": "ENDPOINT__M__Z",
+    "value": 1.25
+  },
+  {
+    "claim_id": "ENDPOINT__M__CoT",
+    "value": 0.0
+  },
+  {
+    "claim_id": "SENS__P_CoT",
+    "value": 32.6875
+  },
+  {
+    "claim_id": "SENS__M_U_Z",
+    "value": 23.5445
+  },
+  {
+    "claim_id": "SA2__lower",
+    "value": 9.143
+  },
+  {
+    "claim_id": "E4__L/CoT__all__DUAL_MOORE__True",
+    "value": 0
+  },
+  {
+    "claim_id": "E4__L/CoT__all__DUAL_EXPLICIT__True",
+    "value": 69
+  },
+  {
+    "claim_id": "E4__P/Z__all__DUAL_MOORE__P__lower",
+    "value": 49.3125
+  },
+  {
+    "claim_id": "E4__P/Z__all__DUAL_MOORE__P__upper",
+    "value": 49.3125
+  },
+  {
+    "claim_id": "E4__P/CoT__all__DUAL_MOORE__P__lower",
+    "value": 19.875
+  },
+  {
+    "claim_id": "E4__P/CoT__all__DUAL_MOORE__P__upper",
+    "value": 19.875
+  },
+  {
+    "claim_id": "E4__M/CoT__all__DUAL_MOORE__M_U__lower",
+    "value": 37.1875
+  },
+  {
+    "claim_id": "E4__M/CoT__all__DUAL_MOORE__M_U__upper",
+    "value": 37.1875
+  },
+  {
+    "claim_id": "E4__M/CF__all__DUAL_MOORE__M_U__lower",
+    "value": 46.5125
+  },
+  {
+    "claim_id": "E4__M/CF__all__DUAL_MOORE__M_U__upper",
+    "value": 46.5125
+  },
+  {
+    "claim_id": "E4__M/CF__all__DUAL_MOORE__M_W__lower",
+    "value": 50.209375
+  },
+  {
+    "claim_id": "E4__M/CF__all__DUAL_MOORE__M_W__upper",
+    "value": 50.209375
+  },
+  {
+    "claim_id": "E4__P/CF__all__DUAL_MOORE__P__lower",
+    "value": 49.025
+  },
+  {
+    "claim_id": "E4__P/CF__all__DUAL_MOORE__P__upper",
+    "value": 49.025
+  },
+  {
+    "claim_id": "E4__M/DAP__all__DUAL_MOORE__M_U__lower",
+    "value": 55.6625
+  },
+  {
+    "claim_id": "E4__M/DAP__all__DUAL_MOORE__M_U__upper",
+    "value": 59.4125
+  },
+  {
+    "claim_id": "E4__M/DAP__all__DUAL_MOORE__M_W__lower",
+    "value": 66.63686342592592
+  },
+  {
+    "claim_id": "E4__M/DAP__all__DUAL_MOORE__M_W__upper",
+    "value": 70.38686342592592
+  },
+  {
+    "claim_id": "E2__P/Z__telic__NI_BARE__P",
+    "value": [
+      98.69166666666666,
+      98.69166666666666
+    ]
+  },
+  {
+    "claim_id": "E2__P/Z__telic__NI_COMP__P",
+    "value": [
+      77.13333333333334,
+      77.13333333333334
+    ]
+  },
+  {
+    "claim_id": "E2__M/Z__telic__NI_COMP__M_U",
+    "value": [
+      54.512499999999996,
+      56.59583333333333
+    ]
+  },
+  {
+    "claim_id": "E2__P/Z__atelic__INT_BARE__P",
+    "value": [
+      99.803125,
+      99.803125
+    ]
+  },
+  {
+    "claim_id": "E2__P/Z__atelic__INT_COMP__P",
+    "value": [
+      11.40625,
+      11.40625
+    ]
+  },
+  {
+    "claim_id": "E3__P/Z__all__NI_OCC__P__lower",
+    "value": 96.98625
+  },
+  {
+    "claim_id": "E3__P/Z__all__NI_OCC__P__upper",
+    "value": 96.98625
+  },
+  {
+    "claim_id": "E3__P/Z__all__NI_PLAN__P__lower",
+    "value": 35.6875
+  },
+  {
+    "claim_id": "E3__P/Z__all__NI_PLAN__P__upper",
+    "value": 35.6875
+  },
+  {
+    "claim_id": "E3__P/Z__all__INT_OCC__P__lower",
+    "value": 97.1075
+  },
+  {
+    "claim_id": "E3__P/Z__all__INT_OCC__P__upper",
+    "value": 97.1075
+  },
+  {
+    "claim_id": "E3__P/Z__all__INT_PLAN__P__lower",
+    "value": 15.25
+  },
+  {
+    "claim_id": "E3__P/Z__all__INT_PLAN__P__upper",
+    "value": 15.25
+  },
+  {
+    "claim_id": "E3__M/Z__all__NI_OCC__M_U__lower",
+    "value": 78.151
+  },
+  {
+    "claim_id": "E3__M/Z__all__NI_OCC__M_U__upper",
+    "value": 78.151
+  },
+  {
+    "claim_id": "E3__M/Z__all__NI_PLAN__M_U__lower",
+    "value": 24.1875
+  },
+  {
+    "claim_id": "E3__M/Z__all__NI_PLAN__M_U__upper",
+    "value": 24.1875
+  },
+  {
+    "claim_id": "E3__M/Z__all__INT_OCC__M_U__lower",
+    "value": 78.03999999999999
+  },
+  {
+    "claim_id": "E3__M/Z__all__INT_OCC__M_U__upper",
+    "value": 78.03999999999999
+  },
+  {
+    "claim_id": "E3__M/Z__all__INT_PLAN__M_U__lower",
+    "value": 23.4075
+  },
+  {
+    "claim_id": "E3__M/Z__all__INT_PLAN__M_U__upper",
+    "value": 23.4075
+  },
+  {
+    "claim_id": "E2__L/CoT__atelic__NI_BARE__True",
+    "value": 4
+  },
+  {
+    "claim_id": "E2__L/CoT__atelic__INT_BARE__True",
+    "value": 31
+  },
+  {
+    "claim_id": "E2__L/CoT__atelic__NI_BARE__False",
+    "value": 6
+  },
+  {
+    "claim_id": "E2__L/CoT__atelic__INT_BARE__False",
+    "value": 0
+  },
+  {
+    "claim_id": "E2__L/CoT__atelic__NI_BARE__Unknown",
+    "value": 22
+  },
+  {
+    "claim_id": "E2__L/CoT__atelic__INT_BARE__Unknown",
+    "value": 1
+  },
+  {
+    "claim_id": "E3__L/CoT__all__NI_OCC__True",
+    "value": 2
+  },
+  {
+    "claim_id": "E3__L/CoT__all__INT_OCC__True",
+    "value": 31
+  },
+  {
+    "claim_id": "E3__L/CoT__all__NI_OCC__False",
+    "value": 0
+  },
+  {
+    "claim_id": "E3__L/CoT__all__INT_OCC__False",
+    "value": 0
+  },
+  {
+    "claim_id": "E3__L/CoT__all__NI_OCC__Unknown",
+    "value": 78
+  },
+  {
+    "claim_id": "E3__L/CoT__all__INT_OCC__Unknown",
+    "value": 49
+  },
+  {
+    "claim_id": "E1__M_U_Z__C",
+    "value": 74.05799999999999
+  },
+  {
+    "claim_id": "E1__P_CoT__C",
+    "value": 83.125
+  },
+  {
+    "claim_id": "E2_H2__upper",
+    "value": 22.620833333333334
+  },
+  {
+    "claim_id": "E2_H2__lower",
+    "value": 20.537499999999998
+  },
+  {
+    "claim_id": "E3__M/Z__all__NI_PLAN__M_U__lower",
+    "value": 24.1875
+  },
+  {
+    "claim_id": "E3__M/Z__all__NI_PLAN__M_U__upper",
+    "value": 24.1875
+  },
+  {
+    "claim_id": "E3__P/Z__all__NI_PLAN__P__lower",
+    "value": 35.6875
+  },
+  {
+    "claim_id": "E3__P/Z__all__NI_PLAN__P__upper",
+    "value": 35.6875
+  },
+  {
+    "claim_id": "E4_H1__lower",
+    "value": 26.6375
+  },
+  {
+    "claim_id": "E4__M/CF__all__DUAL_MOORE__M_W__lower",
+    "value": 50.209375
+  },
+  {
+    "claim_id": "E4__M/CF__all__DUAL_MOORE__M_W__upper",
+    "value": 50.209375
+  },
+  {
+    "claim_id": "E4__P/CoT__all__DUAL_MOORE__P__lower",
+    "value": 19.875
+  },
+  {
+    "claim_id": "E4__P/CoT__all__DUAL_MOORE__P__upper",
+    "value": 19.875
+  },
+  {
+    "claim_id": "E4__P/CF__all__DUAL_MOORE__P__lower",
+    "value": 49.025
+  },
+  {
+    "claim_id": "E4__P/CF__all__DUAL_MOORE__P__upper",
+    "value": 49.025
+  },
+  {
+    "claim_id": "E4__P/CoT__all__DUAL_MOORE__P__lower",
+    "value": 19.875
+  },
+  {
+    "claim_id": "E4__P/CoT__all__DUAL_MOORE__P__upper",
+    "value": 19.875
+  },
+  {
+    "claim_id": "E4__M/CoT__all__DUAL_MOORE__M_U__lower",
+    "value": 37.1875
+  },
+  {
+    "claim_id": "E4__M/CoT__all__DUAL_MOORE__M_U__upper",
+    "value": 37.1875
+  },
+  {
+    "claim_id": "E4__P/CoT__all__DUAL_MOORE__P__lower",
+    "value": 19.875
+  },
+  {
+    "claim_id": "E4__P/CoT__all__DUAL_MOORE__P__upper",
+    "value": 19.875
+  },
+  {
+    "claim_id": "DOMAIN__D1_safety",
+    "value": 28.95
+  },
+  {
+    "claim_id": "DOMAIN__D2_project",
+    "value": 22.8
+  },
+  {
+    "claim_id": "DOMAIN__D3_medical",
+    "value": 18.0
+  },
+  {
+    "claim_id": "DOMAIN__D4_institutional",
+    "value": 36.8
+  },
+  {
+    "claim_id": "MECH__L/CoT__textbook_single_standard_reflex__rate",
+    "value": 68.75
+  },
+  {
+    "claim_id": "MECH__P/CoT__textbook_single_standard_reflex__rate",
+    "value": 53.75
+  },
+  {
+    "claim_id": "MECH__M/CoT__textbook_single_standard_reflex__rate",
+    "value": 41.25
+  },
+  {
+    "claim_id": "MECH__P/CF__textbook_single_standard_reflex__rate",
+    "value": 58.75
+  },
+  {
+    "claim_id": "MECH__M/CF__textbook_single_standard_reflex__rate",
+    "value": 47.5
+  },
+  {
+    "claim_id": "MECH__L/CF__textbook_single_standard_reflex__rate",
+    "value": 22.5
+  },
+  {
+    "claim_id": "MECH__L/CoT__textbook_single_standard_reflex__count",
+    "value": 55
+  },
+  {
+    "claim_id": "MECH__P/CoT__textbook_single_standard_reflex__count",
+    "value": 43
+  },
+  {
+    "claim_id": "MECH__M/CoT__textbook_single_standard_reflex__count",
+    "value": 33
+  },
+  {
+    "claim_id": "MECH__P/CF__textbook_single_standard_reflex__count",
+    "value": 47
+  },
+  {
+    "claim_id": "MECH__M/CF__textbook_single_standard_reflex__count",
+    "value": 38
+  },
+  {
+    "claim_id": "MECH__L/CF__textbook_single_standard_reflex__count",
+    "value": 18
+  },
+  {
+    "claim_id": "MECH__L/CoT__dual_criteria_or_polysemy_detected__rate",
+    "value": 0.0
+  },
+  {
+    "claim_id": "MECH__P/CoT__dual_criteria_or_polysemy_detected__rate",
+    "value": 3.75
+  },
+  {
+    "claim_id": "MECH__M/CoT__dual_criteria_or_polysemy_detected__rate",
+    "value": 3.75
+  },
+  {
+    "claim_id": "MECH__P/CF__dual_criteria_or_polysemy_detected__rate",
+    "value": 47.5
+  },
+  {
+    "claim_id": "MECH__M/CF__dual_criteria_or_polysemy_detected__rate",
+    "value": 52.5
+  },
+  {
+    "claim_id": "MECH__L/CF__dual_criteria_or_polysemy_detected__rate",
+    "value": 92.5
+  },
+  {
+    "claim_id": "MECH__L/CoT__dual_criteria_or_polysemy_detected__count",
+    "value": 0
+  },
+  {
+    "claim_id": "MECH__P/CoT__dual_criteria_or_polysemy_detected__count",
+    "value": 3
+  },
+  {
+    "claim_id": "MECH__M/CoT__dual_criteria_or_polysemy_detected__count",
+    "value": 3
+  },
+  {
+    "claim_id": "MECH__P/CF__dual_criteria_or_polysemy_detected__count",
+    "value": 38
+  },
+  {
+    "claim_id": "MECH__M/CF__dual_criteria_or_polysemy_detected__count",
+    "value": 42
+  },
+  {
+    "claim_id": "MECH__L/CF__dual_criteria_or_polysemy_detected__count",
+    "value": 74
+  },
+  {
+    "claim_id": "W1__Z",
+    "value": 7.349250000000001
+  },
+  {
+    "claim_id": "W1__DAP",
+    "value": 5.801091269841271
+  },
+  {
+    "claim_id": "W1__CoT",
+    "value": 11.904312865497076
+  },
+  {
+    "claim_id": "W1__CF",
+    "value": 9.880625000000002
+  },
+  {
+    "claim_id": "W2__telic__NI_COMP",
+    "value": [
+      16.066666666666666,
+      16.066666666666666
+    ]
+  },
+  {
+    "claim_id": "W2__telic__NI_BARE",
+    "value": [
+      18.665625000000002,
+      18.665625000000002
+    ]
+  },
+  {
+    "claim_id": "W2__atelic__NI_COMP",
+    "value": [
+      21.44704861111111,
+      21.44704861111111
+    ]
+  },
+  {
+    "claim_id": "W2__A_pure__NI_COMP",
+    "value": [
+      18.90972222222222,
+      18.90972222222222
+    ]
+  },
+  {
+    "claim_id": "W2__A_plan__NI_COMP",
+    "value": [
+      23.984375,
+      23.984375
+    ]
+  },
+  {
+    "claim_id": "W3__Z__NI_OCC__lower",
+    "value": 8.26833552631579
+  },
+  {
+    "claim_id": "W3__Z__INT_OCC__lower",
+    "value": 8.696875
+  },
+  {
+    "claim_id": "W3__Z__NI_PLAN__lower",
+    "value": 3.7788194444444443
+  },
+  {
+    "claim_id": "W3__Z__INT_PLAN__lower",
+    "value": 1.8938440798967116
+  },
+  {
+    "claim_id": "W4__CF__PURE_MOORE__lower",
+    "value": 0.5597222222222222
+  },
+  {
+    "claim_id": "W4__CF__DUAL_MOORE__lower",
+    "value": 3.696875
+  },
+  {
+    "claim_id": "W4__CF__DUAL_EXPLICIT__lower",
+    "value": 6.43125
+  },
+  {
+    "claim_id": "W4__CF__PURE_READ__lower",
+    "value": 4.608531746031746
+  },
+  {
+    "claim_id": "W4__CoT__PURE_MOORE__lower",
+    "value": 1.8145833333333337
+  },
+  {
+    "claim_id": "W4__CoT__DUAL_MOORE__lower",
+    "value": 5.039366883116883
+  },
+  {
+    "claim_id": "W4__CoT__DUAL_EXPLICIT__lower",
+    "value": 7.490625
+  },
+  {
+    "claim_id": "ABL__O__D0__first_num_token_entropy_noncopy_bits",
+    "value": 0.7647
+  },
+  {
+    "claim_id": "ABL__O__D_CoT__first_num_token_entropy_noncopy_bits",
+    "value": 0.9027
+  },
+  {
+    "claim_id": "ABL__O__V0__first_num_token_entropy_noncopy_bits",
+    "value": 1.2605
+  },
+  {
+    "claim_id": "ABL__O__V1__first_num_token_entropy_noncopy_bits",
+    "value": 1.4538
+  },
+  {
+    "claim_id": "ABL__O__V2__first_num_token_entropy_noncopy_bits",
+    "value": 1.2191
+  },
+  {
+    "claim_id": "ABL__O__V3__first_num_token_entropy_noncopy_bits",
+    "value": 1.3998
+  },
+  {
+    "claim_id": "ABL__I__D0__first_num_token_entropy_noncopy_bits",
+    "value": 0.6485
+  },
+  {
+    "claim_id": "ABL__I__D_CoT__first_num_token_entropy_noncopy_bits",
+    "value": 0.6832
+  },
+  {
+    "claim_id": "ABL__I__V0__first_num_token_entropy_noncopy_bits",
+    "value": 0.7196
+  },
+  {
+    "claim_id": "ABL__I__V1__first_num_token_entropy_noncopy_bits",
+    "value": 0.955
+  },
+  {
+    "claim_id": "ABL__I__V2__first_num_token_entropy_noncopy_bits",
+    "value": 1.0785
+  },
+  {
+    "claim_id": "ABL__I__V3__first_num_token_entropy_noncopy_bits",
+    "value": 1.3247
+  },
+  {
+    "claim_id": "ABL__O__D0__mean_within_call_sd",
+    "value": 0.0
+  },
+  {
+    "claim_id": "ABL__O__D_CoT__mean_within_call_sd",
+    "value": 0.0
+  },
+  {
+    "claim_id": "ABL__O__V0__mean_within_call_sd",
+    "value": 15.2332
+  },
+  {
+    "claim_id": "ABL__O__V1__mean_within_call_sd",
+    "value": 15.3733
+  },
+  {
+    "claim_id": "ABL__O__V2__mean_within_call_sd",
+    "value": 6.5945
+  },
+  {
+    "claim_id": "ABL__O__V3__mean_within_call_sd",
+    "value": 19.7
+  },
+  {
+    "claim_id": "ABL__I__D0__mean_within_call_sd",
+    "value": 0.0
+  },
+  {
+    "claim_id": "ABL__I__D_CoT__mean_within_call_sd",
+    "value": 0.0
+  },
+  {
+    "claim_id": "ABL__I__V0__mean_within_call_sd",
+    "value": 22.2637
+  },
+  {
+    "claim_id": "ABL__I__V1__mean_within_call_sd",
+    "value": 19.1329
+  },
+  {
+    "claim_id": "ABL__I__V2__mean_within_call_sd",
+    "value": 7.852
+  },
+  {
+    "claim_id": "ABL__I__V3__mean_within_call_sd",
+    "value": 20.4561
+  },
+  {
+    "claim_id": "ABL__O__D0__delta_binary_entropy_bits_vs_D0",
+    "value": 0.0
+  },
+  {
+    "claim_id": "ABL__O__D_CoT__delta_binary_entropy_bits_vs_D0",
+    "value": 0.0638
+  },
+  {
+    "claim_id": "ABL__O__V0__delta_binary_entropy_bits_vs_D0",
+    "value": 0.211
+  },
+  {
+    "claim_id": "ABL__O__V1__delta_binary_entropy_bits_vs_D0",
+    "value": 0.2241
+  },
+  {
+    "claim_id": "ABL__O__V2__delta_binary_entropy_bits_vs_D0",
+    "value": 0.0967
+  },
+  {
+    "claim_id": "ABL__O__V3__delta_binary_entropy_bits_vs_D0",
+    "value": 0.3034
+  },
+  {
+    "claim_id": "ABL__I__D0__delta_binary_entropy_bits_vs_D0",
+    "value": 0.0
+  },
+  {
+    "claim_id": "ABL__I__D_CoT__delta_binary_entropy_bits_vs_D0",
+    "value": 0.06
+  },
+  {
+    "claim_id": "ABL__I__V0__delta_binary_entropy_bits_vs_D0",
+    "value": 0.2391
+  },
+  {
+    "claim_id": "ABL__I__V1__delta_binary_entropy_bits_vs_D0",
+    "value": 0.2148
+  },
+  {
+    "claim_id": "ABL__I__V2__delta_binary_entropy_bits_vs_D0",
+    "value": 0.1007
+  },
+  {
+    "claim_id": "ABL__I__V3__delta_binary_entropy_bits_vs_D0",
+    "value": 0.2626
+  }
+]

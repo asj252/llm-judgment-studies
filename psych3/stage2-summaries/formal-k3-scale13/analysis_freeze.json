@@ -1,0 +1,124 @@
+{
+  "provenance_mode": "post_uvm_crash_deterministic_reconstruction",
+  "reconstructed_at_utc": "2026-11-09T14:39:27.269746+00:00",
+  "historical_uvm_evidence": {
+    "<LOCAL_PATH>/task-1781.log": {
+      "sha256": "4e84eee84582a875334645a91094fa9dcc11fb4da24b0af4d2bf05bc56754cda",
+      "bytes": 6492,
+      "mtime_utc": "2026-11-09T10:26:09.631137+00:00"
+    },
+    "<LOCAL_PATH>/task-1799.log": {
+      "sha256": "bea3be05d996b30ddb81338b0706d347a6f05b5680ef061e1ea7eeefa7bb54ae",
+      "bytes": 300,
+      "mtime_utc": "2026-11-09T10:34:25.902229+00:00"
+    },
+    "<LOCAL_PATH>/task-1840.log": {
+      "sha256": "97899a8f20b3d648c5705aeeed8926b1885a3ca3bb71f7d352d78a64a1aeae1c",
+      "bytes": 10679,
+      "mtime_utc": "2026-11-09T11:05:36.278417+00:00"
+    },
+    "<LOCAL_PATH>/task-1868.log": {
+      "sha256": "8bdb39f49b16fa1b1fa59a09895b10d84fe1c744d1f02700a89043cbe11b1ca2",
+      "bytes": 4644,
+      "mtime_utc": "2026-11-09T11:17:29.373565+00:00"
+    },
+    "<LOCAL_PATH>/psych3_formal_k3_aistudio_gemma-4-26b-a4b-it.log": {
+      "sha256": "1b1459cf73176737e7f03f9df85b7d18928205498427a1f56d6884150024bd56",
+      "bytes": 491,
+      "mtime_utc": "2026-11-09T10:52:29.783711+00:00"
+    },
+    "<LOCAL_PATH>/psych3_formal_k3_groq_gpt-oss-120b.log": {
+      "sha256": "ace788f58f0ea43f66809649bab762f0d1ede73aa6b5689fdbb7962f2a07c0f4",
+      "bytes": 471,
+      "mtime_utc": "2026-11-09T10:54:36.612206+00:00"
+    },
+    "<LOCAL_PATH>/psych3_formal_k3_nv_nemotron-3.5-super-vl-120b.log": {
+      "sha256": "baa5faef2edc1951e7768181dd39785ab81bc30ac10b3d7fd7af729c6443e425",
+      "bytes": 495,
+      "mtime_utc": "2026-11-09T10:43:05.021848+00:00"
+    },
+    "<LOCAL_PATH>/psych3_formal_k3_sf_qwen3-8b.log": {
+      "sha256": "2e6e2deff5e1e0464e5217943990570b6eb6aa74099717b7677b4191b95dca20",
+      "bytes": 459,
+      "mtime_utc": "2026-11-09T10:46:31.440733+00:00"
+    },
+    "historical_artifact_byte_sizes": {
+      "analysis_freeze.json": 101030,
+      "formal_stimulus_bank.json": 324651,
+      "freeze_anchor_receipt.json": 707,
+      "pre_formal_protection_snapshot.json": 61295,
+      "protection_snapshot_receipt.json": 101,
+      "run_formal_k3_suite.py": 76983
+    }
+  },
+  "unrecovered_ephemeral_artifacts": {
+    "original_analysis_freeze_bytes": "not_recovered",
+    "original_suite_script_bytes": "not_recovered",
+    "original_freeze_anchor_receipt_bytes": "not_recovered",
+    "original_stage2_release_authorization_bytes": "not_recovered",
+    "freeze_r1_report_body": "not_directly_recoverable_only_clean_exit_log_task_1799"
+  },
+  "bootstrap_B": 10000,
+  "seed": "formal-k3-scale13-20261109::{scope}::{hypothesis_id}",
+  "algorithm": "random.Random; bootstrap choice C times per replicate, sorted indices 250/9750; then choice([-1,1]) sign flips",
+  "files": {
+    "run_formal_k3_suite.py": {
+      "sha256": "e9bc5cde7076fd0b0e1c3c469ce118eaa3ad9007fff3007c9da6a0275695d7b9",
+      "bytes": 47058
+    },
+    "formal_stimulus_bank.json": {
+      "sha256": "755a4d8c9f733edf011fbca31402edc074d5cc8d4fd91f804234280b697ab7d7",
+      "bytes": 1580495
+    },
+    "pre_formal_protection_snapshot.json": {
+      "sha256": "514cc1e85f2fa20f554a9cf4c8f79502889426680f8b13b09c11b990144b8221",
+      "bytes": 875107
+    }
+  },
+  "reconstruction_development_note": "Local analysis implementation revised before final reconstruction seal; no model inference performed; historical freeze bytes unavailable. This seal describes the final reconstructed implementation only.",
+  "e_r1_pre_addendum_snapshot": {
+    "files": {
+      "run_formal_k3_suite.py": {
+        "sha256": "686b2e24ecd784116be34433da6e90dcb5d4b62d8606f51b0c44d56d9b0a91ac",
+        "bytes": 35790
+      },
+      "analysis_freeze.json": {
+        "sha256": "faa38f91987ab12f74a86fd79be1ca634f58956067dab0415e209c8a63c90e81",
+        "bytes": 4111
+      },
+      "freeze_anchor_receipt.json": {
+        "sha256": "5a9e0e192f04fe0ee5e85a0b1406355f9f6df40f49f7ea4d4789a0a1f9ba398c",
+        "bytes": 3308
+      }
+    },
+    "brief_declared_e_r1_suite_sha256": "b349ab93529b6cc2bc64a4649ee3479ff77c090df56f14f417c5192f41990f45",
+    "hash_discrepancy_note": "Session entry script and sealed freeze agree on 686b2e24...; brief declares b349ab93... . Both recorded without claiming identical bytes.",
+    "statistics_sha256": {
+      "descriptive_tables": "88aa851e99956f52d198fd1d44acd895dd136cfd3c8ad1ad60bdd8107a21ef49",
+      "recomputed_inference_tables": "ca5c7d41c0a96a4c38f29b720aa53d6f6cdc3af5529a6e8b788338c74120d934",
+      "direction_classification": "6f0cccd71619a70e0db127d80b73d0f9f187e5bbdedfe2743c2d6a48268f5a6d"
+    }
+  },
+  "e_r2_addendum_at_utc": "2026-11-09T14:54:15.560635+00:00",
+  "script_revision_chain": {
+    "e_r1": {
+      "sha256": "686b2e24ecd784116be34433da6e90dcb5d4b62d8606f51b0c44d56d9b0a91ac",
+      "bytes": 35790
+    },
+    "e_r2": {
+      "sha256": "ce01395aaa2f8b48373c6be16270e06aa9b8fcda398192c0cd284ef615c94798",
+      "bytes": 39859
+    },
+    "e_r3": {
+      "sha256": "e9bc5cde7076fd0b0e1c3c469ce118eaa3ad9007fff3007c9da6a0275695d7b9",
+      "bytes": 47058
+    }
+  },
+  "e_r3_provenance_clarification": {
+    "source": "/tmp/codex_e_formal_k3_r1.log:3198",
+    "e_r1_final_sha256": "686b2e24ecd784116be34433da6e90dcb5d4b62d8606f51b0c44d56d9b0a91ac",
+    "intermediate_draft_sha256": "b349ab93529b6cc2bc64a4649ee3479ff77c090df56f14f417c5192f41990f45",
+    "resolution": "b349ab93 was an intermediate draft sampled by a; 686b2e24 is the final e_r1 script per persistent log line 3198. Prior snapshot retained verbatim."
+  },
+  "e_r3_addendum_at_utc": "2026-11-09T15:17:05.482295+00:00"
+}

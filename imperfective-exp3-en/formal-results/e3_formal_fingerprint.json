@@ -1,0 +1,103 @@
+{
+  "fingerprint_id": "cbd3b5affec50ba44fd3206eba41d7795bdb5ad5c3fb7dec03c08a91475e07b3",
+  "fingerprint": {
+    "files": {
+      "common.py": "665fa8d5baa0b75e84121a5c0226fa097b9919a7965be8b753ce0eb229d608bf",
+      "provenance.py": "1d0135232d60febea7933db2d11264dccbdd9359cb3588eb22268ee71c9aadfd",
+      "materials_e3.py": "b5e073ba6ebe8821a2aaca01768750462e1e3d0203d556fdabede6a219ff9886",
+      "validate_materials_e3.py": "b6b30a8c1a8ee5d4e112dc4a7eb315607ccf3e4209306c2d52104db6f32b1b95",
+      "prompts_e3.py": "86b103c47889354ef5ff055dbd20c3a77987c0bcef7f0073230d92ddf095acb3",
+      "prompt_parts.py": "027a6329088a71bb18fe2d4ac8d4999bec00f34af707092c659d54d5f69b8e41",
+      "parse.py": "b44d0c453dc54d03e605dc00e5fa2fa8538c998264f93c028ea397c4e6f5f342",
+      "protocol.py": "8b427b57400016e50bdab458c4402efcfb80718541b78b9eb7ebc7baa55e6904",
+      "score.py": "ce5a5ea26be775f6aa206c57ba0253cf57b9219730a0bd830187b021370e3f3a",
+      "run.py": "7352b27068db1e3c89ada339e1cc469792200e89b4149dcbc915a4882e1aa179",
+      "subject.py": "b522d5c2c53e82faec613b3c9ccdc5bf09b972b890cb66066af9cff1e4e4188c",
+      "host.py": "0f70a90e696ffb27b4410d22cd59756a86631e0ca9c0796322a056439802070c",
+      "admission.py": "e20818023c305caf1baccd3a815bc945caac336c422372a853b6d086a9ebc156",
+      "ledger.py": "4b2da3e94bb1a6edf4e32943efef226662e3de69ae000302080ee33cc916871a",
+      "gates.py": "70b7cacd9daf6bc95599b4e3ca5ea7ae5e1b4d21c7341629b43d4f8000a55edc",
+      "deadline.py": "6b73c2d696b5fda1a351cf7e0f2d479524c73f4b38642dddb01e72b98854ef9e",
+      "dry_stub.py": "fb3f695206229b8a905e6db3470f86ba9d7e3766c8578e8bdc5a47601f7f0989",
+      "check_tokens.py": "25fb8fb83e17d444471cdb8d6ac1e629dfea2fe04801449a46d0f28df153e699",
+      "exact_tango_e3.py": "cac020617b7b3f8b526ab1d2281136bd4b77fca9373d0c0a2846bdff96cf6231",
+      "core_e3.py": "cd637c975bc15061ebff5ed41540ff1c02d66e1f71b0bbebe2557cae3f8077ff",
+      "calibrate_e3.py": "8a4074705ddcaa2718cebd0c943fdb528f280c0f72dcd573847b2f8e6706b086",
+      "subclasses_e3.json": "ff3be2370261c499397fbfba9921086cb69467775d196e53bf6d83912c01721d",
+      "split.json": "cd0e099a38481b23c071d3950aac4527daf29aea12076f34ea9eadc4a90d7ea4"
+    },
+    "model": {
+      "repo": "Qwen/Qwen3-8B",
+      "commit": "b968826d9c46dd6066d109eabc6255188de91218",
+      "thinking_switch": true,
+      "gguf": "Qwen3-8B-b968826d-Q8_0.gguf",
+      "ctx": 16384,
+      "max_new_rule": "fixed"
+    },
+    "host_id": "macmini-m6",
+    "assets": {
+      "port": 18080,
+      "gguf_sha256": "5a337baa986cf2bf23564cf31276593421b1865288a221427703ab45ea0ff47b",
+      "server_sha256": "1bf5602a2be50097c44282a6ecc63234d94ee8f96d39fd45fed6eff4e74b6b41",
+      "tokenizer_sha256": {
+        "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+      },
+      "llama_cpp_version": "version: 0.6.0-dev (build 11560, commit b13a93a3d)",
+      "transformers_version": "5.19.0",
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "service": {
+        "build_info": "b11560-b13a93a3d",
+        "model_path": "<LOCAL_PATH>/Qwen3-8B-b968826d-Q8_0.gguf"
+      },
+      "server_parameters": [
+        "<LOCAL_PATH>/llama-server",
+        "-m",
+        "<LOCAL_PATH>/Qwen3-8B-b968826d-Q8_0.gguf",
+        "--port",
+        "18080",
+        "-c",
+        "16384",
+        "-ngl",
+        "999",
+        "--parallel",
+        "1",
+        "--host",
+        "127.0.0.1",
+        "--no-webui",
+        "--seed",
+        "0"
+      ]
+    },
+    "tokens": "db388dec0a0ecfc93d8bc55e6fa66da460a153bfdd01c1b54f23214b04691259",
+    "host_implementation": "2c069e839629df41a2e4e7700d4ecebc66675847a6abbe76ba19d40a3ae46b7e",
+    "materials": "8793c62eadd8a3bb88c9e01707cc1d058f0dc87ec38ad8f09139cc22c0f6e56f",
+    "sampling": {
+      "temperature": 0.0,
+      "top_k": 1,
+      "top_p": 1.0,
+      "min_p": 0.0,
+      "samplers": [
+        "temperature",
+        "top_k"
+      ],
+      "repeat_penalty": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0,
+      "dry_multiplier": 0.0,
+      "xtc_probability": 0.0,
+      "typical_p": 1.0,
+      "top_n_sigma": -1.0,
+      "mirostat": 0,
+      "dynatemp_range": 0.0
+    },
+    "max_tokens": 1024,
+    "rules": {
+      "topN": 100,
+      "score_version": 1,
+      "parse_version": 2,
+      "protocol_version": 1
+    },
+    "dry": false
+  }
+}

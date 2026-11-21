@@ -1,0 +1,3760 @@
+{
+  "stage": "formal",
+  "R": 2,
+  "B": 10000,
+  "seed": 20261110,
+  "planned_calls": 2560,
+  "terminal_calls": 2560,
+  "confirmatory_readout_p2b": "m_w",
+  "quality": {
+    "p2a/sf:qwen3-8b/E0_direct": {
+      "planned_calls": 80,
+      "first_records": 80,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 11.35,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 1255.7137444375144,
+      "order_violation_rate": 0.0,
+      "sum100_violation_rate": 0.0
+    },
+    "p2a/sf:qwen3-8b/E1_generic_cot": {
+      "planned_calls": 80,
+      "first_records": 80,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 177.625,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 7645.673120012463,
+      "order_violation_rate": 0.0,
+      "sum100_violation_rate": 0.0
+    },
+    "p2a/sf:qwen3-8b/E2_unweighted_mcv": {
+      "planned_calls": 80,
+      "first_records": 80,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 56.0875,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 2915.7371227875274,
+      "order_violation_rate": 0.1875,
+      "sum100_violation_rate": 0.0
+    },
+    "p2a/sf:qwen3-8b/E3_weighted_mcv": {
+      "planned_calls": 80,
+      "first_records": 80,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 92.25,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 4380.813145012507,
+      "order_violation_rate": 0.0625,
+      "sum100_violation_rate": 0.0
+    },
+    "p2a/aistudio:gemma-4-26b-a4b-it/E0_direct": {
+      "planned_calls": 80,
+      "first_records": 80,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 109.6,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 3788.809352749934,
+      "order_violation_rate": 0.0,
+      "sum100_violation_rate": 0.0
+    },
+    "p2a/aistudio:gemma-4-26b-a4b-it/E1_generic_cot": {
+      "planned_calls": 80,
+      "first_records": 80,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 277.8875,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 6832.189601874959,
+      "order_violation_rate": 0.0,
+      "sum100_violation_rate": 0.0
+    },
+    "p2a/aistudio:gemma-4-26b-a4b-it/E2_unweighted_mcv": {
+      "planned_calls": 80,
+      "first_records": 80,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 51.85,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 2485.501433337481,
+      "order_violation_rate": 0.0,
+      "sum100_violation_rate": 0.0
+    },
+    "p2a/aistudio:gemma-4-26b-a4b-it/E3_weighted_mcv": {
+      "planned_calls": 80,
+      "first_records": 80,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 92.275,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 3820.8388769749604,
+      "order_violation_rate": 0.0,
+      "sum100_violation_rate": 0.0
+    },
+    "p2a/nv:nemotron-3.5-super-vl-120b/E0_direct": {
+      "planned_calls": 80,
+      "first_records": 80,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 12.025,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 1039.7380262124557,
+      "order_violation_rate": 0.0,
+      "sum100_violation_rate": 0.0
+    },
+    "p2a/nv:nemotron-3.5-super-vl-120b/E1_generic_cot": {
+      "planned_calls": 80,
+      "first_records": 80,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 97.7,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 2138.580983887516,
+      "order_violation_rate": 0.0,
+      "sum100_violation_rate": 0.0
+    },
+    "p2a/nv:nemotron-3.5-super-vl-120b/E2_unweighted_mcv": {
+      "planned_calls": 80,
+      "first_records": 80,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 53.9125,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 1566.205153524993,
+      "order_violation_rate": 0.0,
+      "sum100_violation_rate": 0.0
+    },
+    "p2a/nv:nemotron-3.5-super-vl-120b/E3_weighted_mcv": {
+      "planned_calls": 80,
+      "first_records": 80,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 94.3375,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 2876.796223899987,
+      "order_violation_rate": 0.0125,
+      "sum100_violation_rate": 0.0
+    },
+    "p2a/xf:spark-x2.6/E0_direct": {
+      "planned_calls": 80,
+      "first_records": 80,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 10.3,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 3077.1160204000466,
+      "order_violation_rate": 0.0,
+      "sum100_violation_rate": 0.0
+    },
+    "p2a/xf:spark-x2.6/E1_generic_cot": {
+      "planned_calls": 80,
+      "first_records": 80,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 264.975,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 7654.77812672509,
+      "order_violation_rate": 0.0,
+      "sum100_violation_rate": 0.0
+    },
+    "p2a/xf:spark-x2.6/E2_unweighted_mcv": {
+      "planned_calls": 80,
+      "first_records": 80,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 53.0625,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 3668.0353803625394,
+      "order_violation_rate": 0.0125,
+      "sum100_violation_rate": 0.0
+    },
+    "p2a/xf:spark-x2.6/E3_weighted_mcv": {
+      "planned_calls": 80,
+      "first_records": 80,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 88.225,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 4543.958843412509,
+      "order_violation_rate": 0.15,
+      "sum100_violation_rate": 0.0
+    },
+    "p2b/sf:qwen3-8b/C1_joint_constrained": {
+      "planned_calls": 64,
+      "first_records": 64,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 197.53125,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 7724.078122812486,
+      "order_violation_rate": 0.40625,
+      "sum100_violation_rate": 0.259375
+    },
+    "p2b/sf:qwen3-8b/C2_joint_unconstrained": {
+      "planned_calls": 64,
+      "first_records": 64,
+      "first_parse_rate": 0.984375,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 218.66153846153847,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 8366.262489600029,
+      "order_violation_rate": 0.34375,
+      "sum100_violation_rate": 0.096875
+    },
+    "p2b/sf:qwen3-8b/C3_separate_unconstrained": {
+      "planned_calls": 192,
+      "first_records": 192,
+      "first_parse_rate": 0.9947916666666666,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 91.82901554404145,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 4083.5844009274283,
+      "order_violation_rate": 0.13541666666666666,
+      "sum100_violation_rate": 0.0
+    },
+    "p2b/aistudio:gemma-4-26b-a4b-it/C1_joint_constrained": {
+      "planned_calls": 64,
+      "first_records": 64,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 222.6875,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 5590.114022812514,
+      "order_violation_rate": 0.0,
+      "sum100_violation_rate": 0.0
+    },
+    "p2b/aistudio:gemma-4-26b-a4b-it/C2_joint_unconstrained": {
+      "planned_calls": 64,
+      "first_records": 64,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 219.953125,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 5762.74797182819,
+      "order_violation_rate": 0.0,
+      "sum100_violation_rate": 0.0
+    },
+    "p2b/aistudio:gemma-4-26b-a4b-it/C3_separate_unconstrained": {
+      "planned_calls": 192,
+      "first_records": 192,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 100.41145833333333,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 3258.8669249739673,
+      "order_violation_rate": 0.0,
+      "sum100_violation_rate": 0.0
+    },
+    "p2b/nv:nemotron-3.5-super-vl-120b/C1_joint_constrained": {
+      "planned_calls": 64,
+      "first_records": 64,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 193.75,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 3264.6956222656345,
+      "order_violation_rate": 0.0,
+      "sum100_violation_rate": 0.0
+    },
+    "p2b/nv:nemotron-3.5-super-vl-120b/C2_joint_unconstrained": {
+      "planned_calls": 64,
+      "first_records": 64,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 199.34375,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 3067.545105984408,
+      "order_violation_rate": 0.015625,
+      "sum100_violation_rate": 0.184375
+    },
+    "p2b/nv:nemotron-3.5-super-vl-120b/C3_separate_unconstrained": {
+      "planned_calls": 192,
+      "first_records": 192,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 92.88541666666667,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 1994.0161980052126,
+      "order_violation_rate": 0.0,
+      "sum100_violation_rate": 0.0
+    },
+    "p2b/xf:spark-x2.6/C1_joint_constrained": {
+      "planned_calls": 64,
+      "first_records": 64,
+      "first_parse_rate": 0.96875,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 209.04545454545453,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 6893.561876697043,
+      "order_violation_rate": 0.1875,
+      "sum100_violation_rate": 0.046875
+    },
+    "p2b/xf:spark-x2.6/C2_joint_unconstrained": {
+      "planned_calls": 64,
+      "first_records": 64,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 205.0625,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 6970.708911718702,
+      "order_violation_rate": 0.203125,
+      "sum100_violation_rate": 0.01875
+    },
+    "p2b/xf:spark-x2.6/C3_separate_unconstrained": {
+      "planned_calls": 192,
+      "first_records": 192,
+      "first_parse_rate": 1.0,
+      "final_missing_rate": 0.0,
+      "unit_missing_rate": 0.0,
+      "truncation_rate": 0.0,
+      "unknown_finish_rate": 0.0,
+      "completion_tokens": 96.16666666666667,
+      "reasoning_char_len": 0.0,
+      "latency_ms": 4426.8930456406115,
+      "order_violation_rate": 0.046875,
+      "sum100_violation_rate": 0.0
+    }
+  },
+  "P2A": {
+    "bayes_MAE": {
+      "pp_common_clusters": 12,
+      "pp_excluded_clusters": 0,
+      "primary": {
+        "delta_elicit": {
+          "ITT": {
+            "estimate": 2.753842907034477,
+            "ci95_raw": [
+              1.7508418837060182,
+              3.790774621655224
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              1.53909168812026,
+              4.030857679761005
+            ],
+            "cluster_sd": 1.8768330980444545,
+            "MDE_pilot_R1_80": 1.5178848772817475,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          "PP": {
+            "estimate": 2.753842907034477,
+            "ci95_raw": [
+              1.7508418837060182,
+              3.790774621655224
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              1.53909168812026,
+              4.030857679761005
+            ],
+            "cluster_sd": 1.8768330980444545,
+            "MDE_pilot_R1_80": 1.5178848772817475,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          "manski": [
+            2.753842907034477,
+            2.753842907034477
+          ],
+          "manski_ci95_simultaneous": [
+            [
+              1.53909168812026,
+              4.030857679761005
+            ],
+            [
+              1.53909168812026,
+              4.030857679761005
+            ]
+          ],
+          "flag_missingness_fragile": false,
+          "PASS": false,
+          "pilot_mde80": null
+        },
+        "delta_vs_cot": {
+          "ITT": {
+            "estimate": 9.742075959210036,
+            "ci95_raw": [
+              8.210623951244614,
+              11.43082538287755
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              7.943150610196469,
+              11.845981193064052
+            ],
+            "cluster_sd": 2.9648587093057204,
+            "MDE_pilot_R1_80": 2.397823334861947,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          "PP": {
+            "estimate": 9.742075959210036,
+            "ci95_raw": [
+              8.210623951244614,
+              11.43082538287755
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              7.943150610196469,
+              11.845981193064052
+            ],
+            "cluster_sd": 2.9648587093057204,
+            "MDE_pilot_R1_80": 2.397823334861947,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          "manski": [
+            9.742075959210036,
+            9.742075959210036
+          ],
+          "manski_ci95_simultaneous": [
+            [
+              7.943150610196469,
+              11.845981193064052
+            ],
+            [
+              7.943150610196469,
+              11.845981193064052
+            ]
+          ],
+          "flag_missingness_fragile": false,
+          "PASS": false,
+          "pilot_mde80": null
+        },
+        "delta_vs_direct": {
+          "ITT": {
+            "estimate": 5.456212418223704,
+            "ci95_raw": [
+              3.9063838627851135,
+              7.110775662375611
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              3.599114102697122,
+              7.511599848958165
+            ],
+            "cluster_sd": 2.9694881276906293,
+            "MDE_pilot_R1_80": 2.401567367383744,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          "PP": {
+            "estimate": 5.456212418223704,
+            "ci95_raw": [
+              3.9063838627851135,
+              7.110775662375611
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              3.599114102697122,
+              7.511599848958165
+            ],
+            "cluster_sd": 2.9694881276906293,
+            "MDE_pilot_R1_80": 2.401567367383744,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          "manski": [
+            5.456212418223704,
+            5.456212418223704
+          ],
+          "manski_ci95_simultaneous": [
+            [
+              3.599114102697122,
+              7.511599848958165
+            ],
+            [
+              3.599114102697122,
+              7.511599848958165
+            ]
+          ],
+          "flag_missingness_fragile": false,
+          "PASS": false,
+          "pilot_mde80": null
+        }
+      },
+      "arm_means_itt": [
+        5.049438379557512,
+        0.763574838571179,
+        7.75180789074674,
+        10.505650797781215
+      ],
+      "secondary": {
+        "delta_readout": {
+          "estimate": -0.051974431818182065,
+          "ci95_raw": [
+            -0.10462121212121245,
+            -0.0028645833333333925
+          ],
+          "p_raw": 0.0357964203579642,
+          "ci95_simultaneous": [
+            -0.10462121212121245,
+            -0.0028645833333333925
+          ],
+          "cluster_sd": 0.0942005487349895,
+          "MDE_pilot_R1_80": 0.076184498507334,
+          "clusters": 12,
+          "p_holm": 0.0357964203579642
+        },
+        "top1_E3_mean": 10.630432058426086,
+        "elicited_u_minus_posthoc_u": {
+          "estimate": -2.8058173388526586,
+          "ci95_raw": [
+            -3.8296398979702047,
+            -1.8017836869305615
+          ],
+          "p_raw": 0.00019998000199980003,
+          "ci95_simultaneous": [
+            -3.8296398979702047,
+            -1.8017836869305615
+          ],
+          "cluster_sd": 1.8690475068898584,
+          "MDE_pilot_R1_80": 1.511588296575358,
+          "clusters": 12,
+          "p_holm": 0.00019998000199980003
+        }
+      }
+    },
+    "frame_MAE": {
+      "pp_common_clusters": 8,
+      "pp_excluded_clusters": 0,
+      "primary": {
+        "delta_elicit": {
+          "ITT": {
+            "estimate": 2.0492187500000005,
+            "ci95_raw": [
+              0.4773437500000002,
+              4.16953125
+            ],
+            "p_raw": 0.00039996000399960006,
+            "ci95_simultaneous": [
+              0.29140625000000014,
+              4.785312500000004
+            ],
+            "cluster_sd": 3.013406035024096,
+            "MDE_pilot_R1_80": 2.9848084374422603,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          "PP": {
+            "estimate": 2.0492187500000005,
+            "ci95_raw": [
+              0.4773437500000002,
+              4.16953125
+            ],
+            "p_raw": 0.00039996000399960006,
+            "ci95_simultaneous": [
+              0.29140625000000014,
+              4.785312500000004
+            ],
+            "cluster_sd": 3.013406035024096,
+            "MDE_pilot_R1_80": 2.9848084374422603,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          "manski": [
+            2.0492187500000005,
+            2.0492187500000005
+          ],
+          "manski_ci95_simultaneous": [
+            [
+              0.29140625000000014,
+              4.785312500000004
+            ],
+            [
+              0.29140625000000014,
+              4.785312500000004
+            ]
+          ],
+          "flag_missingness_fragile": false,
+          "PASS": false,
+          "pilot_mde80": null
+        },
+        "delta_vs_cot": {
+          "ITT": {
+            "estimate": 2.1304687500000004,
+            "ci95_raw": [
+              0.5640624999999999,
+              4.232363281249995
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              0.388671875,
+              4.863310546875004
+            ],
+            "cluster_sd": 2.993389643350769,
+            "MDE_pilot_R1_80": 2.9649820038122447,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          "PP": {
+            "estimate": 2.1304687500000004,
+            "ci95_raw": [
+              0.5640624999999999,
+              4.232363281249995
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              0.388671875,
+              4.863310546875004
+            ],
+            "cluster_sd": 2.993389643350769,
+            "MDE_pilot_R1_80": 2.9649820038122447,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          "manski": [
+            2.1304687500000004,
+            2.1304687500000004
+          ],
+          "manski_ci95_simultaneous": [
+            [
+              0.388671875,
+              4.863310546875004
+            ],
+            [
+              0.388671875,
+              4.863310546875004
+            ]
+          ],
+          "flag_missingness_fragile": false,
+          "PASS": false,
+          "pilot_mde80": null
+        },
+        "delta_vs_direct": {
+          "ITT": {
+            "estimate": -5.76015625,
+            "ci95_raw": [
+              -8.244140625,
+              -3.762109375
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              -8.919814453125,
+              -3.5003906249999996
+            ],
+            "cluster_sd": 3.5474898184881076,
+            "MDE_pilot_R1_80": 3.5138236994601186,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          "PP": {
+            "estimate": -5.76015625,
+            "ci95_raw": [
+              -8.244140625,
+              -3.762109375
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              -8.919814453125,
+              -3.5003906249999996
+            ],
+            "cluster_sd": 3.5474898184881076,
+            "MDE_pilot_R1_80": 3.5138236994601186,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          "manski": [
+            -5.76015625,
+            -5.76015625
+          ],
+          "manski_ci95_simultaneous": [
+            [
+              -8.919814453125,
+              -3.5003906249999996
+            ],
+            [
+              -8.919814453125,
+              -3.5003906249999996
+            ]
+          ],
+          "flag_missingness_fragile": false,
+          "PASS": true,
+          "pilot_mde80": null
+        }
+      },
+      "arm_means_itt": [
+        7.890625,
+        0.0,
+        0.08124999999999982,
+        2.1304687500000004
+      ],
+      "secondary": {
+        "delta_readout": {
+          "estimate": -0.04921874999999981,
+          "ci95_raw": [
+            -0.16406249999999978,
+            0.02851562499999994
+          ],
+          "p_raw": 0.39136086391360864,
+          "ci95_simultaneous": [
+            -0.16406249999999978,
+            0.02851562499999994
+          ],
+          "cluster_sd": 0.15418953940686125,
+          "MDE_pilot_R1_80": 0.1527262615252761,
+          "clusters": 8,
+          "p_holm": 0.39136086391360864
+        },
+        "top1_E3_mean": 2.390625,
+        "elicited_u_minus_posthoc_u": {
+          "estimate": -2.0984375,
+          "ci95_raw": [
+            -4.2078125,
+            -0.5359375
+          ],
+          "p_raw": 0.00039996000399960006,
+          "ci95_simultaneous": [
+            -4.2078125,
+            -0.5359375
+          ],
+          "cluster_sd": 2.991292702369663,
+          "MDE_pilot_R1_80": 2.96290496306152,
+          "clusters": 8,
+          "p_holm": 0.00039996000399960006
+        }
+      }
+    },
+    "frame_FrameGap": {
+      "pp_common_clusters": 8,
+      "pp_excluded_clusters": 0,
+      "primary": {
+        "delta_elicit": {
+          "ITT": {
+            "estimate": 3.8796875000000006,
+            "ci95_raw": [
+              0.6742187500000008,
+              8.200000000000001
+            ],
+            "p_raw": 0.0017998200179982,
+            "ci95_simultaneous": [
+              0.31796875000000036,
+              9.508125000000009
+            ],
+            "cluster_sd": 6.14701106048123,
+            "MDE_pilot_R1_80": 6.088675161967863,
+            "clusters": 8,
+            "p_holm": 0.0035996400359964
+          },
+          "PP": {
+            "estimate": 3.8796875000000006,
+            "ci95_raw": [
+              0.6742187500000008,
+              8.200000000000001
+            ],
+            "p_raw": 0.0017998200179982,
+            "ci95_simultaneous": [
+              0.31796875000000036,
+              9.508125000000009
+            ],
+            "cluster_sd": 6.14701106048123,
+            "MDE_pilot_R1_80": 6.088675161967863,
+            "clusters": 8,
+            "p_holm": 0.0035996400359964
+          },
+          "manski": [
+            3.8796875000000006,
+            3.8796875000000006
+          ],
+          "manski_ci95_simultaneous": [
+            [
+              0.31796875000000036,
+              9.508125000000009
+            ],
+            [
+              0.31796875000000036,
+              9.508125000000009
+            ]
+          ],
+          "flag_missingness_fragile": false,
+          "PASS": false,
+          "pilot_mde80": null
+        },
+        "delta_vs_cot": {
+          "ITT": {
+            "estimate": 4.042187500000001,
+            "ci95_raw": [
+              0.8473437500000003,
+              8.322011718749996
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              0.49736328125,
+              9.616679687500001
+            ],
+            "cluster_sd": 6.111492713892759,
+            "MDE_pilot_R1_80": 6.0534938889004195,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          "PP": {
+            "estimate": 4.042187500000001,
+            "ci95_raw": [
+              0.8473437500000003,
+              8.322011718749996
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              0.49736328125,
+              9.616679687500001
+            ],
+            "cluster_sd": 6.111492713892759,
+            "MDE_pilot_R1_80": 6.0534938889004195,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          "manski": [
+            4.042187500000001,
+            4.042187500000001
+          ],
+          "manski_ci95_simultaneous": [
+            [
+              0.49736328125,
+              9.616679687500001
+            ],
+            [
+              0.49736328125,
+              9.616679687500001
+            ]
+          ],
+          "flag_missingness_fragile": false,
+          "PASS": false,
+          "pilot_mde80": null
+        },
+        "delta_vs_direct": {
+          "ITT": {
+            "estimate": -5.176562499999999,
+            "ci95_raw": [
+              -9.54861328125,
+              -0.24982421875000213
+            ],
+            "p_raw": 0.03899610038996101,
+            "ci95_simultaneous": [
+              -10.42634765625,
+              0.9056640625000261
+            ],
+            "cluster_sd": 7.307683662652131,
+            "MDE_pilot_R1_80": 7.238332836971513,
+            "clusters": 8,
+            "p_holm": 0.03899610038996101
+          },
+          "PP": {
+            "estimate": -5.176562499999999,
+            "ci95_raw": [
+              -9.54861328125,
+              -0.24982421875000213
+            ],
+            "p_raw": 0.03899610038996101,
+            "ci95_simultaneous": [
+              -10.42634765625,
+              0.9056640625000261
+            ],
+            "cluster_sd": 7.307683662652131,
+            "MDE_pilot_R1_80": 7.238332836971513,
+            "clusters": 8,
+            "p_holm": 0.03899610038996101
+          },
+          "manski": [
+            -5.176562499999999,
+            -5.176562499999999
+          ],
+          "manski_ci95_simultaneous": [
+            [
+              -10.42634765625,
+              0.9056640625000261
+            ],
+            [
+              -10.42634765625,
+              0.9056640625000261
+            ]
+          ],
+          "flag_missingness_fragile": false,
+          "PASS": false,
+          "pilot_mde80": null
+        }
+      },
+      "arm_means_itt": [
+        9.21875,
+        0.0,
+        0.16249999999999964,
+        4.042187500000001
+      ],
+      "secondary": {
+        "delta_readout": {
+          "estimate": -0.06718749999999951,
+          "ci95_raw": [
+            -0.2976562499999995,
+            0.08125000000000095
+          ],
+          "p_raw": 0.6639336066393361,
+          "ci95_simultaneous": [
+            -0.2976562499999995,
+            0.08125000000000095
+          ],
+          "cluster_sd": 0.3107226240670977,
+          "MDE_pilot_R1_80": 0.30777382776837003,
+          "clusters": 8,
+          "p_holm": 0.6639336066393361
+        },
+        "top1_E3_mean": 4.28125,
+        "elicited_u_minus_posthoc_u": {
+          "estimate": -3.946875,
+          "ci95_raw": [
+            -8.25046875,
+            -0.7312499999999997
+          ],
+          "p_raw": 0.0029997000299970002,
+          "ci95_simultaneous": [
+            -8.25046875,
+            -0.7312499999999997
+          ],
+          "cluster_sd": 6.132196027933223,
+          "MDE_pilot_R1_80": 6.0740007259189825,
+          "clusters": 8,
+          "p_holm": 0.0029997000299970002
+        }
+      }
+    }
+  },
+  "P2B": {
+    "readouts": {
+      "m_w": {
+        "C1_joint_constrained": {
+          "MAE_norm": 8.672347421717202,
+          "MAE_raw": 9.04790215819925,
+          "S": 102.57604103449515,
+          "Acc_argmax": 77.734375,
+          "argmax_tie_rate": 1.953125,
+          "zero_sum_fallback": 0.0
+        },
+        "C2_joint_unconstrained": {
+          "MAE_norm": 7.402311337131119,
+          "MAE_raw": 7.625353947401207,
+          "S": 101.10576025409708,
+          "Acc_argmax": 81.640625,
+          "argmax_tie_rate": 1.953125,
+          "zero_sum_fallback": 0.0
+        },
+        "C3_separate_unconstrained": {
+          "MAE_norm": 6.963071075048801,
+          "MAE_raw": 8.442379565527995,
+          "S": 100.3048655825014,
+          "Acc_argmax": 80.078125,
+          "argmax_tie_rate": 2.734375,
+          "zero_sum_fallback": 0.0
+        }
+      },
+      "m_u": {
+        "C1_joint_constrained": {
+          "MAE_norm": 8.669338071867333,
+          "MAE_raw": 9.048652106054362,
+          "S": 102.74689062499999,
+          "Acc_argmax": 77.34375,
+          "argmax_tie_rate": 1.953125,
+          "zero_sum_fallback": 0.0
+        },
+        "C2_joint_unconstrained": {
+          "MAE_norm": 7.380721664737141,
+          "MAE_raw": 7.601919535226279,
+          "S": 101.11897648046875,
+          "Acc_argmax": 81.640625,
+          "argmax_tie_rate": 1.953125,
+          "zero_sum_fallback": 0.0
+        },
+        "C3_separate_unconstrained": {
+          "MAE_norm": 6.972438626089236,
+          "MAE_raw": 8.437749167737948,
+          "S": 100.02098374609375,
+          "Acc_argmax": 80.078125,
+          "argmax_tie_rate": 2.734375,
+          "zero_sum_fallback": 0.0
+        }
+      },
+      "top1": {
+        "C1_joint_constrained": {
+          "MAE_norm": 8.744749646009053,
+          "MAE_raw": 9.20849860424311,
+          "S": 102.12894531250001,
+          "Acc_argmax": 77.734375,
+          "argmax_tie_rate": 3.125,
+          "zero_sum_fallback": 0.0
+        },
+        "C2_joint_unconstrained": {
+          "MAE_norm": 7.506177853768632,
+          "MAE_raw": 7.733564498926675,
+          "S": 101.21324210546875,
+          "Acc_argmax": 82.421875,
+          "argmax_tie_rate": 2.34375,
+          "zero_sum_fallback": 0.0
+        },
+        "C3_separate_unconstrained": {
+          "MAE_norm": 6.860530980481669,
+          "MAE_raw": 8.319894259406933,
+          "S": 97.68841343359375,
+          "Acc_argmax": 81.640625,
+          "argmax_tie_rate": 4.6875,
+          "zero_sum_fallback": 0.0
+        }
+      }
+    },
+    "contrasts": {
+      "C2-C1": {
+        "category": 2,
+        "imp_mae_itt": true,
+        "imp_mae_pp": true,
+        "imp_acc_itt": false,
+        "imp_acc_pp": false,
+        "flag_degradation": false,
+        "flag_tie_worsened": false,
+        "flag_missingness_fragile": false,
+        "flag_exceeds_sesoi": false,
+        "MAE_norm": {
+          "ITT": {
+            "estimate": -1.2700360845860854,
+            "ci95_raw": [
+              -2.3463270516815595,
+              -0.3293789463484209
+            ],
+            "p_raw": 0.0081991800819918,
+            "ci95_simultaneous": [
+              -2.8043425228708623,
+              -0.006183163145252586
+            ],
+            "cluster_sd": 2.167539953796188,
+            "MDE_pilot_R1_80": 1.5181368553640233,
+            "clusters": 16,
+            "p_holm": 0.040995900409959006
+          },
+          "PP": {
+            "estimate": -1.2700360845860854,
+            "ci95_raw": [
+              -2.3463270516815595,
+              -0.3293789463484209
+            ],
+            "p_raw": 0.0081991800819918,
+            "ci95_simultaneous": [
+              -2.8043425228708623,
+              -0.006183163145252586
+            ],
+            "cluster_sd": 2.167539953796188,
+            "MDE_pilot_R1_80": 1.5181368553640233,
+            "clusters": 16,
+            "p_holm": 0.040995900409959006
+          },
+          "manski": [
+            -1.2700360845860854,
+            -1.2700360845860854
+          ]
+        },
+        "Acc_argmax": {
+          "ITT": {
+            "estimate": 3.90625,
+            "ci95_raw": [
+              -1.953125,
+              9.375
+            ],
+            "p_raw": 0.21137886211378862,
+            "ci95_simultaneous": [
+              -3.90625,
+              10.9375
+            ],
+            "cluster_sd": 12.049161450767711,
+            "MDE_pilot_R1_80": 8.439187495762265,
+            "clusters": 16,
+            "p_holm": 0.8455154484551545
+          },
+          "PP": {
+            "estimate": 3.90625,
+            "ci95_raw": [
+              -1.953125,
+              9.375
+            ],
+            "p_raw": 0.21137886211378862,
+            "ci95_simultaneous": [
+              -3.90625,
+              10.9375
+            ],
+            "cluster_sd": 12.049161450767711,
+            "MDE_pilot_R1_80": 8.439187495762265,
+            "clusters": 16,
+            "p_holm": 0.8455154484551545
+          },
+          "manski": [
+            3.90625,
+            3.90625
+          ]
+        },
+        "pp_common_clusters": 16,
+        "pp_excluded_clusters": 0,
+        "manski_ci95_simultaneous": [
+          [
+            -3.90625,
+            10.9375
+          ],
+          [
+            -2.8043425228708623,
+            -0.006183163145252586
+          ]
+        ],
+        "flag_manski_ci_robust": false
+      },
+      "C3-C1": {
+        "category": 2,
+        "imp_mae_itt": true,
+        "imp_mae_pp": true,
+        "imp_acc_itt": false,
+        "imp_acc_pp": false,
+        "flag_degradation": false,
+        "flag_tie_worsened": true,
+        "flag_missingness_fragile": false,
+        "flag_exceeds_sesoi": false,
+        "MAE_norm": {
+          "ITT": {
+            "estimate": -1.7092763466684013,
+            "ci95_raw": [
+              -2.7647626147175464,
+              -0.7510863700545899
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              -3.1579973657924616,
+              -0.4511589208565223
+            ],
+            "cluster_sd": 2.143438787256647,
+            "MDE_pilot_R1_80": 1.5012564886991036,
+            "clusters": 16,
+            "p_holm": 0.0011998800119988001
+          },
+          "PP": {
+            "estimate": -1.7092763466684013,
+            "ci95_raw": [
+              -2.7647626147175464,
+              -0.7510863700545899
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              -3.1579973657924616,
+              -0.4511589208565223
+            ],
+            "cluster_sd": 2.143438787256647,
+            "MDE_pilot_R1_80": 1.5012564886991036,
+            "clusters": 16,
+            "p_holm": 0.0011998800119988001
+          },
+          "manski": [
+            -1.7092763466684013,
+            -1.7092763466684013
+          ]
+        },
+        "Acc_argmax": {
+          "ITT": {
+            "estimate": 2.34375,
+            "ci95_raw": [
+              -4.296875,
+              8.984375
+            ],
+            "p_raw": 0.5393460653934606,
+            "ci95_simultaneous": [
+              -6.25,
+              11.71875
+            ],
+            "cluster_sd": 14.045128158902646,
+            "MDE_pilot_R1_80": 9.837155093264817,
+            "clusters": 16,
+            "p_holm": 1.0
+          },
+          "PP": {
+            "estimate": 2.34375,
+            "ci95_raw": [
+              -4.296875,
+              8.984375
+            ],
+            "p_raw": 0.5393460653934606,
+            "ci95_simultaneous": [
+              -6.25,
+              11.71875
+            ],
+            "cluster_sd": 14.045128158902646,
+            "MDE_pilot_R1_80": 9.837155093264817,
+            "clusters": 16,
+            "p_holm": 1.0
+          },
+          "manski": [
+            2.34375,
+            2.34375
+          ]
+        },
+        "pp_common_clusters": 16,
+        "pp_excluded_clusters": 0,
+        "manski_ci95_simultaneous": [
+          [
+            -6.25,
+            11.71875
+          ],
+          [
+            -3.1579973657924616,
+            -0.4511589208565223
+          ]
+        ],
+        "flag_manski_ci_robust": false
+      },
+      "C3-C2": {
+        "category": 3,
+        "imp_mae_itt": false,
+        "imp_mae_pp": false,
+        "imp_acc_itt": false,
+        "imp_acc_pp": false,
+        "flag_degradation": false,
+        "flag_tie_worsened": true,
+        "flag_missingness_fragile": false,
+        "flag_exceeds_sesoi": false,
+        "MAE_norm": {
+          "ITT": {
+            "estimate": -0.439240262082316,
+            "ci95_raw": [
+              -1.3736583802497973,
+              0.45664193771873884
+            ],
+            "p_raw": 0.35496450354964504,
+            "ci95_simultaneous": [
+              -1.7222962791185463,
+              0.7236892542632234
+            ],
+            "cluster_sd": 1.9344685370488084,
+            "MDE_pilot_R1_80": 1.3548945090919715,
+            "clusters": 16,
+            "p_holm": 1.0
+          },
+          "PP": {
+            "estimate": -0.439240262082316,
+            "ci95_raw": [
+              -1.3736583802497973,
+              0.45664193771873884
+            ],
+            "p_raw": 0.35496450354964504,
+            "ci95_simultaneous": [
+              -1.7222962791185463,
+              0.7236892542632234
+            ],
+            "cluster_sd": 1.9344685370488084,
+            "MDE_pilot_R1_80": 1.3548945090919715,
+            "clusters": 16,
+            "p_holm": 1.0
+          },
+          "manski": [
+            -0.439240262082316,
+            -0.439240262082316
+          ]
+        },
+        "Acc_argmax": {
+          "ITT": {
+            "estimate": -1.5625,
+            "ci95_raw": [
+              -7.03125,
+              3.90625
+            ],
+            "p_raw": 0.6141385861413858,
+            "ci95_simultaneous": [
+              -8.59375,
+              5.46875
+            ],
+            "cluster_sd": 11.063265039459795,
+            "MDE_pilot_R1_80": 7.748669346393743,
+            "clusters": 16,
+            "p_holm": 1.0
+          },
+          "PP": {
+            "estimate": -1.5625,
+            "ci95_raw": [
+              -7.03125,
+              3.90625
+            ],
+            "p_raw": 0.6141385861413858,
+            "ci95_simultaneous": [
+              -8.59375,
+              5.46875
+            ],
+            "cluster_sd": 11.063265039459795,
+            "MDE_pilot_R1_80": 7.748669346393743,
+            "clusters": 16,
+            "p_holm": 1.0
+          },
+          "manski": [
+            -1.5625,
+            -1.5625
+          ]
+        },
+        "pp_common_clusters": 16,
+        "pp_excluded_clusters": 0,
+        "manski_ci95_simultaneous": [
+          [
+            -8.59375,
+            5.46875
+          ],
+          [
+            -1.7222962791185463,
+            0.7236892542632234
+          ]
+        ],
+        "flag_manski_ci_robust": false
+      }
+    },
+    "per_model": {
+      "sf:qwen3-8b": {
+        "MAE_norm": [
+          {
+            "estimate": -3.3774043371847458,
+            "ci95_raw": [
+              -6.117637521792359,
+              -0.9367613742873503
+            ],
+            "p_raw": 0.0037996200379962005,
+            "ci95_simultaneous": [
+              -7.022991325317349,
+              -0.20062221404679056
+            ],
+            "cluster_sd": 5.488529696141225,
+            "MDE_pilot_R1_80": 3.844145617190954,
+            "clusters": 16,
+            "p_holm": 0.011398860113988602
+          },
+          {
+            "estimate": -1.824793583110031,
+            "ci95_raw": [
+              -3.915168775313556,
+              0.1343544983472237
+            ],
+            "p_raw": 0.07379262073792621,
+            "ci95_simultaneous": [
+              -4.6392293936017515,
+              0.8012404800130192
+            ],
+            "cluster_sd": 4.2929625733044485,
+            "MDE_pilot_R1_80": 3.006774887732786,
+            "clusters": 16,
+            "p_holm": 0.14758524147585242
+          },
+          {
+            "estimate": 1.5526107540747147,
+            "ci95_raw": [
+              -0.8080969259767342,
+              3.913089776840651
+            ],
+            "p_raw": 0.19238076192380762,
+            "ci95_simultaneous": [
+              -1.6742649533566514,
+              4.582239161697674
+            ],
+            "cluster_sd": 4.958799053736087,
+            "MDE_pilot_R1_80": 3.473124261740304,
+            "clusters": 16,
+            "p_holm": 0.19238076192380762
+          }
+        ],
+        "Acc_argmax": [
+          {
+            "estimate": 10.9375,
+            "ci95_raw": [
+              -1.5625,
+              23.4375
+            ],
+            "p_raw": 0.12418758124187582,
+            "ci95_simultaneous": [
+              -6.25,
+              28.125
+            ],
+            "cluster_sd": 27.338541170540417,
+            "MDE_pilot_R1_80": 19.14781171631712,
+            "clusters": 16,
+            "p_holm": 0.24837516248375163
+          },
+          {
+            "estimate": -4.6875,
+            "ci95_raw": [
+              -25.0,
+              14.0625
+            ],
+            "p_raw": 0.7025297470252975,
+            "ci95_simultaneous": [
+              -31.25,
+              20.3125
+            ],
+            "cluster_sd": 41.04748266743447,
+            "MDE_pilot_R1_80": 28.749502932211104,
+            "clusters": 16,
+            "p_holm": 0.7025297470252975
+          },
+          {
+            "estimate": -15.625,
+            "ci95_raw": [
+              -31.25,
+              0.0
+            ],
+            "p_raw": 0.05779422057794221,
+            "ci95_simultaneous": [
+              -35.9375,
+              4.6875
+            ],
+            "cluster_sd": 32.75540667838924,
+            "MDE_pilot_R1_80": 22.941764004768782,
+            "clusters": 16,
+            "p_holm": 0.17338266173382663
+          }
+        ]
+      },
+      "aistudio:gemma-4-26b-a4b-it": {
+        "MAE_norm": [
+          {
+            "estimate": 1.2410715567482882,
+            "ci95_raw": [
+              0.4512533922811877,
+              2.0489483491196707
+            ],
+            "p_raw": 0.0011998800119988001,
+            "ci95_simultaneous": [
+              0.16944592205779863,
+              2.3614199182245623
+            ],
+            "cluster_sd": 1.6952303687185974,
+            "MDE_pilot_R1_80": 1.187332993136623,
+            "clusters": 16,
+            "p_holm": 0.0035996400359964006
+          },
+          {
+            "estimate": 0.2324238607456302,
+            "ci95_raw": [
+              -1.0945475005125658,
+              1.6727686776347164
+            ],
+            "p_raw": 0.7785221477852214,
+            "ci95_simultaneous": [
+              -1.4020339960029777,
+              2.2163420800335283
+            ],
+            "cluster_sd": 2.9178183847733523,
+            "MDE_pilot_R1_80": 2.0436290548763134,
+            "clusters": 16,
+            "p_holm": 0.7785221477852214
+          },
+          {
+            "estimate": -1.008647696002658,
+            "ci95_raw": [
+              -1.8974102967629514,
+              -0.09072279069503812
+            ],
+            "p_raw": 0.030596940305969402,
+            "ci95_simultaneous": [
+              -2.211923682127142,
+              0.2083781295747713
+            ],
+            "cluster_sd": 1.9256771195209659,
+            "MDE_pilot_R1_80": 1.3487370332232864,
+            "clusters": 16,
+            "p_holm": 0.061193880611938804
+          }
+        ],
+        "Acc_argmax": [
+          {
+            "estimate": -9.375,
+            "ci95_raw": [
+              -25.0,
+              0.0
+            ],
+            "p_raw": 0.23877612238776122,
+            "ci95_simultaneous": [
+              -31.25,
+              0.0
+            ],
+            "cluster_sd": 27.195281453467867,
+            "MDE_pilot_R1_80": 19.047473147703446,
+            "clusters": 16,
+            "p_holm": 0.7163283671632836
+          },
+          {
+            "estimate": -7.8125,
+            "ci95_raw": [
+              -20.3125,
+              0.0
+            ],
+            "p_raw": 0.23877612238776122,
+            "ci95_simultaneous": [
+              -25.0,
+              0.0
+            ],
+            "cluster_sd": 21.830311495716227,
+            "MDE_pilot_R1_80": 15.289868307931538,
+            "clusters": 16,
+            "p_holm": 0.7163283671632836
+          },
+          {
+            "estimate": 1.5625,
+            "ci95_raw": [
+              0.0,
+              4.6875
+            ],
+            "p_raw": 0.7165283471652835,
+            "ci95_simultaneous": [
+              0.0,
+              6.25
+            ],
+            "cluster_sd": 6.25,
+            "MDE_pilot_R1_80": 4.3774765625,
+            "clusters": 16,
+            "p_holm": 0.7165283471652835
+          }
+        ]
+      },
+      "nv:nemotron-3.5-super-vl-120b": {
+        "MAE_norm": [
+          {
+            "estimate": -1.3147983443452407,
+            "ci95_raw": [
+              -3.1302785909903137,
+              0.6410074522777179
+            ],
+            "p_raw": 0.17918208179182082,
+            "ci95_simultaneous": [
+              -3.6543485565134106,
+              1.2762747075948426
+            ],
+            "cluster_sd": 3.9857237790847035,
+            "MDE_pilot_R1_80": 2.791585988406755,
+            "clusters": 16,
+            "p_holm": 0.17918208179182082
+          },
+          {
+            "estimate": -4.105065576123282,
+            "ci95_raw": [
+              -5.59039594884523,
+              -2.5365738827650524
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              -6.052345134075606,
+              -2.0086277026704185
+            ],
+            "cluster_sd": 3.2855951668532386,
+            "MDE_pilot_R1_80": 2.3012185338821327,
+            "clusters": 16,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": -2.790267231778041,
+            "ci95_raw": [
+              -3.7083299310610696,
+              -1.8667267764365074
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              -3.994604855382837,
+              -1.5242203189650572
+            ],
+            "cluster_sd": 1.9694059795103362,
+            "MDE_pilot_R1_80": 1.3793645627766165,
+            "clusters": 16,
+            "p_holm": 0.0005999400059994001
+          }
+        ],
+        "Acc_argmax": [
+          {
+            "estimate": 14.0625,
+            "ci95_raw": [
+              3.125,
+              25.0
+            ],
+            "p_raw": 0.0207979202079792,
+            "ci95_simultaneous": [
+              -1.5625,
+              28.125
+            ],
+            "cluster_sd": 24.098322901535422,
+            "MDE_pilot_R1_80": 16.87837499152453,
+            "clusters": 16,
+            "p_holm": 0.0395960403959604
+          },
+          {
+            "estimate": 20.3125,
+            "ci95_raw": [
+              9.375,
+              32.8125
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              6.25,
+              36.46484374999943
+            ],
+            "cluster_sd": 24.526771087935728,
+            "MDE_pilot_R1_80": 17.178458494598605,
+            "clusters": 16,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 6.25,
+            "ci95_raw": [
+              1.5625,
+              12.5
+            ],
+            "p_raw": 0.0197980201979802,
+            "ci95_simultaneous": [
+              0.0,
+              14.0625
+            ],
+            "cluster_sd": 11.180339887498949,
+            "MDE_pilot_R1_80": 7.830668130929686,
+            "clusters": 16,
+            "p_holm": 0.0395960403959604
+          }
+        ]
+      },
+      "xf:spark-x2.6": {
+        "MAE_norm": [
+          {
+            "estimate": -1.6290132135626452,
+            "ci95_raw": [
+              -3.2892802277291238,
+              -0.08774625465911894
+            ],
+            "p_raw": 0.03899610038996101,
+            "ci95_simultaneous": [
+              -3.91947019471005,
+              0.40150248279540046
+            ],
+            "cluster_sd": 3.3854862449692047,
+            "MDE_pilot_R1_80": 2.3711818704030123,
+            "clusters": 16,
+            "p_holm": 0.11698830116988301
+          },
+          {
+            "estimate": -1.1396700881859239,
+            "ci95_raw": [
+              -3.0484786961152217,
+              0.7523117429079413
+            ],
+            "p_raw": 0.24837516248375163,
+            "ci95_simultaneous": [
+              -3.6232762353940244,
+              1.3991719578383262
+            ],
+            "cluster_sd": 4.059022369539551,
+            "MDE_pilot_R1_80": 2.842924046291616,
+            "clusters": 16,
+            "p_holm": 0.49675032496750327
+          },
+          {
+            "estimate": 0.48934312537672137,
+            "ci95_raw": [
+              -1.5902367590973991,
+              2.592876465407926
+            ],
+            "p_raw": 0.6443355664433557,
+            "ci95_simultaneous": [
+              -2.3573567405654856,
+              3.2000204637893335
+            ],
+            "cluster_sd": 4.3833037691129775,
+            "MDE_pilot_R1_80": 3.0700495224975954,
+            "clusters": 16,
+            "p_holm": 0.6443355664433557
+          }
+        ],
+        "Acc_argmax": [
+          {
+            "estimate": 0.0,
+            "ci95_raw": [
+              -6.25,
+              6.25
+            ],
+            "p_raw": 1.0,
+            "ci95_simultaneous": [
+              -7.8125,
+              7.8125
+            ],
+            "cluster_sd": 12.909944487358056,
+            "MDE_pilot_R1_80": 9.042076706653756,
+            "clusters": 16,
+            "p_holm": 1.0
+          },
+          {
+            "estimate": 1.5625,
+            "ci95_raw": [
+              -7.8125,
+              12.5
+            ],
+            "p_raw": 0.8967103289671033,
+            "ci95_simultaneous": [
+              -10.9375,
+              15.625
+            ],
+            "cluster_sd": 21.347814095749165,
+            "MDE_pilot_R1_80": 14.951928938359856,
+            "clusters": 16,
+            "p_holm": 1.0
+          },
+          {
+            "estimate": 1.5625,
+            "ci95_raw": [
+              -9.375,
+              14.0625
+            ],
+            "p_raw": 0.9619038096190381,
+            "ci95_simultaneous": [
+              -12.5,
+              20.3125
+            ],
+            "cluster_sd": 24.947862299871172,
+            "MDE_pilot_R1_80": 17.473389200346144,
+            "clusters": 16,
+            "p_holm": 1.0
+          }
+        ]
+      }
+    },
+    "leave_one_model_out": {
+      "aistudio:gemma-4-26b-a4b-it,nv:nemotron-3.5-super-vl-120b,xf:spark-x2.6": {
+        "MAE_norm": [
+          {
+            "estimate": -0.5675800003865324,
+            "ci95_raw": [
+              -1.4999531066457532,
+              0.3581610757948663
+            ],
+            "p_raw": 0.23457654234576542,
+            "ci95_simultaneous": [
+              -1.8655923811091664,
+              0.6762413736741322
+            ],
+            "cluster_sd": 1.980540061803818,
+            "MDE_pilot_R1_80": 1.3871628322621625,
+            "clusters": 16,
+            "p_holm": 0.23457654234576542
+          },
+          {
+            "estimate": -1.6707706011878585,
+            "ci95_raw": [
+              -2.6133370835696383,
+              -0.7468571919019638
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              -2.916853297912537,
+              -0.4805960834047036
+            ],
+            "cluster_sd": 1.997388134492604,
+            "MDE_pilot_R1_80": 1.3989631591931158,
+            "clusters": 16,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": -1.1031906008013261,
+            "ci95_raw": [
+              -1.7883474389959633,
+              -0.4088348360931898
+            ],
+            "p_raw": 0.0025997400259974,
+            "ci95_simultaneous": [
+              -2.009960109929661,
+              -0.16011426820306962
+            ],
+            "cluster_sd": 1.4762107463565002,
+            "MDE_pilot_R1_80": 1.033932470957794,
+            "clusters": 16,
+            "p_holm": 0.0051994800519948
+          }
+        ],
+        "Acc_argmax": [
+          {
+            "estimate": 1.5625000000000009,
+            "ci95_raw": [
+              -4.166666666666667,
+              7.291666666666669
+            ],
+            "p_raw": 0.5703429657034297,
+            "ci95_simultaneous": [
+              -6.770833333333332,
+              9.374999999999998
+            ],
+            "cluster_sd": 12.626672973129951,
+            "MDE_pilot_R1_80": 8.84367440035657,
+            "clusters": 16,
+            "p_holm": 0.5703429657034297
+          },
+          {
+            "estimate": 4.687500000000001,
+            "ci95_raw": [
+              2.6645352591003757e-15,
+              9.895833333333332
+            ],
+            "p_raw": 0.0321967803219678,
+            "ci95_simultaneous": [
+              -1.0416666666666663,
+              11.458333333333336
+            ],
+            "cluster_sd": 10.077822185373186,
+            "MDE_pilot_R1_80": 7.058468866802185,
+            "clusters": 16,
+            "p_holm": 0.09659034096590341
+          },
+          {
+            "estimate": 3.125,
+            "ci95_raw": [
+              -1.041666666666666,
+              7.812499999999999
+            ],
+            "p_raw": 0.1473852614738526,
+            "ci95_simultaneous": [
+              -2.604166666666665,
+              9.375
+            ],
+            "cluster_sd": 9.562174710032503,
+            "MDE_pilot_R1_80": 6.697311308751603,
+            "clusters": 16,
+            "p_holm": 0.2947705229477052
+          }
+        ]
+      },
+      "sf:qwen3-8b,nv:nemotron-3.5-super-vl-120b,xf:spark-x2.6": {
+        "MAE_norm": [
+          {
+            "estimate": -2.1070719650308773,
+            "ci95_raw": [
+              -3.363156960517196,
+              -1.0312223542882268
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              -3.9031002257951206,
+              -0.673763059474303
+            ],
+            "cluster_sd": 2.498812556011465,
+            "MDE_pilot_R1_80": 1.7501589436833451,
+            "clusters": 16,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": -2.3565097491397458,
+            "ci95_raw": [
+              -3.637545431271594,
+              -1.0661653103044735
+            ],
+            "p_raw": 0.0005999400059994001,
+            "ci95_simultaneous": [
+              -4.101754002476125,
+              -0.6456109161651451
+            ],
+            "cluster_sd": 2.740742280112859,
+            "MDE_pilot_R1_80": 1.9196056152074963,
+            "clusters": 16,
+            "p_holm": 0.0011998800119988001
+          },
+          {
+            "estimate": -0.2494377841088687,
+            "ci95_raw": [
+              -1.52486986110391,
+              0.9806815338953915
+            ],
+            "p_raw": 0.7157284271572842,
+            "ci95_simultaneous": [
+              -2.0008355022026105,
+              1.3607874042225483
+            ],
+            "cluster_sd": 2.653592253056728,
+            "MDE_pilot_R1_80": 1.8585660630699836,
+            "clusters": 16,
+            "p_holm": 0.7157284271572842
+          }
+        ],
+        "Acc_argmax": [
+          {
+            "estimate": 8.333333333333332,
+            "ci95_raw": [
+              2.604166666666666,
+              13.541666666666668
+            ],
+            "p_raw": 0.004999500049995001,
+            "ci95_simultaneous": [
+              0.8658854166666661,
+              15.624999999999998
+            ],
+            "cluster_sd": 11.785113019775793,
+            "MDE_pilot_R1_80": 8.254248964877142,
+            "clusters": 16,
+            "p_holm": 0.014998500149985002
+          },
+          {
+            "estimate": 5.729166666666667,
+            "ci95_raw": [
+              -2.604166666666665,
+              14.0625
+            ],
+            "p_raw": 0.15878412158784122,
+            "ci95_simultaneous": [
+              -5.208333333333333,
+              17.1875
+            ],
+            "cluster_sd": 17.40549881183785,
+            "MDE_pilot_R1_80": 12.190746097190688,
+            "clusters": 16,
+            "p_holm": 0.31756824317568244
+          },
+          {
+            "estimate": -2.6041666666666647,
+            "ci95_raw": [
+              -9.89583333333333,
+              4.687500000000002
+            ],
+            "p_raw": 0.511948805119488,
+            "ci95_simultaneous": [
+              -11.979166666666664,
+              6.770833333333336
+            ],
+            "cluster_sd": 14.819516036482284,
+            "MDE_pilot_R1_80": 10.379533458767055,
+            "clusters": 16,
+            "p_holm": 0.511948805119488
+          }
+        ]
+      },
+      "sf:qwen3-8b,aistudio:gemma-4-26b-a4b-it,xf:spark-x2.6": {
+        "MAE_norm": [
+          {
+            "estimate": -1.2551153313330345,
+            "ci95_raw": [
+              -2.823974445686309,
+              0.08013170708812006
+            ],
+            "p_raw": 0.070992900709929,
+            "ci95_simultaneous": [
+              -3.3546089424928427,
+              0.47988484108662954
+            ],
+            "cluster_sd": 3.06546510320257,
+            "MDE_pilot_R1_80": 2.147040262788943,
+            "clusters": 16,
+            "p_holm": 0.212978702129787
+          },
+          {
+            "estimate": -0.9106799368501083,
+            "ci95_raw": [
+              -2.136371662047873,
+              0.18754041864941423
+            ],
+            "p_raw": 0.11038896110388961,
+            "ci95_simultaneous": [
+              -2.6198874449094305,
+              0.47838625251442113
+            ],
+            "cluster_sd": 2.46047237052764,
+            "MDE_pilot_R1_80": 1.7233056215461697,
+            "clusters": 16,
+            "p_holm": 0.22077792220777923
+          },
+          {
+            "estimate": 0.3444353944829262,
+            "ci95_raw": [
+              -0.9185646648622118,
+              1.6037873909020879
+            ],
+            "p_raw": 0.5923407659234077,
+            "ci95_simultaneous": [
+              -1.3574509554476648,
+              1.9786941086463488
+            ],
+            "cluster_sd": 2.646800879882983,
+            "MDE_pilot_R1_80": 1.853809410766742,
+            "clusters": 16,
+            "p_holm": 0.5923407659234077
+          }
+        ],
+        "Acc_argmax": [
+          {
+            "estimate": 0.5208333333333335,
+            "ci95_raw": [
+              -7.29166666666667,
+              7.8125
+            ],
+            "p_raw": 0.8599140085991401,
+            "ci95_simultaneous": [
+              -10.416666666666666,
+              9.895833333333336
+            ],
+            "cluster_sd": 16.235748736570084,
+            "MDE_pilot_R1_80": 11.371457531035926,
+            "clusters": 16,
+            "p_holm": 0.8607139286071392
+          },
+          {
+            "estimate": -3.645833333333332,
+            "ci95_raw": [
+              -11.979166666666668,
+              4.687500000000003
+            ],
+            "p_raw": 0.4303569643035696,
+            "ci95_simultaneous": [
+              -15.104166666666666,
+              7.291666666666669
+            ],
+            "cluster_sd": 17.734865744148248,
+            "MDE_pilot_R1_80": 12.421433461454892,
+            "clusters": 16,
+            "p_holm": 0.8607139286071392
+          },
+          {
+            "estimate": -4.166666666666664,
+            "ci95_raw": [
+              -10.937499999999996,
+              2.6041666666666683
+            ],
+            "p_raw": 0.25637436256374363,
+            "ci95_simultaneous": [
+              -13.020833333333332,
+              4.863281249999813
+            ],
+            "cluster_sd": 13.944333775567927,
+            "MDE_pilot_R1_80": 9.766559085156118,
+            "clusters": 16,
+            "p_holm": 0.7691230876912309
+          }
+        ]
+      },
+      "sf:qwen3-8b,aistudio:gemma-4-26b-a4b-it,nv:nemotron-3.5-super-vl-120b": {
+        "MAE_norm": [
+          {
+            "estimate": -1.1503770415938992,
+            "ci95_raw": [
+              -2.1250540491394494,
+              -0.28236559004261585
+            ],
+            "p_raw": 0.007999200079992,
+            "ci95_simultaneous": [
+              -2.5291130911652955,
+              -0.007576173478519141
+            ],
+            "cluster_sd": 1.9611647049418643,
+            "MDE_pilot_R1_80": 1.3735924049736383,
+            "clusters": 16,
+            "p_holm": 0.015998400159984
+          },
+          {
+            "estimate": -1.899145099495894,
+            "ci95_raw": [
+              -2.9885162381734283,
+              -0.9305737842102422
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              -3.369716072184439,
+              -0.6286710516309321
+            ],
+            "cluster_sd": 2.1918074140521555,
+            "MDE_pilot_R1_80": 1.5351336935243272,
+            "clusters": 16,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": -0.7487680579019949,
+            "ci95_raw": [
+              -1.579972408120617,
+              -0.010000361457952116
+            ],
+            "p_raw": 0.0451954804519548,
+            "ci95_simultaneous": [
+              -1.8921094877396243,
+              0.18710401139024543
+            ],
+            "cluster_sd": 1.6700791976242026,
+            "MDE_pilot_R1_80": 1.1697172072190005,
+            "clusters": 16,
+            "p_holm": 0.0451954804519548
+          }
+        ],
+        "Acc_argmax": [
+          {
+            "estimate": 5.208333333333332,
+            "ci95_raw": [
+              -1.5625000000000018,
+              11.458333333333332
+            ],
+            "p_raw": 0.148985101489851,
+            "ci95_simultaneous": [
+              -4.166666666666667,
+              13.541666666666663
+            ],
+            "cluster_sd": 14.231876063832773,
+            "MDE_pilot_R1_80": 9.967952625573236,
+            "clusters": 16,
+            "p_holm": 0.446955304469553
+          },
+          {
+            "estimate": 2.6041666666666687,
+            "ci95_raw": [
+              -6.249999999999997,
+              10.937500000000007
+            ],
+            "p_raw": 0.5229477052294771,
+            "ci95_simultaneous": [
+              -9.374999999999998,
+              14.062500000000004
+            ],
+            "cluster_sd": 18.438775065766325,
+            "MDE_pilot_R1_80": 12.914448910656239,
+            "clusters": 16,
+            "p_holm": 0.8271172882711729
+          },
+          {
+            "estimate": -2.604166666666664,
+            "ci95_raw": [
+              -8.33333333333333,
+              3.1250000000000027
+            ],
+            "p_raw": 0.41355864413558646,
+            "ci95_simultaneous": [
+              -9.895833333333332,
+              4.863281249999815
+            ],
+            "cluster_sd": 11.674104771768251,
+            "MDE_pilot_R1_80": 8.17649920425359,
+            "clusters": 16,
+            "p_holm": 0.8271172882711729
+          }
+        ]
+      }
+    }
+  },
+  "pilot_gate_pass": true,
+  "replicate_variance": {
+    "p2a/sf:qwen3-8b/E0_direct": {
+      "sigma2_rep": 16.724666250000002,
+      "sigma2_cluster": 332.64643518092106,
+      "rho_rep": 0.9698223648556566,
+      "complete_repeat_pairs": 40,
+      "effective_replications": 1.015319977924281,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2a/sf:qwen3-8b/E1_generic_cot": {
+      "sigma2_rep": 20.672393749999998,
+      "sigma2_cluster": 361.2649753125,
+      "rho_rep": 0.963709511320886,
+      "complete_repeat_pairs": 40,
+      "effective_replications": 1.0184805789603286,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2a/sf:qwen3-8b/E2_unweighted_mcv": {
+      "sigma2_rep": 11.4505,
+      "sigma2_cluster": 444.7002302631579,
+      "rho_rep": 0.9764094487966382,
+      "complete_repeat_pairs": 40,
+      "effective_replications": 1.011936064775305,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2a/sf:qwen3-8b/E3_weighted_mcv": {
+      "sigma2_rep": 12.2875,
+      "sigma2_cluster": 405.6662828947368,
+      "rho_rep": 0.974408670414392,
+      "complete_repeat_pairs": 40,
+      "effective_replications": 1.0129615160068342,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2a/aistudio:gemma-4-26b-a4b-it/E0_direct": {
+      "sigma2_rep": 178.7500003371612,
+      "sigma2_cluster": 766.4741997972984,
+      "rho_rep": 0.8653383625829644,
+      "complete_repeat_pairs": 40,
+      "effective_replications": 1.072191533781875,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2a/aistudio:gemma-4-26b-a4b-it/E1_generic_cot": {
+      "sigma2_rep": 0.0,
+      "sigma2_cluster": 361.0017408025228,
+      "rho_rep": 1.0,
+      "complete_repeat_pairs": 40,
+      "effective_replications": 1.0,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2a/aistudio:gemma-4-26b-a4b-it/E2_unweighted_mcv": {
+      "sigma2_rep": 5.112875000000001,
+      "sigma2_cluster": 355.8154523026316,
+      "rho_rep": 0.9918645739168892,
+      "complete_repeat_pairs": 40,
+      "effective_replications": 1.0040843269113988,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2a/aistudio:gemma-4-26b-a4b-it/E3_weighted_mcv": {
+      "sigma2_rep": 2.3044575000000007,
+      "sigma2_cluster": 382.5903663815789,
+      "rho_rep": 0.9964340049321218,
+      "complete_repeat_pairs": 40,
+      "effective_replications": 1.001786182292562,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2a/nv:nemotron-3.5-super-vl-120b/E0_direct": {
+      "sigma2_rep": 11.079551445706397,
+      "sigma2_cluster": 374.67209847948203,
+      "rho_rep": 0.9803463760928279,
+      "complete_repeat_pairs": 40,
+      "effective_replications": 1.0099243365425539,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2a/nv:nemotron-3.5-super-vl-120b/E1_generic_cot": {
+      "sigma2_rep": 0.002195312499999983,
+      "sigma2_cluster": 361.2397750452303,
+      "rho_rep": 0.9999964255485664,
+      "complete_repeat_pairs": 40,
+      "effective_replications": 1.0000017872289109,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2a/nv:nemotron-3.5-super-vl-120b/E2_unweighted_mcv": {
+      "sigma2_rep": 7.075011250000003,
+      "sigma2_cluster": 392.3506064967105,
+      "rho_rep": 0.9880619052712482,
+      "complete_repeat_pairs": 40,
+      "effective_replications": 1.006004890842231,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2a/nv:nemotron-3.5-super-vl-120b/E3_weighted_mcv": {
+      "sigma2_rep": 16.643925000000003,
+      "sigma2_cluster": 384.08901684210525,
+      "rho_rep": 0.9712276489728411,
+      "complete_repeat_pairs": 40,
+      "effective_replications": 1.014596158410294,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2a/xf:spark-x2.6/E0_direct": {
+      "sigma2_rep": 18.2047825,
+      "sigma2_cluster": 343.5448069736842,
+      "rho_rep": 0.973827443506085,
+      "complete_repeat_pairs": 40,
+      "effective_replications": 1.0132597996750035,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2a/xf:spark-x2.6/E1_generic_cot": {
+      "sigma2_rep": 2.4999999999998935e-06,
+      "sigma2_cluster": 360.9901717105263,
+      "rho_rep": 0.9999999963926631,
+      "complete_repeat_pairs": 40,
+      "effective_replications": 1.0000000018036685,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2a/xf:spark-x2.6/E2_unweighted_mcv": {
+      "sigma2_rep": 42.383470700000004,
+      "sigma2_cluster": 345.8013441421053,
+      "rho_rep": 0.9311572012649587,
+      "complete_repeat_pairs": 40,
+      "effective_replications": 1.035648469575624,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2a/xf:spark-x2.6/E3_weighted_mcv": {
+      "sigma2_rep": 190.62002420000002,
+      "sigma2_cluster": 329.4364700105263,
+      "rho_rep": 0.7068436317060602,
+      "complete_repeat_pairs": 40,
+      "effective_replications": 1.1717535003490143,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2b/sf:qwen3-8b/C1_joint_constrained": {
+      "sigma2_rep": 59.78782994107752,
+      "sigma2_cluster": 14.011676246128237,
+      "rho_rep": 0.7848933953119828,
+      "complete_repeat_pairs": 32,
+      "effective_replications": 1.1205150992507418,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2b/sf:qwen3-8b/C2_joint_unconstrained": {
+      "sigma2_rep": 33.38150338269681,
+      "sigma2_cluster": 5.834279540627116,
+      "rho_rep": 0.9043776631532421,
+      "complete_repeat_pairs": 32,
+      "effective_replications": 1.0502118559238023,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2b/sf:qwen3-8b/C3_separate_unconstrained": {
+      "sigma2_rep": 100.30208083951409,
+      "sigma2_cluster": 13.5298969020299,
+      "rho_rep": 0.6176230893447896,
+      "complete_repeat_pairs": 32,
+      "effective_replications": 1.2363819564482665,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2b/aistudio:gemma-4-26b-a4b-it/C1_joint_constrained": {
+      "sigma2_rep": 3.4689505208333347,
+      "sigma2_cluster": 2.2858796296259651e-07,
+      "rho_rep": 0.990492028212777,
+      "complete_repeat_pairs": 32,
+      "effective_replications": 1.0047766942306018,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2b/aistudio:gemma-4-26b-a4b-it/C2_joint_unconstrained": {
+      "sigma2_rep": 4.632140625000003,
+      "sigma2_cluster": 6.481481481493377e-07,
+      "rho_rep": 0.9882283131556272,
+      "complete_repeat_pairs": 32,
+      "effective_replications": 1.0059206916864036,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2b/aistudio:gemma-4-26b-a4b-it/C3_separate_unconstrained": {
+      "sigma2_rep": 1.6006881510416662,
+      "sigma2_cluster": 2.2937207631655077,
+      "rho_rep": 0.9955191994739961,
+      "complete_repeat_pairs": 32,
+      "effective_replications": 1.0022454309270414,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2b/nv:nemotron-3.5-super-vl-120b/C1_joint_constrained": {
+      "sigma2_rep": 73.36045910114584,
+      "sigma2_cluster": 9.259259259258205e-06,
+      "rho_rep": 0.7983838048868095,
+      "complete_repeat_pairs": 32,
+      "effective_replications": 1.1121096589978914,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2b/nv:nemotron-3.5-super-vl-120b/C2_joint_unconstrained": {
+      "sigma2_rep": 55.21849340624999,
+      "sigma2_cluster": 1.5607347980324102,
+      "rho_rep": 0.8387312422186359,
+      "complete_repeat_pairs": 32,
+      "effective_replications": 1.087706541379465,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2b/nv:nemotron-3.5-super-vl-120b/C3_separate_unconstrained": {
+      "sigma2_rep": 24.614263151041666,
+      "sigma2_cluster": 6.0754248661747665,
+      "rho_rep": 0.9304222642877421,
+      "complete_repeat_pairs": 32,
+      "effective_replications": 1.036042754478865,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2b/xf:spark-x2.6/C1_joint_constrained": {
+      "sigma2_rep": 58.15505471875,
+      "sigma2_cluster": 0.868953723958334,
+      "rho_rep": 0.8444814929337645,
+      "complete_repeat_pairs": 32,
+      "effective_replications": 1.0843155692599948,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2b/xf:spark-x2.6/C2_joint_unconstrained": {
+      "sigma2_rep": 20.145064841612456,
+      "sigma2_cluster": 0.08722399496662654,
+      "rho_rep": 0.9532042597384073,
+      "complete_repeat_pairs": 32,
+      "effective_replications": 1.0239584467565417,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    },
+    "p2b/xf:spark-x2.6/C3_separate_unconstrained": {
+      "sigma2_rep": 82.57120856174022,
+      "sigma2_cluster": 12.059244582431722,
+      "rho_rep": 0.7916186995957422,
+      "complete_repeat_pairs": 32,
+      "effective_replications": 1.1163089559465285,
+      "note": "Pilot R=1: no replicate variance or division by 2; R=2 estimates restricted to complete pairs"
+    }
+  },
+  "stage2_supplement": {
+    "P2A_per_model": {
+      "sf:qwen3-8b": {
+        "bayes_MAE": [
+          {
+            "estimate": 3.9439984709480123,
+            "ci95_raw": [
+              2.5897735091743126,
+              5.292255351681956
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              2.2596875,
+              5.627435970948026
+            ],
+            "cluster_sd": 2.4911759588749307,
+            "MDE_pilot_R1_80": 2.0147333924172677,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 17.07049892098982,
+            "ci95_raw": [
+              14.169300041633548,
+              20.173214504173515
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              13.541173396199353,
+              20.85240848460884
+            ],
+            "cluster_sd": 5.546658885051177,
+            "MDE_pilot_R1_80": 4.485848874805065,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 11.702798350965821,
+            "ci95_raw": [
+              8.966195363444001,
+              14.26996361149825
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              8.22350563200531,
+              14.888348936318827
+            ],
+            "cluster_sd": 5.009314686973074,
+            "MDE_pilot_R1_80": 4.051272868548742,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          }
+        ],
+        "frame_MAE": [
+          {
+            "estimate": 7.393750000000001,
+            "ci95_raw": [
+              0.9250000000000007,
+              16.14375
+            ],
+            "p_raw": 0.008799120087991202,
+            "ci95_simultaneous": [
+              0.2103125000000005,
+              18.425
+            ],
+            "cluster_sd": 12.276471034928099,
+            "MDE_pilot_R1_80": 12.159965799887935,
+            "clusters": 8,
+            "p_holm": 0.022797720227977204
+          },
+          {
+            "estimate": 7.65625,
+            "ci95_raw": [
+              1.3945312500000107,
+              16.40625
+            ],
+            "p_raw": 0.007599240075992401,
+            "ci95_simultaneous": [
+              0.46875,
+              18.75
+            ],
+            "cluster_sd": 12.255419719454736,
+            "MDE_pilot_R1_80": 12.139114264013298,
+            "clusters": 8,
+            "p_holm": 0.022797720227977204
+          },
+          {
+            "estimate": 7.65625,
+            "ci95_raw": [
+              1.3945312500000107,
+              16.40625
+            ],
+            "p_raw": 0.007599240075992401,
+            "ci95_simultaneous": [
+              0.46875,
+              18.75
+            ],
+            "cluster_sd": 12.255419719454736,
+            "MDE_pilot_R1_80": 12.139114264013298,
+            "clusters": 8,
+            "p_holm": 0.022797720227977204
+          }
+        ],
+        "frame_FrameGap": [
+          {
+            "estimate": 14.162500000000001,
+            "ci95_raw": [
+              1.3250000000000028,
+              31.6875
+            ],
+            "p_raw": 0.0221977802219778,
+            "ci95_simultaneous": [
+              -0.21249999999999858,
+              36.79218750000007
+            ],
+            "cluster_sd": 24.827055374559194,
+            "MDE_pilot_R1_80": 24.591443535168324,
+            "clusters": 8,
+            "p_holm": 0.022797720227977204
+          },
+          {
+            "estimate": 14.6875,
+            "ci95_raw": [
+              1.875,
+              32.1875
+            ],
+            "p_raw": 0.007599240075992401,
+            "ci95_simultaneous": [
+              0.3125,
+              37.1875
+            ],
+            "cluster_sd": 24.800543628834316,
+            "MDE_pilot_R1_80": 24.565183389203522,
+            "clusters": 8,
+            "p_holm": 0.022797720227977204
+          },
+          {
+            "estimate": 14.6875,
+            "ci95_raw": [
+              1.875,
+              32.1875
+            ],
+            "p_raw": 0.007599240075992401,
+            "ci95_simultaneous": [
+              0.3125,
+              37.1875
+            ],
+            "cluster_sd": 24.800543628834316,
+            "MDE_pilot_R1_80": 24.565183389203522,
+            "clusters": 8,
+            "p_holm": 0.022797720227977204
+          }
+        ]
+      },
+      "aistudio:gemma-4-26b-a4b-it": {
+        "bayes_MAE": [
+          {
+            "estimate": 0.6769474991062535,
+            "ci95_raw": [
+              -0.13335966278432215,
+              1.5335075449952005
+            ],
+            "p_raw": 0.10418958104189581,
+            "ci95_simultaneous": [
+              -0.30359720688650893,
+              1.7426503395500603
+            ],
+            "cluster_sd": 1.5510751434743704,
+            "MDE_pilot_R1_80": 1.2544288068344787,
+            "clusters": 12,
+            "p_holm": 0.10418958104189581
+          },
+          {
+            "estimate": 3.8942167350033734,
+            "ci95_raw": [
+              2.688899903007641,
+              5.261668132211298
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              2.4641342274881786,
+              5.614016599212965
+            ],
+            "cluster_sd": 2.4064195641944464,
+            "MDE_pilot_R1_80": 1.946186833923347,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 3.8964181294927798,
+            "ci95_raw": [
+              2.690866374364112,
+              5.26393348086364
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              2.4666725179754097,
+              5.616885204879009
+            ],
+            "cluster_sd": 2.4064228786723176,
+            "MDE_pilot_R1_80": 1.9461895145004542,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          }
+        ],
+        "frame_MAE": [
+          {
+            "estimate": 6.661338147750939e-16,
+            "ci95_raw": [
+              -0.15625000000000022,
+              0.1250000000000011
+            ],
+            "p_raw": 0.8879112088791121,
+            "ci95_simultaneous": [
+              -0.18750000000000022,
+              0.15625000000000022
+            ],
+            "cluster_sd": 0.23145502494313758,
+            "MDE_pilot_R1_80": 0.22925848800630072,
+            "clusters": 8,
+            "p_holm": 0.8879112088791121
+          },
+          {
+            "estimate": 0.06250000000000067,
+            "ci95_raw": [
+              8.881784197001252e-16,
+              0.15624999999999933
+            ],
+            "p_raw": 0.0461953804619538,
+            "ci95_simultaneous": [
+              0.0,
+              0.15625000000000044
+            ],
+            "cluster_sd": 0.11572751247156797,
+            "MDE_pilot_R1_80": 0.11462924400314956,
+            "clusters": 8,
+            "p_holm": 0.0923907609239076
+          },
+          {
+            "estimate": -31.5,
+            "ci95_raw": [
+              -44.12578125,
+              -19.96875
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              -47.0,
+              -18.0625
+            ],
+            "cluster_sd": 19.08954463274895,
+            "MDE_pilot_R1_80": 18.908382482981278,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          }
+        ],
+        "frame_FrameGap": [
+          {
+            "estimate": 1.7763568394002505e-15,
+            "ci95_raw": [
+              -0.3125,
+              0.25000000000000355
+            ],
+            "p_raw": 0.8873112688731127,
+            "ci95_simultaneous": [
+              -0.375,
+              0.3125000000000018
+            ],
+            "cluster_sd": 0.4629100498862757,
+            "MDE_pilot_R1_80": 0.458516976012602,
+            "clusters": 8,
+            "p_holm": 0.8873112688731127
+          },
+          {
+            "estimate": 0.12500000000000178,
+            "ci95_raw": [
+              1.7763568394002505e-15,
+              0.3125
+            ],
+            "p_raw": 0.0461953804619538,
+            "ci95_simultaneous": [
+              0.0,
+              0.3125000000000018
+            ],
+            "cluster_sd": 0.23145502494313677,
+            "MDE_pilot_R1_80": 0.22925848800629994,
+            "clusters": 8,
+            "p_holm": 0.0923907609239076
+          },
+          {
+            "estimate": -36.75,
+            "ci95_raw": [
+              -48.8125,
+              -24.374999999999993
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              -51.5625,
+              -21.562499999999993
+            ],
+            "cluster_sd": 19.090012347522762,
+            "MDE_pilot_R1_80": 18.908845759083793,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          }
+        ]
+      },
+      "nv:nemotron-3.5-super-vl-120b": {
+        "bayes_MAE": [
+          {
+            "estimate": 1.0967180758802269,
+            "ci95_raw": [
+              -0.533031062831984,
+              2.545730630443702
+            ],
+            "p_raw": 0.1775822417758224,
+            "ci95_simultaneous": [
+              -0.9198328441238798,
+              2.8318511959937487
+            ],
+            "cluster_sd": 2.7909384942359936,
+            "MDE_pilot_R1_80": 2.257165721468945,
+            "clusters": 12,
+            "p_holm": 0.3551644835516448
+          },
+          {
+            "estimate": 5.367499328933138,
+            "ci95_raw": [
+              3.9766187144774836,
+              6.7659383459734315
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              3.725540621345693,
+              7.094695756183632
+            ],
+            "cluster_sd": 2.599882423986474,
+            "MDE_pilot_R1_80": 2.1026495207227045,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 0.8105585448556035,
+            "ci95_raw": [
+              -0.524270450392847,
+              2.336858017269236
+            ],
+            "p_raw": 0.27277272272772723,
+            "ci95_simultaneous": [
+              -0.7595131228743612,
+              2.6998730914798386
+            ],
+            "cluster_sd": 2.6413741196625007,
+            "MDE_pilot_R1_80": 2.1362058435864895,
+            "clusters": 12,
+            "p_holm": 0.3551644835516448
+          }
+        ],
+        "frame_MAE": [
+          {
+            "estimate": 0.0,
+            "ci95_raw": [
+              0.0,
+              0.0
+            ],
+            "p_raw": 1.0,
+            "ci95_simultaneous": [
+              0.0,
+              0.0
+            ],
+            "cluster_sd": 0.0,
+            "MDE_pilot_R1_80": 0.0,
+            "clusters": 8,
+            "p_holm": 1.0
+          },
+          {
+            "estimate": 0.0,
+            "ci95_raw": [
+              0.0,
+              0.0
+            ],
+            "p_raw": 1.0,
+            "ci95_simultaneous": [
+              0.0,
+              0.0
+            ],
+            "cluster_sd": 0.0,
+            "MDE_pilot_R1_80": 0.0,
+            "clusters": 8,
+            "p_holm": 1.0
+          },
+          {
+            "estimate": 0.0,
+            "ci95_raw": [
+              0.0,
+              0.0
+            ],
+            "p_raw": 1.0,
+            "ci95_simultaneous": [
+              0.0,
+              0.0
+            ],
+            "cluster_sd": 0.0,
+            "MDE_pilot_R1_80": 0.0,
+            "clusters": 8,
+            "p_holm": 1.0
+          }
+        ],
+        "frame_FrameGap": [
+          {
+            "estimate": 0.0,
+            "ci95_raw": [
+              0.0,
+              0.0
+            ],
+            "p_raw": 1.0,
+            "ci95_simultaneous": [
+              0.0,
+              0.0
+            ],
+            "cluster_sd": 0.0,
+            "MDE_pilot_R1_80": 0.0,
+            "clusters": 8,
+            "p_holm": 1.0
+          },
+          {
+            "estimate": 0.0,
+            "ci95_raw": [
+              0.0,
+              0.0
+            ],
+            "p_raw": 1.0,
+            "ci95_simultaneous": [
+              0.0,
+              0.0
+            ],
+            "cluster_sd": 0.0,
+            "MDE_pilot_R1_80": 0.0,
+            "clusters": 8,
+            "p_holm": 1.0
+          },
+          {
+            "estimate": 0.0,
+            "ci95_raw": [
+              0.0,
+              0.0
+            ],
+            "p_raw": 1.0,
+            "ci95_simultaneous": [
+              0.0,
+              0.0
+            ],
+            "cluster_sd": 0.0,
+            "MDE_pilot_R1_80": 0.0,
+            "clusters": 8,
+            "p_holm": 1.0
+          }
+        ]
+      },
+      "xf:spark-x2.6": {
+        "bayes_MAE": [
+          {
+            "estimate": 5.297707582203414,
+            "ci95_raw": [
+              1.528499590887605,
+              9.320427292419852
+            ],
+            "p_raw": 0.004999500049995001,
+            "ci95_simultaneous": [
+              0.7532521940659926,
+              10.18604734000443
+            ],
+            "cluster_sd": 7.180542215158097,
+            "MDE_pilot_R1_80": 5.8072486309134215,
+            "clusters": 12,
+            "p_holm": 0.009999000099990002
+          },
+          {
+            "estimate": 12.63608885191381,
+            "ci95_raw": [
+              8.934601272217531,
+              16.49890502251707
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              8.271606718609693,
+              17.388825106192453
+            ],
+            "cluster_sd": 6.94993773176988,
+            "MDE_pilot_R1_80": 5.620747733026947,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 5.41507464758061,
+            "ci95_raw": [
+              0.14890232164907555,
+              10.615104641973193
+            ],
+            "p_raw": 0.042995700429957005,
+            "ci95_simultaneous": [
+              -1.0599748699271203,
+              11.804200628090605
+            ],
+            "cluster_sd": 9.655216430277985,
+            "MDE_pilot_R1_80": 7.808636272277676,
+            "clusters": 12,
+            "p_holm": 0.042995700429957005
+          }
+        ],
+        "frame_MAE": [
+          {
+            "estimate": 0.8031250000000001,
+            "ci95_raw": [
+              0.1875,
+              1.5140625
+            ],
+            "p_raw": 0.0007999200079992001,
+            "ci95_simultaneous": [
+              0.125,
+              1.678125
+            ],
+            "cluster_sd": 1.0316584688881156,
+            "MDE_pilot_R1_80": 1.0218679018711756,
+            "clusters": 8,
+            "p_holm": 0.0023997600239976003
+          },
+          {
+            "estimate": 0.8031250000000001,
+            "ci95_raw": [
+              0.1875,
+              1.5140625
+            ],
+            "p_raw": 0.0007999200079992001,
+            "ci95_simultaneous": [
+              0.125,
+              1.678125
+            ],
+            "cluster_sd": 1.0316584688881156,
+            "MDE_pilot_R1_80": 1.0218679018711756,
+            "clusters": 8,
+            "p_holm": 0.0023997600239976003
+          },
+          {
+            "estimate": 0.8031250000000001,
+            "ci95_raw": [
+              0.1875,
+              1.5140625
+            ],
+            "p_raw": 0.0007999200079992001,
+            "ci95_simultaneous": [
+              0.125,
+              1.678125
+            ],
+            "cluster_sd": 1.0316584688881156,
+            "MDE_pilot_R1_80": 1.0218679018711756,
+            "clusters": 8,
+            "p_holm": 0.0023997600239976003
+          }
+        ],
+        "frame_FrameGap": [
+          {
+            "estimate": 1.3562500000000002,
+            "ci95_raw": [
+              0.3718750000000002,
+              2.621875
+            ],
+            "p_raw": 0.0007999200079992001,
+            "ci95_simultaneous": [
+              0.25,
+              2.9312500000000004
+            ],
+            "cluster_sd": 1.7818905489876276,
+            "MDE_pilot_R1_80": 1.7649801863406582,
+            "clusters": 8,
+            "p_holm": 0.0023997600239976003
+          },
+          {
+            "estimate": 1.3562500000000002,
+            "ci95_raw": [
+              0.3718750000000002,
+              2.621875
+            ],
+            "p_raw": 0.0007999200079992001,
+            "ci95_simultaneous": [
+              0.25,
+              2.9312500000000004
+            ],
+            "cluster_sd": 1.7818905489876276,
+            "MDE_pilot_R1_80": 1.7649801863406582,
+            "clusters": 8,
+            "p_holm": 0.0023997600239976003
+          },
+          {
+            "estimate": 1.3562500000000002,
+            "ci95_raw": [
+              0.3718750000000002,
+              2.621875
+            ],
+            "p_raw": 0.0007999200079992001,
+            "ci95_simultaneous": [
+              0.25,
+              2.9312500000000004
+            ],
+            "cluster_sd": 1.7818905489876276,
+            "MDE_pilot_R1_80": 1.7649801863406582,
+            "clusters": 8,
+            "p_holm": 0.0023997600239976003
+          }
+        ]
+      }
+    },
+    "P2A_leave_one_model_out": {
+      "aistudio:gemma-4-26b-a4b-it,nv:nemotron-3.5-super-vl-120b,xf:spark-x2.6": {
+        "bayes_MAE": [
+          {
+            "estimate": 2.3571243857299646,
+            "ci95_raw": [
+              1.1879383855692105,
+              3.652278298923117
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              0.9511907590582475,
+              3.948336535117603
+            ],
+            "cluster_sd": 2.2659978268625234,
+            "MDE_pilot_R1_80": 1.8326210449569018,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 7.299268305283441,
+            "ci95_raw": [
+              5.988917565508411,
+              8.762207336900957
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              5.717460727136324,
+              9.099258978983883
+            ],
+            "cluster_sd": 2.5608072907881634,
+            "MDE_pilot_R1_80": 2.0710475877531267,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 3.374017107309664,
+            "ci95_raw": [
+              1.7496717878588883,
+              5.059419494829859
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              1.389098452450078,
+              5.418918783602737
+            ],
+            "cluster_sd": 3.0550279571668395,
+            "MDE_pilot_R1_80": 2.4707475271446113,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          }
+        ],
+        "frame_MAE": [
+          {
+            "estimate": 0.26770833333333355,
+            "ci95_raw": [
+              0.07239583333333359,
+              0.5072916666666666
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              0.04166666666666755,
+              0.5619791666666667
+            ],
+            "cluster_sd": 0.34084359339546044,
+            "MDE_pilot_R1_80": 0.3376089453563381,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 0.28854166666666686,
+            "ci95_raw": [
+              0.07239583333333388,
+              0.5359375
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              0.04166666666666755,
+              0.5984375000000002
+            ],
+            "cluster_sd": 0.3656286036316779,
+            "MDE_pilot_R1_80": 0.3621587427667502,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": -10.232291666666667,
+            "ci95_raw": [
+              -14.365742187499997,
+              -6.481588541666668
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              -15.305208333333331,
+              -5.8768619791666605
+            ],
+            "cluster_sd": 6.241422983831109,
+            "MDE_pilot_R1_80": 6.182191104437799,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          }
+        ],
+        "frame_FrameGap": [
+          {
+            "estimate": 0.452083333333334,
+            "ci95_raw": [
+              0.11979166666666785,
+              0.9156250000000007
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              0.08333333333333393,
+              1.0375781250000105
+            ],
+            "cluster_sd": 0.6387107239501215,
+            "MDE_pilot_R1_80": 0.6326492798425464,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 0.4937500000000007,
+            "ci95_raw": [
+              0.1302083333333351,
+              0.9583333333333339
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              0.0833333333333351,
+              1.0782031250000108
+            ],
+            "cluster_sd": 0.649950394932579,
+            "MDE_pilot_R1_80": 0.6437822849512475,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": -11.797916666666666,
+            "ci95_raw": [
+              -15.597005208333332,
+              -7.85393229166667
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              -16.476041666666667,
+              -6.95130208333332
+            ],
+            "cluster_sd": 6.086415967167938,
+            "MDE_pilot_R1_80": 6.028655123616919,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          }
+        ]
+      },
+      "sf:qwen3-8b,nv:nemotron-3.5-super-vl-120b,xf:spark-x2.6": {
+        "bayes_MAE": [
+          {
+            "estimate": 3.4461413763438835,
+            "ci95_raw": [
+              2.1173258662018744,
+              4.82264611671084
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              1.828123372016014,
+              5.135674401452375
+            ],
+            "cluster_sd": 2.4902516060502093,
+            "MDE_pilot_R1_80": 2.0139858239865003,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 11.691362367278922,
+            "ci95_raw": [
+              9.88451753502816,
+              13.637258550022212
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              9.544726840512762,
+              14.136473202732512
+            ],
+            "cluster_sd": 3.4647816921883803,
+            "MDE_pilot_R1_80": 2.8021350109048626,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 5.976143847800678,
+            "ci95_raw": [
+              4.062691834946861,
+              7.988764675978699
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              3.6494148241621276,
+              8.419990355220076
+            ],
+            "cluster_sd": 3.634911527381639,
+            "MDE_pilot_R1_80": 2.939727162430404,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          }
+        ],
+        "frame_MAE": [
+          {
+            "estimate": 2.732291666666667,
+            "ci95_raw": [
+              0.6457942708333341,
+              5.551067708333334
+            ],
+            "p_raw": 0.00039996000399960006,
+            "ci95_simultaneous": [
+              0.3994791666666669,
+              6.3824739583333345
+            ],
+            "cluster_sd": 4.010720226606577,
+            "MDE_pilot_R1_80": 3.972657993465498,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 2.8197916666666667,
+            "ci95_raw": [
+              0.7312500000000001,
+              5.629166666666666
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              0.4973958333333333,
+              6.467565104166671
+            ],
+            "cluster_sd": 3.9970169618421645,
+            "MDE_pilot_R1_80": 3.9590847743858473,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 2.8197916666666667,
+            "ci95_raw": [
+              0.7312500000000001,
+              5.629166666666666
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              0.4973958333333333,
+              6.467565104166671
+            ],
+            "cluster_sd": 3.9970169618421645,
+            "MDE_pilot_R1_80": 3.9590847743858473,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          }
+        ],
+        "frame_FrameGap": [
+          {
+            "estimate": 5.1729166666666675,
+            "ci95_raw": [
+              0.8978385416666671,
+              10.950104166666666
+            ],
+            "p_raw": 0.0011998800119988001,
+            "ci95_simultaneous": [
+              0.48226562500000036,
+              12.678125000000001
+            ],
+            "cluster_sd": 8.178105145438108,
+            "MDE_pilot_R1_80": 8.10049391176667,
+            "clusters": 8,
+            "p_holm": 0.0011998800119988001
+          },
+          {
+            "estimate": 5.347916666666667,
+            "ci95_raw": [
+              1.0925781250000002,
+              11.05231770833333
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              0.640625,
+              12.808697916666716
+            ],
+            "cluster_sd": 8.158378629671423,
+            "MDE_pilot_R1_80": 8.080954603084935,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 5.347916666666667,
+            "ci95_raw": [
+              1.0925781250000002,
+              11.05231770833333
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              0.640625,
+              12.808697916666716
+            ],
+            "cluster_sd": 8.158378629671423,
+            "MDE_pilot_R1_80": 8.080954603084935,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          }
+        ]
+      },
+      "sf:qwen3-8b,aistudio:gemma-4-26b-a4b-it,xf:spark-x2.6": {
+        "bayes_MAE": [
+          {
+            "estimate": 3.3062178507525597,
+            "ci95_raw": [
+              1.8082323425317168,
+              4.78530018113965
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              1.5174193858104297,
+              5.083699229242048
+            ],
+            "cluster_sd": 2.7072576320494353,
+            "MDE_pilot_R1_80": 2.1894889976498586,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 11.200268169302333,
+            "ci95_raw": [
+              9.23597085682574,
+              13.41887698671739
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              8.940700239491374,
+              13.936486641529132
+            ],
+            "cluster_sd": 3.8398697750454347,
+            "MDE_pilot_R1_80": 3.105486720340584,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 7.004763709346405,
+            "ci95_raw": [
+              4.693031027320576,
+              9.425803595569645
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              4.3357877208596305,
+              10.000559506544336
+            ],
+            "cluster_sd": 4.340193020814584,
+            "MDE_pilot_R1_80": 3.5101221081631846,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          }
+        ],
+        "frame_MAE": [
+          {
+            "estimate": 2.7322916666666672,
+            "ci95_raw": [
+              0.6364583333333336,
+              5.559375000000001
+            ],
+            "p_raw": 0.00039996000399960006,
+            "ci95_simultaneous": [
+              0.38854166666666684,
+              6.380416666666672
+            ],
+            "cluster_sd": 4.017874713365462,
+            "MDE_pilot_R1_80": 3.979744583256348,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 2.8406250000000006,
+            "ci95_raw": [
+              0.7520833333333333,
+              5.643151041666661
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              0.5182291666666666,
+              6.484414062500005
+            ],
+            "cluster_sd": 3.991186191134359,
+            "MDE_pilot_R1_80": 3.9533093384163265,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": -7.680208333333333,
+            "ci95_raw": [
+              -10.992187499999998,
+              -5.016145833333334
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              -11.8930859375,
+              -4.6671875
+            ],
+            "cluster_sd": 4.72998642465081,
+            "MDE_pilot_R1_80": 4.6850982659468245,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          }
+        ],
+        "frame_FrameGap": [
+          {
+            "estimate": 5.172916666666668,
+            "ci95_raw": [
+              0.8989583333333343,
+              10.933333333333335
+            ],
+            "p_raw": 0.0017998200179982,
+            "ci95_simultaneous": [
+              0.4239583333333338,
+              12.677500000000013
+            ],
+            "cluster_sd": 8.196014747308308,
+            "MDE_pilot_R1_80": 8.118233549290485,
+            "clusters": 8,
+            "p_holm": 0.0035996400359964
+          },
+          {
+            "estimate": 5.389583333333334,
+            "ci95_raw": [
+              1.129791666666667,
+              11.096015624999998
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              0.6631510416666667,
+              12.822239583333339
+            ],
+            "cluster_sd": 8.148656951857014,
+            "MDE_pilot_R1_80": 8.07132518520056,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": -6.902083333333332,
+            "ci95_raw": [
+              -12.731484374999996,
+              -0.33309895833333514
+            ],
+            "p_raw": 0.03899610038996101,
+            "ci95_simultaneous": [
+              -13.901796874999999,
+              1.207552083333369
+            ],
+            "cluster_sd": 9.743578216869508,
+            "MDE_pilot_R1_80": 9.65111044929535,
+            "clusters": 8,
+            "p_holm": 0.03899610038996101
+          }
+        ]
+      },
+      "sf:qwen3-8b,aistudio:gemma-4-26b-a4b-it,nv:nemotron-3.5-super-vl-120b": {
+        "bayes_MAE": [
+          {
+            "estimate": 1.9058880153114977,
+            "ci95_raw": [
+              1.2909880786018721,
+              2.573768281904161
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              1.1791795647493097,
+              2.723033251562032
+            ],
+            "cluster_sd": 1.1875889366789358,
+            "MDE_pilot_R1_80": 0.9604600906123676,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 8.777404994975445,
+            "ci95_raw": [
+              7.280630654381174,
+              10.380922594948489
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              6.973161708396049,
+              10.727133515396519
+            ],
+            "cluster_sd": 2.8508532429840354,
+            "MDE_pilot_R1_80": 2.305621650312882,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          },
+          {
+            "estimate": 5.469925008438068,
+            "ci95_raw": [
+              4.311338483461104,
+              6.592606584360218
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              4.042326894930183,
+              6.832643612645782
+            ],
+            "cluster_sd": 2.1293765429632465,
+            "MDE_pilot_R1_80": 1.722128864825594,
+            "clusters": 12,
+            "p_holm": 0.0005999400059994001
+          }
+        ],
+        "frame_MAE": [
+          {
+            "estimate": 2.464583333333334,
+            "ci95_raw": [
+              0.30833333333333346,
+              5.375
+            ],
+            "p_raw": 0.009799020097990201,
+            "ci95_simultaneous": [
+              0.06458333333333383,
+              6.145833333333335
+            ],
+            "cluster_sd": 4.10014941171815,
+            "MDE_pilot_R1_80": 4.061238484501939,
+            "clusters": 8,
+            "p_holm": 0.009799020097990201
+          },
+          {
+            "estimate": 2.572916666666667,
+            "ci95_raw": [
+              0.46640625000000213,
+              5.469010416666663
+            ],
+            "p_raw": 0.000999900009999,
+            "ci95_simultaneous": [
+              0.17708333333333331,
+              6.257031250000011
+            ],
+            "cluster_sd": 4.077726349638937,
+            "MDE_pilot_R1_80": 4.039028220067133,
+            "clusters": 8,
+            "p_holm": 0.001999800019998
+          },
+          {
+            "estimate": -7.947916666666667,
+            "ci95_raw": [
+              -11.437499999999998,
+              -5.145833333333332
+            ],
+            "p_raw": 0.00019998000199980003,
+            "ci95_simultaneous": [
+              -12.375,
+              -4.781249999999999
+            ],
+            "cluster_sd": 4.973728101752118,
+            "MDE_pilot_R1_80": 4.926526804256132,
+            "clusters": 8,
+            "p_holm": 0.0005999400059994001
+          }
+        ],
+        "frame_FrameGap": [
+          {
+            "estimate": 4.720833333333335,
+            "ci95_raw": [
+              0.40812500000000057,
+              10.575
+            ],
+            "p_raw": 0.024997500249975,
+            "ci95_simultaneous": [
+              -0.0791666666666657,
+              12.279270833333348
+            ],
+            "cluster_sd": 8.291493776613418,
+            "MDE_pilot_R1_80": 8.212806470747587,
+            "clusters": 8,
+            "p_holm": 0.04999500049995
+          },
+          {
+            "estimate": 4.9375,
+            "ci95_raw": [
+              0.6666666666666667,
+              10.75
+            ],
+            "p_raw": 0.000999900009999,
+            "ci95_simultaneous": [
+              0.14583333333333334,
+              12.430729166666689
+            ],
+            "cluster_sd": 8.253396366787529,
+            "MDE_pilot_R1_80": 8.175070610073206,
+            "clusters": 8,
+            "p_holm": 0.0029997000299970002
+          },
+          {
+            "estimate": -7.354166666666666,
+            "ci95_raw": [
+              -13.375,
+              -0.6249999999999986
+            ],
+            "p_raw": 0.032996700329967,
+            "ci95_simultaneous": [
+              -14.708854166666669,
+              0.8682291666666908
+            ],
+            "cluster_sd": 10.02593363423553,
+            "MDE_pilot_R1_80": 9.930786278677864,
+            "clusters": 8,
+            "p_holm": 0.04999500049995
+          }
+        ]
+      }
+    },
+    "posthoc_precision": {
+      "bayes_MAE": [
+        {
+          "cluster_count": 12,
+          "paired_cluster_difference_variance": 3.522502477915145,
+          "mde80_pp": 1.517884995454273,
+          "method": "Observed R=2 paired cluster variance; normal approximation, unadjusted alpha=.05; descriptive precision, not observed-power evidence"
+        },
+        {
+          "cluster_count": 12,
+          "paired_cluster_difference_variance": 8.790387166145983,
+          "mde80_pp": 2.3978235215406896,
+          "method": "Observed R=2 paired cluster variance; normal approximation, unadjusted alpha=.05; descriptive precision, not observed-power evidence"
+        },
+        {
+          "cluster_count": 12,
+          "paired_cluster_difference_variance": 8.8178597404956,
+          "mde80_pp": 2.401567554353972,
+          "method": "Observed R=2 paired cluster variance; normal approximation, unadjusted alpha=.05; descriptive precision, not observed-power evidence"
+        }
+      ],
+      "frame_MAE": [
+        {
+          "cluster_count": 8,
+          "paired_cluster_difference_variance": 9.080615931919642,
+          "mde80_pp": 2.9848086698197993,
+          "method": "Observed R=2 paired cluster variance; normal approximation, unadjusted alpha=.05; descriptive precision, not observed-power evidence"
+        },
+        {
+          "cluster_count": 8,
+          "paired_cluster_difference_variance": 8.960381556919645,
+          "mde80_pp": 2.964982234646228,
+          "method": "Observed R=2 paired cluster variance; normal approximation, unadjusted alpha=.05; descriptive precision, not observed-power evidence"
+        },
+        {
+          "cluster_count": 8,
+          "paired_cluster_difference_variance": 12.584684012276787,
+          "mde80_pp": 3.5138239730233045,
+          "method": "Observed R=2 paired cluster variance; normal approximation, unadjusted alpha=.05; descriptive precision, not observed-power evidence"
+        }
+      ],
+      "frame_FrameGap": [
+        {
+          "cluster_count": 8,
+          "paired_cluster_difference_variance": 37.78574497767857,
+          "mde80_pp": 6.088675635992036,
+          "method": "Observed R=2 paired cluster variance; normal approximation, unadjusted alpha=.05; descriptive precision, not observed-power evidence"
+        },
+        {
+          "cluster_count": 8,
+          "paired_cluster_difference_variance": 37.350343191964285,
+          "mde80_pp": 6.05349436018561,
+          "method": "Observed R=2 paired cluster variance; normal approximation, unadjusted alpha=.05; descriptive precision, not observed-power evidence"
+        },
+        {
+          "cluster_count": 8,
+          "paired_cluster_difference_variance": 53.40224051339287,
+          "mde80_pp": 7.2383334005004665,
+          "method": "Observed R=2 paired cluster variance; normal approximation, unadjusted alpha=.05; descriptive precision, not observed-power evidence"
+        }
+      ],
+      "scen_MAE_norm": [
+        {
+          "cluster_count": 16,
+          "paired_cluster_difference_variance": 4.698229451302781,
+          "mde80_pp": 1.5181369735561665,
+          "method": "Observed R=2 paired cluster variance; normal approximation, unadjusted alpha=.05; descriptive precision, not observed-power evidence"
+        },
+        {
+          "cluster_count": 16,
+          "paired_cluster_difference_variance": 4.5943298347162465,
+          "mde80_pp": 1.5012566055770526,
+          "method": "Observed R=2 paired cluster variance; normal approximation, unadjusted alpha=.05; descriptive precision, not observed-power evidence"
+        },
+        {
+          "cluster_count": 16,
+          "paired_cluster_difference_variance": 3.7421685208317568,
+          "mde80_pp": 1.3548946145751402,
+          "method": "Observed R=2 paired cluster variance; normal approximation, unadjusted alpha=.05; descriptive precision, not observed-power evidence"
+        }
+      ],
+      "scen_Acc_argmax": [
+        {
+          "cluster_count": 16,
+          "paired_cluster_difference_variance": 145.18229166666666,
+          "mde80_pp": 8.439188152781856,
+          "method": "Observed R=2 paired cluster variance; normal approximation, unadjusted alpha=.05; descriptive precision, not observed-power evidence"
+        },
+        {
+          "cluster_count": 16,
+          "paired_cluster_difference_variance": 197.265625,
+          "mde80_pp": 9.837155859120966,
+          "method": "Observed R=2 paired cluster variance; normal approximation, unadjusted alpha=.05; descriptive precision, not observed-power evidence"
+        },
+        {
+          "cluster_count": 16,
+          "paired_cluster_difference_variance": 122.39583333333333,
+          "mde80_pp": 7.748669949654137,
+          "method": "Observed R=2 paired cluster variance; normal approximation, unadjusted alpha=.05; descriptive precision, not observed-power evidence"
+        }
+      ]
+    }
+  }
+}

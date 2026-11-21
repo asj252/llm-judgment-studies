@@ -1,0 +1,38 @@
+{
+  "synthetic_only": true,
+  "expected_points": {
+    "E3": {
+      "E3_H1": 60,
+      "E3_H2": 60,
+      "E3_H4": 1
+    },
+    "E2": {
+      "E2_H1": 20,
+      "E2_H2": 20,
+      "E2_H3": 30,
+      "E2_H4": 1
+    },
+    "E4": {
+      "E4_H1": 60,
+      "E4_H2": 40,
+      "E4_H3": 40,
+      "E4_H4": 1
+    }
+  },
+  "records": 1000,
+  "e3_h3_missing_units": 40,
+  "mechanism_fixture": {
+    "n": 20,
+    "n_planned": 20,
+    "n_records": 20,
+    "n_valid_text": 20,
+    "missing_or_empty_text_count": 0,
+    "textbook_single_standard_reflex_count": 20,
+    "textbook_single_standard_reflex_rate": 1.0,
+    "textbook_single_standard_reflex_rate_over_planned": 1.0,
+    "dual_criteria_or_polysemy_detected_count": 20,
+    "dual_criteria_or_polysemy_detected_rate": 1.0,
+    "dual_criteria_or_polysemy_detected_rate_over_planned": 1.0,
+    "n_text_available": 20
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "openai:gpt-4o-mini": {
+    "n_units": 12,
+    "n_first_pass_ok": 12,
+    "first_pass_parse_rate": 1.0,
+    "n_final_ok": 12,
+    "final_parse_rate": 1.0,
+    "n_protocol_ok": 9,
+    "logprobs_expected": true,
+    "expected_top_logprobs": 20,
+    "n_logprobs_aligned": 12,
+    "n_target_positions_checked": 28,
+    "min_target_top_logprobs": 20,
+    "max_target_top_logprobs": 20,
+    "all_pm_exact_cardinality": true,
+    "rate_headers_sample": [
+      {
+        "x-ratelimit-limit-requests": "10000",
+        "x-ratelimit-remaining-requests": "9999",
+        "x-ratelimit-limit-tokens": "10000000",
+        "x-ratelimit-remaining-tokens": "9999837"
+      },
+      {
+        "x-ratelimit-limit-requests": "10000",
+        "x-ratelimit-remaining-requests": "9999",
+        "x-ratelimit-limit-tokens": "10000000",
+        "x-ratelimit-remaining-tokens": "9999708"
+      }
+    ],
+    "http_status_counts": {
+      "200": 12
+    },
+    "gate_pass": true,
+    "results_sha256": "fc8b290778b674f742e2f9881478c61b576a4d63950043eba12f14af116c0dfd",
+    "raw_sha256": "6aa4ddb9b1d95f2cffd3577c9ffb5d3d386a88375ff2dc00ca90eaf414269c4d",
+    "raw_recompute_verified": true
+  },
+  "nv:nemotron-3.5-lightning-30b": {
+    "n_units": 4,
+    "n_first_pass_ok": 4,
+    "first_pass_parse_rate": 1.0,
+    "n_final_ok": 4,
+    "final_parse_rate": 1.0,
+    "n_protocol_ok": 4,
+    "logprobs_expected": true,
+    "expected_top_logprobs": 10,
+    "n_logprobs_aligned": 4,
+    "n_target_positions_checked": 8,
+    "min_target_top_logprobs": 10,
+    "max_target_top_logprobs": 10,
+    "all_pm_exact_cardinality": true,
+    "rate_headers_sample": [],
+    "http_status_counts": {
+      "200": 4
+    },
+    "gate_pass": true,
+    "results_sha256": "74be8ad548388591ba5c9216b5f82586ed897a7f191d27b826a01bf6bb6d236c",
+    "raw_sha256": "f95195ddb56293b2d0fd76b4bfaf5fea3274cea5597574ae6cf6d75403ce2adc",
+    "raw_recompute_verified": true
+  },
+  "groq:gpt-oss-120b": {
+    "n_units": 4,
+    "n_first_pass_ok": 4,
+    "first_pass_parse_rate": 1.0,
+    "n_final_ok": 4,
+    "final_parse_rate": 1.0,
+    "n_protocol_ok": 4,
+    "logprobs_expected": false,
+    "expected_top_logprobs": 0,
+    "n_logprobs_aligned": 0,
+    "n_target_positions_checked": 0,
+    "min_target_top_logprobs": null,
+    "max_target_top_logprobs": null,
+    "all_pm_exact_cardinality": false,
+    "rate_headers_sample": [
+      {
+        "x-ratelimit-limit-requests": "1000",
+        "x-ratelimit-remaining-requests": "999",
+        "x-ratelimit-limit-tokens": "8000",
+        "x-ratelimit-remaining-tokens": "7520"
+      },
+      {
+        "x-ratelimit-limit-requests": "1000",
+        "x-ratelimit-remaining-requests": "998",
+        "x-ratelimit-limit-tokens": "8000",
+        "x-ratelimit-remaining-tokens": "7360"
+      }
+    ],
+    "http_status_counts": {
+      "200": 4
+    },
+    "gate_pass": true,
+    "results_sha256": "f56dba96f47f7c05b83c5a49b4311aa6ab902707830bd2b62f0c8a08d11edc56",
+    "raw_sha256": "1dcbbc309a25eb6e65d833b2829bbf812b819413c2733585a5891f1a1bb9c8e8",
+    "raw_recompute_verified": true
+  },
+  "aistudio:gemma-4-31b-it": {
+    "n_units": 4,
+    "n_first_pass_ok": 4,
+    "first_pass_parse_rate": 1.0,
+    "n_final_ok": 4,
+    "final_parse_rate": 1.0,
+    "n_protocol_ok": 4,
+    "logprobs_expected": false,
+    "expected_top_logprobs": 0,
+    "n_logprobs_aligned": 0,
+    "n_target_positions_checked": 0,
+    "min_target_top_logprobs": null,
+    "max_target_top_logprobs": null,
+    "all_pm_exact_cardinality": false,
+    "rate_headers_sample": [],
+    "http_status_counts": {
+      "200": 4
+    },
+    "gate_pass": true,
+    "results_sha256": "2dd7806ee8049205f8ca0ccf854d478860ac63e771dcbeb6fef08673d4934fde",
+    "raw_sha256": "bf92890c23e8814991dc33fa5f9b8a12121a78d0cb578c5daf0f27b5338d7327",
+    "raw_recompute_verified": true
+  }
+}

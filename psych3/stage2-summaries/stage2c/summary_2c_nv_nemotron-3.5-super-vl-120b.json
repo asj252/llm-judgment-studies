@@ -1,0 +1,657 @@
+{
+  "model_spec": "nv:nemotron-3.5-super-vl-120b",
+  "total_units": 280,
+  "valid_units": 280,
+  "by_scale_marginal": {
+    "M7": {
+      "n_valid": 56,
+      "n_bayes_valid": 32,
+      "n_framing_valid": 24,
+      "overall_mae": 22.25,
+      "bayes_mae": 23.82,
+      "framing_mae": 20.15,
+      "echo_rate": 0.143,
+      "bayes_echo_rate": 0.125
+    },
+    "M13": {
+      "n_valid": 56,
+      "n_bayes_valid": 32,
+      "n_framing_valid": 24,
+      "overall_mae": 17.14,
+      "bayes_mae": 21.54,
+      "framing_mae": 11.29,
+      "echo_rate": 0.107,
+      "bayes_echo_rate": 0.063
+    },
+    "M15": {
+      "n_valid": 56,
+      "n_bayes_valid": 32,
+      "n_framing_valid": 24,
+      "overall_mae": 19.41,
+      "bayes_mae": 23.11,
+      "framing_mae": 14.47,
+      "echo_rate": 0.089,
+      "bayes_echo_rate": 0.063
+    },
+    "M23": {
+      "n_valid": 56,
+      "n_bayes_valid": 32,
+      "n_framing_valid": 24,
+      "overall_mae": 18.4,
+      "bayes_mae": 21.84,
+      "framing_mae": 13.82,
+      "echo_rate": 0.107,
+      "bayes_echo_rate": 0.063
+    },
+    "M100": {
+      "n_valid": 56,
+      "n_bayes_valid": 32,
+      "n_framing_valid": 24,
+      "overall_mae": 16.86,
+      "bayes_mae": 23.77,
+      "framing_mae": 7.63,
+      "echo_rate": 0.107,
+      "bayes_echo_rate": 0.125
+    }
+  },
+  "by_org_marginal": {
+    "single": {
+      "n_valid": 70,
+      "n_bayes_valid": 40,
+      "n_framing_valid": 30,
+      "n_non_decimal_fa_pairs": 12,
+      "overall_mae": 20.14,
+      "bayes_mae": 24.05,
+      "framing_mae": 14.92,
+      "non_decimal_framing_asymmetry_abs_mean": 21.93,
+      "echo_rate": 0.086,
+      "bayes_echo_rate": 0.05,
+      "monotonic_compliance_rate": null,
+      "monotonic_compliant_units": null
+    },
+    "multi_repeat": {
+      "n_valid": 70,
+      "n_bayes_valid": 40,
+      "n_framing_valid": 30,
+      "n_non_decimal_fa_pairs": 12,
+      "overall_mae": 20.73,
+      "bayes_mae": 24.8,
+      "framing_mae": 15.31,
+      "non_decimal_framing_asymmetry_abs_mean": 24.93,
+      "echo_rate": 0.157,
+      "bayes_echo_rate": 0.125,
+      "monotonic_compliance_rate": 0.986,
+      "monotonic_compliant_units": 69
+    },
+    "1p5_asc_repeat": {
+      "n_valid": 70,
+      "n_bayes_valid": 40,
+      "n_framing_valid": 30,
+      "n_non_decimal_fa_pairs": 12,
+      "overall_mae": 20.46,
+      "bayes_mae": 25.68,
+      "framing_mae": 13.51,
+      "non_decimal_framing_asymmetry_abs_mean": 18.75,
+      "echo_rate": 0.129,
+      "bayes_echo_rate": 0.1,
+      "monotonic_compliance_rate": 1.0,
+      "monotonic_compliant_units": 70
+    },
+    "posterior_focus": {
+      "n_valid": 70,
+      "n_bayes_valid": 40,
+      "n_framing_valid": 30,
+      "n_non_decimal_fa_pairs": 12,
+      "overall_mae": 13.91,
+      "bayes_mae": 16.73,
+      "framing_mae": 10.15,
+      "non_decimal_framing_asymmetry_abs_mean": 11.42,
+      "echo_rate": 0.071,
+      "bayes_echo_rate": 0.075,
+      "monotonic_compliance_rate": null,
+      "monotonic_compliant_units": null
+    }
+  },
+  "by_cell": {
+    "M7__single": {
+      "scale_M": 7,
+      "org": "single",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 23.24,
+        "signed_bias": 0.36,
+        "echo_rate": 0.0
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 21.53,
+        "signed_bias": -5.52,
+        "echo_rate": 0.0
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 25.52,
+        "signed_bias": 8.19,
+        "echo_rate": 0.0,
+        "framing_asymmetry_abs_mean": 27.52,
+        "framing_asymmetry_signed_mean": 24.19
+      }
+    },
+    "M7__multi_repeat": {
+      "scale_M": 7,
+      "org": "multi_repeat",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 26.46,
+        "signed_bias": -14.4,
+        "echo_rate": 0.286
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 28.88,
+        "signed_bias": -28.88,
+        "echo_rate": 0.25
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 23.24,
+        "signed_bias": 4.9,
+        "echo_rate": 0.333,
+        "framing_asymmetry_abs_mean": 33.33,
+        "framing_asymmetry_signed_mean": 30.48
+      }
+    },
+    "M7__1p5_asc_repeat": {
+      "scale_M": 7,
+      "org": "1p5_asc_repeat",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 28.84,
+        "signed_bias": -8.74,
+        "echo_rate": 0.286
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 32.23,
+        "signed_bias": -20.56,
+        "echo_rate": 0.25
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 24.31,
+        "signed_bias": 7.02,
+        "echo_rate": 0.333,
+        "framing_asymmetry_abs_mean": 27.95,
+        "framing_asymmetry_signed_mean": 22.71
+      }
+    },
+    "M7__posterior_focus": {
+      "scale_M": 7,
+      "org": "posterior_focus",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 10.45,
+        "signed_bias": -7.17,
+        "echo_rate": 0.0
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 12.65,
+        "signed_bias": -8.13,
+        "echo_rate": 0.0
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 7.52,
+        "signed_bias": -5.9,
+        "echo_rate": 0.0,
+        "framing_asymmetry_abs_mean": 6.86,
+        "framing_asymmetry_signed_mean": 5.43
+      }
+    },
+    "M13__single": {
+      "scale_M": 13,
+      "org": "single",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 17.29,
+        "signed_bias": -2.26,
+        "echo_rate": 0.143
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 20.64,
+        "signed_bias": -0.84,
+        "echo_rate": 0.125
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 12.82,
+        "signed_bias": -4.15,
+        "echo_rate": 0.167,
+        "framing_asymmetry_abs_mean": 16.31,
+        "framing_asymmetry_signed_mean": -14.31
+      }
+    },
+    "M13__multi_repeat": {
+      "scale_M": 13,
+      "org": "multi_repeat",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 19.37,
+        "signed_bias": -16.74,
+        "echo_rate": 0.071
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 24.22,
+        "signed_bias": -22.49,
+        "echo_rate": 0.0
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 12.9,
+        "signed_bias": -9.07,
+        "echo_rate": 0.167,
+        "framing_asymmetry_abs_mean": 15.6,
+        "framing_asymmetry_signed_mean": -3.55
+      }
+    },
+    "M13__1p5_asc_repeat": {
+      "scale_M": 13,
+      "org": "1p5_asc_repeat",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 19.35,
+        "signed_bias": -7.16,
+        "echo_rate": 0.071
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 26.44,
+        "signed_bias": -10.06,
+        "echo_rate": 0.0
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 9.9,
+        "signed_bias": -3.28,
+        "echo_rate": 0.167,
+        "framing_asymmetry_abs_mean": 15.13,
+        "framing_asymmetry_signed_mean": -15.13
+      }
+    },
+    "M13__posterior_focus": {
+      "scale_M": 13,
+      "org": "posterior_focus",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 12.57,
+        "signed_bias": -5.58,
+        "echo_rate": 0.143
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 14.86,
+        "signed_bias": -4.37,
+        "echo_rate": 0.125
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 9.53,
+        "signed_bias": -7.19,
+        "echo_rate": 0.167,
+        "framing_asymmetry_abs_mean": 11.41,
+        "framing_asymmetry_signed_mean": 1.67
+      }
+    },
+    "M15__single": {
+      "scale_M": 15,
+      "org": "single",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 21.38,
+        "signed_bias": -11.23,
+        "echo_rate": 0.071
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 27.83,
+        "signed_bias": -12.15,
+        "echo_rate": 0.0
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 12.78,
+        "signed_bias": -10.0,
+        "echo_rate": 0.167,
+        "framing_asymmetry_abs_mean": 12.89,
+        "framing_asymmetry_signed_mean": -12.44
+      }
+    },
+    "M15__multi_repeat": {
+      "scale_M": 15,
+      "org": "multi_repeat",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 20.74,
+        "signed_bias": -15.93,
+        "echo_rate": 0.214
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 23.38,
+        "signed_bias": -18.46,
+        "echo_rate": 0.25
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 17.22,
+        "signed_bias": -12.56,
+        "echo_rate": 0.167,
+        "framing_asymmetry_abs_mean": 21.11,
+        "framing_asymmetry_signed_mean": -7.78
+      }
+    },
+    "M15__1p5_asc_repeat": {
+      "scale_M": 15,
+      "org": "1p5_asc_repeat",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 18.22,
+        "signed_bias": -13.66,
+        "echo_rate": 0.071
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 20.47,
+        "signed_bias": -16.48,
+        "echo_rate": 0.0
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 15.22,
+        "signed_bias": -9.89,
+        "echo_rate": 0.167,
+        "framing_asymmetry_abs_mean": 17.78,
+        "framing_asymmetry_signed_mean": -12.44
+      }
+    },
+    "M15__posterior_focus": {
+      "scale_M": 15,
+      "org": "posterior_focus",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 17.28,
+        "signed_bias": -10.52,
+        "echo_rate": 0.0
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 20.74,
+        "signed_bias": -11.65,
+        "echo_rate": 0.0
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 12.67,
+        "signed_bias": -9.0,
+        "echo_rate": 0.0,
+        "framing_asymmetry_abs_mean": 12.67,
+        "framing_asymmetry_signed_mean": -0.67
+      }
+    },
+    "M23__single": {
+      "scale_M": 23,
+      "org": "single",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 21.92,
+        "signed_bias": 1.25,
+        "echo_rate": 0.143
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 25.98,
+        "signed_bias": 2.31,
+        "echo_rate": 0.0
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 16.5,
+        "signed_bias": -0.17,
+        "echo_rate": 0.333,
+        "framing_asymmetry_abs_mean": 31.0,
+        "framing_asymmetry_signed_mean": -27.0
+      }
+    },
+    "M23__multi_repeat": {
+      "scale_M": 23,
+      "org": "multi_repeat",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 18.93,
+        "signed_bias": -5.98,
+        "echo_rate": 0.143
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 22.01,
+        "signed_bias": -10.35,
+        "echo_rate": 0.125
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 14.83,
+        "signed_bias": -0.17,
+        "echo_rate": 0.167,
+        "framing_asymmetry_abs_mean": 29.67,
+        "framing_asymmetry_signed_mean": -15.0
+      }
+    },
+    "M23__1p5_asc_repeat": {
+      "scale_M": 23,
+      "org": "1p5_asc_repeat",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 18.22,
+        "signed_bias": -4.97,
+        "echo_rate": 0.143
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 23.83,
+        "signed_bias": -9.99,
+        "echo_rate": 0.125
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 10.73,
+        "signed_bias": 1.73,
+        "echo_rate": 0.167,
+        "framing_asymmetry_abs_mean": 14.14,
+        "framing_asymmetry_signed_mean": -10.8
+      }
+    },
+    "M23__posterior_focus": {
+      "scale_M": 23,
+      "org": "posterior_focus",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 14.54,
+        "signed_bias": -2.97,
+        "echo_rate": 0.0
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 15.54,
+        "signed_bias": -6.53,
+        "echo_rate": 0.0
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 13.2,
+        "signed_bias": 1.78,
+        "echo_rate": 0.0,
+        "framing_asymmetry_abs_mean": 14.75,
+        "framing_asymmetry_signed_mean": 14.75
+      }
+    },
+    "M100__single": {
+      "scale_M": 100,
+      "org": "single",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 16.88,
+        "signed_bias": 1.29,
+        "echo_rate": 0.071
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 24.29,
+        "signed_bias": 2.01,
+        "echo_rate": 0.125
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 7.0,
+        "signed_bias": 0.33,
+        "echo_rate": 0.0,
+        "framing_asymmetry_abs_mean": 14.0,
+        "framing_asymmetry_signed_mean": -0.67
+      }
+    },
+    "M100__multi_repeat": {
+      "scale_M": 100,
+      "org": "multi_repeat",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 18.14,
+        "signed_bias": -0.9,
+        "echo_rate": 0.071
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 25.5,
+        "signed_bias": -2.32,
+        "echo_rate": 0.0
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 8.33,
+        "signed_bias": 1.0,
+        "echo_rate": 0.167,
+        "framing_asymmetry_abs_mean": 16.67,
+        "framing_asymmetry_signed_mean": -2.0
+      }
+    },
+    "M100__1p5_asc_repeat": {
+      "scale_M": 100,
+      "org": "1p5_asc_repeat",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 17.7,
+        "signed_bias": 0.11,
+        "echo_rate": 0.071
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 25.46,
+        "signed_bias": -2.27,
+        "echo_rate": 0.125
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 7.37,
+        "signed_bias": 3.3,
+        "echo_rate": 0.0,
+        "framing_asymmetry_abs_mean": 14.73,
+        "framing_asymmetry_signed_mean": -7.93
+      }
+    },
+    "M100__posterior_focus": {
+      "scale_M": 100,
+      "org": "posterior_focus",
+      "n_total": 14,
+      "n_valid": 14,
+      "parse_rate": 1.0,
+      "overall": {
+        "n": 14,
+        "mae": 14.7,
+        "signed_bias": -9.19,
+        "echo_rate": 0.214
+      },
+      "bayes_narrative": {
+        "n": 8,
+        "mae": 19.85,
+        "signed_bias": -15.2,
+        "echo_rate": 0.25
+      },
+      "attribute_framing": {
+        "n": 6,
+        "mae": 7.83,
+        "signed_bias": -1.17,
+        "echo_rate": 0.167,
+        "framing_asymmetry_abs_mean": 14.33,
+        "framing_asymmetry_signed_mean": 1.0
+      }
+    }
+  }
+}

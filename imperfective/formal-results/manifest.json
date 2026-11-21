@@ -1,0 +1,50 @@
+{
+  "baseline_commit": "178bb854f1b33e5d93842bb4b0fa05d3f5603ed7",
+  "files": {
+    "imperfective/formal-results/README.md": {
+      "bytes": 218,
+      "path_replacements": [],
+      "published_sha256": "819511d4f28d557c1898d4cc6617877ac711be0c4b3bef8a7023c1fe3a8a8d70",
+      "source_relpath": null,
+      "source_sha256": "819511d4f28d557c1898d4cc6617877ac711be0c4b3bef8a7023c1fe3a8a8d70",
+      "transform_id": "generated"
+    },
+    "imperfective/formal-results/formal-analysis-results.json": {
+      "bytes": 4303656,
+      "path_replacements": [
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/freeze.json",
+          "old_sha256": "c8747213ae9e1c1977f7598cc4c25cc7c004c305d4b16e3be4465348ffc7f53a"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/statistics.json",
+          "old_sha256": "c7cc5eb1daa0f8463046320d6bfdf3e783dfe046b75b2c51ad4e35bf02627fd9"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/split.json",
+          "old_sha256": "819b68bbc9376f9e1fbb0a1e5e00d399e0d008eb70a5e066c3afb9ff8b7fa1e3"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/results.jsonl",
+          "old_sha256": "f35b5bb0a05e179498143b8f9da55a0448cdb65275fa70d63415e2b54d501e59"
+        }
+      ],
+      "published_sha256": "4a3fdd262d829f3833fabd0f1a231ea749fd7ff93b752f6ae2cbf7b467528921",
+      "source_relpath": "connecting-dots/imperfective/s5-mac-handoff-20261101/results/formal-analysis-results.json",
+      "source_sha256": "44f796311978e8bca7e679acf72ba737dd3954476c2b0f537570a42aaa643d68",
+      "transform_id": "redact_abs_paths_opaque"
+    },
+    "imperfective/formal-results/formal-unit-index.json": {
+      "bytes": 5214339,
+      "path_replacements": [],
+      "published_sha256": "9d178a5cc69aa460427f3c2c8ba4bf8daae767eb34f6ad1c48a07833105d8d6b",
+      "source_relpath": "connecting-dots/imperfective/s5-mac-handoff-20261101/results/formal-unit-index.json",
+      "source_sha256": "9d178a5cc69aa460427f3c2c8ba4bf8daae767eb34f6ad1c48a07833105d8d6b",
+      "transform_id": "identity"
+    }
+  }
+}

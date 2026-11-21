@@ -1,0 +1,29 @@
+{
+  "baseline_commit": "178bb854f1b33e5d93842bb4b0fa05d3f5603ed7",
+  "files": {
+    "dnli/v3-release/lhf-reanalysis/PLAN-addendum.md": {
+      "bytes": 1590,
+      "path_replacements": [],
+      "published_sha256": "0ed96d243e739c18da2af8057837c1b38e8494963a84781818665261bc924aee",
+      "source_relpath": "connecting-dots/dnli/lhf_reanalysis_20261108/PLAN-addendum.md",
+      "source_sha256": "0ed96d243e739c18da2af8057837c1b38e8494963a84781818665261bc924aee",
+      "transform_id": "identity"
+    },
+    "dnli/v3-release/lhf-reanalysis/README.md": {
+      "bytes": 111,
+      "path_replacements": [],
+      "published_sha256": "37fa225ee4d1e83baa495da647a8a6864bc0024f23eb9b3f1878b5eff92737f9",
+      "source_relpath": null,
+      "source_sha256": "37fa225ee4d1e83baa495da647a8a6864bc0024f23eb9b3f1878b5eff92737f9",
+      "transform_id": "generated"
+    },
+    "dnli/v3-release/lhf-reanalysis/summary_lhf_dnli.json": {
+      "bytes": 1792479,
+      "path_replacements": [],
+      "published_sha256": "9159581ea4eb0c65dd8dcd5792eccf4302dcb0e51bbc08fd9754a52984c14d45",
+      "source_relpath": "connecting-dots/dnli/lhf_reanalysis_20261108/summary_lhf_dnli.json",
+      "source_sha256": "9159581ea4eb0c65dd8dcd5792eccf4302dcb0e51bbc08fd9754a52984c14d45",
+      "transform_id": "identity"
+    }
+  }
+}

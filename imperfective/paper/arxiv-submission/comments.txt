@@ -1,0 +1,1 @@
+21 pages, 4 figures, 25 tables (single-column arXiv preprint; includes 16,640 Qwen3-8B formal units across 4 preregistered experiments, 1,800 OpenAI format-ablation calls, and 4,240 P16.7 development-slice units across 5 external models)

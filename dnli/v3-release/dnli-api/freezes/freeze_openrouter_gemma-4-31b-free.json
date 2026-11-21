@@ -1,0 +1,82 @@
+{
+  "_analysis_code": {
+    "B": 5000,
+    "analyse_api.py": "65726df3504c6fa382d86cb63adbeb5a23b55f58e7bd8a51fec904a22f4448ed",
+    "analysis.py": "a6928467e6a8ca5f175006ec1e5f54de7ef6cc1818a6beecdb57f54797a36533",
+    "api_subject.py": "be1479ee5b07ea7eee5b2f9e89a4555deb4074abef0409f303b3029d84d93499",
+    "run_api.py": "e1caf559ccfc34dea091ac788ab464f3db64dd7f3aeb4e3cf602e9ee8929adeb",
+    "settings": "3dfee05d603a4a2b2252fbe116d33dd1fe9ebd7a181e2808841ed3eba1ea8f0b"
+  },
+  "config": "openrouter:gemma-4-31b-free",
+  "dev": {
+    "fingerprint": {
+      "api_subject.py": "be1479ee5b07ea7eee5b2f9e89a4555deb4074abef0409f303b3029d84d93499",
+      "blocks": "A",
+      "config": "openrouter:gemma-4-31b-free",
+      "configs.py": "c3ce443cb8e1ea1b056f44b185c11029f5c0fbd6395cc4579f9fa91511743e8f",
+      "items_text.json": "54e08df0874587377a259925f49ad8796de6ac4d05c0729fbfa7ae0cf479f67c",
+      "materials_digest": "ccd5097602b06e09293f6790136647db80fdcb765592f377b04b2758984c2a72",
+      "n_units_all": 2900,
+      "parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+      "parse_rules": "2d8f229712ee56416548c8f6cf1c04e6cfd6b463fe0e0776134aefc438af23ed",
+      "prompts.py": "cfa1f9399f2d6ce61dc7cf312108a2a5f3f18981cfbdba6b881d4d374134f902",
+      "run_api.py": "e1caf559ccfc34dea091ac788ab464f3db64dd7f3aeb4e3cf602e9ee8929adeb",
+      "sampling": {
+        "max_output_tokens": 2048,
+        "temperature": 0.6,
+        "top_k": 20,
+        "top_p": 0.95
+      },
+      "spec": {
+        "description": "Gemma 4 31B Instruct via OpenRouter free endpoint",
+        "env_key": "OPENROUTER_API_KEY",
+        "model": "google/gemma-4-31b-it:free",
+        "provider": "openrouter",
+        "rpm": 18
+      },
+      "split.json": "3e09db9ac6e10375bf17e6254fbb6ad5992798f2a03a1ba93c4f896b5eeaf39b",
+      "templates": "8d107ab0e3142f91e0ec816b16a64f9f3f6e8e07eeb1e4000fef372dcff3ee66"
+    },
+    "fingerprint_id": "12ac1092ad35426837268eea0a07cfe806c374e8304f1f69f63e8af5c7d3c9bf",
+    "n_planned_units": 300
+  },
+  "formal": {
+    "fingerprint": {
+      "api_subject.py": "be1479ee5b07ea7eee5b2f9e89a4555deb4074abef0409f303b3029d84d93499",
+      "blocks": "A",
+      "config": "openrouter:gemma-4-31b-free",
+      "configs.py": "c3ce443cb8e1ea1b056f44b185c11029f5c0fbd6395cc4579f9fa91511743e8f",
+      "items_text.json": "54e08df0874587377a259925f49ad8796de6ac4d05c0729fbfa7ae0cf479f67c",
+      "materials_digest": "ccd5097602b06e09293f6790136647db80fdcb765592f377b04b2758984c2a72",
+      "n_units_all": 2900,
+      "parse.py": "fe7a02e049e7116599dfd0a7c7d8918a065578e6fa9834a79a4210c7867999cb",
+      "parse_rules": "2d8f229712ee56416548c8f6cf1c04e6cfd6b463fe0e0776134aefc438af23ed",
+      "prompts.py": "cfa1f9399f2d6ce61dc7cf312108a2a5f3f18981cfbdba6b881d4d374134f902",
+      "run_api.py": "e1caf559ccfc34dea091ac788ab464f3db64dd7f3aeb4e3cf602e9ee8929adeb",
+      "sampling": {
+        "max_output_tokens": 2048,
+        "temperature": 0.6,
+        "top_k": 20,
+        "top_p": 0.95
+      },
+      "spec": {
+        "description": "Gemma 4 31B Instruct via OpenRouter free endpoint",
+        "env_key": "OPENROUTER_API_KEY",
+        "model": "google/gemma-4-31b-it:free",
+        "provider": "openrouter",
+        "rpm": 18
+      },
+      "split.json": "3e09db9ac6e10375bf17e6254fbb6ad5992798f2a03a1ba93c4f896b5eeaf39b",
+      "templates": "8d107ab0e3142f91e0ec816b16a64f9f3f6e8e07eeb1e4000fef372dcff3ee66"
+    },
+    "fingerprint_id": "12ac1092ad35426837268eea0a07cfe806c374e8304f1f69f63e8af5c7d3c9bf",
+    "n_planned_units": 1400
+  },
+  "spec": {
+    "description": "Gemma 4 31B Instruct via OpenRouter free endpoint",
+    "env_key": "OPENROUTER_API_KEY",
+    "model": "google/gemma-4-31b-it:free",
+    "provider": "openrouter",
+    "rpm": 18
+  }
+}

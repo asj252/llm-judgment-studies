@@ -1,0 +1,50 @@
+[
+  {
+    "command": [
+      "/usr/bin/python3",
+      "-X",
+      "utf8",
+      "build_paper.py"
+    ],
+    "returncode": 0,
+    "seconds": 1.416
+  },
+  {
+    "command": [
+      "pdflatex",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "paper.tex"
+    ],
+    "returncode": 0,
+    "seconds": 0.42
+  },
+  {
+    "command": [
+      "bibtex",
+      "paper"
+    ],
+    "returncode": 0,
+    "seconds": 0.012
+  },
+  {
+    "command": [
+      "pdflatex",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "paper.tex"
+    ],
+    "returncode": 0,
+    "seconds": 0.408
+  },
+  {
+    "command": [
+      "pdflatex",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "paper.tex"
+    ],
+    "returncode": 0,
+    "seconds": 0.432
+  }
+]

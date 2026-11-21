@@ -1,0 +1,279 @@
+{
+  "baseline_commit": "178bb854f1b33e5d93842bb4b0fa05d3f5603ed7",
+  "files": {
+    "psych3/stage2-summaries/README.md": {
+      "bytes": 141,
+      "path_replacements": [],
+      "published_sha256": "db19ae6512667b0ed044129972591ed073fe8f8bfe7a9455ad41a00a96cbe208",
+      "source_relpath": null,
+      "source_sha256": "db19ae6512667b0ed044129972591ed073fe8f8bfe7a9455ad41a00a96cbe208",
+      "transform_id": "generated"
+    },
+    "psych3/stage2-summaries/formal-k3-scale13/analysis_freeze.json": {
+      "bytes": 5618,
+      "path_replacements": [
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/task-1868.log",
+          "old_sha256": "38b05eeb48b0fe6199c1b896fae98cd9d8d5a759202d73bedccc37caf8189bc8"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/task-1840.log",
+          "old_sha256": "4732cc9788beab4cf5faceb0eea58e20bcd55898171dc23daf5cd3b42f1aa956"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/task-1799.log",
+          "old_sha256": "0e82ade847ab0931ce88e4bc9ac7b1a3f82d141a2f769fd0801a4815c83df708"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/task-1781.log",
+          "old_sha256": "899213b37b393c5c8875e2f01148759eaf1d127cff72de73c6024e55d475fea5"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/psych3_formal_k3_nv_nemotron-3.5-super-vl-120b.log",
+          "old_sha256": "cf795889dcc8684bb17ee4d2eeaca3104d62de4abd34a2cfa842095e8b0a2c5e"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/psych3_formal_k3_aistudio_gemma-4-26b-a4b-it.log",
+          "old_sha256": "70bda8d659af25f8a4d362b1c6a6979a7f4a1588b7fcfde5242780c36d3e9eb5"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/psych3_formal_k3_groq_gpt-oss-120b.log",
+          "old_sha256": "4ebc20f38c859e04851bc7a1c7958bbe53ac1abf08c2dea8af86913020b558ad"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/psych3_formal_k3_sf_qwen3-8b.log",
+          "old_sha256": "19767d15e82fb40c6c06e8bf0de2df5af511df025deafe7b267d973e31773111"
+        }
+      ],
+      "published_sha256": "442c523022ddd8926b83d228e8e4487b47e91ca0a87ef3d1974549de956ab90c",
+      "source_relpath": "connecting-dots/psych3/formal-k3-scale13-20261109/analysis_freeze.json",
+      "source_sha256": "c68956cb5926b5ffeed50282fe14cc5ed2d009cefbe83a65ff8e03d3a0ebecde",
+      "transform_id": "redact_abs_paths_opaque"
+    },
+    "psych3/stage2-summaries/formal-k3-scale13/summary_formal_k3_aistudio_gemma-4-26b-a4b-it.json": {
+      "bytes": 15683,
+      "path_replacements": [],
+      "published_sha256": "38837d59484ee5c208fe04db61043f213da6c3d60c41d56c84903726d698dc90",
+      "source_relpath": "connecting-dots/psych3/formal-k3-scale13-20261109/summary_formal_k3_aistudio_gemma-4-26b-a4b-it.json",
+      "source_sha256": "38837d59484ee5c208fe04db61043f213da6c3d60c41d56c84903726d698dc90",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/formal-k3-scale13/summary_formal_k3_all_models.json": {
+      "bytes": 195969,
+      "path_replacements": [
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/task-1868.log",
+          "old_sha256": "38b05eeb48b0fe6199c1b896fae98cd9d8d5a759202d73bedccc37caf8189bc8"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/task-1840.log",
+          "old_sha256": "4732cc9788beab4cf5faceb0eea58e20bcd55898171dc23daf5cd3b42f1aa956"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/task-1799.log",
+          "old_sha256": "0e82ade847ab0931ce88e4bc9ac7b1a3f82d141a2f769fd0801a4815c83df708"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/task-1781.log",
+          "old_sha256": "899213b37b393c5c8875e2f01148759eaf1d127cff72de73c6024e55d475fea5"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/psych3_formal_k3_nv_nemotron-3.5-super-vl-120b.log",
+          "old_sha256": "cf795889dcc8684bb17ee4d2eeaca3104d62de4abd34a2cfa842095e8b0a2c5e"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/psych3_formal_k3_aistudio_gemma-4-26b-a4b-it.log",
+          "old_sha256": "70bda8d659af25f8a4d362b1c6a6979a7f4a1588b7fcfde5242780c36d3e9eb5"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/psych3_formal_k3_groq_gpt-oss-120b.log",
+          "old_sha256": "4ebc20f38c859e04851bc7a1c7958bbe53ac1abf08c2dea8af86913020b558ad"
+        },
+        {
+          "count": 1,
+          "new": "<LOCAL_PATH>/psych3_formal_k3_sf_qwen3-8b.log",
+          "old_sha256": "19767d15e82fb40c6c06e8bf0de2df5af511df025deafe7b267d973e31773111"
+        }
+      ],
+      "published_sha256": "500a80e6be05d7bac4f9dc8bf854bfef8e122f1d71c4b1595a9ef482efd8db0e",
+      "source_relpath": "connecting-dots/psych3/formal-k3-scale13-20261109/summary_formal_k3_all_models.json",
+      "source_sha256": "017efa9768bd81589f4900ba05ede50a6f3317e15fe123f2b37f964c5371ea33",
+      "transform_id": "redact_abs_paths_opaque"
+    },
+    "psych3/stage2-summaries/formal-k3-scale13/summary_formal_k3_groq_gpt-oss-120b.json": {
+      "bytes": 15260,
+      "path_replacements": [],
+      "published_sha256": "7c3064b27761352c36b5a9724abc1d0023ba3a0b290ceffea21f09699e3aa932",
+      "source_relpath": "connecting-dots/psych3/formal-k3-scale13-20261109/summary_formal_k3_groq_gpt-oss-120b.json",
+      "source_sha256": "7c3064b27761352c36b5a9724abc1d0023ba3a0b290ceffea21f09699e3aa932",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/formal-k3-scale13/summary_formal_k3_nv_nemotron-3.5-super-vl-120b.json": {
+      "bytes": 15703,
+      "path_replacements": [],
+      "published_sha256": "2b033d98c6fc61d94aff04f4f4788fddf2c8f4dd301d7c54403064f89d856b73",
+      "source_relpath": "connecting-dots/psych3/formal-k3-scale13-20261109/summary_formal_k3_nv_nemotron-3.5-super-vl-120b.json",
+      "source_sha256": "2b033d98c6fc61d94aff04f4f4788fddf2c8f4dd301d7c54403064f89d856b73",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/formal-k3-scale13/summary_formal_k3_sf_qwen3-8b.json": {
+      "bytes": 15803,
+      "path_replacements": [],
+      "published_sha256": "cbf44f336009b56cb97fd8808da217a5c52140091fd7071a87d678c62db94788",
+      "source_relpath": "connecting-dots/psych3/formal-k3-scale13-20261109/summary_formal_k3_sf_qwen3-8b.json",
+      "source_sha256": "cbf44f336009b56cb97fd8808da217a5c52140091fd7071a87d678c62db94788",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/lhf-reanalysis/summary_lhf_psych3.json": {
+      "bytes": 4049579,
+      "path_replacements": [],
+      "published_sha256": "17c8fda8228affe2c1f816f163aa32e9331a0ed191928bd7c3fd17d1e778aaea",
+      "source_relpath": "connecting-dots/psych3/lhf_reanalysis_20261108/summary_lhf_psych3.json",
+      "source_sha256": "17c8fda8228affe2c1f816f163aa32e9331a0ed191928bd7c3fd17d1e778aaea",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/stage2b/summary_2b_openai_gpt-4o-mini.json": {
+      "bytes": 25695,
+      "path_replacements": [],
+      "published_sha256": "1ca749d56eee549dbf82a5d675bf6389f1302fe8782e01cf9d4104c4896dd597",
+      "source_relpath": "connecting-dots/psych3/stage2b-pilot-20261105/summary_2b_openai_gpt-4o-mini.json",
+      "source_sha256": "1ca749d56eee549dbf82a5d675bf6389f1302fe8782e01cf9d4104c4896dd597",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/stage2b/summary_2b_sf_qwen3-8b.json": {
+      "bytes": 25744,
+      "path_replacements": [],
+      "published_sha256": "2e3ec81a698a9fdfeefaed43d97f5863ebf45f46b623c696511764df600f91e7",
+      "source_relpath": "connecting-dots/psych3/stage2b-pilot-20261105/summary_2b_sf_qwen3-8b.json",
+      "source_sha256": "2e3ec81a698a9fdfeefaed43d97f5863ebf45f46b623c696511764df600f91e7",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/stage2c/analyze_stage2c.py": {
+      "bytes": 2633,
+      "path_replacements": [],
+      "published_sha256": "639517fa44d247fdb4348f352aba5ab551c65aee0673f0400ca5e068f514692b",
+      "source_relpath": "connecting-dots/psych3/stage2c-crossover-20261105/analyze_stage2c.py",
+      "source_sha256": "639517fa44d247fdb4348f352aba5ab551c65aee0673f0400ca5e068f514692b",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/stage2c/summary_2c_aistudio_gemma-4-26b-a4b-it.json": {
+      "bytes": 15470,
+      "path_replacements": [],
+      "published_sha256": "db9d77dbc2e5333c4f52400f9684dbd8945d3d80f518874890e2a9b24d2a93eb",
+      "source_relpath": "connecting-dots/psych3/stage2c-crossover-20261105/summary_2c_aistudio_gemma-4-26b-a4b-it.json",
+      "source_sha256": "db9d77dbc2e5333c4f52400f9684dbd8945d3d80f518874890e2a9b24d2a93eb",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/stage2c/summary_2c_all_models.json": {
+      "bytes": 83985,
+      "path_replacements": [],
+      "published_sha256": "870f6709bdbaaa109220eda5e393170e1d878ff953985feb398cd4a2ebecc70a",
+      "source_relpath": "connecting-dots/psych3/stage2c-crossover-20261105/summary_2c_all_models.json",
+      "source_sha256": "870f6709bdbaaa109220eda5e393170e1d878ff953985feb398cd4a2ebecc70a",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/stage2c/summary_2c_groq_gpt-oss-120b.json": {
+      "bytes": 15264,
+      "path_replacements": [],
+      "published_sha256": "fe9498eaf31a940cccdc65d18e104105d7b4e311a096dd56d8419ae4dbc360f3",
+      "source_relpath": "connecting-dots/psych3/stage2c-crossover-20261105/summary_2c_groq_gpt-oss-120b.json",
+      "source_sha256": "fe9498eaf31a940cccdc65d18e104105d7b4e311a096dd56d8419ae4dbc360f3",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/stage2c/summary_2c_nv_nemotron-3.5-super-vl-120b.json": {
+      "bytes": 15553,
+      "path_replacements": [],
+      "published_sha256": "edfc0499034d0c024fdc3d06a6608a4e5c5c767108349653c2265930663a480f",
+      "source_relpath": "connecting-dots/psych3/stage2c-crossover-20261105/summary_2c_nv_nemotron-3.5-super-vl-120b.json",
+      "source_sha256": "edfc0499034d0c024fdc3d06a6608a4e5c5c767108349653c2265930663a480f",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/stage2c/summary_2c_openai_gpt-4o-mini.json": {
+      "bytes": 15494,
+      "path_replacements": [],
+      "published_sha256": "edbdd8cb9f439b167f555cb4a01a37559e5aa394f07ca2f91ee7c370d86ad7a4",
+      "source_relpath": "connecting-dots/psych3/stage2c-crossover-20261105/summary_2c_openai_gpt-4o-mini.json",
+      "source_sha256": "edbdd8cb9f439b167f555cb4a01a37559e5aa394f07ca2f91ee7c370d86ad7a4",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/stage2c/summary_2c_sf_qwen3-8b.json": {
+      "bytes": 15504,
+      "path_replacements": [],
+      "published_sha256": "2587062e27fb3d00b200ddeee7dfde64e8ec7ca52f47ee90a57a5d6b5cccd3dd",
+      "source_relpath": "connecting-dots/psych3/stage2c-crossover-20261105/summary_2c_sf_qwen3-8b.json",
+      "source_sha256": "2587062e27fb3d00b200ddeee7dfde64e8ec7ca52f47ee90a57a5d6b5cccd3dd",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/unconstrained-3opt/analysis_freeze.json": {
+      "bytes": 2217,
+      "path_replacements": [],
+      "published_sha256": "aa917c3edb49b000e2bf7108310cbb708040de4c1e85a799161a9494d344d200",
+      "source_relpath": "connecting-dots/psych3/unconstrained-3opt-20261109/analysis_freeze.json",
+      "source_sha256": "aa917c3edb49b000e2bf7108310cbb708040de4c1e85a799161a9494d344d200",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/unconstrained-3opt/summary_table_unconstrained_3opt.csv": {
+      "bytes": 326335,
+      "path_replacements": [],
+      "published_sha256": "05b2dc1ba9d89a6dbc8c03888a757ec15284db4cc099c984e7fe10a6501ac3f1",
+      "source_relpath": "connecting-dots/psych3/unconstrained-3opt-20261109/summary_table_unconstrained_3opt.csv",
+      "source_sha256": "05b2dc1ba9d89a6dbc8c03888a757ec15284db4cc099c984e7fe10a6501ac3f1",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/unconstrained-3opt/summary_unconstrained_3opt_aistudio_gemma-4-26b-a4b-it.json": {
+      "bytes": 31548,
+      "path_replacements": [],
+      "published_sha256": "a871834480509230634b07c3024a97a8c3fbe8d260679ed06f17ae79bed65616",
+      "source_relpath": "connecting-dots/psych3/unconstrained-3opt-20261109/summary_unconstrained_3opt_aistudio_gemma-4-26b-a4b-it.json",
+      "source_sha256": "a871834480509230634b07c3024a97a8c3fbe8d260679ed06f17ae79bed65616",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/unconstrained-3opt/summary_unconstrained_3opt_all_models.json": {
+      "bytes": 176936,
+      "path_replacements": [],
+      "published_sha256": "f837b66dfa2eddb9e8aebdd3cc5c4637f6caf2aa559ccfa7fdf24fca1c12bac9",
+      "source_relpath": "connecting-dots/psych3/unconstrained-3opt-20261109/summary_unconstrained_3opt_all_models.json",
+      "source_sha256": "f837b66dfa2eddb9e8aebdd3cc5c4637f6caf2aa559ccfa7fdf24fca1c12bac9",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/unconstrained-3opt/summary_unconstrained_3opt_groq_gpt-oss-120b.json": {
+      "bytes": 30452,
+      "path_replacements": [],
+      "published_sha256": "c61ddbbcd0cd096d953c10b90b463dcc09d0821a47f04b3331e2d918ce6fc3df",
+      "source_relpath": "connecting-dots/psych3/unconstrained-3opt-20261109/summary_unconstrained_3opt_groq_gpt-oss-120b.json",
+      "source_sha256": "c61ddbbcd0cd096d953c10b90b463dcc09d0821a47f04b3331e2d918ce6fc3df",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/unconstrained-3opt/summary_unconstrained_3opt_nv_nemotron-3.5-super-vl-120b.json": {
+      "bytes": 31410,
+      "path_replacements": [],
+      "published_sha256": "8a98ba797019e5251d42f60373c64c4b283a05d53f0979d474222aba6cbd3a7d",
+      "source_relpath": "connecting-dots/psych3/unconstrained-3opt-20261109/summary_unconstrained_3opt_nv_nemotron-3.5-super-vl-120b.json",
+      "source_sha256": "8a98ba797019e5251d42f60373c64c4b283a05d53f0979d474222aba6cbd3a7d",
+      "transform_id": "identity"
+    },
+    "psych3/stage2-summaries/unconstrained-3opt/summary_unconstrained_3opt_sf_qwen3-8b.json": {
+      "bytes": 31688,
+      "path_replacements": [],
+      "published_sha256": "6151a043505cc5a6962c605803f3abc610303c2f6834fb72d40178029caec135",
+      "source_relpath": "connecting-dots/psych3/unconstrained-3opt-20261109/summary_unconstrained_3opt_sf_qwen3-8b.json",
+      "source_sha256": "6151a043505cc5a6962c605803f3abc610303c2f6834fb72d40178029caec135",
+      "transform_id": "identity"
+    }
+  }
+}

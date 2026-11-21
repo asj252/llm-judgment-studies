@@ -1,0 +1,163 @@
+{
+  "status": "pass",
+  "complete": true,
+  "pause": false,
+  "pause_reasons": [],
+  "planned": 4160,
+  "executed": 4160,
+  "missing": 12,
+  "missing_rate": 0.0028846153846153848,
+  "diagnostic_pz": {
+    "applicable": false,
+    "pass": true
+  },
+  "cells": {
+    "L/Z": {
+      "planned": 320,
+      "executed": 320,
+      "available": 320,
+      "missing": 0,
+      "truncated": 0,
+      "bounded_q": 320,
+      "availability_rate": 1.0,
+      "truncation_rate": 0.0,
+      "bounded_q_rate": 1.0
+    },
+    "L/DAP": {
+      "planned": 320,
+      "executed": 320,
+      "available": 320,
+      "missing": 0,
+      "truncated": 0,
+      "bounded_q": 320,
+      "availability_rate": 1.0,
+      "truncation_rate": 0.0,
+      "bounded_q_rate": 1.0
+    },
+    "L/CoT": {
+      "planned": 320,
+      "executed": 320,
+      "available": 320,
+      "missing": 0,
+      "truncated": 0,
+      "bounded_q": 320,
+      "availability_rate": 1.0,
+      "truncation_rate": 0.0,
+      "bounded_q_rate": 1.0
+    },
+    "L/CF": {
+      "planned": 320,
+      "executed": 320,
+      "available": 320,
+      "missing": 0,
+      "truncated": 0,
+      "bounded_q": 320,
+      "availability_rate": 1.0,
+      "truncation_rate": 0.0,
+      "bounded_q_rate": 1.0
+    },
+    "Ps/Z": {
+      "planned": 320,
+      "executed": 320,
+      "available": 320,
+      "missing": 0,
+      "truncated": 0,
+      "bounded_q": "N/A",
+      "availability_rate": 1.0,
+      "truncation_rate": 0.0,
+      "bounded_q_rate": "N/A"
+    },
+    "P/Z": {
+      "planned": 320,
+      "executed": 320,
+      "available": 320,
+      "missing": 0,
+      "truncated": 0,
+      "bounded_q": "N/A",
+      "availability_rate": 1.0,
+      "truncation_rate": 0.0,
+      "bounded_q_rate": "N/A"
+    },
+    "P/DAP": {
+      "planned": 320,
+      "executed": 320,
+      "available": 320,
+      "missing": 0,
+      "truncated": 0,
+      "bounded_q": "N/A",
+      "availability_rate": 1.0,
+      "truncation_rate": 0.0,
+      "bounded_q_rate": "N/A"
+    },
+    "P/CoT": {
+      "planned": 320,
+      "executed": 320,
+      "available": 320,
+      "missing": 0,
+      "truncated": 0,
+      "bounded_q": "N/A",
+      "availability_rate": 1.0,
+      "truncation_rate": 0.0,
+      "bounded_q_rate": "N/A"
+    },
+    "P/CF": {
+      "planned": 320,
+      "executed": 320,
+      "available": 320,
+      "missing": 0,
+      "truncated": 0,
+      "bounded_q": "N/A",
+      "availability_rate": 1.0,
+      "truncation_rate": 0.0,
+      "bounded_q_rate": "N/A"
+    },
+    "M/Z": {
+      "planned": 320,
+      "executed": 320,
+      "available": 314,
+      "missing": 6,
+      "truncated": 0,
+      "bounded_q": "N/A",
+      "availability_rate": 0.98125,
+      "truncation_rate": 0.0,
+      "bounded_q_rate": "N/A"
+    },
+    "M/DAP": {
+      "planned": 320,
+      "executed": 320,
+      "available": 318,
+      "missing": 2,
+      "truncated": 0,
+      "bounded_q": "N/A",
+      "availability_rate": 0.99375,
+      "truncation_rate": 0.0,
+      "bounded_q_rate": "N/A"
+    },
+    "M/CoT": {
+      "planned": 320,
+      "executed": 320,
+      "available": 316,
+      "missing": 4,
+      "truncated": 0,
+      "bounded_q": "N/A",
+      "availability_rate": 0.9875,
+      "truncation_rate": 0.0,
+      "bounded_q_rate": "N/A"
+    },
+    "M/CF": {
+      "planned": 320,
+      "executed": 320,
+      "available": 320,
+      "missing": 0,
+      "truncated": 0,
+      "bounded_q": "N/A",
+      "availability_rate": 1.0,
+      "truncation_rate": 0.0,
+      "bounded_q_rate": "N/A"
+    }
+  },
+  "stage": "formal",
+  "config": "qwen3-8b@macmini-m6",
+  "fingerprint_id": "f81940ea79504f533d62d796a10812b2dd8e170f9b95a9d6e813d0d4e736b74b",
+  "written_at": "2026-11-04T01:32:21.484600+08:00"
+}

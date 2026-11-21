@@ -1,0 +1,23 @@
+{
+  "connecting-dots/imperfective/s5-mac-handoff-20261101/results/formal-analysis-results.json": "44f796311978e8bca7e679acf72ba737dd3954476c2b0f537570a42aaa643d68",
+  "connecting-dots/imperfective/s5-mac-handoff-20261101/results/formal-unit-index.json": "9d178a5cc69aa460427f3c2c8ba4bf8daae767eb34f6ad1c48a07833105d8d6b",
+  "connecting-dots/imperfective/paper-handoff-20261108/results/e2_formal_analysis.json": "ac53f2ba16e928f09b6bc32d4de13790a6d3b19a838548f6d0900d0deb609dc5",
+  "connecting-dots/imperfective/paper-handoff-20261108/results/e2_formal_statistics.json": "239fe09e19db5b2626a829381d320990a58a4291c5eb532eb20157adeffb689b",
+  "connecting-dots/imperfective/paper-handoff-20261108/results/e2_formal_unit_index.json": "62742cded0831f9621b2fa54e11536bebc7f013bef79d594234a55c33e353a12",
+  "connecting-dots/imperfective/paper-handoff-20261108/results/e3_formal_analysis.json": "d0013fba9a33680bae772707e88fb29b9c6cba1b2d7b513e4c6fe899ca277000",
+  "connecting-dots/imperfective/paper-handoff-20261108/results/e3_formal_statistics.json": "44d4d19ef81b2d71ee9102360fc5379c3cc33e0c144869504d4cafdb7da9a030",
+  "connecting-dots/imperfective/paper-handoff-20261108/results/e3_formal_unit_index.json": "771ab8eb0222770d19c372cbe5a619e88408cd3c6e31d54bea9a91abc256eb80",
+  "connecting-dots/imperfective/paper-handoff-20261108/results/e4_formal_analysis.json": "749da7ae38a00272c70ec80bf7809ea26a1a116323b0fe46c4a8d1d449a29185",
+  "connecting-dots/imperfective/paper-handoff-20261108/results/e4_formal_statistics.json": "c306b59b23dcc4689a744784831a4d08a50a65b4872f9118d063d561ff325db6",
+  "connecting-dots/imperfective/paper-handoff-20261108/results/e4_formal_unit_index.json": "20bb370e766966105e795aca067cb210af39c8082f4a07ea4c1cce962b2e1eac",
+  "connecting-dots/dnli-api/summary_ablation_vs_format_dev_openai_gpt-4o-mini.json": "4670931f6c5ceeb97b1256573283bda59029e94119eeba35cf8cac32af38f8ef",
+  "connecting-dots/dnli-api/summary_ablation_vs_format_dev_openai_gpt-4_1-mini.json": "bed9f45c4a42ccf8d5e9536d04f50d36827b154f9e2c69b681937b6c39f7d83a",
+  "connecting-dots/imperfective/p167-api/analysis_freeze_p167.json": "4dcc71812bb3a4c893b4fe5433e65ad450f0fbbb4f438e0b7faba43d6ae34422",
+  "connecting-dots/imperfective/p167-api/analysis_freeze_p167_openai_addendum.json": "1256658e137257d21073c1a2e5d208c8d2ae3a2c4fcf49dd7cd339db281254c4",
+  "connecting-dots/imperfective/p167-api/summary_probe12_addendum.json": "5e753d9e7c1efe27d639b9cfc2df3e7f845100c14ba972b615532cf4ff9f430f",
+  "connecting-dots/imperfective/p167-api/summary_p167_all_openai_gpt-4o-mini.json": "b6367db3343f2f52f77cb41f4da978b3dc43d28ee9ed606f6667d3a898a9bdfd",
+  "connecting-dots/imperfective/p167-api/summary_p167_all_aistudio_gemma-4-31b-it.json": "6b547ed52bc31bba7201d551a6f46eb615e16f620c8ffa6cfb29a1dffdc17781",
+  "connecting-dots/imperfective/p167-api/summary_p167_all_nv_nemotron-3.5-bolt-e4b.json": "62bed735e27173f8a9966664b037721564ff3d75caf6339bd3ca7cecb3ea5cea",
+  "connecting-dots/imperfective/p167-api/summary_p167_all_nv_nemotron-3.5-lightning-30b.json": "04a428d6e4c6c96ebdb36da359d3895fa93271f4718c952fc6e2daf8884d9520",
+  "connecting-dots/imperfective/p167-api/summary_p167_addendum_slice_e2_groq_gpt-oss-120b.json": "34332b7652c303619960143c20fe7923051c889f20272dab48a3d7c013337fc9"
+}

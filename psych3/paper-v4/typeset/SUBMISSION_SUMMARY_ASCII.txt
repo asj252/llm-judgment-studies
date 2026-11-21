@@ -1,0 +1,28 @@
+Conditional submission instructions - verify the actual author account status first.
+(a) Already publicly announced on arXiv: Use Replace (Add a new version) on the existing arXiv identifier, upload arxiv-v4-source.tar.gz (TeX source submission), verify AutoTeX compilation preview, and update Abstract and Comments.
+(b) Submitted / on hold (not yet announced): Use Unsubmit / Update in the arXiv dashboard before announcement freeze cutoff to replace the source package and metadata without creating a duplicate submission.
+(c) Never submitted to arXiv: Use New submission, upload arxiv-v4-source.tar.gz, and enter the metadata fields below.
+Local v2/v3/v4 package labels do not establish an existing public arXiv version or identifier. Local preparation only; not uploaded or submitted. No arXiv ID, ORCID, email, DOI, or submission receipt is invented.
+Primary: cs.CL; Cross-list: cs.AI
+License: arXiv.org perpetual, non-exclusive license 1.0
+Author: An-Sheng Jhang (Dongguan University of Technology)
+Title: Multi-Estimate Elicitation Does Not Uniformly Debias Language Model Judgments
+Abstract: Multi-Candidate Verbalization (MCV) is a task- and model-dependent output protocol: repairing format does not guarantee better posterior accuracy, and requesting weights differs from reweighting an already generated candidate set. Across 31,672 planned/admitted evaluation units and 32,184 planned/admitted calls (excluding retries), we connect a frozen six-configuration cohort to exploratory scale/organization experiments and two independently preregistered post-cohort formal suites. Stage 1 retains 11 directional confirmations among 45 frozen tests; only increased post-outcome confirmation error on gpt-oss-120b exceeds its SESOI. P1 completes 1,920 terminal units: smaller response scales sharply lower operational string-match rates but increase Bayesian error. P2 completes 2,560 calls and 2,048 units: eliciting weights raises three errors by +2.75 / +2.05 / +3.88 pp, while within-generation weighting changes them by only -0.052 / -0.049 / -0.067 pp, a 42x-58x magnitude difference. Unconstrained joint generation with post-hoc normalization offers a local normalized-error improvement for three exhaustive options, without confirmed accuracy improvement. These results distinguish format validity, numerical accuracy and psychological susceptibility; a descriptive three-class behavioral spectrum organizes heterogeneity without identifying internal causes.
+Comments: 131 pages, 6 figures, Appendices A-I; expands the six-configuration Stage 1 cohort with exploratory Stage 2B/2C crossover and preregistered post-cohort formal suites P1 and P2
+File inventory excludes this SUBMISSION_SUMMARY_ASCII.txt and the final manifest_typeset.json.
+abstract.txt 1372 bytes SHA-256 9576b6fd740502c6b8dfdb569390890f34fbc45c78d7a506aa2383ca95369a26
+arxiv-v4-source.tar.gz 1155313 bytes SHA-256 92a5b235798aa086b83e1e396f83b16a8921efad61fc4f7ee3e492f670dbeaa4
+build_typeset.py 18500 bytes SHA-256 add25c1151d5c3f76dea7f6b993ece87d0e45c5ac14aef06597d0baeb651b282
+comments.txt 176 bytes SHA-256 998fa5ba1bbc5435e2bc1baaf497fe72f028acc78f24bd39b200af6fe0c3faa3
+figures/fig1_confirmatory.png 391897 bytes SHA-256 9dccbe9c6b059eab02d04870aac010c17a3e05c44df28720f4848e85b8adde48
+figures/fig2_status_quo_default_advice.png 328031 bytes SHA-256 40a5c5181fcc64819d27a499a4dd8606051a7ec3fceb803547a869538db5ac6d
+figures/fig3_format_differences.png 466754 bytes SHA-256 916127207665d9d9094e88044db7f950dc5fe4190e3f9835168b5e3e8711ed90
+figures/fig4_stage2c_crossover.pdf 22327 bytes SHA-256 caf2965729bf25e49113f27bf9827315208f02bb5366874d2207e5a7f9b0e384
+figures/fig_5tasks_mcv_comparison.pdf 37232 bytes SHA-256 dbdc2b383c8078a7acb762e25798cd8bae697102f8f18fc4d6af246f81968aed
+figures/fig_act3_3mechanisms.pdf 31894 bytes SHA-256 a9d33351da251daef79762b569c7ad52aa42009929390b30f2d1c3ffdd4b15c8
+metadata.json 2978 bytes SHA-256 3ebe4a25e1832ea7c300527f0d4e27fb24c7d7a0882fc033e2983e8f614560ab
+paper.bbl 27398 bytes SHA-256 4200f59d2724b67f4044b646275f0b010bf9d314ab57ec59015d21d3303bd54d
+paper.pdf 1891280 bytes SHA-256 de5d7cb99cffe791cc45e585aabc2264bd56d6f8f4d0f8323d9572d792d5fdd3
+paper.tex 1254813 bytes SHA-256 2993926063dea44c6714266732dc34eafdf1fc322cd4da292fb932b311ba3909
+references.bib 31052 bytes SHA-256 8b9e544a3108a16228e7085fc24c97c70121e4829ef7d0c282d1e4dd029488fe
+title.txt 78 bytes SHA-256 2121720a38e534ab05c00f5582e57604037e5d9ced5abe5bd9d08e8b0dd69254

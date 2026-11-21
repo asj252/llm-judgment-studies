@@ -1,0 +1,156 @@
+\begin{thebibliography}{17}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Allar et~al.(2026)Allar, Berg, Kaup, and Capuano]{allar2026_negation}
+Leonie-Marie Allar, Ann-Sophie Berg, Barbara Kaup, and Francesca Capuano.
+\newblock Do large language models show negation bias? a replication of
+  beukeboom et al. (2010).
+\newblock PsyArXiv preprint, version 1, 2026.
+\newblock URL \url{https://osf.io/preprints/psyarxiv/ewdt8_v1}.
+
+\bibitem[Bai et~al.(2025)Bai, Wang, Sucholutsky, and
+  Griffiths]{bai2025_implicit_bias}
+Xuechunzi Bai, Angelina Wang, Ilia Sucholutsky, and Thomas~L. Griffiths.
+\newblock Explicitly unbiased large language models still form biased
+  associations.
+\newblock \emph{Proceedings of the National Academy of Sciences (PNAS)}, 2025.
+\newblock \doi{10.1073/pnas.2416228122}.
+
+\bibitem[Chapala et~al.(2025)Chapala, Mironov, and
+  Deng]{chapala2025_sdb_perspective_collision}
+Sashank Chapala, Maksym Mironov, and Songgaojun Deng.
+\newblock Mitigating social desirability bias in random silicon sampling.
+\newblock \emph{Transactions on Machine Learning Research (TMLR);
+  arXiv:2512.22725v2}, 2025.
+\newblock \doi{10.48550/arxiv.2512.22725}.
+
+\bibitem[Chen et~al.(2020)Chen, Jiang, Poliak, Sakaguchi, and
+  Van~Durme]{chen2020uncertain}
+Tongfei Chen, Zhengping Jiang, Adam Poliak, Keisuke Sakaguchi, and Benjamin
+  Van~Durme.
+\newblock Uncertain natural language inference.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association
+  for Computational Linguistics}, pages 8772--8779, Online, 2020. Association
+  for Computational Linguistics.
+\newblock \doi{10.18653/v1/2020.acl-main.774}.
+\newblock URL \url{https://aclanthology.org/2020.acl-main.774/}.
+
+\bibitem[Devine(1989)]{devine1989_cultural_vs_personal}
+Patricia~G. Devine.
+\newblock Stereotypes and prejudice: Their automatic and controlled components.
+\newblock \emph{Journal of Personality and Social Psychology (Vol. 56, No. 1,
+  pp. 5–18)}, 1989.
+\newblock \doi{10.1037/0022-3514.56.1.5}.
+
+\bibitem[Fiske and Neuberg(1990)]{fiske1990_individuation_continuum}
+Susan~T. Fiske and Steven~L. Neuberg.
+\newblock A continuum of impression formation, from category-based to
+  individuating processes: Influences of information and motivation on
+  attention and interpretation.
+\newblock \emph{Advances in Experimental Social Psychology (Vol. 23)}, 1990.
+\newblock \doi{10.1016/s0065-2601(08)60317-2}.
+
+\bibitem[Fiske et~al.(2002)Fiske, Cuddy, Glick, and Xu]{fiske2002_scm}
+Susan~T. Fiske, Amy J.~C. Cuddy, Peter Glick, and Jun Xu.
+\newblock A model of (often mixed) stereotype content: Competence and warmth
+  respectively follow from perceived status and competition.
+\newblock \emph{Journal of Personality and Social Psychology}, 2002.
+\newblock \doi{10.1037/0022-3514.82.6.878}.
+
+\bibitem[Han and Yuan(2026)]{han2026_bookmark}
+Kyung (Chris)~T. Han and Ye~Yuan.
+\newblock A bookmark-style placement framework for {LLM}-based item difficulty
+  prediction.
+\newblock PsyArXiv preprint, version 1, 2026.
+\newblock URL \url{https://osf.io/preprints/psyarxiv/t3pxk_v1}.
+
+\bibitem[Kraisingkorn et~al.(2026)Kraisingkorn, Pachtrachai, and
+  Modecrua]{scored_vs_generated2026_readouts}
+Touchapon Kraisingkorn, Krittin Pachtrachai, and Wachiravit Modecrua.
+\newblock Scored vs. generated readouts in behavioral language models: An
+  empirical study of elicitation format.
+\newblock \emph{arXiv 2026 (arXiv:2609.09882v1, ARAC)}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2609.09882}.
+
+\bibitem[Kunda and Oleson(1995)]{kunda1995_subtyping}
+Ziva Kunda and Kathryn~C. Oleson.
+\newblock Maintaining stereotypes in the face of disconfirmation: Constructing
+  grounds for subtyping deviants.
+\newblock \emph{Journal of Personality and Social Psychology}, 1995.
+\newblock \doi{10.1037/0022-3514.68.4.565}.
+
+\bibitem[Parrish et~al.(2022)Parrish, Chen, Nangia, Padmakumar, Phang,
+  Thompson, Htut, and Bowman]{parrish2022_bbq}
+Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang,
+  Jana Thompson, Phu~Mon Htut, and Samuel~R. Bowman.
+\newblock Bbq: A hand-built bias benchmark for question answering.
+\newblock \emph{Findings of the Association for Computational Linguistics: ACL
+  2022}, 2022.
+\newblock \doi{10.18653/v1/2022.findings-acl.165}.
+
+\bibitem[Rudinger et~al.(2020)Rudinger, Shwartz, Hwang, Bhagavatula, Forbes,
+  Le~Bras, Smith, and Choi]{rudinger2020thinking}
+Rachel Rudinger, Vered Shwartz, Jena~D. Hwang, Chandra Bhagavatula, Maxwell
+  Forbes, Ronan Le~Bras, Noah~A. Smith, and Yejin Choi.
+\newblock Thinking like a skeptic: Defeasible inference in natural language.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2020}, pages 4661--4675, Online, 2020. Association for Computational
+  Linguistics.
+\newblock \doi{10.18653/v1/2020.findings-emnlp.418}.
+\newblock URL \url{https://aclanthology.org/2020.findings-emnlp.418/}.
+
+\bibitem[Tamkin et~al.(2023)Tamkin, Askell, Lovitt, Durmus, Joseph, Kravec,
+  Nguyen, Kaplan, and Ganguli]{tamkin2023_discrim_eval}
+Alex Tamkin, Amanda Askell, Liane Lovitt, Esin Durmus, Nicholas Joseph, Shauna
+  Kravec, Karina Nguyen, Jared Kaplan, and Deep Ganguli.
+\newblock Evaluating and mitigating discrimination in language model decisions.
+\newblock \emph{arXiv (Anthropic; arXiv:2312.03689)}, 2023.
+\newblock \doi{10.48550/arxiv.2312.03689}.
+
+\bibitem[Tian et~al.(2023)Tian, Mitchell, Zhou, Sharma, Rafailov, Yao, Finn,
+  and Manning]{tian2023just}
+Katherine Tian, Eric Mitchell, Allan Zhou, Archit Sharma, Rafael Rafailov,
+  Huaxiu Yao, Chelsea Finn, and Christopher Manning.
+\newblock Just ask for calibration: Strategies for eliciting calibrated
+  confidence scores from language models fine-tuned with human feedback.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, pages 5433--5442, Singapore, 2023. Association
+  for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.emnlp-main.330}.
+\newblock URL \url{https://aclanthology.org/2023.emnlp-main.330/}.
+
+\bibitem[Wilie et~al.(2024)Wilie, Cahyawijaya, Ishii, He, and
+  Fung]{wilie2024belief}
+Bryan Wilie, Samuel Cahyawijaya, Etsuko Ishii, Junxian He, and Pascale Fung.
+\newblock Belief revision: The adaptability of large language models reasoning.
+\newblock In \emph{Proceedings of the 2024 Conference on Empirical Methods in
+  Natural Language Processing}, pages 10480--10496, Miami, Florida, USA, 2024.
+  Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.emnlp-main.586}.
+\newblock URL \url{https://aclanthology.org/2024.emnlp-main.586/}.
+
+\bibitem[Xiong et~al.(2024)Xiong, Hu, Lu, Li, Fu, He, and Hooi]{xiong2024llms}
+Miao Xiong, Zhiyuan Hu, Xinyang Lu, Yifei Li, Jie Fu, Junxian He, and Bryan
+  Hooi.
+\newblock Can {LLM}s express their uncertainty? an empirical evaluation of
+  confidence elicitation in {LLM}s.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2024.
+\newblock URL \url{https://iclr.cc/virtual/2024/poster/18135}.
+\newblock ICLR 2024 (arXiv comment and ICLR site). Page numbers not given.
+
+\bibitem[Zhang et~al.(2026)Zhang, Yu, Chong, Sicilia, Tomz, Manning, and
+  Shi]{verbalized_sampling_core}
+Jiayi Zhang, Simon Yu, Derek Chong, Anthony Sicilia, Michael~R. Tomz,
+  Christopher~D. Manning, and Weiyan Shi.
+\newblock Verbalized sampling: How to mitigate mode collapse and unlock llm
+  diversity.
+\newblock \emph{ICML 2026 Poster (arXiv:2510.01171, v1 2025-10-01 / v4
+  2026-07-15)}, 2026.
+\newblock \doi{10.48550/arXiv.2510.01171}.
+
+\end{thebibliography}

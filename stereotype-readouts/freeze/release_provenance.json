@@ -1,0 +1,71 @@
+{
+  "artifact_type": "release_derived_provenance",
+  "ssrn_abstract_id": "7736298",
+  "source_commit": "31ab527a",
+  "stimuli_sha256": "20c41933791256bc0165cfd150d44e730587ceaf8a5c29257189fae26ddb7d67",
+  "raw_formal_11_files_sha256": {
+    "sf_qwen3-8b_s100.jsonl": "3144f97cbce6accd11760e019961220c9edf8d5edc76dcf1d8fef891ae0e1456",
+    "xf_spark-x2.6_s100.jsonl": "dc8a92b3662b3886861e169492518928045cf5e91f1a8aedbee94e1846217b63",
+    "nv_nemotron-3.5-super-vl-120b_s100.jsonl": "bf71984cdb92b636c49e2dacc3e92b35a71742d022836a58fcbce1d87833068e",
+    "aistudio_gemini-3.8-flash_s100.jsonl": "9dec65bc1caa196d3e96c7db19c0ddd368349a0a7476db34f02094eeb1da252d",
+    "openai_gpt-4.1-mini_s100.jsonl": "6973196bf6133852939854d11204517090938c2ed2090e95e8994055f9b2f6c1",
+    "openai_gpt-4.1_s100.jsonl": "a962e7c409f6ebf4008f44fb129929c843d94b688f177f4f72a118d0a7d2ef92",
+    "openai_gpt-4.1-mini_s100_lp.jsonl": "d08ed716504ae8e0624ff1dfe94719160480a8e403b86e21811857f0e4338d12",
+    "openai_gpt-4.1_s100_lp.jsonl": "f4dbf7fe22224f91fe9ca2d5c2f401b38cddf877b54d489d9c6d274191d2443e",
+    "openai_gpt-4.1-mini_s13.jsonl": "07eeea393afd943d74fb580b272c573c54a66274ba05e4e7b35aacb91006cf05",
+    "aistudio_gemini-3.8-flash_s13.jsonl": "f33ccfbce3d82c19daba4082f61961fc370e15831aaf37b21ecfc46f7deb5f6f",
+    "nv_nemotron-3.5-super-vl-120b_s13.jsonl": "a152e0f72dd873952fc5539207f6ce809f85cb753caa0e0bc2846a48eef9cb78"
+  },
+  "original_private_freeze_sha256": {
+    "analysis_freeze_formal.json": "cfa8dc8bfab7d496e5062fa6107bd96648389d506044a010d39c72a21856c8cc",
+    "tie_delta_summary.json": "d03f3dce006d48389326b2df9b63116b35f552fb9f33a077beccf144f6f5b028",
+    "p0_nontie_summary.json": "12011257789a84f5cffdf43eac5c53223a779b63307ee88b4fc8f7dcf11f2366",
+    "summary_eval_formal.json": "309217e644be6a5070138d2e11fa9bfb97e1a7cf9e10877cb1885e538d1b4b94",
+    "summary_formal_aux.json": "6717c8a33fd00faa0f6ec8957cc8f2fdbb75338fe00b4c05f9a13615d59f3eea"
+  },
+  "public_files": {
+    "github": {
+      "LICENSE-CODE": "8e92183c9692dba54ddde9113fb3c813c085d36623ede2f74b1e08bf19aad6d3",
+      "LICENSE-DATA": "eb63bd00c67baf1dc8f75cd76a1e1553aab86652fc3668d878c1268ac45f71b8",
+      "README.md": "486d329bd14088396f4edae05e2b5a993e343b3b8c1de9c981543af8e3bb9b24",
+      "code/evaluate_stereotype.py": "b4e500c6d09ec4f7f8c6ac5f66c9a9ca77fda473b2d5d5bb5f1373b3d998f40b",
+      "code/reproduce_paper_pdf.py": "2fccda6f4d972911514bbe61b7305272aeb01b88b9131e6a9998d9a67d4484d8",
+      "code/reproduce_tie_and_nontie.py": "bfc57d1b28221fe46a65ea1a28e33712d34c3bede2a605891dccab359d895064",
+      "code/requirements.txt": "1e37bee62ce0388089cd930f3fa7dace9204c18b8ccd867da29fcb010b123af3",
+      "paper/figures/fig1_tie_breaking.pdf": "ac4b458a9085527105952d2f9d860c1e4f91574b4ebadf7aed1146c22cb019fa",
+      "paper/figures/fig2_rq2_forest.pdf": "d8e7d54891a220f5e7ac5f62a55846c69e9d58aa8292fd484798023f40a38d0e",
+      "paper/figures/fig3_scale13_heterogeneity.pdf": "9187a5077eb8b584da6a7b5835a22c7960c402dc9b912ee4645ebcd01e28499e",
+      "paper/figures/fig4_mid50_and_entropy.pdf": "8831b3b00c62ab846171fca72df4c8e370b02f99cb3293c90525c5c03c45f282",
+      "paper/paper.bbl": "ddccfc1681eb64f654b741a34ccf7ed0242cdeac8c6af42ab0003cf5af5b5886",
+      "paper/paper.pdf": "98eb972771da378d8d769ddfad279060fdce5f4acc070b8808d537478f882f40",
+      "paper/paper.tex": "e193f25336e1c80560599ac777eae4186d701d466467119d9c353dc6a142eea4",
+      "paper/references.bib": "88f647556741da99b7209b20b45f4e5426c245ec6b5f6f5c2aae251d2165abbc",
+      "paper/tables_generated.tex": "24762ffe157e0e903ae91f21a263ce7c83fb51bafcc1ffbbfa6eca0c0264b85c",
+      "stimuli/formal_stimuli.json": "20c41933791256bc0165cfd150d44e730587ceaf8a5c29257189fae26ddb7d67",
+      "summaries/p0_nontie_summary.json": "12011257789a84f5cffdf43eac5c53223a779b63307ee88b4fc8f7dcf11f2366",
+      "summaries/summary_eval_formal.json": "2bec1345d09cee57e3edb5be24c51c1820454b91983be9084bba9b5b92e68df9",
+      "summaries/summary_formal_aux.json": "e3e8f2e1a266ea2c3f8bcdab0fa477775857c61e475aba9378a076918cd81dbd",
+      "summaries/tie_delta_summary.json": "d03f3dce006d48389326b2df9b63116b35f552fb9f33a077beccf144f6f5b028"
+    },
+    "hf": {
+      "README.md": "7fa2bd1151e6fcdb9aa9ee72e59be306be3302df3ffb73fab9403989cc2fe3d7",
+      "data/aistudio_gemini-3.8-flash_s100.jsonl": "9dec65bc1caa196d3e96c7db19c0ddd368349a0a7476db34f02094eeb1da252d",
+      "data/aistudio_gemini-3.8-flash_s13.jsonl": "f33ccfbce3d82c19daba4082f61961fc370e15831aaf37b21ecfc46f7deb5f6f",
+      "data/nv_nemotron-3.5-super-vl-120b_s100.jsonl": "bf71984cdb92b636c49e2dacc3e92b35a71742d022836a58fcbce1d87833068e",
+      "data/nv_nemotron-3.5-super-vl-120b_s13.jsonl": "a152e0f72dd873952fc5539207f6ce809f85cb753caa0e0bc2846a48eef9cb78",
+      "data/openai_gpt-4.1-mini_s100.jsonl": "6973196bf6133852939854d11204517090938c2ed2090e95e8994055f9b2f6c1",
+      "data/openai_gpt-4.1-mini_s100_lp.jsonl": "d08ed716504ae8e0624ff1dfe94719160480a8e403b86e21811857f0e4338d12",
+      "data/openai_gpt-4.1-mini_s13.jsonl": "07eeea393afd943d74fb580b272c573c54a66274ba05e4e7b35aacb91006cf05",
+      "data/openai_gpt-4.1_s100.jsonl": "a962e7c409f6ebf4008f44fb129929c843d94b688f177f4f72a118d0a7d2ef92",
+      "data/openai_gpt-4.1_s100_lp.jsonl": "f4dbf7fe22224f91fe9ca2d5c2f401b38cddf877b54d489d9c6d274191d2443e",
+      "data/sf_qwen3-8b_s100.jsonl": "3144f97cbce6accd11760e019961220c9edf8d5edc76dcf1d8fef891ae0e1456",
+      "data/xf_spark-x2.6_s100.jsonl": "dc8a92b3662b3886861e169492518928045cf5e91f1a8aedbee94e1846217b63",
+      "stimuli/formal_stimuli.json": "20c41933791256bc0165cfd150d44e730587ceaf8a5c29257189fae26ddb7d67",
+      "summaries/p0_nontie_summary.json": "12011257789a84f5cffdf43eac5c53223a779b63307ee88b4fc8f7dcf11f2366",
+      "summaries/summary_eval_formal.json": "2bec1345d09cee57e3edb5be24c51c1820454b91983be9084bba9b5b92e68df9",
+      "summaries/summary_formal_aux.json": "e3e8f2e1a266ea2c3f8bcdab0fa477775857c61e475aba9378a076918cd81dbd",
+      "summaries/tie_delta_summary.json": "d03f3dce006d48389326b2df9b63116b35f552fb9f33a077beccf144f6f5b028",
+      "upload_to_hf.sh": "458c56204748b4bf5099f8389911725005aefaf9b6ff77f133cc79ebab0390f1"
+    }
+  }
+}

@@ -1,0 +1,288 @@
+\subsection*{Scope and interpretation cards}
+RQ1/F3 = NA: human normative baselines were unavailable; only RQ2 families F1, F2, F4, F5 are reported.
+R midpoint proximity is highest in 4 of 6 percentage-scale verbal cohorts.
+Exceptions: Qwen3-8B R 16.58\% $<$ O 18.90\%, N 18.02\%; Spark-X2.6 R 8.51\% $<$ O 8.59\%, N 9.03\%.
+Direct-13: 24 templates, 3 models, 0.00\%--45.45\%; MCW-100: 96 templates, 6 models, 63.51\%--98.57\%; logprob\_pct: 96 templates, 2 OpenAI models, 93.33\%--100.00\%.
+These design sizes differ; rates retain each model/stance's baseline-tie denominator.
+Holm significant/total: F1: 0/264; F2: 0/132; F4: 3/264; F5: 4/352; total 7/1,012.
+All 7 significant components are p\_EQ equivalence tests; directional significance: 0.
+Halfwidth ratios concern only F1 / Model-Endorsed / Warmth / 12 pairs per cell.
+GPT-4.1-mini MCW 1.5858x and Direct 2.6819x are both $>$ 1; opposite readout directions occur only for Nemotron and Gemini.
+Tie deltas are descriptive percentage points (pp), Arm A - Arm B, with no new confirmatory tests.
+
+% TABLE cohorts
+\begin{table}[htbp]\centering\small
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{\begin{tabular}{lllllll}
+\toprule
+Model & Scale & Ch. & Records & Valid & Refused & Refusal \\
+\midrule
+Qwen3-8B & 100 & V & 5760 & 5749 & 0 & 0.00\% \\
+Spark-X2.6 & 100 & V & 5760 & 5760 & 0 & 0.00\% \\
+Nemotron-120B & 100 & V & 5760 & 5760 & 0 & 0.00\% \\
+Gemini-3.8-Flash & 100 & V & 5760 & 5760 & 0 & 0.00\% \\
+GPT-4.1-mini & 100 & V & 5760 & 5760 & 0 & 0.00\% \\
+GPT-4.1 & 100 & V & 5760 & 5760 & 0 & 0.00\% \\
+GPT-4.1-mini & 100 & LP & 2880 & 2880 & 0 & 0.00\% \\
+GPT-4.1 & 100 & LP & 2880 & 2880 & 0 & 0.00\% \\
+GPT-4.1-mini & 13 & V & 1440 & 1440 & 0 & 0.00\% \\
+Gemini-3.8-Flash & 13 & V & 1440 & 1440 & 0 & 0.00\% \\
+Nemotron-120B & 13 & V & 1440 & 1440 & 0 & 0.00\% \\
+\bottomrule\end{tabular}}
+\caption{Record counts, valid probabilities and refusals. V: verbal; LP: same-model logprob readout.}
+\label{tab:cohorts}
+\end{table}
+
+% TABLE sig
+\begin{table}[htbp]\centering\small
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{\begin{tabular}{llllllll}
+\toprule
+ID & Model & Ch. & Component & Pairs/design & Miss. & Undef. & pH \\
+\midrule
+1 & Gemini-3.8-Flash & V & F4:E:W:M & 48/48 & 0 & 0 & 0.0060 \\
+2 & GPT-4.1 & LP & F5:C:N-prior & 48/48 & 0 & 0 & 0.0240 \\
+3 & GPT-4.1-mini & LP & F4:E:W:D & 48/48 & 0 & 0 & 0.0172 \\
+4 & GPT-4.1-mini & LP & F4:B:W:D & 48/48 & 0 & 0 & 0.0060 \\
+5 & GPT-4.1-mini & LP & F5:W:N-prior & 48/48 & 0 & 0 & 0.0080 \\
+6 & GPT-4.1-mini & LP & F5:W:N-update & 48/48 & 0 & 0 & 0.0080 \\
+7 & GPT-4.1-mini & LP & F5:C:N-prior & 48/48 & 0 & 0 & 0.0080 \\
+\bottomrule\end{tabular}}
+\caption{All Holm-significant components. IDs link to the effect table. E/B: endorsed/bystander; W/C: warmth/competence; D/M: Direct/MCW. All are local equivalence components, not full family findings.}
+\label{tab:sig}
+\end{table}
+
+% TABLE effects
+\begin{table}[htbp]\centering\small
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{\begin{tabular}{lllllll}
+\toprule
+ID & Model & Family & Estimate & CI lower & CI upper & Records \\
+\midrule
+1 & Gemini-3.8-Flash & F4 & -0.0121 & -0.0877 & 0.0651 & 5760 \\
+2 & GPT-4.1 & F5 & 0.0111 & -0.0898 & 0.1140 & 2880 \\
+3 & GPT-4.1-mini & F4 & 0.0600 & -0.0157 & 0.1455 & 2880 \\
+4 & GPT-4.1-mini & F4 & 0.0046 & -0.0802 & 0.0804 & 2880 \\
+5 & GPT-4.1-mini & F5 & 0.0133 & -0.0531 & 0.0866 & 2880 \\
+6 & GPT-4.1-mini & F5 & -0.0368 & -0.1192 & 0.0568 & 2880 \\
+7 & GPT-4.1-mini & F5 & -0.0301 & -0.1107 & 0.0486 & 2880 \\
+\bottomrule\end{tabular}}
+\caption{Studentized 95 percent confidence intervals for the component IDs above; equivalence is relative to the frozen logit band, never exact zero.}
+\label{tab:effects}
+\end{table}
+
+% TABLE ties
+\begin{table}[htbp]\centering\small
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{\begin{tabular}{lllllll}
+\toprule
+Model & Stance & Target & Design & Broken/base & Miss. & Rate \\
+\midrule
+Gemini-3.8-Flash & E & MCW-100 & 96 & 46/47 & 0 & 97.87\% \\
+Gemini-3.8-Flash & E & Direct-13 & 24 & 3/10 & 0 & 30.00\% \\
+Gemini-3.8-Flash & B & MCW-100 & 96 & 43/45 & 0 & 95.56\% \\
+Gemini-3.8-Flash & B & Direct-13 & 24 & 5/11 & 0 & 45.45\% \\
+Nemotron-120B & E & MCW-100 & 96 & 56/82 & 0 & 68.29\% \\
+Nemotron-120B & E & Direct-13 & 24 & 3/20 & 0 & 15.00\% \\
+Nemotron-120B & B & MCW-100 & 96 & 67/96 & 0 & 69.79\% \\
+Nemotron-120B & B & Direct-13 & 24 & 0/24 & 0 & 0.00\% \\
+GPT-4.1 & E & MCW-100 & 96 & 40/45 & 0 & 88.89\% \\
+GPT-4.1 & E & LP & 96 & 42/45 & 0 & 93.33\% \\
+GPT-4.1 & B & MCW-100 & 96 & 34/40 & 0 & 85.00\% \\
+GPT-4.1 & B & LP & 96 & 40/40 & 0 & 100.00\% \\
+GPT-4.1-mini & E & MCW-100 & 96 & 45/56 & 0 & 80.36\% \\
+GPT-4.1-mini & E & Direct-13 & 24 & 2/15 & 0 & 13.33\% \\
+GPT-4.1-mini & E & LP & 96 & 56/56 & 0 & 100.00\% \\
+GPT-4.1-mini & B & MCW-100 & 96 & 37/43 & 0 & 86.05\% \\
+GPT-4.1-mini & B & Direct-13 & 24 & 2/14 & 0 & 14.29\% \\
+GPT-4.1-mini & B & LP & 96 & 43/43 & 0 & 100.00\% \\
+Qwen3-8B & E & MCW-100 & 96 & 49/77 & 1 & 63.64\% \\
+Qwen3-8B & B & MCW-100 & 96 & 47/74 & 1 & 63.51\% \\
+Spark-X2.6 & E & MCW-100 & 96 & 63/66 & 0 & 95.45\% \\
+Spark-X2.6 & B & MCW-100 & 96 & 69/70 & 0 & 98.57\% \\
+\bottomrule\end{tabular}}
+\caption{All Direct-100 prior-tie comparisons. Missing target pairs are excluded from broken counts, while the frozen baseline-tie denominator is retained. Qwen has one missing target pair in each stance. Direct-13 uses only the registered intersection.}
+\label{tab:ties}
+\end{table}
+
+% TABLE mid0
+\begin{table}[htbp]\centering\small
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{\begin{tabular}{lllllllll}
+\toprule
+Model & Scale & Ch. & Str. & Records & Valid & Mid & Rate & Refused \\
+\midrule
+Qwen3-8B & 100 & V & O & 1152 & 1148 & 217 & 18.90\% & 0 \\
+Qwen3-8B & 100 & V & G & 1152 & 1151 & 181 & 15.73\% & 0 \\
+Qwen3-8B & 100 & V & R & 1152 & 1152 & 191 & 16.58\% & 0 \\
+Qwen3-8B & 100 & V & N & 2304 & 2298 & 414 & 18.02\% & 0 \\
+Spark-X2.6 & 100 & V & O & 1152 & 1152 & 99 & 8.59\% & 0 \\
+Spark-X2.6 & 100 & V & G & 1152 & 1152 & 84 & 7.29\% & 0 \\
+Spark-X2.6 & 100 & V & R & 1152 & 1152 & 98 & 8.51\% & 0 \\
+Spark-X2.6 & 100 & V & N & 2304 & 2304 & 208 & 9.03\% & 0 \\
+Nemotron-120B & 100 & V & O & 1152 & 1152 & 127 & 11.02\% & 0 \\
+Nemotron-120B & 100 & V & G & 1152 & 1152 & 109 & 9.46\% & 0 \\
+Nemotron-120B & 100 & V & R & 1152 & 1152 & 131 & 11.37\% & 0 \\
+Nemotron-120B & 100 & V & N & 2304 & 2304 & 232 & 10.07\% & 0 \\
+Gemini-3.8-Flash & 100 & V & O & 1152 & 1152 & 73 & 6.34\% & 0 \\
+Gemini-3.8-Flash & 100 & V & G & 1152 & 1152 & 80 & 6.94\% & 0 \\
+Gemini-3.8-Flash & 100 & V & R & 1152 & 1152 & 131 & 11.37\% & 0 \\
+Gemini-3.8-Flash & 100 & V & N & 2304 & 2304 & 160 & 6.94\% & 0 \\
+GPT-4.1-mini & 100 & V & O & 1152 & 1152 & 104 & 9.03\% & 0 \\
+GPT-4.1-mini & 100 & V & G & 1152 & 1152 & 94 & 8.16\% & 0 \\
+GPT-4.1-mini & 100 & V & R & 1152 & 1152 & 136 & 11.81\% & 0 \\
+GPT-4.1-mini & 100 & V & N & 2304 & 2304 & 206 & 8.94\% & 0 \\
+GPT-4.1 & 100 & V & O & 1152 & 1152 & 62 & 5.38\% & 0 \\
+GPT-4.1 & 100 & V & G & 1152 & 1152 & 67 & 5.82\% & 0 \\
+GPT-4.1 & 100 & V & R & 1152 & 1152 & 112 & 9.72\% & 0 \\
+GPT-4.1 & 100 & V & N & 2304 & 2304 & 124 & 5.38\% & 0 \\
+\bottomrule\end{tabular}}
+\caption{Midpoint proximity by occupation O, gender G, race by gender R and neutral N; rate denominator is valid probabilities. Refusal denominator is all records. Descriptive, not a bias test.}
+\label{tab:mid0}
+\end{table}
+
+% TABLE mid1
+\begin{table}[htbp]\centering\small
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{\begin{tabular}{lllllllll}
+\toprule
+Model & Scale & Ch. & Str. & Records & Valid & Mid & Rate & Refused \\
+\midrule
+GPT-4.1-mini & 100 & LP & O & 576 & 576 & 1 & 0.17\% & 0 \\
+GPT-4.1-mini & 100 & LP & G & 576 & 576 & 4 & 0.69\% & 0 \\
+GPT-4.1-mini & 100 & LP & R & 576 & 576 & 14 & 2.43\% & 0 \\
+GPT-4.1-mini & 100 & LP & N & 1152 & 1152 & 11 & 0.95\% & 0 \\
+GPT-4.1 & 100 & LP & O & 576 & 576 & 10 & 1.74\% & 0 \\
+GPT-4.1 & 100 & LP & G & 576 & 576 & 5 & 0.87\% & 0 \\
+GPT-4.1 & 100 & LP & R & 576 & 576 & 35 & 6.08\% & 0 \\
+GPT-4.1 & 100 & LP & N & 1152 & 1152 & 14 & 1.22\% & 0 \\
+GPT-4.1-mini & 13 & V & O & 288 & 288 & 5 & 1.74\% & 0 \\
+GPT-4.1-mini & 13 & V & G & 288 & 288 & 4 & 1.39\% & 0 \\
+GPT-4.1-mini & 13 & V & R & 288 & 288 & 2 & 0.69\% & 0 \\
+GPT-4.1-mini & 13 & V & N & 576 & 576 & 5 & 0.87\% & 0 \\
+Gemini-3.8-Flash & 13 & V & O & 288 & 288 & 2 & 0.69\% & 0 \\
+Gemini-3.8-Flash & 13 & V & G & 288 & 288 & 3 & 1.04\% & 0 \\
+Gemini-3.8-Flash & 13 & V & R & 288 & 288 & 3 & 1.04\% & 0 \\
+Gemini-3.8-Flash & 13 & V & N & 576 & 576 & 8 & 1.39\% & 0 \\
+Nemotron-120B & 13 & V & O & 288 & 288 & 1 & 0.35\% & 0 \\
+Nemotron-120B & 13 & V & G & 288 & 288 & 0 & 0.00\% & 0 \\
+Nemotron-120B & 13 & V & R & 288 & 288 & 1 & 0.35\% & 0 \\
+Nemotron-120B & 13 & V & N & 576 & 576 & 0 & 0.00\% & 0 \\
+\bottomrule\end{tabular}}
+\caption{Midpoint proximity by occupation O, gender G, race by gender R and neutral N; rate denominator is valid probabilities. Refusal denominator is all records. Descriptive, not a bias test.}
+\label{tab:mid1}
+\end{table}
+
+% TABLE scale
+\begin{table}[htbp]\centering\small
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{\begin{tabular}{llllllll}
+\toprule
+Model & Readout & Pairs 13/100 & Miss. 13/100 & HW13 & HW100 & Ratio & Tie 13/100 \\
+\midrule
+Gemini-3.8-Flash & MCW & 12/12 & 0/0 & 0.3116 & 0.2976 & 1.0470 & 50.00\%/41.67\% \\
+Gemini-3.8-Flash & Direct & 12/12 & 0/0 & 0.6332 & 0.6813 & 0.9295 & 50.00\%/41.67\% \\
+Nemotron-120B & MCW & 12/12 & 0/0 & 0.7142 & 0.9981 & 0.7155 & 83.33\%/83.33\% \\
+Nemotron-120B & Direct & 12/12 & 0/0 & 2.2830 & 2.0937 & 1.0904 & 83.33\%/83.33\% \\
+GPT-4.1-mini & MCW & 12/12 & 0/0 & 0.8999 & 0.5675 & 1.5858 & 83.33\%/66.67\% \\
+GPT-4.1-mini & Direct & 12/12 & 0/0 & 1.8176 & 0.6777 & 2.6819 & 83.33\%/66.67\% \\
+\bottomrule\end{tabular}}
+\caption{Registered-intersection F1 Model-Endorsed warmth: all six readout-specific halfwidth ratios and exact prior tie rates. A ratio below one means a narrower interval, not better calibration.}
+\label{tab:scale}
+\end{table}
+
+% TABLE entropy
+\begin{table}[htbp]\centering\small
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{\begin{tabular}{lllll}
+\toprule
+Model & Diagnostic & Value / pairs & Statistic & Value \\
+\midrule
+GPT-4.1 & Mass $\ge$ 0.80 & 2880/2880 & Minimum & 0.8613 \\
+GPT-4.1 & Numeric mass mean & 0.9988 & Median & 1.0000 \\
+GPT-4.1 & H num mean & 1.4927 & Median & 1.4104 \\
+GPT-4.1 & Direct-100 & 2880 & Pearson / Spearman & 0.6565 / 0.6892 \\
+GPT-4.1 & MCW-100\_weighted\_sd & 2880 & Pearson / Spearman & 0.4316 / 0.4639 \\
+GPT-4.1-mini & Mass $\ge$ 0.80 & 2880/2880 & Minimum & 0.9710 \\
+GPT-4.1-mini & Numeric mass mean & 0.9998 & Median & 1.0000 \\
+GPT-4.1-mini & H num mean & 1.1026 & Median & 0.9761 \\
+GPT-4.1-mini & Direct-100 & 2880 & Pearson / Spearman & -0.1436 / -0.0724 \\
+GPT-4.1-mini & MCW-100\_weighted\_sd & 2880 & Pearson / Spearman & 0.2232 / 0.1961 \\
+\bottomrule\end{tabular}}
+\caption{First numeric-token candidate entropy in bits, restricted to returned numeric candidates. Correlations are paired within model with Direct-100 and MCW-100 weighted dispersion. Associations are exploratory, not causal or calibrated confidence.}
+\label{tab:entropy}
+\end{table}
+
+% TABLE families
+\begin{table}[htbp]\centering\small
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{\begin{tabular}{lll}
+\toprule
+Family & Significant & Total \\
+\midrule
+F1 & 0 & 264 \\
+F2 & 0 & 132 \\
+F4 & 3 & 264 \\
+F5 & 4 & 352 \\
+\bottomrule\end{tabular}}
+\caption{All seven significant components are local equivalence tests; zero directional tests are significant. RQ1/F3 = NA because human norms are unavailable.}
+\label{tab:families}
+\end{table}
+
+% TABLE delta_MCW100
+\begin{table}[htbp]\centering\small
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{\begin{tabular}{lllllll}
+\toprule
+Model & Stance & T/V/B & Abs mean & Abs median & Signed mean & 95\% boot CI \\
+\midrule
+Gemini-3.8-Flash & E & 47/47/46 & 4.027 & 2.775 & -1.188 & -3.066, 0.554 \\
+Gemini-3.8-Flash & B & 45/45/43 & 6.850 & 6.000 & -0.023 & -2.703, 2.615 \\
+Nemotron-120B & E & 82/82/56 & 16.188 & 11.750 & 1.664 & -1.942, 5.156 \\
+Nemotron-120B & B & 96/96/67 & 18.908 & 12.350 & 1.730 & -2.483, 5.897 \\
+GPT-4.1 & E & 45/45/40 & 5.950 & 4.475 & 0.169 & -1.939, 2.290 \\
+GPT-4.1 & B & 40/40/34 & 9.907 & 10.625 & -0.159 & -3.689, 3.262 \\
+GPT-4.1-mini & E & 56/56/45 & 8.480 & 6.750 & 0.127 & -2.248, 2.635 \\
+GPT-4.1-mini & B & 43/43/37 & 9.773 & 9.000 & 0.393 & -2.806, 3.747 \\
+Qwen3-8B & E & 77/76/49 & 15.816 & 13.000 & 0.356 & -3.053, 3.926 \\
+Qwen3-8B & B & 74/73/47 & 16.566 & 14.750 & -0.425 & -4.169, 3.469 \\
+Spark-X2.6 & E & 66/66/63 & 11.474 & 5.100 & 2.272 & -1.756, 6.388 \\
+Spark-X2.6 & B & 70/70/69 & 10.594 & 3.950 & 0.609 & -3.674, 4.996 \\
+\bottomrule\end{tabular}}
+\caption{MCW-100: absolute $|P_A-P_B|$ among broken ties; signed $P_A-P_B$ among all valid ties, in pp. T/V/B: tied/valid/broken; E/B: endorsed/bystander. Empty broken subsets render as --. Percentile bootstrap B=4000, seed=20261115; descriptive only.}
+\label{tab:delta_MCW100}
+\end{table}
+
+% TABLE delta_Direct13
+\begin{table}[htbp]\centering\small
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{\begin{tabular}{lllllll}
+\toprule
+Model & Stance & T/V/B & Abs mean & Abs median & Signed mean & 95\% boot CI \\
+\midrule
+Gemini-3.8-Flash & E & 10/10/3 & 7.692 & 7.692 & 0.769 & -1.538, 3.077 \\
+Gemini-3.8-Flash & B & 11/11/5 & 10.769 & 7.692 & -3.497 & -8.392, 0.699 \\
+Nemotron-120B & E & 20/20/3 & 20.513 & 7.692 & 2.308 & -0.769, 7.308 \\
+Nemotron-120B & B & 24/24/0 & -- & -- & 0.000 & 0.000, 0.000 \\
+GPT-4.1-mini & E & 15/15/2 & 26.923 & 26.923 & -3.590 & -10.256, 0.000 \\
+GPT-4.1-mini & B & 14/14/2 & 46.154 & 46.154 & 6.593 & 0.000, 16.484 \\
+\bottomrule\end{tabular}}
+\caption{Direct-13: absolute $|P_A-P_B|$ among broken ties; signed $P_A-P_B$ among all valid ties, in pp. T/V/B: tied/valid/broken; E/B: endorsed/bystander. Empty broken subsets render as --. Percentile bootstrap B=4000, seed=20261115; descriptive only.}
+\label{tab:delta_Direct13}
+\end{table}
+
+% TABLE delta_logprobpct
+\begin{table}[htbp]\centering\small
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{\begin{tabular}{lllllll}
+\toprule
+Model & Stance & T/V/B & Abs mean & Abs median & Signed mean & 95\% boot CI \\
+\midrule
+GPT-4.1 & E & 45/45/42 & 4.064 & 2.184 & 0.319 & -1.503, 2.700 \\
+GPT-4.1 & B & 40/40/40 & 4.228 & 1.799 & -1.623 & -3.904, 0.407 \\
+GPT-4.1-mini & E & 56/56/56 & 3.359 & 1.821 & -0.168 & -1.706, 1.264 \\
+GPT-4.1-mini & B & 43/43/43 & 4.814 & 2.215 & -1.487 & -3.796, 0.581 \\
+\bottomrule\end{tabular}}
+\caption{logprob\_pct: absolute $|P_A-P_B|$ among broken ties; signed $P_A-P_B$ among all valid ties, in pp. T/V/B: tied/valid/broken; E/B: endorsed/bystander. Empty broken subsets render as --. Percentile bootstrap B=4000, seed=20261115; descriptive only.}
+\label{tab:delta_logprobpct}
+\end{table}

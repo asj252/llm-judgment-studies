@@ -1,0 +1,2 @@
+# Python 3.11+ standard library only; no pip dependencies.
+# Optional: TeX Live (pdflatex, bibtex) for PDF reproduction.
